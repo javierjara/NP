@@ -183,9 +183,16 @@ defined('PHPFOX') or exit('NO DICE!');
 				</div>
 				{/if}				
 				
-				<div class="activity_feed_form_button_position_button">
-					<input type="submit" value="{phrase var='feed.share'}"  id="activity_feed_submit" class="button" />
-				</div>				
+                                <div class="activity_feed_form_button_position_button submit_button_form_ex">
+                                    <span class="ex_button_arrow"></span>
+                                    <input type="submit" value="Ex"  id="activity_feed_submit_prova" class="button" />
+				</div>					
+
+                                <div class="activity_feed_form_button_position_button submit_button_form_next">
+                                    <input type="submit" value="Next"  id="activity_feed_submit_prova" class="button" />
+                                    <span class="next_button_arrow"></span>
+				</div>
+                                
 				{if isset($aFeedCallback.module)}
 				{else}
 				{if !isset($bFeedIsParentItem) && (!defined('PHPFOX_IS_USER_PROFILE') || (defined('PHPFOX_IS_USER_PROFILE') && isset($aUser.user_id) && $aUser.user_id == Phpfox::getUserId()))}

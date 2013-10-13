@@ -42,7 +42,9 @@ class Feed_Component_Ajax_Ajax extends Phpfox_Ajax
 	
 	public function share()
 	{
-		$aPost = $this->get('val');		
+		$aPost = $this->get('val');
+                
+                echo 'PROVA '.$aPost;
 		
 		if ($aPost['post_type'] == '2')
 		{

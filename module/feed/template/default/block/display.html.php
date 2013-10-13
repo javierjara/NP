@@ -156,7 +156,7 @@ defined('PHPFOX') or exit('NO DICE!');
 					{unset var=$bHasRecentShow}
 				{/if}
 		
-				<div class="js_feed_view_more_entry_holder">
+				<div class="js_feed_view_more_entry_holder post_type_{$aFeed.type_ex_next}">
 					{template file='feed.block.entry'}
 					{if isset($aFeed.more_feed_rows) && is_array($aFeed.more_feed_rows) && count($aFeed.more_feed_rows)}
 						{foreach from=$aFeed.more_feed_rows item=aFeed}
