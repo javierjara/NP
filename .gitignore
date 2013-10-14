@@ -17,3 +17,7 @@ Icon
 # Ignoro la cache
 
 file/cache/
+
+# Ignoro i file generati da Netbeans
+
+nbproject/

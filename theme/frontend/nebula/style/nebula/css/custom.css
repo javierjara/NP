@@ -1821,3 +1821,9 @@ div#nb_main_menu ul li a.menu_is_selected {
 div#nb_main_menu ul li a.menu_is_selected:hover {
     background-color: #52C921
 }
+
+a {
+    -webkit-transition: all 0.50s ease;
+    -moz-transition: all 0.50s ease;
+    -o-transition: all 0.50s ease;
+}
