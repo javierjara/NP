@@ -236,12 +236,11 @@ defined('PHPFOX') or exit('NO DICE!');
 		</div>
 		{if isset($aUser.page_user_id)}
 			<div id="right">
-				{module name='feed.time'}
-				{foreach from=$aLoadBlocks item=sBlock}
-					{module name=$sBlock}
-				{/foreach}
-                                <div id="eventCalendarHumanDate"></div>
-            
+                            <div id="eventCalendarHumanDate"></div>
+                            {module name='feed.time'}
+                            {foreach from=$aLoadBlocks item=sBlock}
+                                    {module name=$sBlock}
+                            {/foreach}
 			</div>
 		{/if}
 	{/if}

@@ -833,6 +833,7 @@ function pufFeedFormSubmit(ev, el) {
 //        }
 
         if ($('#global_attachment_photo_file_input').val()!=="") {
+            $('#global_attachment_status textarea').val($('.activity_feed_form_button_status_info textarea').val());
             return true;
         }
 
@@ -1030,7 +1031,7 @@ function addCategories() {
 }
 
 $(document).ready(function() {
-    if(typeof $("#eventCalendarHumanDate").eventCalendar !== "undefined" && $("#eventCalendarHumanDate").html()!=="") {
+    if(typeof $("#eventCalendarHumanDate").eventCalendar !== "undefined" && $("#eventCalendarHumanDate").html()==="") {
         $("#eventCalendarHumanDate").eventCalendar({
                 eventsjson: 'eventCalendar_v054/json/keithjson.json',
                 jsonDateFormat: 'human'  // 'YYYY-MM-DD HH:MM:SS'
@@ -1038,3 +1039,20 @@ $(document).ready(function() {
     }
         
 });
+
+function imgUrlOnChange(el) {
+    if($(el).val()!=="") {
+
+        if (el.files && el.files[0]) {
+            var reader = new FileReader();
+            
+            reader.onload = function (e) {
+                  $('#img_picker').css('background-image', 'url("'+e.target.result+'")');
+            }
+            
+            reader.readAsDataURL(el.files[0]);
+        }
+    } else {
+        $('#img_picker').css('background-image', 'url("http://localhost/nextplease.dev/static/image/misc/camera.jpg")');
+    }
+}

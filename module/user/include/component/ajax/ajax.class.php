@@ -213,7 +213,7 @@ class User_Component_Ajax_Ajax extends Phpfox_Ajax
                         
                         
                         Phpfox::getService('feed')->processAjax($iId, $aVals['np_post_type'], $aVals['np_post_category']);	
-			//Phpfox::getService('feed')->processAjax($iId);		
+			//Phpfox::getService('feed')->processAjax($iId);
 		}
 		else 
 		{

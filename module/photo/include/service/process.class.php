@@ -21,6 +21,7 @@ class Photo_Service_Process extends Phpfox_Service
     public function __construct()
     {
 		$this->_sTable = Phpfox::getT('photo');
+                $this->_Description = "";
     }
 
 	public function makeProfilePicture($iId)
@@ -252,6 +253,7 @@ class Photo_Service_Process extends Phpfox_Service
 				}					
 			}
 
+                        $this->database()->update(Phpfox::getT('photo_info'), array('description' => $this->_Description), 'photo_id = '. (int) $iId);
 		}
 		else
 		{
@@ -304,6 +306,8 @@ class Photo_Service_Process extends Phpfox_Service
 		    // Insert the data into the database.
 		    $iId = $this->database()->process($aFields, $aVals)->insert($this->_sTable);
 	
+                    $this->_Description = $aVals['description'];
+                    
 		    // Prepare the data to enter into the photo_info table
 		    $aInfo = array(
 			    'photo_id' => $iId,
@@ -353,7 +357,7 @@ class Photo_Service_Process extends Phpfox_Service
 		{
 		    eval($sPlugin);
 		}
-
+                
 		// Return the photo ID#
 		return $iId;
     }
