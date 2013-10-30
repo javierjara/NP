@@ -21,6 +21,7 @@ class Photo_Component_Controller_Frame extends Phpfox_Component
 	 */
 	public function process()
 	{
+            
 		// We only allow users the ability to upload images.
 		if (!Phpfox::isUser())
 		{		
@@ -119,6 +120,7 @@ class Photo_Component_Controller_Frame extends Phpfox_Component
 		$oFile = Phpfox::getLib('file');
 		$oImage = Phpfox::getLib('image');
 		$aVals = $this->request()->get('val');
+                
 		if (defined('PHPFOX_HTML5_PHOTO_UPLOAD'))
 		{
 			$aParts = explode('&', $_SERVER['HTTP_X_POST_FORM']);
@@ -160,6 +162,8 @@ class Photo_Component_Controller_Frame extends Phpfox_Component
 			$aVals['description'] = $_REQUEST['status_info'];
 		}
 		
+                $aVals['description'] = $aVals['user_status'];
+                
 		foreach ($_FILES['image']['error'] as $iKey => $sError)
 		{	
 			if ($sError == UPLOAD_ERR_OK) 
@@ -174,7 +178,7 @@ class Photo_Component_Controller_Frame extends Phpfox_Component
 				{					
 					if (isset($aVals['action']) && $aVals['action'] == 'upload_photo_via_share')
 					{
-						$aVals['description'] = (isset($aVals['is_cover_photo']) ? null : $aVals['status_info']);
+						$aVals['description'] = (isset($aVals['is_cover_photo']) ? null : $aVals['user_status']);
 						$aVals['type_id'] = (isset($aVals['is_cover_photo']) ? '2' : '1');
 					}	
 					
@@ -338,11 +342,16 @@ class Photo_Component_Controller_Frame extends Phpfox_Component
 					echo 'window.parent.';
 				}
 
-				echo '$.ajaxCall(\'photo.process\', \''. ((isset($aVals['page_id']) && !empty($aVals['page_id'])) ? 'is_page=1&' : '') .'js_disable_ajax_restart=true' . $sExtra . '&twitter_connection=' . ((isset($aVals['connection']) && isset($aVals['connection']['twitter'])) ? $aVals['connection']['twitter'] : '0') . '&facebook_connection=' . (isset($aVals['connection']['facebook']) ? $aVals['connection']['facebook'] : '0') . '&custom_pages_post_as_page=' . $this->request()->get('custom_pages_post_as_page') . '&photos=' . urlencode(json_encode($aImages)) . '&action=' . $sAction . '' . (isset($iFeedId) ? '&feed_id=' . $iFeedId : '') . '' . ($aCallback !== null ? '&callback_module=' . $aCallback['module'] . '&callback_item_id=' . $aCallback['item_id'] : '') . '&parent_user_id=' . (isset($aVals['parent_user_id']) ? (int) $aVals['parent_user_id'] : 0) . '&is_cover_photo=' . (isset($aVals['is_cover_photo']) ? '1' : '0') . ((isset($aVals['page_id']) && $aVals['page_id'] > 0) ? '&page_id='.$aVals['page_id'] : '') . '\');';
-				if (!defined('PHPFOX_HTML5_PHOTO_UPLOAD'))
+				echo '$.ajaxCall(\'photo.process\', \''. ((isset($aVals['page_id']) && !empty($aVals['page_id'])) ? 'is_page=1&' : '') .'js_disable_ajax_restart=true' . $sExtra . '&twitter_connection=' . ((isset($aVals['connection']) && isset($aVals['connection']['twitter'])) ? $aVals['connection']['twitter'] : '0') . '&facebook_connection=' . (isset($aVals['connection']['facebook']) ? $aVals['connection']['facebook'] : '0') . '&custom_pages_post_as_page=' . $this->request()->get('custom_pages_post_as_page') . '&photos=' . urlencode(json_encode($aImages)) . '&action=' . $sAction . '' . (isset($iFeedId) ? '&feed_id=' . $iFeedId : '') . '' . ($aCallback !== null ? '&callback_module=' . $aCallback['module'] . '&callback_item_id=' . $aCallback['item_id'] : '') . '&parent_user_id=' . (isset($aVals['parent_user_id']) ? (int) $aVals['parent_user_id'] : 0) . '&is_cover_photo=' . (isset($aVals['is_cover_photo']) ? '1' : '0') . ((isset($aVals['page_id']) && $aVals['page_id'] > 0) ? '&page_id='.$aVals['page_id'] : '') . '&np_post_type=' . $aVals['np_post_type'] . '&np_post_category=' . $aVals['np_post_category'] . '\');';
+                                
+                                echo 'window.parent.$(\'div.js_box_close a\').trigger(\'click\');';
+                                
+                                if (!defined('PHPFOX_HTML5_PHOTO_UPLOAD'))
 				{
 					echo '</script>';
 				}
+                                
+                                
 			}
 			
 			(($sPlugin = Phpfox_Plugin::get('photo.component_controller_frame_process_photos_done_javascript')) ? eval($sPlugin) : false);

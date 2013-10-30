@@ -37,11 +37,34 @@ defined('PHPFOX') or exit('NO DICE!');
 		}
 
 		{else}
-			{if !Phpfox::getService('profile')->timeline()}
+		
+                <?php
+                    /*
+                    {if !Phpfox::getService('profile')->timeline()}
 				<div id="js_main_feed_holder">
 					{template file='feed.block.form'}
 				</div>
-			{/if}
+                    {/if} 
+                    */
+                ?>
+                
+                <div class="activity_feed_form_button" style="display:block;">
+                    <div class="activity_feed_form_button_position">
+                         
+                         <div class="activity_feed_form_button_position_button submit_button_form_ex">
+                             <span class="ex_button_arrow"></span>
+                             <a id="activity_feed_popup_ex" href="#" class="button" onclick="tb_show('Ex life', $.ajaxBox('feed.popup', 'height=300&width=550')); return false;">Ex</a>
+                         </div>					
+
+                         <div class="activity_feed_form_button_position_button submit_button_form_next">
+                             <a id="activity_feed_popup_next" href="#" class="button" onclick="tb_show('Next life', $.ajaxBox('feed.popup', 'height=300&width=550')); return false;">Next</a>
+                             <span class="next_button_arrow"></span>
+                         </div>
+
+                         <div class="clear"></div>
+                     </div>
+                </div>
+                
 		{/if}
 	{/if}
 
@@ -217,6 +240,8 @@ defined('PHPFOX') or exit('NO DICE!');
 				{foreach from=$aLoadBlocks item=sBlock}
 					{module name=$sBlock}
 				{/foreach}
+                                <div id="eventCalendarHumanDate"></div>
+            
 			</div>
 		{/if}
 	{/if}

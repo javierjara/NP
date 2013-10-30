@@ -21,3 +21,5 @@ file/cache/
 # Ignoro i file generati da Netbeans
 
 nbproject/
+
+file/

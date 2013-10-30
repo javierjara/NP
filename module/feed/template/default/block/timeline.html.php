@@ -48,7 +48,10 @@ defined('PHPFOX') or exit('NO DICE!');
 		<div class="clear"></div>
 				
 	{template file='feed.block.content'}
-		
+        
+   
+  
+  
 	</div>		
 </div>
 {if !PHPFOX_IS_AJAX && is_int($phpfox.iteration.iFeed/2)}

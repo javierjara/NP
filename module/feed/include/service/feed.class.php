@@ -1153,7 +1153,7 @@ class Feed_Service_Feed extends Phpfox_Service
 		return array($iCnt, $aFeeds);
 	}
 	
-	public function processAjax($iId)
+	public function processAjax($iId, $typePost, $categoryPost)
 	{
 		$oAjax = Phpfox::getLib('ajax');
 				
@@ -1182,7 +1182,8 @@ class Feed_Service_Feed extends Phpfox_Service
 		
 		$sId = 'js_tmp_comment_' . md5('feed_' . uniqid() . Phpfox::getUserId()) . '';
 		
-		$sNewContent =  '<div id="' . $sId . '" class="js_temp_new_feed_entry js_feed_view_more_entry_holder">' . $oAjax->getContent(false) . '</div>';
+                
+		$sNewContent =  '<div id="' . $sId . '" class="js_temp_new_feed_entry js_feed_view_more_entry_holder post_type_'.$typePost.' category_'.$categoryPost.'">' . $oAjax->getContent(false) . '</div>';
 		
 		if (Phpfox::getService('profile')->timeline())
 		{
@@ -1208,6 +1209,8 @@ class Feed_Service_Feed extends Phpfox_Service
 			$oAjax->call('$Core.resetActivityFeedForm();');
 		}	
 		$oAjax->call('$Core.loadInit();');
+                
+                //$oAjax->call('alert("mammt")');
 	}
 	
 	public function getShareLinks()
@@ -1526,6 +1529,24 @@ class Feed_Service_Feed extends Phpfox_Service
 		
 		
 		return $aOut;		
+	}
+        
+        public function updateFeedType($aId, $aType) {
+            $this->database()->update(Phpfox::getT('feed'), array('type_ex_next' => $aType), 'feed_id = '. (int) $aId);
+        }
+        
+        public function updateFeedCategory($aId, $aCategory) {
+            $this->database()->update(Phpfox::getT('feed'), array('np_category' => $aCategory), 'feed_id = '. (int) $aId);
+        }
+        
+        public function updatePhotoFeedType($sType, $iItemId, $sFeedType)
+	{		
+		$this->database()->update(Phpfox::getT('feed'), array(
+				'type_ex_next' => $sFeedType
+			)//, 'type_id = \'photo\''// AND item_id = ' . (int) $iItemId
+		);
+		
+		return true;
 	}
 }
 

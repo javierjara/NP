@@ -1062,6 +1062,7 @@ class User_Service_Process extends Phpfox_Service
 				'time_stamp' => PHPFOX_TIME
 			);
 			
+                
 		if (isset($aVals['location']) && isset($aVals['location']['latlng']) && !empty($aVals['location']['latlng']))
 		{
 			$aMatch = explode(',',$aVals['location']['latlng']);

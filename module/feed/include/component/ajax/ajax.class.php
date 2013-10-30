@@ -44,9 +44,9 @@ class Feed_Component_Ajax_Ajax extends Phpfox_Ajax
 	{
 		$aPost = $this->get('val');
                 
-                echo 'PROVA '.$aPost;
-		
-		if ($aPost['post_type'] == '2')
+                print_r($aPost);
+                
+                if ($aPost['post_type'] == '2')
 		{
 			if (!isset($aPost['friends']) || (isset($aPost['friends']) && !count($aPost['friends'])))
 			{
@@ -398,6 +398,19 @@ class Feed_Component_Ajax_Ajax extends Phpfox_Ajax
 			$jPages = json_encode($aPages);
 			$this->call('$Core.Feed.storePlaces(\'' . $jPages .'\');');
 		}		
+	}
+        
+        /* 
+         * NextPlease
+         * @author: Antonio D'Angelo
+         * Evo_0001: Condivisione all'interno di una popup
+         * 
+         */
+        
+        public function popup()
+	{	
+            
+            Phpfox::getBlock('feed.frame', array());
 	}
 }
 

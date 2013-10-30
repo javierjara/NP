@@ -34,6 +34,7 @@ class Photo_Service_Api extends Phpfox_Service
 		@return
 		*/
 		return $this->addPhoto();
+                
 	}	
 
 	/**
@@ -46,7 +47,8 @@ class Photo_Service_Api extends Phpfox_Service
 		if ($this->_oApi->isAllowed('photo.add_photo') == false)
 		{
 			return $this->_oApi->error('photo.add_photo', 'User did not allow to upload photos on their behalf.');
-		}	
+		}
+                
 		
 		$oFile = Phpfox::getLib('file');
 		$oImage = Phpfox::getLib('image');
@@ -162,7 +164,7 @@ class Photo_Service_Api extends Phpfox_Service
 			{
 				$iPrivacy = null;
 				$iPrivacyComment = null;
-				$iFeedId = Phpfox::getService('feed.process')->add('photo', $iId, $iPrivacy, $iPrivacyComment, 0);
+				$iFeedId = Phpfox::getService('feed.process')->add('photo', $iId, $iPrivacy, $iPrivacyComment, 0, null, 0, 0, null);
 			}
 			
 			return $this->getPhotos($iId);

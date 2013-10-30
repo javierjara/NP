@@ -1616,28 +1616,61 @@ div.activity_feed_image img {
     border-radius: 10px;
 }
 
-div.activity_feed_form_button_position_button input[type=submit] {
-    width: 140px;
+div.activity_feed_form_button_position_button a {
+    width: 170px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 10px;
 }
 
-div.activity_feed_form_button_position_button.submit_button_form_ex input[type=submit] {
-    -webkit-border-radius: 0px 5px 35px 0px;
-    -moz-border-radius: 0px 5px 35px 0px;
-    border-radius: 0px 5px 35px 0px;
+div.activity_feed_form_button_position_button.submit_button_form_ex a {
+    -webkit-border-radius: 0px 35px 35px 0px;
+    -moz-border-radius: 0px 35px 35px 0px;
+    border-radius: 0px 35px 35px 0px;
     
     background-color: #009AEF;
     float: left;
 }
 
-div.activity_feed_form_button_position_button.submit_button_form_next input[type=submit] {
-    -webkit-border-radius: 35px 0px 0px 5px;
-    -moz-border-radius: 35px 0px 0px 5px;
-    border-radius: 35px 0px 0px 5px;
+div.activity_feed_form_button_position_button.submit_button_form_next a {
+    -webkit-border-radius: 35px 0px 0px 35px;
+    -moz-border-radius: 35px 0px 0px 35px;
+    border-radius: 35px 0px 0px 35px;
     
     background-color: #52C921;
     float: left;
     
-    margin-left: 76px;
+    margin-left: 10px;
+}
+
+div.activity_feed_form_button_position_button.submit_button_form_ex:hover a {
+    background-color: #84C3E5;
+}
+
+div.activity_feed_form_button_position_button.submit_button_form_next:hover a {
+    background-color: #A2EB84;
+}
+
+div.activity_feed_form_button_position_button:hover span.ex_button_arrow {
+    border-left-color: #84C3E5;
+    border-bottom-color: #84C3E5;
+    -webkit-transition: all 0.50s ease;
+    -moz-transition: all 0.50s ease;
+    -o-transition: all 0.50s ease;
+}
+
+div.activity_feed_form_button_position_button:hover span.next_button_arrow {
+    border-top-color: #A2EB84;
+    border-right-color: #A2EB84;
+    -webkit-transition: all 0.50s ease;
+    -moz-transition: all 0.50s ease;
+    -o-transition: all 0.50s ease;
 }
 
 div.activity_feed_form_button_position_button {
@@ -1827,6 +1860,86 @@ a {
     -webkit-transition: all 0.50s ease;
     -moz-transition: all 0.50s ease;
     -o-transition: all 0.50s ease;
+}
+
+div.js_box {
+    
+}
+
+div.js_box div.activity_feed_form_holder {
+    //height: 90px;
+}
+
+div.js_box div.activity_feed_form_button_position {
+    height: auto;
+    padding: 0;
+}
+
+div.js_box.Exlife div.js_box_title {
+    background-color: #009AEF;
+}
+
+div.js_box.Nextlife div.js_box_title {
+    background-color: #52C921;
+}
+
+div.js_box div.activity_feed_form_button_position_button input[type="submit"] {
+    
+}
+
+div.js_box.Exlife div.activity_feed_form_button_position_button input[type="submit"] {
+    background-color: #009AEF;
+    float: left;
+}
+
+div.js_box.Nextlife div.activity_feed_form_button_position_button input[type="submit"] {
+    background-color: #52C921;
+    float: left;
+    
+    margin-left: 10px;
+}
+
+div.js_box.Exlife div.activity_feed_form_button_position_button input[type="submit"]:hover {
+    background-color: #84C3E5;
+}
+
+div.js_box.Nextlife div.activity_feed_form_button_position_button input[type="submit"]:hover {
+    background-color: #A2EB84;
+}
+
+div.js_box div.activity_feed_form_share {
+    display: none;
+}
+
+div.activity_feed_form_button_position_button.submit_button_form_next {
+    padding: 0;
+}
+
+.activity_feed_content_image img {
+    max-width: 100%;
+    height: auto;
+}
+
+div.activity_feed_content_text {
+    padding-right: 35px;
+}
+
+div.activity_feed_form {
+    width: 75%;
+}
+
+div#js_main_feed_holder div#img_picker {
+    width: 120px;
+    height: 120px;
+    background: url("/nextplease.dev/static/image/misc/camera.jpg");
+    display: inline-block;
+    float: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#categories {
+    margin-left: 5px;
 }
 
 /* Responsive Start Here */ 

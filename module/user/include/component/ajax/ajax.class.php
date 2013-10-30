@@ -207,7 +207,13 @@ class User_Component_Ajax_Ajax extends Phpfox_Ajax
 		{
 			(($sPlugin = Phpfox_Plugin::get('user.component_ajax_updatestatus')) ? eval($sPlugin) : false);
 			
-			Phpfox::getService('feed')->processAjax($iId);		
+                        Phpfox::getService('feed')->updateFeedType($iId, $aVals['np_post_type']);
+                        
+                        Phpfox::getService('feed')->updateFeedCategory($iId, $aVals['np_post_category']);
+                        
+                        
+                        Phpfox::getService('feed')->processAjax($iId, $aVals['np_post_type'], $aVals['np_post_category']);	
+			//Phpfox::getService('feed')->processAjax($iId);		
 		}
 		else 
 		{

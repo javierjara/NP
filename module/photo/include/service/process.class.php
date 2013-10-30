@@ -235,7 +235,7 @@ class Photo_Service_Process extends Phpfox_Service
 				$aVals['privacy_comment'] = 0;
 			}
 			
-			(Phpfox::isModule('feed') ? Phpfox::getService('feed.process')->update('photo', $iId, $aVals['privacy'], $aVals['privacy_comment'], 0, $iUserId) : null);
+			(Phpfox::isModule('feed') ? Phpfox::getService('feed.process')->update('photo', $aVals['photo_id'], $aVals['privacy'], $aVals['privacy_comment'], 0, $iUserId) : null);
 
 			if (!empty($aVals['move_to']))
 			{
@@ -250,7 +250,8 @@ class Photo_Service_Process extends Phpfox_Service
 				{
 					$this->database()->update(Phpfox::getT('photo'), array('is_cover' => '1'), 'photo_id = ' . (int) $aCoverPhoto['photo_id']);
 				}					
-			}						
+			}
+
 		}
 		else
 		{
@@ -352,7 +353,7 @@ class Photo_Service_Process extends Phpfox_Service
 		{
 		    eval($sPlugin);
 		}
-	
+
 		// Return the photo ID#
 		return $iId;
     }

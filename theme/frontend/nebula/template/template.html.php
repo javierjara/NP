@@ -15,9 +15,17 @@ defined('PHPFOX') or exit('NO DICE!');
 <html xmlns="http://www.w3.org/1999/xhtml" dir="{$sLocaleDirection}" lang="{$sLocaleCode}">
 	<head>
 		<title>{title}</title>	
-		{header}
+		<script src="http://code.jquery.com/jquery-1.10.2.min.js" type="text/javascript"></script>
+                
+                <link rel="stylesheet" href="eventCalendar_v054/css/eventCalendar.css">
+                <link rel="stylesheet" href="eventCalendar_v054/css/eventCalendar_theme_responsive.css">
+                
+                {header}
+                    
 	</head>
 	<body>
+            
+            
 		<div{if !Phpfox::isUser()} id="nb_body_holder_guest"{elseif defined('PHPFOX_IN_DESIGN_MODE')} id="nb_in_design"{/if}>
 			{body}	
 			{block location='9'}
@@ -200,6 +208,8 @@ defined('PHPFOX') or exit('NO DICE!');
 													{/if}						
 													{unset var=$aMenu}	
 													{block location='3'}
+                                                                                                        
+                                                                                                        <div id="eventCalendarHumanDate"></div>
 												</div>
 												
 												{/if}
@@ -231,5 +241,8 @@ defined('PHPFOX') or exit('NO DICE!');
 			</div>		
 		</div>		
 	</body>
+    <script src="eventCalendar_v054/js/jquery.timeago.js" type="text/javascript"></script>
+    <script src="eventCalendar_v054/js/jquery.eventCalendar.min.js" type="text/javascript"></script>
+    
 </html>
 {/if}

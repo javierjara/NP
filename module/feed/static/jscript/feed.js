@@ -1,4 +1,4 @@
-var $sFormAjaxRequest = null;
+var $sFormAjaxRequest = true;
 var $bButtonSubmitActive = true;
 var $ActivityFeedCompleted = {};
 var $sCurrentSectionDefaultPhrase = null;
@@ -762,3 +762,279 @@ $Behavior.tagger = function()
 		attachFunctionTagger(sSelector);
 	}
 };
+
+/*
+ * Nextplease 
+ * Evo0001: post nel popup;
+ * 
+ */
+
+function pufDoResize(el) {
+    $Core.resizeTextarea($(el));
+}
+
+function pufTextareaFocus(el) {
+    
+    if ($(el).val().trim() === "What's on your mind?"){
+            $(el).val('');
+            $(el).css({height: '50px'});
+            $(el).addClass('focus');
+            $('.activity_feed_form_button_status_info textarea').addClass('focus');
+    }
+}
+
+function pufStatusInfoFocus(el) {
+    var $sDefaultValue = $(el).val();
+    var $bIsDefault = true;			
+
+    $('.activity_feed_extra_info').each(function()
+    {
+            if ($(el).html() == $sDefaultValue)
+            {
+                    $bIsDefault = false;	
+
+                    return false;
+            }
+    });
+
+    if (($('#global_attachment_status textarea').val() == $('#global_attachment_status_value').html() && empty($sDefaultValue)) || !$bIsDefault)
+    {
+            $(el).val('');
+            $(el).css({height: '50px'});
+
+            $(el).addClass('focus');
+            $('#global_attachment_status textarea').addClass('focus');				
+    }
+}
+
+function pufFeedFormSubmit(ev, el) {
+    
+        var oStatusUpdateTextareaFilled = $('#global_attachment_status textarea');
+
+//        if ($sStatusUpdateValue == $.trim(oStatusUpdateTextareaFilled.val())){
+//                oStatusUpdateTextareaFilled.val('');
+//        } else {
+//            $sFormAjaxRequest = true;
+//            var oCustomTextareaFilled = $('.activity_feed_form_button_status_info textarea');
+//            if ($sCustomPhrase == oCustomTextareaFilled.val()) {
+//                oCustomTextareaFilled.val('');				
+//            }				
+//        }			
+
+        if($('div.js_box').hasClass('Nextlife')) {
+            $('#np_post_type').val('next');
+        } else if($('div.js_box').hasClass('Exlife')) {
+            $('#np_post_type').val('ex');
+        }
+
+//        if ($bButtonSubmitActive === false)
+//        {
+//                return false;
+//        }
+
+        if ($('#global_attachment_photo_file_input').val()!=="") {
+            return true;
+        }
+
+        $Core.activityFeedProcess(true);
+
+
+//        if ($sFormAjaxRequest === null)
+//        {
+//            //setTimeout(function(){$('div.js_box_close a').trigger('click');}, 1000);
+//            return true;
+//        }
+
+        $('.js_no_feed_to_show').remove();
+
+        if (bCheckUrlForceAdd){				
+                $('.activity_feed_form_button_status_info textarea').val($('#global_attachment_status textarea').val());
+                $sFormAjaxRequest = 'link.addViaStatusUpdate';				
+        }
+        
+        $(el).ajaxCall("user.updateStatus");
+
+        if (bCheckUrlForceAdd){
+                $('#js_preview_link_attachment_custom_form_sub').remove();
+        }
+        
+        //Chiudo il box
+        $('div.js_box_close a').trigger('click');
+        ev.preventDefault();
+        return false;
+}
+
+function pufGlobalAttachClick(el) {
+    $Core.activityFeedProcess(true);
+
+        $Core.ajax('link.preview', 
+        {		
+                params: 
+                {				
+                        'no_page_update': '1',
+                        value: $('#js_global_attach_value').val()
+                },
+                type: 'POST',
+                success: function($sOutput)
+                {
+                        $('#js_global_attachment_link_cancel').show();
+
+                        if (substr($sOutput, 0, 1) == '{'){					
+                                var $oOutput = $.parseJSON($sOutput);
+                                $Core.resetActivityFeedError($oOutput['error']);
+                                $bButtonSubmitActive = false;
+                                $('.activity_feed_form_button .button').addClass('button_not_active');
+                        }
+                        else{
+                                $Core.activityFeedProcess(false);
+
+                                $('#js_preview_link_attachment').html($sOutput);
+                                $('#global_attachment_link_holder').hide();				
+                        }
+                }
+        });
+}
+
+function pufAttachLiClick(el) {			
+        $sCurrentForm = $(el).attr('rel');
+
+        if ($sCurrentForm == 'view_more_link'){
+
+                $('.view_more_drop').toggle();
+
+                return false;
+        }
+        else{
+                $('.view_more_drop').hide();
+        }
+
+        if ($sCurrentForm == 'global_attachment_status'){
+                $('#btn_display_check_in').show();
+        } else {
+                $('#btn_display_check_in').hide();
+                $('#hdn_location_name, #val_location_name ,#val_location_latlng').val('');
+                $('#btn_display_check_in').removeClass('is_active');				
+        }			
+
+        $('#js_preview_link_attachment_custom_form_sub').remove();
+        $('#activity_feed_upload_error').hide();
+
+        $('.global_attachment_holder_section').hide();
+        $('.activity_feed_form_attach li a').removeClass('active');
+        $(el).addClass('active');
+
+        if ($(el).find('.activity_feed_link_form').length > 0)
+        {
+                $('#js_activity_feed_form').attr('action', $(el).find('.activity_feed_link_form').html()).attr('target', 'js_activity_feed_iframe_loader');
+                $sFormAjaxRequest = null;
+                if (empty($('.activity_feed_form_iframe').html()))
+                {
+                        $('.activity_feed_form_iframe').html('<iframe id="js_activity_feed_iframe_loader" name="js_activity_feed_iframe_loader" height="200" width="500" frameborder="1" style="display:none;"></iframe>');
+                }				
+        }
+        else
+        {
+                $sFormAjaxRequest = $(el).find('.activity_feed_link_form_ajax').html();	
+        }			
+
+        $('#' + $(el).attr('rel')).show();
+        $('.activity_feed_form_holder_attach').show();
+        $('.activity_feed_form_button').show();			
+
+        var $oStatusUpdateTextarea = $('#global_attachment_status textarea');
+        var $sStatusUpdateTextarea = $oStatusUpdateTextarea.val();
+        $sStatusUpdateValue = $('#global_attachment_status_value').html();
+
+        var $oCustomTextarea = $('.activity_feed_form_button_status_info textarea');
+        var $sCustomTextarea = $oCustomTextarea.val();
+
+        $sCustomPhrase = $(el).find('.activity_feed_extra_info').html();
+
+        var $bHasDefaultValue = false;
+        $('.activity_feed_extra_info').each(function()
+        {
+                if ($(el).html() == $sCustomTextarea)
+                {
+                        $bHasDefaultValue = true;	
+
+                        return false;
+                }
+        });				
+
+        if ($(el).attr('rel') != 'global_attachment_status')
+        {
+                $('.activity_feed_form_button_status_info').show();				
+
+                if ((empty($sCustomTextarea) && ($sStatusUpdateTextarea == $sStatusUpdateValue 
+                        || empty($sStatusUpdateTextarea))) 
+                        || ($sStatusUpdateTextarea == $sStatusUpdateValue && $bHasDefaultValue)
+                        || (!$bButtonSubmitActive && $bHasDefaultValue)
+                )
+                {
+                        $oCustomTextarea.val($sCustomPhrase).css({height: $sCssHeight});
+                }
+                else if ($sStatusUpdateTextarea != $sStatusUpdateValue && $bButtonSubmitActive && !empty($sStatusUpdateTextarea))
+                {
+                        $oCustomTextarea.val($sStatusUpdateTextarea);
+                }								
+
+                $('.activity_feed_form_button .button').addClass('button_not_active');
+                $bButtonSubmitActive = false;				
+        }
+        else
+        {
+                $('.activity_feed_form_button_status_info').hide();
+                $('.activity_feed_form_button .button').removeClass('button_not_active');
+
+                if (!$bHasDefaultValue && !empty($sCustomTextarea))
+                {
+                        $oStatusUpdateTextarea.val($sCustomTextarea);
+                }
+                else if ($bHasDefaultValue && empty($sStatusUpdateTextarea))
+                {
+                        $oStatusUpdateTextarea.val($sStatusUpdateValue).css({height: $sCssHeight});
+                }				
+
+                $bButtonSubmitActive = true;
+        }
+
+        if ($(el).hasClass('no_text_input'))
+        {
+                $('.activity_feed_form_button_status_info').hide();
+        }		
+
+        $('.activity_feed_form_button .button').show();
+        $('#js_piccup_upload').hide();
+
+        return false;
+}
+
+function imgPickerClick() {
+    $("a[rel='global_attachment_photo']").trigger('click', function() {
+        setTimeout(
+            function(){$('#global_attachment_photo_file_input').trigger('click');
+        }, 1000);
+    });
+}
+
+
+function addCategories() {
+    var availableTags = [
+      "Nuova macchina",
+      "Nuova sega",
+      "Vecchio marito"
+    ];
+    $( "#categories" ).autocomplete({
+      source: availableTags
+    });
+}
+
+$(document).ready(function() {
+    if(typeof $("#eventCalendarHumanDate").eventCalendar !== "undefined" && $("#eventCalendarHumanDate").html()!=="") {
+        $("#eventCalendarHumanDate").eventCalendar({
+                eventsjson: 'eventCalendar_v054/json/keithjson.json',
+                jsonDateFormat: 'human'  // 'YYYY-MM-DD HH:MM:SS'
+        });
+    }
+        
+});

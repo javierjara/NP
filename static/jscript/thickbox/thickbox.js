@@ -618,6 +618,7 @@ function tb_show(caption, url, thisObject, sForceMessage, bForceNoCilck, sType)
 				}
 			});			
 	}
+        $('div.js_box').addClass(caption.replace(/\s+/g, ''));
 }
 
 $Behavior.thickboxBrowser = function(){

@@ -31,71 +31,71 @@ class Feed_Service_Process extends Phpfox_Service
 	
 	public function clearCache($sType, $iItemId)
 	{
-		if (!Phpfox::getParam('feed.cache_each_feed_entry'))
-		{
-			return;
-		}
-				
-		$iParentId = Phpfox::getLib('request')->getInt('parent_id');
-		if ($sType == 'feed_mini' && !empty($iParentId))
-		{
-			$sTable = '';
-			if (Phpfox::getLib('request')->get('pmodule') == 'event')
-			{
-				$sTable = 'event_';
-			}
-			elseif (Phpfox::getLib('request')->get('pmodule') == 'pages')
-			{
-				$sTable = 'pages_';
-			}
-			
-			$aFeed = $this->database()->select('*')
-				->from(Phpfox::getT($sTable . 'feed'))
-				->where('feed_id = ' . (int) $iParentId)
-				->execute('getSlaveRow');		
-			if (isset($aFeed['feed_id']))
-			{
-				$sType = $aFeed['type_id'];
-				$iItemId = $aFeed['item_id'];				
-			}
-		}		
-		elseif ($sType == 'forum_post')
-		{
-			$this->cache()->remove(array('feeds', 'forum_' . $iItemId));
-			/*$sType = 'forum_reply';*/
-		}
-        else if ($sType == 'feed')
-        {
-            $aVal = Phpfox::getLib('request')->getArray('val');
-            
-            if (isset($aVal['is_via_feed']) && $aVal['is_via_feed'] > 0 )
+            if (!Phpfox::getParam('feed.cache_each_feed_entry'))
             {
-                $iItemId = $this->database()->select('item_id')
-                    ->from(Phpfox::getT('feed'))
-                    ->where('feed_id = ' . (int)$aVal['is_via_feed'])
-                    ->execute('getSlaveField');
-                
-                $sType .= '_comment';
+                    return;
             }
-        }
-        else if ($sType == 'pages')
-        {
-            $aVal = Phpfox::getLib('request')->getArray('val');
-            
-            if (isset($aVal['is_via_feed']) && $aVal['is_via_feed'] > 0)
+
+            $iParentId = Phpfox::getLib('request')->getInt('parent_id');
+            if ($sType == 'feed_mini' && !empty($iParentId))
             {
-                $aRow = $this->database()->select('type_id, item_id')
-                        ->from(Phpfox::getT('pages_feed'))
-                        ->where('feed_id = ' . (int)$aVal['is_via_feed'])
-                        ->execute('getSlaveRow');
-                
-                if (!empty($aRow) && isset($aRow['item_id']) && $aRow['item_id'] > 0)
+                    $sTable = '';
+                    if (Phpfox::getLib('request')->get('pmodule') == 'event')
+                    {
+                            $sTable = 'event_';
+                    }
+                    elseif (Phpfox::getLib('request')->get('pmodule') == 'pages')
+                    {
+                            $sTable = 'pages_';
+                    }
+
+                    $aFeed = $this->database()->select('*')
+                            ->from(Phpfox::getT($sTable . 'feed'))
+                            ->where('feed_id = ' . (int) $iParentId)
+                            ->execute('getSlaveRow');		
+                    if (isset($aFeed['feed_id']))
+                    {
+                            $sType = $aFeed['type_id'];
+                            $iItemId = $aFeed['item_id'];				
+                    }
+            }		
+            elseif ($sType == 'forum_post')
+            {
+                    $this->cache()->remove(array('feeds', 'forum_' . $iItemId));
+                    /*$sType = 'forum_reply';*/
+            }
+            else if ($sType == 'feed')
+            {
+                $aVal = Phpfox::getLib('request')->getArray('val');
+
+                if (isset($aVal['is_via_feed']) && $aVal['is_via_feed'] > 0 )
                 {
-                    $sType = $aRow['type_id'];
-                    $iItemId = $aRow['item_id'];
+                    $iItemId = $this->database()->select('item_id')
+                        ->from(Phpfox::getT('feed'))
+                        ->where('feed_id = ' . (int)$aVal['is_via_feed'])
+                        ->execute('getSlaveField');
+
+                    $sType .= '_comment';
                 }
             }
-        }
+            else if ($sType == 'pages')
+            {
+                $aVal = Phpfox::getLib('request')->getArray('val');
+
+                if (isset($aVal['is_via_feed']) && $aVal['is_via_feed'] > 0)
+                {
+                    $aRow = $this->database()->select('type_id, item_id')
+                            ->from(Phpfox::getT('pages_feed'))
+                            ->where('feed_id = ' . (int)$aVal['is_via_feed'])
+                            ->execute('getSlaveRow');
+
+                    if (!empty($aRow) && isset($aRow['item_id']) && $aRow['item_id'] > 0)
+                    {
+                        $sType = $aRow['type_id'];
+                        $iItemId = $aRow['item_id'];
+                    }
+                }
+            }
         
 		
 		$this->cache()->remove(array('feeds', $sType . '_' . $iItemId));
@@ -119,7 +119,7 @@ class Feed_Service_Process extends Phpfox_Service
 		return $this;
 	}			
 	
-	public function add($sType, $iItemId, $iPrivacy = 0, $iPrivacyComment = 0, $iParentUserId = 0, $iOwnerUserId = null, $bIsTag = 0, $iParentFeedId = 0, $sParentModuleName = null)
+	public function add($sType, $iItemId, $iPrivacy = 0, $iPrivacyComment = 0, $iParentUserId = 0, $iOwnerUserId = null, $bIsTag = 0, $iParentFeedId = 0, $sParentModuleName = null, $nPostType = null, $nPostCategory = null)
 	{			
 		//Plugin call
 		if (($sPlugin = Phpfox_Plugin::get('feed.service_process_add__start')))
@@ -176,6 +176,8 @@ class Feed_Service_Process extends Phpfox_Service
 			'parent_feed_id' => (int) $iParentFeedId,
 			'parent_module_id' => (Phpfox::isModule($aParentModuleName[0]) ? $this->database()->escape($sParentModuleName) : null),
 			'time_update' => $iNewTimeStamp,
+                        'type_ex_next' => $nPostType,
+                        'np_category' => $nPostCategory
 		);
 		
 		if (!$this->_bIsCallback && !Phpfox::getParam('feed.add_feed_for_comments') && preg_match('/^(.*)_comment$/i', $sType))

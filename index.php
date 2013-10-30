@@ -39,6 +39,7 @@ define('PHPFOX_START_TIME', array_sum(explode(' ', microtime())));
 // Require phpFox Init
 require(PHPFOX_DIR . 'include' . PHPFOX_DS . 'init.inc.php');
 
+
 Phpfox::run();
 
 ob_end_flush();

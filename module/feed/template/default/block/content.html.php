@@ -42,7 +42,7 @@ defined('PHPFOX') or exit('NO DICE!');
 				{/if}
 			</div>
 		{/if}
-		
+                <span><b>{$aFeed.np_category}</b></span>
 		<div class="activity_feed_content_link">				
 			{if $aFeed.type_id == 'friend' && isset($aFeed.more_feed_rows) && is_array($aFeed.more_feed_rows) && count($aFeed.more_feed_rows)}
 				{foreach from=$aFeed.more_feed_rows item=aFriends}
