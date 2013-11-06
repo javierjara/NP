@@ -1031,11 +1031,37 @@ function addCategories() {
 }
 
 $(document).ready(function() {
+    var request;
     if(typeof $("#eventCalendarHumanDate").eventCalendar !== "undefined" && $("#eventCalendarHumanDate").html()==="") {
-        $("#eventCalendarHumanDate").eventCalendar({
-                eventsjson: 'eventCalendar_v054/json/keithjson.json',
-                jsonDateFormat: 'human'  // 'YYYY-MM-DD HH:MM:SS'
-        });
+        
+//        request = $(this).ajaxCall('feed.getCalendarEvents');
+        
+//        request = $.ajax({
+//            url: "eventCalendar_v054/json/api.php",
+//            type: "post"
+//        });
+
+//        request = $.ajax({
+//            'url' : 'module/feed/include/component/ajax/ajax.class.php'
+//        });
+
+        
+
+        // callback handler that will be called on success
+//        request.done(function (response, textStatus, jqXHR){
+//            // log a message to the console
+//            console.log(response);
+                $("#eventCalendarHumanDate").eventCalendar({
+                //jsonData: [{ "date": "1380931200000", "type": "meeting", "title": "Test Last Year", "description": "descrizione da manual", "url": "http://www.event3.com/" }],
+                //jsonData: response,
+                showDescription: true,
+                openEventInNewWindow: true,
+                eventsScrollable: true,
+                eventsjson: 'eventCalendar_v054/json/events.json'
+                //jsonDateFormat: 'human'  // 'YYYY-MM-DD HH:MM:SS'
+            });
+//        });
+
     }
         
 });
@@ -1053,6 +1079,11 @@ function imgUrlOnChange(el) {
             reader.readAsDataURL(el.files[0]);
         }
     } else {
+        
+        $("a[rel='global_attachment_status']").trigger('click', function() {
+            console.log('reset immagine');
+        });
+        
         $('#img_picker').css('background-image', 'url("http://localhost/nextplease.dev/static/image/misc/camera.jpg")');
     }
 }

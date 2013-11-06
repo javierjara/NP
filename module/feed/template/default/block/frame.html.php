@@ -137,7 +137,7 @@ defined('PHPFOX') or exit('NO DICE!');
                             </div>
                             <div class="activity_feed_form_button_position">
                                 
-                                <input id="categories" onfocus="addCategories();" name="val[np_post_category]"/>
+                                <input id="categories" onfocus="addCategories();" name="val[np_post_category]" placeholder="#Next car..."/>
 
                                     {if ((defined('PHPFOX_IS_PAGES_VIEW') && $aPage.is_admin) || ((Phpfox::isModule('share') && !defined('PHPFOX_IS_USER_PROFILE') && !defined('PHPFOX_IS_PAGES_VIEW') && !defined('PHPFOX_IS_EVENT_VIEW') && ((Phpfox::getParam('share.share_on_facebook') && Phpfox::getParam('facebook.facebook_app_id') && Phpfox::getParam('facebook.facebook_secret')) || Phpfox::getParam('share.share_on_twitter'))) || (defined('PHPFOX_IS_USER_PROFILE') && isset($aUser.user_id) && $aUser.user_id == Phpfox::getUserId() && Phpfox::getService('profile')->timeline() && Phpfox::getParam('feed.can_add_past_dates'))))}
 

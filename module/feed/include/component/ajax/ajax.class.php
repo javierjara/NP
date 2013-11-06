@@ -412,6 +412,35 @@ class Feed_Component_Ajax_Ajax extends Phpfox_Ajax
             
             Phpfox::getBlock('feed.frame', array());
 	}
+        
+        public function getCalendarEvents() {
+            header('Content-type: text/json');
+            $user = PHPFOX::getUserId();
+            $aRows = Phpfox::getLib('database')->select('*')
+                    ->from('np_calendar_event')
+                    ->where('user = ' . (int) $user)
+                    ->execute('getRows');
+            //$json .= '[';
+            $separator = "";
+            
+            foreach ($aRows as $value) {
+                
+                //$json .= '{ "date": "'.$value['date'].'", "type": "'.$value['type'].'", "title": "'.$value['title'].'", "description": "'.$value['description'].'", "url": "'.$value['url'].'"}';
+                
+                $json = array("date" => $value['date'], "type" => $value['type'], "title" => $value['title'], "description" => $value['description'], "url" =>$value['url']);
+                
+                
+            }
+            
+            //$json .= ']';
+            
+            echo "prova";
+        }
+        
+        public function addCalendarEvent() {
+            Phpfox::getLib('database')->insert('np_calendar_event', array('user_id' => $aUserCache['user_id'], 'fb_user_id' => (int) $oObject->id));
+        }
+        
 }
 
 ?>

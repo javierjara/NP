@@ -21,8 +21,10 @@
 
 	// each eventCalendar will execute this function
 	this.each(function(){
-
-		flags.wrap = $(this);
+                renderAddButton();
+                createAddForm();
+                createErrorForm();
+                flags.wrap = $(this);
 		flags.wrap.addClass('eventCalendar-wrap').append("<div class='eventsCalendar-list-wrap'><p class='eventsCalendar-subtitle'></p><span class='eventsCalendar-loading'>loading...</span><div class='eventsCalendar-list-content'><ul class='eventsCalendar-list'></ul></div></div>");
 
 		if (eventsOpts.eventsScrollable) {
@@ -248,6 +250,7 @@
 
 		} else if (!eventsOpts.cacheJson || !direction) {
 			// first load: load json and save it to future filters
+                        
 			$.getJSON(eventsOpts.eventsjson + "?limit="+limit+"&year="+year+"&month="+month+"&day="+day, function(data) {
 				flags.eventsJson = data; // save data to future filters
 				getEventsData(flags.eventsJson, limit, year, month, day, direction);
@@ -429,6 +432,43 @@
 		flags.wrap.find('.eventsCalendar-list-wrap').width(flags.wrap.width() + 'px');
 
 	}
+        
+        function renderAddButton() {
+            $("#eventCalendarHumanDate").append("<div class='addNextWrapper'><a href='#' id='addNextButton' class='general-button button-next add' onclick='toggleNextButton(this);return false;'>Add Next!</a></div>");
+        }
+        
+        function createErrorForm() {
+            $("#eventCalendarHumanDate").append("<span id='calendarEventErrorForm' style='display:none;'></span>");
+        }
+        
+        function createAddForm() {
+            var form = "",
+                title = "",
+                time = "",
+                type = "",
+                description = "",
+                url = "",
+                reset = "",
+                submit = "",
+                date = "";
+            
+            form ="<form name='addNextForm' id='addNextForm' style='display:none;' onsubmit='nextEventFormSubmit(this); return false;'>";
+            title = "<label for='title'>Title*</label><input type='text' name='title' placeholder='My birthday' />";
+            description = "<label for='description'>Description*</label><textarea type='decription' name='description' placeholder='Today, many years ago, I was born!' ></textarea>";
+            time = "<label for='time'>Time*</label><input type='text' name='time' placeholder='08:30 PM' />";
+            date = "<input type='hidden' name='date' />";
+            type = "<label for='type'>Type</label><input type='text' name='type' placeholder='Party'/>";
+            url = "<label for='url'>Url</label><input type='text' name='url' placeholder='www.bestpartyever.com'/>";
+            reset = "<input type='reset' id='resetForm' style='display:none;' />";
+            submit = "<input type='submit' name='submitForm' class='general-button button-next' value='Add it now!' />";
+            
+            
+            
+            form+=date+title+description+time+type+url+reset+submit;
+            form+="</form>"
+            
+            $("div.addNextWrapper").append(form);
+        }
 };
 
 
@@ -463,3 +503,123 @@ $.fn.eventCalendar.defaults = {
 					// if false plugin get a new json on each date change
 };
 
+function toggleNextButton(el) {
+    if($(el).hasClass('close')) {
+        hideForm();
+    } else {
+        $('div.addNextWrapper input[name="time"]').timePicker({show24Hours: false});
+        showForm();
+    }
+}
+
+function showForm() {
+    $('#addNextForm').show('slidedown');
+    $('#addNextButton').fadeOut(100, function(el, ev) {
+        $(this).text('Not now...');
+        $(this).removeClass('add button-next').addClass('close button-ex');
+        $(this).fadeIn(100);
+    });
+}
+
+function hideForm() {
+    $('#addNextForm').hide('slideup');
+    $('#addNextButton').fadeOut(100, function(el, ev) {
+        nextEventHideError();
+        $('#resetForm').trigger('click');
+        $(this).text('Add Next!');
+        $(this).removeClass('close button-ex').addClass('add button-next');
+        $(this).fadeIn(100);
+    });
+
+}
+
+function nextEventFormSubmit(el) {
+    var title,
+        description,
+        time,
+        month,
+        year,
+        day,
+        postData,
+        date = new Date(),
+        dateDom;
+    
+    nextEventHideError();
+    
+    title = $(el).find('input[name="title"]');
+    description = $(el).find('textarea[name="description"]');
+    time = $(el).find('input[name="time"]');
+    dateDom = $(el).find('input[name="date"]');
+    
+    if(title.val()==="") {
+        nextEventShowError("Add a title!");
+        return false;
+    }
+
+    if(description.val()==="") {
+        nextEventShowError("Add a description!");
+        return false;
+    }
+    
+    if(time.val()==="") {
+        nextEventShowError("Add hours!");
+        return false;
+    }
+    
+    if($('#eventCalendarHumanDate .eventsCalendar-day.current').length===0) {
+        nextEventShowError("Pick a date!");
+        return false;
+    }
+    
+    day = $('#eventCalendarHumanDate .eventsCalendar-day.current').attr('rel');
+    month = $('#eventCalendarHumanDate').data('currentMonth');
+    year = $('#eventCalendarHumanDate').data('currentYear');
+    
+    date.setFullYear(year,month,day);
+    
+    dateDom.val(date.getTime());
+    
+    postData = $(el).serializeArray();
+    
+    $.ajax(
+    {
+        url : "eventCalendar_v054/json/api.php",
+        type: "POST",
+        data : postData,
+        success:function(data, textStatus, jqXHR) 
+        {
+            console.log(data);    
+            hideForm();
+            refreshCalendarEvent();
+        },
+        error: function(jqXHR, textStatus, errorThrown) 
+        {
+            //if fails      
+        }
+    });
+    
+    return false;
+}
+
+function nextEventShowError(msg) {
+    $('#calendarEventErrorForm').text(msg);
+    $('#calendarEventErrorForm').show('pulsate', {color:'#FFDADA', duration:200});
+}
+
+function nextEventHideError() {
+    $('#calendarEventErrorForm').text("");
+    $('#calendarEventErrorForm').hide();
+}
+
+function refreshCalendarEvent() {
+    $("#eventCalendarHumanDate").html("");
+    $("#eventCalendarHumanDate").eventCalendar({
+        //jsonData: [{ "date": "1380931200000", "type": "meeting", "title": "Test Last Year", "description": "descrizione da manual", "url": "http://www.event3.com/" }],
+        //jsonData: response,
+        showDescription: true,
+        openEventInNewWindow: true,
+        eventsScrollable: true,
+        eventsjson: 'eventCalendar_v054/json/events.json'
+        //jsonDateFormat: 'human'  // 'YYYY-MM-DD HH:MM:SS'
+    });
+}
