@@ -77,7 +77,7 @@ defined('PHPFOX') or exit('NO DICE!');
 									{module name='user.login-header'}
 									{/if}							
 								</div>							
-								{if Phpfox::isUser() && !Phpfox::getUserBy('profile_page_id') && Phpfox::isModule('search')}
+<!--								{if Phpfox::isUser() && !Phpfox::getUserBy('profile_page_id') && Phpfox::isModule('search')}
 								<div id="header_search">	
 									<div id="header_menu_space">
 										<div id="header_sub_menu_search">
@@ -89,7 +89,7 @@ defined('PHPFOX') or exit('NO DICE!');
 										</div>
 									</div>
 								</div>	
-								{/if}													
+								{/if}													-->
 							</div>					
 						</div>
 						{block location='6'}
@@ -201,15 +201,30 @@ defined('PHPFOX') or exit('NO DICE!');
 												
 												<div id="right" class="content_column">
                                                                                                         
-                                                                                                     <div id="eventCalendarHumanDate"></div>
-                                                                                                    
-													{if !Phpfox::isUser() || Phpfox::getLib('module')->getFullControllerName() == 'core.index-member' || defined('PHPFOX_IS_USER_PROFILE') || defined('PHPFOX_IS_PAGES_VIEW')}
+                                                                                                        {if !Phpfox::isUser() || Phpfox::getLib('module')->getFullControllerName() == 'core.index-member' || defined('PHPFOX_IS_USER_PROFILE') || defined('PHPFOX_IS_PAGES_VIEW')}
 													
 													{else}
 													{menu_sub}
 													{block location='1'}
 													{/if}						
-													{unset var=$aMenu}	
+													{unset var=$aMenu}
+                                                                                                        
+                                                                                                        {if Phpfox::isUser() && !Phpfox::getUserBy('profile_page_id') && Phpfox::isModule('search')}
+                                                                                                        <div id="header_search">	
+                                                                                                                <div id="header_menu_space">
+                                                                                                                        <div id="header_sub_menu_search">
+                                                                                                                                <form method="post" id='header_search_form' action="{url link='search'}">																						
+                                                                                                                                        <input type="text" name="q" value="{phrase var='core.search_dot'}" id="header_sub_menu_search_input" autocomplete="off" class="js_temp_friend_search_input" />											
+                                                                                                                                        <div id="header_sub_menu_search_input"></div>
+                                                                                                                                        <a href="#" onclick='$("#header_search_form").submit(); return false;' id="header_search_button">{phrase var='core.search'}</a>											
+                                                                                                                                </form>
+                                                                                                                        </div>
+                                                                                                                </div>
+                                                                                                        </div>	
+                                                                                                        {/if}
+                                                                                                        
+                                                                                                        <div id="eventCalendarHumanDate"></div>
+                                                                                                        
 													{block location='3'}
 												</div>
 												

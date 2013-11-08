@@ -2235,4 +2235,11 @@ div.js_feed_view_more_entry_holder.post_type_ex .activity_feed_content_info span
     text-align: center;
 }
 
+#header_sub_menu_search {
+    margin-bottom: 10px;
+    width: 100% !important;
+}
 
+#holder_notify {
+    left: 0;
+}
