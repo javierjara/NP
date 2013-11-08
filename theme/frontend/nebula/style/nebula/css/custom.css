@@ -1526,13 +1526,27 @@ div#right div#announcement
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* NextPlease */
 
 div.js_feed_view_more_entry_holder {
     width: 90%;
-    margin: 22px auto 0;
+    margin: 30px auto 0;
     background-color: #fff;
-    border: 1px #DFDFDF solid;
+    border: 1px #858585 solid;
     padding: 3px 0 0 0;
     margin-bottom: 7px;
     -webkit-border-radius: 10px;
@@ -1561,6 +1575,16 @@ div.js_feed_view_more_entry_holder div.js_user_feed {
     border: 0;
 }
 
+div.js_feed_view_more_entry_holder.post_type_ex .feed_delete_link {
+    right: inherit;
+    left: 0;
+}
+
+div.js_feed_view_more_entry_holder.post_type_ex .feed_delete_link a {
+    margin-left: -10px;
+    margin-right: 0;
+}
+
 div.feed_delete_link a {
     width: 20px;
     height: 20px;
@@ -1583,6 +1607,11 @@ div.feed_delete_link .action_delete, .action_delete:hover {
     background-position: 3px;
 }
 
+div.js_feed_view_more_entry_holder div.feed_delete_link a {
+    border: 2px #858585 solid !important;
+    background-color: #BBBBBB;
+}
+
 div.js_feed_view_more_entry_holder.post_type_ex div.feed_delete_link a {
     border: 2px #009AEF solid !important;
     background-color: #84C3E5;
@@ -1598,6 +1627,16 @@ div.js_feed_view_more_entry_holder div.activity_feed_image {
     margin-top: -25px;
     width: 55px;
     height: 55px;
+}
+
+div.js_feed_view_more_entry_holder.post_type_ex div.activity_feed_image {
+    margin-right: -25px;
+    margin-top: -25px;
+    margin-left: 0;
+    width: 55px;
+    height: 55px;
+    right: 0 !important;
+    left: inherit;
 }
 
 div#js_feed_content {
@@ -1627,6 +1666,7 @@ div.activity_feed_form_button_position_button a {
     text-transform: uppercase;
     letter-spacing: 1px;
     font-size: 10px;
+    
 }
 
 div.activity_feed_form_button_position_button.submit_button_form_ex a {
@@ -1734,6 +1774,14 @@ div.activity_feed_form_button_position {
 
 div.js_feed_view_more_entry_holder div.comment_mini_link_like ul li a {
     color: #fff;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+div.js_feed_view_more_entry_holder div.comment_mini_link_like ul li a {
+    border-bottom-color: #858585;
+    background-color: #858585;
 }
 
 div.js_feed_view_more_entry_holder.post_type_ex div.comment_mini_link_like ul li a {
@@ -1744,6 +1792,12 @@ div.js_feed_view_more_entry_holder.post_type_ex div.comment_mini_link_like ul li
 div.js_feed_view_more_entry_holder.post_type_next div.comment_mini_link_like ul li a {
     border-bottom-color: #52C921;
     background-color: #52C921;
+}
+
+div.js_feed_view_more_entry_holder div.comment_mini_link_like ul li a:hover {
+    border-bottom: 2px #858585 solid !important;
+    border-bottom-color: #858585;
+    background-color: #BBBBBB;
 }
 
 div.js_feed_view_more_entry_holder.post_type_ex div.comment_mini_link_like ul li a:hover {
@@ -1776,6 +1830,10 @@ div.js_feed_view_more_entry_holder.post_type_next div.js_user_feed:hover div.com
     border-bottom-color: #52C921;
 } 
 
+div.js_feed_view_more_entry_holder div.js_user_feed:hover div.comment_mini_link_like ul li a {
+    border-bottom-color: #858585;
+}
+
 div.js_feed_view_more_entry_holder div.js_user_feed:hover div.comment_mini_link_like ul li a.feed_permalink {
     border-bottom-color: #fff;
     background-color: #fff;
@@ -1784,6 +1842,11 @@ div.js_feed_view_more_entry_holder div.js_user_feed:hover div.comment_mini_link_
 
 div.js_feed_view_more_entry_holder div.js_feed_add_comment_button input {
     border-bottom: 2px #fff solid;
+    border-bottom-color: #858585;
+    background-color: #858585;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
 }
 
 div.js_feed_view_more_entry_holder.post_type_ex div.js_feed_add_comment_button input {
@@ -1799,6 +1862,12 @@ div.js_feed_view_more_entry_holder.post_type_next div.js_feed_add_comment_button
 div.js_feed_view_more_entry_holder.post_type_ex div.js_feed_add_comment_button input:hover {
     border-bottom: 2px #009AEF solid !important;
     background-color: #84C3E5;
+    color: #fff;
+}
+
+div.js_feed_view_more_entry_holder div.js_feed_add_comment_button input:hover {
+    border-bottom: 2px #858585 solid !important;
+    background-color: #BBBBBB;
     color: #fff;
 }
 
@@ -1840,7 +1909,7 @@ div.activity_feed_content_text{
 }
 
 .user_profile_link_span a {
-    font-size: 15px;
+    /* font-size: 15px; */
 }
 
 div#nb_main_menu ul li a:hover {
@@ -1857,9 +1926,9 @@ div#nb_main_menu ul li a.menu_is_selected:hover {
 }
 
 a {
-    -webkit-transition: all 0.50s ease;
+/*    -webkit-transition: all 0.50s ease;
     -moz-transition: all 0.50s ease;
-    -o-transition: all 0.50s ease;
+    -o-transition: all 0.50s ease;*/
 }
 
 div.js_box {
@@ -1867,7 +1936,7 @@ div.js_box {
 }
 
 div.js_box div.activity_feed_form_holder {
-    //height: 90px;
+    /* height: 90px; */
 }
 
 div.js_box div.activity_feed_form_button_position {
@@ -1942,6 +2011,8 @@ div#js_main_feed_holder div#img_picker {
     margin-left: 5px;
 }
 
+
+
 /* Responsive Start Here */ 
 
 /* Mobile Phones Portrait */ 
@@ -1956,6 +2027,12 @@ div#js_main_feed_holder div#img_picker {
 
 /* Mobile Phones Portrait or Landscape */ @media screen and (max-device-width: 640px){ } /* iPhone 4+ Portrait or Landscape */ @media screen and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2){ } /* Tablets Portrait or Landscape */ @media screen and (min-device-width: 768px) and (max-device-width: 1024px){ } /* Tablets For portrait layouts only */ @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) { } /* Tablets For landscape layouts only */ @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) { } /* Desktops */ @media screen and (min-width: 1024px){ } /* Large Screen */ @media (min-width: 1200px) { .holder{ width:1172px } #header_right{ } } @media only screen and (max-width: 725px) { #header_menu_holder ul li{ display:none } #header_menu_holder ul li#mac_user_pic, #header_menu_holder ul li.mac_share_links_top{ display:block } } @media only screen and (max-width: 815px) { #holder_notify { display:none } } /* Smaller than standard 1080px (devices and browsers) */ @media only screen and (max-width: 1079px) { /*#right{ display:none } #content{ width:100%!important }*/ } /* Smaller than standard 880px (devices and browsers) */ @media only screen and (max-width: 990px) { #header_search{ display:none } #holder_notify { left:0; } } /* max-width: 768 - only for not tablet or desktop */ @media only screen and (max-width: 768px) { #left, .welcome_profile_right, #header_menu_holder > ul > li:last-child { display:none } #main_content{ margin-left:0 } .activity_feed_content_image img { max-width: 300px; height:auto; } #right{ /* this will hide also right side */ display:none } #content{/* important if you hide right and left side */ width:100%!important } } /* Smaller than standard 689px (devices and browsers) */ @media only screen and (max-width: 689px) { #holder_notify { display:none } #mac_user_pic #js_user_name_link_administrator { display:none } } /* Smaller than standard 609px (devices and browsers) */ @media only screen and (max-width: 609px) { #header_menu_holder { /*display:none*/ } #activity_feed_form_attach{ height:20px; overflow:hidden; } } /* Not for responsive, only for fix some design of default phpfox theme, you can remove this code if you want */ #header_menu { background:skyblue; /* remove background image of main menu of default phpfox theme because have fixed width of 980px */ }
 
+/* End Responsive */
+
+
+.js_feed_view_more_entry_holder .js_feed_comment_view_more_holder {
+    background-color: #F6F6F6;
+}
 
 .js_feed_view_more_entry_holder.post_type_ex .js_feed_comment_view_more_holder {
     background-color: #D3EBF6;
@@ -2019,6 +2096,9 @@ div.eventsCalendar-currentTitle {
     color: #ffffff;
     text-decoration: none;
     cursor: pointer;
+    -webkit-border-radius: 10px; 
+    -moz-border-radius: 10px; 
+    border-radius: 10px;
 }
 
 .button-next {
@@ -2108,4 +2188,51 @@ div#eventCalendarHumanDate #calendarEventErrorForm {
 li.eventsCalendar-day.dayWithEvents a:hover {
     background: #98E479;
 }
+
+div.activity_feed_content_info {
+    margin-top: -28px;
+    padding-left: 20px;
+    margin-left: -20px;
+    font-weight: bold;
+}
+
+div.js_feed_view_more_entry_holder.post_type_ex div.activity_feed_content_info {
+    padding-left: 0;
+    margin-left: 0;
+    margin-top: -38px;
+    padding-right: 20px;
+    margin-right: -40px;
+    text-align: right;
+}
+
+div.js_feed_view_more_entry_holder.post_type_next div.activity_feed_content_info {
+    padding-left: 0;
+    margin-top: -38px;
+    margin-left: -25px;
+}
+
+div.js_feed_view_more_entry_holder.post_type_next .activity_feed_content_info span.user_profile_link_span a {
+    background-image: url('../image/arrow-next.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #FFFFFF;
+    display: inline-block;
+    height: 40px;
+    width: 130px;
+    line-height: 37px;
+    text-align: center;
+}
+
+div.js_feed_view_more_entry_holder.post_type_ex .activity_feed_content_info span.user_profile_link_span a {
+    background-image: url('../image/arrow-ex.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #FFFFFF;
+    display: inline-block;
+    height: 40px;
+    width: 130px;
+    line-height: 37px;
+    text-align: center;
+}
+
 
