@@ -133,11 +133,13 @@ defined('PHPFOX') or exit('NO DICE!');
 										</div>
 										
 										<div id="nb_favorites" class="block">
+                                                                                {if false}
 											<div class="title">
 												<a href="#" class="nb_edit_block_title">{phrase var='theme.edit'}</a>
 												{phrase var='theme.favorites'}
 											</div>
-											<div id="nb_main_menu">
+										{/if}
+                                                                                        <div id="nb_main_menu">
 												{assign var='iTotalHide' value=8}
 												{menu}
 											</div>		
