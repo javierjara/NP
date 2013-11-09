@@ -1565,6 +1565,13 @@ div.js_feed_view_more_entry_holder.post_type_next {
 
 #header {
     background: #52C921;
+    background: -moz-linear-gradient(top,  #52eb21 0%, #52c921 50%, #52c921 100%, #52c921 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#52eb21), color-stop(50%,#52c921), color-stop(100%,#52c921), color-stop(100%,#52c921)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #52eb21 0%,#52c921 50%,#52c921 100%,#52c921 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #52eb21 0%,#52c921 50%,#52c921 100%,#52c921 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #52eb21 0%,#52c921 50%,#52c921 100%,#52c921 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #52eb21 0%,#52c921 50%,#52c921 100%,#52c921 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#52eb21', endColorstr='#52c921',GradientType=0 ); /* IE6-9 */
 }
 
 #header_left a#logo {
