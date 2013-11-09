@@ -1663,8 +1663,8 @@ div.activity_feed_image img {
 }
 
 div.activity_feed_form_button_position_button a {
-    width: 170px;
-    height: 30px;
+    width: 200px;
+    height: 60px;
     text-align: center;
     line-height: 30px;
     color: #fff;
@@ -1673,6 +1673,11 @@ div.activity_feed_form_button_position_button a {
     text-transform: uppercase;
     letter-spacing: 1px;
     font-size: 10px;
+    background-color: transparent;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0; 
     
 }
 
@@ -1681,7 +1686,7 @@ div.activity_feed_form_button_position_button.submit_button_form_ex a {
     -moz-border-radius: 0px 35px 35px 0px;
     border-radius: 0px 35px 35px 0px;
     
-    background-color: #009AEF;
+    background-image: url('../image/np-share-arrow-ex.png');
     float: left;
 }
 
@@ -1690,18 +1695,26 @@ div.activity_feed_form_button_position_button.submit_button_form_next a {
     -moz-border-radius: 35px 0px 0px 35px;
     border-radius: 35px 0px 0px 35px;
     
-    background-color: #52C921;
+    background-image: url('../image/np-share-arrow-next.png');
     float: left;
     
     margin-left: 10px;
 }
 
-div.activity_feed_form_button_position_button.submit_button_form_ex:hover a {
-    background-color: #84C3E5;
+div.activity_feed_form_button_position_button.submit_button_form_ex a:hover {
+    background-image: url('../image/np-share-arrow-ex-hover.png');
+    -webkit-transition: all 0.50s ease;
+    -moz-transition: all 0.50s ease;
+    -o-transition: all 0.50s ease;
+    
 }
 
-div.activity_feed_form_button_position_button.submit_button_form_next:hover a {
-    background-color: #A2EB84;
+div.activity_feed_form_button_position_button.submit_button_form_next a:hover {
+    background-image: url('../image/np-share-arrow-next-hover.png');
+    -webkit-transition: all 0.50s ease;
+    -moz-transition: all 0.50s ease;
+    -o-transition: all 0.50s ease;
+    
 }
 
 div.activity_feed_form_button_position_button:hover span.ex_button_arrow {
@@ -2249,4 +2262,23 @@ div.js_feed_view_more_entry_holder.post_type_ex .activity_feed_content_info span
 
 #holder_notify {
     left: 0;
+}
+
+div.activity_feed_form_button_position {
+    width: 420px;
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    height: auto;
+    padding-top: 0;
+    padding-left: 0;
+}
+
+textarea.js_comment_feed_textarea {
+    height: 30px;
+}
+
+textarea.js_comment_feed_textarea_focus {
+    height: 40px;
 }
