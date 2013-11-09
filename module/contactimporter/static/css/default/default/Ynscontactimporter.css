@@ -1,0 +1,381 @@
+.logo {
+	-moz-background-clip:border !important;
+	-moz-background-inline-policy:continuous !important;
+	-moz-background-origin:padding !important;
+	-moz-background-size:auto auto;
+	background-attachment:scroll;
+	background-color:transparent;
+	background-image:none;
+	background-position:0 0;
+	background-repeat:repeat;
+	cursor:pointer !important;
+	float:left !important;
+	height:auto !important;
+	padding:0 15px 0 0 !important;
+	width:auto !important;
+}
+
+.mail_list #password_box-label
+{
+    float:left;
+    padding-right:4px;
+}
+
+.mail_list .logo img,.mail_list a img  {
+        border:0 solid #EAEAEA;
+        height:40px;
+        margin:0;
+        padding:0;
+        width:40px;
+}
+.global_form div.form-elements{
+	overflow:hidden;
+	color:#555555;
+	font-size:10pt;
+	text-align:left;
+	font-family:tahoma,arial,verdana,sans-serif;
+	border:0 solid #EAEAEA;
+	margin-left:100px;
+	padding:0;
+        clear:both;
+	
+}
+div #import-element{
+	
+}
+ul.errors{
+	color:red;
+	font-weight:700;
+	/*border:1px green solid;*/
+}
+button, .button
+{
+	-moz-border-radius:6px 6px 6px 6px;
+	background:url("../theme/frontend/default/style/default/image/layout/input_button.png") repeat-x scroll 0 0 #195B85;
+	border:medium none;
+	color:#FFFFFF;
+	cursor:pointer;
+	font-size:8pt;
+	font-weight:bold;
+	
+	overflow:visible;
+	padding:4px 1px;
+	vertical-align:middle;
+	margin-top:5px;
+}
+.form-label{
+	width: 59px;
+}
+div#email_box-label{
+	clear:both;
+	overflow:hidden;
+	color:#555555;
+	font-size:10pt;
+	text-align:right;
+	margin-top:4px;
+	font-family:tahoma,arial,verdana,sans-serif;
+	border:0 solid #EAEAEA;
+	padding:0;
+	float:left;
+	
+}
+div#email_box-element{
+	
+	
+	border:0 solid #EAEAEA;
+	padding:0;
+	float:left;
+	margin-right:0px;
+}
+
+#provider_box_mail select{
+	height:26px;
+	width:90px;
+}
+div#password_box-wrapper{
+	clear:both;
+	overflow:hidden;
+	color:#555555;
+	font-size:10pt;
+	text-align:left;
+
+	font-family:tahoma,arial,verdana,sans-serif;
+
+	border:0 solid #EAEAEA;
+	padding:0;
+	float:left;
+	margin-right:10px;
+	margin-top:4px;
+}
+div#password_box-element{
+	
+	border:0 solid #EAEAEA;
+	padding:0;
+	float:left;
+	
+}
+
+tr.thTableEvenRow{
+	background-color:#ffffff;
+	border-bottom:1px solid #C0C0C0!important;
+	padding-bottom:2px;
+}
+.thTableSelectRow{
+	background-color: #79B4D4;
+	border-bottom:1px solid #C0C0C0!important;
+	padding-bottom:2px;
+}
+#lable_provider_box
+{
+   text-align: right;
+
+   vertical-align: middle;
+   float:right;
+   padding-top:3px;
+}
+
+div.mail_list {
+    display: block;
+    position: relative;
+    width: 100%;
+    min-height: 200px;
+  	 overflow: hidden;
+}
+
+div.mail_list .global_form
+{
+    display: block;
+    clear:both;
+}
+div.mail_list .global_form div.form-elements {
+    margin: 0;
+    padding-left: 100px !important;
+    background-color: #EDEFF4;
+    min-height: 80px !important;
+    position: relative !important;
+    min-width: 420px !important;
+}
+
+#get_contact_email
+{
+
+}
+
+div.mail_list h5.active,div.mail_list h5.active,div.mail_list #js_form_export {
+ background-color: #EDEFF4;
+}
+div.mail_list h5
+{
+    border-top: 1px solid #CCCCCC;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    height: 40px;
+    padding: 5px 0;
+}
+
+
+div.mail_list h5:hover
+{
+   background-color: #EDEFF4;
+   cursor: pointer;
+}
+
+div.mail_list span.title
+{
+    display: block;
+    float: left;
+    font-size: 12px;
+    font-weight: normal;
+    padding-top: 7px;
+}
+
+div.mail_list span.findfriends
+{
+    color: #3B5998;
+    float: right;
+    font-size: 13px;
+    padding: 16px 10px 0 0;
+}
+
+.global_form .toggle_container
+{
+    padding: 0 0 10px !important;
+}
+
+.required {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+div#email_box-label {
+    padding: 0 4px 0 0;
+}
+
+.global_form .form-wrapper
+{
+   padding: 5px 0;
+}
+
+.global_form  .button
+{
+  margin-top: 5px;
+
+}
+
+.mail_list .global_form .button,#import_form #import-element .button
+{
+    margin-left: 64px !important;
+}
+
+div.mail_list h5:hover
+{
+   background-color: #EDEFF4;
+}
+
+div.mail_list h5#trigger_export
+{
+    background-image: url("../../../image/social_mail.png");
+    background-position: 0 -108px;
+    background-repeat: no-repeat;
+    font-weight: bold;
+    height: 40px;
+    cursor: pointer;
+    border-top: 1px solid #CCCCCC;
+    padding:0;
+}
+
+h5#trigger_export span
+{
+   display: block;
+    font-size: 12px;
+    font-weight: normal;
+    height: 26px;
+    padding: 10px 0 0 47px;
+}
+
+#sort
+{
+  float: left;
+  width: 7%;
+  text-align: center;
+  padding-top: 15px;
+  background-color: AliceBlue;
+}
+
+#sort .hidden a
+{
+   color: #ddd;
+   cursor: none !important;
+   text-decoration:none !important;
+}
+
+#sort .hidden a:hover,#sort li.hidden:hover
+{
+   cursor: text !important;
+   text-decoration:none !important;
+}
+
+#sort ul li
+{
+  line-height: 21px;
+}
+
+#sort ul li a
+{
+  color: #4a72ad;
+  font-weight: bold;
+
+}
+
+.thTableOddRow td.label
+{
+  border-bottom: 2px solid #bbbbbf;
+  color: #000000;
+  font-weight: bold;
+  width:100%;
+
+}
+
+#div_list_view
+{
+    float: left;
+    height: 560px;
+    overflow-x: hidden;
+    overflow-y: auto;
+	width: 91%;
+	padding-left: 2%;
+}
+
+div.wrapper-list
+{
+   border-bottom: 5px solid #EDEDED;
+   border-left: 2px solid #EDEDED;
+   float:left;
+   width: 100%;
+}
+
+div.wrapper-list tr.thTableOddRow:hover,div.wrapper-list .thTableSelectRow
+{
+   cursor: pointer;
+   background-color: #fff8db;
+}
+
+#div_list_view td.name
+{
+  color: #AAAAA8;
+}
+
+#div_list_view .thTableOddRow
+{
+ width: 98%;
+}
+
+.form-errors .errors li
+{
+   border: medium none;
+   padding: 10px 0 0;
+}
+
+#uploadcsvform3
+{
+    padding-bottom: 10px;
+
+}
+
+.mail_list #uploadcsvform3 .button
+{
+     margin-left: 119px !important;
+}
+
+ /*div.mail_list a#linkedinA,div.mail_list a#twitterA,div.mail_list a#fbApi*/
+ div.mail_list a.usingapi
+{
+    border-top:1px solid #CCCCCC;
+    cursor:pointer;
+    display:block;    
+    padding:5px 0;
+    width:100%;
+    text-decoration: none;
+    
+}
+
+ /*div.mail_list a#linkedinA:hover,div.mail_list a#twitterA:hover,div.mail_list a#fbApi:hover*/
+  div.mail_list a.usingapi:hover
+ {
+     background-color: #EDEFF4;
+}
+
+ /*div.mail_list a#linkedinA span.title, div.mail_list a#twitterA span.title */
+  div.mail_list a.usingapi span.title
+ {
+    color:#333333;
+    display:inline-block;
+    float:none;
+    font-size:12px;
+    font-weight:normal;
+    padding:0 0 0 14px;
+    position:relative;
+    top:-12px;
+
+}

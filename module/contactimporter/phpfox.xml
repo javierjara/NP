@@ -1,0 +1,186 @@
+<module>
+	<data>
+		<module_id>contactimporter</module_id>
+		<product_id>contactimporter</product_id>
+		<is_core>0</is_core>
+		<is_active>1</is_active>
+		<is_menu>1</is_menu>
+		<menu><![CDATA[a:3:{s:42:"contactimporter.admin_menu_global_settings";a:1:{s:3:"url";a:2:{i:0;s:15:"contactimporter";i:1;s:8:"settings";}}s:36:"contactimporter.admin_menu_providers";a:1:{s:3:"url";a:2:{i:0;s:15:"contactimporter";i:1;s:9:"providers";}}s:43:"contactimporter.admin_menu_invitations_list";a:1:{s:3:"url";a:2:{i:0;s:15:"contactimporter";i:1;s:11:"invitations";}}}]]></menu>
+		<phrase_var_name>module_contactimporter</phrase_var_name>
+	</data>
+	<menus>
+		<menu module_id="contactimporter" parent_var_name="" m_connection="contactimporter" var_name="menu_contactimporter_pending_invitations_ec70f822ee6bbe43943e1fc631b277fd" ordering="105" url_value="contactimporter.invitations" version_id="2.0.5" disallow_access="" module="contactimporter" />
+		<menu module_id="contactimporter" parent_var_name="" m_connection="contactimporter" var_name="menu_contactimporter_invite_friends_8025c944319ee8c718c53ec70d137890" ordering="104" url_value="contactimporter" version_id="2.0.5" disallow_access="" module="contactimporter" />
+		<menu module_id="contactimporter" parent_var_name="" m_connection="contactimporter" var_name="menu_contactimporter_export_csv_8025c944319ee8c718c53ec70d137890" ordering="106" url_value="contactimporter.export" version_id="2.1.0" disallow_access="" module="contactimporter" />
+		<menu module_id="contactimporter" parent_var_name="" m_connection="main" var_name="menu_contactimporter_inviter_fad58de7366495db4650cfefac2fcd61" ordering="100" url_value="contactimporter" version_id="2.0.5" disallow_access="" module="contactimporter" />
+		<menu module_id="contactimporter" parent_var_name="" m_connection="" var_name="menu_contactimporter_invite_friends_d41d8cd98f00b204e9800998ecf8427e" ordering="101" url_value="contactimporter" version_id="2.0.5" disallow_access="" module="contactimporter" />
+	</menus>
+	<blocks>
+		<block type_id="0" m_connection="core.index-member" module_id="contactimporter" component="home_contact" location="2" is_active="1" ordering="2" disallow_access="" can_move="1">
+			<title>Import Your Contacts</title>
+			<source_code />
+			<source_parsed />
+		</block>
+		<block type_id="0" m_connection="contactimporter" module_id="contactimporter" component="top-inviter" location="1" is_active="1" ordering="1" disallow_access="" can_move="0">
+			<title>Top Inviter</title>
+			<source_code />
+			<source_parsed />
+		</block>
+		<block type_id="0" m_connection="core.index-visitor" module_id="contactimporter" component="home_contact_visiter" location="2" is_active="1" ordering="3" disallow_access="" can_move="0">
+			<title>Import Your Contacts</title>
+			<source_code />
+			<source_parsed />
+		</block>
+		<block type_id="0" m_connection="contactimporter" module_id="contactimporter" component="statistics" location="1" is_active="1" ordering="2" disallow_access="" can_move="0">
+			<title>Statistics</title>
+			<source_code />
+			<source_parsed />
+		</block>
+	</blocks>
+	<components>
+		<component module_id="contactimporter" component="export" m_connection="contactimporter.export" module="contactimporter" is_controller="1" is_block="0" is_active="1" />
+		<component module_id="contactimporter" component="index" m_connection="contactimporter" module="contactimporter" is_controller="1" is_block="0" is_active="1" />
+		<component module_id="contactimporter" component="invite" m_connection="contactimporter.invite" module="contactimporter" is_controller="1" is_block="0" is_active="1" />
+		<component module_id="contactimporter" component="invitations" m_connection="contactimporter.invitations" module="contactimporter" is_controller="1" is_block="0" is_active="1" />
+		<component module_id="contactimporter" component="home_contact_visiter" m_connection="" module="contactimporter" is_controller="0" is_block="1" is_active="1" />
+		<component module_id="contactimporter" component="home_contact" m_connection="" module="contactimporter" is_controller="0" is_block="1" is_active="1" />
+		<component module_id="contactimporter" component="top-inviter" m_connection="" module="contactimporter" is_controller="0" is_block="1" is_active="1" />
+		<component module_id="contactimporter" component="Statistics" m_connection="" module="contactimporter" is_controller="0" is_block="1" is_active="1" />
+		<component module_id="contactimporter" component="statistics" m_connection="" module="contactimporter" is_controller="0" is_block="1" is_active="1" />
+	</components>
+	<phrases>
+		<phrase module_id="contactimporter" version_id="2.0.5" var_name="module_contactimporter" added="1287218338">Contact Importer</phrase>
+		<phrase module_id="contactimporter" version_id="2.0.5" var_name="menu_contactimporter_inviter_fad58de7366495db4650cfefac2fcd61" added="1287219594">Inviter</phrase>
+		<phrase module_id="contactimporter" version_id="2.0.5" var_name="menu_contactimporter_invite_friends_d41d8cd98f00b204e9800998ecf8427e" added="1287219765">Invite Friends</phrase>
+		<phrase module_id="contactimporter" version_id="2.0.5" var_name="menu_contactimporter_invite_friends_8025c944319ee8c718c53ec70d137890" added="1287220727">Invite Friends</phrase>
+		<phrase module_id="contactimporter" version_id="2.0.5" var_name="menu_contactimporter_pending_invitations_ec70f822ee6bbe43943e1fc631b277fd" added="1287220765">Pending Invitations</phrase>
+		<phrase module_id="contactimporter" version_id="2.0.5" var_name="homepage_contact" added="1287389628">Import Your Contacts</phrase>
+		<phrase module_id="contactimporter" version_id="2.0.5" var_name="admin_menu_global_settings" added="1287482300">Global Settings</phrase>
+		<phrase module_id="contactimporter" version_id="2.0.5" var_name="admin_menu_providers" added="1287482300">Providers</phrase>
+		<phrase module_id="contactimporter" version_id="2.0.5" var_name="default_invite_message" added="1287484002">Default invite message</phrase>
+		<phrase module_id="contactimporter" version_id="2.0.5" var_name="message_label" added="1287484154">Message</phrase>
+		<phrase module_id="contactimporter" version_id="2.0.5" var_name="save_change" added="1287484461">Save Changes</phrase>
+		<phrase module_id="contactimporter" version_id="2.0.5" var_name="member_lever_settings" added="1287484569">Member Level Settings</phrase>
+		<phrase module_id="contactimporter" version_id="2.0.5" var_name="member_lever_settings_description" added="1287484822">These settings are applied on a per member level basis. Start by selecting the member level you want to modify, then adjust the settings for that level below.</phrase>
+		<phrase module_id="contactimporter" version_id="2.0.5" var_name="member_level" added="1287484992">Member Level</phrase>
+		<phrase module_id="contactimporter" version_id="2.0.5" var_name="maximum_allowed_invitations" added="1287485060">Maximum Allowed Invitations</phrase>
+		<phrase module_id="contactimporter" version_id="2.0.5" var_name="default_invite_message_text" added="1287485626">Hi ! Nice to meet you!!! This is a testing</phrase>
+		<phrase module_id="contactimporter" version_id="2.0.5" var_name="update_default_message" added="1287495841">The default message invitation was updated.</phrase>
+		<phrase module_id="contactimporter" version_id="2.0.5" var_name="maximum_allowed_invitations_update" added="1287496276">The Maximum Allowed Invitations for each group users was updated.</phrase>
+		<phrase module_id="contactimporter" version_id="2.0.5" var_name="contact_providers_name" added="1287539882">Provider Name</phrase>
+		<phrase module_id="contactimporter" version_id="2.0.5" var_name="contact_providers_title" added="1287539950">Title Name</phrase>
+		<phrase module_id="contactimporter" version_id="2.0.5" var_name="contact_providers_type" added="1287540045">Provider Type</phrase>
+		<phrase module_id="contactimporter" version_id="2.0.5" var_name="contact_providers_active" added="1287540245">Enable/Disable</phrase>
+		<phrase module_id="contactimporter" version_id="2.0.5" var_name="admincp_providers_name" added="1287587917">Providers</phrase>
+		<phrase module_id="contactimporter" version_id="2.0.5" var_name="admincp_providers_title" added="1287587992">Title</phrase>
+		<phrase module_id="contactimporter" version_id="2.0.5" var_name="admincp_providers_type" added="1287588019">Type</phrase>
+		<phrase module_id="contactimporter" version_id="2.0.5" var_name="admincp_providers_logo" added="1287588044">Logo</phrase>
+		<phrase module_id="contactimporter" version_id="2.0.5" var_name="admincp_providers_active" added="1287588070">Enabled/Disabled</phrase>
+		<phrase module_id="contactimporter" version_id="2.0.5" var_name="admincp_providers_order" added="1287588119">Order</phrase>
+		<phrase module_id="contactimporter" version_id="2.0.5" var_name="admincp_providers_avatar" added="1287588145">Avatar/Display</phrase>
+		<phrase module_id="contactimporter" version_id="2.0.5" var_name="admincp_providers_version" added="1287588177">Version</phrase>
+		<phrase module_id="contactimporter" version_id="2.0.5" var_name="admincp_providers_option" added="1287588203">Options</phrase>
+		<phrase module_id="contactimporter" version_id="2.0.5" var_name="contact_providers_edit" added="1287634779">Edit Provider Info</phrase>
+		<phrase module_id="contactimporter" version_id="2.0.5" var_name="import_email_contact_list" added="1287717515">Import Your E-mail/Social Contact List</phrase>
+		<phrase module_id="contactimporter" version_id="2.0.5" var_name="get_contact_description_email" added="1287717594">Get contacts from mail services</phrase>
+		<phrase module_id="contactimporter" version_id="2.0.5" var_name="import_contact" added="1287734397">Import Contacts</phrase>
+		<phrase module_id="contactimporter" version_id="2.0.5" var_name="inviete_by_manually" added="1287734481">invite by manually typing emails</phrase>
+		<phrase module_id="contactimporter" version_id="2.0.5" var_name="or" added="1287734533">Or</phrase>
+		<phrase module_id="contactimporter" version_id="2.0.5" var_name="upload_file_csv" added="1287734578">upload File CSV</phrase>
+		<phrase module_id="contactimporter" version_id="2.0.5" var_name="read_contact" added="1287734598">Read Contacts</phrase>
+		<phrase module_id="contactimporter" version_id="2.0.5" var_name="import_your_socail_contact_list" added="1287734638">Import Your Social Contact List</phrase>
+		<phrase module_id="contactimporter" version_id="2.0.5" var_name="get_contact_description_social" added="1287734667">Get contacts from social network services.</phrase>
+		<phrase module_id="contactimporter" version_id="2.0.5" var_name="user" added="1287734709">User</phrase>
+		<phrase module_id="contactimporter" version_id="2.0.5" var_name="provider_text" added="1287734732">Provider</phrase>
+		<phrase module_id="contactimporter" version_id="2.0.5" var_name="your_contacts" added="1287734789">Your contacts</phrase>
+		<phrase module_id="contactimporter" version_id="2.0.5" var_name="the_following_people_are_not_your_friends" added="1287734835">The following people are not your friends yet, please select to add connections</phrase>
+		<phrase module_id="contactimporter" version_id="2.0.5" var_name="name" added="1287734880">Name</phrase>
+		<phrase module_id="contactimporter" version_id="2.0.5" var_name="avatar" added="1287734897">Avatar</phrase>
+		<phrase module_id="contactimporter" version_id="2.0.5" var_name="not_have_any_contacts" added="1287734927">You do not have any contacts in your address book</phrase>
+		<phrase module_id="contactimporter" version_id="2.0.5" var_name="custom_message_title" added="1287734963">Custom Message</phrase>
+		<phrase module_id="contactimporter" version_id="2.0.5" var_name="send_invites" added="1287735004">Send Invites</phrase>
+		<phrase module_id="contactimporter" version_id="2.0.5" var_name="are_not_joined_yet" added="1287735125">The following people have not joined yet, please select to send invitations</phrase>
+		<phrase module_id="contactimporter" version_id="2.0.5" var_name="you_can_send" added="1287735153">You can send</phrase>
+		<phrase module_id="contactimporter" version_id="2.0.5" var_name="invitations" added="1287735171">invitations</phrase>
+		<phrase module_id="contactimporter" version_id="2.0.5" var_name="admin_menu_invitations_list" added="1295515277">Invitations List</phrase>
+		<phrase module_id="contactimporter" version_id="2.0.7" var_name="total_contats_you_sent_the_invitations" added="1295669266">Total contacts you sent the invitations</phrase>
+		<phrase module_id="contactimporter" version_id="2.0.7" var_name="your_contacts_from_emails" added="1295669302">Your contacts from Emails</phrase>
+		<phrase module_id="contactimporter" version_id="2.0.7" var_name="your_contacts_from_socials" added="1295669327">Your contacts from Socials</phrase>
+		<phrase module_id="contactimporter" version_id="2.1.0" var_name="menu_contactimporter_export_csv_8025c944319ee8c718c53ec70d137890" added="1305596935">Export Contacts</phrase>
+		<phrase module_id="contactimporter" version_id="2.1.0" var_name="block_all_further_email_messages" added="1308107267"><![CDATA[<p>You were added in the Unsubscribe that mean you will block all further email messages. If at the first you visit, please <a href="{signup}">Sign Up</a> for getting more information Or <a href="{login}">Login</a></p>]]></phrase>
+		<phrase module_id="contactimporter" version_id="2.1.0" var_name="you_were_invited_by" added="1308108421"><![CDATA[<p>You were invited for visiting. If at the first you visit, please <a href="{signup}">Sign Up</a> for getting more information Or <a href="{login}">Login</a></p>]]></phrase>
+		<phrase module_id="contactimporter" version_id="2.1.0" var_name="facebook_settings" added="1308628209">Facebook Settings</phrase>
+		<phrase module_id="contactimporter" version_id="2.1.0" var_name="facebook_api_key" added="1308628238">Facebook API Key:</phrase>
+		<phrase module_id="contactimporter" version_id="2.1.0" var_name="facebook_secret" added="1308628263">Facebook Secret:</phrase>
+		<phrase module_id="contactimporter" version_id="2.1.0" var_name="application_id" added="1308628294">Application ID:</phrase>
+		<phrase module_id="contactimporter" version_id="2.1.0" var_name="default_domain" added="1308629211">Default Domain</phrase>
+		<phrase module_id="contactimporter" version_id="2.1.0" var_name="keywords" added="1308629465">Keywords</phrase>
+		<phrase module_id="contactimporter" version_id="2.0.7" var_name="global_settings" added="1308998421">Global Settings</phrase>
+		<phrase module_id="contactimporter" version_id="2.0.7" var_name="maximum_number_of_providers_per_home_page" added="1308998812">Maximum number of providers per home page</phrase>
+		<phrase module_id="contactimporter" version_id="2.0.7" var_name="number_provider_display" added="1308998862">number_provider_display</phrase>
+		<phrase module_id="contactimporter" version_id="2.0.7" var_name="unsubcribe" added="1308999347">Unsubcribe</phrase>
+		<phrase module_id="contactimporter" version_id="2.1.0" var_name="breadcrumb_contactimporter_title" added="1314001109">Contact Importer</phrase>
+		<phrase module_id="contactimporter" version_id="2.1.0" var_name="other_tools_title" added="1314068348">Other Tools</phrase>
+		<phrase module_id="contactimporter" version_id="2.1.0" var_name="statistics" added="1314068518">Statistics</phrase>
+		<phrase module_id="contactimporter" version_id="2.1.0" var_name="top_inviters" added="1314068576">Top inviters</phrase>
+		<phrase module_id="contactimporter" version_id="2.1.0" var_name="export_your_friend_contacts" added="1314068654">Export Your Friend Contacts</phrase>
+		<phrase module_id="contactimporter" version_id="2.1.0" var_name="if_you_have_posts_in_another_system_you_can_export_those_into_this_site_to_get_started_choose_a_s" added="1314068683">If you have contacts in this site, you can export those into another system</phrase>
+		<phrase module_id="contactimporter" version_id="2.1.0" var_name="export_contact_to_csv_file" added="1314068715">export contact to CSV file</phrase>
+		<phrase module_id="contactimporter" version_id="2.1.0" var_name="export_contacts" added="1314068740">Export Contacts</phrase>
+		<phrase module_id="contactimporter" version_id="2.1.0" var_name="export_your_friend_contacts_to_csv_file" added="1314068761">Export your friend contacts to CSV file</phrase>
+		<phrase module_id="contactimporter" version_id="2.1.0" var_name="need_to_be_logged_in_for_exporting_your_friend_contacts" added="1314068856">Need to be logged in for exporting your friend contacts</phrase>
+		<phrase module_id="contactimporter" version_id="2.1.0" var_name="your_friend_contact_is_empty" added="1314068902">Your friend contact is empty</phrase>
+		<phrase module_id="contactimporter" version_id="2.1.0" var_name="sending_request" added="1314069004">Sending request ...</phrase>
+		<phrase module_id="contactimporter" version_id="2.1.0" var_name="skip" added="1314069130">Skip</phrase>
+		<phrase module_id="contactimporter" version_id="2.1.0" var_name="invite_friends" added="1314069256">Invite Friends</phrase>
+		<phrase module_id="contactimporter" version_id="2.1.0" var_name="there_were_errors_when_you_send_the_invitation" added="1314069394">There were errors when you send the invitation!</phrase>
+		<phrase module_id="contactimporter" version_id="2.1.0" var_name="send_invitation_to_your_friends_successfully" added="1314069592"><![CDATA[Send invitation to your friends Successfully! You can continue to <a href="{contactimporter_link}" alt="Import Connection">Import Connection</a> or return to <a href="{homepage}" alt="Import Connection">Home Page</a>]]></phrase>
+		<phrase module_id="contactimporter" version_id="2.1.0" var_name="login_failed_please_check_the_email_and_password_you_have_provided_and_try_again_later" added="1314070001">Login failed. Please check the email and password you have provided and try again later !</phrase>
+		<phrase module_id="contactimporter" version_id="2.1.0" var_name="unable_to_get_contacts" added="1314070026">Unable to get contacts !</phrase>
+		<phrase module_id="contactimporter" version_id="2.1.0" var_name="there_s_no_contact_in_your_account_yet" added="1314070048"><![CDATA[There's no contact in your account yet.]]></phrase>
+		<phrase module_id="contactimporter" version_id="2.1.0" var_name="need_to_be_logged_in_for_getting_the_contact_importer_feature" added="1314070120">Need to be logged in for getting the Contact Importer feature.</phrase>
+		<phrase module_id="contactimporter" version_id="2.1.0" var_name="yahoo_contacts" added="1314070595">Yahoo Contacts</phrase>
+		<phrase module_id="contactimporter" version_id="2.1.0" var_name="login_to_access_and_get_yahoo_contacts_from_your_account" added="1314070646">Login to access and get yahoo contacts from your account</phrase>
+		<phrase module_id="contactimporter" version_id="2.1.0" var_name="email_is_subscribed_successfullly" added="1314071003">Email is subscribed successfullly.</phrase>
+		<phrase module_id="contactimporter" version_id="2.1.0" var_name="email_did_not_subscribe" added="1314071022">Email did not subscribe.</phrase>
+		<phrase module_id="contactimporter" version_id="2.1.0" var_name="the_invitation_message_was_resent_successfully" added="1314071082">The invitation message was resent successfully.</phrase>
+		<phrase module_id="contactimporter" version_id="2.1.0" var_name="the_invitaion_message_was_not_resent" added="1314071121">The invitation message was not resent.</phrase>
+		<phrase module_id="contactimporter" version_id="2.1.0" var_name="the_invitation_was_added_in_the_unsubscribe_please_do_not_send_anything_else" added="1314071167">The invitation was added in the unsubscribe. Please do not send anything else.</phrase>
+		<phrase module_id="contactimporter" version_id="2.1.0" var_name="twitter_authorization" added="1314071233">Twitter Authorization</phrase>
+		<phrase module_id="contactimporter" version_id="2.1.0" var_name="twitter_network_requires_the_authorization_to_access_and_get_contacts_from_your_account" added="1314071326">Twitter network requires the Authorization to access and get contacts from your account</phrase>
+		<phrase module_id="contactimporter" version_id="2.1.0" var_name="linkedin_authorization" added="1314072418">LinkedIn Authorization</phrase>
+		<phrase module_id="contactimporter" version_id="2.1.0" var_name="linkedin_network_requires_the_authorization_to_access_and_get_contacts_from_your_account" added="1314072511">LinkedIn network requires the Authorization to access and get contacts from your account</phrase>
+		<phrase module_id="contactimporter" version_id="2.1.0" var_name="need_to_be_logged_in" added="1314072893">Need to be logged in</phrase>
+		<phrase module_id="contactimporter" version_id="2.1.0" var_name="is_inviting_you_to" added="1314073098">is inviting you to</phrase>
+		<phrase module_id="contactimporter" version_id="2.1.0" var_name="to_join_please_follow_the_link" added="1314073218">To join,please follow the link</phrase>
+		<phrase module_id="contactimporter" version_id="2.1.0" var_name="message" added="1314073249">Message</phrase>
+		<phrase module_id="contactimporter" version_id="2.1.0" var_name="attached_message" added="1314073275">Attached message</phrase>
+		<phrase module_id="contactimporter" version_id="2.1.0" var_name="you_haven_t_selected_any_contacts_to_invite" added="1314073679"><![CDATA[You haven't selected any contacts to invite]]></phrase>
+		<phrase module_id="contactimporter" version_id="2.1.0" var_name="find_out_why_you_were_invited_by_clicking_here" added="1314073809">Find out why you were invited by clicking here</phrase>
+		<phrase module_id="contactimporter" version_id="2.1.0" var_name="block_all_further_email_mesages" added="1314073837">Block all further email mesages</phrase>
+		<phrase module_id="contactimporter" version_id="2.1.0" var_name="the_invitation_was_added_in_the_unsubscribe_please_do_not_send_to_this_email" added="1314073990">The invitation was added in the unsubscribe.Please do not send to this email.</phrase>
+		<phrase module_id="contactimporter" version_id="3.0.0rc2" var_name="view_more" added="1321746393">View More</phrase>
+		<phrase module_id="contactimporter" version_id="3.0.0rc2" var_name="view_all_of_providers" added="1321746410">View all of providers</phrase>
+		<phrase module_id="contactimporter" version_id="3.0.0rc2" var_name="please_enter_your_facebook_api" added="1321746982">Please enter your facebook API.</phrase>
+		<phrase module_id="contactimporter" version_id="3.0.0rc2" var_name="user_setting_hide_the_custom_invittation_message" added="1321747444">Hide the custom invitation message and use the default message admin set.</phrase>
+		<phrase module_id="contactimporter" version_id="3.0.0rc2" var_name="there_is_not_contact_in_your_account" added="1321747650">There is not contact in your account.</phrase>
+		<phrase module_id="contactimporter" version_id="3.0.0rc3" var_name="to_receive_the_further_email_messages" added="1323204606">to receive the further email messages.</phrase>
+		<phrase module_id="contactimporter" version_id="3.0.0rc3" var_name="subscribe" added="1323204620">Subscribe</phrase>
+		<phrase module_id="contactimporter" version_id="3.0.0rc3" var_name="you_can_click" added="1323204644">You can click</phrase>
+		<phrase module_id="contactimporter" version_id="3.0.0rc3" var_name="contact_importer" added="1323205957">Contact Importer</phrase>
+		<phrase module_id="contactimporter" version_id="3.0.0rc3" var_name="you_were_invited_by_p" added="1323206144">You were invited by</phrase>
+		<phrase module_id="contactimporter" version_id="3.0.0rc3" var_name="import_your_contacts" added="1323529697">Import Your Contacts</phrase>
+		<phrase module_id="contactimporter" version_id="3.0.0rc3" var_name="all_your_contacts_was_sent_the_invitation" added="1323529732">All your contacts was sent the invitation !</phrase>
+		<phrase module_id="contactimporter" version_id="3.0.0rc3" var_name="and" added="1323534110">and</phrase>
+		<phrase module_id="contactimporter" version_id="3.0.0rc3" var_name="resendall" added="1323534132">Resend All Selected</phrase>
+		<phrase module_id="contactimporter" version_id="3.0.0rc3" var_name="resend_all_invitations" added="1323534358">Resend All Invitations</phrase>
+		<phrase module_id="contactimporter" version_id="3.0.0" var_name="you_are_invited_to_message_from_host" added="1324580050">You are invited to {host}.\n\r To join,please follow the link \n\r{link}</phrase>
+		<phrase module_id="contactimporter" version_id="3.0.0" var_name="there_is_no_contact_in_your_account" added="1324580661">There is no contact in your account.</phrase>
+		<phrase module_id="contactimporter" version_id="3.2.0" var_name="hotmail_authorization" added="1336717257">Hotmail Authorization</phrase>
+		<phrase module_id="contactimporter" version_id="3.2.0" var_name="login_to_access_and_get_hotmail_contacts_from_your_account" added="1336717311">Login to access and get hotmail contacts from your account</phrase>
+		<phrase module_id="contactimporter" version_id="3.2.0" var_name="you_can_send_max_invitations_per_time" added="1337156925"><![CDATA[You can send <span style="color:red;font-weight:bold">{max}</span> invitations per time]]></phrase>
+	</phrases>
+	<user_group_settings>
+		<setting is_admin_setting="0" module_id="contactimporter" type="boolean" admin="false" user="false" guest="true" staff="false" module="contactimporter" ordering="0">hide_the_custom_invittation_message</setting>
+	</user_group_settings>
+</module>
