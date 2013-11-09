@@ -1,0 +1,45 @@
+<product>
+	<data>
+		<product_id>younetcore</product_id>
+		<is_core>0</is_core>
+		<title>YouNet Core</title>
+		<description>by YouNet Company</description>
+		<version>3.01p2</version>
+		<latest_version></latest_version>
+		<last_check>1324229204</last_check>
+		<is_active>1</is_active>
+		<url></url>
+		<url_version_check></url_version_check>
+	</data>
+	<installs>
+		<install>
+			<version>3.01</version>
+			<install_code><![CDATA[$this->database()->query("CREATE TABLE IF NOT EXISTS `" . Phpfox::getT('younetcore_install') . "` (
+ `token` text NOT NULL,
+  `params` text NOT NULL,
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;");
+
+$this->database()->query("CREATE TABLE IF NOT EXISTS `" . Phpfox::getT('younetcore_license') . "` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `name` varchar(100) NOT NULL,
+  `title` text NOT NULL,
+  `descriptions` text,
+  `type` varchar(50) NOT NULL,
+  `current_version` varchar(50) NOT NULL,
+  `lasted_version` varchar(50) NOT NULL,
+  `is_active` int(1) DEFAULT '0',
+  `date_active` int(11) DEFAULT NULL,
+  `params` text,
+  `download_link` varchar(500) DEFAULT NULL,
+  `demo_link` varchar(500) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;");]]></install_code>
+			<uninstall_code></uninstall_code>
+		</install>
+	</installs>
+	<modules>
+		<module_id>younetcore</module_id>
+	</modules>
+</product>

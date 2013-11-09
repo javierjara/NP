@@ -1,0 +1,49 @@
+<module>
+	<data>
+		<module_id>younetcore</module_id>
+		<product_id>younetcore</product_id>
+		<is_core>0</is_core>
+		<is_active>1</is_active>
+		<is_menu>0</is_menu>
+		<menu />
+		<phrase_var_name>module_younetcore</phrase_var_name>
+	</data>
+	<blocks>
+		<block type_id="0" m_connection="younetcore.admincp.index" module_id="younetcore" component="newsrss" location="1" is_active="1" ordering="1" disallow_access="" can_move="0">
+			<title></title>
+			<source_code />
+			<source_parsed />
+		</block>
+	</blocks>
+	<components>
+		<component module_id="younetcore" component="newsrss" m_connection="" module="younetcore" is_controller="0" is_block="1" is_active="1" />
+		<component module_id="younetcore" component="younetcore.admincp.index" m_connection="younetcore.admincp.index" module="younetcore" is_controller="1" is_block="0" is_active="1" />
+		<component module_id="younetcore" component="view" m_connection="" module="younetcore" is_controller="0" is_block="1" is_active="1" />
+	</components>
+	<phrases>
+		<phrase module_id="younetcore" version_id="3.0.0rc1" var_name="module_younetcore" added="1321395387">YouNetCore</phrase>
+		<phrase module_id="younetcore" version_id="3.0.0rc1" var_name="younetcore" added="1321396146">YouNet Core</phrase>
+		<phrase module_id="younetcore" version_id="3.0.0rc3" var_name="if_there_are_any_problems_related_younet_core_plugins_and_others_developed_by_younet_company_please" added="1323452047"><![CDATA[If there are any problems related YouNet Core Plugins and Others developed by YouNet Company. Please click to  "Check Problems" to solve]]></phrase>
+		<phrase module_id="younetcore" version_id="3.0.0rc3" var_name="check_problems" added="1323452060">Check Problems</phrase>
+		<phrase module_id="younetcore" version_id="3.0.0rc3" var_name="yours_plugins" added="1323452078">Yours Plugins</phrase>
+		<phrase module_id="younetcore" version_id="3.0.0rc3" var_name="younet_plugins" added="1323452088">YouNet Plugins</phrase>
+		<phrase module_id="younetcore" version_id="3.0.0rc3" var_name="license_terms" added="1323452103">License Terms</phrase>
+		<phrase module_id="younetcore" version_id="3.0.0rc3" var_name="younet_plugins_manager" added="1323452305">YouNet Plugins Manager</phrase>
+		<phrase module_id="younetcore" version_id="3.0.0rc3" var_name="no_plugins_by_younet_company_were_found_on_your_site_click_a_href_http_phpfox_modules2buy_com" added="1323452478"><![CDATA[No plugins by YouNet Company were found on your site. Click <a href="http://phpfox.modules2buy.com" target="_blank">here</a> to view and purchase them.]]></phrase>
+		<phrase module_id="younetcore" version_id="3.0.0rc3" var_name="up_to_date" added="1323452503">Up to Date</phrase>
+		<phrase module_id="younetcore" version_id="3.0.0rc3" var_name="verify" added="1323452517">Verify</phrase>
+		<phrase module_id="younetcore" version_id="3.0.0rc3" var_name="status" added="1323452563">Status</phrase>
+		<phrase module_id="younetcore" version_id="3.0.0rc3" var_name="invalid_key" added="1323452601">Invalid Key.</phrase>
+		<phrase module_id="younetcore" version_id="3.0.0rc3" var_name="validated" added="1323452641">Validated.</phrase>
+		<phrase module_id="younetcore" version_id="3.0.0rc3" var_name="continue" added="1323452659">Continue</phrase>
+		<phrase module_id="younetcore" version_id="3.0.0rc3" var_name="there_are_no_photos_description" added="1323452816">There are no photos description.</phrase>
+		<phrase module_id="younetcore" version_id="3.0.0rc3" var_name="detail_url" added="1323452860">Detail URL</phrase>
+		<phrase module_id="younetcore" version_id="3.0.0rc3" var_name="demo_url" added="1323452873">Demo URL</phrase>
+		<phrase module_id="younetcore" version_id="3.0.0rc3" var_name="photos" added="1323452883">Photos</phrase>
+		<phrase module_id="younetcore" version_id="3.0.0rc3" var_name="enter_your_license_key_for" added="1323453004">Enter your License Key for</phrase>
+		<phrase module_id="younetcore" version_id="3.0.0rc3" var_name="please_enter_your_license_key_that_was_provided_to_you_when_you_purchased_this_plugin" added="1323453015">Please enter your license key that was provided to you when you purchased this plugin.</phrase>
+		<phrase module_id="younetcore" version_id="3.0.0rc3" var_name="license_key" added="1323453025">License Key</phrase>
+		<phrase module_id="younetcore" version_id="3.0.0rc3" var_name="cancel" added="1323453128">Cancel</phrase>
+		<phrase module_id="younetcore" version_id="3.0.0rc3" var_name="phpfox_news_and_updates" added="1323453181"><![CDATA[YouNet News & Updates]]></phrase>
+	</phrases>
+</module>
