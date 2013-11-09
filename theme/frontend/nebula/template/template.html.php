@@ -36,12 +36,7 @@ defined('PHPFOX') or exit('NO DICE!');
 				{if Phpfox::getParam('user.hide_main_menu')}
 
 				{else}
-				<div id="nb_header_menu">
-					<div class="holder">
-						{menu}
-						<div class="clear"></div>
-					</div>
-				</div>
+
 				{/if}
 				{/if}		
 			
