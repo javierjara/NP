@@ -708,7 +708,7 @@ a.moderation_action_unselect, a.moderation_action_unselect:hover
 
 #header_menu_holder
 {
-	right:40px;
+	/* right:40px; */
 }
 
 #nb_features

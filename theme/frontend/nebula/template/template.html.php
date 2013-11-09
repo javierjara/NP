@@ -55,7 +55,7 @@ defined('PHPFOX') or exit('NO DICE!');
 									<div class="clear"></div>
 								</div>
 								{/if}
-								{if Phpfox::isUser() && !Phpfox::getUserBy('profile_page_id')}
+								{if Phpfox::isUser() && !Phpfox::getUserBy('profile_page_id') && !Phpfox::getParam('user.hide_main_menu')}
 								<div id="nb_features">
 									<a href="#" id="nb_features_link">Features</a>
 									<div id="nb_features_holder">
