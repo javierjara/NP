@@ -1554,6 +1554,7 @@ div.js_feed_view_more_entry_holder {
     -moz-border-radius: 10px;
     border-radius: 10px;
     border-bottom-width: 3px; 
+    border-color: #52C921;
 }
 
 div.js_feed_view_more_entry_holder.post_type_ex {
@@ -1616,8 +1617,8 @@ div.feed_delete_link .action_delete, .action_delete:hover {
 }
 
 div.js_feed_view_more_entry_holder div.feed_delete_link a {
-    border: 2px #858585 solid !important;
-    background-color: #BBBBBB;
+    border: 2px #52C921 solid !important;
+    background-color: #A2EB84;
 }
 
 div.js_feed_view_more_entry_holder.post_type_ex div.feed_delete_link a {
@@ -1801,8 +1802,8 @@ div.js_feed_view_more_entry_holder div.comment_mini_link_like ul li a {
 }
 
 div.js_feed_view_more_entry_holder div.comment_mini_link_like ul li a {
-    border-bottom-color: #858585;
-    background-color: #858585;
+    border-bottom-color: #52C921;
+    background-color: #52C921;
 }
 
 div.js_feed_view_more_entry_holder.post_type_ex div.comment_mini_link_like ul li a {
@@ -1816,9 +1817,9 @@ div.js_feed_view_more_entry_holder.post_type_next div.comment_mini_link_like ul 
 }
 
 div.js_feed_view_more_entry_holder div.comment_mini_link_like ul li a:hover {
-    border-bottom: 2px #858585 solid !important;
-    border-bottom-color: #858585;
-    background-color: #BBBBBB;
+    border-bottom: 2px #52C921 solid !important;
+    background-color: #A2EB84;
+    color: #fff;
 }
 
 div.js_feed_view_more_entry_holder.post_type_ex div.comment_mini_link_like ul li a:hover {
@@ -1852,7 +1853,7 @@ div.js_feed_view_more_entry_holder.post_type_next div.js_user_feed:hover div.com
 } 
 
 div.js_feed_view_more_entry_holder div.js_user_feed:hover div.comment_mini_link_like ul li a {
-    border-bottom-color: #858585;
+    border-bottom-color: #52C921;
 }
 
 div.js_feed_view_more_entry_holder div.js_user_feed:hover div.comment_mini_link_like ul li a.feed_permalink {
@@ -1868,6 +1869,8 @@ div.js_feed_view_more_entry_holder div.js_feed_add_comment_button input {
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     border-radius: 10px;
+    border-bottom-color: #52C921;
+    background-color: #52C921;
 }
 
 div.js_feed_view_more_entry_holder.post_type_ex div.js_feed_add_comment_button input {
@@ -1887,8 +1890,8 @@ div.js_feed_view_more_entry_holder.post_type_ex div.js_feed_add_comment_button i
 }
 
 div.js_feed_view_more_entry_holder div.js_feed_add_comment_button input:hover {
-    border-bottom: 2px #858585 solid !important;
-    background-color: #BBBBBB;
+    border-bottom: 2px #52C921 solid !important;
+    background-color: #A2EB84;
     color: #fff;
 }
 
@@ -1896,6 +1899,10 @@ div.js_feed_view_more_entry_holder.post_type_next div.js_feed_add_comment_button
     border-bottom: 2px #52C921 solid !important;
     background-color: #A2EB84;
     color: #fff;
+}
+
+div.js_feed_view_more_entry_holder div.comment_mini_end {
+    background-color: #E6FFDB;    
 }
 
 div.js_feed_view_more_entry_holder.post_type_ex div.comment_mini_end {
@@ -2052,7 +2059,7 @@ div#js_main_feed_holder div#img_picker {
 
 
 .js_feed_view_more_entry_holder .js_feed_comment_view_more_holder {
-    background-color: #F6F6F6;
+    background-color: #E6FFDB;
 }
 
 .js_feed_view_more_entry_holder.post_type_ex .js_feed_comment_view_more_holder {
