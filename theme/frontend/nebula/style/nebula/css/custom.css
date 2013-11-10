@@ -709,6 +709,7 @@ a.moderation_action_unselect, a.moderation_action_unselect:hover
 #header_menu_holder
 {
 	/* right:40px; */
+        position: relative;
 }
 
 #nb_features
@@ -2281,4 +2282,40 @@ textarea.js_comment_feed_textarea {
 
 textarea.js_comment_feed_textarea_focus {
     height: 40px;
+}
+
+#header_right #header_menu_holder #logo {
+    line-height: 0;
+    width: 42px;
+    float: left;   
+}
+
+#header_right #header_menu_holder ul {
+    float: left;
+} 
+
+#header_search_header {
+    display: none;
+}
+
+#header_center {
+    width: auto;
+    overflow: hidden;
+    text-align: center;
+}
+#holder_notify {
+    width: auto;
+    display: inline-block;
+    position: relative;
+}
+
+#header_right {
+    float: right;
+    left: 0;
+    position: relative;
+    width: auto;
+}
+
+#header_left {
+    float: left;
 }

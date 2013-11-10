@@ -47,14 +47,10 @@ defined('PHPFOX') or exit('NO DICE!');
 						<div id="header_left">
 							{logo}
 						</div>
+                                                
 						<div id="header_right">
 							<div id="header_top">
-								{if Phpfox::isUser() && !Phpfox::getUserBy('profile_page_id')}
-								<div id="holder_notify">																	
-									{notification}
-									<div class="clear"></div>
-								</div>
-								{/if}
+
 								{if Phpfox::isUser() && !Phpfox::getUserBy('profile_page_id') && !Phpfox::getParam('user.hide_main_menu')}
 								<div id="nb_features">
 									<a href="#" id="nb_features_link">Features</a>
@@ -66,14 +62,19 @@ defined('PHPFOX') or exit('NO DICE!');
 								{/if}
 								<div id="header_menu_holder">
 									{if Phpfox::isUser()}
-									{menu_account}
+                                                                        
+                                                                        <a href="http://localhost/nextplease.dev/index.php?do=/" id="logo">
+                                                                            <img src="static/image/N.png" class="v_middle">
+                                                                        </a>
+                                                                        
+                                                                        {menu_account}
 									<div class="clear"></div>	
 									{else}
 									{module name='user.login-header'}
 									{/if}							
 								</div>							
-<!--								{if Phpfox::isUser() && !Phpfox::getUserBy('profile_page_id') && Phpfox::isModule('search')}
-								<div id="header_search">	
+								{if Phpfox::isUser() && !Phpfox::getUserBy('profile_page_id') && Phpfox::isModule('search')}
+								<div id="header_search_header">	
 									<div id="header_menu_space">
 										<div id="header_sub_menu_search">
 											<form method="post" id='header_search_form' action="{url link='search'}">																						
@@ -84,9 +85,17 @@ defined('PHPFOX') or exit('NO DICE!');
 										</div>
 									</div>
 								</div>	
-								{/if}													-->
+								{/if}													
 							</div>					
 						</div>
+                                                <div id='header_center'>
+                                                    {if Phpfox::isUser() && !Phpfox::getUserBy('profile_page_id')}
+                                                        <div id="holder_notify">																	
+                                                            {notification}
+                                                            <div class="clear"></div>
+                                                        </div>
+                                                    {/if}
+                                                </div>
 						{block location='6'}
 					</div>
 				</div>		
