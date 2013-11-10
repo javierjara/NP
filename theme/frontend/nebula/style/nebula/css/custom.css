@@ -2300,8 +2300,8 @@ textarea.js_comment_feed_textarea_focus {
 
 #header_center {
     width: auto;
-    overflow: hidden;
     text-align: center;
+    height: 40px;
 }
 #holder_notify {
     width: auto;
