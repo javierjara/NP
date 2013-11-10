@@ -2326,3 +2326,28 @@ textarea.js_comment_feed_textarea_focus {
 #header_left {
     float: left;
 }
+
+#holder_notify ul li a.notify_drop_link:hover {
+    background-color: #A2EB84; 
+}
+
+#holder_notify ul li.is_active a.notify_drop_link {
+    background-color: #fff;
+}
+
+#header_menu_holder a:hover {
+    background-color: #A2EB84;
+}
+
+#header_menu_holder ul li a:hover {
+    background-color: #A2EB84;
+}
+
+#header_menu_holder ul li a.has_drop_down:hover {
+    background-color: #A2EB84;
+}
+
+#header_menu_holder ul li a.active, #header_menu_holder ul li a.active:hover {
+    background-color: #fff;
+    color: #333;
+}
