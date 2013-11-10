@@ -63,7 +63,7 @@ defined('PHPFOX') or exit('NO DICE!');
 								<div id="header_menu_holder">
 									{if Phpfox::isUser()}
                                                                         
-                                                                        <a href="http://localhost/nextplease.dev/index.php?do=/" id="logo">
+                                                                        <a href="{url link=''}" id="logo">
                                                                             <img src="static/image/N.png" class="v_middle">
                                                                         </a>
                                                                         
