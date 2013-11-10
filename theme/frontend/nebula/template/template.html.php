@@ -222,7 +222,7 @@ defined('PHPFOX') or exit('NO DICE!');
                                                                                                                 <div id="header_menu_space">
                                                                                                                         <div id="header_sub_menu_search">
                                                                                                                                 <form method="post" id='header_search_form' action="{url link='search'}">																						
-                                                                                                                                        <input type="text" name="q" value="{phrase var='core.search_dot'}" id="header_sub_menu_search_input" autocomplete="off" class="js_temp_friend_search_input" />											
+                                                                                                                                        <input type="text" name="q" placeholder="{phrase var='core.search_dot'}" id="header_sub_menu_search_input" autocomplete="off" class="js_temp_friend_search_input" />											
                                                                                                                                         <div id="header_sub_menu_search_input"></div>
                                                                                                                                         <a href="#" onclick='$("#header_search_form").submit(); return false;' id="header_search_button">{phrase var='core.search'}</a>											
                                                                                                                                 </form>

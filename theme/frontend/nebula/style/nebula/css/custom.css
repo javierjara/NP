@@ -2233,10 +2233,28 @@ div.js_feed_view_more_entry_holder.post_type_ex div.activity_feed_content_info {
     text-align: right;
 }
 
+div.js_feed_view_more_entry_holder div.activity_feed_content_info {
+    padding-left: 0;
+    margin-top: -38px;
+    margin-left: -25px;
+}
+
 div.js_feed_view_more_entry_holder.post_type_next div.activity_feed_content_info {
     padding-left: 0;
     margin-top: -38px;
     margin-left: -25px;
+}
+
+div.js_feed_view_more_entry_holder .activity_feed_content_info span.user_profile_link_span a {
+    background-image: url('../image/arrow-next.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #FFFFFF;
+    display: inline-block;
+    height: 40px;
+    width: 130px;
+    line-height: 37px;
+    text-align: center;
 }
 
 div.js_feed_view_more_entry_holder.post_type_next .activity_feed_content_info span.user_profile_link_span a {
