@@ -149,8 +149,10 @@ defined('PHPFOX') or exit('NO DICE!');
 										{menu_sub}
 										{block location='1'}
 										
-										<a href="{url link='core.index-member.customize'}" class="no_ajax_link nb_customize_dash">{phrase var='core.customize_dashboard'}</a>
-										
+                                                                                {if false}
+                                                                                    <a href="{url link='core.index-member.customize'}" class="no_ajax_link nb_customize_dash">{phrase var='core.customize_dashboard'}</a>
+										{/if}
+                                                                                
 										{/if}								
 															
 										{/if}
