@@ -1688,7 +1688,7 @@ div.activity_feed_form_button_position_button.submit_button_form_ex a {
     -moz-border-radius: 0px 35px 35px 0px;
     border-radius: 0px 35px 35px 0px;
     
-    background-image: url('../image/np-share-arrow-ex.png');
+    background-image: url('../image/np-share-arrow-ex-gradient.png');
     float: left;
 }
 
@@ -1697,7 +1697,7 @@ div.activity_feed_form_button_position_button.submit_button_form_next a {
     -moz-border-radius: 35px 0px 0px 35px;
     border-radius: 35px 0px 0px 35px;
     
-    background-image: url('../image/np-share-arrow-next.png');
+    background-image: url('../image/np-share-arrow-next-gradient.png');
     float: left;
     
     margin-left: 10px;
