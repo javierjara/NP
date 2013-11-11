@@ -2369,3 +2369,52 @@ textarea.js_comment_feed_textarea_focus {
     background-color: #fff;
     color: #333;
 }
+
+
+
+.ui-tooltip, .arrow-submit-next:after {
+    background: #333;
+    border: none;
+    width: 150px;
+    height: auto;
+    z-index: 10000;
+  }
+  .ui-tooltip {
+    padding: 10px 20px;
+    color: white;
+    box-shadow: 0 0 7px black;
+  }
+  .arrow-submit-next {
+    width: 70px;
+    height: 16px;
+    overflow: hidden;
+    position: absolute;
+    left: 50%;
+    margin-left: -35px;
+    bottom: -16px;
+  }
+  .arrow-submit-next.top {
+    top: -16px;
+    bottom: auto;
+  }
+  .arrow-submit-next.left {
+    left: 20%;
+  }
+  .arrow-submit-next:after {
+    content: "";
+    position: absolute;
+    left: 20px;
+    top: -20px;
+    width: 25px;
+    height: 25px;
+    box-shadow: 6px 5px 9px -9px black;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    tranform: rotate(45deg);
+  }
+  .arrow-submit-next.top:after {
+    bottom: -20px;
+    top: auto;
+  }

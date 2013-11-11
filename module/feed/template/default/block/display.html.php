@@ -53,11 +53,11 @@ defined('PHPFOX') or exit('NO DICE!');
                          
                          <div class="activity_feed_form_button_position_button submit_button_form_ex">
 <!--                             <span class="ex_button_arrow"></span>-->
-                             <a id="activity_feed_popup_ex" href="#" class="button" onclick="tb_show('Ex life', $.ajaxBox('feed.popup', 'height=300&width=550')); return false;"></a>
+                             <a id="activity_feed_popup_ex" href="#" class="button" onclick="tb_show('Ex life', $.ajaxBox('feed.popup', 'height=300&width=550')); return false;" title="Share your thoughts about the past. We'll have sense of touch with it."></a>
                          </div>					
 
                          <div class="activity_feed_form_button_position_button submit_button_form_next">
-                             <a id="activity_feed_popup_next" href="#" class="button" onclick="tb_show('Next life', $.ajaxBox('feed.popup', 'height=300&width=550')); return false;"></a>
+                             <a id="activity_feed_popup_next" href="#" class="button" onclick="tb_show('Next life', $.ajaxBox('feed.popup', 'height=300&width=550')); return false;" title="Next car, next job and maybe next love. What's your Next?"></a>
 <!--                             <span class="next_button_arrow"></span>-->
                          </div>
 

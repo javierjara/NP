@@ -442,7 +442,23 @@ $Behavior.activityFeedProcess = function(){
 			$('#js_piccup_upload').hide();
 			
 			return false;
-		});		
+		});
+                
+                $( ".activity_feed_form_button_position_button" ).tooltip({
+                    hide:false,
+                    position: {
+                    my: "center top+2",
+                    at: "center bottom",
+                    using: function( position, feedback ) {
+                      $( this ).css( position );
+                      $( "<div>" )
+                        .addClass( "arrow-submit-next" )
+                        .addClass( feedback.vertical )
+                        .addClass( feedback.horizontal )
+                        .appendTo( this );
+                        }
+                      }
+                  });
 	}
 
 $Behavior.activityFeedLoader = function()
