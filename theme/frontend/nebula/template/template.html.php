@@ -195,10 +195,11 @@ defined('PHPFOX') or exit('NO DICE!');
                                                                                         </div>
                                                                                 </div>	
                                                                                 {/if}
-
+                                                                                
+                                                                                {block location='3'}
+                                                                                
                                                                                 <div id="eventCalendarHumanDate"></div>
 
-                                                                                {block location='3'}
                                                                         </div>
 
                                                                         {/if}
