@@ -316,7 +316,7 @@ a.nb_name_link:hover
 
 .content3
 {
-	width:600px;
+	/* width:600px; */
 }
 
 #right
@@ -2478,8 +2478,14 @@ textarea.js_comment_feed_textarea_focus {
 
 #section_menu {
     position: relative;
+    float: right;
+    margin-right: 10px;
 }
 
 .holder {
     
+}
+
+.header_filter_holder {
+    position: relative;
 }

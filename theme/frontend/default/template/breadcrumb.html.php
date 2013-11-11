@@ -13,7 +13,8 @@ defined('PHPFOX') or exit('NO DICE!');
 ?>
 {if count($aBreadCrumbs)}
 <div id="breadcrumb_holder"{if !$bIsUsersProfilePage && count($aSubMenus)} class="has_section_menu"{/if} itemscope itemtype="http://schema.org/WebPage">
-	<div id="breadcrumb_content" itemprop="breadcrumb">
+	{breadcrumb_menu}
+        <div id="breadcrumb_content" itemprop="breadcrumb">
 		{if empty($aBreadCrumbTitle)}
 		{foreach from=$aBreadCrumbs key=sLink item=sCrumb name=link}
 		{if $phpfox.iteration.link == 1}
@@ -23,6 +24,6 @@ defined('PHPFOX') or exit('NO DICE!');
 		{/if}
 		{breadcrumb_list}
 	</div>	
-	 {breadcrumb_menu}	
+	 	
 </div>
 {/if}
