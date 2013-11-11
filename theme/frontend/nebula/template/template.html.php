@@ -123,7 +123,7 @@ defined('PHPFOX') or exit('NO DICE!');
 									{if defined('PHPFOX_IN_DESIGN_MODE') && Phpfox::getService('profile')->timeline()}
 									
 									{else}			
-									<div id="left" class="content_column">
+									<div id="right" class="content_column">
 									
 										{if defined('PHPFOX_IS_USER_PROFILE') || defined('PHPFOX_IS_PAGES_VIEW') || !Phpfox::isUser()}
 										{menu_sub}
@@ -170,6 +170,39 @@ defined('PHPFOX') or exit('NO DICE!');
 									{/if}				
 									{/if}
 		
+                                                                        {if !$bUseFullSite}
+												
+                                                                        <div id="left" class="content_column">
+
+                                                                                {if !Phpfox::isUser() || Phpfox::getLib('module')->getFullControllerName() == 'core.index-member' || defined('PHPFOX_IS_USER_PROFILE') || defined('PHPFOX_IS_PAGES_VIEW')}
+
+                                                                                {else}
+                                                                                {menu_sub}
+                                                                                {block location='1'}
+                                                                                {/if}						
+                                                                                {unset var=$aMenu}
+
+                                                                                {if Phpfox::isUser() && !Phpfox::getUserBy('profile_page_id') && Phpfox::isModule('search')}
+                                                                                <div id="header_search">	
+                                                                                        <div id="header_menu_space">
+                                                                                                <div id="header_sub_menu_search">
+                                                                                                        <form method="post" id='header_search_form' action="{url link='search'}">																						
+                                                                                                                <input type="text" name="q" placeholder="{phrase var='core.search_dot'}" id="header_sub_menu_search_input" autocomplete="off" class="js_temp_friend_search_input" />											
+                                                                                                                <div id="header_sub_menu_search_input"></div>
+                                                                                                                <a href="#" onclick='$("#header_search_form").submit(); return false;' id="header_search_button">{phrase var='core.search'}</a>											
+                                                                                                        </form>
+                                                                                                </div>
+                                                                                        </div>
+                                                                                </div>	
+                                                                                {/if}
+
+                                                                                <div id="eventCalendarHumanDate"></div>
+
+                                                                                {block location='3'}
+                                                                        </div>
+
+                                                                        {/if}
+                                                                        
 									<div id="main_content">
 												
 										{if !defined('PHPFOX_IS_USER_PROFILE') && !defined('PHPFOX_IS_PAGES_VIEW')}
@@ -205,38 +238,7 @@ defined('PHPFOX') or exit('NO DICE!');
 															
 												</div>
 		
-												{if !$bUseFullSite}
 												
-												<div id="right" class="content_column">
-                                                                                                        
-                                                                                                        {if !Phpfox::isUser() || Phpfox::getLib('module')->getFullControllerName() == 'core.index-member' || defined('PHPFOX_IS_USER_PROFILE') || defined('PHPFOX_IS_PAGES_VIEW')}
-													
-													{else}
-													{menu_sub}
-													{block location='1'}
-													{/if}						
-													{unset var=$aMenu}
-                                                                                                        
-                                                                                                        {if Phpfox::isUser() && !Phpfox::getUserBy('profile_page_id') && Phpfox::isModule('search')}
-                                                                                                        <div id="header_search">	
-                                                                                                                <div id="header_menu_space">
-                                                                                                                        <div id="header_sub_menu_search">
-                                                                                                                                <form method="post" id='header_search_form' action="{url link='search'}">																						
-                                                                                                                                        <input type="text" name="q" placeholder="{phrase var='core.search_dot'}" id="header_sub_menu_search_input" autocomplete="off" class="js_temp_friend_search_input" />											
-                                                                                                                                        <div id="header_sub_menu_search_input"></div>
-                                                                                                                                        <a href="#" onclick='$("#header_search_form").submit(); return false;' id="header_search_button">{phrase var='core.search'}</a>											
-                                                                                                                                </form>
-                                                                                                                        </div>
-                                                                                                                </div>
-                                                                                                        </div>	
-                                                                                                        {/if}
-                                                                                                        
-                                                                                                        <div id="eventCalendarHumanDate"></div>
-                                                                                                        
-													{block location='3'}
-												</div>
-												
-												{/if}
 		
 												<div class="clear"></div>							
 											</div>												

@@ -146,8 +146,7 @@ a.nb_name_link:hover
 	border-left:1px #dfdfdf solid;
 	border-right:1px #dfdfdf solid;
 	border-bottom:1px #dfdfdf solid;
-	
-	/*overflow:hidden;*/	
+        overflow:hidden;	
 }
 /*
 #js_is_user_profile,
@@ -170,8 +169,8 @@ a.nb_name_link:hover
 
 #js_is_user_profile .profile_header #section_menu
 {
-	right:10px;	
-	top:25px;
+	/* right:10px;	
+	top:25px; */
 }
 
 #js_is_user_profile .profile_online_status
@@ -300,14 +299,13 @@ a.nb_name_link:hover
 
 #left
 {
-	/*
-	float:none;
-	position:absolute;
-	left:0px;
-	*/	
-	position:absolute;
+	position:relative;
 	left:0px;
 	top:0px;
+        width: 250px;
+        float: left;
+        overflow: inherit;
+        padding: 10px 10px 10px 0px;
 }
 
 .content3,
@@ -329,13 +327,14 @@ a.nb_name_link:hover
 #js_controller_core_index-member .content3,
 #js_is_user_profile .content3
 {
-	width:520px;
+	width:100%;
 }
 
 #js_controller_core_index-member #right,
 #js_is_user_profile #right
 {
 	width:250px;
+        padding-top: 5px;
 }
 
 #nb_footer
@@ -434,7 +433,7 @@ div.comment_mini_end_focus
 
 #js_is_user_profile #main_content
 {
-	overflow:visible;
+	overflow:hidden;
 }
 
 #main_content_padding
@@ -444,8 +443,8 @@ div.comment_mini_end_focus
 
 .no_sidebar #main_content_padding
 {
-	padding:10px 15px 10px 15px;
-	overflow:visible;
+	/* padding:10px 15px 10px 15px; */
+	overflow:hidden;
 }
 
 .timeline_main_menu
@@ -1197,7 +1196,7 @@ a.item_bar_action_clicked, a.item_bar_action_clicked:hover
 #js_controller_user_browse #main_content,
 #js_controller_user_browse #main_content_padding
 {
-	overflow:visible;
+	overflow:hidden;
 }
 
 #js_user_browse_advanced
@@ -2418,3 +2417,15 @@ textarea.js_comment_feed_textarea_focus {
     bottom: -20px;
     top: auto;
   }
+  
+  #main_content_padding {
+      padding: 0 10px;
+  }
+  
+.no_sidebar #main_content_padding {
+    padding-left: 10px;
+}
+
+#section_menu {
+    position: relative;
+}

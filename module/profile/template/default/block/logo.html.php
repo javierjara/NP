@@ -12,10 +12,12 @@ defined('PHPFOX') or exit('NO DICE!');
 
 ?>
 
+{if false}
 {if $bRefreshPhoto}
 	<div class="cover_photo_link">
 {else}
 	<a href="{permalink module='photo' id=$aCoverPhoto.photo_id title=$aCoverPhoto.title}userid_{$aCoverPhoto.user_id}/" class="thickbox photo_holder_image cover_photo_link" rel="{$aCoverPhoto.photo_id}">
+{/if}
 {/if}
 
 {if isset($bNoPrefix) && $bNoPrefix == true}
