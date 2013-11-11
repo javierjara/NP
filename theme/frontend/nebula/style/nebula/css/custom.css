@@ -2370,13 +2370,14 @@ textarea.js_comment_feed_textarea_focus {
 }
 
 
+  /* Submit tooltip */
 
-.ui-tooltip, .arrow-submit-next:after {
+.ui-tooltip, .arrow-submit-next:after, .arrow-submit-ex:after {
     background: #333;
     border: none;
-    width: 150px;
+    width: 200px;
     height: auto;
-    z-index: 10000;
+    z-index: 5000;
   }
   .ui-tooltip {
     padding: 10px 20px;
@@ -2400,13 +2401,14 @@ textarea.js_comment_feed_textarea_focus {
     left: 20%;
   }
   .arrow-submit-next:after {
+    background: #52C921;
     content: "";
     position: absolute;
     left: 20px;
     top: -20px;
     width: 25px;
     height: 25px;
-    box-shadow: 6px 5px 9px -9px black;
+    /* box-shadow: 6px 5px 9px -9px black; */
     -webkit-transform: rotate(45deg);
     -moz-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
@@ -2418,9 +2420,56 @@ textarea.js_comment_feed_textarea_focus {
     top: auto;
   }
   
+  .arrow-submit-ex {
+    width: 70px;
+    height: 16px;
+    overflow: hidden;
+    position: absolute;
+    left: 50%;
+    margin-left: -35px;
+    bottom: -16px;
+  }
+  .arrow-submit-ex.top {
+    top: -16px;
+    bottom: auto;
+  }
+  .arrow-submit-ex.left {
+    left: 20%;
+  }
+  .arrow-submit-ex:after {
+    background-color: #009AEF;
+    content: "";
+    position: absolute;
+    left: 20px;
+    top: -20px;
+    width: 25px;
+    height: 25px;
+    /* box-shadow: 6px 5px 9px -9px black; */
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    tranform: rotate(45deg);
+  }
+  .arrow-submit-ex.top:after {
+    bottom: -20px;
+    top: auto;
+  }
+  
+  
+  .tooltip-ex {
+      background-color: #009AEF;
+  }
+  
+  .tooltip-next {
+      background: #52C921;
+  }
+  
+  /* Submit tooltip end */
+  
   #main_content_padding {
       padding: 0 10px;
-      min-width: 460px;
+      min-width: 440px;
   }
   
 .no_sidebar #main_content_padding {

@@ -444,8 +444,26 @@ $Behavior.activityFeedProcess = function(){
 			return false;
 		});
                 
-                $( ".activity_feed_form_button_position_button" ).tooltip({
+                $( "#activity_feed_popup_ex" ).tooltip({
                     hide:false,
+                    tooltipClass: 'tooltip-ex',
+                    position: {
+                    my: "center top+2",
+                    at: "center bottom",
+                    using: function( position, feedback ) {
+                      $( this ).css( position );
+                      $( "<div>" )
+                        .addClass( "arrow-submit-ex" )
+                        .addClass( feedback.vertical )
+                        .addClass( feedback.horizontal )
+                        .appendTo( this );
+                        }
+                      }
+                  });
+                
+                $( "#activity_feed_popup_next" ).tooltip({
+                    hide:false,
+                    tooltipClass: 'tooltip-next',
                     position: {
                     my: "center top+2",
                     at: "center bottom",
