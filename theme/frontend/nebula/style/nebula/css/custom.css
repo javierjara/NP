@@ -333,7 +333,7 @@ a.nb_name_link:hover
 #js_controller_core_index-member #right,
 #js_is_user_profile #right
 {
-	width:250px;
+	/* width:250px; */
         padding-top: 5px;
 }
 
