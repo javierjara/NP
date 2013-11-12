@@ -17,8 +17,12 @@ defined('PHPFOX') or exit('NO DICE!');
 
 <link rel="stylesheet" type="text/css" href="{$core_url}module/contactimporter/static/css/default/default/Ynscontactimporter.css" />
 <link rel="stylesheet" type="text/css" href="{$core_url}module/contactimporter/static/css/default/default/jquery.autocomplete.css" />
-<script  type="text/javascript" src="{$core_url}module/contactimporter/static/jscript/contactimporter.js" /> </script>
-<script  type="text/javascript" src="{$core_url}module/contactimporter/static/jscript/jquery.autocomplete.js" /></script>
+
+<!--
+    <script  type="text/javascript" src="{$core_url}module/contactimporter/static/jscript/contactimporter.js" /> </script>
+    <script  type="text/javascript" src="{$core_url}module/contactimporter/static/jscript/jquery.autocomplete.js" /></script>
+-->
+
 <script  type="text/javascript" src="{$core_url}module/contactimporter/static/jscript/contactimporter.js" /></script>
 
 {literal}

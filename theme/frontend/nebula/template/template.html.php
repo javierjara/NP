@@ -15,6 +15,7 @@ defined('PHPFOX') or exit('NO DICE!');
 <html xmlns="http://www.w3.org/1999/xhtml" dir="{$sLocaleDirection}" lang="{$sLocaleCode}">
 	<head>
 		<title>{title}</title>	
+                
 		<link rel="stylesheet" href="eventCalendar_v054/css/eventCalendar.css">
                 <link rel="stylesheet" href="eventCalendar_v054/css/eventCalendar_theme_responsive.css">
                 <link rel="stylesheet" href="timePicker-master/timePicker.css">
