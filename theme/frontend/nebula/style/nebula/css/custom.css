@@ -2489,3 +2489,17 @@ textarea.js_comment_feed_textarea_focus {
 .header_filter_holder {
     position: relative;
 }
+
+div.sub_section_menu ul li:hover a {
+    background: #A2EB84;
+    color: #fff;
+}
+
+div.sub_section_menu ul li a:hover {
+    background: #A2EB84;
+    color: #fff;
+}
+
+div.sub_section_menu ul li.active a {
+    background: #52C921;
+}
