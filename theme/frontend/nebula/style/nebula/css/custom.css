@@ -2515,3 +2515,9 @@ div.sub_section_menu ul li.active a {
     background-position: inherit;
     z-index: 5002;
 }
+
+.js_box {
+    background: none;
+    padding: 0;
+    
+}
