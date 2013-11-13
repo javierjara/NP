@@ -22,12 +22,8 @@
 	{if isset($aFeed.feed_like_phrase) }
 		{if !empty($aFeed.feed_like_phrase)}{* Has to be like this so it can also display nothing *}
 			<div class="activity_like_holder comment_mini" id="activity_like_holder_{$aFeed.feed_id}">
-                            {if $aFeed.type_ex_next=='ex'}	
-                                {img theme='layout/dislike.png' class='v_middle'}&nbsp;
-                            {else}
                                {img theme='layout/like.png' class='v_middle'}&nbsp;
-                            {/if}
-				{$aFeed.feed_like_phrase}
+                               {$aFeed.feed_like_phrase}	
 			</div>
 			{else} 
 		{/if}
