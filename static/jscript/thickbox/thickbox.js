@@ -77,6 +77,11 @@ function js_box_remove($oObj)
 	//	$Core.addUrlPager({'href': sLastOpenUrl.replace('/#!', '')}, true);
 	}	
 	
+        // NP - aggiunto layer
+        $oParent.closest('.thickbox-wrapper').fadeOut('fast', function() {
+          $(this).remove();  
+        });
+        
 	return false;
 }
 
@@ -403,7 +408,7 @@ function tb_show(caption, url, thisObject, sForceMessage, bForceNoCilck, sType)
 	
 	if (!bIsAlreadyOpen)
 	{
-		var sHtml = '';
+		var sHtml = '<div class="thickbox-wrapper">';
 		
 		if (bIsPhotoImage){
 			$('.js_box_image_holder').remove();
@@ -450,6 +455,8 @@ function tb_show(caption, url, thisObject, sForceMessage, bForceNoCilck, sType)
 			}			
 		}
 		
+                sHtml+="</div>";
+                
 		$('body').prepend(sHtml);		
 	
 		var $oNew = $('#' + $sCurrentId + '');
