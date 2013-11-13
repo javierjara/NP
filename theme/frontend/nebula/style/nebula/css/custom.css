@@ -2502,7 +2502,7 @@ div.sub_section_menu ul li a:hover {
 }
 
 div.sub_section_menu ul li.active a {
-    background: #52C921;
+    background-color: #52C921 !important;
 }
 
 .thickbox-wrapper {
