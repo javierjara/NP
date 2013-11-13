@@ -2508,7 +2508,7 @@ div.sub_section_menu ul li.active a {
 .thickbox-wrapper {
     width: 100%;
     height: 100%;
-    position: absolute;
+    position: fixed;
     background: url('http://localhost/nextplease.dev/theme/frontend/default/style/default/image/layout/thickbox_bg.png');
     background-repeat: repeat;
     background-origin: border-box;
