@@ -2031,7 +2031,7 @@ div.activity_feed_form {
 div#js_main_feed_holder div#img_picker {
     width: 120px;
     height: 120px;
-    background: url("/nextplease.dev/static/image/misc/camera.jpg");
+    background: url("/nextplease.dev/static/image/misc/camera.png");
     display: inline-block;
     float: right;
     background-repeat: no-repeat;
