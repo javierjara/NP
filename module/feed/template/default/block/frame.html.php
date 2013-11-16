@@ -100,9 +100,7 @@ defined('PHPFOX') or exit('NO DICE!');
                                     <div id="global_attachment_status_value" style="display:none;">{if isset($aFeedCallback.module) || defined('PHPFOX_IS_USER_PROFILE')}{phrase var='feed.write_something'}{else}{phrase var='feed.what_s_on_your_mind'}{/if}</div>
                                     <textarea {if isset($aPage)} id="pageFeedTextarea" {else} {if isset($aEvent)} id="eventFeedTextarea" {else} {if isset($bOwnProfile) && $bOwnProfile == false}id="profileFeedTextarea" {/if}{/if}{/if} cols="60" rows="8" name="val[user_status]"
                                         onkeydown="pufDoResize(this);"
-                                        onfocus="pufTextareaFocus(this); return false;">
-                                        {if isset($aFeedCallback.module) || defined('PHPFOX_IS_USER_PROFILE')}{phrase var='feed.write_something'}{else}{phrase var='feed.what_s_on_your_mind'}{/if}
-                                    </textarea>
+                                        onfocus="pufTextareaFocus(this); return false;" placeholder="{if isset($aFeedCallback.module) || defined('PHPFOX_IS_USER_PROFILE')}{phrase var='feed.write_something'}{else}{phrase var='feed.what_s_on_your_mind'}{/if}"></textarea>
                     {if isset($bLoadCheckIn) && $bLoadCheckIn == true}
                         <script type="text/javascript">
                             oTranslations['feed.at_location'] = "{phrase var='feed.at_location'}";
@@ -131,9 +129,7 @@ defined('PHPFOX') or exit('NO DICE!');
 
                             <div class="activity_feed_form_button_status_info">
                                     <textarea id="activity_feed_textarea_status_info" cols="60" rows="8" name="val[status_info]"
-                                        onfocus="pufStatusInfoFocus(this); return false;">
-                                        
-                                    </textarea>
+                                        onfocus="pufStatusInfoFocus(this); return false;"></textarea>
                             </div>
                             <div class="activity_feed_form_button_position">
                                 
