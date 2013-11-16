@@ -323,7 +323,9 @@ a.nb_name_link:hover
 
 #right
 {
-	width:180px;
+	/* width:180px; */
+        width: 200px;
+        padding: 5px;
 }
 
 #js_controller_core_index-member .content3,
