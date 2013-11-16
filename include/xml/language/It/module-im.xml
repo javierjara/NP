@@ -1,0 +1,57 @@
+<phrases>
+	<phrase module_id="im" version_id="2.0.0beta5" var_name="module_im" added="1246347993">Instant Messenger</phrase>
+	<phrase module_id="im" version_id="2.0.0beta5" var_name="setting_im_time_stamp" added="1246864828"><![CDATA[<title>Messenger Time Stamp</title><info>Messenger Time Stamp</info>]]></phrase>
+	<phrase module_id="im" version_id="2.0.0beta5" var_name="setting_enable_im_in_footer_bar" added="1247130604"><![CDATA[<title>Enable IM (Footer Bar)</title><info>Set to <b>True</b> to enable the Instant Messenger to be part of the site wide footer bar.</info>]]></phrase>
+	<phrase module_id="im" version_id="2.0.0rc1" var_name="setting_group_total_friends_to_display_in_im" added="1250753660"><![CDATA[<title>total friends to display in im</title><info>Define how many friends should be displayed within the IM list.</info>]]></phrase>
+	<phrase module_id="im" version_id="2.0.0rc1" var_name="setting_total_friends_to_display_in_im" added="1250753735"><![CDATA[<title>Total Friends in IM List</title><info>Define how many friends should be displayed within the IM list.</info>]]></phrase>
+	<phrase module_id="im" version_id="2.0.0rc4" var_name="online" added="1254982727">Online</phrase>
+	<phrase module_id="im" version_id="2.0.0rc4" var_name="away" added="1254982736">Away</phrase>
+	<phrase module_id="im" version_id="2.0.0rc4" var_name="appear_offline" added="1254982746">Appear Offline</phrase>
+	<phrase module_id="im" version_id="2.0.0rc4" var_name="not_a_valid_chat_room" added="1254982823">Not a valid chat room.</phrase>
+	<phrase module_id="im" version_id="2.0.0rc4" var_name="unable_to_send_this_user_an_offline_message" added="1254982832">Unable to send this user an offline message.</phrase>
+	<phrase module_id="im" version_id="2.0.0rc4" var_name="report" added="1254982972">Report</phrase>
+	<phrase module_id="im" version_id="2.0.0rc4" var_name="report_this_user" added="1254983057">Segnala questa persona</phrase>
+	<phrase module_id="im" version_id="2.0.0rc4" var_name="instant_messenger" added="1254983096">Instant Messenger</phrase>
+	<phrase module_id="im" version_id="2.0.0rc4" var_name="chat" added="1254983153">Chat</phrase>
+	<phrase module_id="im" version_id="2.0.0rc4" var_name="offline" added="1254983161">Offline</phrase>
+	<phrase module_id="im" version_id="2.0.0rc4" var_name="close" added="1254983185">Chiudi</phrase>
+	<phrase module_id="im" version_id="2.0.0rc4" var_name="find_your_friends" added="1254983211">Trova amici...</phrase>
+	<phrase module_id="im" version_id="2.0.0rc4" var_name="no_friends_online" added="1254983488">Nessun amico online</phrase>
+	<phrase module_id="im" version_id="2.0.0rc4" var_name="member_is_offline" added="1254983914"><![CDATA[L'utente &#232; offline.]]></phrase>
+	<phrase module_id="im" version_id="2.0.0rc5" var_name="go_offline" added="1256804861">Go Offline</phrase>
+	<phrase module_id="im" version_id="2.0.0rc5" var_name="edit_block_list" added="1256804873">Modifica Lista Utenti Bloccati</phrase>
+	<phrase module_id="im" version_id="2.0.0rc5" var_name="status" added="1256804880">Stato</phrase>
+	<phrase module_id="im" version_id="2.0.0rc5" var_name="play_sound_on_new_message" added="1256804890">Play sound on new message</phrase>
+	<phrase module_id="im" version_id="2.0.0rc5" var_name="yes" added="1256804897"><![CDATA[S&#236;]]></phrase>
+	<phrase module_id="im" version_id="2.0.0rc5" var_name="no" added="1256804903">No</phrase>
+	<phrase module_id="im" version_id="2.0.0rc5" var_name="options" added="1256804920">Options</phrase>
+	<phrase module_id="im" version_id="2.0.0rc5" var_name="block" added="1256805201">Block</phrase>
+	<phrase module_id="im" version_id="2.0.0rc5" var_name="more_conversations" added="1256805266">Altre Conversazioni...</phrase>
+	<phrase module_id="im" version_id="2.0.0rc5" var_name="conversations" added="1256805343">Conversations</phrase>
+	<phrase module_id="im" version_id="2.0.0rc11" var_name="setting_im_time_stamp_past" added="1259962435"><![CDATA[<title>IM Time Stamp (Past)</title><info>IM Time Stamp (Past)</info>]]></phrase>
+	<phrase module_id="im" version_id="2.0.6" var_name="are_you_sure" added="1284994281">Are you sure?</phrase>
+	<phrase module_id="im" version_id="3.0.0beta1" var_name="setting_im_php_sleep" added="1312373490"><![CDATA[<title>Server Sleep Timeout</title><info>When the IM requests an update from the server, the server will check for new messages and other information, if nothing new is found it will wait to check again, this value sets how long (in seconds) should the server wait.
+
+The lower the value the more real time the IM will look, but it will use more server resources. 
+
+Too low a value and your server may not be able to handle it, use carefully.</info>]]></phrase>
+	<phrase module_id="im" version_id="3.0.0beta1" var_name="setting_im_php_loops" added="1312373834"><![CDATA[<title>Server Number Of Checks</title><info>When the IM requests an update from the server, the server will check for new messages and other information, if nothing new is found it will wait to check again, this happens in the same ajax call. This setting tells how many times should the same process check for new updates before closing the connection.
+
+Some servers limit how long can a PHP process run (for example 30 seconds), you can use this value and "Server Sleep Timeout" to schedule the updates for the IM.
+
+The default combination allows the checks to run for 30 seconds before returning control to the web browser for another run.</info>]]></phrase>
+	<phrase module_id="im" version_id="3.0.0beta1" var_name="setting_js_interval_value" added="1312374230"><![CDATA[<title>JS Ajax Interval Check Timeout</title><info>This setting controls how often will the IM check on the state of an Ajax call. The value is in milliseconds, so it defaults to 3 seconds.
+
+If the value is too low the web browser may become unresponsive. It is advised to keep it in the thousands range.</info>]]></phrase>
+	<phrase module_id="im" version_id="3.0.0beta1" var_name="setting_server_for_ajax_calls" added="1312528680"><![CDATA[<title>Server For Ajax Calls</title><info>To improve performance you can distribute the load from the IM to a different server.
+This setting tells to which server should the IM query for updates.
+
+Keep in mind that the server must still be under the same domain.
+
+If you leave it blank the IM will query the main server.
+Acceptable values are in the form of a domain or an IP address, for example:
+http://im.domain.com/
+http://67.15.104.63/
+
+are valid examples. Also dont forget the http:// and the ending /</info>]]></phrase>
+</phrases>

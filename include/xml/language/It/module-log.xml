@@ -1,0 +1,14 @@
+<phrases>
+	<phrase module_id="log" version_id="2.0.0alpha1" var_name="module_log" added="1219151809">Log</phrase>
+	<phrase module_id="log" version_id="2.0.0rc4" var_name="recent_logins" added="1255010369">Login recenti</phrase>
+	<phrase module_id="log" version_id="2.0.0rc4" var_name="admincp_dashboard" added="1255010448">AdminCP Dashboard</phrase>
+	<phrase module_id="log" version_id="2.0.0rc4" var_name="site_index" added="1255010458">Site Index</phrase>
+	<phrase module_id="log" version_id="2.0.0rc4" var_name="current_active_users" added="1255010487">Utenti Attivi Attuali</phrase>
+	<phrase module_id="log" version_id="2.0.0rc4" var_name="members_members_and_guests_guests" added="1255010523">{members} membri e {guests} Ospiti</phrase>
+	<phrase module_id="log" version_id="2.0.0rc4" var_name="view" added="1255010595">Guarda</phrase>
+	<phrase module_id="log" version_id="2.0.0rc4" var_name="save" added="1255010604">Salva</phrase>
+	<phrase module_id="log" version_id="2.0.0rc4" var_name="cancel" added="1255010610">Annulla</phrase>
+	<phrase module_id="log" version_id="2.0.0rc12" var_name="everyone" added="1260824015">Tutti</phrase>
+	<phrase module_id="log" version_id="2.0.0rc12" var_name="friends_only" added="1260824023">Solo miei amici</phrase>
+	<phrase module_id="log" version_id="3.0.0beta5" var_name="active_users_total" added="1319196397">Utenti Attivi ({total})</phrase>
+</phrases>

@@ -1,0 +1,16 @@
+<phrases>
+	<phrase module_id="privacy" version_id="2.0.0alpha1" var_name="user_setting_can_set_allow_list_on_blogs" added="1214436510"><![CDATA[Can set an "Allow List" when adding a new blog?
+
+Note: This setting will give the user the feature to add a list of users that can view their blog.]]></phrase>
+	<phrase module_id="privacy" version_id="2.0.0alpha1" var_name="module_privacy" added="1222250493">Privacy</phrase>
+	<phrase module_id="privacy" version_id="2.0.0rc4" var_name="update_preferred_list" added="1255177946">Update Preferred List</phrase>
+	<phrase module_id="privacy" version_id="2.0.0rc4" var_name="insufficient_permissions" added="1255177963">Insufficient Permissions</phrase>
+	<phrase module_id="privacy" version_id="2.1.0Beta1" var_name="user_setting_can_view_all_items" added="1293441281">Can view all items regardless of privacy settings?</phrase>
+	<phrase module_id="privacy" version_id="2.1.0Beta1" var_name="user_setting_can_comment_on_all_items" added="1293441385">Can comment on all items regardless of privacy settings?</phrase>
+	<phrase module_id="privacy" version_id="3.0.0beta5" var_name="everyone" added="1319114129">Tutti</phrase>
+	<phrase module_id="privacy" version_id="3.0.0beta5" var_name="friends" added="1319114135">Amici</phrase>
+	<phrase module_id="privacy" version_id="3.0.0beta5" var_name="friends_of_friends" added="1319114142">Amici di Amici</phrase>
+	<phrase module_id="privacy" version_id="3.0.0beta5" var_name="only_me" added="1319114152">Solo io</phrase>
+	<phrase module_id="privacy" version_id="3.0.0beta5" var_name="custom_span_click_to_edit_span" added="1319114162"><![CDATA[Personalizzato<span>(Modifica)</span>]]></phrase>
+	<phrase module_id="privacy" version_id="3.0.0beta5" var_name="custom_privacy" added="1319122188">Definisci la tua Privacy</phrase>
+</phrases>

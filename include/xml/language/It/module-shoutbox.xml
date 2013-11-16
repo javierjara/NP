@@ -1,0 +1,27 @@
+<phrases>
+	<phrase module_id="shoutbox" version_id="2.0.0alpha1" var_name="module_shoutbox" added="1232969781">Shoutbox</phrase>
+	<phrase module_id="shoutbox" version_id="2.0.0alpha1" var_name="setting_shoutbox_is_live" added="1233911435"><![CDATA[<title>Live Shoutbox</title><info>Set to <b>True</b> if you would like your shoutbox to be live. If it is set to <b>True</b> your shoutbox will automatically refresh without the need for your members to refresh the page manually in order to view new shoutouts.
+
+<b>Notice:</b> Not all servers can handle such a feature so use with caution.</info>]]></phrase>
+	<phrase module_id="shoutbox" version_id="2.0.0alpha1" var_name="setting_shoutbox_flood_limit" added="1233912129"><![CDATA[<title>Shoutbox Flood Limit (Seconds)</title><info>Define the flood limit in seconds.</info>]]></phrase>
+	<phrase module_id="shoutbox" version_id="2.0.0alpha1" var_name="setting_shoutbox_refresh" added="1233913715"><![CDATA[<title>Shoutbox Refresh (Seconds)</title><info>Define in seconds when the shoutbox should refresh and get new shoutouts.
+
+<b>Notice:</b> The setting <setting>shoutbox_flood_limit</setting> must set to <b>True</b> in order for this setting to function.</info>]]></phrase>
+	<phrase module_id="shoutbox" version_id="2.0.0alpha1" var_name="setting_shoutbox_display_limit" added="1233913988"><![CDATA[<title>Display Limit</title><info>Select how many shoutouts we should display in the shoutbox.</info>]]></phrase>
+	<phrase module_id="shoutbox" version_id="2.0.0alpha1" var_name="setting_shoutbox_time_stamp" added="1233914427"><![CDATA[<title>Time Stamp</title><info>Control the time stamps displayed on each of the shoutouts.</info>]]></phrase>
+	<phrase module_id="shoutbox" version_id="2.0.0alpha1" var_name="user_setting_can_view_shoutbox" added="1233914536">Can view the shoutbox?</phrase>
+	<phrase module_id="shoutbox" version_id="2.0.0alpha1" var_name="user_setting_can_add_shoutout" added="1233916307">Can post a shoutout?</phrase>
+	<phrase module_id="shoutbox" version_id="2.0.0alpha1" var_name="setting_shoutbox_wordwrap" added="1233916620"><![CDATA[<title>Wordwrap</title><info>Define a text wordwrap. The integer defined will be used to wrap long phrases so it does not stretch the shoutbox.
+
+<b>Notice:</b> The shoutbox using a default theme outputs shoutouts within a HTML DIV that allows long phrases within the DIV without stretching the entire site.</info>]]></phrase>
+	<phrase module_id="shoutbox" version_id="2.0.0alpha1" var_name="setting_shoutbox_total" added="1233922563"><![CDATA[<title>Shoutouts To Save</title><info>Select the amount of shoutouts we should save. Once a shoutout has passed this limit it is removed from our history to keep the shoutbox working as fast as possible.</info>]]></phrase>
+	<phrase module_id="shoutbox" version_id="2.0.0rc4" var_name="please_wait_limit_seconds_before_adding_a_new_shoutout" added="1255336884">Please wait {limit} seconds before adding a new shoutout.</phrase>
+	<phrase module_id="shoutbox" version_id="2.0.0rc4" var_name="only_members_of_this_group_can_leave_a_message" added="1255336919">Only members of this group can leave a message.</phrase>
+	<phrase module_id="shoutbox" version_id="2.0.0rc4" var_name="shoutbox" added="1255337003"><![CDATA[Botta & Risposta]]></phrase>
+	<phrase module_id="shoutbox" version_id="2.0.0rc4" var_name="view_shoutbox" added="1255337022">View Shoutbox</phrase>
+	<phrase module_id="shoutbox" version_id="2.0.0rc4" var_name="adding_your_shoutout" added="1255337063">Adding your shoutout</phrase>
+	<phrase module_id="shoutbox" version_id="2.0.0rc4" var_name="user_setting_can_delete_all_shoutbox_messages" added="1255864855">Can delete all shoutbox messages?</phrase>
+	<phrase module_id="shoutbox" version_id="2.0.0rc4" var_name="delete_this_shoutout" added="1255865184">Delete this shoutout.</phrase>
+	<phrase module_id="shoutbox" version_id="2.0.0rc4" var_name="are_you_sure" added="1255865416">Are you sure?</phrase>
+	<phrase module_id="shoutbox" version_id="2.0.0rc8" var_name="enter_a_shoutout" added="1258389086">Enter a shoutout.</phrase>
+</phrases>

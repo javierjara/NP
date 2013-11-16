@@ -1,0 +1,88 @@
+<phrases>
+	<phrase module_id="attachment" version_id="2.0.0alpha1" var_name="user_setting_points_attachment" added="1214982452">Points received when adding a new attachment for an item.</phrase>
+	<phrase module_id="attachment" version_id="2.0.0alpha1" var_name="user_setting_can_attach_on_blog" added="1214982579">Can attach items on blogs?</phrase>
+	<phrase module_id="attachment" version_id="2.0.0alpha1" var_name="user_setting_attachment_limit" added="1214982711"><![CDATA[Specify the attachment limit.
+
+This will control how many attachments a user can upload and attach on other items.
+
+If you do not want to allow users the ability to upload items set this to <b>0</b>.
+
+If you do not want to set a limit set this to <b>null</b>.]]></phrase>
+	<phrase module_id="attachment" version_id="2.0.0alpha1" var_name="user_setting_delete_own_attachment" added="1218706131">Can delete their own attachments?</phrase>
+	<phrase module_id="attachment" version_id="2.0.0alpha1" var_name="user_setting_delete_user_attachment" added="1218706185">Can delete attachments added by other users?</phrase>
+	<phrase module_id="attachment" version_id="2.0.0alpha1" var_name="module_attachment" added="1213971163">Attachment Information</phrase>
+	<phrase module_id="attachment" version_id="2.0.0alpha1" var_name="file_extension_is_not_valid" added="1212128638">Failed. File extension is not valid.</phrase>
+	<phrase module_id="attachment" version_id="2.0.0alpha1" var_name="done" added="1212128667">Done!</phrase>
+	<phrase module_id="attachment" version_id="2.0.0alpha1" var_name="uploading" added="1212128993">Uploading</phrase>
+	<phrase module_id="attachment" version_id="2.0.0alpha1" var_name="attached_files" added="1215267860">Attached Files</phrase>
+	<phrase module_id="attachment" version_id="2.0.0alpha1" var_name="views" added="1215268272">{total} Visualizzazioni</phrase>
+	<phrase module_id="attachment" version_id="2.0.0alpha1" var_name="attach_files" added="1218197611">Attach Files</phrase>
+	<phrase module_id="attachment" version_id="2.0.0alpha1" var_name="upload_new_attachment" added="1218533823">Upload New Attachment(s)</phrase>
+	<phrase module_id="attachment" version_id="2.0.0alpha1" var_name="browse_archives" added="1218533834">Browse Archives</phrase>
+	<phrase module_id="attachment" version_id="2.0.0alpha1" var_name="current_attachments" added="1218533856">Current Attachments</phrase>
+	<phrase module_id="attachment" version_id="2.0.0alpha1" var_name="attachments" added="1218533866">No attachments</phrase>
+	<phrase module_id="attachment" version_id="2.0.0alpha1" var_name="upload_attachments" added="1218533908">Upload Attachments(s)</phrase>
+	<phrase module_id="attachment" version_id="2.0.0alpha1" var_name="add_more_attachments" added="1218533925">Add More Attachments</phrase>
+	<phrase module_id="attachment" version_id="2.0.0alpha1" var_name="valid_file_extensions" added="1218533937">Valid file extensions</phrase>
+	<phrase module_id="attachment" version_id="2.0.0alpha1" var_name="cancel" added="1218533951">Annulla</phrase>
+	<phrase module_id="attachment" version_id="2.0.0alpha1" var_name="add_description" added="1218534271">Aggiungi Descrizione...</phrase>
+	<phrase module_id="attachment" version_id="2.0.0alpha1" var_name="use_inline_full_image" added="1218534304">Use Inline (Full Image)</phrase>
+	<phrase module_id="attachment" version_id="2.0.0alpha1" var_name="use_inline_thumbnail" added="1218534316">Use Inline (Thumbnail)</phrase>
+	<phrase module_id="attachment" version_id="2.0.0alpha1" var_name="use_inline" added="1218534331">Use Inline</phrase>
+	<phrase module_id="attachment" version_id="2.0.0alpha1" var_name="delete" added="1218534340">Elimina</phrase>
+	<phrase module_id="attachment" version_id="2.0.0alpha1" var_name="you_have_reached_your_upload_limit" added="1218633812">You have reached your upload limit.</phrase>
+	<phrase module_id="attachment" version_id="2.0.0alpha1" var_name="failed_limit_reached" added="1218705195">Failed: Limit Reached</phrase>
+	<phrase module_id="attachment" version_id="2.0.0alpha1" var_name="usage" added="1218705232">Usage</phrase>
+	<phrase module_id="attachment" version_id="2.0.0alpha1" var_name="setting_test" added="1230599222"><![CDATA[<title>This is a test</title><info>this is just a test...</info>]]></phrase>
+	<phrase module_id="attachment" version_id="2.0.0alpha1" var_name="user_setting_can_attach_on_bulletin" added="1234186901">Tells if the members of this usergroup can attach to their bulletins</phrase>
+	<phrase module_id="attachment" version_id="2.0.0rc1" var_name="user_setting_item_max_upload_size" added="1249942555"><![CDATA[Max file size for items upload in kilobits (kb).
+(1000 kb = 1 mb)
+For unlimited add "0" without quotes.]]></phrase>
+	<phrase module_id="attachment" version_id="2.0.0rc1" var_name="admincp_attachment_menu" added="1250836473">Allegati</phrase>
+	<phrase module_id="attachment" version_id="2.0.0rc1" var_name="admincp_menu_attachment_types" added="1250836515">Manage Types</phrase>
+	<phrase module_id="attachment" version_id="2.0.0rc1" var_name="admincp_menu_attachment_add" added="1250844995">Add a Type</phrase>
+	<phrase module_id="attachment" version_id="2.0.0rc2" var_name="attachment_type_successfully_updated" added="1252922216">Attachment type successfully updated.</phrase>
+	<phrase module_id="attachment" version_id="2.0.0rc2" var_name="attachment_type_successfully_added" added="1252922228">Attachment type successfully added.</phrase>
+	<phrase module_id="attachment" version_id="2.0.0rc2" var_name="attachments_title" added="1252922250">Allegati</phrase>
+	<phrase module_id="attachment" version_id="2.0.0rc2" var_name="add_an_attachment_type" added="1252922262">Add an Attachment Type</phrase>
+	<phrase module_id="attachment" version_id="2.0.0rc2" var_name="editing_an_attachment_type" added="1252922270">Editing an Attachment Type</phrase>
+	<phrase module_id="attachment" version_id="2.0.0rc2" var_name="no_such_download_found" added="1252922297">No such download found.</phrase>
+	<phrase module_id="attachment" version_id="2.0.0rc2" var_name="successfully_uploaded" added="1252922318">Successfully uploaded!</phrase>
+	<phrase module_id="attachment" version_id="2.0.0rc2" var_name="provide_an_extension" added="1252922399">Provide an extension.</phrase>
+	<phrase module_id="attachment" version_id="2.0.0rc2" var_name="provide_a_mime_type" added="1252922407">Provide a MIME type.</phrase>
+	<phrase module_id="attachment" version_id="2.0.0rc2" var_name="remove_inline" added="1252922486">Remove Inline</phrase>
+	<phrase module_id="attachment" version_id="2.0.0rc2" var_name="use_image" added="1252922498">Usa Immagine</phrase>
+	<phrase module_id="attachment" version_id="2.0.0rc2" var_name="no_attachments_available" added="1252922592">No attachments available.</phrase>
+	<phrase module_id="attachment" version_id="2.0.0rc2" var_name="jpg_gif_or_png" added="1252922647">JPG, GIF or PNG</phrase>
+	<phrase module_id="attachment" version_id="2.0.0rc2" var_name="the_file_size_limit_is_max_file_size" added="1252922669"><![CDATA[Il limite massimo di peso per allegati &#232; {max_file_size}. Se il caricamento non funziona, prova a caricare un allegato pi&#249; piccolo.]]></phrase>
+	<phrase module_id="attachment" version_id="2.0.0rc2" var_name="attachment_type_info" added="1252926402">Attachment Type Info</phrase>
+	<phrase module_id="attachment" version_id="2.0.0rc2" var_name="extension" added="1252926409">Extension</phrase>
+	<phrase module_id="attachment" version_id="2.0.0rc2" var_name="mime_type" added="1252926418">MIME Type</phrase>
+	<phrase module_id="attachment" version_id="2.0.0rc2" var_name="is_image" added="1252926429"><![CDATA[&#232; un'immagine]]></phrase>
+	<phrase module_id="attachment" version_id="2.0.0rc2" var_name="image" added="1252926531">Immagine</phrase>
+	<phrase module_id="attachment" version_id="2.0.0rc2" var_name="this_extension_already_exists" added="1253442098">This extension already exists.</phrase>
+	<phrase module_id="attachment" version_id="2.0.0rc6" var_name="admin_menu_manage_types" added="1256904823">Manage Types</phrase>
+	<phrase module_id="attachment" version_id="2.0.0rc6" var_name="admin_menu_add_new_type" added="1256904823">Add New Type</phrase>
+	<phrase module_id="attachment" version_id="2.0.0rc8" var_name="attachment_activity" added="1258500262">Allegati</phrase>
+	<phrase module_id="attachment" version_id="2.0.0rc8" var_name="select_attachment_s_to_upload" added="1259007508">Select attachment(s) to upload.</phrase>
+	<phrase module_id="attachment" version_id="2.0.0rc8" var_name="uploading_attachment_s" added="1259007526">Uploading attachment(s)</phrase>
+	<phrase module_id="attachment" version_id="2.0.0rc10" var_name="done_normal" added="1259353842">Done</phrase>
+	<phrase module_id="attachment" version_id="2.0.4" var_name="attachments_activity" added="1266500120">Allegati</phrase>
+	<phrase module_id="attachment" version_id="2.0.6" var_name="add" added="1283787543">Add</phrase>
+	<phrase module_id="attachment" version_id="2.0.8" var_name="setting_attachment_enable_mass_uploader" added="1295623916"><![CDATA[<title>Enable Mass Uploader</title><info>When enabled users will be allowed to use a mass file uploader to select multiple files from a single file select dialog.
+
+This uses an integration of SWFUpload (http://code.google.com/p/swfupload/) and thus it uses a Flash object.</info>]]></phrase>
+	<phrase module_id="attachment" version_id="2.1.0beta2" var_name="you_are_not_allowed_to_download_this_attachment" added="1300960934">You are not allowed to download this attachment</phrase>
+	<phrase module_id="attachment" version_id="3.0.0beta5" var_name="attach_a_photo" added="1319122207">Allega un Foto</phrase>
+	<phrase module_id="attachment" version_id="3.0.0beta5" var_name="attach_a_video" added="1319122215">Attach a Video</phrase>
+	<phrase module_id="attachment" version_id="3.0.0beta5" var_name="attach_a_file" added="1319122224">Attach a File</phrase>
+	<phrase module_id="attachment" version_id="3.0.0beta5" var_name="manage_attachments" added="1319188363">Gestisci Allegati</phrase>
+	<phrase module_id="attachment" version_id="3.0.0beta5" var_name="insert" added="1319188369">Insert</phrase>
+	<phrase module_id="attachment" version_id="3.0.0beta5" var_name="insert_a_photo" added="1319188389">Insert a Photo</phrase>
+	<phrase module_id="attachment" version_id="3.0.0beta5" var_name="attach_a_link" added="1319188405">Allega un Link</phrase>
+	<phrase module_id="attachment" version_id="3.0.0beta5" var_name="insert_a_video" added="1319188421">Insert a Video</phrase>
+	<phrase module_id="attachment" version_id="3.0.0beta5" var_name="insert_emoticon" added="1319188439">Insert Emoticon</phrase>
+	<phrase module_id="attachment" version_id="3.0.0beta5" var_name="attachments_display" added="1319188457">Allegati</phrase>
+	<phrase module_id="attachment" version_id="3.0.0beta5" var_name="upload_a_photo" added="1319188601">Carica una Foto</phrase>
+	<phrase module_id="attachment" version_id="3.0.0beta5" var_name="import_a_photo" added="1319188614">Importa una Foto</phrase>
+</phrases>

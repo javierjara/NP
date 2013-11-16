@@ -1,0 +1,287 @@
+<phrases>
+	<phrase module_id="pages" version_id="3.0.0beta1" var_name="module_pages" added="1309870711">Pagine</phrase>
+	<phrase module_id="pages" version_id="3.0.0beta1" var_name="menu_pages_pages_fad58de7366495db4650cfefac2fcd61" added="1309937808">Pagine</phrase>
+	<phrase module_id="pages" version_id="3.0.0beta1" var_name="user_setting_max_upload_size_pages" added="1310024854"><![CDATA[Max file size for event photos in kilobits (kb).
+(1000 kb = 1 mb)
+For unlimited add "0" without quotes.]]></phrase>
+	<phrase module_id="pages" version_id="3.0.0beta1" var_name="menu_pages_create_a_page_42a6b1a9f5d9d3cb02b85677b552fda0" added="1310037453">Crea una pagina!</phrase>
+	<phrase module_id="pages" version_id="3.0.0beta1" var_name="user_setting_can_moderate_pages" added="1311776645">Can moderate pages? This will allow a user to edit/delete/approve pages added by other users.</phrase>
+	<phrase module_id="pages" version_id="3.0.0beta1" var_name="user_setting_approve_pages" added="1311780223">Approve a new page before it is displayed publicly?</phrase>
+	<phrase module_id="pages" version_id="3.0.0beta1" var_name="user_setting_points_pages" added="1311782221">Activity points received when creating a new page.</phrase>
+	<phrase module_id="pages" version_id="3.0.0beta1" var_name="admin_menu_add_category" added="1312875739">Aggiungi una Categoria</phrase>
+	<phrase module_id="pages" version_id="3.0.0beta1" var_name="admin_menu_manage_categories" added="1312875739">Manage Categories</phrase>
+	<phrase module_id="pages" version_id="3.0.0beta3" var_name="user_setting_can_add_new_pages" added="1315737678">Can create new pages?</phrase>
+	<phrase module_id="pages" version_id="3.0.0beta3" var_name="pages" added="1316525998">Pagine</phrase>
+	<phrase module_id="pages" version_id="3.0.0beta3" var_name="widgets" added="1316530442">Widgets</phrase>
+	<phrase module_id="pages" version_id="3.0.0beta3" var_name="unable_to_find_the_page_you_are_trying_to_comment_on" added="1316530460">Unable to find the page you are trying to comment on.</phrase>
+	<phrase module_id="pages" version_id="3.0.0beta3" var_name="full_name_wrote_a_comment_on_your_page_title" added="1316530494"><![CDATA[{full_name} ha scritto un commento sulla tua pagina "{title}".]]></phrase>
+	<phrase module_id="pages" version_id="3.0.0beta3" var_name="full_name_wrote_a_comment_link" added="1316530579"><![CDATA[{full_name} ha scritto un commento sulla tua pagina "<a href="{link}">{title}</a>".
+Per vedere il commento, clicca il link qui sotto:
+<a href="{link}">{link}</a>]]></phrase>
+	<phrase module_id="pages" version_id="3.0.0beta3" var_name="page_name_not_allowed_please_select_another_name" added="1316530628">Page name not allowed. Please select another name.</phrase>
+	<phrase module_id="pages" version_id="3.0.0beta3" var_name="successfully_updated_your_pages_url" added="1316530638">Aggiornato con successo il nome utente della pagina.</phrase>
+	<phrase module_id="pages" version_id="3.0.0beta3" var_name="url_updated" added="1316530648">URL aggiornato</phrase>
+	<phrase module_id="pages" version_id="3.0.0beta3" var_name="successfully_registered_for_this_page" added="1316530667">Successfully registered for this page.</phrase>
+	<phrase module_id="pages" version_id="3.0.0beta3" var_name="moderation" added="1316530678">Moderation</phrase>
+	<phrase module_id="pages" version_id="3.0.0beta3" var_name="login_as_a_page" added="1316530696">Usa nomedeltuosito come Pagina</phrase>
+	<phrase module_id="pages" version_id="3.0.0beta3" var_name="pages_s_successfully_approved" added="1316530707">Pages(s) successfully approved.</phrase>
+	<phrase module_id="pages" version_id="3.0.0beta3" var_name="pages_s_successfully_deleted" added="1316530717">Pages(s) successfully deleted.</phrase>
+	<phrase module_id="pages" version_id="3.0.0beta3" var_name="page_has_been_approved" added="1316530735">Page has been approved.</phrase>
+	<phrase module_id="pages" version_id="3.0.0beta3" var_name="page_approved" added="1316530745">Page Approved</phrase>
+	<phrase module_id="pages" version_id="3.0.0beta3" var_name="sub_categories" added="1316530764">Sub-Categories</phrase>
+	<phrase module_id="pages" version_id="3.0.0beta3" var_name="categories" added="1316530772">Categorie</phrase>
+	<phrase module_id="pages" version_id="3.0.0beta3" var_name="members_total" added="1316530806">Membri ({total})</phrase>
+	<phrase module_id="pages" version_id="3.0.0beta3" var_name="likes" added="1316530831">Fans</phrase>
+	<phrase module_id="pages" version_id="3.0.0beta3" var_name="successfully_updated_the_category" added="1316530873">Successfully updated the category.</phrase>
+	<phrase module_id="pages" version_id="3.0.0beta3" var_name="successfully_created_a_new_category" added="1316530894">Successfully created a new category.</phrase>
+	<phrase module_id="pages" version_id="3.0.0beta3" var_name="add_category" added="1316530904">Add Category</phrase>
+	<phrase module_id="pages" version_id="3.0.0beta3" var_name="successfully_deleted_the_category" added="1316530922">Successfully deleted the category.</phrase>
+	<phrase module_id="pages" version_id="3.0.0beta3" var_name="manage_sub_categories" added="1316530937">Manage Sub-Categories</phrase>
+	<phrase module_id="pages" version_id="3.0.0beta3" var_name="manage_categories" added="1316530950">Manage Categories</phrase>
+	<phrase module_id="pages" version_id="3.0.0beta4" var_name="details" added="1316617701">Dettagli</phrase>
+	<phrase module_id="pages" version_id="3.0.0beta4" var_name="information" added="1316617709">Informazioni</phrase>
+	<phrase module_id="pages" version_id="3.0.0beta4" var_name="photo" added="1316617718">Foto</phrase>
+	<phrase module_id="pages" version_id="3.0.0beta4" var_name="permissions" added="1316617725">Autorizzazioni</phrase>
+	<phrase module_id="pages" version_id="3.0.0beta4" var_name="invite" added="1316617734">Invita persone</phrase>
+	<phrase module_id="pages" version_id="3.0.0beta4" var_name="url" added="1316617744">URL</phrase>
+	<phrase module_id="pages" version_id="3.0.0beta4" var_name="admins" added="1316617752">Amministratori</phrase>
+	<phrase module_id="pages" version_id="3.0.0beta4" var_name="view_this_page" added="1316617776">Visualizza Pagina</phrase>
+	<phrase module_id="pages" version_id="3.0.0beta4" var_name="editing_page" added="1316625572">Modifica Pagina</phrase>
+	<phrase module_id="pages" version_id="3.0.0beta4" var_name="creating_a_page" added="1316625585"><![CDATA[Crea una pagina!]]></phrase>
+	<phrase module_id="pages" version_id="3.0.0beta4" var_name="page_successfully_deleted" added="1316625616">Page successfully deleted.</phrase>
+	<phrase module_id="pages" version_id="3.0.0beta4" var_name="search_pages" added="1316625648">Cerca Pagine...</phrase>
+	<phrase module_id="pages" version_id="3.0.0beta4" var_name="latest" added="1316625658"><![CDATA[Pi&#249; recenti]]></phrase>
+	<phrase module_id="pages" version_id="3.0.0beta4" var_name="most_liked" added="1316625670"><![CDATA[Con pi&#249; fans]]></phrase>
+	<phrase module_id="pages" version_id="3.0.0beta4" var_name="all_pages" added="1316625685">Tutte le Pagine</phrase>
+	<phrase module_id="pages" version_id="3.0.0beta4" var_name="my_pages" added="1316625695">Le mie Pagine</phrase>
+	<phrase module_id="pages" version_id="3.0.0beta4" var_name="friends_pages" added="1316626008">Pagine degli Amici</phrase>
+	<phrase module_id="pages" version_id="3.0.0beta4" var_name="pending_pages" added="1316626019">Pending Pages</phrase>
+	<phrase module_id="pages" version_id="3.0.0beta4" var_name="delete" added="1316626031">Elimina</phrase>
+	<phrase module_id="pages" version_id="3.0.0beta4" var_name="approve" added="1316626042">Approva</phrase>
+	<phrase module_id="pages" version_id="3.0.0beta4" var_name="the_page_you_are_looking_for_cannot_be_found" added="1316626056">The page you are looking for cannot be found.</phrase>
+	<phrase module_id="pages" version_id="3.0.0beta4" var_name="unable_to_view_this_section_due_to_privacy_settings" added="1316626084">Unable to view this section due to privacy settings.</phrase>
+	<phrase module_id="pages" version_id="3.0.0beta4" var_name="in_the_page_link_title" added="1316626179"><![CDATA[In the page <a href="{link}">{title}</a>]]></phrase>
+	<phrase module_id="pages" version_id="3.0.0beta4" var_name="liked_the_page_link_title_title" added="1316626262"><![CDATA[&#232; ora fan della pagina "<a href="{link}" title="{link_title}">{title}</a>".]]></phrase>
+	<phrase module_id="pages" version_id="3.0.0beta4" var_name="users_invited_you_to_check_out_the_page_title" added="1316626340"><![CDATA[{users} pensa che possa interessati la pagina "{title}"]]></phrase>
+	<phrase module_id="pages" version_id="3.0.0beta4" var_name="full_name_liked_your_page_title" added="1316626489"><![CDATA[A {full_name} piace la tua pagina "{title}"]]></phrase>
+	<phrase module_id="pages" version_id="3.0.0beta4" var_name="full_name_liked_your_page" added="1316626575"><![CDATA[A {full_name} piace la tua pagina "<a href="{link}">{title}</a>"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+To view this page follow the link below:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="{link}">{link}</a>]]></phrase>
+	<phrase module_id="pages" version_id="3.0.0beta4" var_name="membership_accepted_to_title" added="1316626617"><![CDATA[Membership accepted to "{title}"]]></phrase>
+	<phrase module_id="pages" version_id="3.0.0beta4" var_name="your_membership_to_the_page_link" added="1316626679"><![CDATA[Your membership to the page "<a href="{link}">{title}</a>" has been accepted.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+To view this page follow the link below:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="{link}">{link}</a>]]></phrase>
+	<phrase module_id="pages" version_id="3.0.0beta4" var_name="your_membership_has_been_accepted_to_join_the_page_title" added="1316626814"><![CDATA[Your membership has been accepted to join the page "{title}".]]></phrase>
+	<phrase module_id="pages" version_id="3.0.0beta4" var_name="users_joined_gender_own_page_title" added="1316626982"><![CDATA[{users} joined {gender} own page "{title}"]]></phrase>
+	<phrase module_id="pages" version_id="3.0.0beta4" var_name="users_joined_your_page_title" added="1316627022"><![CDATA[{users} joined your page "{title}"]]></phrase>
+	<phrase module_id="pages" version_id="3.0.0beta4" var_name="users_joined_full_names_page_title" added="1316627075"><![CDATA[{users} joined <span class="drop_data_user">{full_name}'s</span> page "{title}"]]></phrase>
+	<phrase module_id="pages" version_id="3.0.0beta4" var_name="users_liked_gender_own_page_title" added="1316627125"><![CDATA[A {users} piace la sua pagina "{title}"]]></phrase>
+	<phrase module_id="pages" version_id="3.0.0beta4" var_name="users_liked_your_page_title" added="1316627180"><![CDATA[A {users} piace la tua pagina "{title}"]]></phrase>
+	<phrase module_id="pages" version_id="3.0.0beta4" var_name="users_liked_full_names_page_title" added="1316627228"><![CDATA[A {users} piace la pagina "{title}" di <span class="drop_data_user">{full_name}</span>]]></phrase>
+	<phrase module_id="pages" version_id="3.0.0beta4" var_name="who_can_post_a_comment" added="1316627275">Who can post a comment?</phrase>
+	<phrase module_id="pages" version_id="3.0.0beta4" var_name="who_can_view_browse_comments" added="1316627285">Who can view/browse comments?</phrase>
+	<phrase module_id="pages" version_id="3.0.0beta4" var_name="unable_to_post_a_comment_on_this_item_due_to_privacy_settings" added="1316627297">Unable to post a comment on this item due to privacy settings.</phrase>
+	<phrase module_id="pages" version_id="3.0.0beta4" var_name="full_name_commented_on_a_comment_posted_on_the_page_title" added="1316627327"><![CDATA[{full_name} ha commentato un post della pagina "{title}".]]></phrase>
+	<phrase module_id="pages" version_id="3.0.0beta4" var_name="full_name_commented_on_one_of_your_comments" added="1316627408"><![CDATA[{full_name} commented on one of your comments you posted on the page "<a href="{item_link}">{title}</a>".
+Per vedere il commento, segui il link qui sotto:
+<a href="{link}">{link}</a>]]></phrase>
+	<phrase module_id="pages" version_id="3.0.0beta4" var_name="full_name_commented_on_one_of_gender_page_comments" added="1316627479">{full_name} ha commentato una dei suoi post della pagina.</phrase>
+	<phrase module_id="pages" version_id="3.0.0beta4" var_name="full_name_commented_on_one_of_other_full_name_s_page_comments" added="1316627535"><![CDATA[{full_name} commented on one of {other_full_name}'s page comments.]]></phrase>
+	<phrase module_id="pages" version_id="3.0.0beta4" var_name="full_name_comment_on_one_of_gender" added="1316627681"><![CDATA[{full_name} commented on one of {gender} own comments on the page "<a href="{item_link}">{title}</a>".
+Per vedere il commento, segui il link qui sotto:
+<a href="{link}">{link}</a>]]></phrase>
+	<phrase module_id="pages" version_id="3.0.0beta4" var_name="full_name_commented_on_one_of_other_full_name" added="1316627849"><![CDATA[{full_name} commented on one of {other_full_name}'s comments on the page "<a href="{item_link}">{title}</a>".
+Per vedere il commento, segui il link qui sotto:
+<a href="{link}">{link}</a>]]></phrase>
+	<phrase module_id="pages" version_id="3.0.0beta4" var_name="users_commented_on_full_names_page" added="1316712977"><![CDATA[{users} commented on <span class="drop_data_user">{full_name}'s</span> page "{title}"]]></phrase>
+	<phrase module_id="pages" version_id="3.0.0beta4" var_name="users_commented_on_gender_own_page_title" added="1316713081"><![CDATA[{users} commented on {gender} own page "{title}"]]></phrase>
+	<phrase module_id="pages" version_id="3.0.0beta4" var_name="users_commented_on_your_page_title" added="1316713123"><![CDATA[{users} hanno scritto qualcosa sulla tua pagina "{title}"]]></phrase>
+	<phrase module_id="pages" version_id="3.0.0beta4" var_name="users_commented_on_span_class_drop_data_user_full_name_s_span_comment_on_the_page_title" added="1316713344"><![CDATA[{users} commented on <span class="drop_data_user">{full_name}'s</span> comment on the page "{title}"]]></phrase>
+	<phrase module_id="pages" version_id="3.0.0beta4" var_name="users_commented_on_gender_own_comment_on_the_page_title" added="1316713395"><![CDATA[{users} commented on {gender} own comment on the page "{title}"]]></phrase>
+	<phrase module_id="pages" version_id="3.0.0beta4" var_name="users_commented_on_one_of_your_comments_on_the_page_title" added="1316713436"><![CDATA[{users} commented on one of your comments on the page "{title}"]]></phrase>
+	<phrase module_id="pages" version_id="3.0.0beta4" var_name="users_commented_on_one_of_full_name" added="1316713481"><![CDATA[{users} commented on one of <span class="drop_data_user">{full_name}'s</span> comments on the page "{title}"]]></phrase>
+	<phrase module_id="pages" version_id="3.0.0beta4" var_name="page" added="1316713666">Page</phrase>
+	<phrase module_id="pages" version_id="3.0.0beta4" var_name="unable_to_find_the_page_you_are_looking_for" added="1316713720">Unable to find the page you are looking for.</phrase>
+	<phrase module_id="pages" version_id="3.0.0beta4" var_name="pending_memberships" added="1316713736">Pending Memberships</phrase>
+	<phrase module_id="pages" version_id="3.0.0beta4" var_name="wall" added="1316713746">Bacheca</phrase>
+	<phrase module_id="pages" version_id="3.0.0beta4" var_name="info" added="1316713755">Info</phrase>
+	<phrase module_id="pages" version_id="3.0.0beta4" var_name="unable_to_find_the_page_you_are_trying_to_edit" added="1316713777">Unable to find the page you are trying to edit.</phrase>
+	<phrase module_id="pages" version_id="3.0.0beta4" var_name="you_are_unable_to_edit_this_page" added="1316713789">You are unable to edit this page.</phrase>
+	<phrase module_id="pages" version_id="3.0.0beta4" var_name="unable_to_delete_this_widget" added="1316713824">Unable to delete this widget.</phrase>
+	<phrase module_id="pages" version_id="3.0.0beta4" var_name="unable_to_add_a_widget_to_this_page" added="1316713845">Unable to add a widget to this page.</phrase>
+	<phrase module_id="pages" version_id="3.0.0beta4" var_name="provide_a_title_for_your_widget" added="1316713858">Provide a title for your widget.</phrase>
+	<phrase module_id="pages" version_id="3.0.0beta4" var_name="provide_content_for_your_widget" added="1316713884">Provide content for your widget.</phrase>
+	<phrase module_id="pages" version_id="3.0.0beta4" var_name="provide_a_menu_title_for_your_widget" added="1316713894">Provide a menu title for your widget.</phrase>
+	<phrase module_id="pages" version_id="3.0.0beta4" var_name="provide_a_url_title_for_your_widget" added="1316713909">Provide a URL title for your widget.</phrase>
+	<phrase module_id="pages" version_id="3.0.0beta4" var_name="you_cannot_use_this_url_for_your_widget" added="1316713922">You cannot use this URL for your widget.</phrase>
+	<phrase module_id="pages" version_id="3.0.0beta4" var_name="page_name_cannot_be_empty" added="1316713946">Page name cannot be empty.</phrase>
+	<phrase module_id="pages" version_id="3.0.0beta4" var_name="full_name_invited_you_to_the_page_title" added="1316713980"><![CDATA[{full_name} ti invita a diventare fan della pagina "{title}".]]></phrase>
+	<phrase module_id="pages" version_id="3.0.0beta4" var_name="to_view_this_page_click_the_link_below_a_href_link_link_a" added="1316714024"><![CDATA[To view this page click the link below:
+<a href="{link}">{link}</a>]]></phrase>
+	<phrase module_id="pages" version_id="3.0.0beta4" var_name="full_name_sent_you_a_page_invitation" added="1316714062">{full_name} sent you a page invitation.</phrase>
+	<phrase module_id="pages" version_id="3.0.0beta4" var_name="unable_to_find_the_page_you_are_trying_to_login_to" added="1316714098">Unable to find the page you are trying to login to.</phrase>
+	<phrase module_id="pages" version_id="3.0.0beta4" var_name="unable_to_log_in_as_this_page" added="1316714108">Unable to log in as this page.</phrase>
+	<phrase module_id="pages" version_id="3.0.0beta4" var_name="unable_to_find_the_page_you_are_trying_to_delete" added="1316714120">Unable to find the page you are trying to delete.</phrase>
+	<phrase module_id="pages" version_id="3.0.0beta4" var_name="you_are_unable_to_delete_this_page" added="1316714132">You are unable to delete this page.</phrase>
+	<phrase module_id="pages" version_id="3.0.0beta4" var_name="unable_to_find_the_page_you_are_trying_to_approve" added="1316714149">Unable to find the page you are trying to approve.</phrase>
+	<phrase module_id="pages" version_id="3.0.0beta4" var_name="page_title_approved" added="1316714174"><![CDATA[Page "{title}" approved!]]></phrase>
+	<phrase module_id="pages" version_id="3.0.0beta4" var_name="your_page_title_has_been_approved" added="1316714245"><![CDATA[Your page "{title}" has been approved. To view this page follow the link below:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="{link}">{link}</a>]]></phrase>
+	<phrase module_id="pages" version_id="3.0.0beta4" var_name="users_commented_on_the_page_title" added="1317032878"><![CDATA[{users} hanno commentato sulla tua pagina "{title}"]]></phrase>
+	<phrase module_id="pages" version_id="3.0.0beta4" var_name="users_commented_on_full_name_comment" added="1317900448"><![CDATA[{users} commented on <span class="drop_data_user">{full_name}'s</span> comment on the page "{title}"]]></phrase>
+	<phrase module_id="pages" version_id="3.0.0beta4" var_name="users_commented_on_gender_own_comment" added="1317900524"><![CDATA[{users} commented on {gender} own comment on the page "{title}"]]></phrase>
+	<phrase module_id="pages" version_id="3.0.0beta4" var_name="users_commented_on_one_of_your_comments" added="1317900589"><![CDATA[{users} commented on one of your comments on the page "{title}"]]></phrase>
+	<phrase module_id="pages" version_id="3.0.0beta4" var_name="users_commented_on_one_of_full_name_comments" added="1317900666"><![CDATA[{users} commented on one of <span class="drop_data_user">{full_name}'s</span> comments on the page "{title}"]]></phrase>
+	<phrase module_id="pages" version_id="3.0.0beta5" var_name="invitations_sent_out" added="1319112534">Invitations sent out.</phrase>
+	<phrase module_id="pages" version_id="3.0.0beta5" var_name="unable_to_find_the_page" added="1319112551">Unable to find the page.</phrase>
+	<phrase module_id="pages" version_id="3.0.0beta5" var_name="unable_to_moderate_this_page" added="1319112561">Unable to moderate this page.</phrase>
+	<phrase module_id="pages" version_id="3.0.0beta5" var_name="go_to_app" added="1319112599"><![CDATA[Vai all'Applicazione]]></phrase>
+	<phrase module_id="pages" version_id="3.0.0beta5" var_name="create_a_page" added="1319112605">Crea una pagina!</phrase>
+	<phrase module_id="pages" version_id="3.0.0beta5" var_name="join" added="1319112623">Entra nel Gruppo</phrase>
+	<phrase module_id="pages" version_id="3.0.0beta5" var_name="like" added="1319112629">Mi piace</phrase>
+	<phrase module_id="pages" version_id="3.0.0beta5" var_name="no_members_yet" added="1319112645">No members yet.</phrase>
+	<phrase module_id="pages" version_id="3.0.0beta5" var_name="person_likes_this" added="1319112678">persona</phrase>
+	<phrase module_id="pages" version_id="3.0.0beta5" var_name="people_like_this" added="1319112686">persone</phrase>
+	<phrase module_id="pages" version_id="3.0.0beta5" var_name="manage" added="1319112696">Modifica Pagina</phrase>
+	<phrase module_id="pages" version_id="3.0.0beta5" var_name="are_you_sure" added="1319112714">Are you sure?</phrase>
+	<phrase module_id="pages" version_id="3.0.0beta5" var_name="select_switch_below_to_use_this_site_as_a_page" added="1319112741"><![CDATA[Clicca su "Cambia" per usare nomedeltuosito come se fosse una delle Pagine di cui sei amministratore.]]></phrase>
+	<phrase module_id="pages" version_id="3.0.0beta5" var_name="switch" added="1319112752">Cambia</phrase>
+	<phrase module_id="pages" version_id="3.0.0beta5" var_name="you_currently_do_not_have_any_pages" added="1319112778"><![CDATA[You currently do not have any pages. Create a new page <a href="{link}">here</a>.]]></phrase>
+	<phrase module_id="pages" version_id="3.0.0beta5" var_name="edit_page" added="1319112827">Modifica Pagina</phrase>
+	<phrase module_id="pages" version_id="3.0.0beta5" var_name="remove_membership" added="1319112839">Rimuovimi dai membri</phrase>
+	<phrase module_id="pages" version_id="3.0.0beta5" var_name="unlike" added="1319112846"><![CDATA[Non mi piace pi&#249;]]></phrase>
+	<phrase module_id="pages" version_id="3.0.0beta5" var_name="more" added="1319112897">Mostra altro</phrase>
+	<phrase module_id="pages" version_id="3.0.0beta5" var_name="category_details" added="1319112915">Category Details</phrase>
+	<phrase module_id="pages" version_id="3.0.0beta5" var_name="parent_category" added="1319112923">Parent Category</phrase>
+	<phrase module_id="pages" version_id="3.0.0beta5" var_name="none" added="1319112929">None</phrase>
+	<phrase module_id="pages" version_id="3.0.0beta5" var_name="name" added="1319112939">Scegli un nome</phrase>
+	<phrase module_id="pages" version_id="3.0.0beta5" var_name="is_a_group" added="1319112947">Is a group?</phrase>
+	<phrase module_id="pages" version_id="3.0.0beta5" var_name="yes" added="1319112956"><![CDATA[S&#236;]]></phrase>
+	<phrase module_id="pages" version_id="3.0.0beta5" var_name="no" added="1319112961">No</phrase>
+	<phrase module_id="pages" version_id="3.0.0beta5" var_name="if_a_page_is_considered_a_group_it_will_require_users_to_become_members" added="1319112975">If a page is considered a group it will require users to become members of that page, instead of just allowing users to Like a page.</phrase>
+	<phrase module_id="pages" version_id="3.0.0beta5" var_name="submit" added="1319112982">Invia</phrase>
+	<phrase module_id="pages" version_id="3.0.0beta5" var_name="active" added="1319113002">Active</phrase>
+	<phrase module_id="pages" version_id="3.0.0beta5" var_name="edit" added="1319113016">Modifica</phrase>
+	<phrase module_id="pages" version_id="3.0.0beta5" var_name="manage_sub_categories_total" added="1319113029">Manage Sub-Categories ({total})</phrase>
+	<phrase module_id="pages" version_id="3.0.0beta5" var_name="deactivate" added="1319113064">Deactivate</phrase>
+	<phrase module_id="pages" version_id="3.0.0beta5" var_name="activate" added="1319113071">Activate</phrase>
+	<phrase module_id="pages" version_id="3.0.0beta5" var_name="category" added="1319113085">Categoria</phrase>
+	<phrase module_id="pages" version_id="3.0.0beta5" var_name="app" added="1319113090">App</phrase>
+	<phrase module_id="pages" version_id="3.0.0beta5" var_name="landing_page" added="1319113115">Prima scheda visualizzata</phrase>
+	<phrase module_id="pages" version_id="3.0.0beta5" var_name="update" added="1319113124">Salva</phrase>
+	<phrase module_id="pages" version_id="3.0.0beta5" var_name="vanity_url" added="1319113132">Nome utente Pagina</phrase>
+	<phrase module_id="pages" version_id="3.0.0beta5" var_name="check_url" added="1319113147"><![CDATA[Verfica Disponibilit&#224;]]></phrase>
+	<phrase module_id="pages" version_id="3.0.0beta5" var_name="click_here_to_change_this_photo" added="1319113175"><![CDATA[Clicca <a href="#" id="js_pages_add_change_photo">qui</a> per cambiare la foto.]]></phrase>
+	<phrase module_id="pages" version_id="3.0.0beta5" var_name="upload_photo" added="1319113186">Carica Foto</phrase>
+	<phrase module_id="pages" version_id="3.0.0beta5" var_name="page_privacy" added="1319113202">Privacy della Pagina</phrase>
+	<phrase module_id="pages" version_id="3.0.0beta5" var_name="control_who_can_see_this_page" added="1319113214"><![CDATA[Controlla chi pu&#242; vedere questa pagina.]]></phrase>
+	<phrase module_id="pages" version_id="3.0.0beta5" var_name="page_registration_method" added="1319113231">Page Registration Method</phrase>
+	<phrase module_id="pages" version_id="3.0.0beta5" var_name="anyone" added="1319113237">Anyone</phrase>
+	<phrase module_id="pages" version_id="3.0.0beta5" var_name="approval_first" added="1319113248">Approval First</phrase>
+	<phrase module_id="pages" version_id="3.0.0beta5" var_name="members_only" added="1319113255">Solo persone</phrase>
+	<phrase module_id="pages" version_id="3.0.0beta5" var_name="admins_only" added="1319113263">Admins Only</phrase>
+	<phrase module_id="pages" version_id="3.0.0beta5" var_name="remove" added="1319113282">Remove</phrase>
+	<phrase module_id="pages" version_id="3.0.0beta5" var_name="search_friends_by_their_name" added="1319113296">Cerca Amici digitando il loro nome...</phrase>
+	<phrase module_id="pages" version_id="3.0.0beta5" var_name="create_new_widget" added="1319113311">Crea una nuovo Widget</phrase>
+	<phrase module_id="pages" version_id="3.0.0beta5" var_name="actions" added="1319113335">Amministra</phrase>
+	<phrase module_id="pages" version_id="3.0.0beta5" var_name="connect_with_friends_associates_amp_fans" added="1319113360"><![CDATA[Promuovi il tuo brand, associazione, attivit&#224; o musica e connettilo ai tuoi fans e amici! Per te 10 &#8364; ogni 1'000 persone raggiunte ;)]]></phrase>
+	<phrase module_id="pages" version_id="3.0.0beta5" var_name="choose_a_category" added="1319113390">Scegli una categoria</phrase>
+	<phrase module_id="pages" version_id="3.0.0beta5" var_name="get_started" added="1319113406">Inizia!</phrase>
+	<phrase module_id="pages" version_id="3.0.0beta5" var_name="invite_only" added="1319114205">Invite Only</phrase>
+	<phrase module_id="pages" version_id="3.0.0beta5" var_name="note_that_pages_displayed_here_are_pages_created_by_the_page" added="1319114265">Note that Pages displayed here are pages created by the Page ({global_full_name}) and not by the parent user ({profile_full_name}).</phrase>
+	<phrase module_id="pages" version_id="3.0.0beta5" var_name="moderate" added="1319114337">Moderate</phrase>
+	<phrase module_id="pages" version_id="3.0.0beta5" var_name="total_members" added="1319114360">{total} Fans</phrase>
+	<phrase module_id="pages" version_id="3.0.0beta5" var_name="1_member" added="1319114380">1 membro</phrase>
+	<phrase module_id="pages" version_id="3.0.0beta5" var_name="no_members" added="1319114389">Nessuno</phrase>
+	<phrase module_id="pages" version_id="3.0.0beta5" var_name="no_pages_found" added="1319114396">No pages found.</phrase>
+	<phrase module_id="pages" version_id="3.0.0beta5" var_name="this_page_is_pending_an_admins_approval_before_it_can_be_displayed_publicly" added="1319114407">This page is pending an Admins approval before it can be displayed publicly.</phrase>
+	<phrase module_id="pages" version_id="3.0.0beta5" var_name="you_have_been_invited_to_join_this_community" added="1319114443">You have been invited to join this community.</phrase>
+	<phrase module_id="pages" version_id="3.0.0beta5" var_name="due_to_privacy_settings_this_page_is_not_visible" added="1319114456">Due to privacy settings this page is not visible.</phrase>
+	<phrase module_id="pages" version_id="3.0.0beta5" var_name="this_page_is_also_invite_only" added="1319114467"><![CDATA[This page is also "Invite Only".]]></phrase>
+	<phrase module_id="pages" version_id="3.0.0beta5" var_name="title" added="1319114483">Titolo</phrase>
+	<phrase module_id="pages" version_id="3.0.0beta5" var_name="is_a_block" added="1319114491"><![CDATA[E' un blocco?]]></phrase>
+	<phrase module_id="pages" version_id="3.0.0beta5" var_name="menu_title" added="1319114510">Titolo Menu</phrase>
+	<phrase module_id="pages" version_id="3.0.0beta5" var_name="content" added="1319114526">Content</phrase>
+	<phrase module_id="pages" version_id="3.0.0beta5" var_name="successfully_moderated_user_s" added="1319183922">Successfully moderated user(s).</phrase>
+	<phrase module_id="pages" version_id="3.0.0beta5" var_name="events" added="1319187962">Eventi</phrase>
+	<phrase module_id="pages" version_id="3.0.0beta5" var_name="music" added="1319187976">Musica</phrase>
+	<phrase module_id="pages" version_id="3.0.0beta5" var_name="photos" added="1319187984">Foto</phrase>
+	<phrase module_id="pages" version_id="3.0.0beta5" var_name="discussions" added="1319187992">Discussioni</phrase>
+	<phrase module_id="pages" version_id="3.0.0rc1" var_name="logged_in_as_a_page" added="1320237087">You are currently logged in as a Page. In order to create a new page log back in as your parent account ({full_name}).</phrase>
+	<phrase module_id="pages" version_id="3.0.0rc1" var_name="unable_to_view_this_item_due_to_privacy_settings" added="1320414300">Unable to view this item due to privacy settings.</phrase>
+</phrases>

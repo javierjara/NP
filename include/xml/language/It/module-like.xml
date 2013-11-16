@@ -1,0 +1,15 @@
+<phrases>
+	<phrase module_id="like" version_id="2.1.0Beta1" var_name="module_like" added="1293004519">Mi piace</phrase>
+	<phrase module_id="like" version_id="3.0.0beta5" var_name="you" added="1319121089">Ti</phrase>
+	<phrase module_id="like" version_id="3.0.0beta5" var_name="you_and" added="1319121111">A te e</phrase>
+	<phrase module_id="like" version_id="3.0.0beta5" var_name="you_comma" added="1319121128">A te,</phrase>
+	<phrase module_id="like" version_id="3.0.0beta5" var_name="and" added="1319121140">e</phrase>
+	<phrase module_id="like" version_id="3.0.0beta5" var_name="1_other_person" added="1319121152">1 persona</phrase>
+	<phrase module_id="like" version_id="3.0.0beta5" var_name="others" added="1319121160">altre persone</phrase>
+	<phrase module_id="like" version_id="3.0.0beta5" var_name="like_this" added="1319121169">piace questo elemento</phrase>
+	<phrase module_id="like" version_id="3.0.0beta5" var_name="likes_this" added="1319121177">piace questo elemento.</phrase>
+	<phrase module_id="like" version_id="3.0.0beta5" var_name="1_person" added="1319121390">1 persona</phrase>
+	<phrase module_id="like" version_id="3.0.0beta5" var_name="total_people" added="1319121408">{total} persone</phrase>
+	<phrase module_id="like" version_id="3.0.0beta5" var_name="members" added="1319122349">Fans</phrase>
+	<phrase module_id="like" version_id="3.0.0beta5" var_name="people_who_like_this" added="1319122357">Persone a cui piace</phrase>
+</phrases>

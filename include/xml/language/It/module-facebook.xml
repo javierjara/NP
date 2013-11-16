@@ -1,0 +1,31 @@
+<phrases>
+	<phrase module_id="facebook" version_id="2.0.4" var_name="module_facebook" added="1264688556">Facebook Module</phrase>
+	<phrase module_id="facebook" version_id="2.0.4" var_name="setting_group_facebook_connect" added="1264689344"><![CDATA[<title>Facebook Connect</title><info>Facebook Connect</info>]]></phrase>
+	<phrase module_id="facebook" version_id="2.0.4" var_name="setting_facebook_api_key" added="1264689434"><![CDATA[<title>Facebook API Key</title><info>Provide the API Key for your Facebook application.</info>]]></phrase>
+	<phrase module_id="facebook" version_id="2.0.4" var_name="setting_facebook_secret" added="1264689485"><![CDATA[<title>Facebook Secret</title><info>Provide the secret key for your Facebook application.</info>]]></phrase>
+	<phrase module_id="facebook" version_id="2.0.4" var_name="setting_enable_facebook_connect" added="1265987360"><![CDATA[<title>Enable Facebook Connect</title><info>Set this to <b>True</b> to enable Facebook connect.</info>]]></phrase>
+	<phrase module_id="facebook" version_id="2.0.4" var_name="please_hold_while_you_are_redirected" added="1266261674">Please hold while you are redirected...</phrase>
+	<phrase module_id="facebook" version_id="2.0.5" var_name="setting_facebook_app_id" added="1272970806"><![CDATA[<title>Application ID</title><info>Provide the Application ID for your Facebook application.</info>]]></phrase>
+	<phrase module_id="facebook" version_id="2.0.5" var_name="facebook_connect" added="1273144993">Facebook Connect</phrase>
+	<phrase module_id="facebook" version_id="2.0.5" var_name="the_email_you_have_associated_with_facebook_is_already_in_use" added="1273145141">The email you have associated with Facebook is already in use on our website and cannot be used with this account.</phrase>
+	<phrase module_id="facebook" version_id="2.0.5dev1" var_name="setting_facebook_like_blog" added="1274191742"><![CDATA[<title>Enable Facebook Like Button (Blogs)</title><info>Enable to use the Facebook Like Button feature.</info>]]></phrase>
+	<phrase module_id="facebook" version_id="2.0.5dev1" var_name="setting_facebook_like_photo" added="1274192408"><![CDATA[<title>Enable Facebook Like Button (Photo)</title><info>Enable to use the Facebook Like Button feature.</info>]]></phrase>
+	<phrase module_id="facebook" version_id="2.0.5dev1" var_name="setting_facebook_like_video" added="1274193338"><![CDATA[<title>Enable Facebook Like Button (Video)</title><info>Enable to use the Facebook Like Button feature.</info>]]></phrase>
+	<phrase module_id="facebook" version_id="2.0.5dev1" var_name="setting_facebook_like_group" added="1274193550"><![CDATA[<title>Enable Facebook Like Button (Groups)</title><info>Enable to use the Facebook Like Button feature.</info>]]></phrase>
+	<phrase module_id="facebook" version_id="2.0.5dev1" var_name="setting_facebook_like_event" added="1274278715"><![CDATA[<title>Enable Facebook Like Button (Events)</title><info>Enable to use the Facebook Like Button feature.</info>]]></phrase>
+	<phrase module_id="facebook" version_id="2.0.5dev1" var_name="setting_facebook_like_marketplace" added="1274278840"><![CDATA[<title>Enable Facebook Like Button (Marketplace)</title><info>Enable to use the Facebook Like Button feature.</info>]]></phrase>
+	<phrase module_id="facebook" version_id="2.0.5" var_name="facebook_sync" added="1276427364">Sincronizza con Facebook</phrase>
+	<phrase module_id="facebook" version_id="2.0.5" var_name="please_take_a_moment_to_sync_your_facebook_account_with_our_community" added="1276427380">Please take a moment to sync your Facebook account with our community.</phrase>
+	<phrase module_id="facebook" version_id="2.0.7" var_name="or_login_with" added="1287493443">o accedi tramite Facebook:</phrase>
+	<phrase module_id="facebook" version_id="2.0.7" var_name="facebook_connect_account_issues" added="1289310719">Facebook Connect Account Issues</phrase>
+	<phrase module_id="facebook" version_id="2.0.7" var_name="we_already_have_an_account_created_with_us" added="1289310877">We already have an account created with us with the same email you have on Facebook. Would you like to sync both accounts?</phrase>
+	<phrase module_id="facebook" version_id="2.0.7" var_name="note_that_if_you_sync_both_accounts" added="1289314457">Note that if you sync both accounts you will not be able to use the original account here other then logging in with Facebook Connect.</phrase>
+	<phrase module_id="facebook" version_id="2.0.7" var_name="yes_sync_both_accounts" added="1289314465"><![CDATA[S&#236;, sincronizza entrambi gli account.]]></phrase>
+	<phrase module_id="facebook" version_id="2.0.7" var_name="no_do_not_sync_both_accounts" added="1289314474">No, do not sync both accounts.</phrase>
+	<phrase module_id="facebook" version_id="2.0.7" var_name="you_have_chosen_to_not_sync_both_accounts" added="1289314492">You have chosen to not sync both accounts. To complete this process please remove this Facebook Connection here:</phrase>
+	<phrase module_id="facebook" version_id="2.0.7" var_name="unable_to_login" added="1289314532">Impossibile collegarsi da Facebook.</phrase>
+	<phrase module_id="facebook" version_id="2.0.7" var_name="unable_to_fetch_your_facebook_account" added="1289314557">Unable to fetch your Facebook account.</phrase>
+	<phrase module_id="facebook" version_id="2.0.7" var_name="unable_to_fetch_your_full_name_from_facebook" added="1289314585">Unable to fetch your full name from Facebook.</phrase>
+	<phrase module_id="facebook" version_id="2.1.0beta2" var_name="your_account_is_synced_with_your_facebook_account" added="1301391778"><![CDATA[Il tuo account &#232; collegato a quello di Facebook. Per favore accedi tramite Facebook]]></phrase>
+	<phrase module_id="facebook" version_id="3.0.0beta2" var_name="user_cancellation_7" added="1316445169">Fa cagare!</phrase>
+</phrases>

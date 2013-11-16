@@ -1,0 +1,9 @@
+<phrases>
+	<phrase module_id="search" version_id="2.0.0alpha1" var_name="module_search" added="1232969305">Cerca</phrase>
+	<phrase module_id="search" version_id="2.0.0rc8" var_name="provide_a_search_query" added="1258738780">Provide a search query.</phrase>
+	<phrase module_id="search" version_id="2.0.0rc8" var_name="tags" added="1258740328">Tags</phrase>
+	<phrase module_id="search" version_id="2.0.0rc8" var_name="results" added="1259089709">Results</phrase>
+	<phrase module_id="search" version_id="2.0.0rc8" var_name="search" added="1259089719">Cerca</phrase>
+	<phrase module_id="search" version_id="2.0.0rc8" var_name="results_for" added="1259089736">Risultati per</phrase>
+	<phrase module_id="search" version_id="2.0.7" var_name="user_setting_can_use_global_search" added="1288616524">Can use the global search tool?</phrase>
+</phrases>

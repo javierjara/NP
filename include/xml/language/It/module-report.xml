@@ -1,0 +1,43 @@
+<phrases>
+	<phrase module_id="report" version_id="2.0.0alpha1" var_name="user_setting_can_report_comments" added="1218790099">Can report on comments?</phrase>
+	<phrase module_id="report" version_id="2.0.0alpha1" var_name="report" added="1212758605">Report</phrase>
+	<phrase module_id="report" version_id="2.0.0alpha1" var_name="report_a_comment" added="1212758732">Segnala un commento</phrase>
+	<phrase module_id="report" version_id="2.0.0alpha1" var_name="you_have_already_reported_this_item" added="1219411144">You have already reported this item.</phrase>
+	<phrase module_id="report" version_id="2.0.0alpha1" var_name="you_are_about_report_violation_our_terms_use" added="1219411155">Stai per segnalare una violazione dei nostri Termini del Servizio.</phrase>
+	<phrase module_id="report" version_id="2.0.0alpha1" var_name="all_reports_are_strictly_confidential" added="1219411169"><![CDATA[<strong>Ogni segnalazione &#232; strettamente confidenziale</strong>.]]></phrase>
+	<phrase module_id="report" version_id="2.0.0alpha1" var_name="choose_one" added="1219411180">Scegline uno...</phrase>
+	<phrase module_id="report" version_id="2.0.0beta2" var_name="admin_menu_view_reports" added="1242580237">View Reports</phrase>
+	<phrase module_id="report" version_id="2.0.0beta2" var_name="admin_menu_add_category" added="1242635091">Add Category</phrase>
+	<phrase module_id="report" version_id="2.0.0beta2" var_name="admin_menu_manage_categories" added="1242635091">Manage Categories</phrase>
+	<phrase module_id="report" version_id="2.0.0rc4" var_name="category_successfully_updated" added="1255329781">Category successfully updated.</phrase>
+	<phrase module_id="report" version_id="2.0.0rc4" var_name="category_successfully_added" added="1255329789">Category successfully added.</phrase>
+	<phrase module_id="report" version_id="2.0.0rc4" var_name="edit_a_category" added="1255329797">Edit a Category</phrase>
+	<phrase module_id="report" version_id="2.0.0rc4" var_name="add_a_category" added="1255329806">Add a Category</phrase>
+	<phrase module_id="report" version_id="2.0.0rc4" var_name="successfully_deleted_categories" added="1255329834">Successfully deleted categories.</phrase>
+	<phrase module_id="report" version_id="2.0.0rc4" var_name="manage_categories" added="1255329842">Manage Categories</phrase>
+	<phrase module_id="report" version_id="2.0.0rc4" var_name="report_s_successfully_ignored" added="1255329858">Report(s) successfully ignored.</phrase>
+	<phrase module_id="report" version_id="2.0.0rc4" var_name="reports" added="1255329868">Reports</phrase>
+	<phrase module_id="report" version_id="2.0.0rc4" var_name="provide_a_category_name" added="1255329905">Provide a category name.</phrase>
+	<phrase module_id="report" version_id="2.0.0rc4" var_name="not_a_valid_category_to_edit" added="1255329928">Not a valid category to edit.</phrase>
+	<phrase module_id="report" version_id="2.0.0rc4" var_name="not_a_valid_report" added="1255329942">Not a valid report.</phrase>
+	<phrase module_id="report" version_id="2.0.0rc4" var_name="you_are_about_to_report_a_violation_of_our_a_href_link_target_blank_terms_of_use_a" added="1255330036"><![CDATA[Stai per segnalare una violazione dei nostri <a href="{link}" target="_blank">Termini del Servizio</a>.]]></phrase>
+	<phrase module_id="report" version_id="2.0.0rc4" var_name="reason" added="1255330068">Motivo</phrase>
+	<phrase module_id="report" version_id="2.0.0rc4" var_name="user" added="1255330120">User</phrase>
+	<phrase module_id="report" version_id="2.0.0rc4" var_name="category" added="1255330126">Categoria</phrase>
+	<phrase module_id="report" version_id="2.0.0rc4" var_name="date" added="1255330132">Date</phrase>
+	<phrase module_id="report" version_id="2.0.0rc4" var_name="report_this_user" added="1255330248">Segnala questa persona</phrase>
+	<phrase module_id="report" version_id="2.0.0rc4" var_name="category_details" added="1255330269">Dettagli Categoria</phrase>
+	<phrase module_id="report" version_id="2.0.0rc4" var_name="category_name" added="1255330290">Nome Categoria</phrase>
+	<phrase module_id="report" version_id="2.0.0rc4" var_name="update" added="1255330297">Aggiorna</phrase>
+	<phrase module_id="report" version_id="2.0.0rc4" var_name="add" added="1255330303">Add</phrase>
+	<phrase module_id="report" version_id="2.0.0rc4" var_name="module" added="1255330314">Module</phrase>
+	<phrase module_id="report" version_id="2.0.0rc4" var_name="delete_selected" added="1255330327">Delete Selected</phrase>
+	<phrase module_id="report" version_id="2.0.0rc4" var_name="no_categories" added="1255330333">Nessuna Categoria</phrase>
+	<phrase module_id="report" version_id="2.0.0rc4" var_name="total" added="1255330356">Total</phrase>
+	<phrase module_id="report" version_id="2.0.0rc4" var_name="last_report" added="1255330368">Last Report</phrase>
+	<phrase module_id="report" version_id="2.0.0rc4" var_name="ignore_selected" added="1255330389">Ignore Selected</phrase>
+	<phrase module_id="report" version_id="2.0.0rc4" var_name="no_reports" added="1255330395">No reports.</phrase>
+	<phrase module_id="report" version_id="2.0.0rc4" var_name="report_this_feed" added="1256657121"><![CDATA[Segnala questa attivit&#224;.]]></phrase>
+	<phrase module_id="report" version_id="2.0.7" var_name="attacks_individual_or_group" added="1288202139">Attacks Individual or Group</phrase>
+	<phrase module_id="report" version_id="2.0.8" var_name="feedback" added="1297091784">Feedback</phrase>
+</phrases>

@@ -1,0 +1,10 @@
+<phrases>
+	<phrase module_id="help" version_id="2.0.0alpha1" var_name="user_setting_show_tips" added="1219325863">Show tips?</phrase>
+	<phrase module_id="help" version_id="2.0.0alpha1" var_name="module_help" added="1219157383">Help</phrase>
+	<phrase module_id="help" version_id="2.0.0alpha1" var_name="add_new_phrase" added="1213990180">Add New Phrase</phrase>
+	<phrase module_id="help" version_id="2.0.0alpha1" var_name="click_for_help" added="1213990238">Click for Help</phrase>
+	<phrase module_id="help" version_id="2.0.0alpha1" var_name="hide_all_tips" added="1219325791">Hide All Tips</phrase>
+	<phrase module_id="help" version_id="2.0.0alpha1" var_name="close" added="1219325807">Chiudi</phrase>
+	<phrase module_id="help" version_id="2.0.0alpha1" var_name="hide_this_tip" added="1219328167">Hide This Tip</phrase>
+	<phrase module_id="help" version_id="2.0.0alpha1" var_name="add_back_tips_info" added="1219328306"><![CDATA[<b>Note:</b> If you close all tips found on this site you can edit your <b>Account Settings</b> to view tips again.]]></phrase>
+</phrases>

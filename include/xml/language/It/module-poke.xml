@@ -1,0 +1,46 @@
+<phrases>
+	<phrase module_id="poke" version_id="3.0.0beta1" var_name="module_poke" added="1307704085">Poke</phrase>
+	<phrase module_id="poke" version_id="3.0.0beta1" var_name="user_setting_can_poke" added="1307704928">Can members of this user group poke other members?</phrase>
+	<phrase module_id="poke" version_id="3.0.0beta1" var_name="poke" added="1307705292">Manda un Poke</phrase>
+	<phrase module_id="poke" version_id="3.0.0beta1" var_name="user_setting_can_send_poke" added="1307966022">Can members of this user group send Pokes?</phrase>
+	<phrase module_id="poke" version_id="3.0.0beta1" var_name="user_setting_can_only_poke_friends" added="1307966175">Can members of this user group send a poke only to  people in their friends list?
+
+(If you disable it, members of this user group will be able to poke people also not in their friends list)</phrase>
+	<phrase module_id="poke" version_id="3.0.0beta1" var_name="setting_add_to_feed" added="1308041673"><![CDATA[<title>Add pokes to activity feed</title><info>If enabled every poke sent by a user will be added to the activity feed</info>]]></phrase>
+	<phrase module_id="poke" version_id="3.0.0beta3" var_name="you_are_not_allowed_to_send_pokes" added="1315944406">You are not allowed to send pokes</phrase>
+	<phrase module_id="poke" version_id="3.0.0beta3" var_name="you_can_only_poke_your_own_friends" added="1315944418">You can only poke your own friends</phrase>
+	<phrase module_id="poke" version_id="3.0.0beta3" var_name="poke_sent" added="1315944430">Poke inviato.</phrase>
+	<phrase module_id="poke" version_id="3.0.0beta3" var_name="poke_could_not_be_sent" added="1315944442">Poke could not be sent.</phrase>
+	<phrase module_id="poke" version_id="3.0.0beta5" var_name="pokes" added="1319103693">Poke</phrase>
+	<phrase module_id="poke" version_id="3.0.0beta5" var_name="full_name_liked_one_of_your_pokes" added="1319103762">A {full_name} piace uno dei tuoi Poke</phrase>
+	<phrase module_id="poke" version_id="3.0.0beta5" var_name="full_name_liked_when_you_poked_row_full_name" added="1319103882"><![CDATA[{full_name} liked when you poked "<a href="{link}">{row_full_name}</a>"
+
+Per vederlo, clicca il link qui sotto:
+
+<a href="{link}">{link}</a>"]]></phrase>
+	<phrase module_id="poke" version_id="3.0.0beta5" var_name="unable_to_post_a_comment_on_this_item_due_to_privacy_settings" added="1319103922">Unable to post a comment on this item due to privacy settings.</phrase>
+	<phrase module_id="poke" version_id="3.0.0beta5" var_name="full_name_commented_on_your_poke" added="1319103939">{full_name} commented on your poke</phrase>
+	<phrase module_id="poke" version_id="3.0.0beta5" var_name="full_name_commented_on_your_poke_to_see_the_comment_thread_follow_the_link_below_a_href_link_link_a" added="1319103983"><![CDATA[{full_name} commented on your poke.
+To see the comment thread, follow the link below:
+<a href="{link}">{link}</a>]]></phrase>
+	<phrase module_id="poke" version_id="3.0.0beta5" var_name="full_name_commented_on_gender_poke" added="1319104029">{full_name} commented on {gender} poke.</phrase>
+	<phrase module_id="poke" version_id="3.0.0beta5" var_name="full_name_commented_on_row_full_name_s_poke" added="1319104071"><![CDATA[{full_name} commented on {row_full_name}'s poke.]]></phrase>
+	<phrase module_id="poke" version_id="3.0.0beta5" var_name="full_name_commented_on_gender_poke_to_see_the_comment_thread" added="1319104146"><![CDATA[{full_name} commented on {gender} poke.
+To see the comment thread, follow the link below:
+<a href="{link}">{link}</a>]]></phrase>
+	<phrase module_id="poke" version_id="3.0.0beta5" var_name="full_name_commented_on_row_full_name_s_poke_message" added="1319104355"><![CDATA[{full_name} commented on {row_full_name}'s poke.
+Per vedere il commento, segui il link qui sotto:
+<a href="{link}">{link}</a>]]></phrase>
+	<phrase module_id="poke" version_id="3.0.0beta5" var_name="can_send_pokes" added="1319104390">Inviarti Poke</phrase>
+	<phrase module_id="poke" version_id="3.0.0beta5" var_name="users_liked_gender_poke_for_title" added="1319104472"><![CDATA[A {users} piace il suo poke che ha mandato a "{title}"]]></phrase>
+	<phrase module_id="poke" version_id="3.0.0beta5" var_name="users_liked_your_poke_for_title" added="1319104512"><![CDATA[A {users} piace il poke che hai mandato a "{title}"]]></phrase>
+	<phrase module_id="poke" version_id="3.0.0beta5" var_name="users_liked_span_class_drop_data_user_row_full_name_s_span_for_title" added="1319104556"><![CDATA[A {users} piace <span class="drop_data_user">{row_full_name}</span> a "{title}"]]></phrase>
+	<phrase module_id="poke" version_id="3.0.0beta5" var_name="users_commented_on_gender_poke_for_title" added="1319104648"><![CDATA[{users} commented on {gender} poke for "{title}"]]></phrase>
+	<phrase module_id="poke" version_id="3.0.0beta5" var_name="users_commented_on_your_poke_for_title" added="1319104687"><![CDATA[{users} commented on your poke for "{title}"]]></phrase>
+	<phrase module_id="poke" version_id="3.0.0beta5" var_name="users_commented_on_span_class_drop_data_user_row_full_name_s_span_for_title" added="1319104727"><![CDATA[{users} commented on <span class="drop_data_user">{row_full_name}'s</span> for "{title}"]]></phrase>
+	<phrase module_id="poke" version_id="3.0.0beta5" var_name="poked_a_href_link_full_name_a" added="1319104791"><![CDATA[ha inviato un poke a <a href="{link}">{full_name}</a>]]></phrase>
+	<phrase module_id="poke" version_id="3.0.0beta5" var_name="poke_back" added="1319108683">Rimanda Poke</phrase>
+	<phrase module_id="poke" version_id="3.0.0beta5" var_name="view_more_total" added="1319108700">Mostra altri ({total})</phrase>
+	<phrase module_id="poke" version_id="3.0.0beta5" var_name="you_are_about_to_poke_full_name" added="1319108800">You are about to poke {full_name}.</phrase>
+	<phrase module_id="poke" version_id="3.0.0beta5" var_name="loading" added="1319111495">Loading...</phrase>
+</phrases>

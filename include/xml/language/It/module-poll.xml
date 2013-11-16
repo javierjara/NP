@@ -1,0 +1,220 @@
+<phrases>
+	<phrase module_id="poll" version_id="2.0.0alpha1" var_name="module_poll" added="1232964260">Sondaggi</phrase>
+	<phrase module_id="poll" version_id="2.0.0alpha1" var_name="menu_poll" added="1232964276">Sondaggi</phrase>
+	<phrase module_id="poll" version_id="2.0.0alpha1" var_name="menu_add_new_poll" added="1233240881">Aggiungi Sondaggio</phrase>
+	<phrase module_id="poll" version_id="2.0.0alpha1" var_name="menu_polls" added="1233311326">Sondaggi</phrase>
+	<phrase module_id="poll" version_id="2.0.0alpha1" var_name="setting_is_image_required" added="1234290147"><![CDATA[<title>Is Image Required</title><info>If set to true, users will have to upload an image with every poll they post.
+
+By default is set to false, so they don't need to upload an image with their polls.</info>]]></phrase>
+	<phrase module_id="poll" version_id="2.0.0alpha1" var_name="user_setting_poll_can_upload_image" added="1234356544">This setting defines if members of this usergroup can add images along with their polls.</phrase>
+	<phrase module_id="poll" version_id="2.0.0alpha1" var_name="setting_poll_max_image_pic_size" added="1234366729"><![CDATA[<title>Size of the poll image</title><info>When users upload an image with their polls this will be the maximum size for that picture, anything bigger will be resized</info>]]></phrase>
+	<phrase module_id="poll" version_id="2.0.0alpha1" var_name="user_setting_can_edit_own_poll" added="1234377080">Can members of this user group edit polls they have posted?</phrase>
+	<phrase module_id="poll" version_id="2.0.0alpha1" var_name="user_setting_poll_can_change_own_vote" added="1234866837">Tells if a user group member can change its vote on a poll.
+
+If set to false the first vote will be the definitive vote for that user and that poll.
+
+If set to true users will be able to change their vote in the future.</phrase>
+	<phrase module_id="poll" version_id="2.0.0alpha1" var_name="poll_vote_updated" added="1234867333">You have successfully changed your vote for this poll</phrase>
+	<phrase module_id="poll" version_id="2.0.0alpha1" var_name="poll_new_vote_added_successfully" added="1234867509">Your vote has been added successfully</phrase>
+	<phrase module_id="poll" version_id="2.0.0alpha1" var_name="setting_poll_view_time_stamp" added="1234870704"><![CDATA[<title>Poll Time Stamp</title><info>This is the format used to display dates, it complies with http://php.net/date</info>]]></phrase>
+	<phrase module_id="poll" version_id="2.0.0alpha1" var_name="user_setting_poll_flood_control" added="1234879747"><![CDATA[How often can members of this user group post new polls (in minutes).
+
+0 => no restriction
+1 => 1 minute
+10 => 10 minutes]]></phrase>
+	<phrase module_id="poll" version_id="2.0.0alpha1" var_name="poll_flood_control" added="1234879960">You can only post polls every {x} minutes.</phrase>
+	<phrase module_id="poll" version_id="2.0.0alpha1" var_name="user_setting_poll_requires_admin_moderation" added="1234881616">This setting tells if polls posted by members of this group will need to be moderated (approved) before being shown on the site.</phrase>
+	<phrase module_id="poll" version_id="2.0.0alpha1" var_name="user_setting_poll_can_moderate_polls" added="1234894665">Can members of this user group moderate polls? (delete, approve)</phrase>
+	<phrase module_id="poll" version_id="2.0.0alpha1" var_name="user_setting_poll_require_captcha_challenge" added="1234961189">Do members of this user group need to complete a captcha challenge to submit a poll?</phrase>
+	<phrase module_id="poll" version_id="2.0.0alpha1" var_name="user_setting_poll_can_edit_own_polls" added="1234963511">Can members of this user group edit their own polls after submitted?</phrase>
+	<phrase module_id="poll" version_id="2.0.0alpha1" var_name="user_setting_poll_can_edit_others_polls" added="1234983674"><![CDATA[Can members of this user group edit other member's polls?]]></phrase>
+	<phrase module_id="poll" version_id="2.0.0alpha1" var_name="user_setting_poll_can_delete_own_polls" added="1234984289">can members of this user group delete their own polls?</phrase>
+	<phrase module_id="poll" version_id="2.0.0alpha1" var_name="user_setting_poll_can_delete_others_polls" added="1234987167">Can members of this user group delete polls posted by other members?</phrase>
+	<phrase module_id="poll" version_id="2.0.0alpha1" var_name="user_setting_can_post_comment_on_poll" added="1235390654">Can members of this user group post comments on polls?</phrase>
+	<phrase module_id="poll" version_id="2.0.0alpha1" var_name="user_setting_view_poll_results_after_vote" added="1235399479">When set to yes members of this user group will see the poll results right after voting.</phrase>
+	<phrase module_id="poll" version_id="2.0.0alpha1" var_name="user_setting_maximum_answers_count" added="1235473759">How many answers can members of this user group add to their polls?</phrase>
+	<phrase module_id="poll" version_id="2.0.0alpha1" var_name="setting_polls_to_show" added="1235572567"><![CDATA[<title>How many to show</title><info>This setting tells how many polls should be shown per page.</info>]]></phrase>
+	<phrase module_id="poll" version_id="2.0.0alpha1" var_name="user_setting_can_vote_in_own_poll" added="1235587145">Do you want to enable members of this user group to vote on their own polls?
+
+This is different than changing their votes.</phrase>
+	<phrase module_id="poll" version_id="2.0.0alpha1" var_name="user_setting_points_poll" added="1236090929">how many points does adding a poll award?</phrase>
+	<phrase module_id="poll" version_id="2.0.0alpha2" var_name="user_setting_can_view_user_poll_results_own_poll" added="1237745898">Can view what users have voted on their own poll?</phrase>
+	<phrase module_id="poll" version_id="2.0.0alpha2" var_name="user_setting_can_view_user_poll_results_other_poll" added="1237745995">Can view users poll results on other polls?</phrase>
+	<phrase module_id="poll" version_id="2.0.0beta3" var_name="user_setting_can_edit_title" added="1243320229">Can members of this user group edit the title, image, random setting, privacy setting and comment setting on a poll?
+
+This may be overridden by the setting poll_can_edit_others_polls and the poll_can_edit_own_polls</phrase>
+	<phrase module_id="poll" version_id="2.0.0beta3" var_name="user_setting_can_edit_question" added="1243320278">Can members of this user group edit the question and answers of a poll?
+
+This may be overridden by the setting poll_can_edit_others_polls and the poll_can_edit_own_polls</phrase>
+	<phrase module_id="poll" version_id="2.0.0beta3" var_name="setting_show_x_users_who_took_poll" added="1243511926"><![CDATA[<title>How many takers to show</title><info>This setting tells how many users who have taken the poll should be shown in the poll page. 
+
+Changing this setting affects the Members Votes mini section.</info>]]></phrase>
+	<phrase module_id="poll" version_id="2.0.0beta3" var_name="user_setting_view_poll_results_before_vote" added="1243520504"><![CDATA[Can members of this user group view poll results before voting on a poll?
+
+
+Note that this setting may be overridden by the "poll.can_view_user_poll_results_own_poll" and the "poll.can_view_user_poll_results_other_poll" settings.
+It can also be complemented with the setting "poll.view_poll_results_after_vote"]]></phrase>
+	<phrase module_id="poll" version_id="2.0.0beta3" var_name="user_setting_highlight_answer_voted_by_viewer" added="1243596992">If set to yes the answer chosen by the viewer will be highlighted with a background color.
+
+This is useful if you have it set so the members of this usegroup cant view the results after taking the poll as they still will be able to view their own answer.</phrase>
+	<phrase module_id="poll" version_id="2.0.0beta4" var_name="stat_title_4" added="1245143660">Sondaggi</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc1" var_name="setting_poll_meta_description" added="1252064414"><![CDATA[<title>Poll Meta Description</title><info>Meta description used for the Poll module.</info>]]></phrase>
+	<phrase module_id="poll" version_id="2.0.0rc1" var_name="setting_poll_meta_keywords" added="1252064465"><![CDATA[<title>Poll Meta Keywords</title><info>Meta keywords for the Poll module.</info>]]></phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="an_error_occured_and_your_image_could_not_be_deleted_please_try_again" added="1255170382">An error occurred and your image could not be deleted. Please try again.</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="this_poll_is_being_moderated_and_no_votes_can_be_added_yet" added="1255170416">This poll is being moderated and no votes can be added yet.</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="your_vote_has_successfully_been_cast" added="1255170427">Your vote has successfully been cast.</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="poll_successfully_approved" added="1255170455">Poll successfully approved.</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="poll_successfully_deleted" added="1255170466">Poll successfully deleted.</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="there_was_a_problem_moderating_this_poll" added="1255170475">There was a problem moderating this poll.</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="provide_a_question_for_your_poll" added="1255171716">Provide a question for your poll.</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="image_is_required" added="1255171726">Image is required.</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="your_user_group_lacks_permissions_to_edit_that_poll" added="1255171738">Your user group lacks permissions to edit that poll.</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="that_poll_does_not_exist" added="1255171746">That poll does not exist.</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="each_poll_requires_an_image" added="1255171757">Each poll requires an image.</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="your_poll_has_been_updated" added="1255171768">Your poll has been updated.</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="your_poll_has_been_added" added="1255171787">Your poll has been added.</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="your_poll_needs_to_be_approved_before_being_shown_on_the_site" added="1255171818">Your poll needs to be approved before being shown on the site.</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="your_poll_has_been_added_feel_free_to_custom_design_it_the_way_you_want_here" added="1255171832">Your poll has been added, feel free to custom design it the way you want here.</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="editing_a_new_poll" added="1255171871">Editing a New Poll</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="adding_a_new_poll" added="1255171883">Adding a New Poll</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="editing_poll" added="1255171892">Modifica Sondaggio</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="adding_poll" added="1255171902">Adding Poll</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="polls" added="1255173283">Sondaggi</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="that_poll_doesn_t_exist" added="1255173405"><![CDATA[That poll doesn't exist.]]></phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="you_do_not_have_permission_to_change_the_design_of_this_poll" added="1255173415">You do not have permission to change the design of this poll.</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="your_design_has_been_updated" added="1255173455">Your design has been updated.</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="error" added="1255173463">Error</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="there_are_no_answers_for_this_poll" added="1255173474">There are no answers for this poll.</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="design_your_poll" added="1255173496">Personalizza il tuo Sondaggio</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="full_name_s_polls" added="1255173530">Sondaggi di {full_name}</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="full_name_s_polls_on_site_title_full_name_has_total_poll_s" added="1255173568"><![CDATA[{full_name}'s polls on {site_title}. {full_name} has {total} poll(s).]]></phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="full_name_s_polls_upper" added="1255173688">Sondaggi di {full_name}</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="unable_to_view_this_poll" added="1255173739">Unable to view this poll.</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="full_name_s_poll_from_time_stamp_question" added="1255173901"><![CDATA[{full_name}'s poll from {time_stamp}: {question}.]]></phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="user_name_left_you_a_comment_on_site_title" added="1255174139">{user_name} ti ha lasciato un commento su {site_title}.</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="user_name_left_you_a_comment_on_site_title_to_view_this_comment_follow_the_link_below_a_href_link_link_a" added="1255174369"><![CDATA[{user_name} left you a comment on {site_title}.
+
+To view this comment, follow the link below:
+<a href="{link}">{link}</a>]]></phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="user_name_left_you_a_comment_on_site_title_however_before_it_can_be_displayed_it_needs_to_be_approved_by_you_you_can_approve_or_deny_this_comment_by_following_the_link_below_a_href_link_link_a" added="1255174466"><![CDATA[{user_name} left you a comment on {site_title}, however before it can be displayed it needs to be approved by you.
+
+You can approve or deny this comment by following the link below:
+<a href="{link}">{link}</a>]]></phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="on_name_s_poll" added="1255174523"><![CDATA[On {name}'s poll.]]></phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="full_name_approved_your_comment_on_site_title" added="1255174562">{full_name} approved your comment on {site_title}.</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="full_name_approved_your_comment_on_site_title_message" added="1255174622"><![CDATA[{full_name} approved your comment on {site_title}.
+
+To view this comment, follow the link below:
+<a href="{link}">{link}</a>]]></phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="a_href_user_link_full_name_a_added_a_new_comment_on_their_own_a_href_title_link_poll_a" added="1255174724"><![CDATA[<a href="{user_link}">{full_name}</a> added a new comment on their own <a href="{title_link}">poll</a>.]]></phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="a_href_user_link_full_name_a_added_a_new_comment_on_your_a_href_title_link_poll_a" added="1255174763"><![CDATA[<a href="{user_link}">{full_name}</a> added a new comment on your <a href="{title_link}">poll</a>.]]></phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="a_href_user_link_full_name_a_added_a_new_comment_on_a_href_item_user_link_item_user_name_s_a_a_href_title_link_poll_a" added="1255174808"><![CDATA[<a href="{user_link}">{full_name}</a> added a new comment on <a href="{item_user_link}">{item_user_name}'s</a> <a href="{title_link}">poll</a>.]]></phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="a_href_user_link_full_name_a_added_a_new_poll_a_href_question_url_question_a" added="1255174875"><![CDATA[<a href="{user_link}">{full_name}</a> added a new poll "<a href="{question_url}">{question}</a>".]]></phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="create_a_poll" added="1255174957">Crea un Sondaggio</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="manage_polls" added="1255174964">Gestisci Sondaggi</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="maximum_length_for_the_question_is_255_characters_and_it_cannot_be_empty" added="1255174984">Maximum length for the question is 255 characters and it cannot be empty.</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="we_dont_allow_default_answers_answer" added="1255174998">We dont allow default answers ({answer}).</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="maximum_length_for_the_answers_is_150_characters" added="1255175017">Maximum length for the answers is 150 characters.</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="you_need_to_write_at_least_2_answers" added="1255175025">You need to write at least 2 answers.</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="insufficient_permissions_to_vote_on_this_poll" added="1255175086">Insufficient permissions to vote on this poll.</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="only_friends_can_vote_on_this_poll" added="1255175103">Only friends can vote on this poll.</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="you_have_reached_your_limit" added="1255175150">You have reached your limit.</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="answer" added="1255175205">Risposta</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="you_must_have_a_minimum_of_total_answers" added="1255175407">You must have a minimum of {total} answers.</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="are_you_sure" added="1255175467">Are you sure?</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="poll_created_on_time_stamp_by_user_info" added="1255175511">Sondaggio creato il {time_stamp} da {user_info}.</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="this_poll_is_being_moderated_and_no_votes_can_be_added_until_it_has_been_approved" added="1255175581">This poll is being moderated and no votes can be added until it has been approved.</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="submit_your_vote" added="1255175597">Invia il tuo Voto</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="cancel" added="1255175606">Annulla</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="approve" added="1255175615">Approva</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="edit" added="1255175621">Modifica</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="delete" added="1255175628">Elimina</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="report_this_poll" added="1255175642">Segnala questo Sondaggio allo staff</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="report" added="1255175648">Report</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="votes_total_votes" added="1255175662">Voti ({total_votes})</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="comments_total_comment" added="1255175682">Commenti ({total_comment})</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="members_votes_total_votes" added="1255175708">Members Votes ({total_votes})</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="poll_designer" added="1255175724">Personalizza Sondaggio</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="background" added="1255175738">Background</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="select_color" added="1255175759">Select Color</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="percent" added="1255175766">Percent</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="border" added="1255175781">Border</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="save" added="1255175789">Salva</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="no_polls_have_been_added_yet" added="1255175819">No polls have been added yet.</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="be_the_first_to_create_a_poll" added="1255175829">Be the First to Create a Poll.</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="votes_0" added="1255175879">Voti (0)</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="total_votes_votes" added="1255175894">{total_votes} Voti</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="no_answers_to_show" added="1255175916">No answers to show.</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="user_info_voted_answer_on_time_stamp" added="1255175946"><![CDATA[{user_info} ha votato "{answer}" il {time_stamp}.]]></phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="default_answer" added="1255175983">Default Answer</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="answers" added="1255176044">Risposte</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="image" added="1255176132">Immagine</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="you_can_upload_a_jpg_gif_or_png_file" added="1255176141">Puoi caricare una foto in formato JPG, GIF o PNG.</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="click_here_to_delete_this_image_and_upload_a_new_one_in_its_place" added="1255176228">Click here to delete this image and upload a new one in its place.</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="save_and_design_this_poll" added="1255176241">Salva e Personalizza il sondaggio</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="update" added="1255176248">Aggiorna</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="submit" added="1255176254">Invia</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="skip_and_design_this_poll" added="1255176261">Salta e Personalizza il sondaggio</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="additional_options" added="1255176271">Opzioni Aggiuntive</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="randomize_answers" added="1255176303">Risposte in Ordine Casuale</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="yes" added="1255177470"><![CDATA[S&#236;]]></phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="no" added="1255177476">No</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="comments" added="1255177482">Commenti</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="allow_comments" added="1255177491">Allow Comments</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="moderate_comments_first" added="1255177499">Moderate Comments First</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="no_comments" added="1255177507">No Comments</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="privacy" added="1255177514">Privacy</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="public_poll_will_be_added_to_our_public_poll_section" added="1255177525">Public (Poll will be added to our public poll section)</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="personal_poll_will_only_be_displayed_on_your_profile" added="1255177533">Personal (Poll will only be displayed on your profile)</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="friends_only_friends_can_view_this_poll" added="1255177541">Friends (Only friends can view this poll)</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="preferred_list_only_the_people_you_select_will_be_able_to_see_the_poll" added="1255177549">Preferred list (only the people you select will be able to see the poll)</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="you_have_not_added_any_polls" added="1255177760">You have not added any polls.</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="add_a_new_poll" added="1255177767">Aggiungi un nuovo Sondaggio</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="user_info_has_not_added_any_polls" added="1255177778">{user_info} has not added any polls.</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="browse_other_polls" added="1255177793">Visualizza altri Sondaggi</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="be_the_first_to_add_a_poll" added="1255177809">Aggiungi un sondaggio prima di tutti i tuoi amici.</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc8" var_name="polls_activity" added="1258500499">Sondaggi</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc8" var_name="question" added="1259076823">Domanda</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc11" var_name="user_setting_can_access_polls" added="1260276844">Can browse and view polls?</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc11" var_name="user_setting_can_create_poll" added="1260329272">Can create a poll?</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc12" var_name="a_href_user_link_full_name_a_likes_your_a_href_link_poll_a" added="1260464634"><![CDATA[<a href="{user_link}">{full_name}</a> likes your <a href="{link}">poll</a>.]]></phrase>
+	<phrase module_id="poll" version_id="2.0.0rc12" var_name="a_href_user_link_full_name_a_likes_their_own_a_href_link_poll_a" added="1260464942"><![CDATA[<a href="{user_link}">{full_name}</a> likes {gender} own <a href="{link}">poll</a>.]]></phrase>
+	<phrase module_id="poll" version_id="2.0.0rc12" var_name="a_href_user_link_full_name_a_likes_a_href_view_user_link_view_full_name_a_s_a_href_link_poll_a" added="1260464961"><![CDATA[<a href="{user_link}">{full_name}</a> likes <a href="{view_user_link}">{view_full_name}</a>'s <a href="{link}">poll</a>.]]></phrase>
+	<phrase module_id="poll" version_id="2.0.6" var_name="poll_results" added="1279631100">Risultati del Sondaggio</phrase>
+	<phrase module_id="poll" version_id="2.0.6" var_name="public_votes" added="1283182388">Votazioni Pubbliche</phrase>
+	<phrase module_id="poll" version_id="2.0.6" var_name="displays_all_users_who_voted_and_what_choice_they_voted_for" added="1283182519">Mostra tutti gli utenti che hanno votato e la loro scelta.</phrase>
+	<phrase module_id="poll" version_id="2.0.6" var_name="user_setting_can_view_hidden_poll_votes" added="1283182954">Can view votes even if the poll is marked to hide votes? (Admin Option)</phrase>
+	<phrase module_id="poll" version_id="2.0.6" var_name="votes_are_hidden_for_this_poll" added="1283183023">Votes are hidden for this poll.</phrase>
+	<phrase module_id="poll" version_id="3.0.0Beta1" var_name="poll" added="1302203087">Sondaggio</phrase>
+	<phrase module_id="poll" version_id="3.0.0Beta1" var_name="say_something_about_this_poll" added="1302203094">Scrivi qualcosa su questo sondaggio...</phrase>
+	<phrase module_id="poll" version_id="3.0.0beta5" var_name="add_another_answer" added="1319122638"><![CDATA[Aggiungi un'altra risposta]]></phrase>
+	<phrase module_id="poll" version_id="3.0.0beta5" var_name="poll_has_been_approved" added="1319124211">Poll has been approved.</phrase>
+	<phrase module_id="poll" version_id="3.0.0beta5" var_name="poll_approved" added="1319124218">Poll Approved</phrase>
+	<phrase module_id="poll" version_id="3.0.0beta5" var_name="no_polls_found" added="1319197167">Nessun sondaggio trovato.</phrase>
+	<phrase module_id="poll" version_id="3.0.0beta5" var_name="search_polls" added="1319197187">Cerca un Sondaggio...</phrase>
+	<phrase module_id="poll" version_id="3.0.0beta5" var_name="latest" added="1319197194"><![CDATA[Pi&#249; recenti]]></phrase>
+	<phrase module_id="poll" version_id="3.0.0beta5" var_name="most_viewed" added="1319197202"><![CDATA[Pi&#249; seguiti]]></phrase>
+	<phrase module_id="poll" version_id="3.0.0beta5" var_name="most_liked" added="1319197209"><![CDATA[Con pi&#249; "mi piace"]]></phrase>
+	<phrase module_id="poll" version_id="3.0.0beta5" var_name="most_discussed" added="1319197217"><![CDATA[Con pi&#249; commenti]]></phrase>
+	<phrase module_id="poll" version_id="3.0.0beta5" var_name="all_polls" added="1319197479">Tutti i Sondaggi</phrase>
+	<phrase module_id="poll" version_id="3.0.0beta5" var_name="my_polls" added="1319197487">I miei Sondaggi</phrase>
+	<phrase module_id="poll" version_id="3.0.0beta5" var_name="friends_polls" added="1319197497">Sondaggi degli Amici</phrase>
+	<phrase module_id="poll" version_id="3.0.0beta5" var_name="pending_polls" added="1319197505">Pending Polls</phrase>
+	<phrase module_id="poll" version_id="3.0.0beta5" var_name="by" added="1319197535">da</phrase>
+	<phrase module_id="poll" version_id="3.0.0beta5" var_name="actions" added="1319197551">Amministra</phrase>
+	<phrase module_id="poll" version_id="3.0.0beta5" var_name="moderate" added="1319197565">Moderate</phrase>
+	<phrase module_id="poll" version_id="3.0.0beta5" var_name="view_results" added="1319197603">Guarda Risultati</phrase>
+	<phrase module_id="poll" version_id="3.0.0beta5" var_name="cannot_cast_a_vote_when_a_poll_is_pending_approval" added="1319197611">Cannot cast a vote when a poll is pending approval.</phrase>
+	<phrase module_id="poll" version_id="3.0.0beta5" var_name="cancel_uppercase" added="1319197630">Annulla</phrase>
+	<phrase module_id="poll" version_id="3.0.0beta5" var_name="control_who_can_see_this_poll" added="1319197666"><![CDATA[Controlla chi pu&#242; vedere questo sondaggio.]]></phrase>
+	<phrase module_id="poll" version_id="3.0.0beta5" var_name="comment_privacy" added="1319197673">Privacy Commenti</phrase>
+	<phrase module_id="poll" version_id="3.0.0beta5" var_name="control_who_can_comment_on_this_poll" added="1319197684"><![CDATA[Controlla chi pu&#242; commentare questo sondaggio.]]></phrase>
+	<phrase module_id="poll" version_id="3.0.0beta5" var_name="report_this_poll_lowercase" added="1319197738">Segnala questo sondaggio</phrase>
+	<phrase module_id="poll" version_id="3.0.0beta5" var_name="view_poll" added="1319197854">Visualizza Sondaggio</phrase>
+	<phrase module_id="poll" version_id="3.0.0beta5" var_name="full_name_liked_your_poll_question" added="1319467488"><![CDATA[A {full_name} piace il tuo sondaggio "{question}"]]></phrase>
+	<phrase module_id="poll" version_id="3.0.0beta5" var_name="full_name_liked_your_poll_question_message" added="1319468144"><![CDATA[A {full_name} piace il tuo sondaggio "<a href="{link}">{question}</a>"
+
+Per vederlo, clicca il link qui sotto:
+
+<a href="{link}">{link}</a>]]></phrase>
+</phrases>

@@ -1,0 +1,17 @@
+<phrases>
+	<phrase module_id="notification" version_id="2.0.0alpha2" var_name="module_notification" added="1237801970">Notifica</phrase>
+	<phrase module_id="notification" version_id="2.0.0alpha3" var_name="setting_always_display_notification_box" added="1239097725"><![CDATA[<title>Display Notification Box</title><info>Select <b>True</b> if you would like to display the notifications (eg. new messages) block on the sites index page even when a user has no notifications.</info>]]></phrase>
+	<phrase module_id="notification" version_id="2.0.0alpha4" var_name="setting_notify_on_new_request" added="1240226075"><![CDATA[<title>Site Wide Notification</title><info>If enabled users will be notified when a new request or notification is available.
+
+<b>Notice:</b> This feature will include two (2) extra SQL queries on every page the user visits.</info>]]></phrase>
+	<phrase module_id="notification" version_id="2.0.0alpha4" var_name="setting_notify_ajax_refresh" added="1240226972"><![CDATA[<title>Site Wide Notification AJAX Refresh (Minutes)</title><info>If enabled this will update the AJAX request to check if a user has any new notifications every X minutes where X is the numerical value of this setting.
+
+<b>Notice:</b> This setting will only be enabled if the parent setting "<setting>notification.notify_on_new_request</setting>" is enabled.</info>]]></phrase>
+	<phrase module_id="notification" version_id="2.0.0rc4" var_name="notifications" added="1255093133">Notifiche</phrase>
+	<phrase module_id="notification" version_id="2.0.0rc4" var_name="view" added="1255093204">Guarda</phrase>
+	<phrase module_id="notification" version_id="2.0.0rc4" var_name="hide" added="1255093211">Nascondi</phrase>
+	<phrase module_id="notification" version_id="2.0.0rc4" var_name="no_new_notifications" added="1255093253">Nessuna nuova notifica.</phrase>
+	<phrase module_id="notification" version_id="2.0.0rc4" var_name="unable_to_find_the_page_you_are_looking_for" added="1255093295">Unable to find the page you are looking for.</phrase>
+	<phrase module_id="notification" version_id="3.0.0Beta1" var_name="setting_total_notification_title_length" added="1296210370"><![CDATA[<title>Notification Title Length</title><info>When users receive a notification certain items include a title. This setting controls the length of the title.</info>]]></phrase>
+	<phrase module_id="notification" version_id="3.0.0beta5" var_name="see_all_notifications" added="1319116590">Visualizza tutte le Notifiche</phrase>
+</phrases>

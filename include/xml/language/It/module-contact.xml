@@ -1,0 +1,176 @@
+<phrases>
+	<phrase module_id="contact" version_id="2.0.0alpha1" var_name="module_contact" added="1232965280">Contact</phrase>
+	<phrase module_id="contact" version_id="2.0.0alpha1" var_name="menu_contact" added="1232965307">Contattaci</phrase>
+	<phrase module_id="contact" version_id="2.0.0alpha1" var_name="admin_menu_categories" added="1233309828">Categorie</phrase>
+	<phrase module_id="contact" version_id="2.0.0alpha1" var_name="category_succesfully_added" added="1233665594">Category successfully added</phrase>
+	<phrase module_id="contact" version_id="2.0.0alpha1" var_name="category_could_not_be_added" added="1233665700">An error did not allow adding the category</phrase>
+	<phrase module_id="contact" version_id="2.0.0alpha1" var_name="categories_successfully_deleted" added="1233668042">Categories successfully deleted</phrase>
+	<phrase module_id="contact" version_id="2.0.0alpha1" var_name="edit" added="1233669367">Modifica</phrase>
+	<phrase module_id="contact" version_id="2.0.0alpha1" var_name="categories_successfully_edited" added="1233672243">Categories successfully edited</phrase>
+	<phrase module_id="contact" version_id="2.0.0alpha1" var_name="setting_contact_enable_captcha" added="1233747823"><![CDATA[<title>Enable Captcha for Contact</title><info>If enabled the users trying to reach you through the Contact Us module will need to complete a captcha challenge before submitting their message.</info>]]></phrase>
+	<phrase module_id="contact" version_id="2.0.0alpha1" var_name="setting_is_email_required" added="1233749051"><![CDATA[<title>Require email</title><info>If enabled users will need to enter a valid email address before their message is sent</info>]]></phrase>
+	<phrase module_id="contact" version_id="2.0.0alpha1" var_name="setting_allow_html_in_contact" added="1236190859"><![CDATA[<title>Allow html in contact form</title><info>This setting tells if the site allows HTML in the contact us form.</info>]]></phrase>
+	<phrase module_id="contact" version_id="2.0.0alpha2" var_name="setting_contact_staff_emails" added="1237535242"><![CDATA[<title>Staff Emails</title><info>List of emails separated by a comma that will receive an email when someone uses the "Contact Us" form.</info>]]></phrase>
+	<phrase module_id="contact" version_id="2.0.0rc2" var_name="categories" added="1253022948">Categorie</phrase>
+	<phrase module_id="contact" version_id="2.0.0rc2" var_name="fill_in_some_text_for_your_message" added="1253022992">Fill in some text for your message.</phrase>
+	<phrase module_id="contact" version_id="2.0.0rc2" var_name="you_need_to_choose_a_category" added="1253023004">Devi scegliere una categoria!</phrase>
+	<phrase module_id="contact" version_id="2.0.0rc2" var_name="provide_a_subject" added="1253023017">Scrivi un Oggetto.</phrase>
+	<phrase module_id="contact" version_id="2.0.0rc2" var_name="provide_your_full_name" added="1253023027">Provide your full name.</phrase>
+	<phrase module_id="contact" version_id="2.0.0rc2" var_name="provide_a_valid_email" added="1253023050">Provide a valid email.</phrase>
+	<phrase module_id="contact" version_id="2.0.0rc2" var_name="your_message_was_successfully_sent" added="1253023065">Your message was successfully sent.</phrase>
+	<phrase module_id="contact" version_id="2.0.0rc2" var_name="contact_us" added="1253082677">Contatti</phrase>
+	<phrase module_id="contact" version_id="2.0.0rc2" var_name="add_a_new_category" added="1253082767">Add a New Category</phrase>
+	<phrase module_id="contact" version_id="2.0.0rc2" var_name="category" added="1253082775">Categoria</phrase>
+	<phrase module_id="contact" version_id="2.0.0rc2" var_name="add" added="1253082784">Add</phrase>
+	<phrase module_id="contact" version_id="2.0.0rc2" var_name="manage_categories" added="1253082798">Manage Categories</phrase>
+	<phrase module_id="contact" version_id="2.0.0rc2" var_name="order" added="1253082808">Order</phrase>
+	<phrase module_id="contact" version_id="2.0.0rc2" var_name="select" added="1253082841">Seleziona</phrase>
+	<phrase module_id="contact" version_id="2.0.0rc2" var_name="full_name" added="1253082855">Nome e Cognome</phrase>
+	<phrase module_id="contact" version_id="2.0.0rc2" var_name="subject" added="1253082865">Oggetto</phrase>
+	<phrase module_id="contact" version_id="2.0.0rc2" var_name="email" added="1253082875">Email</phrase>
+	<phrase module_id="contact" version_id="2.0.0rc2" var_name="website" added="1253082883">Website</phrase>
+	<phrase module_id="contact" version_id="2.0.0rc2" var_name="message" added="1253083188">Message</phrase>
+	<phrase module_id="contact" version_id="2.0.0rc2" var_name="submit" added="1253083201">Invia</phrase>
+	<phrase module_id="contact" version_id="2.0.0rc11" var_name="send_yourself_a_copy" added="1260370608">Invia una copia a te stesso</phrase>
+	<phrase module_id="contact" version_id="2.0.0rc11" var_name="user_id" added="1260371359">User ID#</phrase>
+	<phrase module_id="contact" version_id="2.0.0rc11" var_name="profile" added="1260371389">Profilo</phrase>
+	<phrase module_id="contact" version_id="2.0.0rc12" var_name="currently_unavailable" added="1260794762">Currently unavailable</phrase>
+	<phrase module_id="contact" version_id="2.0.3" var_name="delete_selected" added="1264424410">Elimina Selezionati</phrase>
+	<phrase module_id="contact" version_id="2.0.8" var_name="setting_enable_auto_responder" added="1297760186"><![CDATA[<title>Enable Auto Responder</title><info>When this setting is enabled an email will be sent to the user who submits a message.</info>]]></phrase>
+	<phrase module_id="contact" version_id="2.0.8" var_name="auto_responder_subject" added="1297760326">Thank you for contacting us</phrase>
+	<phrase module_id="contact" version_id="2.0.8" var_name="setting_auto_responder_subject" added="1297761617"><![CDATA[<title>Auto Responder Subject Phrase</title><info>This is the phrase that will be used when sending an auto response message. 
+
+You can enter the language phrase here or write the text directly. The default phrase is contact.auto_responder_subject</info>]]></phrase>
+	<phrase module_id="contact" version_id="2.0.8" var_name="auto_responder_message" added="1297761926">We have received your message and will reply as soon as possible.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Have a nice day</phrase>
+	<phrase module_id="contact" version_id="2.0.8" var_name="setting_auto_responder_message" added="1297761991"><![CDATA[<title>Auto Responder Message Phrase</title><info>This is the phrase that will be used when sending an auto response message.
+
+You can enter the language phrase here or write the text directly. The default phrase is contact.auto_responder_message</info>]]></phrase>
+</phrases>

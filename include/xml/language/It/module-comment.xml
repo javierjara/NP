@@ -1,0 +1,128 @@
+<phrases>
+	<phrase module_id="comment" version_id="2.0.0alpha1" var_name="user_setting_wysiwyg_on_comments" added="1214975355">Can use a WYSIWYG Editor on comments?
+
+Note: The WYSIWYG Editor feature must be enabled.</phrase>
+	<phrase module_id="comment" version_id="2.0.0alpha1" var_name="user_setting_edit_own_comment" added="1214975363">Can edit their own comments?</phrase>
+	<phrase module_id="comment" version_id="2.0.0alpha1" var_name="user_setting_edit_user_comment" added="1214975374">Can edit comments added by other users?</phrase>
+	<phrase module_id="comment" version_id="2.0.0alpha1" var_name="user_setting_delete_own_comment" added="1214975381">Can delete their own comments?</phrase>
+	<phrase module_id="comment" version_id="2.0.0alpha1" var_name="user_setting_delete_user_comment" added="1214975391">Can delete comments added by other users?</phrase>
+	<phrase module_id="comment" version_id="2.0.0alpha1" var_name="user_setting_points_comment" added="1214975689">Specify how many points the user will receive when adding a new comment.</phrase>
+	<phrase module_id="comment" version_id="2.0.0alpha1" var_name="user_setting_can_vote_on_comments" added="1218723462">Allow users to vote on comments?</phrase>
+	<phrase module_id="comment" version_id="2.0.0alpha1" var_name="user_setting_can_post_comments" added="1219216463">Can post comments?</phrase>
+	<phrase module_id="comment" version_id="2.0.0alpha1" var_name="module_comment" added="1219147587">Commenta</phrase>
+	<phrase module_id="comment" version_id="2.0.0alpha1" var_name="x_wrote" added="1212758463"><![CDATA[<a href="{link}">{full_name}</a> ha scritto il {date}]]></phrase>
+	<phrase module_id="comment" version_id="2.0.0alpha1" var_name="edit" added="1212758797">Modifica</phrase>
+	<phrase module_id="comment" version_id="2.0.0alpha1" var_name="reply" added="1212758815">Rispondi</phrase>
+	<phrase module_id="comment" version_id="2.0.0alpha1" var_name="quote" added="1212758831">Quote</phrase>
+	<phrase module_id="comment" version_id="2.0.0alpha1" var_name="delete" added="1212758847">Elimina</phrase>
+	<phrase module_id="comment" version_id="2.0.0alpha1" var_name="delete_comment" added="1212758863">Elimina Commento</phrase>
+	<phrase module_id="comment" version_id="2.0.0alpha1" var_name="last_update_on_x_by_x" added="1212761285">Ultima modifica il {date} da {full_name}</phrase>
+	<phrase module_id="comment" version_id="2.0.0alpha1" var_name="fill_text_your_comment" added="1212761438">Fill in some text for your comment</phrase>
+	<phrase module_id="comment" version_id="2.0.0alpha1" var_name="leave_a_reply" added="1212761679">Lascia una risposta</phrase>
+	<phrase module_id="comment" version_id="2.0.0alpha1" var_name="comment" added="1212761697">Commenta</phrase>
+	<phrase module_id="comment" version_id="2.0.0alpha1" var_name="submit_comment" added="1212761728">Invia Commento</phrase>
+	<phrase module_id="comment" version_id="2.0.0alpha1" var_name="adding_comment" added="1212761764">Adding Comment</phrase>
+	<phrase module_id="comment" version_id="2.0.0alpha1" var_name="comment_deleted" added="1215261123">Commento rimosso</phrase>
+	<phrase module_id="comment" version_id="2.0.0alpha1" var_name="voted" added="1218714564">Votato!</phrase>
+	<phrase module_id="comment" version_id="2.0.0alpha1" var_name="vote" added="1218723227">{total} Vote</phrase>
+	<phrase module_id="comment" version_id="2.0.0alpha1" var_name="votes" added="1218723235">{total} Voti</phrase>
+	<phrase module_id="comment" version_id="2.0.0alpha1" var_name="vote_this_comment" added="1218723252">Vote This Comment Up</phrase>
+	<phrase module_id="comment" version_id="2.0.0alpha1" var_name="vote_this_comment_down" added="1218723273">Vote This Comment Down</phrase>
+	<phrase module_id="comment" version_id="2.0.0alpha1" var_name="comments_header" added="1218724890">Commenti</phrase>
+	<phrase module_id="comment" version_id="2.0.0alpha1" var_name="comments" added="1219061995"><![CDATA[No comments. Be the first to <a href="#add-comment" onclick="$.scrollTo('#add-comment', 360); return false;">add</a> a comment.]]></phrase>
+	<phrase module_id="comment" version_id="2.0.0alpha1" var_name="user_wrote_date" added="1219404347">{full_name} wrote at {date}</phrase>
+	<phrase module_id="comment" version_id="2.0.0alpha1" var_name="name" added="1219404436">Nome</phrase>
+	<phrase module_id="comment" version_id="2.0.0alpha1" var_name="email_will_not_published" added="1219404453">Email (Will not be published)</phrase>
+	<phrase module_id="comment" version_id="2.0.0alpha1" var_name="website" added="1219404463">Website</phrase>
+	<phrase module_id="comment" version_id="2.0.0alpha1" var_name="comments_must_login_signup" added="1219405155"><![CDATA[Nessun commento. <a href="{login}">Accedi</a> o <a href="{register}">Registrati</a> per essere il primo!]]></phrase>
+	<phrase module_id="comment" version_id="2.0.0alpha3" var_name="user_setting_comment_post_flood_control" added="1239106180">Define how many minutes this user group should wait before they can post a new comment.
+
+Note: Set to 0 if there should be no limit.</phrase>
+	<phrase module_id="comment" version_id="2.0.0beta5" var_name="setting_allow_rss_feed_on_comments" added="1245661168"><![CDATA[<title>RSS Feed on Comments</title><info>Set to <b>True</b> to enable RSS feeds on comments.</info>]]></phrase>
+	<phrase module_id="comment" version_id="2.0.0rc1" var_name="setting_total_child_comments" added="1250665239"><![CDATA[<title>Total Child Comments</title><info>Define how many child comments can a parent comment have?
+
+Note: This is only used if threaded replies are enabled.</info>]]></phrase>
+	<phrase module_id="comment" version_id="2.0.0rc1" var_name="user_setting_can_moderate_comments" added="1251193218">Can moderate comments?</phrase>
+	<phrase module_id="comment" version_id="2.0.0rc1" var_name="setting_spam_check_comments" added="1251271192"><![CDATA[<title>Spam Check Comments</title><info>Spam Check Comments</info>]]></phrase>
+	<phrase module_id="comment" version_id="2.0.0rc1" var_name="setting_comment_hash_check" added="1251284550"><![CDATA[<title>Comment Hash Check</title><info>If enabled this will check if the last X comments added in the last Y minutes are identical to the comment being added.
+
+Notice: X & Y are settings that can be changed.</info>]]></phrase>
+	<phrase module_id="comment" version_id="2.0.0rc1" var_name="setting_comments_to_check" added="1251284777"><![CDATA[<title>Comments To Check</title><info>If the setting to check if comments are identical you can set here how many comments in the past should be checked.</info>]]></phrase>
+	<phrase module_id="comment" version_id="2.0.0rc1" var_name="setting_total_minutes_to_wait_for_comments" added="1251284849"><![CDATA[<title>Comment Minutes to Wait Until Next Check</title><info>If the setting to check if comments are identical you can set here how far back we should check in minutes.</info>]]></phrase>
+	<phrase module_id="comment" version_id="2.0.0rc2" var_name="posting_a_comment_a_little_too_soon_total_time" added="1252996489">Posting a comment a little too soon. {total_time}</phrase>
+	<phrase module_id="comment" version_id="2.0.0rc2" var_name="add_some_text_to_your_comment" added="1252996511">Add some text to your comment.</phrase>
+	<phrase module_id="comment" version_id="2.0.0rc2" var_name="your_comment_was_successfully_added_moderated" added="1252996553">Your comment was successfully added, however this item requires that all comments be moderated by the owner before they are publicly displayed.</phrase>
+	<phrase module_id="comment" version_id="2.0.0rc2" var_name="last_update_on_time_stamp_by_full_name" added="1252996649">Ultima modifica il {time_stamp} da {full_name}.</phrase>
+	<phrase module_id="comment" version_id="2.0.0rc2" var_name="comment_successfully_deleted" added="1252998594">Commento rimosso con successo.</phrase>
+	<phrase module_id="comment" version_id="2.0.0rc2" var_name="fill_in_your_name" added="1252998674">Fill in your name.</phrase>
+	<phrase module_id="comment" version_id="2.0.0rc2" var_name="comment_title" added="1252998712">Commenti</phrase>
+	<phrase module_id="comment" version_id="2.0.0rc2" var_name="last_activity" added="1252998824">Last Activity</phrase>
+	<phrase module_id="comment" version_id="2.0.0rc2" var_name="rating" added="1252998834">Gradimento</phrase>
+	<phrase module_id="comment" version_id="2.0.0rc2" var_name="rss_feeds_are_disabled_for_comments" added="1252998882">RSS feeds are disabled for comments.</phrase>
+	<phrase module_id="comment" version_id="2.0.0rc2" var_name="comment_does_not_exist" added="1252998893">Comment does not exist.</phrase>
+	<phrase module_id="comment" version_id="2.0.0rc2" var_name="nothing_new_to_approve" added="1252998943">Nothing new to approve.</phrase>
+	<phrase module_id="comment" version_id="2.0.0rc2" var_name="comments_pending_approval" added="1252998961">Comments Pending Approval</phrase>
+	<phrase module_id="comment" version_id="2.0.0rc2" var_name="comments_pending_approval_total" added="1252998996"><![CDATA[Comments Pending Approval (<span id="js_request_comment_count_total">{total}</span>)]]></phrase>
+	<phrase module_id="comment" version_id="2.0.0rc2" var_name="new_comments" added="1252999027">Nuovi Commenti</phrase>
+	<phrase module_id="comment" version_id="2.0.0rc2" var_name="comments_for_approval" added="1252999037">Commenti da Approvare</phrase>
+	<phrase module_id="comment" version_id="2.0.0rc2" var_name="add_comment" added="1252999047">Aggiungi un Commento</phrase>
+	<phrase module_id="comment" version_id="2.0.0rc2" var_name="view_comments" added="1252999055">Visualizza Commenti</phrase>
+	<phrase module_id="comment" version_id="2.0.0rc2" var_name="user_link_added_a_comment_and_is_pending_your_approval" added="1252999095">{user_link} added a comment and is pending your approval.</phrase>
+	<phrase module_id="comment" version_id="2.0.0rc2" var_name="by_full_name" added="1252999214">Di: {full_name}</phrase>
+	<phrase module_id="comment" version_id="2.0.0rc2" var_name="latest_comments_on_site_title" added="1252999246">Ultimi Commenti su {site_title}.</phrase>
+	<phrase module_id="comment" version_id="2.0.0rc2" var_name="latest_comments" added="1252999267">Ultimi Commenti</phrase>
+	<phrase module_id="comment" version_id="2.0.0rc2" var_name="your_comment_has_been_marked_as_spam_it_will_have_to_be_approved_by_an_admin" added="1252999400">Your comment has been marked as spam. It will have to be approved by an Admin before it is displayed publicly.</phrase>
+	<phrase module_id="comment" version_id="2.0.0rc2" var_name="not_a_valid_comment" added="1252999445">Not a valid comment.</phrase>
+	<phrase module_id="comment" version_id="2.0.0rc2" var_name="unable_to_moderate_this_comment" added="1252999489">Unable to moderate this comment.</phrase>
+	<phrase module_id="comment" version_id="2.0.0rc2" var_name="email" added="1252999530">Email</phrase>
+	<phrase module_id="comment" version_id="2.0.0rc2" var_name="will_not_be_published" added="1252999537">Will not be published.</phrase>
+	<phrase module_id="comment" version_id="2.0.0rc2" var_name="message" added="1252999547">Message</phrase>
+	<phrase module_id="comment" version_id="2.0.0rc2" var_name="item" added="1252999578">Item</phrase>
+	<phrase module_id="comment" version_id="2.0.0rc2" var_name="approve" added="1252999602">Approva</phrase>
+	<phrase module_id="comment" version_id="2.0.0rc2" var_name="deny" added="1252999610">Rfiuta</phrase>
+	<phrase module_id="comment" version_id="2.0.0rc2" var_name="your_comment_has_successfully_added" added="1253003073">Your comment has successfully added.</phrase>
+	<phrase module_id="comment" version_id="2.0.0rc2" var_name="view_replies_total_to_this_comment" added="1253003246">View replies ({total}) to this comment.</phrase>
+	<phrase module_id="comment" version_id="2.0.0rc2" var_name="are_you_sure" added="1253003269">Are you sure?</phrase>
+	<phrase module_id="comment" version_id="2.0.0rc2" var_name="user_link_at_item_time_stamp" added="1253003465">{user_link} at {item_time_stamp}.</phrase>
+	<phrase module_id="comment" version_id="2.0.0rc2" var_name="view_more" added="1253005082">Mostra altro</phrase>
+	<phrase module_id="comment" version_id="2.0.0rc2" var_name="moderate_comments" added="1253005324">Moderate Comments</phrase>
+	<phrase module_id="comment" version_id="2.0.0rc2" var_name="comment_successfully_approved" added="1253005331">Comment successfully approved.</phrase>
+	<phrase module_id="comment" version_id="2.0.0rc2" var_name="user_link_left_a_comment_on_your_item" added="1253005615"><![CDATA[{user_link} left a comment on your <a href="{link}">{item_name}</a>.]]></phrase>
+	<phrase module_id="comment" version_id="2.0.0rc2" var_name="no_comments" added="1253007452">No comments.</phrase>
+	<phrase module_id="comment" version_id="2.0.0rc3" var_name="user_setting_can_delete_comments_posted_on_own_profile" added="1254142484">Can this user group delete comments posted on their own profile?</phrase>
+	<phrase module_id="comment" version_id="2.0.0rc3" var_name="no_comments_added" added="1254575996">No comments added.</phrase>
+	<phrase module_id="comment" version_id="2.0.0rc4" var_name="setting_allow_comments_on_profiles" added="1255773488"><![CDATA[<title>Allow Comments on Profile</title><info>Enable this feature to allow comments on profiles.</info>]]></phrase>
+	<phrase module_id="comment" version_id="2.0.0rc4" var_name="loading" added="1255779973">Caricamento</phrase>
+	<phrase module_id="comment" version_id="2.0.0rc4" var_name="view_all_total_left_comments" added="1255780014">Visualizza tutti i {total_left} commenti</phrase>
+	<phrase module_id="comment" version_id="2.0.0rc4" var_name="comments_text" added="1255860241">Testo del commento</phrase>
+	<phrase module_id="comment" version_id="2.0.0rc4" var_name="view_all_comments" added="1256652089">Visualizza tutti i Commenti</phrase>
+	<phrase module_id="comment" version_id="2.0.0rc4" var_name="view_all_comments_total" added="1256652375">Visualizza tutti i Commenti ({total})</phrase>
+	<phrase module_id="comment" version_id="2.0.0rc8" var_name="cannot_comment_on_this_item_as_it_does_not_exist_any_longer" added="1258388355">Cannot comment on this item as it does not exist any longer.</phrase>
+	<phrase module_id="comment" version_id="2.0.0rc8" var_name="comments_activity" added="1258500371">Commenti</phrase>
+	<phrase module_id="comment" version_id="2.0.0rc8" var_name="new_comments_stats" added="1258756851">Commenti</phrase>
+	<phrase module_id="comment" version_id="2.0.0rc8" var_name="you_cannot_write_a_comment_on_your_own_profile" added="1258848075">You cannot write a comment on your own profile.</phrase>
+	<phrase module_id="comment" version_id="2.0.0rc8" var_name="user_setting_can_comment_on_own_profile" added="1258848146">Can comment on own profile?</phrase>
+	<phrase module_id="comment" version_id="2.0.0rc8" var_name="update_owner_id_for_comments_only_for_those_that_upgraded_from_v1_6_21" added="1258985244">Update Owner ID# for Comments (Only for those that upgraded from v1.6.21).</phrase>
+	<phrase module_id="comment" version_id="2.0.0rc8" var_name="your_old_v1_6_21_setting_file_must_exist" added="1258985284">Your old v1.6.21 setting file must exist in order for us to continue. Old setting file: {file}</phrase>
+	<phrase module_id="comment" version_id="2.0.0rc8" var_name="the_database_table_table_does_not_exist" added="1258985369"><![CDATA[The database table "{table}" does not exist. We cannot update this counter.]]></phrase>
+	<phrase module_id="comment" version_id="2.0.0rc11" var_name="full_name_approved_your_comment_on_site_title" added="1260134308">{full_name} approved your comment on {site_title}.</phrase>
+	<phrase module_id="comment" version_id="2.0.0rc11" var_name="full_name_approved_your_comment_on_site_title_message" added="1260134338"><![CDATA[{full_name} approved your comment on {site_title}.
+
+To view this comment, follow the link below:
+<a href="{link}">{link}</a>]]></phrase>
+	<phrase module_id="comment" version_id="2.0.0rc12" var_name="a_href_user_link_full_name_a_likes_your_a_href_link_comment_a" added="1260473572"><![CDATA[A <a href="{user_link}">{full_name}</a> piace il tuo <a href="{link}">commento</a>.]]></phrase>
+	<phrase module_id="comment" version_id="2.0.0rc12" var_name="a_href_user_link_full_name_a_likes_their_own_a_href_link_coment_a" added="1260483353"><![CDATA[<a href="{user_link}">{full_name}</a> likes {gender} own <a href="{link}">comment</a>.]]></phrase>
+	<phrase module_id="comment" version_id="2.0.0rc12" var_name="a_href_user_link_full_name_a_likes_a_href_view_user_link_view_full_name_a_s_a_href_link_comment_a" added="1260483372"><![CDATA[A <a href="{user_link}">{full_name}</a> piace il <a href="{link}">commento</a> di <a href="{view_user_link}">{view_full_name}</a>.]]></phrase>
+	<phrase module_id="comment" version_id="2.0.5dev1" var_name="user_setting_approve_all_comments" added="1275006612">Approve comments before they are displayed publicly?</phrase>
+	<phrase module_id="comment" version_id="2.0.5dev1" var_name="your_comment_has_successfully_been_added_however_it_is_pending_an_admins_approval" added="1275010416">Your comment has successfully been added, however it is pending an Admins approval.</phrase>
+	<phrase module_id="comment" version_id="2.0.5dev1" var_name="comments_approve" added="1275010577">Commenti</phrase>
+	<phrase module_id="comment" version_id="2.0.5dev1" var_name="comment_approved_on_site_title" added="1275012409">Comment Approved on {site_title}</phrase>
+	<phrase module_id="comment" version_id="2.0.5dev1" var_name="one_of_your_comments_on_site_title" added="1275012488"><![CDATA[One of your comments on {site_title} has been approved. To view this comment click the link below:
+<a href="{link}">{link}</a>]]></phrase>
+	<phrase module_id="comment" version_id="2.0.6" var_name="subscribe_to_comments" added="1282665092">Sottoscrivi i commenti</phrase>
+	<phrase module_id="comment" version_id="3.0.0Beta1" var_name="setting_total_comments_in_activity_feed" added="1295000248"><![CDATA[<title>Total Comments in Activity Feed</title><info>Define how many comments should be displayed within each activity feed.</info>]]></phrase>
+	<phrase module_id="comment" version_id="3.0.0Beta1" var_name="setting_total_amount_of_comments_to_load" added="1295000484"><![CDATA[<title>Total Amount of Comments To Load</title><info>When a user clicks to view more comments on a feed or item this setting controls how many comments to load via AJAX on the page they are on. If this number is surpassed they are then directed to the parent item where it will display all the comments and comes built in with a pager.</info>]]></phrase>
+	<phrase module_id="comment" version_id="3.0.0beta5" var_name="delete_this_comment" added="1319121256">Elimina questo commento</phrase>
+	<phrase module_id="comment" version_id="3.0.0beta5" var_name="1_person" added="1319121314">1 persona</phrase>
+	<phrase module_id="comment" version_id="3.0.0beta5" var_name="total_people" added="1319121332">{total} persone</phrase>
+</phrases>
