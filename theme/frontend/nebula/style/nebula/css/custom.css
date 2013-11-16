@@ -2379,6 +2379,7 @@ textarea.js_comment_feed_textarea_focus {
     width: 200px;
     height: auto;
     z-index: 5000;
+    font-size: 15px;
   }
   .ui-tooltip {
     padding: 10px 20px;
