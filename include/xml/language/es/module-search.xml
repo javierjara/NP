@@ -1,0 +1,8 @@
+<phrases>
+	<phrase module_id="search" version_id="2.0.0alpha1" var_name="module_search" added="1232969305">Buscar</phrase>
+	<phrase module_id="search" version_id="2.0.0rc8" var_name="provide_a_search_query" added="1258738780"><![CDATA[Proporciona una consulta de b&#250;squeda.]]></phrase>
+	<phrase module_id="search" version_id="2.0.0rc8" var_name="tags" added="1258740328">Etiquetas</phrase>
+	<phrase module_id="search" version_id="2.0.0rc8" var_name="results" added="1259089709">Resultados</phrase>
+	<phrase module_id="search" version_id="2.0.0rc8" var_name="search" added="1259089719">Buscar</phrase>
+	<phrase module_id="search" version_id="2.0.0rc8" var_name="results_for" added="1259089736">Resultados por</phrase>
+</phrases>

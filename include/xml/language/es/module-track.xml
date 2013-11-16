@@ -1,0 +1,5 @@
+<phrases>
+	<phrase module_id="track" version_id="2.0.0alpha1" var_name="recently_viewed_by" added="1213418447">Visitas Recientes</phrase>
+	<phrase module_id="track" version_id="2.0.0rc4" var_name="recent_visitors" added="1255345958">Visitantes Recientes</phrase>
+	<phrase module_id="track" version_id="2.0.0rc4" var_name="recent_views" added="1255345989">Vistas Recientes</phrase>
+</phrases>

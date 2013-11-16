@@ -1,0 +1,50 @@
+<phrases>
+	<phrase module_id="invite" version_id="2.0.0alpha1" var_name="module_invite" added="1232964659">Invitar</phrase>
+	<phrase module_id="invite" version_id="2.0.0alpha1" var_name="menu_invite" added="1232964676">Invitar</phrase>
+	<phrase module_id="invite" version_id="2.0.0alpha1" var_name="menu_pending_invitations" added="1235390476">Invitaciones Pendientes</phrase>
+	<phrase module_id="invite" version_id="2.0.0alpha1" var_name="menu_invite_friends" added="1235390890">Invitar a Amigos</phrase>
+	<phrase module_id="invite" version_id="2.0.0alpha1" var_name="setting_invite_expire" added="1236536751"><![CDATA[<title>Expire invites timeout</title><info>How many days is an invite valid for?
+
+Note: this relies on cookies.</info>]]></phrase>
+	<phrase module_id="invite" version_id="2.0.0alpha1" var_name="setting_pendings_to_show_per_page" added="1237058214"><![CDATA[<title>How Many Pendings To Show</title><info>This tells how many pending invites to show per page.</info>]]></phrase>
+	<phrase module_id="invite" version_id="2.0.0alpha1" var_name="setting_check_duplicate_invites" added="1237283223"><![CDATA[<title>Check Duplicate Invites</title><info>Do you want the site to check for duplicate invites before sending mail invites?
+This can avoid spamming (userA, userB and userC know personA, they all 3 send an invite so personA receives 3 emails) but can also slow down a little the process</info>]]></phrase>
+	<phrase module_id="invite" version_id="2.0.0alpha1" var_name="setting_make_friends_on_invitee_registration" added="1237540055"><![CDATA[<title>Make invited users friends with their host</title><info>When a user invites aPerson and aPerson becomes a member, should they be made friends right then?</info>]]></phrase>
+	<phrase module_id="invite" version_id="2.0.0alpha2" var_name="user_setting_points_invite" added="1237542827">How many points the invitee and the inviter will receive upon a successfully request.</phrase>
+	<phrase module_id="invite" version_id="2.0.0rc4" var_name="find_friends" added="1254984401">Buscar Amigos</phrase>
+	<phrase module_id="invite" version_id="2.0.0rc4" var_name="full_name_invites_you_to_site_title" added="1254984544">{full_name} te invita a{site_title}.</phrase>
+	<phrase module_id="invite" version_id="2.0.0rc4" var_name="full_name_invites_you_to_site_title_link" added="1254984752"><![CDATA[{full_name} te invita a {site_title}.
+
+Para comprobar esta invitaci&#243;n, siga el siguiente enlace:
+<a href="{link}">{link}</a>]]></phrase>
+	<phrase module_id="invite" version_id="2.0.0rc4" var_name="invite_s_were_not_sent_due_to_that_the_email_s" added="1254984797"><![CDATA[La(s) invitacion(es) no se enviaron debido a que el(los) correo(s) electr&#243;nico(s) no era(n) v&#225;lido(s) o si ya ha tu hab&#237;as enviado una invitaci&#243;n al(los) correo(s) electr&#243;nico(s).]]></phrase>
+	<phrase module_id="invite" version_id="2.0.0rc4" var_name="your_friends_have_successfully_been_invited" added="1254984809">Tus amigos han sido invitados.</phrase>
+	<phrase module_id="invite" version_id="2.0.0rc4" var_name="invite_your_friends" added="1254984820">Invita a tus amigos</phrase>
+	<phrase module_id="invite" version_id="2.0.0rc4" var_name="invitation_deleted" added="1254984836"><![CDATA[Invitaci&#243;n eliminada.]]></phrase>
+	<phrase module_id="invite" version_id="2.0.0rc4" var_name="invitation_not_found" added="1254984843"><![CDATA[Invitaci&#243;n no se encuentra.]]></phrase>
+	<phrase module_id="invite" version_id="2.0.0rc4" var_name="pending_invitations" added="1254984862">Invitaciones Pendientes</phrase>
+	<phrase module_id="invite" version_id="2.0.0rc4" var_name="search_by_name_or_email" added="1254984970">Buscar por Nombre o Email.</phrase>
+	<phrase module_id="invite" version_id="2.0.0rc4" var_name="search" added="1254984979">Buscar</phrase>
+	<phrase module_id="invite" version_id="2.0.0rc4" var_name="skip_this_step" added="1255000683">Omitir este paso</phrase>
+	<phrase module_id="invite" version_id="2.0.0rc4" var_name="you_have_successfully_sent_an_invitation_to" added="1255000692"><![CDATA[Tu has enviado una invitaci&#243;n a]]></phrase>
+	<phrase module_id="invite" version_id="2.0.0rc4" var_name="your_friend_will_automatically_be_added_to_your_friends_list_when_they_join" added="1255000702"><![CDATA[Tu amigo se agregar&#225; autom&#225;ticamente a tu lista de amigos una vez se haya registrado!]]></phrase>
+	<phrase module_id="invite" version_id="2.0.0rc4" var_name="invite_your_friends_to_b_title_b" added="1255000903"><![CDATA[Invita a tus amigos a <b>{title}</b>.]]></phrase>
+	<phrase module_id="invite" version_id="2.0.0rc4" var_name="email_your_friends" added="1255000927">Enviar un Email a tus amigos</phrase>
+	<phrase module_id="invite" version_id="2.0.0rc4" var_name="subject" added="1255000934">Asunto</phrase>
+	<phrase module_id="invite" version_id="2.0.0rc4" var_name="from" added="1255000941">De</phrase>
+	<phrase module_id="invite" version_id="2.0.0rc4" var_name="to" added="1255000951">Para</phrase>
+	<phrase module_id="invite" version_id="2.0.0rc4" var_name="full_name_invites_you_to_title" added="1255000987">{full_name} te invita a {title}.</phrase>
+	<phrase module_id="invite" version_id="2.0.0rc4" var_name="separate_multiple_emails_with_a_comma" added="1255001011">Separa los emails con comas.</phrase>
+	<phrase module_id="invite" version_id="2.0.0rc4" var_name="send_invitation_s" added="1255001022">Enviar Invitacion(es)</phrase>
+	<phrase module_id="invite" version_id="2.0.0rc4" var_name="send_a_custom_invitation_link" added="1255001031"><![CDATA[Enviar un enlace de una Invitaci&#243;n personalizado]]></phrase>
+	<phrase module_id="invite" version_id="2.0.0rc4" var_name="send_friends_your_custom_invitation_link_by_copy_and_pasting_it_into_your_own_email_application" added="1255001053"><![CDATA[Env&#237;a a los amigos tu enlace de invitaci&#243;n personalizada copiando y peg&#225;ndola en su propia aplicaci&#243;n del email, una vez se haya registrado.]]></phrase>
+	<phrase module_id="invite" version_id="2.0.0rc4" var_name="select" added="1255001064">Seleccionar</phrase>
+	<phrase module_id="invite" version_id="2.0.0rc4" var_name="none" added="1255001072">Ninguno</phrase>
+	<phrase module_id="invite" version_id="2.0.0rc4" var_name="all" added="1255001078">Todos</phrase>
+	<phrase module_id="invite" version_id="2.0.0rc4" var_name="delete" added="1255001085">Eliminar</phrase>
+	<phrase module_id="invite" version_id="2.0.0rc4" var_name="there_are_no_pending_invitations" added="1255009666">No hay invitaciones pendientes.</phrase>
+	<phrase module_id="invite" version_id="2.0.0rc8" var_name="invites" added="1258500553">Invitaciones</phrase>
+	<phrase module_id="invite" version_id="2.0.0rc8" var_name="the_following_emails_were_not_sent" added="1258755327"><![CDATA[Los siguientes correos electr&#243;nicos no fueron enviados]]></phrase>
+	<phrase module_id="invite" version_id="2.0.0rc8" var_name="you_have_already_invited" added="1258755409">Ya tu ha sido invitado</phrase>
+	<phrase module_id="invite" version_id="2.0.0rc8" var_name="not_a_valid_email" added="1258755419"><![CDATA[No es un correo electr&#243;nico v&#225;lido]]></phrase>
+</phrases>

@@ -1,0 +1,197 @@
+<phrases>
+	<phrase module_id="theme" version_id="2.0.0alpha1" var_name="user_setting_can_view_theme_sample" added="1216065545">Can view block layout for themes within the Admin Control Panel?</phrase>
+	<phrase module_id="theme" version_id="2.0.0alpha1" var_name="module_theme" added="1216065167">Theme Management</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc1" var_name="admincp_menu_create_theme" added="1248279775">Create Theme</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc1" var_name="admincp_menu_create_style" added="1248283393">Create Style</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc1" var_name="create_a_new_template" added="1248370729">Create a New Template</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc1" var_name="admincp_create_css_file" added="1248427439">Create CSS File</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc1" var_name="admincp_menu_import_themes" added="1249416443">Import Themes</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc1" var_name="admincp_menu_import_styles" added="1249416519">Import Styles</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="last_modified_time_stamp_by_full_name" added="1255341569">Modificada recientemente {time_stamp} por {full_name}</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="css_file_successfully_added" added="1255341673">CSS file successfully added.</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="not_a_valid_style" added="1255341684">Not a valid style.</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="edit_css" added="1255341692">Edit CSS</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="themes" added="1255341702">Themes</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="styles" added="1255341707">Styles</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="editing_style" added="1255341724">Editing Style</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="create_new_style" added="1255341735">Create New Style</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="style_successfully_updated" added="1255342251">Style successfully updated.</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="style_successfully_added" added="1255342260">Style successfully added.</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="create_style" added="1255342279">Create Style</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="import_styles" added="1255342298">Import Styles</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="style_successfully_imported" added="1255342393">Style successfully imported.</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="not_a_valid_theme" added="1255342410">Not a valid theme.</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="style_successfully_deleted" added="1255342418">Style successfully deleted.</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="managing_styles_for" added="1255342425">Managing styles for</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="logo_successfully_reverted" added="1255342457">Logo successfully reverted.</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="logo_successfully_uploaded" added="1255342467">Logo subido correctamente.</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="change_site_logo" added="1255342474">Change Site Logo</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="change_logo" added="1255342493">Change Logo</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="template_successfully_added" added="1255342506">Template successfully added.</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="create_new_template" added="1255342536">Create New Template</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="templates" added="1255342553">Templates</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="theme_successfully_updated" added="1255342573">Theme successfully updated.</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="theme_successfully_added" added="1255342583">Theme successfully added.</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="editing_theme" added="1255342590">Editing Theme</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="create_new_theme" added="1255342598">Create New Theme</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="create_theme" added="1255342624">Create Theme</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="theme_is_not_valid" added="1255342635">Theme is not valid.</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="export_theme" added="1255342643">Export Theme</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="theme_successfully_imported" added="1255342668">Theme successfully imported.</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="not_a_valid_theme_to_import" added="1255342677">Not a valid theme to import.</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="import_themes" added="1255342684">Import Themes</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="theme_successfully_deleted" added="1255342706">Theme successfully deleted.</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="not_a_valid_file_extension" added="1255342775">Not a valid file extension.</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="unable_to_upload_image" added="1255342800">No se puede subir la imagen.</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="unable_to_find_style" added="1255342813">Unable to find style.</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="style_requires_a_name" added="1255342829">Style requires a name.</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="style_requires_a_folder_name" added="1255342836">Style requires a folder name.</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="select_a_parent_theme_for_this_style" added="1255342843">Select a parent theme for this style.</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="provide_if_the_style_is_active_or_not" added="1255342850">Provide if the style is active or not.</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="provide_a_default_logo_name" added="1255342858">Provide a default logo name.</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="folder_is_not_valid" added="1255342866">Folder is not valid.</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="this_folder_is_already_in_use" added="1255342874"><![CDATA[This "Folder" is already in use.]]></phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="select_a_style" added="1255342895">Select a style.</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="provide_a_file_name" added="1255342901">Provide a file name.</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="provide_css_code" added="1255342915">Provide CSS code.</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="file_name_is_not_valid" added="1255342923">File name is not valid.</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="the_file_name_is_already_in_use" added="1255342931"><![CDATA[The "File Name" is already in use.]]></phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="not_a_valid_style_to_set_to_default" added="1255342990">Not a valid style to set to default.</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="unable_to_find_style_sheet" added="1255343035">Unable to find style sheet.</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="unable_to_find_the_style_sheet_file" added="1255343045">Unable to find the style sheet file.</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="select_a_theme_for_this_template" added="1255343095">Select a theme for this template.</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="select_what_type_of_a_template_this_is" added="1255343103">Select what type of a template this is.</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="not_a_valid_template_to_delete" added="1255343159">Not a valid template to delete.</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="theme_requires_a_name" added="1255343189">Theme requires a name.</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="theme_requires_a_folder_name" added="1255343196">Theme requires a folder name.</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="provide_if_the_theme_is_active_or_not" added="1255343205">Provide if the theme is active or not.</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="there_is_already_a_theme_with_the_same_folder_name" added="1255343286">There is already a theme with the same folder name.</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="not_a_valid_theme_to_delete" added="1255343324">Not a valid theme to delete.</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="full_screen" added="1255343483">Pantalla Completa</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="toggle" added="1255343492">Toggle</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="blocks" added="1255343499">Bloques</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="toggle_all_blocks" added="1255343507">Toggle all blocks.</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="close" added="1255343514">Cerrar</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="advanced" added="1255343533">Avanzado</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="css" added="1255343540">CSS</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="use_theme" added="1255343554">Use Theme</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="save" added="1255343567">Salvar</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="preview" added="1255343573">Vista Previa</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="revert_to_default" added="1255343591">Revert To Default</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="are_you_sure_note_that_this_will_revert_all_your_changes_and_not_just_those_within_this_group" added="1255343603">Are you sure? Note that this will revert all your changes and not just those within this group.</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="width" added="1255343620">Ancho</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="default" added="1255343632"><![CDATA[[Default]]]></phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="background" added="1255343644">Fondo</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="url" added="1255343670">URL</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="attach_files" added="1255343681">Adjuntar Archivos</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="scroll" added="1255343687">Desplazar</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="yes" added="1255343701">Si</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="no" added="1255343707">No</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="position" added="1255343718"><![CDATA[Posici&#243;n]]></phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="repeat" added="1255343727">Repetir</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="do_not_repeat" added="1255343737">Do Not Repeat</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="across" added="1255343743">Across</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="down" added="1255343749">Down</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="tile" added="1255343755">Tile</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="font" added="1255343762">Font</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="color" added="1255343769">Color</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="family" added="1255343779">Family</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="size" added="1255343801"><![CDATA[Tama&#241;o]]></phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="style" added="1255343816">Estilo</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="weight" added="1255343826">Ancho</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="text" added="1255343834">Texto</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="align" added="1255343840">Alinear</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="transform" added="1255343851">Transform</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="decoration" added="1255343860">Decoration</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="border" added="1255343872">Border</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="padding" added="1255343939">Padding</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="reset" added="1255343959">Reajustar</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="css_details" added="1255344281">CSS Details</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="select" added="1255344295">Seleccionar</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="file_name" added="1255344302">File Name</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="creator" added="1255344309">Creator</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="submit" added="1255344322">Someter</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="css_files" added="1255344333">CSS Files</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="global_css" added="1255344341">Global CSS</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="revert" added="1255344362">Revert</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="delete" added="1255344368">Eliminar</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="style_details" added="1255344380">Style Details</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="parent_theme" added="1255344387">Parent Theme</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="parent_style" added="1255344399">Parent Style</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="name" added="1255344406">Nombre</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="folder_name" added="1255344413">Folder Name</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="logo_image" added="1255344420">Logo Image</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="default_logo_file_name_eg_logo_png" added="1255344427">Default logo file name (eg. logo.png)</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="website" added="1255344440">Website</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="version" added="1255344447"><![CDATA[Versi&#243;n]]></phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="is_default" added="1255344455">Is Default</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="is_active" added="1255344489">Is Active</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="update" added="1255344510">Actualizar</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="manual_install" added="1255344530">Manual Install</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="theme" added="1255344536">Theme</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="created_by" added="1255344548">Creado por</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="action" added="1255344559"><![CDATA[Acci&#243;n]]></phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="n_a" added="1255344568">N/A</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="install" added="1255344589">Install</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="click_to_install_this_theme" added="1255344596">Click to install this theme.</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="nothing_new_to_install" added="1255344602">Nothing new to install.</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="active" added="1255344625">Activar</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="edit_style" added="1255344633">Edit Style</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="export_style" added="1255344649">Export Style</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="are_you_sure" added="1255344660">Are you sure?</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="remove_as_default" added="1255344669">Remove as Default</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="set_as_default" added="1255344677">Set as Default</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="deactivate" added="1255344683">Deactivate</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="activate" added="1255344688">Activate</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="no_styles_found" added="1255344698">No styles found.</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="create_a_new_style" added="1255344704">Create a New Style</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="logo" added="1255344710">Logo</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="select_a_logo" added="1255344716">Select a Logo</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="you_can_upload_a_jpg_gif_or_png_file" added="1255344722">Solo puedes subir archivos JPG, GIF o PNG.</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="recommended_width_height_width_x_height_pixels" added="1255344735">Recommended width/height: {width}x{height} pixels.</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="automatically_resize" added="1255344755">Automatically Resize</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="current_logo" added="1255344772">Current logo</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="revert_logo" added="1255344804">Revert Logo</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="upload_logo" added="1255344818">Subir Logo</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="template_info" added="1255344826"><![CDATA[Informaci&#243;n de la Plantilla]]></phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="group" added="1255344831">Grupo</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="global_template" added="1255344837">Plantilla Global</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="type" added="1255344901">Tipo</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="block" added="1255344914">Bloque</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="controller" added="1255344919">Controlador</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="required_only_for_modular_templates" added="1255344928">Required only for modular templates.</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="html" added="1255344940">HTML</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="html_templates" added="1255344956">Plantillas HTML</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="global_templates" added="1255344973">Plantillas Globales</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="controllers" added="1255344986">Controladores</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="theme_details" added="1255345026">Theme Details</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="folder" added="1255345049">Carpeta</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="export" added="1255345141">Exportar</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="export_styles" added="1255345208">Exportar Estilos</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="download" added="1255345215">Descargar</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="manage" added="1255345751">Administrar</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="edit_theme" added="1255345761">Edit Theme</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="edit_templates" added="1255345771">Editar Plantillas</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="manage_styles" added="1255345779">Administrar Estilos</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="recent_visitors" added="1255345946">Visitantes Recientes</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc4" var_name="default_manage" added="1255766695">Default</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc11" var_name="page_width" added="1260207598"><![CDATA[Ancho de P&#225;gina]]></phrase>
+	<phrase module_id="theme" version_id="2.0.0rc11" var_name="link" added="1260207621">Enlace</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc11" var_name="link_hover" added="1260207630">Link:Hover</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc11" var_name="search_bar" added="1260207639"><![CDATA[Barra de B&#250;squeda]]></phrase>
+	<phrase module_id="theme" version_id="2.0.0rc11" var_name="header" added="1260207647">Encabezado</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc11" var_name="menu" added="1260207656">Menu</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc11" var_name="menu_link" added="1260207665">Enlace del Menu</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc11" var_name="menu_link_hover" added="1260207690">Menu Link:Hover</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc11" var_name="profile_header" added="1260207703">Encabezado del Perfil</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc11" var_name="profile_header_link" added="1260207713">Enlace del Encabezado del Perfil</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc11" var_name="profile_header_link_hover" added="1260207725">Profile Header Link:Hover</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc11" var_name="profile_link" added="1260207735">Enlace del Perfil</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc11" var_name="profile_link_hover" added="1260207746">Profile Link:Hover</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc11" var_name="content" added="1260207757">Contenido</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc11" var_name="block_body" added="1260207770">Bloque del Cuerpo</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc11" var_name="block_header" added="1260207781"><![CDATA[Bloque del T&#237;tulo]]></phrase>
+	<phrase module_id="theme" version_id="2.0.0rc11" var_name="bottom" added="1260207790">Inferior</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc11" var_name="bottom_link" added="1260207800">Enlace Inferior</phrase>
+	<phrase module_id="theme" version_id="2.0.0rc11" var_name="bottom_link_hover" added="1260207809">Bottom Link:Hover</phrase>
+</phrases>

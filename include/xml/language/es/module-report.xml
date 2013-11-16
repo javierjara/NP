@@ -1,0 +1,41 @@
+<phrases>
+	<phrase module_id="report" version_id="2.0.0alpha1" var_name="user_setting_can_report_comments" added="1218790099"><![CDATA[&#191;Puede reportar sobre los comentarios?]]></phrase>
+	<phrase module_id="report" version_id="2.0.0alpha1" var_name="report" added="1212758605">Reportar</phrase>
+	<phrase module_id="report" version_id="2.0.0alpha1" var_name="report_a_comment" added="1212758732">Reportar este Comentario</phrase>
+	<phrase module_id="report" version_id="2.0.0alpha1" var_name="you_have_already_reported_this_item" added="1219411144"><![CDATA[Ya has informado sobre este art&#237;culo.]]></phrase>
+	<phrase module_id="report" version_id="2.0.0alpha1" var_name="you_are_about_report_violation_our_terms_use" added="1219411155"><![CDATA[Est&#225;s a punto de reportar una violaci&#243;n de nuestros t&#233;rminos de uso.]]></phrase>
+	<phrase module_id="report" version_id="2.0.0alpha1" var_name="all_reports_are_strictly_confidential" added="1219411169"><![CDATA[<strong>Todos los reportes son estrictamente confidenciales</strong>.]]></phrase>
+	<phrase module_id="report" version_id="2.0.0alpha1" var_name="choose_one" added="1219411180">Seleccione una...</phrase>
+	<phrase module_id="report" version_id="2.0.0beta2" var_name="admin_menu_view_reports" added="1242580237">Ver Reportes</phrase>
+	<phrase module_id="report" version_id="2.0.0beta2" var_name="admin_menu_add_category" added="1242635091"><![CDATA[Agregar una Categor&#237;a]]></phrase>
+	<phrase module_id="report" version_id="2.0.0beta2" var_name="admin_menu_manage_categories" added="1242635091"><![CDATA[Manejar Categor&#237;as]]></phrase>
+	<phrase module_id="report" version_id="2.0.0rc4" var_name="category_successfully_updated" added="1255329781"><![CDATA[Categor&#237;a ha sido actualizada.]]></phrase>
+	<phrase module_id="report" version_id="2.0.0rc4" var_name="category_successfully_added" added="1255329789"><![CDATA[Categor&#237;a ha sido agregada.]]></phrase>
+	<phrase module_id="report" version_id="2.0.0rc4" var_name="edit_a_category" added="1255329797"><![CDATA[Editar una Categor&#237;a]]></phrase>
+	<phrase module_id="report" version_id="2.0.0rc4" var_name="add_a_category" added="1255329806"><![CDATA[Agregar una Categor&#237;a]]></phrase>
+	<phrase module_id="report" version_id="2.0.0rc4" var_name="successfully_deleted_categories" added="1255329834"><![CDATA[Las Categor&#237;as fueron eliminas con &#233;xito.]]></phrase>
+	<phrase module_id="report" version_id="2.0.0rc4" var_name="manage_categories" added="1255329842"><![CDATA[Manejar Categor&#237;as]]></phrase>
+	<phrase module_id="report" version_id="2.0.0rc4" var_name="report_s_successfully_ignored" added="1255329858">Reporte(s) ha(n) sido ignorado(s).</phrase>
+	<phrase module_id="report" version_id="2.0.0rc4" var_name="reports" added="1255329868">Reportes</phrase>
+	<phrase module_id="report" version_id="2.0.0rc4" var_name="provide_a_category_name" added="1255329905"><![CDATA[Proporciona un nombre de categor&#237;a.]]></phrase>
+	<phrase module_id="report" version_id="2.0.0rc4" var_name="not_a_valid_category_to_edit" added="1255329928"><![CDATA[No es una Categor&#237;a v&#225;lida para editar.]]></phrase>
+	<phrase module_id="report" version_id="2.0.0rc4" var_name="not_a_valid_report" added="1255329942"><![CDATA[No es un reporte v&#225;lido.]]></phrase>
+	<phrase module_id="report" version_id="2.0.0rc4" var_name="you_are_about_to_report_a_violation_of_our_a_href_link_target_blank_terms_of_use_a" added="1255330036"><![CDATA[Est&#225;s a punto de reportar una violaci&#243;n de nuestros <a href="{link}" target="_blank">T&#233;rminos de Uso</a>.]]></phrase>
+	<phrase module_id="report" version_id="2.0.0rc4" var_name="reason" added="1255330068"><![CDATA[Raz&#243;n]]></phrase>
+	<phrase module_id="report" version_id="2.0.0rc4" var_name="user" added="1255330120">User</phrase>
+	<phrase module_id="report" version_id="2.0.0rc4" var_name="category" added="1255330126"><![CDATA[Categor&#237;a]]></phrase>
+	<phrase module_id="report" version_id="2.0.0rc4" var_name="date" added="1255330132">Fecha</phrase>
+	<phrase module_id="report" version_id="2.0.0rc4" var_name="report_this_user" added="1255330248">Reportar este Usuario</phrase>
+	<phrase module_id="report" version_id="2.0.0rc4" var_name="category_details" added="1255330269"><![CDATA[Detalles de la Categor&#237;a]]></phrase>
+	<phrase module_id="report" version_id="2.0.0rc4" var_name="category_name" added="1255330290"><![CDATA[Nombre de la Categor&#237;a]]></phrase>
+	<phrase module_id="report" version_id="2.0.0rc4" var_name="update" added="1255330297">Actualizar</phrase>
+	<phrase module_id="report" version_id="2.0.0rc4" var_name="add" added="1255330303">Agregar</phrase>
+	<phrase module_id="report" version_id="2.0.0rc4" var_name="module" added="1255330314"><![CDATA[M&#243;dulo]]></phrase>
+	<phrase module_id="report" version_id="2.0.0rc4" var_name="delete_selected" added="1255330327">Eliminar Seleccionado</phrase>
+	<phrase module_id="report" version_id="2.0.0rc4" var_name="no_categories" added="1255330333"><![CDATA[No existen categor&#237;as.]]></phrase>
+	<phrase module_id="report" version_id="2.0.0rc4" var_name="total" added="1255330356">Total</phrase>
+	<phrase module_id="report" version_id="2.0.0rc4" var_name="last_report" added="1255330368">Ultimo Reporte</phrase>
+	<phrase module_id="report" version_id="2.0.0rc4" var_name="ignore_selected" added="1255330389">Ignorar Seleccionado</phrase>
+	<phrase module_id="report" version_id="2.0.0rc4" var_name="no_reports" added="1255330395">No existen Reportes.</phrase>
+	<phrase module_id="report" version_id="2.0.0rc4" var_name="report_this_feed" added="1256657121">Reportar este feed.</phrase>
+</phrases>

@@ -1,0 +1,377 @@
+<phrases>
+	<phrase module_id="photo" version_id="2.0.0alpha1" var_name="module_photo" added="1232963935">Fotos</phrase>
+	<phrase module_id="photo" version_id="2.0.0alpha1" var_name="menu_photo" added="1232964074">Fotos</phrase>
+	<phrase module_id="photo" version_id="2.0.0alpha1" var_name="menu_photos" added="1233146048">Fotos</phrase>
+	<phrase module_id="photo" version_id="2.0.0alpha1" var_name="menu_upload_new_image" added="1233314832">Subir una nueva Imagen</phrase>
+	<phrase module_id="photo" version_id="2.0.0alpha1" var_name="menu_view_photos" added="1233314868">Ver mis Fotos</phrase>
+	<phrase module_id="photo" version_id="2.0.0alpha1" var_name="user_setting_can_create_photo_album" added="1234005559"><![CDATA[&#191;Se puede crear un nuevo album de fotos?]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0alpha1" var_name="user_setting_max_number_of_albums" added="1234008456"><![CDATA[Define el n&#250;mero total de &#225;lbumes de fotos que un puede crear dentro de este grupo de usuarios.
+
+<b>Notice:</b> Si t&#250; establece el valor a <b>nulo</b> les permitir&#225; crear una cantidad ilimitada de &#225;lbumes de fotos. Establecer este valor a <b>0</b> no les permitir&#225; la posibilidad de crear &#225;lbumes de fotos.]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0alpha1" var_name="setting_photo_pic_sizes" added="1234108211"><![CDATA[<title>Tama&#241;os de las Fotos</title><info>Tama&#241;os de las Fotos</info>]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0alpha1" var_name="user_setting_points_photo" added="1234168710"><![CDATA[&#191;Puntos recibidos al subir una nueva imagen.]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0alpha1" var_name="user_setting_can_upload_photos" added="1234355661"><![CDATA[&#191;Se pueden subir fotos?]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0alpha1" var_name="user_setting_can_password_protect_albums" added="1234356018"><![CDATA[&#191;Se pude proteger con contrase&#241;a los &#225;lbumes de fotos?]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0alpha1" var_name="user_setting_can_use_privacy_settings" added="1234356693"><![CDATA[&#191;Se puede utilizar la configuraci&#243;n de privacidad al crear un &#225;lbum?]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0alpha1" var_name="setting_total_photo_input_bars" added="1234356994"><![CDATA[<title>Entradas de las Subidas</title><info>Define cu&#225;ntas entradas de la subida de fotos deben ser exhibidas cuando un usuario est&#225; subiendo las mismas.</info>]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0alpha1" var_name="user_setting_max_images_per_upload" added="1234357193"><![CDATA[Define el n&#250;mero m&#225;ximo de im&#225;genes que un usuario puede subir cada vez que use el formulario de subida.
+
+<b>Aviso:</b> Este ajuste no controla cu&#225;ntas im&#225;genes puede cargar un usuario en total, o cu&#225;ntos de ellos pueden subir cada vez que usen el formulario de subida para subir nuevas im&#225;genes.]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0alpha1" var_name="user_setting_can_add_to_rating_module" added="1234359086"><![CDATA[&#191;Se Pueden a&#241;adir fotos a las secciones de calificaciones p&#250;blicas?]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0alpha1" var_name="user_setting_can_add_tags_on_photos" added="1234359767"><![CDATA[&#191;Se puede agregar etiquetas en las fotos?]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0alpha1" var_name="user_setting_can_control_comments_on_photos" added="1234359856"><![CDATA[&#191;Se puede controlar c&#243;mo se comportan los comentarios en sus fotos?]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0alpha1" var_name="user_setting_can_add_mature_images" added="1234360050"><![CDATA[&#191;Se puede agregar im&#225;genes para adultos con advertencias?]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0alpha1" var_name="user_setting_can_search_for_photos" added="1234461616"><![CDATA[&#191;Se puede buscar por fotos?]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0alpha1" var_name="user_setting_total_photos_displays" added="1234463967"><![CDATA[Define &#191;Cu&#225;ntas im&#225;genes puede ver un usuario a la vez que navega por la secci&#243;n de fotos p&#250;blicas?]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0alpha1" var_name="user_setting_default_photo_display_limit" added="1234464570"><![CDATA[Define cu&#225;ntas fotos se muestran por defecto.
+
+<b>Aviso:</b> Este valor debe ser parte de la configuraci&#243;n de la matriz <setting>photo.total_photos_displays</setting> con el fin de ser v&#225;lida.]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0alpha1" var_name="user_setting_max_photo_display_limit" added="1234464816"><![CDATA[Define el n&#250;mero m&#225;ximo de fotos que un usuario puede ver en cada p&#225;gina. 
+
+<b>Aviso:</b> Este valor debe trabajar junto con el ajuste<setting>photo.total_photos_displays</setting> y en la mayor&#237;a de los casos, o bien debe ser el mismo valor que el n&#250;mero m&#225;s alto de la matriz o inferior. La raz&#243;n para establecer este valor a (inferior) es mostrar a los usuarios que la galer&#237;a se puede ver a un m&#225;ximo de 100 por p&#225;gina, pero tal vez desea mostrar a este grupo de usuarios en espec&#237;fico solo 24 im&#225;genes de ese total m&#225;ximo (100).]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0alpha1" var_name="user_setting_refresh_featured_photo" added="1234468064"><![CDATA[Define cu&#225;ntos minutos o segundos, el sistema debe esperar hasta que se actualiza la caracter&#237;stica de la foto.
+
+<b>Aviso:</b> Para a&#241;adir X minutos he aqu&#237; algunos ejemplos:
+[code]
+1 min
+2 min
+30 min
+[/code]
+Si desea definir en segundos, aqu&#237; hay algunos ejemplos:
+[code]
+20 seg
+30 seg
+90 seg
+[/code]]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0alpha1" var_name="admin_menu_categories" added="1234775140"><![CDATA[Categor&#237;as]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0alpha1" var_name="setting_photo_image_details_time_stamp" added="1234855825"><![CDATA[<title>Detalles de la Imagen</title><info>Detalles de la Imagen</info>]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0alpha1" var_name="user_setting_can_download_user_photos" added="1234869122"><![CDATA[&#191;Se puede descargar una foto de los usuarios?]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0alpha1" var_name="user_setting_can_view_all_photo_sizes" added="1234872811"><![CDATA[&#191;Se puede ver todos los tama&#241;os disponibles de las fotos?]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0alpha1" var_name="user_setting_can_edit_own_photo_album" added="1235028102"><![CDATA[&#191;Se puede editar &#225;lbumes de fotos propios?]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0alpha1" var_name="user_setting_can_edit_other_photo_albums" added="1235028151"><![CDATA[&#191;Se puede editar &#225;lbumes de fotos que pertenecen a otros usuarios?]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0alpha1" var_name="user_setting_can_photo_album" added="1235065612"><![CDATA[&#191;Se puede agregar un nuevo &#225;lbum de fotos?]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0alpha1" var_name="user_setting_can_view_hidden_photos" added="1235068622"><![CDATA[&#191;Se pueden ver las fotos ocultas?
+
+<b>Aviso:</b> La intensi&#243;n es para un grupo de usuarios con derechos de administrador, ya que esto les permite el acceso completo a todas las fotos subidas en el sitio, que a cambio les puede dar el control a las im&#225;genes moderadas.]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0alpha1" var_name="setting_protect_photos_from_public" added="1235132674"><![CDATA[<title>Proteger Fotos</title><info>Si t&#250; quieres proteger la privacidad de las fotos de tus miembros debes establecer esta opci&#243;n a <b>Cierto</b>. Al habilitar esta caracter&#237;stica los usuarios no podr&#225;n ver las im&#225;genes a trav&#233;s de su ruta de acceso directo si no tiene permiso para ver esta imagen espec&#237;fica. Sin embargo, esto va a agregar consultas adicionales a la base de datos y puede a&#241;adir un esfuerzo adicional en el servidor.
+
+<b>Aviso:</b> El Apache "mod_rewrite" tendr&#225; que ser habilitado para usar esta funci&#243;n. Una vez que haya activado esta funci&#243;n, debe editar el archivo ". Htaccess" que se encuentra en el principal del sitio.
+
+Busca el siguiente c&#243;digo en ese archivo:
+[code]
+# RewriteRule ^file/pic/photo/(.&#42;).(.&#42;)$ static/image.php?file=$1&ext=$2
+[/code]
+
+Sustit&#250;yelo por:
+[code]
+RewriteRule ^file/pic/photo/(.&#42;).(.&#42;)$ static/image.php?file=$1&ext=$2
+[/code]
+</info>]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0alpha1" var_name="user_setting_can_delete_own_photo" added="1235400287"><![CDATA[&#191;Se puede eliminar una foto propia?]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0alpha1" var_name="user_setting_can_delete_other_photos" added="1235400340"><![CDATA[&#191;Se pueden eliminar fotos subidas por otros usuarios?]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0alpha1" var_name="user_setting_can_edit_own_photo" added="1235499296"><![CDATA[&#191;Se puede editar una foto propia?]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0alpha1" var_name="user_setting_can_edit_other_photo" added="1235499334"><![CDATA[&#191;Se pueden editar fotos agregadas por otros usuarios?]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0alpha1" var_name="user_setting_photo_mature_age_limit" added="1235502907"><![CDATA[&#191;Se puede definir el l&#237;mite de edad para una foto que est&#225; marcada como "Adulto (estricto)"?
+
+<b>Nota:</b>La edad que tu definas le brindar&#225; a los usuarios con esa edad o mayor la capacidad de ver fotos para adultos.]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0alpha1" var_name="feed_user_add_photos" added="1235639996"><![CDATA[<a href="{owner_link}">{owner_full_name}</a> agreg&#243; unas fotos a su album "<a href="{link}">{album_name}</a>".]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0alpha1" var_name="menu_rate_photos" added="1235720223">Calificar Fotos</phrase>
+	<phrase module_id="photo" version_id="2.0.0alpha1" var_name="setting_can_rate_on_photos" added="1235920519"><![CDATA[<title>Calificaci&#243;n de Fotos</title><info>Establece como <b>Cierto</b> si deseas habilitar la capacidad de los usuarios para votar en las fotos subidas por otros usuarios.</info>]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0alpha1" var_name="user_setting_can_rate_on_photos" added="1235920668"><![CDATA[&#191;Se puede votar en las fotos?]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0alpha1" var_name="setting_rating_total_photos_cache" added="1235920999"><![CDATA[<title>Total Fotos para el cach&#233; de la Secci&#243;n de Calificaci&#243;n</title><info>Define cu&#225;ntas im&#225;genes para el cach&#233; cuando se califican las im&#225;genes. Esto cargar&#225; X fotos cuando se visita la secci&#243;n de calificaci&#243;n y permitir&#225; a los usuarios la capacidad de calificar im&#225;genes a un ritmo muy r&#225;pido. Una vez que X im&#225;genes han sido clasificadas el sistema utilizar el "AJAX" para cargar la siguiente ronda de im&#225;genes de X.
+
+<b>Aviso:</b> "X" es el valor de esta configuraci&#243;n espec&#237;fica.</info>]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0alpha1" var_name="setting_rating_randomize_photos" added="1235921158"><![CDATA[<title>Fotos al azar en la Secci&#243;n de Calificaci&#243;n</title><info>Establesca a <b>Cierto</b> si las fotos en la secci&#243;n de calificaci&#243;n debe ser al azar. Si se establece com <b>Falso</b> se van a mostrar las im&#225;genes basado en la fecha en que fueron subidas y en orden descendente.
+
+<b>Aviso:</b> Cualquier configuraci&#243;n permitir&#225; a los usuarios la capacidad para votar s&#243;lo una vez por imagen. Las im&#225;genes no son recicladas.</info>]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0alpha1" var_name="user_setting_can_edit_photo_categories" added="1235999973"><![CDATA[&#191;Se puede editar categor&#237;as de fotos p&#250;blicas?]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0alpha1" var_name="user_setting_can_add_public_categories" added="1236000044"><![CDATA[&#191;Se puede agregar categor&#237;as de fotos p&#250;blicas?]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0alpha1" var_name="menu_photo_battles" added="1236005084">Competencia de Fotos</phrase>
+	<phrase module_id="photo" version_id="2.0.0alpha1" var_name="setting_photo_battle_image_cache" added="1236024195"><![CDATA[<title>Cach&#233; de Fotos para la Competencia de Fotos</title><info>Define el n&#250;mero de im&#225;genes en el cach&#233; cuando se muestra la competici&#243;n de fotos.</info>]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0alpha1" var_name="user_setting_photo_must_be_approved" added="1236065652"><![CDATA[Establece como <b>Cierto</b> si las fotos subidas deben ser aprobadas antes de que sean visibles para el p&#250;blico.]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0alpha1" var_name="user_setting_can_approve_photos" added="1236066726"><![CDATA[&#191;Se puede aprobar las fotos que requieren moderaci&#243;n?]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0alpha2" var_name="user_setting_can_feature_photo" added="1237643657"><![CDATA[&#191;Se puede destacar una foto?]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0alpha3" var_name="setting_rename_uploaded_photo_names" added="1239041807"><![CDATA[<title>Cambiar los Nombres de las Fotos</title><info>Establece como<b>Cierto</b> si desea cambiar el nombre de una foto basado en el t&#237;tulo de la foto o el t&#237;tulo que el usuario proporcion&#243; recientemente durante la publicaci&#243;n de la foto. Por defecto se utiliza un c&#243;digo de 32 caracteres para proteger las im&#225;genes, sin embargo la habilitaci&#243;n de esta funci&#243;n se crear&#225; un ID &#250;nico para cada imagen y con la ayuda del SEO de imagen.</info>]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0alpha3" var_name="user_setting_can_delete_own_photo_album" added="1239099768"><![CDATA[&#191;Se puede eliminar un album de fotos propio?]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0alpha3" var_name="user_setting_can_delete_other_photo_albums" added="1239099813"><![CDATA[&#191;Se puede eliminar &#225;lbumes de fotos creados por otros usuarios?]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0beta4" var_name="user_setting_can_tag_own_photo" added="1244485890"><![CDATA[&#191;Se puede etiquetar fotos propias?]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0beta4" var_name="user_setting_can_tag_other_photos" added="1244485972"><![CDATA[&#191;Se puede etiquetar fotos agregadas por otros usuarios?]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0beta4" var_name="user_setting_how_many_tags_on_own_photo" added="1244486244"><![CDATA[&#191;Cu&#225;ntas veces un usuario puede etiquetar su propia foto?]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0beta4" var_name="user_setting_how_many_tags_on_other_photo" added="1244486633"><![CDATA[&#191;Cu&#225;ntas veces este usuario puede etiquetar fotos agregadas por otros usuarios?]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0beta4" var_name="setting_total_tags_on_photos" added="1244486871"><![CDATA[<title>Total de Etiquetas en las Fotos</title><info>Define cuantas etiquetas puede tener una foto.</info>]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0beta4" var_name="stat_title_3" added="1245143473">Fotos</phrase>
+	<phrase module_id="photo" version_id="2.0.0rc1" var_name="user_setting_photo_max_upload_size" added="1248950092"><![CDATA[N&#250;mero m&#225;ximo de tama&#241;o de archivo para subir fotos en kilobits (kb).
+(1000 kb = 1 mb)
+Para tama&#241;o ilimitado, agregue "0" sin las comillitas.]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0rc1" var_name="setting_enabled_watermark_on_photos" added="1249708251"><![CDATA[<title>Watermark de Fotos</title><info>Habilitar esta opci&#243;n para el Watermark de fotos
+
+<b>Aviso:</b> Esta configuraci&#243;n <setting>core.watermark_option</setting> debe estar habilitada.</info>]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0rc1" var_name="setting_photo_meta_description" added="1252062286"><![CDATA[<title>Descripci&#243;n del Meta de Fotos</title><info>Descripci&#243;n del Meta de fotos para las secciones de fotos</info>]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0rc1" var_name="setting_photo_meta_keywords" added="1252062356"><![CDATA[<title>Palabras Claves del Meta de Fotos</title><info>Palabras claves para las secciones de fotos.</info>]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="you_have_reached_your_limit_you_are_currently_unable_to_create_new_photo_albums" added="1255093572"><![CDATA[Has llegado a tu cantidad m&#225;xima. Desde este momento no podr&#225;s crear &#225;lbumes de fotos nuevas.]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="you_have_rated_all_the_available_images" added="1255094396"><![CDATA[Has votado en todas las im&#225;genes disponibles.]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="editing_category" added="1255094413"><![CDATA[Edici&#243;n de la categor&#237;a]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="cancel" added="1255094438">Cancelar</phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="are_you_sure" added="1255098330"><![CDATA[&#191;Est&#225;s seguro?]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="un_feature_this_photo" added="1255098352">No destacar esta foto.</phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="feature_this_photo" added="1255098360">Destacar esta foto.</phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="photo_successfully_featured" added="1255098370">La foto ha sido destacada.</phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="photo_successfully_un_featured" added="1255098382"><![CDATA[La foto se le ha quitado la caracter&#237;stica de destacada.]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="photo_successfully_uploaded" added="1255098410">Fotos subidas correctamente.</phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="photos_successfully_uploaded" added="1255098421">Fotos subidas correctamente.</phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="processing_image_current_total" added="1255098472">Procesando imagen {current}/{total}</phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="provide_a_name_for_your_album" added="1255098524"><![CDATA[Proporciona un nombre para tu &#225;lbum.]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="select_a_privacy_setting_for_your_album" added="1255098533"><![CDATA[Seleccione una configuraci&#243;n de privacidad para su &#225;lbum.]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="categories" added="1255098543"><![CDATA[Categor&#237;as]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="image_details" added="1255098555">Detalles de la Imagen</phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="featured_photo" added="1255098622">Foto Destacada</phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="browse_filter" added="1255098633"><![CDATA[Criterios de B&#250;squeda]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="photos" added="1255098653">Fotos</phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="view_more_photos" added="1255098663"><![CDATA[Ver m&#225;s fotos]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="average_rating" added="1255098694"><![CDATA[Calificaci&#243;n Promedio]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="provide_a_name_for_your_photo_category" added="1255098718"><![CDATA[Proporciona un nombre para tu categor&#237;a de fotos.]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="photo_category_order_successfully_updated" added="1255098727"><![CDATA[El orden de la categor&#237;as de las fotos ha sido actualizado]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="invalid_section" added="1255098738"><![CDATA[Secci&#243;n inv&#225;lida]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="photo_category_successfully_deleted" added="1255098747"><![CDATA[La categor&#237;a de foto fue eliminada con &#233;xito.]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="photo_category_successfully_updated" added="1255098756"><![CDATA[La categor&#237;a de foto actualizada con &#233;xito.]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="photo_category_successfully_added" added="1255098771"><![CDATA[Categor&#237;a de Foto fue agregada con &#233;xito.]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="manage_photo_categories" added="1255098780"><![CDATA[Manejar las Categor&#237;as de las Fotos]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="photo_album_successfully_deleted" added="1255099435"><![CDATA[&#193;lbum de fotos se ha eliminado correctamente.]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="invalid_photo_album" added="1255099446"><![CDATA[Album de Foto inv&#225;lido.]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="password_is_not_correct_please_try_again" added="1255099457"><![CDATA[Correo Electr&#243;nico no es correcto. Por favor, trate de nuevo.]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="full_name_s_photos" added="1255099478">Fotos de {full_name}</phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="full_name_s_photo_album_from_time_stamp" added="1255099519">Album de Foto de {full_name} de {time_stamp}</phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="photo_battle" added="1255099553">Competencia de Fotos</phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="battle" added="1255099567">Competencia</phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="not_allowed_to_download_this_image" added="1255099580">No se permite descargar esta imagen.</phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="photo_section_is_closed" added="1255099610"><![CDATA[La secci&#243;n de fotos est&#225; cerrada.]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="site_title_has_a_total_of_total_photo_s" added="1255099671">{site_title} tiene un total de {total} foto(s).</phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="section_is_private" added="1255099728"><![CDATA[Esta secci&#243;n es privada.]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="full_name_s_photos_on_site_title_full_name_has_total_photo_photo_s_and_total_album_photo" added="1255100161">Fotos de {full_name} en {site_title}. {full_name} tiene {total_photo} foto(s) y {total_album} album(es) de fotos.</phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="photo_rating_is_disabled" added="1255100253"><![CDATA[La Calificaci&#243;n de fotos est&#225; desactivado.]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="rate_photos" added="1255100268">Calificar Fotos</phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="rate" added="1255100290">Votos</phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="photo_tags" added="1255100311">Etiquetas de Fotos</phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="photo" added="1255100318">Foto</phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="tags" added="1255100325">Etiquetas</phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="upload_photos" added="1255100342">Subir Fotos</phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="photos_successfully_updated" added="1255100368">Fotos actualizadas correctamente.</phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="photo_s_successfully_updated" added="1255100380">La(s) foto(s) ha(n) sido actualizada(s).</phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="process_photos" added="1255100393">Procesar Fotos</phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="upload" added="1255100452">Subir</phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="invalid_photo" added="1255101664"><![CDATA[Foto inv&#225;lidad.]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="sorry_this_photo_can_only_be_viewed_by_those_older_then_the_age_of_limit" added="1255101703"><![CDATA[Lo sentimos, esta foto s&#243;lo puede ser vista por personas mayores de edad. La eded m&#237;nima es {limit} a&#241;os.]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="not_a_valid_photo_album_to_delete" added="1255101768"><![CDATA[No es un &#225;lbum de fotos v&#225;lido para eliminar.]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="you_do_not_have_sufficient_permission_to_delete_this_photo_album" added="1255101778"><![CDATA[T&#250; no tienes los permisos suficientes para eliminar este &#225;lbum de fotos.]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="unable_to_find_the_photo" added="1255101869">No se puede encontrar la foto.</phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="this_photo_is_already_tagged_in_the_same_position" added="1255101890"><![CDATA[Esta foto ya est&#225; etiquetada en la misma posici&#243;n.]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="no_more_tags_for_this_photo_can_be_added" added="1255101900"><![CDATA[No se puede agregar m&#225;s etiquetas para esta foto.]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="full_name_has_already_been_tagged_in_this_photo" added="1255101918">{full_name} ya tiene etiquetada esta foto.</phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="provide_a_photo_tag" added="1255101946">Proporciona una etiqueta para la foto.</phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="not_allowed_to_tag_this_photo" added="1255101956">No se permite etiquetar esta foto.</phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="unable_to_find_photo" added="1255101967">No se puede encontrar la foto.</phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="unable_to_delete_this_tag" added="1255101979">No se puede eliminar esta etiqueta.</phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="a_href_profile_link_owner_full_name_a_uploaded_a_new_photo" added="1255156765"><![CDATA[<a href="{profile_link}">{owner_full_name}</a> subi&#243; una nueva foto.]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="a_href_profile_link_owner_full_name_a_uploaded_new_photos" added="1255156843"><![CDATA[<a href="{profile_link}">{owner_full_name}</a> subi&#243; nuevas fotos]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="a_href_user_link_full_name_a_added_a_new_comment_on_their_own_a_href_title_link_photo" added="1255156971"><![CDATA[<a href="{user_link}">{full_name}</a> agreg&#243; un nuevo comentario sobre su propia <a href="{title_link}">foto</a>.]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="a_href_user_link_full_name_a_added_a_new_comment_on_your_a_href_title_link_photo_a" added="1255157021"><![CDATA[<a href="{user_link}">{full_name}</a> agreg&#243; un nuevo comentario en tu <a href="{title_link}">foto</a>.]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="a_href_user_link_full_name_a_added_a_new_comment_on" added="1255157088"><![CDATA[<a href="{user_link}">{full_name}</a> agreg&#243; un nuevo comentario en <a href="{item_user_link}">{item_user_name}'s</a> <a href="{title_link}">foto</a>.]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="user_name_left_you_a_comment_on_site_title" added="1255157199"><![CDATA[{user_name} te dej&#243; un comentario en {site_title}.]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="user_name_left_you_a_comment_on_site_title_message" added="1255157259"><![CDATA[{user_name} dej&#243; un comentario en {site_title}.
+
+Para ver este comentario, siga el enlace abajo:
+<a href="{link}">{link}</a>]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="user_name_left_you_a_comment_on_site_title_however_before_it_can_be_displayed_it_needs_to_be" added="1255157349"><![CDATA[{user_name} te dej&#243; un comentario en {site_title}, sin embargo, antes de que se puede mostrar tiene que ser aprobado por t&#237;.
+
+T&#250; puedes aprobar o rechazar este comentario siguiendo el enlace de abajo abajo:
+<a href="{link}">{link}</a>]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="a_href_user_link_full_name_a_wrote_a_comment_on_your_photo_a_href_photo_link_title" added="1255158733"><![CDATA[<a href="{user_link}">{full_name}</a> escribi&#243; un comentario sobre tu foto "<a href="{photo_link}">{title}</a>".]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="on_name_s_photo" added="1255158838">En la foto de {name}.</phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="full_name_approved_your_comment_on_site_title" added="1255158932"><![CDATA[{full_name} aprob&#243; tu comentario en {site_title}.]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="full_name_approved_your_comment_on_site_title_message" added="1255158993"><![CDATA[{full_name} aprob&#243; tu comentario en {site_title}.
+
+Para ver este comentario, siga el enlace abajo:
+<a href="{link}">{link}</a>]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="a_href_photo_section_link_photo_a_uploaded_on_time_stamp_by_a_href_user_link" added="1255159132"><![CDATA[<a href="{photo_section_link}">Foto</a> subida en {time_stamp} por <a href="{user_link}">{full_name}</a>.]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="photo_albums" added="1255159204"><![CDATA[&#193;lbumes de Fotos]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="upload_a_photo" added="1255159230">Subir una Foto</phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="manage_photos" added="1255159237">Manejar Fotos</phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="view_photos" added="1255159267">Ver Fotos</phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="unable_to_find_the_photo_you_plan_to_edit" added="1255159921">No se puede encontrar la foto que desea editar.</phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="updating_album" added="1255160073"><![CDATA[Actualizaci&#243;n del &#225;lbum]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="loading" added="1255160127">Cargando</phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="none_of_your_files_were_uploaded_please_make_sure_you_upload_either_a_jpg_gif_or_png_file" added="1255160204"><![CDATA[Ninguno de los archivos se han subido. Por favor, aseg&#250;rese de subir solo archivos JPG, GIF o PNG.]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="updating_photo" added="1255160312"><![CDATA[Actualizaci&#243;n de fotos]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="password_protected_album" added="1255160379"><![CDATA[ALBUM CON PROTECCI&#211;N DE CONTRASE&#209;A]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="private_album" added="1255160387">ALBUM PRIVADO</phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="name_by_full_name" added="1255160410">{name} por {full_name}</phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="view_more_albums_total" added="1255160470"><![CDATA[Ver m&#225;a &#193;lbumes ({total})]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="submit" added="1255160494">Someter</phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="all_categories" added="1255160526"><![CDATA[Todas las Categor&#237;as]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="url" added="1255160539">URL</phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="search_for_keyword" added="1255160559">Buscar por Palabra Clave</phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="display" added="1255160572">Mostrar</phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="sort" added="1255160583">Ordenar por</phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="time" added="1255160590">Fecha</phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="most_viewed" added="1255160598"><![CDATA[M&#225;s Vistas]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="most_talked_about" added="1255160606"><![CDATA[M&#225;s Comentadas]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="top_rated" added="1255160782"><![CDATA[Mejor Calificaci&#243;n]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="top_battle" added="1255160797"><![CDATA[M&#225;s Competitivas]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="by" added="1255160804">Por</phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="descending" added="1255160810">Descendente</phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="ascending" added="1255160817">Ascendente</phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="name" added="1255160998">Nombre</phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="description" added="1255161008"><![CDATA[Descripci&#243;n]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="privacy" added="1255161017">Privacidad</phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="public_photos_will_be_added_to_our_public_photo_section" added="1255162284"><![CDATA[P&#250;blica (fotos se a&#241;adir&#225;n a nuestra secci&#243;n de fotos p&#250;blicos).]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="personal_photos_will_only_be_displayed_on_your_profile" added="1255162294"><![CDATA[Personal (Fotos s&#243;lo se mostrar&#225; en tu perfil.)]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="friends_only_you_and_your_friends_can_view_this_album" added="1255162303"><![CDATA[Amigos (S&#243;lo t&#250; y tus amigos pueden ver este &#225;lbum.)]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="preferred_list_only_you_and_the_members_you_select_can_view_this_album" added="1255162321"><![CDATA[Lista de Preferencia (S&#243;lo t&#250; y los miembros que seleccione puede ver este &#225;lbum.)]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="password_protect" added="1255162339"><![CDATA[Proteger con contrase&#241;a]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="image_is_pending_approval" added="1255162439"><![CDATA[La imagen est&#225; pendiente de aprobaci&#243;n.]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="title" added="1255162468"><![CDATA[T&#237;tulo]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="category" added="1255162481"><![CDATA[Categor&#237;a]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="mature_content" added="1255162491">Contenido para adultos</phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="yes_strict" added="1255162500"><![CDATA[Si [Restrito]]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="yes_warning" added="1255162507"><![CDATA[Si [Advertencia]]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="no" added="1255162513">No</phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="discussion" added="1255162520"><![CDATA[Discusi&#243;n]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="allow_comments_default" added="1255162529">Permitir Comentarios (default)</phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="encourage_advanced_critique" added="1255162539"><![CDATA[Fomentar la cr&#237;tica avanzada]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="discourage_criticism" added="1255162547"><![CDATA[Desalentar la cr&#237;tica]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="moderate_comments_first" added="1255162554">Moderar los primeros comentarios</phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="disable_comments" added="1255162562">Desactivar Comentarios</phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="public_rating" added="1255162574"><![CDATA[Calificaci&#243;n P&#250;blica]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="yes" added="1255162585">Si</phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="download_enabled" added="1255162599">Permitir Descargar</phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="enabling_this_option_will_allow_others_the_rights_to_download_this_photo" added="1255162616"><![CDATA[Habilitar esta opci&#243;n permitir&#225; a los dem&#225;s usuarios el derecho a descargar esta foto.]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="enabling_this_option_will_allow_others_the_rights_to_download_these_photos" added="1255162622"><![CDATA[Habilitar esta opci&#243;n permitir&#225; a los dem&#225;s usuarios el derecho a descargar estas fotos.]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="report_a_photo_album" added="1255162727">Reportar este Album de Fotos</phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="report" added="1255162734">Reportar</phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="add_to_your_favorites" added="1255162744">Agregar a tus Favoritos</phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="add_to_favorites" added="1255162752">Agregar a Favoritos</phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="edit_this_album" added="1255162760">Editar este Album</phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="upload_photos_to_album" added="1255162767"><![CDATA[Subir fotos al &#225;lbum]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="delete" added="1255162773">Eliminar</phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="view_all_sizes" added="1255162789"><![CDATA[Ver todos los Tama&#241;os]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="report_a_photo" added="1255162798">Reportar esta Foto</phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="download" added="1255162827">Descargar</phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="edit_this_photo" added="1255162835">Editar esta Foto</phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="upload_a_new_image" added="1255162844">Subir una Nueva Imagen</phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="delete_this_photo" added="1255162853">Eliminar esta Foto</phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="rotate_right" added="1255162862">Rotar hacia la derecha</phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="rotate_left" added="1255162869">Rotar hacia la izquierda</phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="tag_this_photo" added="1255162876">Etiquetar esta Foto</phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="no_photos_have_been_added_yet" added="1255162892"><![CDATA[No se han agregado fotos a&#250;n.]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="be_the_first_to_upload_a_photo" added="1255162898">Sea el primero en subir una foto.</phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="title_by_full_name" added="1255162922">{title} por {full_name}</phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="by_user_info" added="1255162955">Por {user_info}</phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="no_photos_added_yet" added="1255163019"><![CDATA[No se han agregado fotos a&#250;n.]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="click_here_to_upload_a_photo" added="1255163025"><![CDATA[Haz Clic aqu&#237; para subir una foto.]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="approve_this_photo" added="1255163046">Aprobar esta foto.</phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="set_as_album_cover" added="1255163072"><![CDATA[Establecer como cover del &#225;lbum.]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="no_photos_uploaded_yet" added="1255165857"><![CDATA[A&#250;n no se han subido fotos]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="click_here_to_upload_photos" added="1255165864"><![CDATA[Haz Clic aqu&#237; para subir fotos.]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="warning" added="1255168472"><![CDATA[&#161;Advertencia!]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="the_photo_you_are_about_to_view_may_contain_nudity_sexual_themes_violence_gore_strong_language_or_ideologically_sensitive_subject_matter" added="1255168917"><![CDATA[La foto que est&#225;s a punto de ver puede contener desnudos, temas sexuales, violencia / sangre, lenguaje fuerte o tema ideol&#243;gicamente sensibles.]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="would_you_like_to_view_this_image" added="1255168925"><![CDATA[&#191;Te gustar&#237;a ver esta imagen?]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="no_thanks" added="1255168937">No, Gracias.</phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="add_a_photo_category" added="1255168955"><![CDATA[Agregar una Categor&#237;a de Foto]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="parent" added="1255168960">Superior</phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="update" added="1255168981">Actualizar</phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="are_you_sure_you_want_to_delete_this_album_and_all_the_pictures_that_belong_to_it" added="1255168994"><![CDATA[&#191;Est&#225;s seguro de que quieres eliminar este &#225;lbum y todas las im&#225;genes que pertenecen a &#233;l?]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="note_that_this_cannot_be_undone" added="1255169000">Tenga en cuenta que esto no se puede deshacer.</phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="update_photo" added="1255169021">Actualicar Foto</phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="update_album" added="1255169041">Actualizar Album</phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="this_photo_album_is_password_protected" added="1255169058"><![CDATA[Este &#225;lbum de fotos est&#225; protegido por contrase&#241;a.]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="enter_password" added="1255169066"><![CDATA[Introducir contrase&#241;a]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="no_images_found" added="1255169114"><![CDATA[No se encontraron im&#225;genes.]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="v_br_e_br_r_br_s_br_u_br_s" added="1255169125"><![CDATA[V<br />e<br />r<br />s<br />u<br />s]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="there_is_one_image_that_requires_your_approval" added="1255169140"><![CDATA[Hay una imagen que requiere tu aprobaci&#243;n.]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="there_are_total_images_that_require_your_approval" added="1255169150"><![CDATA[Hay {total} im&#225;genes que requieren tu aprobaci&#243;n.]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="no_public_photos_have_been_uploaded_yet" added="1255169181"><![CDATA[A&#250;n no se han subido fotos p&#250;blicas.]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="click_here_to_approve_photos" added="1255169212"><![CDATA[Haz clic aqu&#237; para aprobar las fotos.]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="photos_total" added="1255169369">Fotos ({total})</phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="albums_total" added="1255169418"><![CDATA[&#193;lbumes ({total})]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="you_have_not_uploaded_any_photos_yet" added="1255169448"><![CDATA[Usted no ha subido fotos a&#250;n.]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="user_info_has_not_uploaded_any_photos_yet" added="1255169497"><![CDATA[{user_info} no ha subido ninguna foto a&#250;n.]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="upload_your_photos" added="1255169521">Subir tus Fotos</phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="browse_other_photos" added="1255169528">Buscar otras Fotos</phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="skip" added="1255169618">Pasar</phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="b_back_b_to_full_name_s_photo_section" added="1255169648"><![CDATA[<b>Regresar</b> a la secci&#243;n de fotos de {full_name}.]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="b_back_b_to_title_s_photo_section" added="1255169673"><![CDATA[<b>Regresar</b> a la secci&#243;n de fotos {title}.]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="upload_by_user_info_on_time_stamp" added="1255169715">Subido por {user_info} en {time_stamp}.</phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="available_sizes" added="1255169742"><![CDATA[Tama&#241;os disponibles]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="download_this_image" added="1255169758">Descargar esta imagen a tu computadora</phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="photo_links" added="1255169768">Enlaces de las Fotos</phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="html_embed" added="1255169774">HTML Insertado</phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="photo_path" added="1255169846">Path de las Fotos</phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="skip_this_step" added="1255169861">Omitir este paso</phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="global_photo_settings" added="1255169872">Configuraciones Globales de las Fotos</phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="note_that_global_photo_settings_will_override_any_settings_saved_individually_below" added="1255169879"><![CDATA[Tenga en cuenta que "Configuraciones Globales de las Fotos" anular&#225; cualquier configuraci&#243;n guardada por separado a continuaci&#243;n.]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="save_global_settings" added="1255169887">Salvar Configuraciones Globales</phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="uploaded_photos" added="1255169895">Fotos Subidas</phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="save" added="1255169909">Salvar</phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="and_then" added="1255169918">y luego</phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="process_next_batch_total_left" added="1255169930">procesar el siguiente lote ({total} a la izquierda).</phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="view_this_album" added="1255169945">ver este album.</phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="view_your_photos" added="1255169951">ver tus fotos.</phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="upload_new_images" added="1255169957"><![CDATA[subir nuevas im&#225;genes.]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="album" added="1255169993">Album</phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="select_an_album" added="1255170002">Selecciona un album</phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="or" added="1255170019">o</phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="create_a_new_one" added="1255170026">Crear uno Nuevo</phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="select_photo_s" added="1255170034">Seleccionar Foto(s)</phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="process_your_photos" added="1255170053">procesar tus fotos.</phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="upload_more_photos" added="1255170060"><![CDATA[subir m&#225;s fotos.]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="you_can_upload_a_jpg_gif_or_png_file" added="1255170081">Solo puedes subir archivos JPG, GIF o PNG.</phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="the_file_size_limit_is_file_size_if_your_upload_does_not_work_try_uploading_a_smaller_picture" added="1255170105"><![CDATA[El l&#237;mite del tama&#241;o del archivo es {file_size}. Si la subida no funciona, intenta subir una imagen m&#225;s peque&#241;a.]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="recently_uploaded" added="1255170121">Subidas Recientemente</phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="process_your_photo_s" added="1255170132">Proceso de tu(s) foto(s)</phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="in" added="1255170264">en</phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="by_lower" added="1255170279">por</phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="in_this_photo" added="1255170329">En esta foto</phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="full_name_s_photo_from_time_stamp" added="1256488497">Foto de {full_name} de {time_stamp}</phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="click_here_to_tag_as_yourself" added="1256488630"><![CDATA[Haga clic aqu&#237; para etiquetarse usted mismo.]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="groups" added="1256489661">Grupos</phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="select_an_area_on_your_photo_to_crop" added="1256490113">Selecciona un area en tu foto para hacer el crop.</phrase>
+	<phrase module_id="photo" version_id="2.0.0rc4" var_name="all_photos" added="1256712979">Todas las Fotos</phrase>
+	<phrase module_id="photo" version_id="2.0.0rc6" var_name="submitted" added="1257169324">Enviado</phrase>
+	<phrase module_id="photo" version_id="2.0.0rc6" var_name="file_size" added="1257169340"><![CDATA[Tama&#241;o del Archivo]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0rc6" var_name="resolution" added="1257169346"><![CDATA[Resoluci&#243;n]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0rc6" var_name="comments" added="1257169352">Comentarios</phrase>
+	<phrase module_id="photo" version_id="2.0.0rc6" var_name="views" added="1257169359">Vistas</phrase>
+	<phrase module_id="photo" version_id="2.0.0rc6" var_name="rating" added="1257169365"><![CDATA[Calificaci&#243;n]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0rc6" var_name="battle_wins" added="1257169373">Competencias Ganadas</phrase>
+	<phrase module_id="photo" version_id="2.0.0rc6" var_name="downloads" added="1257169380">Descargas</phrase>
+	<phrase module_id="photo" version_id="2.0.0rc6" var_name="not_enough_photos_to_have_a_battle" added="1257251559">No hay fotos suficientes para tener una competencia.</phrase>
+	<phrase module_id="photo" version_id="2.0.0rc6" var_name="get_the_battle_started_and_upload_some_photos" added="1257251607">Accede a la competencia de fotos y sube tus preferidas.</phrase>
+	<phrase module_id="photo" version_id="2.0.0rc6" var_name="photo_successfully_deleted" added="1257256844">La foto fue eliminada por completo.</phrase>
+	<phrase module_id="photo" version_id="2.0.0rc8" var_name="remove_tag" added="1258385449">eliminar la etiqueta</phrase>
+	<phrase module_id="photo" version_id="2.0.0rc9" var_name="added_on_time_stamp_by_full_name" added="1259162534">Agregada en {time_stamp} por {full_name}.</phrase>
+	<phrase module_id="photo" version_id="2.0.0rc9" var_name="with_a_total_of_total_vote_votes" added="1259162619">con un total de {total_vote} votos.</phrase>
+	<phrase module_id="photo" version_id="2.0.0rc10" var_name="menu_photo_albums" added="1259613604">Albumes de Fotos</phrase>
+	<phrase module_id="photo" version_id="2.0.0rc10" var_name="photo_count_for_photo_albums" added="1259673154">Contador de Fotos por Albumes de Fotos</phrase>
+	<phrase module_id="photo" version_id="2.0.0rc10" var_name="by_full_name" added="1259673587">Por: {full_name}</phrase>
+	<phrase module_id="photo" version_id="2.0.0rc11" var_name="no_photos_have_been_featured" added="1260189682">Foto ha sido destacada.</phrase>
+	<phrase module_id="photo" version_id="2.0.0rc11" var_name="no_photos_pending_approval" added="1260189708"><![CDATA[No hay fotos pendientes de aprobaci&#243;n.]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0rc11" var_name="recent_photos" added="1260189785">Fotos Recientes</phrase>
+	<phrase module_id="photo" version_id="2.0.0rc11" var_name="featured" added="1260189792">Destacada</phrase>
+	<phrase module_id="photo" version_id="2.0.0rc11" var_name="pending" added="1260189799">Pendiente</phrase>
+	<phrase module_id="photo" version_id="2.0.0rc11" var_name="unfeature" added="1260190575">No Destacar</phrase>
+	<phrase module_id="photo" version_id="2.0.0rc11" var_name="photo_successfully_unfeatured" added="1260190782">Foto ha sido no destacada.</phrase>
+	<phrase module_id="photo" version_id="2.0.0rc11" var_name="albums" added="1260195690">Albumes</phrase>
+	<phrase module_id="photo" version_id="2.0.0rc11" var_name="no_public_photo_albums_found" added="1260195737"><![CDATA[No se encontraron &#225;lbumes de fotos p&#250;blicas.]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0rc11" var_name="advanced_critique_is_encouraged_when_commenting_on_this_photo" added="1260204958"><![CDATA[La cr&#237;tica avanzada es alentada al comentar esta foto.]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0rc11" var_name="criticism_is_discouraged_when_commenting_on_this_photo" added="1260204967"><![CDATA[La cr&#237;tica es desalentada al comentar esta foto.]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0rc11" var_name="create_a_new_album" added="1260206706">Crear un Nuevo Album</phrase>
+	<phrase module_id="photo" version_id="2.0.0rc11" var_name="user_setting_can_view_photos" added="1260276540">Can browse and view the photo module?</phrase>
+	<phrase module_id="photo" version_id="2.0.0rc12" var_name="a_href_user_link_full_name_a_liked_their_own_a_href_link_photo_album_a" added="1260451144"><![CDATA[<a href="{user_link}">{full_name}</a> liked their own <a href="{link}">photo album</a>.]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0rc12" var_name="a_href_user_link_full_name_a_liked_a_href_view_user_link_view_full_name_a_s_a_href_link_photo_album_a" added="1260451210"><![CDATA[<a href="{user_link}">{full_name}</a> liked <a href="{view_user_link}">{view_full_name}</a>'s <a href="{link}">photo album</a>.]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0rc12" var_name="a_href_user_link_full_name_a_liked_a_href_view_user_link_view_full_name_a_s_a_href_link_photo_a" added="1260452199"><![CDATA[<a href="{user_link}">{full_name}</a> liked <a href="{view_user_link}">{view_full_name}</a>'s <a href="{link}">photo</a>.]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0rc12" var_name="a_href_user_link_full_name_a_liked_their_own_a_href_link_photo_a" added="1260452218"><![CDATA[<a href="{user_link}">{full_name}</a> liked their own <a href="{link}">photo</a>.]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0rc12" var_name="a_href_user_link_full_name_a_liked_your_a_href_link_photo_album_a" added="1260458422"><![CDATA[<a href="{user_link}">{full_name}</a> liked your <a href="{link}">photo album</a>.]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0rc12" var_name="a_href_user_link_full_name_a_liked_your_a_href_link_photo_a" added="1260459387"><![CDATA[<a href="{user_link}">{full_name}</a> liked your <a href="{link}">photo</a>.]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0rc12" var_name="part_of_the_photo_album" added="1260896980"><![CDATA[Parte del &#225;lbum de fotos]]></phrase>
+	<phrase module_id="photo" version_id="2.0.0rc12" var_name="full_name_s_albums" added="1260897047">Albumes de {full_name}</phrase>
+</phrases>

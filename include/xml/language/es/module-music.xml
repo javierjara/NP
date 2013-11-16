@@ -1,0 +1,242 @@
+<phrases>
+	<phrase module_id="music" version_id="2.0.0alpha1" var_name="module_music" added="1232964704"><![CDATA[M&#250;sica]]></phrase>
+	<phrase module_id="music" version_id="2.0.0alpha1" var_name="menu_music" added="1232964721"><![CDATA[M&#250;sica]]></phrase>
+	<phrase module_id="music" version_id="2.0.0beta1" var_name="user_setting_can_upload_music_public" added="1240576566"><![CDATA[&#191;Se puede subir m&#250;sica?
+
+<b>Aviso:</b> Esto permitir&#225; a este grupo de usuarios el derecho a subir sus canciones a la secci&#243;n de m&#250;sica p&#250;blica.]]></phrase>
+	<phrase module_id="music" version_id="2.0.0beta1" var_name="custom_group_basics" added="1240577992"><![CDATA[B&#225;sicos]]></phrase>
+	<phrase module_id="music" version_id="2.0.0beta1" var_name="custom_group_musician_details" added="1240600670"><![CDATA[Datos del M&#250;sico]]></phrase>
+	<phrase module_id="music" version_id="2.0.0beta1" var_name="custom_record_label_name" added="1240601830">Etiqueta de registro</phrase>
+	<phrase module_id="music" version_id="2.0.0beta1" var_name="custom_record_label_type" added="1240601896">Tipo de etiqueta</phrase>
+	<phrase module_id="music" version_id="2.0.0beta1" var_name="cf_option_indie" added="1240601896">Indie</phrase>
+	<phrase module_id="music" version_id="2.0.0beta1" var_name="cf_option_major" added="1240601896">Mayor</phrase>
+	<phrase module_id="music" version_id="2.0.0beta1" var_name="cf_option_unsigned" added="1240601896">Sin firmar</phrase>
+	<phrase module_id="music" version_id="2.0.0beta1" var_name="setting_music_user_group_id" added="1240682173"><![CDATA[<title>ID del Grupo de Usuarios de Musicos</title><info>Aviso este valor se actualiza durante la instalaci&#243;n de este m&#243;dulo. Editar con precauci&#243;n.</info>]]></phrase>
+	<phrase module_id="music" version_id="2.0.0beta1" var_name="setting_music_release_date_time_stamp" added="1240750579"><![CDATA[<title>Fecha de lanzamiento del &#225;lbum</title><info>Fecha de lanzamiento del &#225;lbum</info>]]></phrase>
+	<phrase module_id="music" version_id="2.0.0beta1" var_name="user_setting_can_add_comment_on_music_album" added="1240764774"><![CDATA[&#191;Se pueden agregar comentarios en los &#225;lbumes de m&#250;sica?]]></phrase>
+	<phrase module_id="music" version_id="2.0.0beta1" var_name="user_setting_can_add_comment_on_music_song" added="1241093826"><![CDATA[&#191;Se puede agregar comentaios en una canci&#243;n?]]></phrase>
+	<phrase module_id="music" version_id="2.0.0beta1" var_name="user_setting_can_edit_other_music_albums" added="1241094555"><![CDATA[&#191;Se puede editar &#225;lbumes creados por otros usuarios?]]></phrase>
+	<phrase module_id="music" version_id="2.0.0beta1" var_name="user_setting_can_edit_own_albums" added="1241094832"><![CDATA[&#191;Se puede editar &#225;lbumes propios?]]></phrase>
+	<phrase module_id="music" version_id="2.0.0beta1" var_name="user_setting_can_delete_own_track" added="1241096074"><![CDATA[&#191;Se puede eliminar cancion propia?]]></phrase>
+	<phrase module_id="music" version_id="2.0.0beta1" var_name="user_setting_can_delete_other_tracks" added="1241096110"><![CDATA[&#191;Se puede eliminar canciones agregadas por otros usuarios?]]></phrase>
+	<phrase module_id="music" version_id="2.0.0beta1" var_name="user_setting_can_delete_own_music_album" added="1241097159"><![CDATA[&#191;Se puede eliminar &#225;lbum de m&#225;sica propio?]]></phrase>
+	<phrase module_id="music" version_id="2.0.0beta1" var_name="user_setting_can_delete_other_music_albums" added="1241097213"><![CDATA[&#191;Se puede eliminar &#225;lbumes agregados por otros usuarios?]]></phrase>
+	<phrase module_id="music" version_id="2.0.0beta1" var_name="menu_upload_a_song" added="1241340149"><![CDATA[Subir una Canci&#243;n]]></phrase>
+	<phrase module_id="music" version_id="2.0.0beta1" var_name="menu_create_an_album" added="1241340185">Crear un Album</phrase>
+	<phrase module_id="music" version_id="2.0.0beta1" var_name="admin_menu_add_genre" added="1241343069"><![CDATA[Agregar G&#233;nero]]></phrase>
+	<phrase module_id="music" version_id="2.0.0beta1" var_name="admin_menu_manage_genres" added="1241343084"><![CDATA[Manejar G&#233;neros]]></phrase>
+	<phrase module_id="music" version_id="2.0.0beta2" var_name="user_setting_music_max_file_size" added="1242639441"><![CDATA[Tama&#241;o m&#225;ximo del archivo de las canciones publicadas.]]></phrase>
+	<phrase module_id="music" version_id="2.0.0beta2" var_name="band_artist_name" added="1242644077">Nombre del Artista o Banda</phrase>
+	<phrase module_id="music" version_id="2.0.0rc1" var_name="menu_artists" added="1250509545">Artistas</phrase>
+	<phrase module_id="music" version_id="2.0.0rc1" var_name="menu_songs" added="1250509634">Canciones</phrase>
+	<phrase module_id="music" version_id="2.0.0rc1" var_name="menu_albums" added="1250509655">Albumes</phrase>
+	<phrase module_id="music" version_id="2.0.0rc1" var_name="user_setting_can_feature_songs" added="1250515236"><![CDATA[&#191;Se puede destacar canciones?]]></phrase>
+	<phrase module_id="music" version_id="2.0.0rc1" var_name="user_setting_can_approve_songs" added="1250517082">Se puede aprobar las canciones?</phrase>
+	<phrase module_id="music" version_id="2.0.0rc1" var_name="user_setting_music_song_approval" added="1250581594"><![CDATA[&#191;Canciones deben ser aprobadas primero?]]></phrase>
+	<phrase module_id="music" version_id="2.0.0rc1" var_name="user_setting_can_feature_music_albums" added="1250589165"><![CDATA[&#191;Se puede destacar &#225;lbumes de m&#250;sica?]]></phrase>
+	<phrase module_id="music" version_id="2.0.0rc1" var_name="user_setting_total_song_on_profile" added="1250598448"><![CDATA[Definir el n&#250;mero de canciones que este grupo de usuarios pueden agregar a su perfil.]]></phrase>
+	<phrase module_id="music" version_id="2.0.0rc1" var_name="menu_view_my_songs" added="1250667421">Ver mis Canciones</phrase>
+	<phrase module_id="music" version_id="2.0.0rc1" var_name="menu_view_my_albums" added="1250667477">Ver mis Albumes</phrase>
+	<phrase module_id="music" version_id="2.0.0rc4" var_name="this_song_has_been_added_to_your_profile" added="1255081114"><![CDATA[Esta canci&#243;n ha sido agregada a su perfil.]]></phrase>
+	<phrase module_id="music" version_id="2.0.0rc4" var_name="this_song_has_been_removed_from_your_profile" added="1255081122"><![CDATA[Esta canci&#243;n ha sido removida de su perfil.]]></phrase>
+	<phrase module_id="music" version_id="2.0.0rc4" var_name="basic_info" added="1255081144"><![CDATA[Informaci&#243;n B&#225;sica]]></phrase>
+	<phrase module_id="music" version_id="2.0.0rc4" var_name="albums" added="1255081153"><![CDATA[&#193;lbumes]]></phrase>
+	<phrase module_id="music" version_id="2.0.0rc4" var_name="browse_filter" added="1255081171"><![CDATA[Criterios de B&#250;squeda]]></phrase>
+	<phrase module_id="music" version_id="2.0.0rc4" var_name="latest" added="1255081207">Mas Recientes</phrase>
+	<phrase module_id="music" version_id="2.0.0rc4" var_name="genres" added="1255081223"><![CDATA[G&#233;neros]]></phrase>
+	<phrase module_id="music" version_id="2.0.0rc4" var_name="latest_tracks" added="1255081248"><![CDATA[Canciones m&#225;s Recientes]]></phrase>
+	<phrase module_id="music" version_id="2.0.0rc4" var_name="favorite_songs" added="1255081262">Canciones Favoritas</phrase>
+	<phrase module_id="music" version_id="2.0.0rc4" var_name="provide_a_genre_name" added="1255081283"><![CDATA[Proporciona un nombre de g&#233;nero.]]></phrase>
+	<phrase module_id="music" version_id="2.0.0rc4" var_name="genre_successfully_added" added="1255081291"><![CDATA[Los g&#233;neros han sido agregados.]]></phrase>
+	<phrase module_id="music" version_id="2.0.0rc4" var_name="add_genre" added="1255081298"><![CDATA[Agregar G&#233;nero]]></phrase>
+	<phrase module_id="music" version_id="2.0.0rc4" var_name="successfully_deleted_genres" added="1255081310"><![CDATA[Generos eliminados con &#233;xito.]]></phrase>
+	<phrase module_id="music" version_id="2.0.0rc4" var_name="manage_genres" added="1255081355"><![CDATA[Manejar G&#233;neros]]></phrase>
+	<phrase module_id="music" version_id="2.0.0rc4" var_name="date_added" added="1255081377">Fecha</phrase>
+	<phrase module_id="music" version_id="2.0.0rc4" var_name="name" added="1255081385">Nombre</phrase>
+	<phrase module_id="music" version_id="2.0.0rc4" var_name="music_albums" added="1255081396"><![CDATA[&#193;lbumes de M&#250;sica]]></phrase>
+	<phrase module_id="music" version_id="2.0.0rc4" var_name="music" added="1255081404"><![CDATA[M&#250;sica]]></phrase>
+	<phrase module_id="music" version_id="2.0.0rc4" var_name="popular" added="1255081436"><![CDATA[M&#225;s Populares]]></phrase>
+	<phrase module_id="music" version_id="2.0.0rc4" var_name="recent_songs" added="1255081451">Canciones Recientes</phrase>
+	<phrase module_id="music" version_id="2.0.0rc4" var_name="featured" added="1255081458">Destacadas</phrase>
+	<phrase module_id="music" version_id="2.0.0rc4" var_name="pending" added="1255081472">Pendiente</phrase>
+	<phrase module_id="music" version_id="2.0.0rc4" var_name="music_songs" added="1255081485"><![CDATA[Canciones de M&#250;sica]]></phrase>
+	<phrase module_id="music" version_id="2.0.0rc4" var_name="songs" added="1255081498">Canciones</phrase>
+	<phrase module_id="music" version_id="2.0.0rc4" var_name="provide_a_name_for_this_album" added="1255081511"><![CDATA[Proporciona un nombre para este &#225;lbum.]]></phrase>
+	<phrase module_id="music" version_id="2.0.0rc4" var_name="album_successfully_updated" added="1255081522">El album ha sido actualizado.</phrase>
+	<phrase module_id="music" version_id="2.0.0rc4" var_name="tracks_successfully_uploaded" added="1255081534">Las canciones subieron correctamente.</phrase>
+	<phrase module_id="music" version_id="2.0.0rc4" var_name="note_that_it_will_have_to_be_approved_first_before_it_is_displayed_publicly" added="1255081544"><![CDATA[Tenga en cuenta que tendr&#225; que ser aprobado antes de que se muestre p&#250;blicamente.]]></phrase>
+	<phrase module_id="music" version_id="2.0.0rc4" var_name="album_art_successfully_updated" added="1255081616">El arte del album ha sido actualizado.</phrase>
+	<phrase module_id="music" version_id="2.0.0rc4" var_name="album_successfully_added" added="1255081768">El Album ha sido agregado.</phrase>
+	<phrase module_id="music" version_id="2.0.0rc4" var_name="update_album" added="1255081778">Actualizar Album</phrase>
+	<phrase module_id="music" version_id="2.0.0rc4" var_name="create_album" added="1255081791">Crear un Album</phrase>
+	<phrase module_id="music" version_id="2.0.0rc4" var_name="date_joined" added="1255081823"><![CDATA[Fecha cuando se uni&#243;]]></phrase>
+	<phrase module_id="music" version_id="2.0.0rc4" var_name="album_you_are_looking_for_cannot_be_found" added="1255081864"><![CDATA[el album que est&#225; buscando no se encuentra.]]></phrase>
+	<phrase module_id="music" version_id="2.0.0rc4" var_name="provide_a_artist_band_name" added="1255081881">Proporciona un nombre de artista / banda.</phrase>
+	<phrase module_id="music" version_id="2.0.0rc4" var_name="tick_the_box_to_agree_to_our_terms_and_privacy_policy" added="1255081890"><![CDATA[Marca la casilla para aceptar nuestros T&#233;rminos y Pol&#237;tica de Privacidad.]]></phrase>
+	<phrase module_id="music" version_id="2.0.0rc4" var_name="provide_a_value_for" added="1255081900">Proporciona un valor para</phrase>
+	<phrase module_id="music" version_id="2.0.0rc4" var_name="you_have_successfully_converted_your_account" added="1255081909">Has convertido tu cuenta.</phrase>
+	<phrase module_id="music" version_id="2.0.0rc4" var_name="musician_registration" added="1255081922"><![CDATA[Registro de M&#250;sicos]]></phrase>
+	<phrase module_id="music" version_id="2.0.0rc4" var_name="registration" added="1255081934"><![CDATA[Inscripci&#243;n]]></phrase>
+	<phrase module_id="music" version_id="2.0.0rc4" var_name="provide_a_name_for_this_song" added="1255081947"><![CDATA[Proporciona un nombre para esta canci&#243;n.]]></phrase>
+	<phrase module_id="music" version_id="2.0.0rc4" var_name="your_song_was_successfully_uploaded" added="1255081959"><![CDATA[Tu canci&#243;n subi&#243; correctamente.]]></phrase>
+	<phrase module_id="music" version_id="2.0.0rc4" var_name="upload_a_song" added="1255081996"><![CDATA[Subir una Canci&#243;n]]></phrase>
+	<phrase module_id="music" version_id="2.0.0rc4" var_name="unable_to_find_the_album_you_are_looking_for" added="1255082018"><![CDATA[No se puede encontrar el &#225;lbum que est&#225;s buscando.]]></phrase>
+	<phrase module_id="music" version_id="2.0.0rc4" var_name="total_rating_ratings" added="1255082186">Calificadiones {total_rating}</phrase>
+	<phrase module_id="music" version_id="2.0.0rc4" var_name="poor" added="1255082230">Mediocre</phrase>
+	<phrase module_id="music" version_id="2.0.0rc4" var_name="nothing_special" added="1255082238">Nada Especial</phrase>
+	<phrase module_id="music" version_id="2.0.0rc4" var_name="worth_listening_too" added="1255082246">Vale la pena escucharla</phrase>
+	<phrase module_id="music" version_id="2.0.0rc4" var_name="pretty_cool" added="1255082256">Bastante Bueno</phrase>
+	<phrase module_id="music" version_id="2.0.0rc4" var_name="awesome" added="1255082263">Impresionante</phrase>
+	<phrase module_id="music" version_id="2.0.0rc4" var_name="you_have_already_voted" added="1255082288">Ya tu votaste.</phrase>
+	<phrase module_id="music" version_id="2.0.0rc4" var_name="you_cannot_rate_your_own_album" added="1255082297"><![CDATA[No puedes calificar tu propio &#225;lbum.]]></phrase>
+	<phrase module_id="music" version_id="2.0.0rc4" var_name="the_song_you_are_looking_for_cannot_be_found" added="1255082310"><![CDATA[La canci&#243;n que est&#225; buscando no se encuentra.]]></phrase>
+	<phrase module_id="music" version_id="2.0.0rc4" var_name="unable_to_find_the_album_this_song_belongs_to" added="1255082384"><![CDATA[No se puede encontrar el &#225;lbum al que esta canci&#243;n pertenece.]]></phrase>
+	<phrase module_id="music" version_id="2.0.0rc4" var_name="you_cannot_rate_your_own_song" added="1255082435"><![CDATA[No puedes calificar tu propia canci&#243;n.]]></phrase>
+	<phrase module_id="music" version_id="2.0.0rc4" var_name="unable_to_find_the_album_you_want_to_edit" added="1255082469"><![CDATA[No se puede encontrar el &#225;lbum que desea editar.]]></phrase>
+	<phrase module_id="music" version_id="2.0.0rc4" var_name="unable_to_edit_this_album" added="1255082477"><![CDATA[No es posible editar este &#225;lbum.]]></phrase>
+	<phrase module_id="music" version_id="2.0.0rc4" var_name="provide_a_title_for_this_track" added="1255082532"><![CDATA[Proporciona un t&#237;tulo para esta canci&#243;n.]]></phrase>
+	<phrase module_id="music" version_id="2.0.0rc4" var_name="not_allowed_to_edit_this_photo_album_art" added="1255082553"><![CDATA[No se permite editar esta foto del arte del &#225;lbum.]]></phrase>
+	<phrase module_id="music" version_id="2.0.0rc4" var_name="album_you_are_trying_to_delete_cannot_be_found" added="1255082564"><![CDATA[El album que est&#225; intentando eliminar no se puede encontrar.]]></phrase>
+	<phrase module_id="music" version_id="2.0.0rc4" var_name="not_allowed_to_delete_this_album" added="1255082575"><![CDATA[No se permite eliminar este &#225;lbum.]]></phrase>
+	<phrase module_id="music" version_id="2.0.0rc4" var_name="a_href_user_link_full_name_a_added_a_new_comment_on_their_own_a_href_title_link_song" added="1255082706"><![CDATA[<a href="{user_link}">{full_name}</a> agreg&#243; un nuevo comentario en su propia <a href="{title_link}">canci&#243;n</a>.]]></phrase>
+	<phrase module_id="music" version_id="2.0.0rc4" var_name="a_href_user_link_full_name_a_added_a_new_comment_on_your_a_href_title_link_song_a" added="1255082766"><![CDATA[<a href="{user_link}">{full_name}</a> agreg&#243; un nuevo comentario en tu <a href="{title_link}">canci&#243;n</a>.]]></phrase>
+	<phrase module_id="music" version_id="2.0.0rc4" var_name="a_href_user_link_full_name_a_added_a_new_comment_on_a_href_item_user_link_item_user_n" added="1255082794"><![CDATA[<a href="{user_link}">{full_name}</a> agreg&#243; un nuevo comentario en <a href="{item_user_link}">{item_user_name}'s</a> <a href="{title_link}">canci&#243;n</a>.]]></phrase>
+	<phrase module_id="music" version_id="2.0.0rc4" var_name="invalid_callback_on_music_song" added="1255082855"><![CDATA[De devoluci&#243;n de llamada no es v&#225;lida en la canci&#243;n de la m&#250;sica.]]></phrase>
+	<phrase module_id="music" version_id="2.0.0rc4" var_name="user_name_left_you_a_comment_on_site_title" added="1255082873"><![CDATA[{user_name} te dej&#243; un comentario en {site_title}.]]></phrase>
+	<phrase module_id="music" version_id="2.0.0rc4" var_name="user_name_left_you_a_comment_on_your_song_title" added="1255082959"><![CDATA[{user_name} te dej&#243; un comentario en tu canci&#243;n "{title}".
+
+Para ver este comentario, sigue el enlace de abajo:
+<a href="{link}">{link}</a>]]></phrase>
+	<phrase module_id="music" version_id="2.0.0rc4" var_name="user_name_left_you_a_comment_on_your_music_album_name" added="1255083035"><![CDATA[{user_name} te dej&#243; un comentario en tu album de m&#250;sica "{name}".
+
+Para ver este comentario, sigue el enlace de abajo:
+<a href="{link}">{link}</a>]]></phrase>
+	<phrase module_id="music" version_id="2.0.0rc4" var_name="a_href_user_link_full_name_a_added_a_new_comment_on_their_own_a_href_title_link_music" added="1255083989"><![CDATA[<a href="{user_link}">{full_name}</a> agreg&#243; un nuevo comentario en su propio album de m&#250;sica <a href="{title_link}"></a>.]]></phrase>
+	<phrase module_id="music" version_id="2.0.0rc4" var_name="a_href_user_link_full_name_a_added_a_new_comment_on_your_a_href_title_link_music_album" added="1255084044"><![CDATA[<a href="{user_link}">{full_name}</a> agreg&#243; un nuevo comentario en tu album de m&#250;sica <a href="{title_link}"></a>.]]></phrase>
+	<phrase module_id="music" version_id="2.0.0rc4" var_name="added_a_new_comment_on_a_href_item_user_link_item_user_name_s_album" added="1255084077"><![CDATA[<a href="{user_link}">{full_name}</a> agreg&#243; un nuevo comentario en <a href="{item_user_link}">{item_user_name}'s</a> <a href="{title_link}">album de m&#250;sica</a>.]]></phrase>
+	<phrase module_id="music" version_id="2.0.0rc4" var_name="your_song_title_has_been_approved" added="1255084164"><![CDATA[Tu canci&#243;n "{title}" ha sido aprobada.]]></phrase>
+	<phrase module_id="music" version_id="2.0.0rc4" var_name="manage_songs" added="1255084212">Manejar Canciones</phrase>
+	<phrase module_id="music" version_id="2.0.0rc4" var_name="music_album_text" added="1255084223"><![CDATA[Texto del Album de M&#250;sica]]></phrase>
+	<phrase module_id="music" version_id="2.0.0rc4" var_name="select_an_mp3" added="1255084249">Selecciona un MP3.</phrase>
+	<phrase module_id="music" version_id="2.0.0rc4" var_name="you_have_reached_your_limit_max_songs_allowed_total" added="1255084287"><![CDATA[Ha llegado a su l&#237;mite. Canciones m&#225;ximas permitidas:{total}]]></phrase>
+	<phrase module_id="music" version_id="2.0.0rc4" var_name="unable_to_find_the_song_you_want_to_approve" added="1255084308"><![CDATA[No se puede encontrar la canci&#243;n que desea aprobar.]]></phrase>
+	<phrase module_id="music" version_id="2.0.0rc4" var_name="your_song_title_has_been_approved_on_site_title" added="1255084330"><![CDATA[Tu canci&#243;n "{title}" ha sido aprobada en {site_title}.]]></phrase>
+	<phrase module_id="music" version_id="2.0.0rc4" var_name="your_song_title_has_been_approved_on_site_title_to_view_this_song" added="1255084396"><![CDATA[Tu canci&#243;n "{title}" ha sido aprobada en {site_title}.
+
+Para ver esta canci&#243;n, sigue el enlace de abajo:
+<a href="{link}">{link}</a>]]></phrase>
+	<phrase module_id="music" version_id="2.0.0rc4" var_name="there_is_one_song_that_is_pending_approval" added="1255084599"><![CDATA[Hay una canci&#243;n que est&#225; pendiente de aprobaci&#243;n.]]></phrase>
+	<phrase module_id="music" version_id="2.0.0rc4" var_name="there_are_total_songs_that_are_pending_approval" added="1255084611"><![CDATA[Hay {total} canciones que est&#225;n pendientes de aprobaci&#243;n.]]></phrase>
+	<phrase module_id="music" version_id="2.0.0rc4" var_name="click_here_to_approve_songs" added="1255084741"><![CDATA[Haga clic aqu&#237; para aprobar las canciones.]]></phrase>
+	<phrase module_id="music" version_id="2.0.0rc4" var_name="no_songs_found" added="1255084750">No se encontraron canciones.</phrase>
+	<phrase module_id="music" version_id="2.0.0rc4" var_name="view_this_album" added="1255084762">Ver este Album</phrase>
+	<phrase module_id="music" version_id="2.0.0rc4" var_name="skip_amp_view_this_album" added="1255084770">Pasar y Ver este Album</phrase>
+	<phrase module_id="music" version_id="2.0.0rc4" var_name="step_1" added="1255084781">Paso 1</phrase>
+	<phrase module_id="music" version_id="2.0.0rc4" var_name="album_details" added="1255086513">Detalles del Album</phrase>
+	<phrase module_id="music" version_id="2.0.0rc4" var_name="step_2" added="1255086674">Paso 2</phrase>
+	<phrase module_id="music" version_id="2.0.0rc4" var_name="album_art" added="1255086683">Arte del Album</phrase>
+	<phrase module_id="music" version_id="2.0.0rc4" var_name="step_3" added="1255086715">Paso 3</phrase>
+	<phrase module_id="music" version_id="2.0.0rc4" var_name="tracks" added="1255086722">Canciones</phrase>
+	<phrase module_id="music" version_id="2.0.0rc4" var_name="album_name" added="1255086736">Nombre del Album</phrase>
+	<phrase module_id="music" version_id="2.0.0rc4" var_name="album_year" added="1255086745"><![CDATA[A&#241;o del Album]]></phrase>
+	<phrase module_id="music" version_id="2.0.0rc4" var_name="description" added="1255086752"><![CDATA[Descripci&#243;n]]></phrase>
+	<phrase module_id="music" version_id="2.0.0rc4" var_name="add_album" added="1255086770">Agregar Album</phrase>
+	<phrase module_id="music" version_id="2.0.0rc4" var_name="select_photo" added="1255086779">Seleccionar Foto</phrase>
+	<phrase module_id="music" version_id="2.0.0rc4" var_name="are_you_sure" added="1255086913"><![CDATA[&#191;Est&#225;s seguro?]]></phrase>
+	<phrase module_id="music" version_id="2.0.0rc4" var_name="click_a_href_onclick_javascript_here_a_to_delete_this_image_and_upload_a_new_one_in_its_p" added="1255086946"><![CDATA[Clic <a href="#" onclick="{javascript}">aqu&#237;</a> para eliminar esta imagen y subir una nueva en su lugar.]]></phrase>
+	<phrase module_id="music" version_id="2.0.0rc4" var_name="you_can_upload_a_jpg_gif_or_png_file" added="1255086964">Solo puedes subir archivos JPG, GIF o PNG.</phrase>
+	<phrase module_id="music" version_id="2.0.0rc4" var_name="upload" added="1255087033">Subir</phrase>
+	<phrase module_id="music" version_id="2.0.0rc4" var_name="upload_track" added="1255087042"><![CDATA[Subir una Canci&#243;n]]></phrase>
+	<phrase module_id="music" version_id="2.0.0rc4" var_name="album_tracks" added="1255087061">Album de Canciones</phrase>
+	<phrase module_id="music" version_id="2.0.0rc4" var_name="no_musicians_found" added="1255087525"><![CDATA[No se encontraron m&#250;sicos.]]></phrase>
+	<phrase module_id="music" version_id="2.0.0rc4" var_name="no_musicians_have_joined" added="1255087532"><![CDATA[No se han unido m&#250;sicos a&#250;n.]]></phrase>
+	<phrase module_id="music" version_id="2.0.0rc4" var_name="join_now_if_you_are_a_musician" added="1255087541"><![CDATA[&#218;nete ahora si usted es un m&#250;sico.]]></phrase>
+	<phrase module_id="music" version_id="2.0.0rc4" var_name="you_retain_all_rights_in_your_music_that_you_upload" added="1255087565"><![CDATA[<p>
+		Usted conservar&#225; todos los derechos de la m&#250;sica que suba. Usted debe subir s&#243;lo la m&#250;sica en la que usted es due&#241;o de todos los derechos. Si sube cualquier tipo de m&#250;sica en la que usted no posee todos los derechos, usted puede estar violando la ley de derechos de autor.	</p>
+	<p>
+		Subir m&#250;sica con copyright sin el consentimiento expreso del propietario del copyright culminar&#225; en la la cancelaci&#243;n su perfil.	</p>
+	<p>
+		Perfiles de M&#250;sicos para M&#250;sicos / Bandas.	</p>
+	<p>
+		<b>Aviso:</b> Usted puede convertir su perfil actual en un perfil de M&#250;sicos.	</p>]]></phrase>
+	<phrase module_id="music" version_id="2.0.0rc4" var_name="b_notice_b_you_have_an_admin_account_and_if_you_convert_your_account_into_a_musicians_account" added="1255087579"><![CDATA[<b>Aviso:</b> Usted tiene una cuenta de administrador y si quiere convertir su cuenta en un cuenta de "M&#250;sicos" perder&#225; todos sus derechos de administrador.]]></phrase>
+	<phrase module_id="music" version_id="2.0.0rc4" var_name="artist_band_name" added="1255087589">Artista/Nombre de la Banda</phrase>
+	<phrase module_id="music" version_id="2.0.0rc4" var_name="register" added="1255087857">Registro</phrase>
+	<phrase module_id="music" version_id="2.0.0rc4" var_name="play_all_total_track" added="1255087904">Reproducir todos ({total_track})</phrase>
+	<phrase module_id="music" version_id="2.0.0rc4" var_name="about_this_album" added="1255087923">Acerca de este Album</phrase>
+	<phrase module_id="music" version_id="2.0.0rc4" var_name="tracklist" added="1255087931">Lista de las Canciones</phrase>
+	<phrase module_id="music" version_id="2.0.0rc3" var_name="rating" added="1254405150"><![CDATA[Calificaci&#243;n]]></phrase>
+	<phrase module_id="music" version_id="2.0.0rc3" var_name="plays" added="1254405176">Reproducciones</phrase>
+	<phrase module_id="music" version_id="2.0.0rc3" var_name="released" added="1254405185">Fecha de lanzamiento</phrase>
+	<phrase module_id="music" version_id="2.0.0rc3" var_name="total_play_plays" added="1254405321">{total_play} reproducciones</phrase>
+	<phrase module_id="music" version_id="2.0.0rc3" var_name="total_track_tracks" added="1254405469">{total_track} canciones</phrase>
+	<phrase module_id="music" version_id="2.0.0rc3" var_name="by" added="1254405591">Por</phrase>
+	<phrase module_id="music" version_id="2.0.0rc3" var_name="album" added="1254405601">Album</phrase>
+	<phrase module_id="music" version_id="2.0.0rc3" var_name="approve_this_song" added="1254405626"><![CDATA[Aprobar esta canci&#243;n.]]></phrase>
+	<phrase module_id="music" version_id="2.0.0rc3" var_name="feature_this_song" added="1254405668"><![CDATA[Destacar esta canci&#243;n.]]></phrase>
+	<phrase module_id="music" version_id="2.0.0rc3" var_name="un_feature_this_song" added="1254405706"><![CDATA[No Destacar esta canci&#243;n.]]></phrase>
+	<phrase module_id="music" version_id="2.0.0rc3" var_name="add_this_song_to_your_profile" added="1254405724"><![CDATA[Agregar esta canci&#243;n a tu perfil.]]></phrase>
+	<phrase module_id="music" version_id="2.0.0rc3" var_name="report_this_song" added="1254406065"><![CDATA[Reportar esta Canci&#243;n]]></phrase>
+	<phrase module_id="music" version_id="2.0.0rc3" var_name="delete_track" added="1254406141"><![CDATA[Eliminar Canci&#243;n]]></phrase>
+	<phrase module_id="music" version_id="2.0.0rc3" var_name="keywords" added="1254576099">Palabras Claves</phrase>
+	<phrase module_id="music" version_id="2.0.0rc3" var_name="sort" added="1254576109">Ordenar por</phrase>
+	<phrase module_id="music" version_id="2.0.0rc3" var_name="submit" added="1254576138">Someter</phrase>
+	<phrase module_id="music" version_id="2.0.0rc3" var_name="reset" added="1254576149">Reajustar</phrase>
+	<phrase module_id="music" version_id="2.0.0rc3" var_name="genre" added="1254576165"><![CDATA[G&#233;nero]]></phrase>
+	<phrase module_id="music" version_id="2.0.0rc3" var_name="genre_total" added="1254576248"><![CDATA[G&#233;nero(s) {total}]]></phrase>
+	<phrase module_id="music" version_id="2.0.0rc3" var_name="none" added="1254576296">Ninguno</phrase>
+	<phrase module_id="music" version_id="2.0.0rc3" var_name="added" added="1254576519">Agregado</phrase>
+	<phrase module_id="music" version_id="2.0.0rc3" var_name="total_plays" added="1254576703">{total} reproducciones</phrase>
+	<phrase module_id="music" version_id="2.0.0rc3" var_name="total_tracks" added="1254576826">{total} canciones</phrase>
+	<phrase module_id="music" version_id="2.0.0rc3" var_name="all" added="1254576960">Todos</phrase>
+	<phrase module_id="music" version_id="2.0.0rc3" var_name="edit" added="1254576993">Editar</phrase>
+	<phrase module_id="music" version_id="2.0.0rc3" var_name="upload_new_track" added="1254577009"><![CDATA[Subir una nueva Canci&#243;n]]></phrase>
+	<phrase module_id="music" version_id="2.0.0rc3" var_name="delete_album" added="1254577030">Eliminar Album</phrase>
+	<phrase module_id="music" version_id="2.0.0rc3" var_name="report" added="1254577104">Reportar</phrase>
+	<phrase module_id="music" version_id="2.0.0rc3" var_name="report_this_music_album" added="1254577196"><![CDATA[Reportar este Album de M&#250;sica]]></phrase>
+	<phrase module_id="music" version_id="2.0.0rc3" var_name="feature_this_album" added="1254577227">Destacar este album.</phrase>
+	<phrase module_id="music" version_id="2.0.0rc3" var_name="un_feature_this_album" added="1254577240">No Destacar este album.</phrase>
+	<phrase module_id="music" version_id="2.0.0rc3" var_name="feature" added="1254577262">Destacar</phrase>
+	<phrase module_id="music" version_id="2.0.0rc3" var_name="unfeature" added="1254577273">No Destacar</phrase>
+	<phrase module_id="music" version_id="2.0.0rc3" var_name="add_to_profile" added="1254577423">Agregar a Favorito</phrase>
+	<phrase module_id="music" version_id="2.0.0rc3" var_name="remove_this_song_from_your_profile" added="1254577440"><![CDATA[Eliminar esta canci&#243;n de su perfil.]]></phrase>
+	<phrase module_id="music" version_id="2.0.0rc3" var_name="remove_from_profile" added="1254577453">Eliminar del perfil.</phrase>
+	<phrase module_id="music" version_id="2.0.0rc3" var_name="approve" added="1254577485">Aprobar</phrase>
+	<phrase module_id="music" version_id="2.0.0rc3" var_name="cannot_display_player_while_designing_your_profile" added="1254577663"><![CDATA[No se puede mostrar el player, mientras se est&#225; dise&#241;ando tu perfil.]]></phrase>
+	<phrase module_id="music" version_id="2.0.0rc3" var_name="you_retain_all_rights_in_your_music_that_you_upload_you_must_only_upload_music_in_which_you_own_all" added="1254578051"><![CDATA[Usted conservar&#225; todos los derechos de su m&#250;sica que se suba. Usted debe subir s&#243;lo la m&#250;sica en la que usted es due&#241;o de todos los derechos. Si sube cualquier tipo de m&#250;sica en la que usted no posee todos los derechos, usted puede estar violando la ley de derechos de autor.]]></phrase>
+	<phrase module_id="music" version_id="2.0.0rc3" var_name="uploading_copyrighted_music_without_the_explicit_consent_of_the_copyright_owner_will_result_in_your" added="1254578072"><![CDATA[Subidas de m&#250;sica con copyright sin el consentimiento expreso del propietario del copyright culminar&#225; en la cancelaci&#243;n de tu perfil.]]></phrase>
+	<phrase module_id="music" version_id="2.0.0rc3" var_name="select" added="1254578101">Seleccionar</phrase>
+	<phrase module_id="music" version_id="2.0.0rc3" var_name="select_mp3" added="1254578160">Selecciona el MP3</phrase>
+	<phrase module_id="music" version_id="2.0.0rc3" var_name="max_file_size" added="1254578172"><![CDATA[Tama&#241;o m&#225;ximo del archivo]]></phrase>
+	<phrase module_id="music" version_id="2.0.0rc3" var_name="song_name" added="1254578184"><![CDATA[Nombre de la Canci&#243;n]]></phrase>
+	<phrase module_id="music" version_id="2.0.0rc3" var_name="check_if_song_contains_explicit_lyrics" added="1254578225"><![CDATA[Comprueba si la canci&#243;n contiene letras expl&#237;citas.]]></phrase>
+	<phrase module_id="music" version_id="2.0.0rc3" var_name="genre_details" added="1254578252"><![CDATA[Detalles del G&#233;nero]]></phrase>
+	<phrase module_id="music" version_id="2.0.0rc3" var_name="genre_name" added="1254578368"><![CDATA[Nombre del G&#233;nero]]></phrase>
+	<phrase module_id="music" version_id="2.0.0rc3" var_name="delete_selected" added="1254578467">Eliminar seleccionados</phrase>
+	<phrase module_id="music" version_id="2.0.0rc3" var_name="no_albums_found" added="1254578672"><![CDATA[No se encontraron &#225;lbumes.]]></phrase>
+	<phrase module_id="music" version_id="2.0.0rc4" var_name="i_have_read_and_agree_to_the_terms_of_use_and_privacy_policy" added="1255089163"><![CDATA[Acepto los <a href="#" id="js_terms_of_use">T&#233;rminos de Uso</a> y la<a href="#" id="js_privacy_policy">Pol&#237;tica de Privacidad</a>.]]></phrase>
+	<phrase module_id="music" version_id="2.0.0rc4" var_name="no_albums_have_been_created_yet" added="1255092650"><![CDATA[No se han creado &#225;lbumes a&#250;n.]]></phrase>
+	<phrase module_id="music" version_id="2.0.0rc4" var_name="click_here_to_create_one" added="1255092682"><![CDATA[Haz clic aqu&#237; para crear una.]]></phrase>
+	<phrase module_id="music" version_id="2.0.0rc4" var_name="play" added="1255092732">Play</phrase>
+	<phrase module_id="music" version_id="2.0.0rc4" var_name="are_you_sure_this_will_delete_all_tracks_that_belong_to_this_album_and_cannot_be_undone" added="1255092976"><![CDATA[&#191;Est&#225;s seguro? Esto eliminar&#225; todas las canciones que pertenecen a este &#225;lbum y no se puede deshacer.]]></phrase>
+	<phrase module_id="music" version_id="2.0.0rc4" var_name="no_songs_uploaded_yet" added="1255093004"><![CDATA[A&#250;n no se han subido canciones.]]></phrase>
+	<phrase module_id="music" version_id="2.0.0rc4" var_name="no_songs_added_yet" added="1255093013"><![CDATA[No se han agregado canciones a&#250;n.]]></phrase>
+	<phrase module_id="music" version_id="2.0.0rc4" var_name="click_here_to_upload" added="1255093081"><![CDATA[Clic aqu&#237; para subir.]]></phrase>
+	<phrase module_id="music" version_id="2.0.0rc4" var_name="click_here_to_find_songs" added="1255093089"><![CDATA[Haz clic aqu&#237; para buscar canciones.]]></phrase>
+	<phrase module_id="music" version_id="2.0.0rc6" var_name="setting_music_index_controller" added="1256893249"><![CDATA[<title>Controlador del Indice de la M&#250;sica</title><info>Seleccionar con el controlador debe ser utilizado durante la visualizaci&#243;n de la m&#250;sica de las secciones de &#237;ndice de la p&#225;gina.</info>]]></phrase>
+	<phrase module_id="music" version_id="2.0.0rc6" var_name="full_name_uploaded_a_new_song" added="1257252374"><![CDATA[<a href="{profile_link}">{full_name}</a> subi&#243; una nueva canci&#243;n titulada "<a href="{link}">{title}</a>".]]></phrase>
+	<phrase module_id="music" version_id="2.0.0rc6" var_name="full_name_uploaded_a_new_song_to_the_album" added="1257253578"><![CDATA[<a href="{profile_link}">{full_name}</a> subi&#243; la canci&#243;n "<a href="{link}">{title}</a>" al album "<a href="{album_link}">{album_title}</a>".]]></phrase>
+	<phrase module_id="music" version_id="2.0.0rc6" var_name="add_to_favorites" added="1257317596">Agregar a Favoritos</phrase>
+	<phrase module_id="music" version_id="2.0.0rc8" var_name="approved" added="1258377477">Aprobado</phrase>
+	<phrase module_id="music" version_id="2.0.0rc8" var_name="no_music_albums_have_been_created" added="1258397590"><![CDATA[No hay &#225;lbumes de m&#250;sica se han creado.]]></phrase>
+	<phrase module_id="music" version_id="2.0.0rc8" var_name="there_are_new_featured_albums" added="1258397705"><![CDATA[Hay nuevos &#225;lbumes destacados.]]></phrase>
+	<phrase module_id="music" version_id="2.0.0rc8" var_name="there_are_no_featured_albums" added="1258397713"><![CDATA[No hay &#225;lbumes destacados.]]></phrase>
+	<phrase module_id="music" version_id="2.0.0rc8" var_name="music_album_count" added="1258979956"><![CDATA[Contador de Album de M&#250;sica]]></phrase>
+	<phrase module_id="music" version_id="2.0.0rc8" var_name="music_album_track_count" added="1258979966"><![CDATA[Contador de Canciones del Album de M&#250;sica]]></phrase>
+	<phrase module_id="music" version_id="2.0.0rc8" var_name="no_tracks_have_been_added" added="1259090492"><![CDATA[No se han agregado canciones a&#250;n.]]></phrase>
+	<phrase module_id="music" version_id="2.0.0rc10" var_name="music_album_successfully_deleted" added="1259677776"><![CDATA[Album de M&#250;sica ha sido eliminado.]]></phrase>
+	<phrase module_id="music" version_id="2.0.0rc11" var_name="user_setting_can_access_music" added="1260286510">Can browse and view the music module?</phrase>
+	<phrase module_id="music" version_id="2.0.0rc12" var_name="a_href_user_link_full_name_a_liked_their_own_a_href_link_song_a" added="1260453013"><![CDATA[<a href="{user_link}">{full_name}</a> liked their own <a href="{link}">song</a>.]]></phrase>
+	<phrase module_id="music" version_id="2.0.0rc12" var_name="a_href_user_link_full_name_a_liked_a_href_view_user_link_view_full_name_a_s_a_href_link_song_a" added="1260453036"><![CDATA[<a href="{user_link}">{full_name}</a> liked <a href="{view_user_link}">{view_full_name}</a>'s <a href="{link}">song</a>.]]></phrase>
+	<phrase module_id="music" version_id="2.0.0rc12" var_name="a_href_user_link_full_name_a_liked_your_a_href_link_song_a" added="1260457612"><![CDATA[<a href="{user_link}">{full_name}</a> liked your <a href="{link}">song</a>.]]></phrase>
+</phrases>

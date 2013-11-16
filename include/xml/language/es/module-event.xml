@@ -1,0 +1,225 @@
+<phrases>
+	<phrase module_id="event" version_id="2.0.0alpha1" var_name="module_event" added="1232964578">Eventos</phrase>
+	<phrase module_id="event" version_id="2.0.0alpha1" var_name="menu_event" added="1232964592">Eventos</phrase>
+	<phrase module_id="event" version_id="2.0.0alpha4" var_name="user_setting_can_edit_own_event" added="1239708707"><![CDATA[&#191;Se puede editar un evento propio?]]></phrase>
+	<phrase module_id="event" version_id="2.0.0alpha4" var_name="user_setting_can_edit_other_event" added="1239708756"><![CDATA[&#191;Se puede editar eventos agregados por otros usuarios?]]></phrase>
+	<phrase module_id="event" version_id="2.0.0alpha4" var_name="user_setting_can_post_comment_on_event" added="1239715876"><![CDATA[&#191;Se pueden agregar comentarios en los eventos?]]></phrase>
+	<phrase module_id="event" version_id="2.0.0alpha4" var_name="user_setting_can_delete_own_event" added="1239716463"><![CDATA[&#191;Se puede eliminar un evento propio?]]></phrase>
+	<phrase module_id="event" version_id="2.0.0alpha4" var_name="user_setting_can_delete_other_event" added="1239716486"><![CDATA[&#191;Se pueden eliminar eventos creados por otros usuarios?]]></phrase>
+	<phrase module_id="event" version_id="2.0.0alpha4" var_name="menu_create_new_event" added="1239786795">Crear un nuevo Evento</phrase>
+	<phrase module_id="event" version_id="2.0.0alpha4" var_name="menu_view_my_events" added="1239789470">Ver mis Eventos</phrase>
+	<phrase module_id="event" version_id="2.0.0alpha4" var_name="admin_menu_add_category" added="1239792607"><![CDATA[Agregar una Categor&#237;a]]></phrase>
+	<phrase module_id="event" version_id="2.0.0alpha4" var_name="admin_menu_manage_categories" added="1239792607"><![CDATA[Manejar Categor&#237;as]]></phrase>
+	<phrase module_id="event" version_id="2.0.0alpha4" var_name="setting_event_view_time_stamp_profile" added="1239794674"><![CDATA[<title>Time Stamp del Perfil del Evento</title><info>Time stamp utilizado cuando se muestran los eventos en los perfiles de los usuarios.</info>]]></phrase>
+	<phrase module_id="event" version_id="2.0.0alpha4" var_name="menu_events_i_m_attending" added="1239795020"><![CDATA[Eventos a los que estar&#233; asistiendo]]></phrase>
+	<phrase module_id="event" version_id="2.0.0alpha4" var_name="menu_events_i_may_attend" added="1239796272"><![CDATA[Eventos a los quiz&#225;s asistir&#233;]]></phrase>
+	<phrase module_id="event" version_id="2.0.0alpha4" var_name="menu_events_i_m_not_attending" added="1239796329"><![CDATA[Eventos a los que no estar&#233; asistiendo]]></phrase>
+	<phrase module_id="event" version_id="2.0.0alpha4" var_name="menu_event_invitations" added="1239796434">Invitaciones a Eventos</phrase>
+	<phrase module_id="event" version_id="2.0.0alpha4" var_name="menu_past_events" added="1239798597">Eventos Pasados</phrase>
+	<phrase module_id="event" version_id="2.0.0alpha4" var_name="setting_event_browse_time_stamp" added="1239801858"><![CDATA[<title>Time Stamp de la b&#250;squeda de eventos</title><info>Time stamp mostrada cuando el usuario est&#225; hojeando los eventos.</info>]]></phrase>
+	<phrase module_id="event" version_id="2.0.0beta5" var_name="rss_group_name_2" added="1245607788">Eventos</phrase>
+	<phrase module_id="event" version_id="2.0.0beta5" var_name="rss_title_3" added="1245608409"><![CDATA[&#218;ltimos Eventos]]></phrase>
+	<phrase module_id="event" version_id="2.0.0beta5" var_name="rss_description_3" added="1245608409"><![CDATA[Lista de todos los pr&#243;ximos eventos.]]></phrase>
+	<phrase module_id="event" version_id="2.0.0rc1" var_name="user_setting_max_upload_size_event" added="1250361175"><![CDATA[Tama&#241;o m&#225;ximo del archivo de fotos del evento en kilobits (kb).
+(1000 kb = 1 mb)
+Para ilimitado, agregar "0" sin las comillitas.]]></phrase>
+	<phrase module_id="event" version_id="2.0.0rc1" var_name="user_setting_can_view_pirvate_events" added="1250490001"><![CDATA[&#191;Se puede ver los eventos privados?]]></phrase>
+	<phrase module_id="event" version_id="2.0.0rc1" var_name="user_setting_can_approve_events" added="1250491324"><![CDATA[&#191;se puede aprobar eventos?]]></phrase>
+	<phrase module_id="event" version_id="2.0.0rc1" var_name="user_setting_can_feature_events" added="1250491341"><![CDATA[&#191;Se puede destacar eventos?]]></phrase>
+	<phrase module_id="event" version_id="2.0.0rc1" var_name="user_setting_event_must_be_approved" added="1250491615"><![CDATA[&#191;Los eventos deben ser aprobados antes de que se muestren p&#250;blicamente?]]></phrase>
+	<phrase module_id="event" version_id="2.0.0rc1" var_name="user_setting_total_mass_emails_per_hour" added="1250502555"><![CDATA[Define la duraci&#243;n que este grupo de usuarios tiene que esperar hasta que se les permita enviar otro correo electr&#243;nico en masa.]]></phrase>
+	<phrase module_id="event" version_id="2.0.0rc1" var_name="user_setting_can_mass_mail_own_members" added="1250505060"><![CDATA[&#191;Se puede enviar correo electr&#243;nico en masa a los invitados a mi evento?]]></phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="done" added="1254390083">Hecho!</phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="not_attending" added="1254390105"><![CDATA[No Asistir&#225;]]></phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="maybe" added="1254390112"><![CDATA[Quiz&#225;s]]></phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="attending" added="1254390119"><![CDATA[Asistir&#225;]]></phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="successfully_deleted_event" added="1254390136">El evento ha sido eliminado.</phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="you_are_unable_to_send_out_any_mass_emails_at_the_moment" added="1254390156"><![CDATA[Usted no puede enviar los correos electr&#243;nicos en masa en el momento.]]></phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="fill_in_both_a_subject_and_text_for_your_mass_email" added="1254390166"><![CDATA[Rellene el asunto y el texto para el correo electr&#243;nico en masa.]]></phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="you_are_unable_to_send_a_mass_email_for_this_event" added="1254390175"><![CDATA[Usted no puede enviar un correo electr&#243;nico en masa para este evento.]]></phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="email_progress_page_total" added="1254390201">Email en progreso: {page}/{total}</phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="categories" added="1254390245"><![CDATA[Categor&#237;as]]></phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="sub_categories" added="1254390255"><![CDATA[Sub-Categor&#237;as]]></phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="browse_filter" added="1254390267"><![CDATA[Criterios de B&#250;squeda]]></phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="basic_information" added="1254390281"><![CDATA[Informaci&#243;n B&#225;sica]]></phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="event_guests" added="1254390296">Invitados al evento</phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="can_t_make_it" added="1254390323">No pueden</phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="not_responded" added="1254390333">No han respondido</phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="upcoming_events" added="1254390347"><![CDATA[Pr&#243;ximos Eventos]]></phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="events_i_m_attending" added="1254390361"><![CDATA[Eventos a los que estar&#233; asistiendo]]></phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="your_rsvp" added="1254390374">Tu RSVP</phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="category_successfully_updated" added="1254390394"><![CDATA[La categor&#237;a ha sido actualizada.]]></phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="category_successfully_added" added="1254390403"><![CDATA[La categor&#237;a ha sido agregada.]]></phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="edit_a_category" added="1254390411"><![CDATA[Editar unaa Categor&#237;a]]></phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="create_a_new_category" added="1254390420"><![CDATA[Crear una nueva Categor&#237;a]]></phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="category_order_successfully_updated" added="1254390441"><![CDATA[El orden de las ategor&#237;as ha sido actualizado.]]></phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="category_successfully_deleted" added="1254390450"><![CDATA[Categor&#237;as han sido eliminadas.]]></phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="manage_categories" added="1254390459"><![CDATA[Manejar Categor&#237;as]]></phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="provide_a_name_for_this_event" added="1254390488">Proporciona el nombre de este evento.</phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="provide_a_location_for_this_event" added="1254390496"><![CDATA[Proporciona la ubicaci&#243;n de este evento.]]></phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="provide_a_country_location_for_this_event" added="1254390544"><![CDATA[Proporciona el pa&#237;s de este evento.]]></phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="provide_a_host_for_this_event" added="1254390553"><![CDATA[Proporciona el anfitri&#243;n de este evento.]]></phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="successfully_invited_guests_to_this_event" added="1254390564"><![CDATA[Los hu&#233;spedes han sido invitados a este evento.]]></phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="successfully_customized_this_event" added="1254390573">Este evento ha sido personalizado.</phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="event_successfully_updated" added="1254390590">Evento ha sido actualizado.</phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="event_successfully_added" added="1254390606">Evento ha sido agregado.</phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="note_that_events_must_first_be_approved_by_a_site_admin_before_it_is_displayed_publicly" added="1254390617"><![CDATA[Tenga en cuenta que los eventos deben ser primero aprobados por un administrador del sitio antes de que se muestra p&#250;blicamente.]]></phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="edit_event" added="1254390634">Editar Evento</phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="create_new_event" added="1254390661">Crear un Nuevo Evento</phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="events" added="1254390673">Eventos</phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="the_events_section_is_closed" added="1254390690"><![CDATA[La secci&#243;n de eventos esta cerrada.]]></phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="event_successfully_deleted" added="1254390708"><![CDATA[El evento fue eliminado con &#233;xito.]]></phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="date_added" added="1254390726">Fecha</phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="name" added="1254390733">Nombre</phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="recent_events" added="1254390754">Eventos Recientes</phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="today" added="1254390762">Hoy</phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="tomorrow" added="1254390768"><![CDATA[Ma&#241;ana]]></phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="this_week" added="1254390776">Esta Semana</phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="this_weekend" added="1254390785">Este Weekend</phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="pending" added="1254390792">Pendiente</phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="the_event_you_are_looking_for_does_not_exist_or_has_been_removed" added="1254390835"><![CDATA[El evento que est&#225; buscando no existe o ha sido eliminado.]]></phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="this_event_is_private" added="1254390844">Este evento es privado.</phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="provide_a_category_name" added="1254390903"><![CDATA[Proporciona un nombre de categor&#237;a.]]></phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="user_name_left_you_a_comment_on_site_title" added="1254390985"><![CDATA[{user_name} te dej&#243; un comentario en {site_title}.]]></phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="user_name_left_you_a_comment_on_your_event_title" added="1254393241"><![CDATA[{user_name} te dej&#243; un comentario en tu evento "{title}".
+
+Para ver este comentario, sigue el enlace de abajo:
+<a href="{link}">{link}</a>]]></phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="user_name_added_a_new_comment_on_their_own_event" added="1254393467"><![CDATA[<a href="{user_link}">{user_name}</a> agreg&#243; un nuevo comentario en su propio <a href="{title_link}">evento</a>.]]></phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="user_name_added_a_new_comment_on_your_event" added="1254393537"><![CDATA[<a href="{user_link}">{user_name}</a> agreg&#243; un nuevo comentario en tu <a href="{title_link}">evento</a>.]]></phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="user_name_added_a_new_comment_on_item_user_name" added="1254393593"><![CDATA[<a href="{user_link}">{user_name}</a> agreg&#243; un nuevo comentario en <a href="{item_user_link}">{item_user_name}'s</a> <a href="{title_link}">evento</a>.]]></phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="owner_full_name_added_a_new_event_title" added="1254393693"><![CDATA[<a href="{user_link}">{owner_full_name}</a> agreg&#243; un nuevo evento "<a href="{title_link}">{title}</a>"]]></phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="create_an_event" added="1254393872">Crear un Evento</phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="manage_events" added="1254393882">Manejar Eventos</phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="view_events" added="1254393907">Ver Eventos</phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="your_event_title_has_been_approved" added="1254393926"><![CDATA[Tu evento "{title}" ha sido aprobado.]]></phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="full_name_invited_you_to_an_event" added="1254393988"><![CDATA[<a href="{user_link}">{full_name}</a> te invit&#243; a un evento.]]></phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="no_event_invites" added="1254394032">No hay invitaciones al evento.</phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="event_invites_total" added="1254394068"><![CDATA[Invitaciones al Evento (<span id="js_request_event_count_total">{total}</span>)]]></phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="event_text" added="1254394108">Texto del Evento</phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="are_you_sure_this_will_delete_all_events_that_belong_to_this_category_and_cannot_be_undone" added="1254394191"><![CDATA[&#191;Est&#225;s seguro? Esto eliminar&#225; todos los eventos que pertenecen a esta categor&#237;a y no se puede deshacer.
+buscar]]></phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="keywords" added="1254394232">Palabras Claves</phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="location" added="1254394242"><![CDATA[Ubicaci&#243;n]]></phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="city" added="1254394251">Ciudad</phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="zip_postal_code" added="1254394258"><![CDATA[C&#243;dico Postal]]></phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="sort" added="1254394264">Ordenar por</phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="submit" added="1254394272">Someter</phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="reset" added="1254394278">Reajustar</phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="host" added="1254394553"><![CDATA[Anfitri&#243;n]]></phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="date" added="1254394561">Fecha</phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="remove_this_person_from_the_guest_list" added="1254394593">Eliminar a esta persona de la lista de invitados.</phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="report_an_event" added="1254394628">Reportar este Evento</phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="report" added="1254394635">Reportar</phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="invite_people_to_come" added="1254394643">Invitar Gente al Evento</phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="mass_email_guests" added="1254394654">Enviar Emails en Masa</phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="manage_guest_list" added="1254394679">Administrar Lista de Invitados</phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="contact_full_name_creator" added="1254394697">Contacto {full_name} (Creador)</phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="delete_event" added="1254394721">Eliminar Evento</phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="no_upcoming_events" added="1254397022"><![CDATA[No hay pr&#243;ximos eventos.]]></phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="add_an_event" added="1254397054">Agregar un Evento</phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="time_stamp_at_location" added="1254397907">{time_stamp} en {location}</phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="maybe_attending" added="1254398353"><![CDATA[Quiz&#225;s Asistir&#225;]]></phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="update_your_rsvp" added="1254398413">Actualizar tu RSVP</phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="submit_your_rsvp" added="1254398422">Someter tu RSVP</phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="event_category_details" added="1254398464"><![CDATA[Detalles de la Categor&#237;a del Evento]]></phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="parent_category" added="1254398482"><![CDATA[Categor&#237;a Principal]]></phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="select" added="1254398490">Seleccionar</phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="edit" added="1254398508">Editar</phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="delete" added="1254398515">Eliminar</phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="update_order" added="1254398529">Actualizar Orden</phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="view_this_event" added="1254398541">Ver este Evento</phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="skip_amp_view_this_event" added="1254398553">Pasar y ver este evento</phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="step_1" added="1254398566">Paso 1</phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="event_details" added="1254398576">Detalles del Evento</phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="step_2" added="1254398589">Paso 2</phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="customize" added="1254398598">Personalizar</phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="step_3" added="1254398609">Paso 3</phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="invite_guests" added="1254398621">Invitar</phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="mass_email" added="1254398639"><![CDATA[Correo electr&#243;nicos en masa]]></phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="category" added="1254398655"><![CDATA[Categor&#237;a]]></phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="tagline" added="1254398671">Lema</phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="description" added="1254398686"><![CDATA[Descripci&#243;n]]></phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="public_everyone_can_join" added="1254398696"><![CDATA[P&#250;blico (Todo el mundo puede unirse)]]></phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="privacy" added="1254398703">Privacidad</phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="private_does_not_show_up_anywhere_and_only_invited_users_can_rsvp" added="1254398711"><![CDATA[Privado (no se presenta en cualquier lugar y s&#243;lo los usuarios invitados pueden RSVP)]]></phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="start_time" added="1254398721">Fecha Inicio</phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="end_time" added="1254398728">Fecha Finaliza</phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="country" added="1254398736"><![CDATA[Pa&#237;s]]></phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="location_venue" added="1254398759"><![CDATA[Ubicaci&#243;n/Lugar]]></phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="save" added="1254398769">Salvar</phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="create_event" added="1254398776">Crear un Evento</phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="event_photo" added="1254398789">Foto del Evento</phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="are_you_sure" added="1254398809"><![CDATA[&#191;Est&#225;s seguro?]]></phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="click_here_to_delete_this_image_and_upload_a_new_one_in_its" added="1254399660"><![CDATA[Haz clic <a href="#" onclick="{java_script}">aqu&#237;</a> para eliminar esta imagen y subir una nueva en su lugar.]]></phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="you_can_upload_a_jpg_gif_or_png_file" added="1254399765">Puedes subir un archivo JPG, GIF o PNG.</phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="the_file_size_limit_is_filesize_if_your_upload_does_not_work_try_uploading_a_smaller_picture" added="1254399852"><![CDATA[El l&#237;mite de tama&#241;o de archivo es {filesize}. Si la subida no funciona, intenta subir una imagen m&#225;s peque&#241;a.]]></phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="invite_friends" added="1254399982">Invitar a los Amigos</phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="invite_people_via_email" added="1254399998"><![CDATA[Invitar personas a trav&#233;s de correo electr&#243;nico]]></phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="separate_multiple_emails_with_a_comma" added="1254400018">Separa los emails con comas.</phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="add_a_personal_message" added="1254400038"><![CDATA[A&#241;adir un mensaje personal]]></phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="send_invitations" added="1254402189">Enviar invitaciones</phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="new_guest_list" added="1254402198">Nueva Lista de Invitados</phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="send_out_an_email_to_all_the_guests_that_are_joining_this_event" added="1254402208"><![CDATA[Env&#237;ar un correo electr&#243;nico a todos los invitados que se est&#225;n uniendo a este evento.]]></phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="last_mass_email" added="1254403662"><![CDATA[Ultima masa de correos electr&#243;nicos]]></phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="subject" added="1254403672">Asunto</phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="text" added="1254403680">Texto</phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="sending_emails" added="1254403694"><![CDATA[Env&#237;o de correos electr&#243;nicos]]></phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="send" added="1254403702">Enviar</phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="please_wait_till" added="1254403726">Por favor, espere hasta que</phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="you_have_not_been_invited_to_any_events_yet" added="1254403749"><![CDATA[Todav&#237;a usted no ha sido invitado a los eventos.]]></phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="browse_events" added="1254403767">Explorar Eventos.</phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="you_are_not_attending_any_events" added="1254403845"><![CDATA[Usted no est&#225; a asistiendo a los eventos.]]></phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="no_events_found_where_you_might_attend" added="1254403853">No se encontraron eventos donde usted puede asistir.</phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="no_events_found_where_you_are_not_attending" added="1254403860"><![CDATA[No se encontraron eventos en los que usted no est&#225; asistiendo.]]></phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="no_past_events_were_found" added="1254403867">No se encontraron eventos pasados.</phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="no_events_have_been_created" added="1254403874">No hay eventos creados.</phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="be_the_first_to_create_an_event" added="1254403881">Sea el primero en crear un evento.</phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="there_is_one_event_that_is_pending_approval" added="1254403897"><![CDATA[Hay un evento que est&#225; pendiente de aprovaci&#243;n.]]></phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="there_are_total_events_that_are_pending_approval" added="1254403911"><![CDATA[Hay {total} eventos que estan pendientes de aprovaci&#243;n.]]></phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="click_here_to_approve_events" added="1254403986"><![CDATA[Haz clic <a href="{link}">aqu&#237;</a> para aprobar eventos.]]></phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="private" added="1254404038">Privado</phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="featured" added="1254404047">Destacado</phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="start_time_at_location" added="1254404250">{start_time} en {location}</phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="posted_by_user_name_on_time_stamp" added="1254405622">Publicado por {user_name} en {time_stamp}</phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="rsvp" added="1254463761">RSVP</phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="no_response" added="1254463769">Sin respuesta</phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="edit_lowercase" added="1254463862">editar</phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="approve_this_event" added="1254463909">Aprobar este evento.</phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="approve" added="1254463929">Aprobar</phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="approved" added="1254463938">Aprobado</phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="feature_this_event" added="1254463951">Destacar este evento.</phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="feature" added="1254463975">Destacar</phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="un_feature_this_event" added="1254463988">No Destacar este evento.</phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="unfeature" added="1254464001">No Destacar</phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="event_is_pending_approval" added="1254464118"><![CDATA[Evento est&#225; pendiente de aprovaci&#243;n.]]></phrase>
+	<phrase module_id="event" version_id="2.0.0rc3" var_name="full_name_has_closed_their_favorites_section" added="1254464572"><![CDATA[<a href="{user_link}">{full_name}</a> ha cerrado su secci&#243;n de favoritos.]]></phrase>
+	<phrase module_id="event" version_id="2.0.0rc4" var_name="a_href_user_link_user_name_a_added_a_comment_on_the_event_a_href_title_link_title_a" added="1255941112"><![CDATA[<a href="{user_link}">{user_name}</a> agreg&#243; un comentario sobre el evento "<a href="{title_link}">{title}</a>".]]></phrase>
+	<phrase module_id="event" version_id="2.0.0rc6" var_name="your_event_is_ending_before_it_starts" added="1256907682">Su evento finaliza antes de comenzar.</phrase>
+	<phrase module_id="event" version_id="2.0.0rc6" var_name="your_event_is_starting_in_the_past" added="1256907696">Su evento se inicia en el pasado.</phrase>
+	<phrase module_id="event" version_id="2.0.0rc7" var_name="full_name_invited_you_to_the_title" added="1257929870"><![CDATA[{full_name} te ha invitado a "{title}".
+
+Para comprobar este evento, siga el siguiente enlace:
+<a href="{link}">{link}</a>]]></phrase>
+	<phrase module_id="event" version_id="2.0.0rc7" var_name="full_name_added_the_following_personal_message" added="1257930058"><![CDATA[{full_name} agreg&#243; el siguiente mensaje personal]]></phrase>
+	<phrase module_id="event" version_id="2.0.0rc7" var_name="full_name_invited_you_to_the_event_title" added="1257930189"><![CDATA[{full_name} te ha invitado al evento "{title}".]]></phrase>
+	<phrase module_id="event" version_id="2.0.0rc7" var_name="provide_a_category_this_event_will_belong_to" added="1257930365"><![CDATA[Proporciona la categor&#237;a a la que pertenece este evento.]]></phrase>
+	<phrase module_id="event" version_id="2.0.0rc8" var_name="unable_to_find_the_event_you_want_to_approve" added="1258472809">No se puede encontrar el evento que desea aprobar.</phrase>
+	<phrase module_id="event" version_id="2.0.0rc8" var_name="you_do_not_have_sufficient_permission_to_modify_this_event" added="1258472832">Usted no tiene permisos suficientes para modificar este evento.</phrase>
+	<phrase module_id="event" version_id="2.0.0rc8" var_name="unable_to_find_the_event" added="1258472853">No se puede encontrar el evento.</phrase>
+	<phrase module_id="event" version_id="2.0.0rc8" var_name="unable_to_find_the_event_you_want_to_delete" added="1258472870">No se puede encontrar el evento que desea eliminar.</phrase>
+	<phrase module_id="event" version_id="2.0.0rc8" var_name="you_do_not_have_sufficient_permission_to_delete_this_listing" added="1258472878">Usted no tiene permisos suficientes para eliminar este clasificado.</phrase>
+	<phrase module_id="event" version_id="2.0.0rc8" var_name="your_event_has_been_approved_on_site_title" added="1258472903">Tu evento ha sido aprobado en {site_title}.</phrase>
+	<phrase module_id="event" version_id="2.0.0rc8" var_name="your_event_has_been_approved_on_site_title_link" added="1258472958"><![CDATA[Tu evento ha sido aprobado en {site_title}.
+
+Para ver este evento, sigue el enlace de abajo:
+<a href="{link}">{link}</a>]]></phrase>
+	<phrase module_id="event" version_id="2.0.0rc8" var_name="notice_this_is_a_newsletter_sent_from_the_event" added="1258472989"><![CDATA[Aviso: Este es un bolet&#237;n informativo enviado por el evento]]></phrase>
+	<phrase module_id="event" version_id="2.0.0rc11" var_name="user_setting_can_access_event" added="1260286460">Can browse and view the event module?</phrase>
+	<phrase module_id="event" version_id="2.0.0rc11" var_name="user_setting_can_create_event" added="1260329621">Can create an event?</phrase>
+	<phrase module_id="event" version_id="2.0.0rc12" var_name="a_href_user_link_full_name_a_liked_a_href_view_user_link_view_full_name_a_s_a_href_link_event_a" added="1260455427"><![CDATA[<a href="{user_link}">{full_name}</a> liked <a href="{view_user_link}">{view_full_name}</a>'s <a href="{link}">event</a>.]]></phrase>
+	<phrase module_id="event" version_id="2.0.0rc12" var_name="a_href_user_link_full_name_a_liked_their_own_a_href_link_event_a" added="1260455449"><![CDATA[<a href="{user_link}">{full_name}</a> liked their own <a href="{link}">event</a>.]]></phrase>
+	<phrase module_id="event" version_id="2.0.0rc12" var_name="a_href_user_link_full_name_a_liked_your_a_href_link_event_a" added="1260456261"><![CDATA[<a href="{user_link}">{full_name}</a> liked your <a href="{link}">event</a>.]]></phrase>
+	<phrase module_id="event" version_id="2.0.0rc12" var_name="can_create_event" added="1260904019">Crear un Evento</phrase>
+	<phrase module_id="event" version_id="2.0.0rc12" var_name="select_a_sub_category" added="1260971268"><![CDATA[Selecciona una Sub-Categor&#237;a]]></phrase>
+</phrases>

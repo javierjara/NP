@@ -1,0 +1,214 @@
+<phrases>
+	<phrase module_id="friend" version_id="2.0.0alpha1" var_name="menu_top_friends" added="1221135325">Amigos Intimos</phrase>
+	<phrase module_id="friend" version_id="2.0.0alpha1" var_name="menu_online_friends" added="1221135362"><![CDATA[Amigos en L&#237;nea]]></phrase>
+	<phrase module_id="friend" version_id="2.0.0alpha1" var_name="create_new_list" added="1221136804">Crear Nueva Lista...</phrase>
+	<phrase module_id="friend" version_id="2.0.0alpha1" var_name="edit_lists" added="1221139189">Editar Listas</phrase>
+	<phrase module_id="friend" version_id="2.0.0alpha1" var_name="view_list" added="1221139400">Ver Lista</phrase>
+	<phrase module_id="friend" version_id="2.0.0alpha1" var_name="user_setting_can_add_friends" added="1230339115"><![CDATA[&#191;Se puede agregar amigos?]]></phrase>
+	<phrase module_id="friend" version_id="2.0.0alpha1" var_name="user_setting_can_add_folders" added="1230340611"><![CDATA[&#191;Se puede agregar carpetas personalizadas?]]></phrase>
+	<phrase module_id="friend" version_id="2.0.0alpha1" var_name="setting_total_requests_display" added="1230390855"><![CDATA[<title>Mostrar el Total de Peticiones de Amistad</title><info>Cu&#225;ntas solicitudes de amistad se deben mostrar cuando el usuario acepta las solicitudes?</info>]]></phrase>
+	<phrase module_id="friend" version_id="2.0.0alpha1" var_name="menu_all_friends" added="1231408249">Todos los Amigos</phrase>
+	<phrase module_id="friend" version_id="2.0.0alpha1" var_name="menu_pending_requests" added="1233128504">Pedidos Pendientes</phrase>
+	<phrase module_id="friend" version_id="2.0.0beta2" var_name="menu_friends" added="1242569898">Amigos</phrase>
+	<phrase module_id="friend" version_id="2.0.0beta3" var_name="setting_friend_display_limit" added="1243631119"><![CDATA[<title>Mostrar el L&#237;mite de Amigos</title><info>Defina cu&#225;ntos amigos se deben mostrar en el perfil de los usuarios y en el tablero.</info>]]></phrase>
+	<phrase module_id="friend" version_id="2.0.0beta3" var_name="setting_friend_user_feed_display_limit" added="1243631308"><![CDATA[<title>Mostrar Total de Amigos (User Selection)</title><info>Define cu&#225;ntos amigos un usuario puede seleccionar que se muestren en su tablero o perfil.</info>]]></phrase>
+	<phrase module_id="friend" version_id="2.0.0beta3" var_name="user_setting_can_remove_friends_from_profile" added="1243631421"><![CDATA[&#191;Se puede remover el bloque de amigos de su perfil?]]></phrase>
+	<phrase module_id="friend" version_id="2.0.0beta3" var_name="user_setting_can_remove_friends_from_dashboard" added="1243631461"><![CDATA[&#191;Se puede remover el bloque de amigos de sus tableros?]]></phrase>
+	<phrase module_id="friend" version_id="2.0.0beta4" var_name="setting_enable_birthday_notices" added="1244723490"><![CDATA[<title>Habilitar la Notificaci&#243;n de Cumplea&#241;os</title><info>Cuando los usuarios est&#225;n habilitados, ver&#225;n una lista de sus amigos que est&#225;n pr&#243;ximos a sus cumplea&#241;os.</info>]]></phrase>
+	<phrase module_id="friend" version_id="2.0.0beta4" var_name="setting_days_to_check_for_birthday" added="1244723907"><![CDATA[<title>&#191;Cu&#225;ntos d&#237;as de antelaci&#243;n para comprobar si hay cumplea&#241;os</title><info>Este ajuste le indica cu&#225;ntos d&#237;as de antelaci&#243;n debe el sistema comprobar.
+
+Si lo establece a un n&#250;mero demasiado alto puede batir el prop&#243;sito de la funci&#243;n.
+
+Los resultados de esta funci&#243;n no puede ser almacenado en cach&#233;, por lo que es propensa a convertirse en una desaceleraci&#243;n de su sitio.
+
+Tenga en cuenta que puede deshabilitar esta funci&#243;n por completo en la configuraci&#243;n friend.enable_birthday_notices</info>]]></phrase>
+	<phrase module_id="friend" version_id="2.0.0beta4" var_name="setting_birthdays_cache_time_out" added="1245154442"><![CDATA[<title>Tiempo Fuera del Cach&#233; de los Cumplea&#241;os</title><info>Mostrar la "Lista de Cumplea&#241;os de sus Amigos" en el tablero de instrumentos tiene un costo en las llamadas en las bases de datos, por lo que el cache est&#225; hecho para ahorrar tiempo y evitar las llamadas adicionales.
+
+Este ajuste le indica con qu&#233; frecuencia debe ser refrescado la memoria cach&#233;, desde su instalaci&#243;n en horas de modo que si la ponemos a 5 significa que cada 5 horas la lista de amigos cuyos cumplea&#241;os son muy pronto ser&#225; renovado. Esto es &#250;til para los nuevos signos de UPS cuyos cumplea&#241;os est&#225;n dentro de un plazo de 1 d&#237;a.
+
+Esta configuraici&#243;n complementa a days_to_check_for_birthday y es menos usada si enable_birthday_notices est&#225; inavilitada.</info>]]></phrase>
+	<phrase module_id="friend" version_id="2.0.0beta4" var_name="setting_show_empty_birthdays" added="1245159765"><![CDATA[<title>Mostrar cuando no hay Cumplea&#241;os</title><info>Cuando se activa el sitio se mostrar&#225; el bloque en el tablero de instrumentos, independientemente si el usuario tiene amigos cuyo cumplea&#241;os se acerca o no.
+
+Si la desactiva, no significa una optimizaci&#243;n de rendimiento ya que los contenidos ya est&#225;n almacenados en cach&#233;.</info>]]></phrase>
+	<phrase module_id="friend" version_id="2.0.0beta4" var_name="menu_birthday_e_cards" added="1245162577"><![CDATA[E-Cards de Cumplea&#241;os]]></phrase>
+	<phrase module_id="friend" version_id="2.0.0rc1" var_name="setting_friend_meta_keywords" added="1252061571"><![CDATA[<title>Palabras Claves del Meta  de Amigos</title><info>Palabras Claves del Meta relacionadas con el m&#243;dulo de Amigos.</info>]]></phrase>
+	<phrase module_id="friend" version_id="2.0.0rc3" var_name="your_message_has_been_sent" added="1254550634">Tu mensaje ha sido enviado.</phrase>
+	<phrase module_id="friend" version_id="2.0.0rc3" var_name="friend_request_successfully_sent" added="1254550663"><![CDATA[Petici&#243;n de Amistad ha sido enviada.]]></phrase>
+	<phrase module_id="friend" version_id="2.0.0rc3" var_name="you_have_reached_your_limit" added="1254550681"><![CDATA[Has llegado a tu l&#237;mite.]]></phrase>
+	<phrase module_id="friend" version_id="2.0.0rc3" var_name="done" added="1254550703">Hecho!</phrase>
+	<phrase module_id="friend" version_id="2.0.0rc3" var_name="top_friends" added="1254550718">Amigos Intimos</phrase>
+	<phrase module_id="friend" version_id="2.0.0rc3" var_name="remove_from_your_top_friends_list" added="1254550733">Remover de la lista de Amigos Intimos</phrase>
+	<phrase module_id="friend" version_id="2.0.0rc3" var_name="add_to_your_top_friends_list" added="1254550749">Agregar a tu Lista de Intimos Amigos</phrase>
+	<phrase module_id="friend" version_id="2.0.0rc3" var_name="friends_successfully_moved" added="1254550769">Amigos han sido movidos.</phrase>
+	<phrase module_id="friend" version_id="2.0.0rc3" var_name="friend_successfully_removed" added="1254550786">Amigo ha sido removido.</phrase>
+	<phrase module_id="friend" version_id="2.0.0rc3" var_name="friend_lists" added="1254550824">Lista de Amigos</phrase>
+	<phrase module_id="friend" version_id="2.0.0rc3" var_name="view_all" added="1254550842">Ver Todos</phrase>
+	<phrase module_id="friend" version_id="2.0.0rc3" var_name="friends" added="1254550849">Amigos</phrase>
+	<phrase module_id="friend" version_id="2.0.0rc3" var_name="birthdays" added="1254550868"><![CDATA[Cumplea&#241;os]]></phrase>
+	<phrase module_id="friend" version_id="2.0.0rc3" var_name="my_friends" added="1254550887">Mis Amigos</phrase>
+	<phrase module_id="friend" version_id="2.0.0rc3" var_name="change_my_top_friends" added="1254550899"><![CDATA[Cambiar mi "Lista de Amigos"]]></phrase>
+	<phrase module_id="friend" version_id="2.0.0rc3" var_name="search_friends" added="1254550982">Buscar Amigos</phrase>
+	<phrase module_id="friend" version_id="2.0.0rc3" var_name="invalid_friend_list" added="1254550997"><![CDATA[La lista de amigos no es v&#225;lida.]]></phrase>
+	<phrase module_id="friend" version_id="2.0.0rc3" var_name="successfully_deleted" added="1254551010">Completamente eliminado.</phrase>
+	<phrase module_id="friend" version_id="2.0.0rc3" var_name="birthday_e_cards" added="1254551129"><![CDATA[E-Cards de Cumplea&#241;os]]></phrase>
+	<phrase module_id="friend" version_id="2.0.0rc3" var_name="friends_request_successfully_deleted" added="1254551143">Las peticiones de amistad han sido eliminadas.</phrase>
+	<phrase module_id="friend" version_id="2.0.0rc3" var_name="pending_friend_requests" added="1254551152">Peticiones de Amistad Pendientes</phrase>
+	<phrase module_id="friend" version_id="2.0.0rc3" var_name="user_link_has_closed_their_friends_section" added="1254551184"><![CDATA[{user_link} ha cerrado la secci&#243;n de amigos.]]></phrase>
+	<phrase module_id="friend" version_id="2.0.0rc3" var_name="full_name_s_friends" added="1254551220">amigos de {full_name}</phrase>
+	<phrase module_id="friend" version_id="2.0.0rc3" var_name="full_name_is_on_site_title_and_has_total_friends" added="1254551268"><![CDATA[{full_name} est&#225; en {site_title} y tiene {total} amigos.]]></phrase>
+	<phrase module_id="friend" version_id="2.0.0rc3" var_name="full_name_is_connected_with_friends" added="1254551367"><![CDATA[{full_name} est&#225; conectado con {friends}.]]></phrase>
+	<phrase module_id="friend" version_id="2.0.0rc3" var_name="sign_up_on_site_title_and_connect_with_full_name_message_full_name_or_add_full_name_as_you" added="1254551424"><![CDATA[Reg&#237;strate en {site_title} y con&#233;ctate con{full_name}, mensaje {full_name}, o agrega a {full_name} como tu amigo.]]></phrase>
+	<phrase module_id="friend" version_id="2.0.0rc3" var_name="not_a_valid_user_to_be_friends_with" added="1254551557"><![CDATA[No es un usuario v&#225;lido para ser amigos.]]></phrase>
+	<phrase module_id="friend" version_id="2.0.0rc3" var_name="you_are_already_friends_with_this_user" added="1254551569">Ya eres amigo de este usuario.</phrase>
+	<phrase module_id="friend" version_id="2.0.0rc3" var_name="friends_request" added="1254551577">Pedido de Amistad</phrase>
+	<phrase module_id="friend" version_id="2.0.0rc3" var_name="full_name_added_you_as_a_friend_on_site_title" added="1254551799"><![CDATA[{full_name} te agreg&#243; como amigo en {site_title}.]]></phrase>
+	<phrase module_id="friend" version_id="2.0.0rc3" var_name="full_name_added_you_as_a_friend_on_site_title_to_confirm_this_friend_request" added="1254551886"><![CDATA[{full_name} te agreg&#243; como amigo en {site_title}.
+
+Para confirmar esta petici&#243;n de amistad, sigue el enlace de abajo:
+<a href="{link}">{link}</a>]]></phrase>
+	<phrase module_id="friend" version_id="2.0.0rc3" var_name="no_friends_requests" added="1254552073">No hay peticiones de amistad.</phrase>
+	<phrase module_id="friend" version_id="2.0.0rc3" var_name="friend_requests_total" added="1254552168"><![CDATA[Pedidos de Amistad (<span id="js_request_friend_count_total">{total}</span>)]]></phrase>
+	<phrase module_id="friend" version_id="2.0.0rc3" var_name="viewer_image_you_and_owner_image_a_href_user_link_full_name_a_are_now_friends" added="1254552868"><![CDATA[{viewer_image}Tu y {owner_image}<a href="{user_link}">{full_name}</a> son nuevos amigos.]]></phrase>
+	<phrase module_id="friend" version_id="2.0.0rc3" var_name="owner_image_you_and_viewer_image_a_href_friend_link_friend_a_are_now_friends" added="1254553038"><![CDATA[{owner_image}Tu y {viewer_image}<a href="{friend_link}">{friend}</a> son nuevos amigos.]]></phrase>
+	<phrase module_id="friend" version_id="2.0.0rc3" var_name="owner_image_a_href_user_link_full_name_a_and_viewer_image" added="1254553166"><![CDATA[{owner_image}<a href="{user_link}">{full_name}</a> y {viewer_image}<a href="{friend_link}">{friend}</a> son nuevos amigos.]]></phrase>
+	<phrase module_id="friend" version_id="2.0.0rc3" var_name="owner_image_a_href_user_link_full_name_a_and_viewer_image_friends" added="1254553354"><![CDATA[{owner_image}<a href="{user_link}">{full_name}</a> y {viewer_image}<a href="{friend_link}">{friend}</a> son nuevos amigos.]]></phrase>
+	<phrase module_id="friend" version_id="2.0.0rc3" var_name="new_friend" added="1254553816">Nuevo Amigo</phrase>
+	<phrase module_id="friend" version_id="2.0.0rc3" var_name="friend_request" added="1254553828">Pedido de Amistad</phrase>
+	<phrase module_id="friend" version_id="2.0.0rc3" var_name="user_link_wished_you_a_happy_birthday" added="1254553960"><![CDATA[{user_link} te desea un feliz cumplea&#241;os.]]></phrase>
+	<phrase module_id="friend" version_id="2.0.0rc3" var_name="view_friends" added="1254554017">Ver Amigos</phrase>
+	<phrase module_id="friend" version_id="2.0.0rc3" var_name="user_link_asked_to_be_your_friend" added="1254554055"><![CDATA[{user_link} pidi&#243; ser tu amigo.]]></phrase>
+	<phrase module_id="friend" version_id="2.0.0rc3" var_name="full_name_confirmed_you_as_a_friend_on_site_title" added="1254554280"><![CDATA[{full_name} te confirm&#243; como un nuevo amigo en {site_title}.]]></phrase>
+	<phrase module_id="friend" version_id="2.0.0rc3" var_name="full_name_confirmed_you_as_a_friend_on_site_title_to_view_their_profile" added="1254554372"><![CDATA[{full_name} te confirm&#243; como un nuevo amigo en {site_title}.
+
+Para ver su perfil, sigue el enlace de abajo:
+<a href="{link}">{link}</a>]]></phrase>
+	<phrase module_id="friend" version_id="2.0.0rc3" var_name="full_name_wishes_you_a_happy_birthday_on_site_title" added="1254554565"><![CDATA[{full_name} te desea un feliz cumplea&#241;os en {site_title}.]]></phrase>
+	<phrase module_id="friend" version_id="2.0.0rc3" var_name="full_name_wrote_to_congratulate_you_on_your_birthday_on_site_title" added="1254554691"><![CDATA[{full_name} escribi&#243; para felicitarte en tu cumplea&#241;os en {site_title}.
+
+Para ver este mensaje, sigue el enlace de abajo:
+<a href="{link}">{link}</a>]]></phrase>
+	<phrase module_id="friend" version_id="2.0.0rc3" var_name="adding_new_list" added="1254555159">Agregar Nueva Lista</phrase>
+	<phrase module_id="friend" version_id="2.0.0rc3" var_name="updating" added="1254555393">Actualizando</phrase>
+	<phrase module_id="friend" version_id="2.0.0rc3" var_name="delete" added="1254555443">Eliminar</phrase>
+	<phrase module_id="friend" version_id="2.0.0rc3" var_name="update" added="1254555489">Actualizar</phrase>
+	<phrase module_id="friend" version_id="2.0.0rc3" var_name="cancel" added="1254555500">Cancelar</phrase>
+	<phrase module_id="friend" version_id="2.0.0rc3" var_name="add" added="1254555571">Agregar</phrase>
+	<phrase module_id="friend" version_id="2.0.0rc3" var_name="total_friend" added="1254555603">{total} amigos</phrase>
+	<phrase module_id="friend" version_id="2.0.0rc3" var_name="total_friends" added="1254555625">{total} amigos</phrase>
+	<phrase module_id="friend" version_id="2.0.0rc3" var_name="friend_requests" added="1254555646"><![CDATA[Petici&#243;n de Amistad]]></phrase>
+	<phrase module_id="friend" version_id="2.0.0rc3" var_name="you_are_now_friends_with_user_link" added="1254555668"><![CDATA[Ahora est&#225; con los amigos {user_link}.]]></phrase>
+	<phrase module_id="friend" version_id="2.0.0rc3" var_name="add_to_a_friend_list" added="1254555697">Agregar a lista de Amigos...</phrase>
+	<phrase module_id="friend" version_id="2.0.0rc3" var_name="lists" added="1254555705">Listas...</phrase>
+	<phrase module_id="friend" version_id="2.0.0rc3" var_name="create_a_new_list" added="1254555714">Crear una Nueva Lista...</phrase>
+	<phrase module_id="friend" version_id="2.0.0rc3" var_name="create" added="1254555726">Crear</phrase>
+	<phrase module_id="friend" version_id="2.0.0rc3" var_name="show_all_lists" added="1254555738">Mostrar todas las listas...</phrase>
+	<phrase module_id="friend" version_id="2.0.0rc3" var_name="user_link_wrote" added="1254555754"><![CDATA[{user_link} escribi&#243;]]></phrase>
+	<phrase module_id="friend" version_id="2.0.0rc3" var_name="accept" added="1254555772">Aceptar</phrase>
+	<phrase module_id="friend" version_id="2.0.0rc3" var_name="deny" added="1254555781">Denegar</phrase>
+	<phrase module_id="friend" version_id="2.0.0rc3" var_name="no_birthdays_coming_up" added="1254555795"><![CDATA[No hay complea&#241;os para mostrar.]]></phrase>
+	<phrase module_id="friend" version_id="2.0.0rc3" var_name="birthday_e_card" added="1254555804"><![CDATA[E-Card de Cumplea&#241;os]]></phrase>
+	<phrase module_id="friend" version_id="2.0.0rc3" var_name="send_a_birthday_e_card_to_full_name" added="1254555861"><![CDATA[Enviar un E-Card de cumplea&#241;os a {full_name}.]]></phrase>
+	<phrase module_id="friend" version_id="2.0.0rc3" var_name="send_full_name_a_message" added="1254555898">Enviar mensaje a {full_name}.</phrase>
+	<phrase module_id="friend" version_id="2.0.0rc3" var_name="1_day" added="1254555928"><![CDATA[Un (1) D&#237;a]]></phrase>
+	<phrase module_id="friend" version_id="2.0.0rc3" var_name="today" added="1254555938">Hoy!</phrase>
+	<phrase module_id="friend" version_id="2.0.0rc3" var_name="days_left_days" added="1254555973"><![CDATA[{days_left} d&#237;as]]></phrase>
+	<phrase module_id="friend" version_id="2.0.0rc3" var_name="message_optional" added="1254556056">Mensaje (Optional)</phrase>
+	<phrase module_id="friend" version_id="2.0.0rc3" var_name="send_e_card" added="1254556071">Enviar un E-Card</phrase>
+	<phrase module_id="friend" version_id="2.0.0rc3" var_name="view_friends_online" added="1254556091"><![CDATA[Ver Amigos En L&#237;nea]]></phrase>
+	<phrase module_id="friend" version_id="2.0.0rc3" var_name="edit_top_friends" added="1254556100">Editar Amigos Intimos</phrase>
+	<phrase module_id="friend" version_id="2.0.0rc3" var_name="find_friends_by_name_or_email" added="1254556120">Buscar amigos por nombre o email.</phrase>
+	<phrase module_id="friend" version_id="2.0.0rc3" var_name="you_have_not_added_any_friends_yet" added="1254556181"><![CDATA[Usted no ha agregado ning&#250;n amigo.]]></phrase>
+	<phrase module_id="friend" version_id="2.0.0rc3" var_name="search_for_friends" added="1254556193">Burcar por Amigos</phrase>
+	<phrase module_id="friend" version_id="2.0.0rc3" var_name="browse_members" added="1254556202">Explorar Miembros</phrase>
+	<phrase module_id="friend" version_id="2.0.0rc3" var_name="you_have_already_asked_full_name_to_be_your_friend" added="1254556237">Tu ya ha le pediste a {full_name} que sea tu amigo.</phrase>
+	<phrase module_id="friend" version_id="2.0.0rc3" var_name="full_name_has_already_asked_to_be_your_friend" added="1254556259">{full_name} ya ha pedido ser tu amigo.</phrase>
+	<phrase module_id="friend" version_id="2.0.0rc3" var_name="would_you_like_to_accept_their_request_to_be_friends" added="1254556278"><![CDATA[&#191;Te gustar&#237;a aceptar su petici&#243;n de ser amigos?]]></phrase>
+	<phrase module_id="friend" version_id="2.0.0rc3" var_name="yes" added="1254556286">Si</phrase>
+	<phrase module_id="friend" version_id="2.0.0rc3" var_name="no" added="1254556293">No</phrase>
+	<phrase module_id="friend" version_id="2.0.0rc3" var_name="cannot_add_yourself_as_a_friend" added="1254556307"><![CDATA[No se puede agregar a s&#237; mismo como un amigo.]]></phrase>
+	<phrase module_id="friend" version_id="2.0.0rc3" var_name="you_are_already_friends_with_full_name" added="1254556331">Ya eres amigo de {full_name}.</phrase>
+	<phrase module_id="friend" version_id="2.0.0rc3" var_name="user_link_will_have_to_confirm_that_you_are_friends" added="1254556356"><![CDATA[{user_link} tendr&#225; que confirmar que son amigos.]]></phrase>
+	<phrase module_id="friend" version_id="2.0.0rc3" var_name="add_a_personal_message" added="1254556374">Agregar un mensaje personal...</phrase>
+	<phrase module_id="friend" version_id="2.0.0rc3" var_name="add_a_personal_message_form" added="1254556394">Agregar un mensaje personal</phrase>
+	<phrase module_id="friend" version_id="2.0.0rc3" var_name="write_your_message_within_250_characters" added="1254556417">Escriba su mensaje no mayor de 250 caracteres.</phrase>
+	<phrase module_id="friend" version_id="2.0.0rc3" var_name="add_friend" added="1254556495">Agregar Amigo</phrase>
+	<phrase module_id="friend" version_id="2.0.0rc3" var_name="search_by_email_full_name_or_user_name" added="1254556510">Buscar por email, nombre completo o nombre de usuario.</phrase>
+	<phrase module_id="friend" version_id="2.0.0rc3" var_name="view" added="1254556536">Ver</phrase>
+	<phrase module_id="friend" version_id="2.0.0rc3" var_name="all_friends" added="1254556543">Todos los Amigos</phrase>
+	<phrase module_id="friend" version_id="2.0.0rc3" var_name="online_friends" added="1254556558"><![CDATA[Amigos en L&#237;nea]]></phrase>
+	<phrase module_id="friend" version_id="2.0.0rc3" var_name="friends_list" added="1254556572">Lista de Amigos</phrase>
+	<phrase module_id="friend" version_id="2.0.0rc3" var_name="find" added="1254557017">Buscar</phrase>
+	<phrase module_id="friend" version_id="2.0.0rc3" var_name="sorry_no_friends_were_found" added="1254557169">Lo sentimos, no se encontraron amigos.</phrase>
+	<phrase module_id="friend" version_id="2.0.0rc3" var_name="use_selected" added="1254557181">Usar Seleccionado</phrase>
+	<phrase module_id="friend" version_id="2.0.0rc3" var_name="save" added="1254557202">Guardar</phrase>
+	<phrase module_id="friend" version_id="2.0.0rc3" var_name="use_this_image_to_add_friends_to_your_top_friends_list" added="1254557295"><![CDATA[Usa esta imagen para agregar amigos a tu lista de "Amigos Intimos"]]></phrase>
+	<phrase module_id="friend" version_id="2.0.0rc3" var_name="select" added="1254557351">Seleccionar</phrase>
+	<phrase module_id="friend" version_id="2.0.0rc3" var_name="none" added="1254557390">Ninguno</phrase>
+	<phrase module_id="friend" version_id="2.0.0rc3" var_name="all" added="1254557396">Todos</phrase>
+	<phrase module_id="friend" version_id="2.0.0rc3" var_name="move_to_list" added="1254557409">Mover a la Lista...</phrase>
+	<phrase module_id="friend" version_id="2.0.0rc3" var_name="message" added="1254557436">Mensaje</phrase>
+	<phrase module_id="friend" version_id="2.0.0rc3" var_name="age" added="1254557449">Edad</phrase>
+	<phrase module_id="friend" version_id="2.0.0rc3" var_name="gender" added="1254557455"><![CDATA[G&#233;nero]]></phrase>
+	<phrase module_id="friend" version_id="2.0.0rc3" var_name="location" added="1254557461"><![CDATA[Ubicaci&#243;n]]></phrase>
+	<phrase module_id="friend" version_id="2.0.0rc3" var_name="remove_from_top" added="1254557493">Eliminar de Intimos Amigos</phrase>
+	<phrase module_id="friend" version_id="2.0.0rc3" var_name="add_to_top" added="1254557503">Agregar a Intimos</phrase>
+	<phrase module_id="friend" version_id="2.0.0rc3" var_name="toggle" added="1254557513">Toggle</phrase>
+	<phrase module_id="friend" version_id="2.0.0rc3" var_name="no_friends" added="1254557568">No hay amigos.</phrase>
+	<phrase module_id="friend" version_id="2.0.0rc3" var_name="no_birthday_messages_found" added="1254557746"><![CDATA[No se encontraron mensajes de cumplea&#241;os.]]></phrase>
+	<phrase module_id="friend" version_id="2.0.0rc3" var_name="remove_this_friends_request" added="1254557759">Eliminar esta solicitud de amistad.</phrase>
+	<phrase module_id="friend" version_id="2.0.0rc3" var_name="user_link_has_not_added_any_friends" added="1254557823"><![CDATA[{user_link} a&#250;n no ha agregado a ning&#250;n amigo.]]></phrase>
+	<phrase module_id="friend" version_id="2.0.0rc3" var_name="browse_other_members" added="1254557841">Buscar otros Miembros</phrase>
+	<phrase module_id="friend" version_id="2.0.0rc3" var_name="in_order_to_view_this_item_posted_by_user_link_you_need_to_be_on_their_friends_list" added="1254557859"><![CDATA[Para ver este art&#237;culo publicado por {user_link} usted necesita estar en la lista de sus amigos.]]></phrase>
+	<phrase module_id="friend" version_id="2.0.0rc3" var_name="send_a_friends_request_to_full_name" added="1254557950">Enviar una solicitud de amistad a {full_name}</phrase>
+	<phrase module_id="friend" version_id="2.0.0rc3" var_name="thank_you_for_your_request_to_join_our_group_your_membership_will_first_have_to_be_approved" added="1254558818"><![CDATA[Gracias por su solicitud para unirse a nuestro grupo. Su membres&#237;a, primero tendr&#225; que ser aprobada.]]></phrase>
+	<phrase module_id="friend" version_id="2.0.0rc3" var_name="successfully_deleted_the_group" added="1254558846">Grupo ha sido eliminado.</phrase>
+	<phrase module_id="friend" version_id="2.0.0rc3" var_name="group_invitation_successfully_sent" added="1254558860"><![CDATA[Invitaci&#243;n del grupo ha sido enviada!]]></phrase>
+	<phrase module_id="friend" version_id="2.0.0rc4" var_name="top" added="1255716748">Intimos</phrase>
+	<phrase module_id="friend" version_id="2.0.0rc4" var_name="online" added="1255716757"><![CDATA[En L&#237;nea]]></phrase>
+	<phrase module_id="friend" version_id="2.0.0rc4" var_name="there_are_no_pending_friends_requests" added="1255716866">No hay solicitudes pendientes de amigos.</phrase>
+	<phrase module_id="friend" version_id="2.0.0rc4" var_name="mutual_friends" added="1256236952"><![CDATA[Amigos en Com&#250;n]]></phrase>
+	<phrase module_id="friend" version_id="2.0.0rc4" var_name="1_friend_in_common" added="1256237194"><![CDATA[1 amigo en com&#250;n]]></phrase>
+	<phrase module_id="friend" version_id="2.0.0rc4" var_name="total_friends_in_common" added="1256237212"><![CDATA[{total} amigos en com&#250;n]]></phrase>
+	<phrase module_id="friend" version_id="2.0.0rc4" var_name="friends_online" added="1256239756"><![CDATA[Amigos en L&#237;nea]]></phrase>
+	<phrase module_id="friend" version_id="2.0.0rc4" var_name="suggestions" added="1256241942">Sugerencias</phrase>
+	<phrase module_id="friend" version_id="2.0.0rc4" var_name="add_to_friends" added="1256252043">Agregar a Amigos</phrase>
+	<phrase module_id="friend" version_id="2.0.0rc4" var_name="friend_suggestions" added="1256304055">Amigos Sugeridos</phrase>
+	<phrase module_id="friend" version_id="2.0.0rc4" var_name="mutual_friends_will_be_listed_here" added="1256308926"><![CDATA[Amigos en com&#250;n ser&#225;n listados aqu&#237;]]></phrase>
+	<phrase module_id="friend" version_id="2.0.0rc4" var_name="videos" added="1256373148">Videos</phrase>
+	<phrase module_id="friend" version_id="2.0.0rc4" var_name="that_s_you" added="1256630526"><![CDATA[&#161;Ese eres tu!]]></phrase>
+	<phrase module_id="friend" version_id="2.0.0rc4" var_name="the_following_users_are_already_a_member_of_our_community" added="1256630550">Los siguientes usuarios son miembros de nuestra comunidad</phrase>
+	<phrase module_id="friend" version_id="2.0.0rc4" var_name="requests" added="1256648176">Pedidos</phrase>
+	<phrase module_id="friend" version_id="2.0.0rc4" var_name="you_do_not_have_any_friends_requests_at_the_moment" added="1256650329">Usted no tiene ninguna solicitud de amistad en este momento.</phrase>
+	<phrase module_id="friend" version_id="2.0.0rc4" var_name="menu_friends_requests" added="1256650846">Pedidos de Amistad</phrase>
+	<phrase module_id="friend" version_id="2.0.0rc4" var_name="view_friend_request_id" added="1256664976">Ver el Pedido de Amistad de: #{id}</phrase>
+	<phrase module_id="friend" version_id="2.0.0rc4" var_name="viewing_friends_request_id" added="1256664985">Estas viendo el pedido de Amistad de: #{id}</phrase>
+	<phrase module_id="friend" version_id="2.0.0rc4" var_name="you_have_denied_user_link_s_friends_request" added="1256665043">Tu has rechazado el pedido de amistad de {user_link}.</phrase>
+	<phrase module_id="friend" version_id="2.0.0rc6" var_name="search_for_members" added="1257171904"><![CDATA[B&#250;squeda de miembros]]></phrase>
+	<phrase module_id="friend" version_id="2.0.0rc6" var_name="search_for_your_friends" added="1257171912">Buscar tus amigos</phrase>
+	<phrase module_id="friend" version_id="2.0.0rc8" var_name="total_friends_block" added="1258846987">Total de amigos</phrase>
+	<phrase module_id="friend" version_id="2.0.0rc8" var_name="we_can_t_create_an_empty_list" added="1258848740"><![CDATA[No podemos crear una lista vac&#237;a.]]></phrase>
+	<phrase module_id="friend" version_id="2.0.0rc8" var_name="provide_a_name_for_your_list" added="1258848794">Proporciona un nombre para tu lista.</phrase>
+	<phrase module_id="friend" version_id="2.0.0beta2" var_name="menu_friend_friends" added="1242569898">Amigos</phrase>
+	<phrase module_id="friend" version_id="2.0.0rc11" var_name="accepting_friends_request" added="1260307069"><![CDATA[Aceptaci&#243;n de pedidos de amistad]]></phrase>
+	<phrase module_id="friend" version_id="2.0.0rc11" var_name="no_friends_online" added="1260309498"><![CDATA[No hay amigos en l&#237;nea.]]></phrase>
+	<phrase module_id="friend" version_id="2.0.0rc11" var_name="select_all" added="1260323970">Seleccionar todo</phrase>
+	<phrase module_id="friend" version_id="2.0.0rc11" var_name="unselect_all" added="1260323981"><![CDATA[Anular selecci&#243;n]]></phrase>
+	<phrase module_id="friend" version_id="2.0.0rc12" var_name="setting_friend_suggestion_search_total" added="1260554251"><![CDATA[<title>Friends Suggestion Friends Check Count</title><info>When performing the search to find friend suggestions for your members it will pull out X amount of users, where X is the numerical value of how many friends to search.</info>]]></phrase>
+	<phrase module_id="friend" version_id="2.0.0rc12" var_name="setting_enable_friend_suggestion" added="1260554523"><![CDATA[<title>Friend Suggestions</title><info>Enable this if you want to suggest friends to your members when they visit their dashboard.
+
+You can control the search criteria on what defines a friend to suggest.
+
+This feature requires a lot of extra server resources in order to perform such a search. 
+
+Each search result is cached for X minutes (where you can control X).
+
+<b>Notice:</b> This feature is experimental and is not stable.
+</info>]]></phrase>
+	<phrase module_id="friend" version_id="2.0.0rc12" var_name="setting_friend_suggestion_timeout" added="1260554689"><![CDATA[<title>Refresh Friend Suggestions</title><info>Define how long to wait till we run the search to find friends to suggest to a member in minutes.</info>]]></phrase>
+	<phrase module_id="friend" version_id="2.0.0rc12" var_name="setting_friend_suggestion_user_based" added="1260729076"><![CDATA[<title>Check Location for Friend Suggestions</title><info>Enable this option in order for us to pick up friend suggestions for your members based on the Country, State/Province and City they live in.</info>]]></phrase>
+	<phrase module_id="friend" version_id="2.0.0rc12" var_name="we_are_unable_to_find_any_friends_to_suggest_at_this_time_once_we_do_you_will_be_notified_within_our_dashboard" added="1260879935"><![CDATA[No podemos encontrar amigos para sugerir en este momento. Una vez encontrados, usted ser&#225; notificado dentro de nuestro panel de instrumentos.]]></phrase>
+	<phrase module_id="friend" version_id="2.0.0rc12" var_name="finding_another_suggestion" added="1260879983">Encontrar otra sugerencia...</phrase>
+	<phrase module_id="friend" version_id="2.0.0rc12" var_name="hide_this_suggestion" added="1260880006">Ocultar esta sugerencia</phrase>
+	<phrase module_id="friend" version_id="2.0.0rc12" var_name="friend" added="1260880732">Amigo</phrase>
+	<phrase module_id="friend" version_id="2.0.0rc12" var_name="hide" added="1260893725">Ocultar</phrase>
+</phrases>

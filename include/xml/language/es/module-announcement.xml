@@ -1,0 +1,62 @@
+<phrases>
+	<phrase module_id="announcement" version_id="2.0.0beta4" var_name="admin_menu_manage" added="1244631261">Manejar</phrase>
+	<phrase module_id="announcement" version_id="2.0.0beta4" var_name="admin_menu_add_new" added="1244631261">Agregar Nuevo</phrase>
+	<phrase module_id="announcement" version_id="2.0.0beta4" var_name="module_announcement" added="1244631261">Anuncio</phrase>
+	<phrase module_id="announcement" version_id="2.0.0beta4" var_name="menu_announcements" added="1245243935">Anuncios</phrase>
+	<phrase module_id="announcement" version_id="2.0.0beta5" var_name="user_setting_can_close_announcement" added="1245317655"><![CDATA[&#191;Est&#225;n los miembros de este grupo de usuarios autorizados para cerrar el bloque de anuncios en el panel de instrumentos?]]></phrase>
+	<phrase module_id="announcement" version_id="2.0.0rc2" var_name="im_afraid_you_are_not_allowed_to_close_this_announcement" added="1252909877"><![CDATA[Me temo que no est&#225;n autorizados a cerrar este anuncio.]]></phrase>
+	<phrase module_id="announcement" version_id="2.0.0rc2" var_name="edit_an_announcement" added="1252909905">Editar un Anuncio</phrase>
+	<phrase module_id="announcement" version_id="2.0.0rc2" var_name="add_an_announcement" added="1252909915">Agregar un Anuncio</phrase>
+	<phrase module_id="announcement" version_id="2.0.0rc2" var_name="announcement_successfully_added" added="1252909925">Anuncio ha sido agregado.</phrase>
+	<phrase module_id="announcement" version_id="2.0.0rc2" var_name="announcement_successfully_updated" added="1252909936">Anuncio ha sido actualizado.</phrase>
+	<phrase module_id="announcement" version_id="2.0.0rc2" var_name="announcements" added="1252909961">Anuncios</phrase>
+	<phrase module_id="announcement" version_id="2.0.0rc2" var_name="announcement_successfully_deleted" added="1252909976">Anuncio ha sido eliminado.</phrase>
+	<phrase module_id="announcement" version_id="2.0.0rc2" var_name="that_announcement_does_not_exist" added="1252910007">Ese anuncio no existe.</phrase>
+	<phrase module_id="announcement" version_id="2.0.0rc2" var_name="subject_cannot_be_empty" added="1252910060"><![CDATA[El asunto no puede estar vac&#237;o.]]></phrase>
+	<phrase module_id="announcement" version_id="2.0.0rc2" var_name="content_cannot_be_empty" added="1252910071"><![CDATA[El contenido no puede estar vac&#237;o.]]></phrase>
+	<phrase module_id="announcement" version_id="2.0.0rc2" var_name="announcement_not_found" added="1252910107">Anuncio no encontrado.</phrase>
+	<phrase module_id="announcement" version_id="2.0.0rc2" var_name="announcement_is_already_hidden" added="1252910118"><![CDATA[El anuncio ya est&#225; oculto.]]></phrase>
+	<phrase module_id="announcement" version_id="2.0.0rc2" var_name="min_age_cannot_be_higher_than_max_age" added="1252910302"><![CDATA[Edad m&#237;nima no podr&#225; ser mayor que la edad m&#225;xima.]]></phrase>
+	<phrase module_id="announcement" version_id="2.0.0rc2" var_name="max_age_cannot_be_lower_than_the_min_age" added="1252910317"><![CDATA[Edad m&#225;xima no puede ser inferior a la edad m&#237;nima.]]></phrase>
+	<phrase module_id="announcement" version_id="2.0.0rc2" var_name="read_more" added="1252910412"><![CDATA[Leer m&#225;s]]></phrase>
+	<phrase module_id="announcement" version_id="2.0.0rc2" var_name="subject" added="1252910440">Asunto</phrase>
+	<phrase module_id="announcement" version_id="2.0.0rc2" var_name="active" added="1252910455">Activo</phrase>
+	<phrase module_id="announcement" version_id="2.0.0rc2" var_name="edit" added="1252910466">Editar</phrase>
+	<phrase module_id="announcement" version_id="2.0.0rc2" var_name="delete" added="1252910475">Eliminar</phrase>
+	<phrase module_id="announcement" version_id="2.0.0rc2" var_name="announcement_details" added="1252910524">Detalles del Anuncio</phrase>
+	<phrase module_id="announcement" version_id="2.0.0rc2" var_name="intro" added="1252910547">Intro</phrase>
+	<phrase module_id="announcement" version_id="2.0.0rc2" var_name="the_intro_will_be_displayed_on_the_sites_dashboard_and_link_to_the_full_announcement" added="1252910565"><![CDATA[La introducci&#243;n se mostrar&#225; en el tablero de instrumentos y sitios de enlace con el anuncio completo.
+<br />
+HTML est&#225; habilitado.]]></phrase>
+	<phrase module_id="announcement" version_id="2.0.0rc2" var_name="announcement" added="1252910575">Anuncio</phrase>
+	<phrase module_id="announcement" version_id="2.0.0rc2" var_name="the_announcement_can_be_left_open_if_everything_can_be_added_into_the_intro" added="1252910593"><![CDATA[El anuncio se puede dejar abierto, si todo se puede agregar en el intro
+<br />
+HTML est&#225; habilitado.]]></phrase>
+	<phrase module_id="announcement" version_id="2.0.0rc2" var_name="display_options" added="1252910604">Mostrar Opciones</phrase>
+	<phrase module_id="announcement" version_id="2.0.0rc2" var_name="can_be_closed" added="1252910642">Se puede cerrar</phrase>
+	<phrase module_id="announcement" version_id="2.0.0rc2" var_name="show_in_the_dashboard" added="1252910664">Mostrar en el panel</phrase>
+	<phrase module_id="announcement" version_id="2.0.0rc2" var_name="show_author" added="1252910678">Mostrar autor</phrase>
+	<phrase module_id="announcement" version_id="2.0.0rc2" var_name="start_date" added="1252910698">Fecha de inicio</phrase>
+	<phrase module_id="announcement" version_id="2.0.0rc2" var_name="target_viewers" added="1252910709">Blanco de Espectadores</phrase>
+	<phrase module_id="announcement" version_id="2.0.0rc2" var_name="user_groups" added="1252910717">Grupos de Usuarios</phrase>
+	<phrase module_id="announcement" version_id="2.0.0rc2" var_name="all_user_groups" added="1252910727">Todos los Grupos de Usuarios</phrase>
+	<phrase module_id="announcement" version_id="2.0.0rc2" var_name="selected_user_groups" added="1252910735"><![CDATA[Selecci&#243;n de Grupos de usuarios]]></phrase>
+	<phrase module_id="announcement" version_id="2.0.0rc2" var_name="location" added="1252910745"><![CDATA[Ubicaci&#243;n]]></phrase>
+	<phrase module_id="announcement" version_id="2.0.0rc2" var_name="gender" added="1252910753"><![CDATA[G&#233;nero]]></phrase>
+	<phrase module_id="announcement" version_id="2.0.0rc2" var_name="age_group_between" added="1252910761">Entre el grupo de edad</phrase>
+	<phrase module_id="announcement" version_id="2.0.0rc2" var_name="any" added="1252910771">Alguno</phrase>
+	<phrase module_id="announcement" version_id="2.0.0rc2" var_name="no_announcements_have_been_created" added="1252910844"><![CDATA[No se han creados anuncios a&#250;n.]]></phrase>
+	<phrase module_id="announcement" version_id="2.0.0rc2" var_name="create_a_new_announcement" added="1252910852">Crea un Nuevo Anuncio</phrase>
+	<phrase module_id="announcement" version_id="2.0.0rc2" var_name="that_announcement_cannot_be_found" added="1252910862">Ese anuncio no se puede encontrar.</phrase>
+	<phrase module_id="announcement" version_id="2.0.0rc2" var_name="no_announcements_have_been_added" added="1252910870"><![CDATA[No se han agregado anuncios a&#250;n.]]></phrase>
+	<phrase module_id="announcement" version_id="2.0.0rc2" var_name="posted_on_time_stamp_by_user" added="1252911113">Publicado en {item_time_stamp} por {user_link}.</phrase>
+	<phrase module_id="announcement" version_id="2.0.0rc2" var_name="posted_on_time_stamp" added="1252911135">Publicado en {item_time_stamp}.</phrase>
+	<phrase module_id="announcement" version_id="2.0.0rc2" var_name="attachments_title" added="1252926488">Datos Adjuntos</phrase>
+	<phrase module_id="announcement" version_id="2.0.0rc2" var_name="extension" added="1252926511"><![CDATA[Extensi&#243;n]]></phrase>
+	<phrase module_id="announcement" version_id="2.0.0rc2" var_name="manage_users" added="1253086432">Manejar Usuarios</phrase>
+	<phrase module_id="announcement" version_id="2.0.0rc2" var_name="attachment_successfully_deleted" added="1253442081">Datos Adjuntos han sido eliminados.</phrase>
+	<phrase module_id="announcement" version_id="2.0.0rc9" var_name="announcement_subject_1" added="1259167741">Prueba 1</phrase>
+	<phrase module_id="announcement" version_id="2.0.0rc9" var_name="announcement_intro_1" added="1259167741">Intro</phrase>
+	<phrase module_id="announcement" version_id="2.0.0rc9" var_name="announcement_content_1" added="1259167741">Anuncio</phrase>
+	<phrase module_id="announcement" version_id="2.0.0rc11" var_name="user_setting_can_view_announcements" added="1260286754">Can browse and view announcements?</phrase>
+</phrases>

@@ -1,0 +1,71 @@
+<phrases>
+	<phrase module_id="ad" version_id="2.0.0beta3" var_name="admin_menu_create_new_campaign" added="1243091789">Create New Campaign</phrase>
+	<phrase module_id="ad" version_id="2.0.0beta3" var_name="admin_menu_manage_campaigns" added="1243091789">Manage Campaigns</phrase>
+	<phrase module_id="ad" version_id="2.0.0beta3" var_name="module_ad" added="1243091789">Ad Management</phrase>
+	<phrase module_id="ad" version_id="2.0.0beta3" var_name="setting_ad_cache_limit" added="1243185354"><![CDATA[<title>Ad Cache Limit (Minutes)</title><info>Define in minutes how long we should cache ads.</info>]]></phrase>
+	<phrase module_id="ad" version_id="2.0.0beta3" var_name="setting_ad_ajax_refresh" added="1243185608"><![CDATA[<title>Refresh Ads (AJAX)</title><info>Enable this feature to refresh ads via AJAX.</info>]]></phrase>
+	<phrase module_id="ad" version_id="2.0.0beta3" var_name="setting_ad_ajax_refresh_time" added="1243185732"><![CDATA[<title>Ad Refresh Time (Minutes)</title><info>Define how many minutes to way before the ads refresh.</info>]]></phrase>
+	<phrase module_id="ad" version_id="2.0.0beta3" var_name="setting_enable_ads" added="1243241593"><![CDATA[<title>Enable Ads</title><info>Set to <b>True</b> in order to enable ads.</info>]]></phrase>
+	<phrase module_id="ad" version_id="30" var_name="user_setting_show_ads" added="1247583832">Should ads be shown to members of this user group?</phrase>
+	<phrase module_id="ad" version_id="2.0.0rc2" var_name="select_a_banner_type" added="1252753837">Select a banner type.</phrase>
+	<phrase module_id="ad" version_id="2.0.0rc2" var_name="provide_a_name_for_this_campaign" added="1252753852">Provide a name for this campaign.</phrase>
+	<phrase module_id="ad" version_id="2.0.0rc2" var_name="provide_a_link_for_your_banner" added="1252753867">Provide a link for your banner.</phrase>
+	<phrase module_id="ad" version_id="2.0.0rc2" var_name="provide_html_for_your_banner" added="1252753880">Provide HTML for your banner.</phrase>
+	<phrase module_id="ad" version_id="2.0.0rc2" var_name="ad_successfully_updated" added="1252753898">Ad successfully updated.</phrase>
+	<phrase module_id="ad" version_id="2.0.0rc2" var_name="ad_successfully_added" added="1252753912">Anuncio ha sido agregado.</phrase>
+	<phrase module_id="ad" version_id="2.0.0rc2" var_name="create_new_campaign" added="1252753952">Create New Campaign</phrase>
+	<phrase module_id="ad" version_id="2.0.0rc2" var_name="ad_successfully_deleted" added="1252753984">Ad successfully deleted.</phrase>
+	<phrase module_id="ad" version_id="2.0.0rc2" var_name="ad_s_successfully_updated" added="1252753996">Ad(s) successfully updated.</phrase>
+	<phrase module_id="ad" version_id="2.0.0rc2" var_name="manage_ad_campaigns" added="1252754009">Manage Ad Campaigns</phrase>
+	<phrase module_id="ad" version_id="2.0.0rc2" var_name="live" added="1252754044">Live</phrase>
+	<phrase module_id="ad" version_id="2.0.0rc2" var_name="inactive" added="1252754056">Inactive</phrase>
+	<phrase module_id="ad" version_id="2.0.0rc2" var_name="pending" added="1252754087">Pending</phrase>
+	<phrase module_id="ad" version_id="2.0.0rc2" var_name="the_ad_you_are_looking_for_does_not_exist" added="1252754114">The ad you are looking for does not exist.</phrase>
+	<phrase module_id="ad" version_id="2.0.0rc2" var_name="unable_to_find_this_ad" added="1252754128">Unable to find this ad.</phrase>
+	<phrase module_id="ad" version_id="2.0.0rc2" var_name="unable_to_find_the_ad_you_want_to_delete" added="1252754169">Unable to find the ad you want to delete.</phrase>
+	<phrase module_id="ad" version_id="2.0.0rc2" var_name="media" added="1252754277">Media</phrase>
+	<phrase module_id="ad" version_id="2.0.0rc2" var_name="banner_type" added="1252754868">Banner Type</phrase>
+	<phrase module_id="ad" version_id="2.0.0rc2" var_name="image" added="1252755783">Image</phrase>
+	<phrase module_id="ad" version_id="2.0.0rc2" var_name="html" added="1252755791">HTML</phrase>
+	<phrase module_id="ad" version_id="2.0.0rc2" var_name="banner_image" added="1252755809">Banner Image</phrase>
+	<phrase module_id="ad" version_id="2.0.0rc2" var_name="click_here_to_change_this_banner_image" added="1252755843"><![CDATA[Click <a href="#" onclick="$('#js_ad_upload_banner').show(); $('#js_ad_banner').hide(); return false;">here</a> to change this banner image.]]></phrase>
+	<phrase module_id="ad" version_id="2.0.0rc2" var_name="you_can_upload_a_jpg_gif_or_png_file" added="1252755856">You can upload a JPG, GIF or PNG file.</phrase>
+	<phrase module_id="ad" version_id="2.0.0rc2" var_name="cancel" added="1252755868">cancelar</phrase>
+	<phrase module_id="ad" version_id="2.0.0rc2" var_name="banner_link" added="1252755962">Banner Link</phrase>
+	<phrase module_id="ad" version_id="2.0.0rc2" var_name="campaign_details" added="1252755974">Campaign Details</phrase>
+	<phrase module_id="ad" version_id="2.0.0rc2" var_name="campaign_name" added="1252755984">Campaign Name</phrase>
+	<phrase module_id="ad" version_id="2.0.0rc2" var_name="start_date" added="1252755996">Start Date</phrase>
+	<phrase module_id="ad" version_id="2.0.0rc2" var_name="end_date" added="1252756009">End Date</phrase>
+	<phrase module_id="ad" version_id="2.0.0rc2" var_name="do_not_end_this_campaign" added="1252756023">Do not end this campaign.</phrase>
+	<phrase module_id="ad" version_id="2.0.0rc2" var_name="end_on_a_specific_date" added="1252756033">End on a specific date.</phrase>
+	<phrase module_id="ad" version_id="2.0.0rc2" var_name="total_views" added="1252756046">Total Views</phrase>
+	<phrase module_id="ad" version_id="2.0.0rc2" var_name="unlimited" added="1252756064">Unlimited</phrase>
+	<phrase module_id="ad" version_id="2.0.0rc2" var_name="total_clicks" added="1252756100">Total Clicks</phrase>
+	<phrase module_id="ad" version_id="2.0.0rc2" var_name="active" added="1252756118">Active</phrase>
+	<phrase module_id="ad" version_id="2.0.0rc2" var_name="placement" added="1252756132">Placement</phrase>
+	<phrase module_id="ad" version_id="2.0.0rc2" var_name="block_placement" added="1252756143">Block Placement</phrase>
+	<phrase module_id="ad" version_id="2.0.0rc2" var_name="view_site_layout" added="1252756155">View Site Layout</phrase>
+	<phrase module_id="ad" version_id="2.0.0rc2" var_name="notice_the_ad_sizes_provided_is_a_recommendation" added="1252756164">Notice: The ad sizes provided is a recommendation.</phrase>
+	<phrase module_id="ad" version_id="2.0.0rc2" var_name="audience" added="1252756171">Audience</phrase>
+	<phrase module_id="ad" version_id="2.0.0rc2" var_name="user_groups" added="1252756180">User Groups</phrase>
+	<phrase module_id="ad" version_id="2.0.0rc2" var_name="all_user_groups" added="1252756189">Todos los Grupos de Usuarios</phrase>
+	<phrase module_id="ad" version_id="2.0.0rc2" var_name="selected_user_groups" added="1252756197">Selected User Groups</phrase>
+	<phrase module_id="ad" version_id="2.0.0rc2" var_name="location" added="1252756209"><![CDATA[Ubicaci&#243;n]]></phrase>
+	<phrase module_id="ad" version_id="2.0.0rc2" var_name="gender" added="1252756218"><![CDATA[G&#233;nero]]></phrase>
+	<phrase module_id="ad" version_id="2.0.0rc2" var_name="age_group_between" added="1252756226">Age Group Between</phrase>
+	<phrase module_id="ad" version_id="2.0.0rc2" var_name="any" added="1252756234">Any</phrase>
+	<phrase module_id="ad" version_id="2.0.0rc2" var_name="min_age_cannot_be_higher_than_max_age" added="1252756315">Min age cannot be higher than max age.</phrase>
+	<phrase module_id="ad" version_id="2.0.0rc2" var_name="max_age_cannot_be_lower_than_the_min_age" added="1252756568">Max age cannot be lower than the Min age.</phrase>
+	<phrase module_id="ad" version_id="2.0.0rc2" var_name="ads" added="1252756602">Ads</phrase>
+	<phrase module_id="ad" version_id="2.0.0rc2" var_name="id" added="1252756610">ID</phrase>
+	<phrase module_id="ad" version_id="2.0.0rc2" var_name="name" added="1252756618">Nombre</phrase>
+	<phrase module_id="ad" version_id="2.0.0rc2" var_name="status" added="1252756626">Status</phrase>
+	<phrase module_id="ad" version_id="2.0.0rc2" var_name="views" added="1252756642">Vistas</phrase>
+	<phrase module_id="ad" version_id="2.0.0rc2" var_name="clicks" added="1252756682">Clicks</phrase>
+	<phrase module_id="ad" version_id="2.0.0rc2" var_name="edit" added="1252756691">Edit</phrase>
+	<phrase module_id="ad" version_id="2.0.0rc2" var_name="delete" added="1252756699">Eliminar</phrase>
+	<phrase module_id="ad" version_id="2.0.0rc2" var_name="no_ads_have_been_created" added="1252756733">No ads have been created.</phrase>
+	<phrase module_id="ad" version_id="2.0.0rc2" var_name="add_a_new_add" added="1252756768">Add a New Add</phrase>
+	<phrase module_id="ad" version_id="2.0.0rc2" var_name="cache_manager" added="1252757546">Cache Manager</phrase>
+	<phrase module_id="ad" version_id="2.0.0rc2" var_name="note_the_time_is_set_to_your_registered_time_zone" added="1253448407">Note the time is set to your registered time zone.</phrase>
+</phrases>

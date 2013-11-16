@@ -1,0 +1,81 @@
+<phrases>
+	<phrase module_id="custom" version_id="2.0.0alpha3" var_name="module_custom" added="1238394705">Custom Fields</phrase>
+	<phrase module_id="custom" version_id="2.0.0alpha3" var_name="user_setting_can_edit_own_custom_field" added="1238403255">Can edit own custom fields?</phrase>
+	<phrase module_id="custom" version_id="2.0.0alpha3" var_name="user_setting_can_edit_other_custom_fields" added="1238403455">Can edit other custom fields?</phrase>
+	<phrase module_id="custom" version_id="2.0.0alpha3" var_name="admin_menu_add_custom_field" added="1238430261">Add Custom Field</phrase>
+	<phrase module_id="custom" version_id="2.0.0alpha3" var_name="admin_menu_manage_custom_fields" added="1238611269">Manage Custom Fields</phrase>
+	<phrase module_id="custom" version_id="2.0.0alpha3" var_name="user_setting_can_add_custom_fields" added="1238611534">Can add new custom fields?</phrase>
+	<phrase module_id="custom" version_id="2.0.0alpha3" var_name="setting_hide_custom_fields_when_empty" added="1238613571"><![CDATA[<title>Hide Empty Custom Fields (Users Profile)</title><info>Define if we should hide custom fields that are empty when a user is viewing their profile without visiting the design page.</info>]]></phrase>
+	<phrase module_id="custom" version_id="2.0.0alpha3" var_name="admin_menu_add_custom_group" added="1238665028">Add Custom Group</phrase>
+	<phrase module_id="custom" version_id="2.0.0alpha3" var_name="user_setting_can_add_custom_fields_group" added="1238665815">Can add a group for custom fields?</phrase>
+	<phrase module_id="custom" version_id="2.0.0beta1" var_name="user_setting_has_special_custom_fields" added="1240596597">Can have special custom fields?</phrase>
+	<phrase module_id="custom" version_id="2.0.0beta1" var_name="user_setting_custom_table_name" added="1240597480">Custom field database table name?</phrase>
+	<phrase module_id="custom" version_id="2.0.0beta1" var_name="admincp_custom_fields" added="1241342492">Custom Fields</phrase>
+	<phrase module_id="custom" version_id="2.0.0rc3" var_name="nothing_added_yet_click_to_edit" added="1254382815"><![CDATA[Nothing added yet. Click <a href="#" onclick="{link}">here</a> to edit.]]></phrase>
+	<phrase module_id="custom" version_id="2.0.0rc3" var_name="select_a_product_this_custom_field_will_belong_to" added="1254383181">Select a product this custom field will belong to.</phrase>
+	<phrase module_id="custom" version_id="2.0.0rc3" var_name="select_a_module_this_custom_field_will_belong_to" added="1254383838">Select a module this custom field will belong to.</phrase>
+	<phrase module_id="custom" version_id="2.0.0rc3" var_name="select_where_this_custom_field_should_be_located" added="1254383854">Select where this custom field should be located.</phrase>
+	<phrase module_id="custom" version_id="2.0.0rc3" var_name="group_successfully_updated" added="1254383870">Group successfully updated.</phrase>
+	<phrase module_id="custom" version_id="2.0.0rc3" var_name="group_successfully_added" added="1254383896">Group successfully added.</phrase>
+	<phrase module_id="custom" version_id="2.0.0rc3" var_name="add_a_new_custom_group" added="1254383958">Add a New Custom Group</phrase>
+	<phrase module_id="custom" version_id="2.0.0rc3" var_name="select_what_type_of_custom_field_this_is" added="1254384409">Select what type of custom field this is.</phrase>
+	<phrase module_id="custom" version_id="2.0.0rc3" var_name="field_successfully_updated" added="1254384441">Field successfully updated.</phrase>
+	<phrase module_id="custom" version_id="2.0.0rc3" var_name="field_successfully_added" added="1254384461">Field successfully added.</phrase>
+	<phrase module_id="custom" version_id="2.0.0rc3" var_name="add_a_new_custom_field" added="1254384520">Add a New Custom Field</phrase>
+	<phrase module_id="custom" version_id="2.0.0rc3" var_name="custom_group_successfully_deleted" added="1254384555">Custom group successfully deleted.</phrase>
+	<phrase module_id="custom" version_id="2.0.0rc3" var_name="custom_fields_successfully_updated" added="1254384566">Custom fields successfully updated.</phrase>
+	<phrase module_id="custom" version_id="2.0.0rc3" var_name="manage_custom_fields" added="1254384579">Manage Custom Fields</phrase>
+	<phrase module_id="custom" version_id="2.0.0rc3" var_name="provide_a_module_for_this_group_to_belong_to" added="1254384647">Provide a module for this group to belong to.</phrase>
+	<phrase module_id="custom" version_id="2.0.0rc3" var_name="provide_a_name_for_this_group" added="1254384681">Provide a name for this group.</phrase>
+	<phrase module_id="custom" version_id="2.0.0rc3" var_name="there_is_already_a_group_with_the_same_name" added="1254384698">There is already a group with the same name.</phrase>
+	<phrase module_id="custom" version_id="2.0.0rc3" var_name="unable_to_find_the_custom_group" added="1254384946">Unable to find the custom group.</phrase>
+	<phrase module_id="custom" version_id="2.0.0rc3" var_name="unable_to_find_the_group_you_plan_on_deleting" added="1254384964">Unable to find the group you plan on deleting.</phrase>
+	<phrase module_id="custom" version_id="2.0.0rc3" var_name="not_a_valid_custom_field_to_edit" added="1254385041">Not a valid custom field to edit.</phrase>
+	<phrase module_id="custom" version_id="2.0.0rc3" var_name="you_do_not_have_permission_to_edit_this_field" added="1254385054">You do not have permission to edit this field.</phrase>
+	<phrase module_id="custom" version_id="2.0.0rc3" var_name="updating" added="1254385075">Updating</phrase>
+	<phrase module_id="custom" version_id="2.0.0rc3" var_name="cancel" added="1254385096">cancelar</phrase>
+	<phrase module_id="custom" version_id="2.0.0rc3" var_name="provide_a_name_for_the_custom_field" added="1254385184">Provide a name for the custom field.</phrase>
+	<phrase module_id="custom" version_id="2.0.0rc3" var_name="name_of_this_custom_field_is_already_in_use" added="1254385200">Name of this custom field is already in use.</phrase>
+	<phrase module_id="custom" version_id="2.0.0rc3" var_name="not_a_valid_type_of_custom_field" added="1254385228">Not a valid type of custom field.</phrase>
+	<phrase module_id="custom" version_id="2.0.0rc3" var_name="you_have_selected_that_this_field_is_a_select_custom_field_which_requires_at_least_one_option" added="1254385243"><![CDATA[You have selected that this field is a "select" custom field, which requires at least one option.]]></phrase>
+	<phrase module_id="custom" version_id="2.0.0rc3" var_name="unable_to_find_the_custom_field" added="1254385584">Unable to find the custom field.</phrase>
+	<phrase module_id="custom" version_id="2.0.0rc3" var_name="unable_to_find_the_custom_field_you_want_to_delete" added="1254385593">Unable to find the custom field you want to delete.</phrase>
+	<phrase module_id="custom" version_id="2.0.0rc3" var_name="unable_to_find_the_custom_option_you_plan_on_deleting" added="1254385607">Unable to find the custom option you plan on deleting.</phrase>
+	<phrase module_id="custom" version_id="2.0.0rc3" var_name="are_you_sure_you_want_to_delete_this_custom_option" added="1254385722">Are you sure you want to delete this custom option?
+
+Note that anyone using this option will revert to using the default option set for this custom field.</phrase>
+	<phrase module_id="custom" version_id="2.0.0rc3" var_name="select" added="1254387580">Seleccionar</phrase>
+	<phrase module_id="custom" version_id="2.0.0rc3" var_name="no_answer" added="1254387590">No Answer</phrase>
+	<phrase module_id="custom" version_id="2.0.0rc3" var_name="group_details" added="1254387601">Group Details</phrase>
+	<phrase module_id="custom" version_id="2.0.0rc3" var_name="location" added="1254387608"><![CDATA[Ubicaci&#243;n]]></phrase>
+	<phrase module_id="custom" version_id="2.0.0rc3" var_name="user_group" added="1254387623">User Group</phrase>
+	<phrase module_id="custom" version_id="2.0.0rc3" var_name="select_only_if_you_want_a_specific_user_group_to_have_special_custom_fields" added="1254387639">Select only if you want a specific user group to have special custom fields.</phrase>
+	<phrase module_id="custom" version_id="2.0.0rc3" var_name="group" added="1254387647">Group</phrase>
+	<phrase module_id="custom" version_id="2.0.0rc3" var_name="add_group" added="1254387667">Agregar Grupo</phrase>
+	<phrase module_id="custom" version_id="2.0.0rc3" var_name="cancel_uppercase" added="1254387686">Cancelar</phrase>
+	<phrase module_id="custom" version_id="2.0.0rc3" var_name="field_details" added="1254387694">Field Details</phrase>
+	<phrase module_id="custom" version_id="2.0.0rc3" var_name="create_a_new_group" added="1254388379">Create a New Group</phrase>
+	<phrase module_id="custom" version_id="2.0.0rc3" var_name="required" added="1254388430">Required</phrase>
+	<phrase module_id="custom" version_id="2.0.0rc3" var_name="yes" added="1254388436">Yes</phrase>
+	<phrase module_id="custom" version_id="2.0.0rc3" var_name="no" added="1254388445">No</phrase>
+	<phrase module_id="custom" version_id="2.0.0rc3" var_name="type" added="1254388454">Type</phrase>
+	<phrase module_id="custom" version_id="2.0.0rc3" var_name="large_text_area" added="1254388469">Large Text Area</phrase>
+	<phrase module_id="custom" version_id="2.0.0rc3" var_name="small_text_area_255_characters_max" added="1254388477">Small Text Area (255 Characters Max)</phrase>
+	<phrase module_id="custom" version_id="2.0.0rc3" var_name="selection" added="1254388483">Selection</phrase>
+	<phrase module_id="custom" version_id="2.0.0rc3" var_name="field_name_amp_values" added="1254388493"><![CDATA[Field Name & Values]]></phrase>
+	<phrase module_id="custom" version_id="2.0.0rc3" var_name="name" added="1254388502">Nombre</phrase>
+	<phrase module_id="custom" version_id="2.0.0rc3" var_name="current_values" added="1254388513">Current Values</phrase>
+	<phrase module_id="custom" version_id="2.0.0rc3" var_name="option_count" added="1254388554">Option {count}</phrase>
+	<phrase module_id="custom" version_id="2.0.0rc3" var_name="values" added="1254388568">Values</phrase>
+	<phrase module_id="custom" version_id="2.0.0rc3" var_name="option_html_count" added="1254388585"><![CDATA[Option <span class="js_option_count"></span>]]></phrase>
+	<phrase module_id="custom" version_id="2.0.0rc3" var_name="add_new_option" added="1254388596">Add New Option</phrase>
+	<phrase module_id="custom" version_id="2.0.0rc3" var_name="update" added="1254388602">Actualizar</phrase>
+	<phrase module_id="custom" version_id="2.0.0rc3" var_name="add" added="1254388609">Agregar</phrase>
+	<phrase module_id="custom" version_id="2.0.0rc3" var_name="edit" added="1254388627">Edit</phrase>
+	<phrase module_id="custom" version_id="2.0.0rc3" var_name="set_to_inactive" added="1254388637">Set to Inactive</phrase>
+	<phrase module_id="custom" version_id="2.0.0rc3" var_name="delete" added="1254388643">Eliminar</phrase>
+	<phrase module_id="custom" version_id="2.0.0rc3" var_name="custom_fields" added="1254388653">Custom Fields</phrase>
+	<phrase module_id="custom" version_id="2.0.0rc3" var_name="general" added="1254388664">General</phrase>
+	<phrase module_id="custom" version_id="2.0.0rc3" var_name="update_order" added="1254388687">Update Order</phrase>
+	<phrase module_id="custom" version_id="2.0.0rc3" var_name="no_custom_fields_have_been_added" added="1254388696">No custom fields have been added.</phrase>
+</phrases>

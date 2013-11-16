@@ -1,0 +1,217 @@
+<phrases>
+	<phrase module_id="blog" version_id="2.0.0alpha1" var_name="user_setting_view_blogs" added="1214436163">Puede ver los blogs.</phrase>
+	<phrase module_id="blog" version_id="2.0.0alpha1" var_name="user_setting_edit_own_blog" added="1214436244">Pueden editar sus propios blogs?</phrase>
+	<phrase module_id="blog" version_id="2.0.0alpha1" var_name="user_setting_edit_user_blog" added="1214436264"><![CDATA[Puede editar los blogs a&#241;adidos por otros usuarios?]]></phrase>
+	<phrase module_id="blog" version_id="2.0.0alpha1" var_name="user_setting_delete_own_blog" added="1214436270"><![CDATA[&#191;Se puede borrar su propio blog?]]></phrase>
+	<phrase module_id="blog" version_id="2.0.0alpha1" var_name="user_setting_delete_user_blog" added="1214436277">Puede eliminar los blogs agregados por otros usuarios?</phrase>
+	<phrase module_id="blog" version_id="2.0.0alpha1" var_name="user_setting_search_blogs" added="1214436285">Puede buscar por blogs?</phrase>
+	<phrase module_id="blog" version_id="2.0.0alpha1" var_name="user_setting_add_new_blog" added="1214436306">Puede agregar un nuevo blog?</phrase>
+	<phrase module_id="blog" version_id="2.0.0alpha1" var_name="user_setting_blog_add_categories" added="1214436490"><![CDATA[Pueden crear nuevas categor&#237;as de blog cuando se a&#241;ade un blog?]]></phrase>
+	<phrase module_id="blog" version_id="2.0.0alpha1" var_name="user_setting_can_control_comments_on_blogs" added="1214436533">Puede controlar si un usuario puede agregar un comentario en su blog o simplemente deshabilitar comentarios?</phrase>
+	<phrase module_id="blog" version_id="2.0.0alpha1" var_name="user_setting_can_password_protect_blogs" added="1214436544"><![CDATA[Puede proteger los blogs con una con contrase&#241;a?
+
+Si se configura como <b>S&#237;</b> el usuario no podr&#225; ver o comentar en blog protegido a menos que introduzca la contrase&#241;a correcta.
+
+El usuario que a&#241;adi&#243; que el blog no tendr&#225; que introducir la contrase&#241;a.]]></phrase>
+	<phrase module_id="blog" version_id="2.0.0alpha1" var_name="user_setting_can_use_editor_on_blog" added="1214436572"><![CDATA[Puede utilizar un editor WYSIWYG al crear o editar un blog?
+
+Nota: La funci&#243;n de editor WYSIWYG debe estar habilitada.]]></phrase>
+	<phrase module_id="blog" version_id="2.0.0alpha1" var_name="user_setting_can_post_comment_on_blog" added="1214975412">Puede publicar comentarios en los blogs?</phrase>
+	<phrase module_id="blog" version_id="2.0.0alpha1" var_name="user_setting_can_view_password_protected_blog" added="1214975898"><![CDATA[&#191;Se pueden ver los blogs protegidos por una contrase&#241;a?
+
+Si un blog ha sido protegido con una contrase&#241;a de un usuario tendr&#225; que introducir la contrase&#241;a antes de poder ver o comentar en el blog.
+
+Si esta funci&#243;n se establece con un <b>No</b> los usuarios no tendr&#225;n la oportunidad de introducir una contrase&#241;a por lo que no les permite ver los blogs.]]></phrase>
+	<phrase module_id="blog" version_id="2.0.0alpha1" var_name="user_setting_points_blog" added="1214982408"><![CDATA[Especifique cu&#225;ntos puntos recibir&#225; el usuario cuando se a&#241;ade un nuevo blog.]]></phrase>
+	<phrase module_id="blog" version_id="2.0.0alpha1" var_name="user_setting_blog_category_limit" added="1218791957"><![CDATA[l&#237;mite de la categor&#237;a del blog]]></phrase>
+	<phrase module_id="blog" version_id="2.0.0alpha1" var_name="blog" added="1214844661">Blog</phrase>
+	<phrase module_id="blog" version_id="2.0.0alpha1" var_name="module_blog" added="1219135843">prueba agradable</phrase>
+	<phrase module_id="blog" version_id="2.0.0alpha1" var_name="already_a_category" added="1212114610"><![CDATA[Esta categor&#237;a ya existe.]]></phrase>
+	<phrase module_id="blog" version_id="2.0.0alpha1" var_name="posted_x_by_x_in_x" added="1212114864"><![CDATA[Publicado en {date} por <a href="{link}">{full_name}</a> en {categories}]]></phrase>
+	<phrase module_id="blog" version_id="2.0.0alpha1" var_name="posted_x_by_x" added="1212118012"><![CDATA[Publicado en {date} por <a href="{link}">{full_name}</a>]]></phrase>
+	<phrase module_id="blog" version_id="2.0.0alpha1" var_name="x_comment" added="1212118157">{total} Comentario</phrase>
+	<phrase module_id="blog" version_id="2.0.0alpha1" var_name="x_comments" added="1212118195">{total} Comentarios</phrase>
+	<phrase module_id="blog" version_id="2.0.0alpha1" var_name="view_entry" added="1212118224"><![CDATA[Ver Art&#237;culo]]></phrase>
+	<phrase module_id="blog" version_id="2.0.0alpha1" var_name="this_blog_password_protected" added="1212118249"><![CDATA[Este blog est&#225; protegido por contrase&#241;a.]]></phrase>
+	<phrase module_id="blog" version_id="2.0.0alpha1" var_name="enter_password" added="1212118284"><![CDATA[Introducir contrase&#241;a]]></phrase>
+	<phrase module_id="blog" version_id="2.0.0alpha1" var_name="click_to_edit_title" added="1212118317"><![CDATA[Haz clic para editar T&#237;tulo]]></phrase>
+	<phrase module_id="blog" version_id="2.0.0alpha1" var_name="delete_blog" added="1212118384">Eliminar Blog</phrase>
+	<phrase module_id="blog" version_id="2.0.0alpha1" var_name="search_blogs_" added="1212123440">Buscar blogs...</phrase>
+	<phrase module_id="blog" version_id="2.0.0alpha1" var_name="blogs" added="1212123482">Blogs</phrase>
+	<phrase module_id="blog" version_id="2.0.0alpha1" var_name="unable_to_view_password_protected_blogs" added="1212123772"><![CDATA[Usted no puede ver los blogs protegidos por contrase&#241;as.]]></phrase>
+	<phrase module_id="blog" version_id="2.0.0alpha1" var_name="password_is_invalid" added="1212123827"><![CDATA[Contrase&#241;a es inv&#225;lida.]]></phrase>
+	<phrase module_id="blog" version_id="2.0.0alpha1" var_name="blog_not_found" added="1212123902">El blog que busca no se encuentra.</phrase>
+	<phrase module_id="blog" version_id="2.0.0alpha1" var_name="comments_have_been_disabled" added="1212123947">Comentarios se han inhabilitado.</phrase>
+	<phrase module_id="blog" version_id="2.0.0alpha1" var_name="no_blogs_added" added="1213594226">No se han agregado blogs.</phrase>
+	<phrase module_id="blog" version_id="2.0.0alpha1" var_name="be_first_to_add_a_blog" added="1213594273">Sea el primero en agregar un blog</phrase>
+	<phrase module_id="blog" version_id="2.0.0alpha1" var_name="title" added="1213594579"><![CDATA[T&#237;tulo]]></phrase>
+	<phrase module_id="blog" version_id="2.0.0alpha1" var_name="fill_title_for_blog" added="1213606861"><![CDATA[Escribe un t&#237;tulo para tu blog]]></phrase>
+	<phrase module_id="blog" version_id="2.0.0alpha1" var_name="add_content_to_blog" added="1213606896"><![CDATA[Agrega alg&#250;n contenido en tu blog]]></phrase>
+	<phrase module_id="blog" version_id="2.0.0alpha1" var_name="maximum_length_password" added="1213606965"><![CDATA[La longitud m&#225;xima de la contrase&#241;a es {length}]]></phrase>
+	<phrase module_id="blog" version_id="2.0.0alpha1" var_name="add_a_new_blog" added="1213607039">Agregar un Nuevo Blog</phrase>
+	<phrase module_id="blog" version_id="2.0.0alpha1" var_name="adding_a_new_blog" added="1213607053">Agregar un Nuevo Blog</phrase>
+	<phrase module_id="blog" version_id="2.0.0alpha1" var_name="menu_blogs" added="1213607098">Blogs</phrase>
+	<phrase module_id="blog" version_id="2.0.0alpha1" var_name="your_blog_has_been_added" added="1213607139">Tu blog ha sido agregado</phrase>
+	<phrase module_id="blog" version_id="2.0.0alpha1" var_name="post" added="1213607157">Contenido</phrase>
+	<phrase module_id="blog" version_id="2.0.0alpha1" var_name="categories" added="1213607178"><![CDATA[Categor&#237;as]]></phrase>
+	<phrase module_id="blog" version_id="2.0.0alpha1" var_name="all" added="1213607202">Todos</phrase>
+	<phrase module_id="blog" version_id="2.0.0alpha1" var_name="public" added="1213607214"><![CDATA[P&#250;blico]]></phrase>
+	<phrase module_id="blog" version_id="2.0.0alpha1" var_name="personal" added="1213607227">Personal</phrase>
+	<phrase module_id="blog" version_id="2.0.0alpha1" var_name="most_used" added="1213607244"><![CDATA[M&#225;s Le&#237;do]]></phrase>
+	<phrase module_id="blog" version_id="2.0.0alpha1" var_name="manage_categories" added="1213607259"><![CDATA[Manejar Categor&#237;as]]></phrase>
+	<phrase module_id="blog" version_id="2.0.0alpha1" var_name="add_a_new_category" added="1213607287"><![CDATA[Agregar nueva Categor&#237;a...]]></phrase>
+	<phrase module_id="blog" version_id="2.0.0alpha1" var_name="multiple_categories_with_commas" added="1213607389"><![CDATA[Separar multiples categor&#237;as con comas.]]></phrase>
+	<phrase module_id="blog" version_id="2.0.0alpha1" var_name="add" added="1213607405">Agregar</phrase>
+	<phrase module_id="blog" version_id="2.0.0alpha1" var_name="additional_options" added="1213612389">Opciones Adicionales</phrase>
+	<phrase module_id="blog" version_id="2.0.0alpha1" var_name="privacy" added="1213612412">Privacidad</phrase>
+	<phrase module_id="blog" version_id="2.0.0alpha1" var_name="public_blog_added_public_blog_section" added="1213612445"><![CDATA[P&#250;blico (blog ser&#225; agregado a nuestra secci&#243;n de blogs p&#250;blicos)]]></phrase>
+	<phrase module_id="blog" version_id="2.0.0alpha1" var_name="personal_blog_displayed_profile" added="1213612471"><![CDATA[Personal (blog s&#243;lo se mostrar&#225; en tu perfil)]]></phrase>
+	<phrase module_id="blog" version_id="2.0.0alpha1" var_name="friends_view_this_blog" added="1213612509"><![CDATA[Amigos (S&#243;lo t&#250; y tus amigos pueden ver este blog)]]></phrase>
+	<phrase module_id="blog" version_id="2.0.0alpha1" var_name="preferred_list" added="1213612543"><![CDATA[Lista de Preferencia (S&#243;lo t&#250; y los miembros que selecciones pueden ver blog)]]></phrase>
+	<phrase module_id="blog" version_id="2.0.0alpha1" var_name="separate_friends_commas" added="1213612566">Separar Amigos con comas.</phrase>
+	<phrase module_id="blog" version_id="2.0.0alpha1" var_name="password_protect_post" added="1213612585"><![CDATA[Contrase&#241;a (Opcional)]]></phrase>
+	<phrase module_id="blog" version_id="2.0.0alpha1" var_name="discussion" added="1213612600"><![CDATA[Discusi&#243;n]]></phrase>
+	<phrase module_id="blog" version_id="2.0.0alpha1" var_name="allow_comments" added="1213612615">Permitir Comentarios</phrase>
+	<phrase module_id="blog" version_id="2.0.0alpha1" var_name="post_status" added="1213612635">Estado</phrase>
+	<phrase module_id="blog" version_id="2.0.0alpha1" var_name="published" added="1213612660">Publicado</phrase>
+	<phrase module_id="blog" version_id="2.0.0alpha1" var_name="draft" added="1213612671">Borrador</phrase>
+	<phrase module_id="blog" version_id="2.0.0alpha1" var_name="save_as_draft" added="1213612691">Guardar como un Borrador</phrase>
+	<phrase module_id="blog" version_id="2.0.0alpha1" var_name="preview" added="1213612716">Vista Previa</phrase>
+	<phrase module_id="blog" version_id="2.0.0alpha1" var_name="publish" added="1213612750">Publicar</phrase>
+	<phrase module_id="blog" version_id="2.0.0alpha1" var_name="update" added="1213612775">Actualizar</phrase>
+	<phrase module_id="blog" version_id="2.0.0alpha1" var_name="blog_preview" added="1213855272">Vista Previa del Blog</phrase>
+	<phrase module_id="blog" version_id="2.0.0alpha1" var_name="editing_blog" added="1213855344">Editando Blog</phrase>
+	<phrase module_id="blog" version_id="2.0.0alpha1" var_name="blog_updated" added="1213855813">Blog Actualizado</phrase>
+	<phrase module_id="blog" version_id="2.0.0alpha1" var_name="invalid_search" added="1214706746"><![CDATA[# de ID de B&#250;squeda inv&#225;lido]]></phrase>
+	<phrase module_id="blog" version_id="2.0.0alpha1" var_name="searching" added="1214706764">Buscando</phrase>
+	<phrase module_id="blog" version_id="2.0.0alpha1" var_name="search_results_found" added="1214706814">No se encontraron resultados!</phrase>
+	<phrase module_id="blog" version_id="2.0.0alpha1" var_name="menu_add_new_blog" added="1215259888">Agregar un nuevo Blog</phrase>
+	<phrase module_id="blog" version_id="2.0.0alpha1" var_name="search_filter" added="1217558351"><![CDATA[Criterios de B&#250;squeda]]></phrase>
+	<phrase module_id="blog" version_id="2.0.0alpha1" var_name="top_bloggers" added="1217797114">Bloggers Principales</phrase>
+	<phrase module_id="blog" version_id="2.0.0alpha1" var_name="time" added="1217797266">Fecha</phrase>
+	<phrase module_id="blog" version_id="2.0.0alpha1" var_name="most_viewed" added="1217797279"><![CDATA[M&#225;s Vistos]]></phrase>
+	<phrase module_id="blog" version_id="2.0.0alpha1" var_name="most_talked_about" added="1217797290"><![CDATA[M&#225;s Comentados]]></phrase>
+	<phrase module_id="blog" version_id="2.0.0alpha1" var_name="search_for_text" added="1217797327">Buscar por Texto</phrase>
+	<phrase module_id="blog" version_id="2.0.0alpha1" var_name="display" added="1217797335">Mostrar</phrase>
+	<phrase module_id="blog" version_id="2.0.0alpha1" var_name="sort" added="1217797343">Ordenar por</phrase>
+	<phrase module_id="blog" version_id="2.0.0alpha1" var_name="menu_view_my_blogs" added="1217797600">Ver mis Blogs</phrase>
+	<phrase module_id="blog" version_id="2.0.0alpha1" var_name="added" added="1218529569">Agregado</phrase>
+	<phrase module_id="blog" version_id="2.0.0alpha1" var_name="blog_deleted" added="1218529633">Blog Eliminados</phrase>
+	<phrase module_id="blog" version_id="2.0.0alpha1" var_name="password_invalid" added="1218529740"><![CDATA[Contrase&#241;a es inv&#225;lida.]]></phrase>
+	<phrase module_id="blog" version_id="2.0.0alpha1" var_name="unable_view_password_protected_blogs" added="1218529789"><![CDATA[Usted no puede ver los blogs protegidos por contrase&#241;a.]]></phrase>
+	<phrase module_id="blog" version_id="2.0.0alpha1" var_name="click_edit_permalink" added="1218548055">Clic para editar permalink.</phrase>
+	<phrase module_id="blog" version_id="2.0.0alpha1" var_name="permalink" added="1218548064">Permalink</phrase>
+	<phrase module_id="blog" version_id="2.0.0alpha1" var_name="you_have_reached_your_limit" added="1218793409"><![CDATA[Usted ha llegado a su l&#237;mite.]]></phrase>
+	<phrase module_id="blog" version_id="2.0.0alpha1" var_name="tip_delete_category" added="1219325630"><![CDATA[Eliminar una categor&#237;a no borrar&#225; los blogs que pertenecen a esa categor&#237;a, s&#243;lo se elimina la categor&#237;a espec&#237;fica y los blogs que pertenecen a esa categor&#237;a se clasificar&#225;n en "Sin Categorizar".]]></phrase>
+	<phrase module_id="blog" version_id="2.0.0alpha1" var_name="search_for_user" added="1219328631">Buscar por Usuario</phrase>
+	<phrase module_id="blog" version_id="2.0.0alpha1" var_name="created" added="1219328642">Creado por</phrase>
+	<phrase module_id="blog" version_id="2.0.0alpha1" var_name="name" added="1219328685">Nombre</phrase>
+	<phrase module_id="blog" version_id="2.0.0alpha1" var_name="total_blogs" added="1219328723">Total de Blogs</phrase>
+	<phrase module_id="blog" version_id="2.0.0alpha1" var_name="system" added="1219328731">Sistema</phrase>
+	<phrase module_id="blog" version_id="2.0.0alpha1" var_name="delete_selected" added="1219328746">Eliminar Seleccionados</phrase>
+	<phrase module_id="blog" version_id="2.0.0alpha1" var_name="none" added="1219328767">Ninguno</phrase>
+	<phrase module_id="blog" version_id="2.0.0alpha1" var_name="users" added="1219328992">Usuarios</phrase>
+	<phrase module_id="blog" version_id="2.0.0alpha1" var_name="categories_successfully_deleted" added="1219329875"><![CDATA[Las Categor&#237;as fueron eliminadas]]></phrase>
+	<phrase module_id="blog" version_id="2.0.0alpha1" var_name="add_category" added="1219391589"><![CDATA[Agregar Nueva Categor&#237;a]]></phrase>
+	<phrase module_id="blog" version_id="2.0.0alpha1" var_name="category_successfully_added" added="1219393407"><![CDATA[Categor&#237;a ha sido agregada.]]></phrase>
+	<phrase module_id="blog" version_id="2.0.0alpha1" var_name="provide_blog_category" added="1219393431"><![CDATA[Categor&#237;a privada de blog.]]></phrase>
+	<phrase module_id="blog" version_id="2.0.0alpha1" var_name="category_details" added="1219393445"><![CDATA[Detalles de Categor&#237;a]]></phrase>
+	<phrase module_id="blog" version_id="2.0.0alpha1" var_name="category" added="1219393453"><![CDATA[Categor&#237;a]]></phrase>
+	<phrase module_id="blog" version_id="2.0.0alpha1" var_name="sort_single" added="1219840870">Ordenar por</phrase>
+	<phrase module_id="blog" version_id="2.0.0alpha1" var_name="single" added="1219840881">Por</phrase>
+	<phrase module_id="blog" version_id="2.0.0alpha1" var_name="created_user" added="1221831207">Creado por</phrase>
+	<phrase module_id="blog" version_id="2.0.0alpha1" var_name="menu_view_blogs" added="1231408433">Ver los Blogs</phrase>
+	<phrase module_id="blog" version_id="2.0.0alpha1" var_name="setting_show_drafts_count" added="1233222866"><![CDATA[<title>Mostrar el recuento de los borradores en el m&#243;dulo de los blogs</title><info>Se activa el m&#243;dulo para mostrar cuantos borradores tiene cada usuario  desde la secci&#243;n del perfil de los blogs</info>]]></phrase>
+	<phrase module_id="blog" version_id="2.0.0alpha1" var_name="user_setting_show_drafts_count" added="1233223235"><![CDATA[Mostrar cuantos borradores est&#225;n almacenados]]></phrase>
+	<phrase module_id="blog" version_id="2.0.0alpha3" var_name="user_setting_can_delete_other_blog_category" added="1238248276"><![CDATA[&#191;Se puede elminar las categor&#237;as de los blogs creadas por otros usuarios?]]></phrase>
+	<phrase module_id="blog" version_id="2.0.0alpha3" var_name="user_setting_can_delete_own_blog_category" added="1238248327"><![CDATA[&#191;Se puede eliminar categor&#237;as de los blogs?]]></phrase>
+	<phrase module_id="blog" version_id="2.0.0alpha3" var_name="setting_display_blog_category_count" added="1238349584"><![CDATA[<title>Mostrar el recuento de las Categor&#237;a del Blog</title><info>Ajustar a<b>Cierto</b> si desea mostrar el recuento de los blogs para cada una de las categor&#237;as exhibidas p&#250;blicamente.</info>]]></phrase>
+	<phrase module_id="blog" version_id="2.0.0beta4" var_name="stat_title_2" added="1245142611">Blogs</phrase>
+	<phrase module_id="blog" version_id="2.0.0beta5" var_name="rss_group_name_1" added="1245515168">Blogs</phrase>
+	<phrase module_id="blog" version_id="2.0.0beta5" var_name="rss_title_1" added="1245516443">Blogs Recientes</phrase>
+	<phrase module_id="blog" version_id="2.0.0beta5" var_name="rss_description_1" added="1245516443">Blogs Recientes</phrase>
+	<phrase module_id="blog" version_id="2.0.0beta5" var_name="rss_title_2" added="1245531498"><![CDATA[Categor&#237;as]]></phrase>
+	<phrase module_id="blog" version_id="2.0.0beta5" var_name="rss_description_2" added="1245531498"><![CDATA[Categor&#237;as de los Blog...]]></phrase>
+	<phrase module_id="blog" version_id="30" var_name="setting_length_in_index" added="1247587010"><![CDATA[<title>Cuanto dura el ver el Blog</title><info>&#191;Qu&#233; parte del blog se mostrar&#225; en la secci&#243;n principal del blog?
+El valor es en caracteres, i.e.:
+15 y se muestran algo as&#237; como:
+"Lorem ipsum dol..."
+
+0 = No limit</info>]]></phrase>
+	<phrase module_id="blog" version_id="2.0.0rc1" var_name="user_setting_can_approve_blogs" added="1251202806">Se puede aprobar blogs?</phrase>
+	<phrase module_id="blog" version_id="2.0.0rc1" var_name="setting_spam_check_blogs" added="1251269478"><![CDATA[<title>Cotejar los Spam en los Blogs</title><info>Cotejar los Spam en los Blogs</info>]]></phrase>
+	<phrase module_id="blog" version_id="2.0.0rc1" var_name="setting_allow_links_in_blog_title" added="1251270055"><![CDATA[<title>Permitir enlaces en los t&#237;tulos de los blog</title><info>Permitir enlaces en los t&#237;tulos de los blog</info>]]></phrase>
+	<phrase module_id="blog" version_id="2.0.0rc1" var_name="setting_blog_meta_description" added="1252057473"><![CDATA[<title>Decripci&#243;n del Meta del Blog</title><info>Descripci&#243;n del Meta ser&#225; agregado en las p&#225;ginas relacionadas con el m&#243;dulo de los Blogs.</info>]]></phrase>
+	<phrase module_id="blog" version_id="2.0.0rc1" var_name="setting_blog_meta_keywords" added="1252058698"><![CDATA[<title>Palabras Claves en los Meta de los Blog</title><info>Palabras claves en los Meta que ser&#225;n mostrados en la secciones relacionadas con el m&#243;dulo de Blogs.</info>]]></phrase>
+	<phrase module_id="blog" version_id="2.0.0rc2" var_name="add_a_title" added="1252927105"><![CDATA[Agregar un T&#237;tulo.]]></phrase>
+	<phrase module_id="blog" version_id="2.0.0rc2" var_name="add_some_text" added="1252927127"><![CDATA[Agrega alg&#250;n texto.]]></phrase>
+	<phrase module_id="blog" version_id="2.0.0rc2" var_name="unable_to_edit_this_blog" added="1252927237">No se puede editar este blog.</phrase>
+	<phrase module_id="blog" version_id="2.0.0rc2" var_name="blog_successfully_saved" added="1252927265">Blog ha sido guardado</phrase>
+	<phrase module_id="blog" version_id="2.0.0rc2" var_name="blog_title" added="1252927310">Blogs</phrase>
+	<phrase module_id="blog" version_id="2.0.0rc2" var_name="full_name_s_blogs" added="1252927338">Blogs de {full_name}</phrase>
+	<phrase module_id="blog" version_id="2.0.0rc2" var_name="full_name_s_blogs_on_site_title" added="1252927452">Blogs de {full_name} en {site_title}.</phrase>
+	<phrase module_id="blog" version_id="2.0.0rc2" var_name="blogs_title" added="1252928477">Blogs</phrase>
+	<phrase module_id="blog" version_id="2.0.0rc2" var_name="owner_full_name_added_a_new_blog_a_href_title_link_title_a" added="1252928621"><![CDATA[<a href="{user_link}">{owner_full_name}</a> agreg&#243; un nuevo blog "<a href="{title_link}">{title}</a>".]]></phrase>
+	<phrase module_id="blog" version_id="2.0.0rc2" var_name="we_do_not_allow_links_in_titles" added="1252928947"><![CDATA[No permitimos v&#237;nculos en los t&#237;tulos.]]></phrase>
+	<phrase module_id="blog" version_id="2.0.0rc2" var_name="your_blog_has_been_marked_as_spam" added="1252929018"><![CDATA[Su blog se ha marcado como spam. Tendr&#225; que ser aprobado por un administrador antes de mostrarse en p&#250;blico.]]></phrase>
+	<phrase module_id="blog" version_id="2.0.0rc2" var_name="the_blog_you_are_trying_to_approve_is_not_valid" added="1252929042"><![CDATA[El blog que se est&#225; tratando de aprobar no es v&#225;lido.]]></phrase>
+	<phrase module_id="blog" version_id="2.0.0rc2" var_name="your_blog_has_been_approved_on_site_title" added="1252929062">Tu blog ha sido aprobado en {site_title}.</phrase>
+	<phrase module_id="blog" version_id="2.0.0rc2" var_name="your_blog_has_been_approved_on_site_title_message" added="1252929150"><![CDATA[Tu blog ha sido aprobado en {site_title}.
+
+Para ver este blog, siga el enlace de abajo:
+<a href="{link}">{link}</a>]]></phrase>
+	<phrase module_id="blog" version_id="2.0.0rc2" var_name="no_categories_added" added="1252929208"><![CDATA[No se han agregado categor&#237;as.]]></phrase>
+	<phrase module_id="blog" version_id="2.0.0rc2" var_name="private_entry" added="1252929256">ENTRADA PRIVADA</phrase>
+	<phrase module_id="blog" version_id="2.0.0rc2" var_name="private_entry_friends_only" added="1252929264">ENTRADA PRIVADA - AMIGOS SOLAMENTE</phrase>
+	<phrase module_id="blog" version_id="2.0.0rc2" var_name="private_blog_entry" added="1252929282">Entrada Privada de blog...</phrase>
+	<phrase module_id="blog" version_id="2.0.0rc2" var_name="private_blog_entry_friends_only" added="1252929290">Entrada Privada de Blog. Amigos solamente...</phrase>
+	<phrase module_id="blog" version_id="2.0.0rc2" var_name="approve" added="1252929386">Aprobar</phrase>
+	<phrase module_id="blog" version_id="2.0.0rc2" var_name="favorite" added="1252929401">Favorito</phrase>
+	<phrase module_id="blog" version_id="2.0.0rc2" var_name="add_to_your_favorites" added="1252929410">Agregar a tus Favoritos</phrase>
+	<phrase module_id="blog" version_id="2.0.0rc2" var_name="report" added="1252929417">Reportar</phrase>
+	<phrase module_id="blog" version_id="2.0.0rc2" var_name="report_a_blog" added="1252929424">Reportar este Blog</phrase>
+	<phrase module_id="blog" version_id="2.0.0rc2" var_name="are_you_sure_you_want_to_delete_this_blog" added="1252929444"><![CDATA[Est&#225; usted seguro que desea eliminar este blog?]]></phrase>
+	<phrase module_id="blog" version_id="2.0.0rc2" var_name="add_new_blog" added="1252929466">Agregar un Nuevo Blog</phrase>
+	<phrase module_id="blog" version_id="2.0.0rc2" var_name="view_drafts_count" added="1252929510">Ver Borradores ({count})</phrase>
+	<phrase module_id="blog" version_id="2.0.0rc2" var_name="no_blogs_have_been_added_yet" added="1252929703"><![CDATA[No se han agregado blogs a&#250;n.]]></phrase>
+	<phrase module_id="blog" version_id="2.0.0rc2" var_name="be_the_first_to_add_a_blog" added="1252929712">Sea el primero en agregar un Blog.</phrase>
+	<phrase module_id="blog" version_id="2.0.0rc2" var_name="posted_on_post_time_by_user_link" added="1252929857">Publicado en {post_time} por {user_link}.</phrase>
+	<phrase module_id="blog" version_id="2.0.0rc2" var_name="comments" added="1252934810">Comentarios</phrase>
+	<phrase module_id="blog" version_id="2.0.0rc2" var_name="moderate_comments_first" added="1252934832">Primeros Comentarios del Moderador</phrase>
+	<phrase module_id="blog" version_id="2.0.0rc2" var_name="no_comments" added="1252934841">No Comentarios</phrase>
+	<phrase module_id="blog" version_id="2.0.0rc2" var_name="blog_has_been_deleted" added="1252934891">Blog ha sido borrado!</phrase>
+	<phrase module_id="blog" version_id="2.0.0rc2" var_name="tags" added="1252934912">Etiquetas</phrase>
+	<phrase module_id="blog" version_id="2.0.0rc2" var_name="status" added="1252934921">Status</phrase>
+	<phrase module_id="blog" version_id="2.0.0rc2" var_name="date" added="1252934928">Fecha</phrase>
+	<phrase module_id="blog" version_id="2.0.0rc2" var_name="delete" added="1252934952">Eliminar</phrase>
+	<phrase module_id="blog" version_id="2.0.0rc2" var_name="you_have_not_added_any_drafts" added="1252934973"><![CDATA[Usted no ha agregado ning&#250;n borrador.]]></phrase>
+	<phrase module_id="blog" version_id="2.0.0rc2" var_name="you_have_not_added_any_blogs" added="1252934983">Usted no ha entrado blogs.</phrase>
+	<phrase module_id="blog" version_id="2.0.0rc2" var_name="add_a_new_blog_entry" added="1252935002">Agregar una nueva entrada de blog</phrase>
+	<phrase module_id="blog" version_id="2.0.0rc2" var_name="user_link_has_not_added_any_blogs" added="1252935029"><![CDATA[{user_link} no ha agregado blogs a&#250;n.]]></phrase>
+	<phrase module_id="blog" version_id="2.0.0rc2" var_name="browse_other_blog_entries" added="1252935242">Vea otros blogs entrados</phrase>
+	<phrase module_id="blog" version_id="2.0.0rc2" var_name="this_blog_is_pending_an_admins_approval" added="1252935262"><![CDATA[Este blog est&#225; pendiente de la aprovaci&#243;n del Administrador.]]></phrase>
+	<phrase module_id="blog" version_id="2.0.0rc3" var_name="user_added_a_new_comment_on_their_own_blog" added="1254380430"><![CDATA[<a href="{user_link}">{user_name}</a> agreg&#243; un nuevo comentario en su propio <a href="{title_link}">blog</a>.]]></phrase>
+	<phrase module_id="blog" version_id="2.0.0rc3" var_name="user_added_a_new_comment_on_your_blog" added="1254381407"><![CDATA[<a href="{user_link}">{user_name}</a> agreg&#243; un nuevo comentario en tu <a href="{title_link}">blog</a>.]]></phrase>
+	<phrase module_id="blog" version_id="2.0.0rc3" var_name="user_name_added_a_new_comment_on_item_user_name_blog" added="1254381593"><![CDATA[<a href="{user_link}">{user_name}</a> agreg&#243; un nuevo comentario en <a href="{item_user_link}">{item_user_name}'s</a> <a href="{title_link}">blog</a>.]]></phrase>
+	<phrase module_id="blog" version_id="2.0.0rc3" var_name="user_name_left_you_a_comment_on_site_title" added="1254381747"><![CDATA[{user_name} te dej&#243; un comentario en {site_title}.]]></phrase>
+	<phrase module_id="blog" version_id="2.0.0rc3" var_name="user_name_left_you_a_comment_on_site_title_to_view_this_comment" added="1254381827"><![CDATA[{user_name} te dej&#243; un comentario en {site_title}.
+
+Para ver este comentario, siga el enlace de abajo:
+<a href="{link}">{link}</a>]]></phrase>
+	<phrase module_id="blog" version_id="2.0.0rc3" var_name="user_name_left_you_a_comment_on_site_title_however_before_it_can_be_displayed_it" added="1254381922"><![CDATA[{user_name} te dej&#243; un comentario en {site_title}, Sin embargo, antes de que se pueda mostrar, tiene que ser aprobado por usted.
+
+Usted puede aprobar o rechazar este comentario, siguiendo el enlace de abajo:
+<a href="{link}">{link}</a>]]></phrase>
+	<phrase module_id="blog" version_id="2.0.0rc3" var_name="search_blogs" added="1254382037">Blogs</phrase>
+	<phrase module_id="blog" version_id="2.0.0rc3" var_name="view_more_blogs" added="1254382051"><![CDATA[Ver m&#225;s Blogs]]></phrase>
+	<phrase module_id="blog" version_id="2.0.0rc3" var_name="blog_created_on_time_stamp_by_full_name" added="1254382119"><![CDATA[<a href="{link}">Blog</a> creado en {time_stamp} por <a href="{user_link}">{full_name}</a>.]]></phrase>
+	<phrase module_id="blog" version_id="2.0.0rc3" var_name="write_a_blog" added="1254382481">Escribir un Blog</phrase>
+	<phrase module_id="blog" version_id="2.0.0rc3" var_name="manage_blogs" added="1254382492">Manejar Blogs</phrase>
+	<phrase module_id="blog" version_id="2.0.0rc3" var_name="your_blog_blog_title_has_been_approved" added="1254382530"><![CDATA[Tu blog "{blog_title}" ha sido aprobado.]]></phrase>
+	<phrase module_id="blog" version_id="2.0.0rc3" var_name="full_name_wrote_a_comment_on_your_blog_blog_title" added="1254382644"><![CDATA[<a href="{user_link}">{full_name}</a> escribi&#243; un comentario en tu blog "<a href="{blog_link}">{blog_title}</a>".]]></phrase>
+	<phrase module_id="blog" version_id="2.0.0rc3" var_name="blogs_text" added="1254382713">Texto de los Blogs</phrase>
+	<phrase module_id="blog" version_id="2.0.0rc8" var_name="setting_digg_integration" added="1258399183"><![CDATA[<title>Digg Intergration</title><info>Agregar la integraci&#243;n de Digg.</info>]]></phrase>
+	<phrase module_id="blog" version_id="2.0.0rc12" var_name="a_href_user_link_full_name_a_likes_your_a_href_link_blog_a" added="1260472335"><![CDATA[<a href="{user_link}">{full_name}</a> likes your <a href="{link}">blog</a>.]]></phrase>
+	<phrase module_id="blog" version_id="2.0.0rc12" var_name="a_href_user_link_full_name_a_likes_their_own_a_href_link_blog_a" added="1260472354"><![CDATA[<a href="{user_link}">{full_name}</a> likes {gender} own <a href="{link}">blog</a>.]]></phrase>
+	<phrase module_id="blog" version_id="2.0.0rc12" var_name="a_href_user_link_full_name_a_likes_a_href_view_user_link_view_full_name_a_s_a_href_link_blog_a" added="1260472367"><![CDATA[<a href="{user_link}">{full_name}</a> likes <a href="{view_user_link}">{view_full_name}</a>'s <a href="{link}">blog</a>.]]></phrase>
+</phrases>

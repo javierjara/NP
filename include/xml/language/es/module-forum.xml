@@ -1,0 +1,288 @@
+<phrases>
+	<phrase module_id="forum" version_id="2.0.0alpha1" var_name="module_forum" added="1232964154">Foro</phrase>
+	<phrase module_id="forum" version_id="2.0.0alpha1" var_name="menu_forum" added="1232964179">Foro</phrase>
+	<phrase module_id="forum" version_id="2.0.0alpha1" var_name="setting_forum_time_stamp" added="1236199398"><![CDATA[<title>Forum Time Stamp</title><info>Form Time Stamp</info>]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0alpha1" var_name="setting_forum_user_time_stamp" added="1236243410"><![CDATA[<title>Forum User Time Stamp</title><info>Forum User Time Stamp</info>]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0alpha1" var_name="admin_menu_manage" added="1236250722">Manejar</phrase>
+	<phrase module_id="forum" version_id="2.0.0alpha1" var_name="admin_menu_add" added="1236252198">Agregar</phrase>
+	<phrase module_id="forum" version_id="2.0.0alpha1" var_name="user_setting_can_stick_thread" added="1236253463">Puede pegar un tema del foro?</phrase>
+	<phrase module_id="forum" version_id="2.0.0alpha1" var_name="user_setting_can_close_a_thread" added="1236253526">Puede cerrar un tema?</phrase>
+	<phrase module_id="forum" version_id="2.0.0alpha1" var_name="user_setting_can_post_announcement" added="1236337152">Puede publicar un anuncio?</phrase>
+	<phrase module_id="forum" version_id="2.0.0alpha1" var_name="setting_total_posts_per_thread" added="1236343387"><![CDATA[<title>Total de Mensajes por Tema</title><info>Total Mensajes por Tema</info>]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0alpha1" var_name="user_setting_can_delete_own_post" added="1236444561"><![CDATA[Puede eliminar su propia publicaci&#243;n?]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0alpha1" var_name="user_setting_can_delete_other_posts" added="1236445319">Se pude eliminar otros mensajes?</phrase>
+	<phrase module_id="forum" version_id="2.0.0alpha1" var_name="user_setting_can_add_new_forum" added="1236620090"><![CDATA[Se puede agregar un foro p&#250;blico?]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0alpha1" var_name="user_setting_can_edit_forum" added="1236620328"><![CDATA[Se puede editar un foro p&#250;blico?]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0alpha1" var_name="user_setting_can_manage_forum_moderators" added="1236620711"><![CDATA[Se puede manejar los moderadores del foro?
+
+<b>Aviso:</b> Incluye agregar, editar y eliminar los moderadores del foro.]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0alpha1" var_name="user_setting_can_delete_forum" added="1236625977"><![CDATA[Se puede eliminar un foro p&#250;blico?]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0alpha1" var_name="user_setting_can_edit_own_post" added="1236672321">Se puede editar mis propios mensajes del foro</phrase>
+	<phrase module_id="forum" version_id="2.0.0alpha1" var_name="user_setting_can_edit_other_posts" added="1236673212">Se puede editar otros mensajes en el foro?</phrase>
+	<phrase module_id="forum" version_id="2.0.0alpha1" var_name="user_setting_can_move_forum_thread" added="1236685973">Se puede mover temas del foro?</phrase>
+	<phrase module_id="forum" version_id="2.0.0alpha1" var_name="user_setting_can_copy_forum_thread" added="1236690483">Se puede copiar temas del foro?</phrase>
+	<phrase module_id="forum" version_id="2.0.0alpha1" var_name="user_setting_can_merge_forum_threads" added="1236712843">Se puede combinar temas del foro?</phrase>
+	<phrase module_id="forum" version_id="2.0.0alpha1" var_name="user_setting_can_multi_quote_forum" added="1236761340"><![CDATA[Se puede usar la caracter&#237;stica multi-citar?]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0alpha1" var_name="user_setting_can_reply_to_own_thread" added="1236761601">Se puede responder a mi tema?</phrase>
+	<phrase module_id="forum" version_id="2.0.0alpha1" var_name="user_setting_can_reply_on_other_threads" added="1236761963">Se puede responder en temas publicados por otros usuarios?</phrase>
+	<phrase module_id="forum" version_id="2.0.0alpha1" var_name="user_setting_can_add_new_thread" added="1236762641">Se puede publicar un nuevo tema?</phrase>
+	<phrase module_id="forum" version_id="2.0.0alpha1" var_name="user_setting_can_add_forum_attachments" added="1236793576">Se puede agregar datos adjuntos a un mensaje?</phrase>
+	<phrase module_id="forum" version_id="2.0.0alpha1" var_name="user_setting_can_add_tags_on_threads" added="1236793957">Se puede agregar etiquetas a los temas?</phrase>
+	<phrase module_id="forum" version_id="2.0.0alpha1" var_name="user_setting_enable_captcha_on_posting" added="1236798433"><![CDATA[Habilitar la protecci&#243;n Captcha a la hora de escribir en los foros?]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0alpha1" var_name="setting_total_forum_tags_display" added="1237050147"><![CDATA[<title>Total de Etiquetas Mostradas</title><info>Define cuantas etiquetas se deben mostrar en la nube de etiquetas para el foro.</info>]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0alpha1" var_name="setting_total_forum_post_preview" added="1237052576"><![CDATA[<title>Vista previa del total de mensajes</title><info>Define cu&#225;ntos mensajes se pueden previsualizar cuando se agrega una nueva respuesta a un tema.</info>]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0alpha2" var_name="user_setting_forum_thread_flood_control" added="1237813942"><![CDATA[Define cu&#225;ntos minutos este grupo de usuarios debe esperar antes de poder publicar un nuevo tema.
+
+<b>Nota:</b> Establecer <b>0</b> si no deber&#237;a haber ning&#250;n l&#237;mite.]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0alpha2" var_name="user_setting_forum_post_flood_control" added="1237815116"><![CDATA[Define cu&#225;ntos minutos este grupo de usuarios debe esperar antes de poder publicar una nueva respuesta para el tema.
+
+<b>Nota:</b> Establecer <b>0</b> si no deber&#237;a haber ning&#250;n l&#237;mite.]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0beta5" var_name="rss_group_name_3" added="1245660594">Foro</phrase>
+	<phrase module_id="forum" version_id="2.0.0beta5" var_name="rss_title_4" added="1245660649">Temas Recientes del Foro</phrase>
+	<phrase module_id="forum" version_id="2.0.0beta5" var_name="rss_description_4" added="1245660649"><![CDATA[Lista de los &#250;ltimos temas de nuestro foro p&#250;blico.]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0beta5" var_name="setting_rss_feed_on_each_forum" added="1245668622"><![CDATA[<title>RSS Feed dentro de los Foros</title><info>Establecer<b>Cierto</b> para habilitar los RSS feeds para cada foro.</info>]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0beta5" var_name="setting_enable_rss_on_threads" added="1245668866"><![CDATA[<title>RSS Feed en los Temas</title><info>Establecer<b>Cierto</b> para habilitar los RSS feeds en los temas.</info>]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc1" var_name="user_setting_points_forum" added="1250669265">Puntos recibidos cuando se agrega un tema/publica en el foro.</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="only_members_can_add_a_reply_to_threads" added="1254468427">Solo miembros pueden agregar respuestas a los temas.</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="thread_is_closed_for_posting" added="1254468445"><![CDATA[Tema est&#225; cerrado para discusi&#243;n.]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="insufficient_permission_to_reply_to_this_thread" added="1254468471">Permisos insuficientes para responder a este tema.</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="posting_a_reply_a_little_too_soon" added="1254468482"><![CDATA[Public&#243; una respuesta un demasiado pronto.]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="select_moderators" added="1254468504">Seleccionar Moderadores.</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="done" added="1254468514">Terminado!</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="not_permitted_to_move_threads" added="1254468558"><![CDATA[No est&#225; permitido mover temas.]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="thread_successfully_moved" added="1254468573"><![CDATA[Tema movido con &#233;xito.]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="you_are_not_permitted_to_move_this_thread_to_this_specific_forum" added="1254468585"><![CDATA[No le est&#225; permitido mover este tema a este foro en espec&#237;fico.]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="successfully_copied_the_thread" added="1254468606"><![CDATA[Tema copiado con &#233;xito.]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="you_are_not_permitted_to_copy_this_thread_to_this_specific_forum" added="1254468616"><![CDATA[No le est&#225; permitido copiar este tema a este foro en espec&#237;fico.]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="unstick_thread" added="1254468635">Despegar Tema</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="stick_thread" added="1254468651">Pegar Tema</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="thread_successfully_unstuck" added="1254468662"><![CDATA[Tema despegado con &#233;xito.]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="thread_successfully_stuck" added="1254468672"><![CDATA[Tema pegado con &#233;xito.]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="open_thread" added="1254468683">Abrir Tema</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="thread_successfully_closed" added="1254468698">Tema cerrado correctamente.</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="close_thread" added="1254468707">Cerrar Tema</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="thread_successfully_opened" added="1254468718">Tema abierto correctamente.</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="not_allowed_to_merge_threads_from_this_specific_forum" added="1254468729"><![CDATA[No se permite combinar los temas de este foro espec&#237;fico.]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="threads_successfully_merged" added="1254468739">Temas combinados correctamente.</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="not_a_valid_thread_to_copy" added="1254468759"><![CDATA[No es un tema v&#225;lido para copiar.]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="not_a_valid_thread_to_move" added="1254468774"><![CDATA[No es un tema v&#225;lido para moverse.]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="recent_topics" added="1254468799"><![CDATA[T&#243;picos Recientes]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="provide_a_name_for_your_forum" added="1254469627">Provea un nombre para su foro.</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="forum_successfully_updated" added="1254469640">Foro fue actualizado.</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="forum_successfully_added" added="1254469940">Foro fue agregado.</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="editing_forum" added="1254469951"><![CDATA[Editici&#243;n del Foro]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="create_new_form" added="1254469966">Crear un Nuevo Formulario</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="forum_order_successfully_updated" added="1254469979">El Orden del Foro fue actualizado correctamente.</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="forum_successfully_deleted" added="1254470108">Foro fue eliminado.</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="manage_forums" added="1254470118">Manejar los Foros</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="successfully_unsubscribed_to_thread_s" added="1254470147">Dado de baja de tema(s).</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="successfully_subscribed_to_thread_s" added="1254470156">Suscrito al(los) tema(s) correctamente.</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="no_results_found" added="1254470181">No se encontraron resultados</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="not_a_valid_forum" added="1254470229"><![CDATA[No es un foro v&#225;lido.]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="forum" added="1254470274">Foro</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="tags" added="1254470336">Etiquetas</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="threads_tagged_with" added="1254470344">Temas etiquetados con</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="search" added="1254470353">Buscar</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="new_posts" added="1254470365">Mensajes Nuevos</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="my_threads" added="1254470374">Mis Temas</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="subscriptions" added="1254470380">Suscripciones</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="group_forum" added="1254470431">Foro del Grupo</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="forum_section_is_closed" added="1254470496"><![CDATA[Esta secci&#243;n del Foro est&#225; cerrada.]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="not_a_valid_thread" added="1254470549"><![CDATA[No es un tema v&#225;lido.]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="insufficient_permission_to_edit_this_thread" added="1254470574">Permisos insuficientes para editar este tema.</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="forum_is_closed" added="1254470594"><![CDATA[Este Foro est&#225; cerrado]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="provide_a_title_for_your_thread" added="1254470614"><![CDATA[Proporcione un t&#237;tulo para tu tema.]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="provide_some_text" added="1254470621">Proporcionar un texto.</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="thread_successfully_updated" added="1254470634">Tema actualizado correctamente.</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="posting_a_new_thread_a_little_too_soon" added="1254470652"><![CDATA[Est&#225;s publicando un nuevo tema demasiado pronto.]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="editing_thread" added="1254470668"><![CDATA[Edici&#243;n del Tema]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="post_new_thread" added="1254470698">Publicar un Nuevo Tema</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="not_a_valid_post" added="1254470728"><![CDATA[Publicaci&#243;n no es v&#225;lida.]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="thread_is_closed" added="1254470757"><![CDATA[El Tema est&#225; cerrado.]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="thread_is_an_announcement_not_allowed_to_leave_a_reply" added="1254470778">El Tema es un anuncio. No se permite dejar una respuesta.</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="editing_post" added="1254470824"><![CDATA[Edici&#243;n de Publicaci&#243;n]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="post_new_reply" added="1254470834">Publicar Nueva Respuesta</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="forum_successfully_marked_as_read" added="1254470867"><![CDATA[Foro fue marcado como le&#237;do.]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="rss_feeds_are_disabled_for_threads" added="1254470892"><![CDATA[RSS feeds est&#225;n desactivados para los temas.]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="not_a_valid_group" added="1254470972"><![CDATA[No es un grupo v&#225;lido.]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="latest_threads_in_group_forum" added="1254470981">Temas Recientes en el foro del grupo</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="latest_threads_on" added="1254470990">Temas Recientes en</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="thread" added="1254471062">Temas</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="can_edit_posts" added="1254471109">Puede editar los mensajes?</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="can_delete_posts" added="1254471127">Puede eliminar los mensajes?</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="can_post_announcements" added="1254471135">Puede publicar anuncios?</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="can_stick_threads" added="1254471142">Puede pegar un tema?</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="can_move_threads" added="1254471150">Puede mover un tema?</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="can_copy_threads" added="1254471158">Puede copiar temas?</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="can_close_threads" added="1254471166">Puede cerrar temas?</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="can_merge_threads" added="1254471174">Puede combinar temas?</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="can_reply_to_threads" added="1254471182">Puede contestar temas?</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="can_post_a_new_thread" added="1254471190">Puede publicar un nuevo tema?</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="latest_posts_in" added="1254471232">Ultimos mensajes en</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="latest_forum_posts_on" added="1254471242"><![CDATA[&#218;ltimos mensajes en el foro sobre]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="reply_to_thread_title" added="1254471299"><![CDATA[Responder al tema "{title}".]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="full_name_has_just_replied_to_the_thread_title" added="1254471362"><![CDATA[{full_name} acaba de responder al tema "{title}".
+
+Para ver este tema, siga el enlace de abajo:
+<a href="{link}">{link}</a>]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="not_a_valid_forum_url_missing_forum_path" added="1254471499"><![CDATA[No es una direcci&#243;n URL v&#225;lida del foro. Falta el path del foro.]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="not_a_valid_forum_url_missing_thread_id" added="1254471633"><![CDATA[No es una direcci&#243;n URL v&#225;lida del foro. Falta el ID del tema.]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="not_a_valid_forum_url_thread_is_not_valid" added="1254471643"><![CDATA[No es una direcci&#243;n URL v&#225;lida del foro. Tema no es v&#225;lido.]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="not_a_valid_forum_url_merging_thread_is_not_valid" added="1254471652"><![CDATA[No es una direcci&#243;n URL v&#225;lida del foro. La combinaci&#243;n del tema no es v&#225;lida.]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="you_cannot_merge_the_same_thread" added="1254471660">No puede combinar el mismo tema</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="you_cannot_merge_this_thread_as_it_belongs_to_another_group_forum" added="1254471672">No puede combinar este tema, ya que pertenece a otro grupo / foro.</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="select_a_forum_this_announcement_will_belong_to" added="1254471695">Seleccione el foro al que este anuncio le pertenece.</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="owner_full_name_added_a_new_thread" added="1254471772"><![CDATA[<a href="{user_link}">{owner_full_name}</a> agreg&#243; un nuevo tema "<a href="{title_link}">{title}</a>"]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="view_forum" added="1254471886">Ver Foro</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="forum_posts" added="1254471899">Mensajes del Foro</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="full_name_replied_to_the_thread_title" added="1254471921"><![CDATA[<a href="{user_link}">{full_name}</a> respondi&#243; al tema "<a href="{link}">{title}</a>".]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="forum_subscriptions" added="1254471948">Suscripciones del Foro</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="forum_post_text" added="1254471964"><![CDATA[Texto de Publicaci&#243;n del Foro]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="post_time" added="1254471989"><![CDATA[Fecha de Publicaci&#243;n]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="author" added="1254471996">Autor</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="replies" added="1254472003">Respuest</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="subject" added="1254472009">Tema</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="views" added="1254472015">Vistas</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="last_day" added="1254472027"><![CDATA[&#218;ltimo D&#237;a]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="last_2_days" added="1254472034"><![CDATA[&#218;ltimos 2 D&#237;as]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="last_week" added="1254472042">La Semana Pasada</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="last_10_days" added="1254472051"><![CDATA[&#218;ltimos 10 D&#237;as]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="last_2_weeks" added="1254472064"><![CDATA[&#218;ltimas 2 Semanas]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="last_month" added="1254472074">Mes Pasado</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="last_45_days" added="1254472082"><![CDATA[&#218;ltimos 45 D&#237;as]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="last_2_months" added="1254472090"><![CDATA[&#218;ltimos 2 Meses]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="last_75_days" added="1254472098"><![CDATA[&#218;ltimos 75 D&#237;as]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="last_100_days" added="1254472106"><![CDATA[&#218;ltimos 100 D&#237;as]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="last_year" added="1254472114"><![CDATA[El a&#241;o pasado]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="beginning" added="1254472120">Principio</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="latest_threads_in" added="1254473423">Temas recientes en</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="are_you_sure_notice_this_will_delete_all_child_forums_and_any_threads_posts_announcements" added="1254473652"><![CDATA[Est&#225; usted seguro?
+
+&#161;Aviso! Esto eliminar&#225; todos los foros y cualquier t&#243;pico, mensaje y anuncios que pertenecen a esos foros.
+
+Esto no se puede deshacer.]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="global_moderator_permissions" added="1254473995">Permisos Globales del Moderador</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="moderator_permissions" added="1254474019">Permisos del Moderador</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="cancel" added="1254474037">cancelar</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="provide_a_reply" added="1254474073">Dar una respuesta.</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="adding_your_reply" added="1254474097"><![CDATA[Adici&#243;n de su respuesta]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="are_you_sure" added="1254474168"><![CDATA[&#191;Est&#225;s seguro?]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="post_successfully_deleted" added="1254474188"><![CDATA[Publicaci&#243;n eliminada correctamente.]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="post_and_thread_successfully_deleted" added="1254474198">Mensajes y tema fueron eliminados.</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="thread_successfully_deleted" added="1254474227">Tema eliminado correctamente</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="manage_moderators" added="1254475005">Manejar Moderadores</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="moderators" added="1254475017">Moderadores</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="forums" added="1254475069">Foros</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="yes" added="1254475096">Si</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="no" added="1254475104">No</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="save" added="1254475111">Salvar</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="new_title" added="1254475136"><![CDATA[T&#237;tulo Nuevo]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="copying" added="1254475143">Copiando</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="destination_forum" added="1254475152">Destino del Foro</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="copy_thread" added="1254475161">Copiar Tema</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="sub_forum" added="1254475173">Sub-Foro</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="threads" added="1254475188">Temas</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="posts" added="1254475194">Mensajes</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="last_post" added="1254475201">Publicado Recientemente</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="forum_is_closed_for_posting" added="1254475291"><![CDATA[El foro est&#225; cerrado para publicar]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="forum_contains_no_new_posts" added="1254475300">El foro no contiene mensajes nuevos</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="forum_contains_new_posts" added="1254475308">El foro contiene mensajes nuevos</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="moderated_by" added="1254475319">Moderado por</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="by_user_link_on_time_stamp_phrase" added="1254475903"><![CDATA[por {user_link}<br />
+en <a href="{link}">{time_stamp_phrase}</a>]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="sub_forums" added="1254476793">Sub-Foros</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="url" added="1254476819">URL</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="merge_threads" added="1254476837">Combinar Temas</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="move_thread" added="1254476856">Mover Tema</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="moving" added="1254476863">Mudanza</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="no_forum_threads" added="1254476877">No existen temas en el foro</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="posted_by_user_link_on_time_stamp_phrase" added="1254477002">Publicado por {user_link} en {time_stamp_phrase}</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="location" added="1254477436"><![CDATA[Ubicaci&#243;n]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="registered" added="1254477443">Registrado</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="topic" added="1254483138"><![CDATA[T&#243;pico]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="title_posted_in_forum_name" added="1254483515"><![CDATA[<a href="{link}">{title}</a> publicado en <a href="{forum_link}">{forum_name}</a>.]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="last_update_on_time_stamp_by_update_user" added="1254484623"><![CDATA[Ultima actualizaci&#243;n el {time_stamp} por {update_user}.]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="edit_this_post" added="1254488093"><![CDATA[Editar esta publicaci&#243;n]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="delete_this_post" added="1254488104"><![CDATA[Eliminar esta publicaci&#243;n]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="report_a_post" added="1254488115"><![CDATA[Reportar Publicaci&#243;n]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="quote_full_name_s_reply" added="1254488162">Citar la respuesta de {full_name}.</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="multi_quote_this_message" added="1254488187">Multi-Citar este mensaje.</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="no_new_posts" added="1254488245">No existen mensajes nuevos</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="sticky" added="1254488281">Pegadizo</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="by_user_link_on_time_stamp_phrase_no_break" added="1254488777">Por {user_link} en {time_stamp_phrase}</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="by_user_link_on_time_stamp_phrase_in_forum_name" added="1254488906"><![CDATA[Por {user_link} en {time_stamp_phrase} en <a href="{forum_link}">{forum_name}</a>]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="by_user_link" added="1254489110">Por {user_link}</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="all_times_are_gmt_time_zone_the_time_now_is_current_time" added="1254489167">Todas las horas son GMT{time_zone}. La hora actual es {current_time}.</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="forum_details" added="1254489232">Detalles del Foro</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="name" added="1254489239">Nombre</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="parent_forum" added="1254489248">Foro Primario</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="select" added="1254489255">Seleccionar</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="is_a_category" added="1254489263"><![CDATA[Es una Categor&#237;a]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="closed" added="1254489288">Cerrado</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="description" added="1254489295"><![CDATA[Descripci&#243;n]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="cancel_uppercase" added="1254489314">Cancelar</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="no_forums_created_yet" added="1254489326"><![CDATA[No se han creado foros a&#250;n.]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="create_a_new_forum" added="1254489332">Crear un Nuevo Foro</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="edit_forum" added="1254489340">Editar Foro</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="add_child_forum" added="1254489354">Agregar un Foro Secundario</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="delete_forum" added="1254489366">Eliminar Foro</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="update_order" added="1254489384">Actualizar Orden</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="subscribe_to_this_forum" added="1254489400">Suscribirse a este foro.</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="new_thread" added="1254489412">Nuevo Tema</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="forum_tools" added="1254489424">Herramientas del Foro</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="mark_this_forum_read" added="1254489432"><![CDATA[Marcar este Foro como Le&#237;do]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="search_this_forum" added="1254490421">Buscar en este Foro</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="show_threads" added="1254490433">Mostrar Temas</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="show_posts" added="1254490440">Mostrar Mensajes</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="advanced_search" added="1254490449"><![CDATA[B&#250;squeda Avanzada]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="announcements" added="1254490459">Anuncios</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="with_selected" added="1254490511"><![CDATA[Con determinadas (<span id="js_selector_count"></span>)]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="subscribe" added="1254490550">Suscribirse</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="unsubscribe" added="1254490555">Darse de baja</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="submit" added="1254490563">Someter</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="display" added="1254490598">Mostrar</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="from" added="1254490603">De</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="sort" added="1254490610">Ordenar por</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="by" added="1254490617">Por</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="nothing_found" added="1254490654"><![CDATA[No se encontr&#243; nada.]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="no_threads_were_posted_yet" added="1254490661"><![CDATA[No se han publicado temas a&#250;n.]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="be_the_first_to_post_a_thread" added="1254490669">Sea el primero en publicar un tema.</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="quick_links" added="1254490698">Enlaces</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="mark_forums_read" added="1254490706"><![CDATA[Marcar Foros Le&#237;dos]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="subscribed_threads" added="1254490727">Temas suscritos</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="go" added="1254490745">Ir</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="no_forums_have_been_created" added="1254490780"><![CDATA[No se han foros a&#250;n.]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="statistics" added="1254490793"><![CDATA[Estad&#237;sticas]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="message" added="1254490873">Mensaje</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="type" added="1254490977">Tipo</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="announcement" added="1254491325">Anuncio</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="select_a_parent_forum" added="1254491338">Seleccione un foro primario</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="announcement_will_be_included_in_child_forums" added="1254491346"><![CDATA[El anuncio se incluir&#225; en los sub-foros.]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="topic_preview_newest_first" added="1254491410"><![CDATA[Ver T&#243;pico (Los m&#225;s Recientes Primero)]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="this_thread_has_more_than_total_setting_replies" added="1254491468"><![CDATA[Este tema tiene m&#225;s de {total_setting} respuestas. Haga Clic <a href="{link}">aqu&#237;</a> para revisar todo el tema.]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="search_for_keyword_s" added="1254491593">Buscar por Palabra(s) Clave(s)</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="search_for_author" added="1254491602">Buscar por Autor</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="find_in_forum" added="1254491611">Buscar en el foro</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="display_results_as" added="1254491702">Mostrar Resultados por</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="subscribe_to_this_thread" added="1254491724">Suscribirse a este tema.</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="new_reply" added="1254491761">Responder</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="thread_tools" added="1254491770">Herramientas del Tema</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="edit_thread" added="1254491960">Editar Tema</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="delete_thread" added="1254491992">Eliminar Tema</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="quick_reply" added="1254492097"><![CDATA[Responder R&#225;pido]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="reply" added="1254492142">Responder</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="post_quick_reply" added="1254492172"><![CDATA[Publicar una Respuesta R&#225;pida]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc3" var_name="go_advanced" added="1254492181">Avanzado</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc4" var_name="full_name_replied_to_the_thread_title_with_link" added="1256558977"><![CDATA[<a href="{user_link}">{full_name}</a> respondi&#243; al tema "<a href="{thread_link}">{title}</a>".]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc8" var_name="display_options" added="1258414774"><![CDATA[Opciones de visualizaci&#243;n]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc8" var_name="additional_options" added="1258414801">Opciones adicionales</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc8" var_name="title" added="1258986945"><![CDATA[T&#237;tulo]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc11" var_name="user_setting_can_view_forum" added="1260276741">Can browse and view the forum module?</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc11" var_name="forum_thread_post_count" added="1260291719">Temas del Foro/Post Count</phrase>
+	<phrase module_id="forum" version_id="2.0.0rc12" var_name="a_href_user_link_full_name_a_likes_your_forum_a_href_link_thread_a" added="1260463116"><![CDATA[<a href="{user_link}">{full_name}</a> likes your forum <a href="{link}">thread</a>.]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc12" var_name="a_href_user_link_full_name_a_likes_their_own_forum_a_href_link_thread_a" added="1260463354"><![CDATA[<a href="{user_link}">{full_name}</a> likes {gender} own forum <a href="{link}">thread</a>.]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc12" var_name="a_href_user_link_full_name_a_likes_a_href_view_user_link_view_full_name_a_s_forum_a_href_link_thread_a" added="1260463404"><![CDATA[<a href="{user_link}">{full_name}</a> likes <a href="{view_user_link}">{view_full_name}</a>'s forum <a href="{link}">thread</a>.]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc12" var_name="a_href_user_link_full_name_a_likes_your_forum_a_href_link_post_a" added="1260463695"><![CDATA[<a href="{user_link}">{full_name}</a> likes your forum <a href="{link}">post</a>.]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc12" var_name="a_href_user_link_full_name_a_likes_their_own_forum_a_href_link_reply_a" added="1260464244"><![CDATA[<a href="{user_link}">{full_name}</a> likes {gender} own forum <a href="{link}">reply</a>.]]></phrase>
+	<phrase module_id="forum" version_id="2.0.0rc12" var_name="a_href_user_link_full_name_a_likes_a_href_view_user_link_view_full_name_a_s_forum_a_href_link_reply_a" added="1260464262"><![CDATA[<a href="{user_link}">{full_name}</a> likes <a href="{view_user_link}">{view_full_name}</a>'s forum <a href="{link}">reply</a>.]]></phrase>
+</phrases>

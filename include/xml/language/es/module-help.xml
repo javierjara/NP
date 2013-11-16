@@ -1,0 +1,10 @@
+<phrases>
+	<phrase module_id="help" version_id="2.0.0alpha1" var_name="user_setting_show_tips" added="1219325863"><![CDATA[&#191;Mostrar sugerencias?]]></phrase>
+	<phrase module_id="help" version_id="2.0.0alpha1" var_name="module_help" added="1219157383">Ayuda</phrase>
+	<phrase module_id="help" version_id="2.0.0alpha1" var_name="add_new_phrase" added="1213990180">Agregar una nueva Frase</phrase>
+	<phrase module_id="help" version_id="2.0.0alpha1" var_name="click_for_help" added="1213990238">Haz Clic para Ayuda</phrase>
+	<phrase module_id="help" version_id="2.0.0alpha1" var_name="hide_all_tips" added="1219325791">Ocultar todas las Sugerencias</phrase>
+	<phrase module_id="help" version_id="2.0.0alpha1" var_name="close" added="1219325807">Cerrar</phrase>
+	<phrase module_id="help" version_id="2.0.0alpha1" var_name="hide_this_tip" added="1219328167">Ocultar esta sugerencia</phrase>
+	<phrase module_id="help" version_id="2.0.0alpha1" var_name="add_back_tips_info" added="1219328306"><![CDATA[<b>Nota:</b> Si cierra todas las sugerencias que se encuentran en este sitio, usted puede editar su<b>Configuraciones de la Cuenta</b> para ver estas sugerencias de nuevo.]]></phrase>
+</phrases>

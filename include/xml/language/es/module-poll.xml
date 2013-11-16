@@ -1,0 +1,184 @@
+<phrases>
+	<phrase module_id="poll" version_id="2.0.0alpha1" var_name="module_poll" added="1232964260">Encuestas</phrase>
+	<phrase module_id="poll" version_id="2.0.0alpha1" var_name="menu_poll" added="1232964276">Encuestas</phrase>
+	<phrase module_id="poll" version_id="2.0.0alpha1" var_name="menu_add_new_poll" added="1233240881">Agregar una nueva Encuesta</phrase>
+	<phrase module_id="poll" version_id="2.0.0alpha1" var_name="menu_view_polls" added="1233309642">Ver mis Encuestas</phrase>
+	<phrase module_id="poll" version_id="2.0.0alpha1" var_name="menu_polls" added="1233311326">Encuestas</phrase>
+	<phrase module_id="poll" version_id="2.0.0alpha1" var_name="setting_is_image_required" added="1234290147"><![CDATA[<title>&#191;Es requerida una imagen?</title><info>Si es establece como cierto, los usuarios tendr&#225;n que subir una imagen con cada encuesta que vayan a publicar.
+
+Por default est&#225; establecido como falso, los usuarios no tienen que subir una imagen en cada encuesta que ellos publiquen.</info>]]></phrase>
+	<phrase module_id="poll" version_id="2.0.0alpha1" var_name="user_setting_poll_can_upload_image" added="1234356544"><![CDATA[Este ajuste define si los miembros de este grupo de usuarios pueden agregar im&#225;genes junto con sus encuestas.]]></phrase>
+	<phrase module_id="poll" version_id="2.0.0alpha1" var_name="setting_poll_max_image_pic_size" added="1234366729"><![CDATA[<title>Tama&#241;o de la imagen de la encuesta</title><info>Cuando los usuarios suban una imagen con sus encuestas, este ser&#225; el tama&#241;o m&#225;ximo de esa imagen, si la imagen es m&#225;s grande se agustar&#225; de tama&#241;o</info>]]></phrase>
+	<phrase module_id="poll" version_id="2.0.0alpha1" var_name="user_setting_can_edit_own_poll" added="1234377080"><![CDATA[&#191;Pueden los miembros de este grupo de usuarios editar las encuestas que han publicado?]]></phrase>
+	<phrase module_id="poll" version_id="2.0.0alpha1" var_name="user_setting_poll_can_change_own_vote" added="1234866837"><![CDATA[Indica si un miembro del grupo de usuarios puede cambiar su voto en una encuesta.
+
+Si se establece como falsa, la primera votaci&#243;n ser&#225; la definitiva para el usuario en esa encuesta.
+
+Si se establece como cierta, el usuario ser&#225; capaz de cambiar su voto en el futuro.]]></phrase>
+	<phrase module_id="poll" version_id="2.0.0alpha1" var_name="poll_vote_updated" added="1234867333">Usted ha cambiado su voto para esta encuesta</phrase>
+	<phrase module_id="poll" version_id="2.0.0alpha1" var_name="poll_new_vote_added_successfully" added="1234867509"><![CDATA[Su voto ha sido agregado con &#233;xito]]></phrase>
+	<phrase module_id="poll" version_id="2.0.0alpha1" var_name="setting_poll_view_time_stamp" added="1234870704"><![CDATA[<title>Zona del Tiempo de la Encuesta Stamp</title><info>Este es el formato utilizado para mostrar las fechas, en cumplimiento con http://php.net/date</info>]]></phrase>
+	<phrase module_id="poll" version_id="2.0.0alpha1" var_name="user_setting_poll_flood_control" added="1234879747"><![CDATA[&#191;Con qu&#233; frecuencia los miembros de este grupo de usuarios pueden publicar nuevas encuestas (en minutos).
+
+0 => no restricci&#243;n
+1 => 1 minuto
+10 => 10 minutos]]></phrase>
+	<phrase module_id="poll" version_id="2.0.0alpha1" var_name="poll_flood_control" added="1234879960"><![CDATA[S&#243;lo es posible publicar las encuestas cada {x} minutos.]]></phrase>
+	<phrase module_id="poll" version_id="2.0.0alpha1" var_name="user_setting_poll_requires_admin_moderation" added="1234881616"><![CDATA[Este ajuste le indica si los sondeos publicados por los miembros de este grupo tendr&#225; que ser moderados (aprobado) antes de ser mostrados en el sitio.]]></phrase>
+	<phrase module_id="poll" version_id="2.0.0alpha1" var_name="user_setting_poll_can_moderate_polls" added="1234894665"><![CDATA[&#191;Pueden los miembros de este grupo de usuarios moderar las encuestas? (borrar, aprobar)]]></phrase>
+	<phrase module_id="poll" version_id="2.0.0alpha1" var_name="user_setting_poll_require_captcha_challenge" added="1234961189"><![CDATA[&#191;Deben los usuarios del grupo completar el campo de seguridad "captcha" antes de presentar una encuesta?]]></phrase>
+	<phrase module_id="poll" version_id="2.0.0alpha1" var_name="user_setting_poll_can_edit_own_polls" added="1234963511"><![CDATA[&#191;Pueden los miembros de este grupo de usuarios editar sus propias encuestas despu&#233;s de ser sometidas?]]></phrase>
+	<phrase module_id="poll" version_id="2.0.0alpha1" var_name="user_setting_poll_can_edit_others_polls" added="1234983674"><![CDATA[&#191;Pueden los miembros de este grupo de usuarios editar las encuestas de otros miembros?]]></phrase>
+	<phrase module_id="poll" version_id="2.0.0alpha1" var_name="user_setting_poll_can_delete_own_polls" added="1234984289"><![CDATA[&#191;Pueden los miembros de este grupo de usuarios eliminar sus propias encuestas?]]></phrase>
+	<phrase module_id="poll" version_id="2.0.0alpha1" var_name="user_setting_poll_can_delete_others_polls" added="1234987167"><![CDATA[&#191;Pueden los miembros de este grupo de usuarios eliminar las encuestas publicadas por otros miembros?]]></phrase>
+	<phrase module_id="poll" version_id="2.0.0alpha1" var_name="user_setting_can_post_comment_on_poll" added="1235390654"><![CDATA[&#191;Pueden los usuarios de este grupo publicar comentarios en las encuestas?]]></phrase>
+	<phrase module_id="poll" version_id="2.0.0alpha1" var_name="user_setting_view_poll_results_after_vote" added="1235399479"><![CDATA[Cuando se establece a SI los miembros de este grupo de usuarios ver&#225;n los resultados de la encuesta inmediatamente despu&#233;s de la votaci&#243;n.]]></phrase>
+	<phrase module_id="poll" version_id="2.0.0alpha1" var_name="user_setting_maximum_answers_count" added="1235473759"><![CDATA[&#191;Cuantas respuestas pueden los miembros de este grupo de usuarios a&#241;adir a sus encuestas?]]></phrase>
+	<phrase module_id="poll" version_id="2.0.0alpha1" var_name="setting_polls_to_show" added="1235572567"><![CDATA[<title>Cuantas a mostrar</title><info>Este ajuste le indica cu&#225;ntas encuestas se debe mostrar por p&#225;gina.</info>]]></phrase>
+	<phrase module_id="poll" version_id="2.0.0alpha1" var_name="user_setting_can_vote_in_own_poll" added="1235587145"><![CDATA[&#191;Quieres que los miembros de este grupo de usuarios puedan votar en sus propias encuestas?
+
+Esto es diferente que cambiando sus votos.]]></phrase>
+	<phrase module_id="poll" version_id="2.0.0alpha1" var_name="user_setting_points_poll" added="1236090929"><![CDATA[&#191;Cu&#225;ntos puntos se a&#241;ade a un premio de la encuesta?]]></phrase>
+	<phrase module_id="poll" version_id="2.0.0alpha2" var_name="user_setting_can_view_user_poll_results_own_poll" added="1237745898"><![CDATA[&#191;Puede ver que usuarios han votado en su propia encuesta?]]></phrase>
+	<phrase module_id="poll" version_id="2.0.0alpha2" var_name="user_setting_can_view_user_poll_results_other_poll" added="1237745995"><![CDATA[&#191;Pueden los usuarios ver los resultados de la encuesta en otras encuestas?]]></phrase>
+	<phrase module_id="poll" version_id="2.0.0beta3" var_name="user_setting_can_edit_title" added="1243320229"><![CDATA[&#191;Pueden los miembros de este grupo de usuarios editar el t&#237;tulo, la imagen, la configuraci&#243;n de azar, la configuraci&#243;n de privacidad y la configuraci&#243;n comentar en una encuesta?
+
+Esto puede ser anulado por la configuraci&#243;n depoll_can_edit_others_polls y el poll_can_edit_own_polls]]></phrase>
+	<phrase module_id="poll" version_id="2.0.0beta3" var_name="user_setting_can_edit_question" added="1243320278"><![CDATA[&#191;Pueden los miembros de este grupo de usuarios editar las preguntas y respuestas de una encuesta?
+
+Esto puede ser anulado por la configuraci&#243;n de poll_can_edit_others_polls y el poll_can_edit_own_polls]]></phrase>
+	<phrase module_id="poll" version_id="2.0.0beta3" var_name="setting_show_x_users_who_took_poll" added="1243511926"><![CDATA[<title>Cuantos usuarios votaron a mostrar</title><info>Este ajuste le indica cu&#225;ntos usuarios que han tomado la encuesta se muestran en la p&#225;gina de la encuesta.
+
+Cambiar esta configuraci&#243;n afecta a la secci&#243;n de mini votos de los miembros.</info>]]></phrase>
+	<phrase module_id="poll" version_id="2.0.0beta3" var_name="user_setting_view_poll_results_before_vote" added="1243520504"><![CDATA[&#191;Pueden los miembros de este Grupo de Usuarios ver los resultados de la encuesta antes de votar en la misma?
+
+
+Nota: Tenga en cuenta que esta configuraci&#243;n puede ser anulado por las configuraiones del "poll.can_view_user_poll_results_own_poll" y el "poll.can_view_user_poll_results_other_poll".
+
+Tambi&#233;n puede ser complementado con la configuraci&#243;n de "poll.view_poll_results_after_vote"]]></phrase>
+	<phrase module_id="poll" version_id="2.0.0beta3" var_name="user_setting_highlight_answer_voted_by_viewer" added="1243596992"><![CDATA[Si se establece "S&#237;" por default la selecci&#243;n que haga el espectador ser&#225; resaltado con un color de fondo.
+
+Esto es &#250;til si tiene que establecer que los miembros de este grupo de usarios puedan ver los resultados despu&#233;s de tomar la encuesta, y ver sus propias respuestas.]]></phrase>
+	<phrase module_id="poll" version_id="2.0.0beta4" var_name="stat_title_4" added="1245143660">Encuestas</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc1" var_name="setting_poll_meta_description" added="1252064414"><![CDATA[<title>Descripci&#243;n Meta para Encuentas</title><info>Descripci&#243;n Meta utilizada para el m&#243;dulo de encuesta.</info>]]></phrase>
+	<phrase module_id="poll" version_id="2.0.0rc1" var_name="setting_poll_meta_keywords" added="1252064465"><![CDATA[<title>Palabras Claves Meta para Encuestas</title><info>Palabras claves Meta para el m&#243;dulo de Encuesta.</info>]]></phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="an_error_occured_and_your_image_could_not_be_deleted_please_try_again" added="1255170382"><![CDATA[Se produjo un error y tu imagen no pudo ser eliminada. Por favor, int&#233;ntalo de nuevo.]]></phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="this_poll_is_being_moderated_and_no_votes_can_be_added_yet" added="1255170416"><![CDATA[Esta encuesta est&#225; siendo moderada y ning&#250;n voto se puede a&#241;adir todav&#237;a.]]></phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="your_vote_has_successfully_been_cast" added="1255170427">Su voto ha sido correctamente emitido.</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="poll_successfully_approved" added="1255170455">Encuesta fue aprobada.</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="poll_successfully_deleted" added="1255170466">Encuesta eliminada correctamente.</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="there_was_a_problem_moderating_this_poll" added="1255170475">Ha habido un problema de moderador de esta encuesta.</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="provide_a_question_for_your_poll" added="1255171716">Proporciona una pregunta para la encuesta.</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="image_is_required" added="1255171726">Imagen es requerida.</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="your_user_group_lacks_permissions_to_edit_that_poll" added="1255171738">Tu grupo de usuarios no tiene los permisos para modificar esa encuesta.</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="that_poll_does_not_exist" added="1255171746">Esa encuesta no existe.</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="each_poll_requires_an_image" added="1255171757">Cada encuesta requiere una imagen.</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="your_poll_has_been_updated" added="1255171768">Tu encuesta se ha actualizado.</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="your_poll_has_been_added" added="1255171787">Tu encuesta ha sigo agregada.</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="your_poll_needs_to_be_approved_before_being_shown_on_the_site" added="1255171818">Tu encuesta tiene que ser aprobada antes de ser mostrada en el sitio.</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="your_poll_has_been_added_feel_free_to_custom_design_it_the_way_you_want_here" added="1255171832"><![CDATA[Tu encuesta se ha a&#241;adido, puedes dese&#241;arla de la manera que quieras aqu&#237;.]]></phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="editing_a_new_poll" added="1255171871"><![CDATA[Edici&#243;n de una Nueva Encuesta]]></phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="adding_a_new_poll" added="1255171883"><![CDATA[Adici&#243;n de una Nueva Encuesta]]></phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="editing_poll" added="1255171892"><![CDATA[Edici&#243;n de Encuestas]]></phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="adding_poll" added="1255171902">Agregando Encuestas</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="polls" added="1255173283">Encuestas</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="that_poll_doesn_t_exist" added="1255173405">Esa encuesta no existe.</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="you_do_not_have_permission_to_change_the_design_of_this_poll" added="1255173415"><![CDATA[Usted no tiene permiso para cambiar el dise&#241;o de esta encuesta.]]></phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="your_design_has_been_updated" added="1255173455"><![CDATA[Su dise&#241;o ha sido actualizado.]]></phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="error" added="1255173463">Error</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="there_are_no_answers_for_this_poll" added="1255173474">No hay respuestas para esta encuesta.</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="design_your_poll" added="1255173496"><![CDATA[Dise&#241;ar encuesta]]></phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="full_name_s_polls" added="1255173530">Encuestas de {full_name}</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="full_name_s_polls_on_site_title_full_name_has_total_poll_s" added="1255173568">Encuestas de {full_name} en {site_title}. {full_name} tiene {total} encuesta(s).</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="full_name_s_polls_upper" added="1255173688">Encuestas de {full_name}</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="unable_to_view_this_poll" added="1255173739">No se puede ver esta encuesta.</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="full_name_s_poll_from_time_stamp_question" added="1255173901">Encuesta de {full_name} del {time_stamp}: {question}.</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="user_name_left_you_a_comment_on_site_title" added="1255174139"><![CDATA[{user_name} te dej&#243; un comentario en {site_title}.]]></phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="user_name_left_you_a_comment_on_site_title_to_view_this_comment_follow_the_link_below_a_href_link_link_a" added="1255174369"><![CDATA[{user_name} te dej&#243; un comentario en {site_title}.
+
+Para ver este comentario, sigue la follow the link below:
+<a href="{link}">{link}</a>]]></phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="user_name_left_you_a_comment_on_site_title_however_before_it_can_be_displayed_it_needs_to_be_approved_by_you_you_can_approve_or_deny_this_comment_by_following_the_link_below_a_href_link_link_a" added="1255174466"><![CDATA[{user_name} te dej&#243; un comentario en {site_title}, sin embargo, antes de que se pueda mostrar tiene que ser aprobado por t&#237;.
+
+Tu puedes aprobar o rechazar este comentario, siguiendo el enlace de abajo:<a href="{link}">{link}</a>]]></phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="on_name_s_poll" added="1255174523">En la encuesta de {name}.</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="full_name_approved_your_comment_on_site_title" added="1255174562"><![CDATA[{full_name} aprob&#243; tu comentario en {site_title}.]]></phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="full_name_approved_your_comment_on_site_title_message" added="1255174622"><![CDATA[{full_name} aprob&#243; tu comentario en {site_title}.
+
+Para ver este comentario, sigue el enlace de abajo:
+<a href="{link}">{link}</a>]]></phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="a_href_user_link_full_name_a_added_a_new_comment_on_their_own_a_href_title_link_poll_a" added="1255174724"><![CDATA[<a href="{user_link}">{full_name}</a> agreg&#243; un nuevo comentario en su propia <a href="{title_link}">encuesta</a>.]]></phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="a_href_user_link_full_name_a_added_a_new_comment_on_your_a_href_title_link_poll_a" added="1255174763"><![CDATA[<a href="{user_link}">{full_name}</a> agreg&#243; un nuevo comentario en tu <a href="{title_link}">encuesta</a>.]]></phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="a_href_user_link_full_name_a_added_a_new_comment_on_a_href_item_user_link_item_user_name_s_a_a_href_title_link_poll_a" added="1255174808"><![CDATA[<a href="{user_link}">{full_name}</a> agreg&#243; un nuevo comentario en <a href="{item_user_link}">{item_user_name}</a> <a href="{title_link}">encuesta</a>.]]></phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="a_href_user_link_full_name_a_added_a_new_poll_a_href_question_url_question_a" added="1255174875"><![CDATA[<a href="{user_link}">{full_name}</a> agreg&#243; una nueva encuesta "<a href="{question_url}">{question}</a>".]]></phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="create_a_poll" added="1255174957">Crear una Encuesta</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="manage_polls" added="1255174964">Manejar Encuestas</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="maximum_length_for_the_question_is_255_characters_and_it_cannot_be_empty" added="1255174984"><![CDATA[La longitud m&#225;xima de la pregunta es de 255 caracteres y no puede estar vac&#237;o.]]></phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="we_dont_allow_default_answers_answer" added="1255174998">Nosotros no permitimos respuestas por default ({answer}).</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="maximum_length_for_the_answers_is_150_characters" added="1255175017"><![CDATA[La longitud m&#225;xima de las respuestas es de 150 caracteres.]]></phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="you_need_to_write_at_least_2_answers" added="1255175025">Tienes que escribir por lo menos 2 respuestas.</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="insufficient_permissions_to_vote_on_this_poll" added="1255175086">Permisos insuficientes para votar en esta encuesta.</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="only_friends_can_vote_on_this_poll" added="1255175103"><![CDATA[S&#243;lo los amigos pueden votar en esta encuesta.]]></phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="you_have_reached_your_limit" added="1255175150"><![CDATA[Ha llegado a su l&#237;mite.]]></phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="answer" added="1255175205">Respuesta</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="you_must_have_a_minimum_of_total_answers" added="1255175407"><![CDATA[Usted debe tener un m&#237;nimo de {total} respuestas.]]></phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="are_you_sure" added="1255175467"><![CDATA[&#191;Est&#225;s seguro?]]></phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="poll_created_on_time_stamp_by_user_info" added="1255175511">Encuesta creada en {time_stamp} por {user_info}.</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="this_poll_is_being_moderated_and_no_votes_can_be_added_until_it_has_been_approved" added="1255175581"><![CDATA[Esta encuesta est&#225; siendo moderada y ning&#250;n voto se puede a&#241;adir hasta que haya sido aprobado.]]></phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="submit_your_vote" added="1255175597">Somete tu Voto</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="cancel" added="1255175606">Cancelar</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="approve" added="1255175615">Aprobar</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="edit" added="1255175621">Editar</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="delete" added="1255175628">Eliminar</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="report_this_poll" added="1255175642">Reportar esta Encuesta</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="report" added="1255175648">Reportar</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="votes_total_votes" added="1255175662">Votos ({total_votes})</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="comments_total_comment" added="1255175682">Comentarios ({total_comment})</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="members_votes_total_votes" added="1255175708">Votos de Miembros ({total_votes})</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="poll_designer" added="1255175724"><![CDATA[Dise&#241;ador de Encuestas]]></phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="background" added="1255175738">Fondo</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="select_color" added="1255175759">Seleccionar Color</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="percent" added="1255175766">Porciento</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="border" added="1255175781">Borde</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="save" added="1255175789">Salvar</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="no_polls_have_been_added_yet" added="1255175819"><![CDATA[No se han agregado encuestas a&#250;n.]]></phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="be_the_first_to_create_a_poll" added="1255175829">Sea el primero en crear una encuesta.</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="votes_0" added="1255175879">Votos (0)</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="total_votes_votes" added="1255175894">{total_votes} Votos</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="no_answers_to_show" added="1255175916">No hay respuestas a mostrar.</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="user_info_voted_answer_on_time_stamp" added="1255175946"><![CDATA[{user_info} vot&#243; "{answer}" en {time_stamp}.]]></phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="default_answer" added="1255175983">Respuesta por default</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="answers" added="1255176044">Respuestas</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="image" added="1255176132">Imagen</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="you_can_upload_a_jpg_gif_or_png_file" added="1255176141">Solo puedes subir archivos JPG, GIF o PNG.</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="click_here_to_delete_this_image_and_upload_a_new_one_in_its_place" added="1255176228"><![CDATA[Haga clic aqu&#237; para eliminar esta imagen y subir una nueva en su lugar.]]></phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="save_and_design_this_poll" added="1255176241"><![CDATA[Guardar y Dise&#241;ar esta encuesta]]></phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="update" added="1255176248">Actualizar</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="submit" added="1255176254">Someter</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="skip_and_design_this_poll" added="1255176261"><![CDATA[Dise&#241;ar esta encuesta]]></phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="additional_options" added="1255176271">Opciones Adicionales</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="randomize_answers" added="1255176303">Respuestas al Azar</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="yes" added="1255177470">Si</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="no" added="1255177476">No</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="comments" added="1255177482">Comentarios</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="allow_comments" added="1255177491">Permitir Comentarios</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="moderate_comments_first" added="1255177499">Comentarios Moderados</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="no_comments" added="1255177507">No Comentarios</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="privacy" added="1255177514">Privacidad</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="public_poll_will_be_added_to_our_public_poll_section" added="1255177525"><![CDATA[P&#250;blica (encuesta ser&#225; a&#241;adido a nuestra secci&#243;n de encuestas p&#250;blicas)]]></phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="personal_poll_will_only_be_displayed_on_your_profile" added="1255177533"><![CDATA[Personal (encuesta s&#243;lo se mostrar&#225; en tu perfil)]]></phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="friends_only_friends_can_view_this_poll" added="1255177541"><![CDATA[Amigos (s&#243;lo amigos pueden ver esta encuesta)]]></phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="preferred_list_only_the_people_you_select_will_be_able_to_see_the_poll" added="1255177549"><![CDATA[Lista Preferencial (s&#243;lo las personas que tu seleccione podr&#225;n ver la encuesta)]]></phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="you_have_not_added_any_polls" added="1255177760">Usted no ha agregado ninguna encusta.</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="add_a_new_poll" added="1255177767">Agregar una Nueva Encuesta</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="user_info_has_not_added_any_polls" added="1255177778">{user_info} no ha agredado encuentas.</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="browse_other_polls" added="1255177793">Buscar otras Encuestas</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc4" var_name="be_the_first_to_add_a_poll" added="1255177809">Sea el primero en agregar una encuesta.</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc8" var_name="polls_activity" added="1258500499">Encuestas</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc8" var_name="question" added="1259076823">Pregunta</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc11" var_name="user_setting_can_access_polls" added="1260276844">Can browse and view polls?</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc11" var_name="user_setting_can_create_poll" added="1260329272">Can create a poll?</phrase>
+	<phrase module_id="poll" version_id="2.0.0rc12" var_name="a_href_user_link_full_name_a_likes_your_a_href_link_poll_a" added="1260464634"><![CDATA[<a href="{user_link}">{full_name}</a> likes your <a href="{link}">poll</a>.]]></phrase>
+	<phrase module_id="poll" version_id="2.0.0rc12" var_name="a_href_user_link_full_name_a_likes_their_own_a_href_link_poll_a" added="1260464942"><![CDATA[<a href="{user_link}">{full_name}</a> likes {gender} own <a href="{link}">poll</a>.]]></phrase>
+	<phrase module_id="poll" version_id="2.0.0rc12" var_name="a_href_user_link_full_name_a_likes_a_href_view_user_link_view_full_name_a_s_a_href_link_poll_a" added="1260464961"><![CDATA[<a href="{user_link}">{full_name}</a> likes <a href="{view_user_link}">{view_full_name}</a>'s <a href="{link}">poll</a>.]]></phrase>
+</phrases>

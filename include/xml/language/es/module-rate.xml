@@ -1,0 +1,10 @@
+<phrases>
+	<phrase module_id="rate" version_id="2.0.0beta2" var_name="module_rate" added="1242039437">Calificar</phrase>
+	<phrase module_id="rate" version_id="2.0.0rc4" var_name="unable_to_load_rating_callback" added="1255329311"><![CDATA[No se puede realizar la devoluci&#243;n de la llamada en la calificaci&#243;n.]]></phrase>
+	<phrase module_id="rate" version_id="2.0.0rc4" var_name="not_a_valid_post" added="1255329317"><![CDATA[No es una Publicaci&#243;n v&#225;lida.]]></phrase>
+	<phrase module_id="rate" version_id="2.0.0rc4" var_name="not_a_valid_item_to_rate" added="1255329333"><![CDATA[No es un elemento v&#225;lido para calificar.]]></phrase>
+	<phrase module_id="rate" version_id="2.0.0rc4" var_name="sorry_you_are_not_able_to_rate_your_own_item" added="1255329341"><![CDATA[Lo sentimos, no puedes calificare tu propio art&#237;culo.]]></phrase>
+	<phrase module_id="rate" version_id="2.0.0rc4" var_name="you_have_already_voted_on_this_item" added="1255329350"><![CDATA[Ya calificaste este art&#237;culo.]]></phrase>
+	<phrase module_id="rate" version_id="2.0.0rc4" var_name="thanks_for_rating" added="1255329640"><![CDATA[&#161;Gracias por tu voto!]]></phrase>
+	<phrase module_id="rate" version_id="2.0.0rc8" var_name="rate" added="1258557372">Calificar</phrase>
+</phrases>

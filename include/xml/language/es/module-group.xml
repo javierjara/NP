@@ -1,0 +1,229 @@
+<phrases>
+	<phrase module_id="group" version_id="2.0.0alpha1" var_name="module_group" added="1232964323">Grupos</phrase>
+	<phrase module_id="group" version_id="2.0.0alpha1" var_name="menu_groups" added="1232964338">Grupos</phrase>
+	<phrase module_id="group" version_id="2.0.0alpha4" var_name="user_setting_can_edit_own_group" added="1239899782"><![CDATA[&#191;Se puede editar grupos propios?]]></phrase>
+	<phrase module_id="group" version_id="2.0.0alpha4" var_name="user_setting_can_edit_other_group" added="1239899804"><![CDATA[&#191;Se puede modificar los grupos creados por otros usuarios?]]></phrase>
+	<phrase module_id="group" version_id="2.0.0alpha4" var_name="user_setting_can_post_comment_on_group" added="1239907253">Se puede publicar un comentario en un grupo?</phrase>
+	<phrase module_id="group" version_id="2.0.0alpha4" var_name="setting_group_view_time_stamp" added="1239907661"><![CDATA[<title>Group Time Stamp</title><info>Time stamp used when viewing a group.</info>]]></phrase>
+	<phrase module_id="group" version_id="2.0.0alpha4" var_name="user_setting_can_delete_own_group" added="1239908112"><![CDATA[&#191;Se puede eliminar un grupo propio?]]></phrase>
+	<phrase module_id="group" version_id="2.0.0alpha4" var_name="user_setting_can_delete_other_group" added="1239908135"><![CDATA[&#191;Se puede eliminar un grupo creado por otro usuario?]]></phrase>
+	<phrase module_id="group" version_id="2.0.0alpha4" var_name="menu_view_my_groups" added="1240055892">Ver mis Grupos</phrase>
+	<phrase module_id="group" version_id="2.0.0alpha4" var_name="menu_create_new_group" added="1240056128">Crear un nuevo Grupo</phrase>
+	<phrase module_id="group" version_id="2.0.0alpha4" var_name="menu_view_group_memberships" added="1240057505"><![CDATA[Ver Membres&#237;as de Grupos]]></phrase>
+	<phrase module_id="group" version_id="2.0.0alpha4" var_name="admin_menu_add_category" added="1240141948"><![CDATA[Agregar una Categor&#237;a]]></phrase>
+	<phrase module_id="group" version_id="2.0.0alpha4" var_name="admin_menu_manage_categories" added="1240141948"><![CDATA[Manejar Categor&#237;as]]></phrase>
+	<phrase module_id="group" version_id="2.0.0rc1" var_name="user_setting_can_feature_groups" added="1249050578"><![CDATA[&#191;Se pueden destacar grupos?]]></phrase>
+	<phrase module_id="group" version_id="2.0.0rc1" var_name="setting_limit_popular_groups" added="1249077109"><![CDATA[<title>L&#237;mite de los Grupos Populares</title><info>Definir cuantos grupos populares se deben mostrar.</info>]]></phrase>
+	<phrase module_id="group" version_id="2.0.0rc1" var_name="setting_popular_group_cache" added="1249077250"><![CDATA[<title>Refrescar el Cach&#233; de los Grupos Populares</title><info>Definir la cantidad de minutos a esperar antes de re-almacenamiento en el cach&#233; de los grupos m&#225;s populares.</info>]]></phrase>
+	<phrase module_id="group" version_id="2.0.0rc1" var_name="user_setting_max_upload_size_group" added="1250849295"><![CDATA[Tama&#241;o m&#225;ximo de archivo de fotos subidas en kilobits (kb). (1000 kb = 1 mb)
+Para Tama&#241;o ilimitado, agregue "0" sin las comillas.]]></phrase>
+	<phrase module_id="group" version_id="2.0.0rc2" var_name="menu_group_invites" added="1253431911">Invitaciones a Grupos</phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="thank_you_for_your_request_to_join_our_group_your_membership_will_first_have_to_be_approved" added="1254558874"><![CDATA[Gracias por su solicitud para unirse a nuestro grupo. Su membres&#237;a, primero tendr&#225; que ser aprobado.]]></phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="successfully_deleted_the_group" added="1254558895">El grupo ha sido eliminado.</phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="group_invitation_successfully_sent" added="1254558906"><![CDATA[La invitaci&#243;n al grupo ha sido enviada!]]></phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="successfully_accepted_the_group_invitation" added="1254558925"><![CDATA[La invitaci&#243;n al grupo ha sido aceptada.]]></phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="successfully_denied_the_group_invitation" added="1254558942"><![CDATA[La invitaci&#243;n al grupo ha sido denegada.]]></phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="admins" added="1254558960">Administradores</phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="category" added="1254558971"><![CDATA[Categor&#237;a]]></phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="sub_category" added="1254558978"><![CDATA[Sub-Categor&#237;a]]></phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="browse_filter" added="1254558989"><![CDATA[Criterios de B&#250;squeda]]></phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="basic_info" added="1254559006"><![CDATA[Informaci&#243;n B&#225;sica]]></phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="members" added="1254559024">Miembros</phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="view_more" added="1254559033"><![CDATA[Ver m&#225;s]]></phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="not_responded" added="1254559056">No han respondido</phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="pending_approval" added="1254559065"><![CDATA[Pendiente de Aprobaci&#243;n]]></phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="popular_groups" added="1254559264"><![CDATA[Grupos M&#225;s Solicitados]]></phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="my_groups" added="1254559282">Mis Grupos</phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="category_successfully_updated" added="1254561683"><![CDATA[Categor&#237;a ha sido actualizada.]]></phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="category_successfully_added" added="1254561738"><![CDATA[Categor&#237;a ha sido agregada.]]></phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="edit_a_category" added="1254561752"><![CDATA[Editar una Categor&#237;a]]></phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="create_a_new_category" added="1254561764"><![CDATA[Crear una nueva Categor&#237;a]]></phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="category_order_successfully_updated" added="1254561780"><![CDATA[Orden de la Categor&#237;a ha sido actualizado.]]></phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="category_successfully_deleted" added="1254561789"><![CDATA[Categor&#237;a ha sido eliminada.]]></phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="manage_categories" added="1254561801"><![CDATA[Manejar Categor&#237;as]]></phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="provide_a_name_for_this_group" added="1254561821">Proporciona un nombre para este grupo.</phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="provide_a_location_for_this_group" added="1254561832"><![CDATA[Proporciona una ubicaci&#243;n para este grupo.]]></phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="provide_a_short_description_for_this_group" added="1254561841"><![CDATA[Proporciona una breve descripci&#243;n para este grupo.]]></phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="provide_a_description_for_this_group" added="1254561850"><![CDATA[Proporciona una descripci&#243;n para este grupo.]]></phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="zip_postal_code_is_invalid" added="1254561859"><![CDATA[C&#243;dico Postal es inv&#225;lido.]]></phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="successfully_invited_people_to_this_group" added="1254561869">Las invitaciones a las personas para este grupo han sido realizadas.</phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="successfully_customized_this_group" added="1254561877">Grupo ha sido personalizado.</phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="group_successfully_updated" added="1254561896">Grupo ha sido actualizado.</phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="group_successfully_added" added="1254561905">Grupo ha sido agregado.</phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="edit_group" added="1254561915">Editar Grupo</phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="create_new_group" added="1254561932">Crear un nuevo Grupo</phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="group_successfully_deleted" added="1254561959">Grupo ha sido eliminado.</phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="groups" added="1254561968">Grupos</phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="date_added" added="1254562016">Fecha</phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="most_popular" added="1254562247"><![CDATA[Los m&#225;s populares]]></phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="name" added="1254562254">Nombre</phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="groups_i_ve_created" added="1254562269">Grupos que he creado</phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="all_my_group_memberships" added="1254562279"><![CDATA[Todas mis Membres&#237;as de Grupos]]></phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="my_invites" added="1254562287">Mis Invitaciones</phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="the_group_you_are_looking_for_does_not_exist_or_has_been_removed" added="1254562311"><![CDATA[El grupo que est&#225; buscando no existe o ha sido eliminado.]]></phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="you_have_successfully_joined_this_group" added="1254562554">Te has unido al grupo.</phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="you_have_successfully_left_this_group" added="1254562563">Has dejado el grupo.</phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="home" added="1254562573">Home</phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="this_group_is_open_only_to_its_members" added="1254562588"><![CDATA[Este grupo est&#225; abierto s&#243;lo para sus miembros.]]></phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="customize_group" added="1254562600">Personalizar Grupo</phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="no_users_have_joined_this_group" added="1254562612"><![CDATA[A&#250;n no se han unido usuarios a este grupo.]]></phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="select" added="1254562759">Seleccionar</phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="select_a_sub_category" added="1254562768"><![CDATA[Selecciona un Sub-Categor&#237;a]]></phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="provide_a_category_name" added="1254562801"><![CDATA[Proporciona un nombre de categor&#237;a.]]></phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="invalid_callback_on_the_group" added="1254562860"><![CDATA[Devoluci&#243;n de llamada no v&#225;lida en el grupo.]]></phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="full_name_left_you_a_comment_on_site_title" added="1254562886"><![CDATA[{full_name} te dej&#243; un comentario en {site_title}.]]></phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="full_name_left_you_a_comment_on_your_group_title" added="1254562955"><![CDATA[{full_name} te dej&#243; un comentario en tu grupo "{title}".
+
+Para ver este comentario, siga el siguiente enlace:
+<a href="{link}">{link}</a>]]></phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="on_name_s_group" added="1254563045">En el grupo de {name}.</phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="you_are_not_allowed_to_add_an_event_to_this_group" added="1254563081"><![CDATA[No est&#225; autorizado para agregar un evento para este grupo.]]></phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="you_are_not_allowed_to_post_within_the_forums_of_this_group" added="1254563094"><![CDATA[No est&#225; autorizado para publicar en los foros de este grupo.]]></phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="you_are_not_allowed_to_upload_photos_to_this_group" added="1254563106"><![CDATA[No se le est&#225; perimito subir fotos a este grupo.]]></phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="you_are_not_allowed_to_upload_videos_to_this_group" added="1254563116"><![CDATA[No se le est&#225; perimito subir v&#237;deos a este grupo.]]></phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="a_href_user_link_full_name_a_added_a_new_comment_on_their_own_a_href_title_link_group" added="1254563307"><![CDATA[<a href="{user_link}">{full_name}</a> ageg&#243; un nuevo comentario en su propio <a href="{title_link}">grupo</a>.]]></phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="a_href_user_link_full_name_a_added_a_new_comment_on_your_a_href_title_link_group_a" added="1254563401"><![CDATA[<a href="{user_link}">{full_name}</a> agreg&#243; un nuevo comentario en tu <a href="{title_link}">grupo</a>.]]></phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="a_href_user_link_full_name_a_added_a_new_comment_on_a_href_item_user_link" added="1254563480"><![CDATA[<a href="{user_link}">{full_name}</a> agreg&#243; un nuevo comentario en <a href="{item_user_link}">{item_user_name}'s</a> <a href="{title_link}">grupo</a>.]]></phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="a_href_user_link_owner_full_name_a_added_a_new_group_a_href_title_link_title_a" added="1254563590"><![CDATA[<a href="{user_link}">{owner_full_name}</a> agreg&#243; un nuevo grupo "<a href="{title_link}">{title}</a>".]]></phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="a_href_link_full_name_a_invited_you_to_a_group" added="1254567277"><![CDATA[<a href="{link}">{full_name}</a> te ha invitado al grupo.]]></phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="no_group_invites" added="1254567315"><![CDATA[A&#250;n no hay invitaciones a grupos.]]></phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="group_invites_total" added="1254567355"><![CDATA[Invitaciones a Grupos (<span id="js_request_group_count_total">{total}</span>)]]></phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="view_members" added="1254567384">Ver Miembros</phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="create_a_group" added="1254567406">Crear un Grupo</phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="manage_groups" added="1254567417">Manejar Grupos</phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="group_description_text" added="1254567426"><![CDATA[Texto de la Descripci&#243;n del Grupo]]></phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="full_name_invited_you_to_title" added="1254567528"><![CDATA[{full_name} te ha invitado a "{title}".
+
+Para comprobar este grupo, siga el siguiente enlace: <a href="{link}">{link}</a>]]></phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="full_name_added_the_following_personal_message" added="1254567579"><![CDATA[{full_name} agreg&#243; el siguiente mensaje personal]]></phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="full_name_invited_you_to_the_group_title" added="1254567634"><![CDATA[{full_name} te ha invitado al grupo "{title}".]]></phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="full_name_invited_you_to_title_to_check_out_this_group" added="1254567817"><![CDATA[{full_name} te ha invitado a "{title}".
+
+Para comprobar este grupo, siga el siguiente enlace: <a href="{link}">{link}</a>]]></phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="the_group_you_are_looking_for_does_not_exist" added="1254567869"><![CDATA[El grupo que est&#225; buscando no existe.]]></phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="you_are_not_allowed_to_approve_members_for_this_group" added="1254567880"><![CDATA[No est&#225; autorizado para aprobar los miembros de este grupo.]]></phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="group_membership_approved_title" added="1254567899"><![CDATA[Membres&#237;a del Grupo Aprobada: "{title}"]]></phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="your_membership_for_the_group_title_has_been_approved" added="1254567951"><![CDATA[Tu membres&#237;a para el grupo "{title}" ha sido aprobada.
+
+Pare ver este grupo, siga el enlace de abajo:
+<a href="{link}">{link}</a>]]></phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="title_has_a_new_member_pending_approval" added="1254568010"><![CDATA["{title}" tiene un nuevo miembro que est&#225; pendiente de aprobaci&#243;n!]]></phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="full_name_has_joined_the_group_title_which_you_are_administrating" added="1254568063"><![CDATA[{full_name} se ha unido al grupo "{title}", que tu est&#225;s administrando.
+
+Para aprobar este miembro, siga el enlace de abajo:
+<a href="{link}">{link}</a>]]></phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="title_has_a_new_member" added="1254568119"><![CDATA["{title}" tiene un nuevo miembro!]]></phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="unable_to_leave_this_group_as_it_does_not_exist" added="1254568157">No se puede salir de este grupo, ya que no existe.</phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="you_do_not_have_sufficient_permission_to_modify_this_group" added="1254568172">Usted no tiene permisos suficientes para modificar este grupo.</phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="unable_to_find_the_group_you_want_to_delete" added="1254568196">No se puede encontrar el grupo que deseas eliminar.</phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="you_do_not_have_sufficient_permission_to_delete_this_listing" added="1254568206">Usted no tiene los permisos suficientes para eliminar este clasificado.</phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="unable_to_find_the_group" added="1254568222">No se puede encontrar el grupo.</phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="group_is_not_valid" added="1254568241"><![CDATA[Grupo no es v&#225;lido.]]></phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="unable_to_add_the_user_as_an_admin" added="1254568250">No se puede agregar el usuario como administrador.</phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="provide_a_category_this_group_will_belong_to" added="1254568260"><![CDATA[Proporciona una categor&#237;a a la que este grupo pertenecer&#225;.]]></phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="are_you_sure_this_will_delete_all_groups_that_belong_to_this_category_and_cannot_be_undone" added="1254568333"><![CDATA[&#191;Est&#225;s seguro? Esto eliminar&#225; todos los grupos que pertenecen a esta categor&#237;a y no se puede deshacer.]]></phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="group_invites" added="1254568393">Invitaciones a Grupos</phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="group_created_on_time_stamp_phrase_by_user_link_with_total_members_member_s" added="1254568972">Grupo creado en {time_stamp_phrase} por {user_link} con {total_members} miembro(s).</phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="accept" added="1254569072">Aceptar</phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="deny" added="1254569080">Denegar</phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="creator" added="1254569134">Creador</phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="keywords" added="1254569147">Palabras Claves</phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="location" added="1254569156"><![CDATA[Ubicaci&#243;n]]></phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="city" added="1254569163">Ciudad</phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="zip_postal_code" added="1254569495"><![CDATA[C&#243;dico Postal]]></phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="sort" added="1254569502">Ordenar por</phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="submit" added="1254569509">Someter</phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="reset" added="1254569519">Reajustar</phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="founded_on" added="1254569537">Fundado en</phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="your_groups" added="1254569737">Tus Grupos</phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="invite" added="1254569751">Invitar</phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="no_groups_available_for_this_user" added="1254569759">No hay grupos disponibles para este usuario.</phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="create_a_new_group" added="1254569768">Crear un Nuevo Grupo</phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="approve_this_member_to_be_part_of_this_group" added="1254569785">Aprobar este miembro para formar parte de este grupo.</phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="remove_this_person_from_the_group" added="1254569795">Eliminar a esta persona del grupo.</phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="are_you_sure" added="1254569803"><![CDATA[&#191;Estas Seguro?]]></phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="add_this_person_as_an_admin_for_this_group" added="1254569815">Agregar a esta persona como Administrador de este grupo.</phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="remove_this_person_as_an_admin_for_this_group" added="1254569827">Eliminar a esta persona como administrador para este grupo.</phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="no_members" added="1254569838">No hay miembros.</phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="no_results" added="1254569844">No hay resultados.</phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="leave_group" added="1254569856">Dejar Grupo</phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="join_group" added="1254569864">Unirse al Grupo</phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="manage_members" added="1254569886">Manejar Miembros</phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="contact_full_name_creator" added="1254569924">Contacto {full_name} (Creador)</phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="report_a_group" added="1254569965">Reportar este Grupo</phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="report" added="1254569973">Reportar</phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="delete_group" added="1254569983">Eliminar Grupo</phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="feature_this_group" added="1254569998">Destacar este Grupo</phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="unfeature_this_group" added="1254570006">No Destacar este Grupo</phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="no_groups_added_yet" added="1254570127"><![CDATA[No se han agregado grupos a&#250;n.]]></phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="founded_on_time_stamp_with_a_href_link_1_member_a" added="1254570303"><![CDATA[Fundado en {time_stamp} con <a href="{link}">1 miembro.</a>]]></phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="founded_on_time_stamp_with_no_members" added="1254570379">Fundado en {time_stamp} con 0 miembros.</phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="founded_on_time_stamp_with_a_href_link_total_member_members_a" added="1254570411"><![CDATA[Fundado en {time_stamp} con <a href="{link}">{total_member} miembros</a>.]]></phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="group_category_details" added="1254570486"><![CDATA[Detalles de la Categor&#237;a de Grupo]]></phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="parent_category" added="1254570501"><![CDATA[Categor&#237;a Superior]]></phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="edit" added="1254570533">Editar</phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="delete" added="1254570539">Eliminar</phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="categories" added="1254570545"><![CDATA[Categor&#237;as]]></phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="update_order" added="1254570553">Actualizar Orden</phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="view_this_group" added="1254570563">Ver este Grupo</phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="skip_amp_view_this_group" added="1254570572">Pasar y ver este Grupo</phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="step_1" added="1254570580">Paso 1</phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="group_details" added="1254570589">Detalles del Grupo</phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="step_2" added="1254570602">Paso 2</phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="customize" added="1254570608">Personalizar</phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="step_3" added="1254570617">Paso 3</phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="group_name" added="1254570653">Nombre del Grupo</phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="short_description" added="1254570663"><![CDATA[Descripci&#243;n Corta]]></phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="description" added="1254570671"><![CDATA[Descripci&#243;n]]></phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="general_access" added="1254570700">Acceso General</phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="open_anyone_can_join_and_see_group_data" added="1254570709">Abierto (Cualquier usuario puede unirse y ver los datos del grupo.)</phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="closed_admins_must_approve_members_before_they_can_join_anyone_can_see_group_description_however" added="1254570719"><![CDATA[Cerrado (Los administradores deben aprobar los miembros antes de que ellos puedan unirse al grupo. Cualquiera puede ver la descripci&#243;n del grupo, sin embargo, s&#243;lo los miembros pueden ver los bloques restantes.)]]></phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="secret_group_will_not_appear_anywhere_membership_is_by_invite_only_and_only_members_can_see_any_da" added="1254570729"><![CDATA[Secreto (Grupo no aparecer&#225; en el website. La afiliaci&#243;n es solo por invitaci&#243;n a los miembros y s&#243;lo puedr&#225;n ver los datos relacionados con el grupo una vez est&#233;n afiliados al mismo.)]]></phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="allow_members_and_non_members" added="1254570943">Permitir miembros y no miembros.</phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="allow_only_members" added="1254570952">Permitir solamente miembros.</phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="allow_only_admins" added="1254570959">Permitir solamente administradores.</phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="save" added="1254570968">Salvar</phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="create_group" added="1254570977">Crear un Grupo</phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="group_photo" added="1254570986">Foto del Grupo</phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="click_here_to_delete_this_image_and_upload_a_new_one" added="1254571158"><![CDATA[Haz Clic <a href="#" onclick="{java_script}">aqu&#237;</a> para eliminar esta imagen y subir una nueva en su lugar.]]></phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="you_can_upload_a_jpg_gif_or_png_file" added="1254571269">Usted puede subir un archivo JPG, GIF o PNG.</phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="the_file_size_limit_is_limit" added="1254571286"><![CDATA[El l&#237;mite de tama&#241;o de archivo es {limit}. Si la carga no funciona, intenta subir una imagen m&#225;s peque&#241;a.]]></phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="invite_friends" added="1254571338">Invitar a Amigos</phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="invite_people_via_email" added="1254571351"><![CDATA[Invitar personas v&#237;a Correo Electr&#243;nico]]></phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="separate_multiple_emails_with_a_comma" added="1254571359">Separa los emails con comas.</phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="add_a_personal_message" added="1254571368">Agregar un Mensaje Personal</phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="send_invitations" added="1254571376">Enviar Invitaciones</phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="guest_list" added="1254571387">Lista de invitados</phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="featured" added="1254572147">Destacado</phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="founded_on_time_stamp_with_span_id_js_group_member_count_group_id_no_span_members" added="1254573236"><![CDATA[Fundado en {time_stamp} en <span id="js_group_member_count_{group_id}">no</span> miembros.]]></phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="founded_on_time_stamp_with_link_1_members" added="1254573352"><![CDATA[Fundado en {time_stamp} con <a href="{link}"><span id="js_group_member_count_{group_id}">1</span> miembros.</a>]]></phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="founded_on_time_stamp_with_a_href_link_span_id_js_group_member_count_group_id_total_mem" added="1254573470"><![CDATA[Fundado en {time_stamp} con <a href="{link}"><span id="js_group_member_count_{group_id}">{total_member}</span> miembros</a>.]]></phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="feature" added="1254573502">Destacar</phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="unfeature" added="1254573511">No Destacar</phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="no_groups_have_been_created" added="1254573562"><![CDATA[A&#250;n no se han creado grupos.]]></phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="be_the_first_to_create_a_group" added="1254573569">Sea el primero en crear un grupo.</phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="you_have_been_invited_to_join_this_private_group" added="1254573603">Ha sido invitado a unirse a este grupo privado.</phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="accept_this_invite_and_join_the_group" added="1254573616"><![CDATA[Acepte esta invitaci&#243;n y &#250;nase al grupo.]]></phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="cancel_this_invite" added="1254573626"><![CDATA[Cancelar esta invitaci&#243;n]]></phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="leave_the_invite_and_let_me_check_on_other_groups_first" added="1254573634"><![CDATA[Deja la invitaci&#243;n y permiteme comprobar en otros grupos primero.]]></phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="this_group_is_closed_and_only_members_that_are_invited_can_join_this_group" added="1254573641"><![CDATA[Este grupo est&#225; cerrado y s&#243;lo los miembros que son invitados pueden unirse al grupo.]]></phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="your_membership_to_this_group_is_pending_approval" added="1254573655"><![CDATA[Su membres&#237;a a este grupo est&#225; pendiente de aprobaci&#243;n.]]></phrase>
+	<phrase module_id="group" version_id="2.0.0rc3" var_name="cant_leave_group_only_delete" added="1254833871"><![CDATA[No est&#225; permitido salir de su propio grupo. En lugar de eso usted puede borrar el grupo.]]></phrase>
+	<phrase module_id="group" version_id="2.0.0rc4" var_name="you_have_successfully_joined_the_group_title" added="1256124411"><![CDATA[Te has unido al grupo "<a href="{link}">{title}</a>".]]></phrase>
+	<phrase module_id="group" version_id="2.0.0rc4" var_name="setting_group_profile_display" added="1256373457"><![CDATA[<title>Mostrar el Perfil del Grupo</title><info>En los perfiles de los usuarios mostramos los grupos de los que &#233;stos forman parte o los grupos que ellos han creado. Para mostrar estos grupos seleccione<b>"ambos"</b>.</info>]]></phrase>
+	<phrase module_id="group" version_id="2.0.0rc6" var_name="unable_to_leave_this_group_as_you_are_not_a_member" added="1257256046">Usted no se puede salir de este grupo ya que es miembro del mismo.</phrase>
+	<phrase module_id="group" version_id="2.0.0rc7" var_name="you_do_not_have_any_invitations_at_the_moment" added="1257931341">En estos momentos no tienes invitaciones.</phrase>
+	<phrase module_id="group" version_id="2.0.0rc7" var_name="you_have_not_joined_any_groups" added="1257931402"><![CDATA[A&#250;n no te has unido a ning&#250;n grupo.]]></phrase>
+	<phrase module_id="group" version_id="2.0.0rc7" var_name="you_have_not_created_any_groups" added="1257931440"><![CDATA[A&#250;n no has creado grupos.]]></phrase>
+	<phrase module_id="group" version_id="2.0.0rc8" var_name="unable_to_invite_to_this_group" added="1258401582">No se puede invitar a este grupo.</phrase>
+	<phrase module_id="group" version_id="2.0.0rc8" var_name="group_members" added="1258979922">Miembros del Grupo</phrase>
+	<phrase module_id="group" version_id="2.0.0rc11" var_name="user_setting_can_access_groups" added="1260286121">Can browse and view group module?</phrase>
+	<phrase module_id="group" version_id="2.0.0rc11" var_name="user_setting_can_create_group" added="1260329551">Can create a group?</phrase>
+	<phrase module_id="group" version_id="2.0.0rc11" var_name="user_setting_can_view_secret_group" added="1260331039">Can view and browse secret/private groups?</phrase>
+	<phrase module_id="group" version_id="2.0.0rc12" var_name="a_href_user_link_full_name_a_likes_your_a_href_link_group_a" added="1260471969"><![CDATA[<a href="{user_link}">{full_name}</a> likes your <a href="{link}">group</a>.]]></phrase>
+	<phrase module_id="group" version_id="2.0.0rc12" var_name="a_href_user_link_full_name_a_likes_their_own_a_href_link_group_a" added="1260471991"><![CDATA[<a href="{user_link}">{full_name}</a> likes {gender} own <a href="{link}">group</a>.]]></phrase>
+	<phrase module_id="group" version_id="2.0.0rc12" var_name="a_href_user_link_full_name_a_likes_a_href_view_user_link_view_full_name_a_s_a_href_link_group_a" added="1260472004"><![CDATA[<a href="{user_link}">{full_name}</a> likes <a href="{view_user_link}">{view_full_name}</a>'s <a href="{link}">group</a>.]]></phrase>
+	<phrase module_id="group" version_id="2.0.0rc12" var_name="user_setting_can_manage_all_groups" added="1260896108">Can manage all groups?</phrase>
+	<phrase module_id="group" version_id="2.0.0rc12" var_name="group_access" added="1260914592">Acceso del Grupo</phrase>
+	<phrase module_id="group" version_id="2.0.0rc12" var_name="group_posting_privileges" added="1260914603">Group Posting Privileges</phrase>
+</phrases>

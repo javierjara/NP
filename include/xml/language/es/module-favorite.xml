@@ -1,0 +1,22 @@
+<phrases>
+	<phrase module_id="favorite" version_id="2.0.0beta3" var_name="module_favorite" added="1243243396">Favoritos</phrase>
+	<phrase module_id="favorite" version_id="2.0.0beta3" var_name="menu_favorites" added="1243248339">Favoritos</phrase>
+	<phrase module_id="favorite" version_id="2.0.0rc3" var_name="full_name_has_closed_their_favorites_section" added="1254464684"><![CDATA[<a href="{user_link}">{full_name}</a> ha cerrado su secci&#243;n de favoritos.]]></phrase>
+	<phrase module_id="favorite" version_id="2.0.0rc3" var_name="full_name_s_favorites" added="1254464709">Favoritos de {full_name}</phrase>
+	<phrase module_id="favorite" version_id="2.0.0rc3" var_name="view_favorites" added="1254464746">Ver Favoritos</phrase>
+	<phrase module_id="favorite" version_id="2.0.0rc3" var_name="not_a_valid_module" added="1254464765"><![CDATA[No es un m&#243;dulo v&#225;lido.]]></phrase>
+	<phrase module_id="favorite" version_id="2.0.0rc3" var_name="unable_to_add_this_item_as_a_favorite_due_to_privacy" added="1254464775"><![CDATA[No se puede agregar este art&#237;culo como un "favorito" debido a la privacidad.]]></phrase>
+	<phrase module_id="favorite" version_id="2.0.0rc3" var_name="this_item_is_already_in_your_favorites_list" added="1254464785"><![CDATA[Este art&#237;culo ya est&#225; en tu lista de favoritos.]]></phrase>
+	<phrase module_id="favorite" version_id="2.0.0rc3" var_name="successfully_added_to_your_favorites" added="1254464814">Agregado a tus favoritos.</phrase>
+	<phrase module_id="favorite" version_id="2.0.0rc3" var_name="view_your_favorites" added="1254464824">Ver tus Favoritos</phrase>
+	<phrase module_id="favorite" version_id="2.0.0rc3" var_name="close" added="1254464865">Cerrar</phrase>
+	<phrase module_id="favorite" version_id="2.0.0rc3" var_name="added_by_user_on_time_stamp_phrase" added="1254465107">Agregado por {user_link} en {time_stamp_phrase}</phrase>
+	<phrase module_id="favorite" version_id="2.0.0rc3" var_name="are_you_sure" added="1254466140"><![CDATA[&#191;Est&#225;s seguro?]]></phrase>
+	<phrase module_id="favorite" version_id="2.0.0rc3" var_name="delete" added="1254466166">Eliminar</phrase>
+	<phrase module_id="favorite" version_id="2.0.0rc3" var_name="recently_added" added="1254466190">Recientemente Agregado</phrase>
+	<phrase module_id="favorite" version_id="2.0.0rc3" var_name="you_do_not_have_any_items_or_users_listed_in_your_favorites_just_yet" added="1254466204"><![CDATA[A&#250;n no tienes ning&#250;n art&#237;culos o usuarios que figuran en tus favoritos.]]></phrase>
+	<phrase module_id="favorite" version_id="2.0.0rc3" var_name="you_have_not_added_any_favorites_yet" added="1254466219"><![CDATA[Todav&#237;a tu no has agregado ninguno a "Favoritos".]]></phrase>
+	<phrase module_id="favorite" version_id="2.0.0rc3" var_name="to_add_items_to_your_favorite_list_simply_view_public_items_on_the_site" added="1254466234"><![CDATA[Para agregar art&#237;culos a su lista de favoritos, simplemente vea los art&#237;culos p&#250;blicos en el sitio y buscar el enlace "Agregar a Favoritos".]]></phrase>
+	<phrase module_id="favorite" version_id="2.0.0rc3" var_name="user_link_has_not_added_any_favorites_yet" added="1254466379"><![CDATA[{user_link} todav&#237;a no ha agregado ninguno a "Favoritos".]]></phrase>
+	<phrase module_id="favorite" version_id="2.0.0rc4" var_name="favorites" added="1255716351">Favoritos</phrase>
+</phrases>

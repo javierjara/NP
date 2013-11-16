@@ -1,0 +1,13 @@
+<phrases>
+	<phrase module_id="log" version_id="2.0.0alpha1" var_name="module_log" added="1219151809">Log</phrase>
+	<phrase module_id="log" version_id="2.0.0rc4" var_name="recent_logins" added="1255010369">Conexiones recientes</phrase>
+	<phrase module_id="log" version_id="2.0.0rc4" var_name="admincp_dashboard" added="1255010448">AdminCP Dashboard</phrase>
+	<phrase module_id="log" version_id="2.0.0rc4" var_name="site_index" added="1255010458">Indice del Sitio</phrase>
+	<phrase module_id="log" version_id="2.0.0rc4" var_name="current_active_users" added="1255010487">Usuarios Activos Actualmente</phrase>
+	<phrase module_id="log" version_id="2.0.0rc4" var_name="members_members_and_guests_guests" added="1255010523">{members} miembros y {guests} invitados</phrase>
+	<phrase module_id="log" version_id="2.0.0rc4" var_name="view" added="1255010595">Ver</phrase>
+	<phrase module_id="log" version_id="2.0.0rc4" var_name="save" added="1255010604">Salvar</phrase>
+	<phrase module_id="log" version_id="2.0.0rc4" var_name="cancel" added="1255010610">Cancelar</phrase>
+	<phrase module_id="log" version_id="2.0.0rc12" var_name="everyone" added="1260824015">Todos</phrase>
+	<phrase module_id="log" version_id="2.0.0rc12" var_name="friends_only" added="1260824023">Solo Amigos</phrase>
+</phrases>

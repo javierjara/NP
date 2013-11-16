@@ -1,0 +1,73 @@
+<phrases>
+	<phrase module_id="feed" version_id="2.0.0alpha1" var_name="module_feed" added="1219147598">Feed</phrase>
+	<phrase module_id="feed" version_id="2.0.0alpha3" var_name="setting_feed_display_time_stamp" added="1238753352"><![CDATA[<title>Feed Time Stamps</title><info>Time stamps displayed on feeds.</info>]]></phrase>
+	<phrase module_id="feed" version_id="2.0.0alpha3" var_name="user_setting_can_post_comment_on_feed" added="1238755242">Can post a comment on a feed?</phrase>
+	<phrase module_id="feed" version_id="2.0.0alpha3" var_name="setting_allow_comments_on_feeds" added="1238758105"><![CDATA[<title>Allow Comments On Feeds</title><info>Set to <b>True</b> if you would like to allow comments on news feeds.</info>]]></phrase>
+	<phrase module_id="feed" version_id="2.0.0alpha3" var_name="setting_comment_feed_cutoff" added="1238758497"><![CDATA[<title>Comment Cutoff on Feeds</title><info>Define the cutoff for comments in each feed.</info>]]></phrase>
+	<phrase module_id="feed" version_id="2.0.0beta3" var_name="setting_user_feed_display_limit" added="1243628690"><![CDATA[<title>Array of Display Limits (User Selection)</title><info>This array defines what users can select to modify the global display limit of feeds on their dashboard and profile.</info>]]></phrase>
+	<phrase module_id="feed" version_id="2.0.0beta3" var_name="user_setting_can_remove_feeds_from_dashboard" added="1243629838">Can remove feeds from their dashboard?</phrase>
+	<phrase module_id="feed" version_id="2.0.0beta3" var_name="user_setting_can_remove_feeds_from_profile" added="1243630626">Can remove feeds from their own profile?</phrase>
+	<phrase module_id="feed" version_id="2.0.0rc2" var_name="setting_integrate_comments_into_feeds" added="1252753029"><![CDATA[<title>Integrate Comments Into Feeds</title><info>By enabling this option you will integrate comments found on a users profile into their feed. This will also disable the comment module on profiles if this feature is enabled since the news feed module will take over comments.</info>]]></phrase>
+	<phrase module_id="feed" version_id="2.0.0rc3" var_name="you_do_not_have_permission_to_add_a_comment_on_this_persons_profile" added="1254466421">No tienes permiso para agregar un comentario sobre este perfil de personas.</phrase>
+	<phrase module_id="feed" version_id="2.0.0rc3" var_name="posting_a_comment_a_little_too_soon" added="1254466440">Publicar un poco de comentario.</phrase>
+	<phrase module_id="feed" version_id="2.0.0rc3" var_name="add_some_text_to_your_comment" added="1254466451">Agrega un poco de texto a tu comentario.</phrase>
+	<phrase module_id="feed" version_id="2.0.0rc3" var_name="updates" added="1254466478">Actualizaciones</phrase>
+	<phrase module_id="feed" version_id="2.0.0rc3" var_name="invalid_user" added="1254466543"><![CDATA[Usuario inv&#225;lido.]]></phrase>
+	<phrase module_id="feed" version_id="2.0.0rc3" var_name="missing_feed_id" added="1254466556">ID perdido del feed</phrase>
+	<phrase module_id="feed" version_id="2.0.0rc3" var_name="invalid_feed_id" added="1254466565"><![CDATA[ID inv&#225;lido del feed]]></phrase>
+	<phrase module_id="feed" version_id="2.0.0rc3" var_name="full_name_left_you_a_comment_on_site_title" added="1254466611"><![CDATA[{full_name} te dej&#243; un comentario en {site_title}.]]></phrase>
+	<phrase module_id="feed" version_id="2.0.0rc3" var_name="full_name_left_you_a_comment_on_site_title_to_view_this_comment" added="1254466675"><![CDATA[{full_name} te dej&#243; un comentario en {site_title}.
+
+Paa ver este comentario, sigue el enlace de abajo:
+<a href="{link}">{link}</a>]]></phrase>
+	<phrase module_id="feed" version_id="2.0.0rc3" var_name="on_name_s_feed" added="1254466723">En el feed de {name}.</phrase>
+	<phrase module_id="feed" version_id="2.0.0rc3" var_name="adding_your_comment" added="1254466821">Agregar comentario</phrase>
+	<phrase module_id="feed" version_id="2.0.0rc3" var_name="comment" added="1254466836">Comentario</phrase>
+	<phrase module_id="feed" version_id="2.0.0rc3" var_name="cancel" added="1254466844">cancelar</phrase>
+	<phrase module_id="feed" version_id="2.0.0rc3" var_name="post" added="1254466883">Publicar</phrase>
+	<phrase module_id="feed" version_id="2.0.0rc3" var_name="view_more" added="1254466897"><![CDATA[Ver m&#225;s]]></phrase>
+	<phrase module_id="feed" version_id="2.0.0rc3" var_name="user_link_wrote" added="1254467370"><![CDATA[{user_link} escribi&#243;...]]></phrase>
+	<phrase module_id="feed" version_id="2.0.0rc3" var_name="viewer_full_name_wrote_on_owner_full_name_s_profile" added="1254467724"><![CDATA[<a href="{viewer_user_link}">{viewer_full_name}</a> escribi&#243; en <a href="{owner_user_link}">{owner_full_name}'s</a> perfil...]]></phrase>
+	<phrase module_id="feed" version_id="2.0.0rc3" var_name="show_total_left_more_comments" added="1254468247"><![CDATA[Mostrar {total_left} m&#225;s comentarios...]]></phrase>
+	<phrase module_id="feed" version_id="2.0.0rc3" var_name="total_feeds_to_display" added="1254468363">Total de feeds a mostrar</phrase>
+	<phrase module_id="feed" version_id="2.0.0rc3" var_name="save" added="1254468372">Salvar</phrase>
+	<phrase module_id="feed" version_id="2.0.0rc3" var_name="cancel_uppercase" added="1254468388">Cancelar</phrase>
+	<phrase module_id="feed" version_id="2.0.0rc4" var_name="setting_allow_rating_of_feeds" added="1255781516"><![CDATA[<title>Allow Rating of Feeds</title><info>Enable this option to allow users to rate feeds.</info>]]></phrase>
+	<phrase module_id="feed" version_id="2.0.0rc4" var_name="are_you_sure" added="1255781764"><![CDATA[&#191;Est&#225;s seguro?]]></phrase>
+	<phrase module_id="feed" version_id="2.0.0rc4" var_name="user_setting_can_delete_own_feed" added="1255781932"><![CDATA[&#191;Se puede eliminar un feed propio?]]></phrase>
+	<phrase module_id="feed" version_id="2.0.0rc4" var_name="user_setting_can_delete_other_feeds" added="1255781966"><![CDATA[&#191;Se pueden eliminar otros feeds?]]></phrase>
+	<phrase module_id="feed" version_id="2.0.0rc4" var_name="delete" added="1255782554">Eliminar</phrase>
+	<phrase module_id="feed" version_id="2.0.0rc4" var_name="feed_successfully_deleted" added="1255782937">Feed ha sido eliminado</phrase>
+	<phrase module_id="feed" version_id="2.0.0rc4" var_name="owner_full_name_commented_on_full_names_feed" added="1256492983"><![CDATA[<a href="{owner_link}">{owner_full_name}</a> comento en <a href="{viewer_link}">{viewer_full_name}'s <a href="{link}">feed</a>.]]></phrase>
+	<phrase module_id="feed" version_id="2.0.0rc4" var_name="a_href_owner_link_owner_full_name_a_commented_on_their_own_a_href_link_feed_a" added="1256493985"><![CDATA[<a href="{owner_link}">{owner_full_name}</a> coment&#243; sobre su propio <a href="{link}">feed</a>.]]></phrase>
+	<phrase module_id="feed" version_id="2.0.0rc4" var_name="write_a_comment" added="1256502047">Escriba un comentario...</phrase>
+	<phrase module_id="feed" version_id="2.0.0rc4" var_name="loading" added="1256542012">Cargando...</phrase>
+	<phrase module_id="feed" version_id="2.0.0rc4" var_name="hide" added="1256542058">Ocultar</phrase>
+	<phrase module_id="feed" version_id="2.0.0rc4" var_name="viewing_feed_with_a_comment_id" added="1256660407">Viendo el Feed con un comentario: #{id}</phrase>
+	<phrase module_id="feed" version_id="2.0.0rc4" var_name="viewing_feed_id" added="1256660424">Viendo el Feed: #{id}</phrase>
+	<phrase module_id="feed" version_id="2.0.0rc4" var_name="view_all" added="1256660461">Ver todo</phrase>
+	<phrase module_id="feed" version_id="2.0.0rc4" var_name="full_name_commented_on_their_own_profile" added="1256661031"><![CDATA[<a href="{user_link}">{full_name}</a> escribi&#243; en su propio <a href="{user_link}">perfil</a>.]]></phrase>
+	<phrase module_id="feed" version_id="2.0.0rc7" var_name="edit" added="1257841247">Editar</phrase>
+	<phrase module_id="feed" version_id="2.0.0rc8" var_name="the_activity_feed_you_are_looking_for_does_not_exist" added="1258848578"><![CDATA[La actividad del Feed que est&#225; buscando no existe.]]></phrase>
+	<phrase module_id="feed" version_id="2.0.0rc12" var_name="nobody_likes_this" added="1260439366">Nobody likes this.</phrase>
+	<phrase module_id="feed" version_id="2.0.0rc12" var_name="you_like_this" added="1260439664">You like this.</phrase>
+	<phrase module_id="feed" version_id="2.0.0rc12" var_name="people_who_like_this" added="1260439672">People who like this</phrase>
+	<phrase module_id="feed" version_id="2.0.0rc12" var_name="user_link_likes_this" added="1260439694">{user_link} likes this.</phrase>
+	<phrase module_id="feed" version_id="2.0.0rc12" var_name="you_and_user_link_like_this" added="1260439746">Tu y {user_link} like this.</phrase>
+	<phrase module_id="feed" version_id="2.0.0rc12" var_name="and" added="1260439790">y</phrase>
+	<phrase module_id="feed" version_id="2.0.0rc12" var_name="you" added="1260439797">Tu</phrase>
+	<phrase module_id="feed" version_id="2.0.0rc12" var_name="other_person" added="1260439817">otra persona</phrase>
+	<phrase module_id="feed" version_id="2.0.0rc12" var_name="others" added="1260439830">otros</phrase>
+	<phrase module_id="feed" version_id="2.0.0rc12" var_name="like_this" added="1260439841">como este</phrase>
+	<phrase module_id="feed" version_id="2.0.0rc12" var_name="like" added="1260439890">Me gusta</phrase>
+	<phrase module_id="feed" version_id="2.0.0rc12" var_name="unlike" added="1260439897">No me gusta</phrase>
+	<phrase module_id="feed" version_id="2.0.0rc12" var_name="you_have_already_liked_this_feed" added="1260440751">Ustedes ya han tenido el gusto en este feed.</phrase>
+	<phrase module_id="feed" version_id="2.0.0rc12" var_name="user_link_and_user_link_like_this" added="1260445733">{user_link_owner} y {user_link} like this.</phrase>
+	<phrase module_id="feed" version_id="2.0.0rc12" var_name="the_feed_you_are_trying_to_like_unlike_does_not_exist_any_longer" added="1260459851">The feed you are trying to like/unlike does not exist any longer.</phrase>
+	<phrase module_id="feed" version_id="2.0.0rc12" var_name="a_href_user_link_full_name_a_likes_your_a_href_link_status_a" added="1260475302"><![CDATA[<a href="{user_link}">{full_name}</a> likes your <a href="{link}">status</a>.]]></phrase>
+	<phrase module_id="feed" version_id="2.0.0rc12" var_name="setting_enable_like_system" added="1260830264"><![CDATA[<title>Enable "Like" System</title><info>With this feature enabled it will allow users to "like/unlike" certain feeds.
+
+Not all feeds support the "like/unlike" feature.
+
+<b>Notice:</b> This feature is experimental and is not stable.</info>]]></phrase>
+</phrases>

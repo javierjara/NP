@@ -53,11 +53,11 @@ defined('PHPFOX') or exit('NO DICE!');
                          
                          <div class="activity_feed_form_button_position_button submit_button_form_ex">
 <!--                             <span class="ex_button_arrow"></span>-->
-                             <a id="activity_feed_popup_ex" href="#" class="button" onclick="tb_show('Ex life', $.ajaxBox('feed.popup', 'height=300&width=550')); return false;" title="Don’t be afraid to share your sad feelings, you will see that you are not alone! Post something about your ex life, like movies, songs, or photos!"></a>
+                             <a id="activity_feed_popup_ex" href="#" class="button" onclick="tb_show('Ex life', $.ajaxBox('feed.popup', 'height=300&width=550')); return false;" title="{phrase var='feed.submit_ex_tooltip'}"></a>
                          </div>					
 
                          <div class="activity_feed_form_button_position_button submit_button_form_next">
-                             <a id="activity_feed_popup_next" href="#" class="button" onclick="tb_show('Next life', $.ajaxBox('feed.popup', 'height=300&width=550')); return false;" title="Write down the progress that you're making as a new single person. Plan your future! Write your next interests, your next buys, your next relationships"></a>
+                             <a id="activity_feed_popup_next" href="#" class="button" onclick="tb_show('Next life', $.ajaxBox('feed.popup', 'height=300&width=550')); return false;" title="{phrase var='feed.submit_next_tooltip'}"></a>
 <!--                             <span class="next_button_arrow"></span>-->
                          </div>
 

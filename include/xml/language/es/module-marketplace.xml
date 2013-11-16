@@ -1,0 +1,183 @@
+<phrases>
+	<phrase module_id="marketplace" version_id="2.0.0alpha4" var_name="module_marketplace" added="1239387125">Clasificados</phrase>
+	<phrase module_id="marketplace" version_id="2.0.0alpha4" var_name="menu_marketplace" added="1239387152">Clasificados</phrase>
+	<phrase module_id="marketplace" version_id="2.0.0alpha4" var_name="setting_marketplace_view_time_stamp" added="1239457199"><![CDATA[<title>Ver el Time Stamp del Clasificado</title><info>Ver el Time Stamp del Clasificado</info>]]></phrase>
+	<phrase module_id="marketplace" version_id="2.0.0alpha4" var_name="user_setting_can_post_comment_on_listing" added="1239459827"><![CDATA[&#191;Se puede publicar un comentario en un clasificado?]]></phrase>
+	<phrase module_id="marketplace" version_id="2.0.0alpha4" var_name="user_setting_can_edit_own_listing" added="1239463634"><![CDATA[&#191;Se pueden editar clasificados propios?]]></phrase>
+	<phrase module_id="marketplace" version_id="2.0.0alpha4" var_name="user_setting_can_edit_other_listing" added="1239463695"><![CDATA[&#191;Se pueden editar clasificados agregados por otros usuarios?]]></phrase>
+	<phrase module_id="marketplace" version_id="2.0.0alpha4" var_name="menu_add_new_listing" added="1239472943">Agregar un Clasificado</phrase>
+	<phrase module_id="marketplace" version_id="2.0.0alpha4" var_name="user_setting_can_delete_own_listing" added="1239541511"><![CDATA[&#191;Se pueden eliminar clasificados propios?]]></phrase>
+	<phrase module_id="marketplace" version_id="2.0.0alpha4" var_name="user_setting_can_delete_other_listings" added="1239541555"><![CDATA[&#191;Se pueden eliminar clasificados agregados por otros usuarios?]]></phrase>
+	<phrase module_id="marketplace" version_id="2.0.0alpha4" var_name="admin_menu_add_category" added="1239552185"><![CDATA[Agregar una Categor&#237;a]]></phrase>
+	<phrase module_id="marketplace" version_id="2.0.0alpha4" var_name="admin_menu_manage_categories" added="1239552185"><![CDATA[Manejar Categor&#237;as]]></phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc1" var_name="user_setting_max_upload_size_listing" added="1250258666"><![CDATA[Tama&#241;o m&#225;ximo del archivo de las fotos a subir; en kilobits (kb).
+(1000 kb = 1 mb)
+Para ilimitado, agregar "0" sin las comas.]]></phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc1" var_name="setting_total_listing_more_from" added="1250340296"><![CDATA[<title>Total de "M&#225;s De" Clasificados a Mostrar</title><info>Define cu&#225;ntos clasificados a mostrar en el bloque de "M&#225;s De" cuando se est&#225; viendo un clasificado.</info>]]></phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc1" var_name="user_setting_can_feature_listings" added="1250355847"><![CDATA[&#191;Se puede destacar clasificados?]]></phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc1" var_name="user_setting_listing_approve" added="1250357077"><![CDATA[Habilitar si los clasificados deben ser aprobados antes de que se muestren p&#250;blicamente.]]></phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc1" var_name="user_setting_can_approve_listings" added="1250357731"><![CDATA[&#191;Se puede aprobar clasificados?]]></phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc4" var_name="categories" added="1255076189"><![CDATA[Categor&#237;as]]></phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc4" var_name="sub_categories" added="1255076202"><![CDATA[Sub-Categor&#237;as]]></phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc4" var_name="browse_filter" added="1255076215"><![CDATA[Criterios de B&#250;squeda]]></phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc4" var_name="price" added="1255076233">Precio</phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc4" var_name="free" added="1255076244" />
+	<phrase module_id="marketplace" version_id="2.0.0rc4" var_name="invites" added="1255076258">Invitaciones</phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc4" var_name="visited" added="1255076267">Visitado</phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc4" var_name="not_responded" added="1255076279">No han respondido</phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc4" var_name="more_from" added="1255076293"><![CDATA[M&#225;s de]]></phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc4" var_name="view_more" added="1255076304"><![CDATA[Ver m&#225;s]]></phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc4" var_name="marketplace_listings" added="1255076319">Clasificados</phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc4" var_name="category_successfully_updated" added="1255076338"><![CDATA[La categor&#237;a ha sido actualizada.]]></phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc4" var_name="category_successfully_added" added="1255076349"><![CDATA[La categor&#237;a ha sido agregada.]]></phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc4" var_name="edit_a_category" added="1255076358"><![CDATA[Editar una Categor&#237;a]]></phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc4" var_name="create_a_new_category" added="1255076369"><![CDATA[Crear una nueva Categor&#237;a]]></phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc4" var_name="category_order_successfully_updated" added="1255076387"><![CDATA[El Orden de la Categor&#237;a ha sido actualizado.]]></phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc4" var_name="category_successfully_deleted" added="1255076397"><![CDATA[La categor&#237;a ha sido eliminada.]]></phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc4" var_name="manage_categories" added="1255076405"><![CDATA[Manejar Categor&#237;as]]></phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc4" var_name="provide_a_name_for_this_listing" added="1255076432">Proporcione un nombre para este clasificado.</phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc4" var_name="provide_a_location_for_this_listing" added="1255076442"><![CDATA[Proporcione la ubicaci&#243;n de este clasificado.]]></phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc4" var_name="listing_successfully_updated" added="1255076452">Clasificado ha sido actualizado.</phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc4" var_name="successfully_uploaded_images_for_this_listing" added="1255076461"><![CDATA[Las im&#225;genes de este clasificado subieron correctamente.]]></phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc4" var_name="successfully_invited_users_for_this_listing" added="1255076470">Las invitaciones a usuarios para este clasificado han sido realizadas.</phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc4" var_name="successfully_updated_this_listing" added="1255076481"><![CDATA[Se ha actualizado este clasificado con &#233;xito.]]></phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc4" var_name="listing_successfully_added" added="1255076490"><![CDATA[Clasificado fue agregado con &#233;xito.]]></phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc4" var_name="edit_a_marketplace_listing" added="1255076501">Editar Clasificados</phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc4" var_name="edit_a_listing" added="1255076526">Editar un Clasificado</phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc4" var_name="create_a_marketplace_listing" added="1255076534">Crear un Clasificado</phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc4" var_name="create_a_listing" added="1255076542">Crear un Clasificado</phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc4" var_name="marketplace" added="1255076548">Clasificados</phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc4" var_name="listing_successfully_deleted" added="1255076562">Clasificado fue completamente eliminado.</phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc4" var_name="date_added" added="1255076575">Fecha</phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc4" var_name="name" added="1255076582">Nombre</phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc4" var_name="recent_listings" added="1255076608">Clasificados Recientes</phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc4" var_name="my_listings" added="1255076616">Mis Clasificados</phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc4" var_name="featured" added="1255076623">Destacados</phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc4" var_name="invitations" added="1255076629">Invitaciones</phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc4" var_name="pending" added="1255076637">Pendientes</phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc4" var_name="the_listing_you_are_looking_for_either_does_not_exist_or_has_been_removed" added="1255076663"><![CDATA[El clasificado que est&#225; buscando no existe o ha sido eliminado.]]></phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc4" var_name="select" added="1255076724">Seleccionar</phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc4" var_name="select_a_sub_category" added="1255076733"><![CDATA[Selecciona una Sub-Categor&#237;a]]></phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc4" var_name="provide_a_category_name" added="1255076745"><![CDATA[Proporciona un nombre de categor&#237;a.]]></phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc4" var_name="invalid_callback_on_marketplace_listing" added="1255076781"><![CDATA[La devoluci&#243;n de llamada no v&#225;lida en la secci&#243;n de clasificados.]]></phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc4" var_name="user_name_left_you_a_comment_on_site_title" added="1255076800"><![CDATA[{user_name} te dej&#243; un comentario en {site_title}.]]></phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc4" var_name="user_name_left_you_a_comment_on_your_marketplace_listing" added="1255076862"><![CDATA[{user_name} te dej&#243; un comentario en tu clasificado
+
+Para ver este comentario, siga el enlace abajo:
+<a href="{link}">{link}</a>]]></phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc4" var_name="a_href_user_link_full_name_a_added_a_new_comment_on_their_own_a_href_title_link_listin" added="1255077003"><![CDATA[<a href="{user_link}">{full_name}</a> agreg&#243; un nuevo comentario sobre su propio <a href="{title_link}">clasificado</a>.]]></phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc4" var_name="a_href_user_link_full_name_a_added_a_new_comment_on_your_a_href_title_link_listing_a" added="1255077073"><![CDATA[<a href="{user_link}">{full_name}</a> agreg&#243; un nuevo comentario sobre tu <a href="{title_link}">clasificado</a>.]]></phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc4" var_name="a_href_user_link_full_name_a_added_a_new_comment_on_a_href_item_user_link_item_user_n" added="1255077120"><![CDATA[<a href="{user_link}">{full_name}</a> agreg&#243; un nuevo comentario en <a href="{item_user_link}">{item_user_name}'s</a> <a href="{title_link}">clasiicado</a>.]]></phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc4" var_name="a_href_user_link_owner_full_name_a_added_a_new_listing_a_href_title_link_title_a" added="1255077808"><![CDATA[<a href="{user_link}">{owner_full_name}</a> agreg&#243; un nuevo clasificado "<a href="{title_link}">{title}</a>".]]></phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc4" var_name="your_listing_title_has_been_approved" added="1255077901"><![CDATA[Tu clasificado "{title}" ha sibo aprobado.]]></phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc4" var_name="listings" added="1255077920">Clasificados</phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc4" var_name="user_link_invited_you_to_a_marketplace_listing" added="1255077951"><![CDATA[{user_link} te ha invitado a la secci&#243;n de clasificados.]]></phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc4" var_name="no_listing_invites" added="1255077972">No hay invitaciones a los clasificados.</phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc4" var_name="marketplace_invites" added="1255078002">Invitaciones a los Clasificados</phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc4" var_name="marketplace_text" added="1255078012">Texto del Clasificado</phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc4" var_name="full_name_invited_you_to_view_the_marketplace_listing_title" added="1255078462"><![CDATA[{full_name} te ha invitado a ver el clasificaod "{title}".
+
+Para verificar este clasificado, sigue el enlace de abajo:
+<a href="{link}">{link}</a>"]]></phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc4" var_name="full_name_added_the_following_personal_message" added="1255078552"><![CDATA[{full_name} agreg&#243; el siguiente mensaje personal]]></phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc4" var_name="full_name_invited_you_to_view_the_listing_title" added="1255078586"><![CDATA[{full_name} te ha invitado a ver el clasificado "{title}".]]></phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc4" var_name="unable_to_find_the_listing_you_want_to_delete" added="1255078649">No se puede encontrar el clasificado que deseas eliminar.</phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc4" var_name="you_do_not_have_sufficient_permission_to_delete_this_listing" added="1255078659">Usted no tiene permisos suficientes para eliminar este clasificado.</phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc4" var_name="you_do_not_have_sufficient_permission_to_modify_this_listing" added="1255078673">Usted no tiene permisos suficientes para modificar este clasificado.</phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc4" var_name="unable_to_find_the_listing_you_want_to_approve" added="1255078695">No se puede encontrar el clasificado que deseas aprobar.</phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc4" var_name="your_listing_has_been_approved_on_site_title" added="1255078720">Tu clasificado ha sido aprobado en {site_title}.</phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc4" var_name="your_listing_has_been_approved_on_site_title_message" added="1255078774"><![CDATA[Tu clasificado ha sido aprobado en {site_title}.
+
+Para ver este clasificado, sigue el enlace de abajo:
+<a href="{link}">{link}</a>]]></phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc4" var_name="provide_a_category_this_listing_will_belong_to" added="1255078805"><![CDATA[Proporciona una categor&#237;a a la que pertenecer&#225; este clasificado.]]></phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc4" var_name="are_you_sure_this_will_delete_all_listings_that_belong_to_this_category_and_cannot_be_undone" added="1255078851"><![CDATA[&#191;Est&#225;s seguro? Esto eliminar&#225; todos los clasificados que pertenecen a esta categor&#237;a y no se puede deshacer.]]></phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc4" var_name="posted_on_time_stamp" added="1255080265">Publicado en {time_stamp}.</phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc4" var_name="the_file_size_limit_is_file_size_if_your_upload_does_not_work_try_uploading_a_smaller_picture" added="1255080312"><![CDATA[El l&#237;mite del tama&#241;o del archivo es {file_size}. Si la subida no funciona, intenta subir una imagen m&#225;s peque&#241;a.]]></phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc4" var_name="click_here_to_approve_listings" added="1255080631"><![CDATA[Haz clic aqu&#237; para aprobar clasificados.]]></phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc4" var_name="posted_time_samp_in_country_iso" added="1255080684">Publicado el {time_samp} en {country_iso}.</phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc4" var_name="posted_time_stamp_by_user_info_in_country_iso" added="1255080740">Publicado el {time_stamp} por {user_info} en {country_iso}.</phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc4" var_name="this_song_has_been_added_to_your_profile" added="1255081050"><![CDATA[Esta canci&#243;n ha sido agregada a su perfil.]]></phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc4" var_name="this_song_has_been_removed_from_your_profile" added="1255081059"><![CDATA[Esta canci&#243;n ha sido removida de su perfil.]]></phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc4" var_name="basic_info" added="1255081085"><![CDATA[Informaci&#243;n B&#225;sica]]></phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc3" var_name="keywords" added="1254402580">Palabras Claves</phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc3" var_name="location" added="1254402616"><![CDATA[Ubicaci&#243;n]]></phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc3" var_name="city" added="1254402631">Ciudad</phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc3" var_name="zip_postal_code" added="1254402651"><![CDATA[C&#243;dico Postal]]></phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc3" var_name="sort" added="1254402662">Ordenar por</phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc3" var_name="submit" added="1254402705">Someter</phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc3" var_name="reset" added="1254402715">Reajustar</phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc3" var_name="photos" added="1254402743">Fotos</phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc3" var_name="summary" added="1254402845">Resumen</phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc3" var_name="posted_on" added="1254402857">Publicado en</phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc3" var_name="posted_by" added="1254402869">Publicado por</phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc3" var_name="user_rating" added="1254402880"><![CDATA[Calificaci&#243;n del Usuario]]></phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc3" var_name="user_activity" added="1254402889">Actividad del Usuario</phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc3" var_name="no_visits" added="1254402947"><![CDATA[No hay visitas a&#250;n.]]></phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc3" var_name="no_results" added="1254402982">No hay resultados.</phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc3" var_name="add_new_listing" added="1254403011">Agregar un nuevo Clasificado</phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc3" var_name="edit_listing" added="1254403026">Editar Clasificado</phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc3" var_name="manage_photos" added="1254403038">Manejar Fotos</phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc3" var_name="send_invitations" added="1254403047">Enviar invitaciones</phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc3" var_name="manage_invites" added="1254403080">Administrar Invitaciones</phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc3" var_name="contact" added="1254403096">Contacto</phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc3" var_name="report_this_listing" added="1254403154">Reportar este Clasificado</phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc3" var_name="report" added="1254403163">Reportar</phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc3" var_name="delete_listing" added="1254403180">Eliminar Clasificado</phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc3" var_name="delete_this_image_for_the_listing" added="1254403406">Eliminar esta imagen del clasificado.</phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc3" var_name="are_you_sure" added="1254403483"><![CDATA[&#191;Est&#225;s seguro?]]></phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc3" var_name="click_to_set_as_default_image" added="1254403502"><![CDATA[Haz clic aqu&#237; para establecer esta imagen como default.]]></phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc3" var_name="no_listings_added_yet" added="1254403561"><![CDATA[No se han agregado clasificados a&#250;n.]]></phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc3" var_name="add_a_listing" added="1254403593">Agregar un Clasificado</phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc3" var_name="marketplace_category_details" added="1254403721"><![CDATA[Detalles de las Categor&#237;as de los Clasificados]]></phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc3" var_name="parent_category" added="1254403743"><![CDATA[Categor&#237;a Superior]]></phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc3" var_name="edit" added="1254403812">Editar</phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc3" var_name="delete" added="1254403821">Eliminar</phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc3" var_name="update_order" added="1254403847">Actualizar Orden</phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc3" var_name="view_this_listing" added="1254403868">Ver este Clasificado</phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc3" var_name="skip_amp_view_this_listing" added="1254403899">Pasar y ver el Clasificado</phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc3" var_name="step_1" added="1254403972">Paso 1</phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc3" var_name="listing_details" added="1254403981">Detalles del Clasificado</phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc3" var_name="step_2" added="1254403992">Paso 2</phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc3" var_name="step_3" added="1254404014">Paso 3</phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc3" var_name="invite" added="1254404022">Invitar</phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc3" var_name="title" added="1254404178"><![CDATA[T&#237;tulo]]></phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc3" var_name="short_description" added="1254404192"><![CDATA[Descripci&#243;n Corta]]></phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc3" var_name="full_description" added="1254404207"><![CDATA[Descripci&#243;n Completa]]></phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc3" var_name="usd" added="1254404241">USD</phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc3" var_name="select_image_s" added="1254404309">Seleccionar Imagen(es)</phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc3" var_name="you_can_upload_a_jpg_gif_or_png_file" added="1254404325">Puedes subir archivos JPG, GIF or PNG.</phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc3" var_name="upload" added="1254404368">Subir</phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc3" var_name="invite_friends" added="1254404380">Invitar a los Amigos</phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc3" var_name="invite_people_via_email" added="1254404393"><![CDATA[Invitar gente v&#237;a Email]]></phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc3" var_name="separate_multiple_emails_with_a_comma" added="1254404408">Separa los emails con comas.</phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc3" var_name="add_a_personal_message" added="1254404419">Agregar un Mensaje Personal</phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc3" var_name="new_guest_list" added="1254404448">Nueva Lista de invitados</phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc3" var_name="unable_to_find_what_you_are_looking_for" added="1254404484">No se puede encontrar lo que busca.</phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc3" var_name="no_listings_have_been_added" added="1254404494"><![CDATA[No se han agregado clasificados a&#250;n.]]></phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc3" var_name="be_the_first_to_add_a_listing" added="1254404504">Sea el primero en agregar un clasificado.</phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc3" var_name="there_is_one_listing_that_is_pending_approval" added="1254404516"><![CDATA[Hay un clasificado que est&#225; pendiente de aprobaci&#243;n.]]></phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc3" var_name="there_are_total_listings_that_are_pending_approval" added="1254404607"><![CDATA[Hay {total} clasificados que est&#225;n pendientes de aprobaci&#243;n.]]></phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc3" var_name="approve_this_listing" added="1254404827">Aprobar este clasificado.</phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc3" var_name="approve" added="1254404842">Aprobar</phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc3" var_name="feature_this_listing" added="1254404858">Destacar este clasificado.</phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc3" var_name="feature" added="1254404873">Destacar</phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc3" var_name="un_feature_this_listing" added="1254404888">No Destacar este clasificado.</phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc3" var_name="unfeature" added="1254404901">No Destacar</phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc3" var_name="listing_is_pending_approval" added="1254404992"><![CDATA[El clasificado est&#225; pendiente de aprobaci&#243;n.]]></phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc3" var_name="successfully_deleted_listing" added="1254405051">El clasificado ha sido eliminado.</phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc3" var_name="rating" added="1254405133"><![CDATA[Calificaci&#243;n]]></phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc8" var_name="category" added="1258986746"><![CDATA[Categor&#237;a]]></phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc8" var_name="update" added="1258986799">Actualizar</phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc8" var_name="cancel" added="1258986813">Cancelar</phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc10" var_name="you_have_not_added_any_listings_yet" added="1259610367"><![CDATA[No has agregado ning&#250;n clasificado a&#250;n.]]></phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc10" var_name="no_listings_have_been_featured" added="1259610438">No hay clasificados destacados.</phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc10" var_name="you_have_not_received_any_invites" added="1259610865"><![CDATA[No has recibido ninguna invitaci&#243;n.]]></phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc10" var_name="no_listings_pending_approval" added="1259610971"><![CDATA[No hay clasificados en espera de su aprobaci&#243;n.]]></phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc11" var_name="this_category_name_cannot_be_used_due_to_that_there_is_already_another_category_with_the_same_name_being_used" added="1260237609">This category name cannot be used due to that there is already another category with the same name being used.</phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc11" var_name="user_setting_can_access_marketplace" added="1260286697">Can browse and view listings?</phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc11" var_name="user_setting_can_create_listing" added="1260329360">Can create a listing?</phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc12" var_name="a_href_user_link_full_name_a_likes_your_a_href_link_listing_a" added="1260470252"><![CDATA[<a href="{user_link}">{full_name}</a> likes your <a href="{link}">listing</a>.]]></phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc12" var_name="a_href_user_link_full_name_a_likes_their_own_a_href_link_listing_a" added="1260470283"><![CDATA[<a href="{user_link}">{full_name}</a> likes {gender} own <a href="{link}">listing</a>.]]></phrase>
+	<phrase module_id="marketplace" version_id="2.0.0rc12" var_name="a_href_user_link_full_name_a_likes_a_href_view_user_link_view_full_name_a_s_a_href_link_listing_a" added="1260470300"><![CDATA[<a href="{user_link}">{full_name}</a> likes <a href="{view_user_link}">{view_full_name}</a>'s <a href="{link}">listing</a>.]]></phrase>
+</phrases>

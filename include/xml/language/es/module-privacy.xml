@@ -1,0 +1,8 @@
+<phrases>
+	<phrase module_id="privacy" version_id="2.0.0alpha1" var_name="user_setting_can_set_allow_list_on_blogs" added="1214436510"><![CDATA[Can set an "Allow List" when adding a new blog?
+
+Note: This setting will give the user the feature to add a list of users that can view their blog.]]></phrase>
+	<phrase module_id="privacy" version_id="2.0.0alpha1" var_name="module_privacy" added="1222250493">Privacidad</phrase>
+	<phrase module_id="privacy" version_id="2.0.0rc4" var_name="update_preferred_list" added="1255177946">Actualizar la Lista de Preferidos</phrase>
+	<phrase module_id="privacy" version_id="2.0.0rc4" var_name="insufficient_permissions" added="1255177963">Permisos Insuficientes</phrase>
+</phrases>

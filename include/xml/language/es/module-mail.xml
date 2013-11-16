@@ -1,0 +1,202 @@
+<phrases>
+	<phrase module_id="mail" version_id="2.0.0alpha1" var_name="user_setting_total_folders" added="1230127070"><![CDATA[Total amount folders a user can add to their mail box. 
+
+To add an unlimited number add "null" (without quotes).]]></phrase>
+	<phrase module_id="mail" version_id="2.0.0alpha1" var_name="menu_compose" added="1220273240">Redactar</phrase>
+	<phrase module_id="mail" version_id="2.0.0alpha1" var_name="module_mail" added="1219932350">Correo</phrase>
+	<phrase module_id="mail" version_id="2.0.0alpha1" var_name="menu_mail" added="1220339659">Mensajes</phrase>
+	<phrase module_id="mail" version_id="2.0.0alpha1" var_name="user_wrote_time" added="1220427735"><![CDATA[<a href="{link}">{user}</a> escribi&#243; en {time}]]></phrase>
+	<phrase module_id="mail" version_id="2.0.0alpha1" var_name="add_new_folder" added="1220533241">Agregar una nueva Carpeta...</phrase>
+	<phrase module_id="mail" version_id="2.0.0alpha1" var_name="adding_new_folder" added="1220539091">Agregando una nueva carpeta</phrase>
+	<phrase module_id="mail" version_id="2.0.0alpha1" var_name="invalid_message" added="1220877891"><![CDATA[Mensaje inv&#225;lido.]]></phrase>
+	<phrase module_id="mail" version_id="2.0.0alpha1" var_name="add_reply" added="1220877933">Agregar una respuesta.</phrase>
+	<phrase module_id="mail" version_id="2.0.0alpha1" var_name="message" added="1220877953">Mensaje</phrase>
+	<phrase module_id="mail" version_id="2.0.0alpha1" var_name="adding_message" added="1220878629">Agregando Mensaje.</phrase>
+	<phrase module_id="mail" version_id="2.0.0alpha1" var_name="reply" added="1220878770">Responder</phrase>
+	<phrase module_id="mail" version_id="2.0.0alpha1" var_name="send" added="1220878779">Enviar</phrase>
+	<phrase module_id="mail" version_id="2.0.0alpha1" var_name="folders" added="1220878830">Carpetas</phrase>
+	<phrase module_id="mail" version_id="2.0.0alpha1" var_name="edit_folders" added="1220878857">Editar Carpetas</phrase>
+	<phrase module_id="mail" version_id="2.0.0alpha1" var_name="inbox" added="1220878881">Mensajes Recibidos</phrase>
+	<phrase module_id="mail" version_id="2.0.0alpha1" var_name="sent_messages" added="1220878890">Mensajes Enviados</phrase>
+	<phrase module_id="mail" version_id="2.0.0alpha1" var_name="trash" added="1220878897"><![CDATA[Zafac&#243;n]]></phrase>
+	<phrase module_id="mail" version_id="2.0.0alpha1" var_name="add" added="1220878920">Agregar</phrase>
+	<phrase module_id="mail" version_id="2.0.0alpha1" var_name="update" added="1220878964">Actualizar</phrase>
+	<phrase module_id="mail" version_id="2.0.0alpha1" var_name="cancel" added="1220878979">Cancelar</phrase>
+	<phrase module_id="mail" version_id="2.0.0alpha1" var_name="delete" added="1220879064">Eliminar</phrase>
+	<phrase module_id="mail" version_id="2.0.0alpha1" var_name="view_folders" added="1220879177">Ver Carpetas</phrase>
+	<phrase module_id="mail" version_id="2.0.0alpha1" var_name="move_folder" added="1220880629">Mover a la carpeta</phrase>
+	<phrase module_id="mail" version_id="2.0.0alpha1" var_name="or_cancel" added="1220880651"><![CDATA[o <a href="#" onclick="$('#js_action_selector').val(''); $('#js_folders').hide(); $('#js_select_info').show('slow'); return false;">cancelar</a>.]]></phrase>
+	<phrase module_id="mail" version_id="2.0.0alpha1" var_name="default" added="1220880680">Default</phrase>
+	<phrase module_id="mail" version_id="2.0.0alpha1" var_name="custom" added="1220880687">Personalizar</phrase>
+	<phrase module_id="mail" version_id="2.0.0alpha1" var_name="select" added="1220880732">Seleccionar</phrase>
+	<phrase module_id="mail" version_id="2.0.0alpha1" var_name="undelete" added="1220880841">Rescatar Borrados</phrase>
+	<phrase module_id="mail" version_id="2.0.0alpha1" var_name="mark_read" added="1220880862"><![CDATA[Marcar como Le&#237;do]]></phrase>
+	<phrase module_id="mail" version_id="2.0.0alpha1" var_name="mark_unread" added="1220880871"><![CDATA[Marcar como no Le&#237;do]]></phrase>
+	<phrase module_id="mail" version_id="2.0.0alpha1" var_name="none" added="1220880891">Ninguno</phrase>
+	<phrase module_id="mail" version_id="2.0.0alpha1" var_name="read" added="1220880898"><![CDATA[Le&#237;dos]]></phrase>
+	<phrase module_id="mail" version_id="2.0.0alpha1" var_name="unread" added="1220880905"><![CDATA[No le&#237;dos]]></phrase>
+	<phrase module_id="mail" version_id="2.0.0alpha1" var_name="all" added="1220880911">Todos</phrase>
+	<phrase module_id="mail" version_id="2.0.0alpha1" var_name="to" added="1220880945">A</phrase>
+	<phrase module_id="mail" version_id="2.0.0alpha1" var_name="re" added="1220880971">Ref</phrase>
+	<phrase module_id="mail" version_id="2.0.0alpha1" var_name="messages" added="1220881016">No hay mensajes.</phrase>
+	<phrase module_id="mail" version_id="2.0.0alpha1" var_name="messages_updated" added="1220881062">Mensaje(s) ha(n) sido actualizados(s).</phrase>
+	<phrase module_id="mail" version_id="2.0.0alpha1" var_name="messages_deleted" added="1220881105">Mensaje(s) ha(n) sido eliminado(s).</phrase>
+	<phrase module_id="mail" version_id="2.0.0alpha1" var_name="search_inbox" added="1220881134"><![CDATA[Bandeja de B&#250;squeda]]></phrase>
+	<phrase module_id="mail" version_id="2.0.0alpha1" var_name="invalid_box" added="1220881154"><![CDATA[Buz&#243;n Inv&#225;lido.]]></phrase>
+	<phrase module_id="mail" version_id="2.0.0alpha1" var_name="message_successfully_deleted" added="1220882572">Mensaje ha sido eliminado.</phrase>
+	<phrase module_id="mail" version_id="2.0.0alpha1" var_name="messages_successfully_moved" added="1220882602">Mensaje(s) ha(n) sido movido(s).</phrase>
+	<phrase module_id="mail" version_id="2.0.0alpha1" var_name="folder_error" added="1220882927"><![CDATA[Carpetas s&#243;lo pueden contener caracteres alfanum&#233;ricos, l&#237;mite de 255 caracteres y los s&#237;mbolos siguientes: _-]]></phrase>
+	<phrase module_id="mail" version_id="2.0.0alpha1" var_name="folder_already_use" added="1220883004"><![CDATA[Carpeta ya est&#225; en uso.]]></phrase>
+	<phrase module_id="mail" version_id="2.0.0alpha1" var_name="compose_new_message" added="1220948605">Escribir un nuevo Mensaje</phrase>
+	<phrase module_id="mail" version_id="2.0.0alpha1" var_name="subject" added="1220948653">Asunto</phrase>
+	<phrase module_id="mail" version_id="2.0.0alpha1" var_name="provide_user_email" added="1220948710"><![CDATA[Proporciona un usuario o un correo electr&#243;nico.]]></phrase>
+	<phrase module_id="mail" version_id="2.0.0alpha1" var_name="provide_subject_for_your_message" added="1220948729">Proporciona un asunto para su mensaje.</phrase>
+	<phrase module_id="mail" version_id="2.0.0alpha1" var_name="provide_message" added="1220948745">Proporciona un mensaje.</phrase>
+	<phrase module_id="mail" version_id="2.0.0alpha1" var_name="message_was_successfully_users" added="1220956341">Tu mensaje se ha enviado a los siguientes usuarios</phrase>
+	<phrase module_id="mail" version_id="2.0.0alpha1" var_name="not_member" added="1220956574">No es un miembro.</phrase>
+	<phrase module_id="mail" version_id="2.0.0alpha1" var_name="cannot_send_message_yourself" added="1220957273">No te puedes enviar un mensaje a ti mismo.</phrase>
+	<phrase module_id="mail" version_id="2.0.0alpha1" var_name="and" added="1220963302">y</phrase>
+	<phrase module_id="mail" version_id="2.0.0alpha1" var_name="user_setting_can_compose_message" added="1230159206">Can compose messages to another users?</phrase>
+	<phrase module_id="mail" version_id="2.0.0alpha1" var_name="user_setting_can_add_folders" added="1230159364">Can add custom folders?</phrase>
+	<phrase module_id="mail" version_id="2.0.0alpha1" var_name="menu_view_messages" added="1231408001">Ver Mensajes</phrase>
+	<phrase module_id="mail" version_id="2.0.0alpha1" var_name="setting_show_core_mail_folders_item_count" added="1233234365"><![CDATA[<title>Show inbox, sentbox and deletebox item count</title><info>If enabled will display the mail count totals in each folder, i.e.:
+
+inbox (2)
+sentbox (6)
+delete (10)</info>]]></phrase>
+	<phrase module_id="mail" version_id="2.0.0alpha1" var_name="user_setting_show_core_mail_folders_item_count" added="1233235474">When enabled shows how many messages are in the inbox, sentbox and deletebox of every profile. 
+
+Note that this adds extra queries to your database.</phrase>
+	<phrase module_id="mail" version_id="2.0.0alpha2" var_name="setting_display_total_mail_count" added="1237808974"><![CDATA[<title>Display Total Mail Count</title><info>Set to <b>True</b> if you would like to display the number of new messages a user has beside the main "Mail" link found in the main menu by default.
+
+<b>Notice:</b> This will add an extra SQL query.</info>]]></phrase>
+	<phrase module_id="mail" version_id="2.0.0alpha2" var_name="user_setting_can_add_attachment_on_mail" added="1237813579">Can add attachments?</phrase>
+	<phrase module_id="mail" version_id="2.0.0beta5" var_name="user_setting_mail_box_limit" added="1245750405">This setting tells how many messages can be stored based on the user group. It is complemented by the setting override_mail_box_limit to allow administrators and staff members to store any number of messages.</phrase>
+	<phrase module_id="mail" version_id="2.0.0beta5" var_name="user_setting_override_mail_box_limit" added="1245750539">This setting tells if members of this user group can overcome the limit imposed by the setting mail_box_limit.
+
+By default only administrators and staff members can have unlimited messages stored.</phrase>
+	<phrase module_id="mail" version_id="2.0.0beta5" var_name="user_setting_restrict_message_to_friends" added="1245765917">This setting tells if the user can only send messages to people in his/her friends list.</phrase>
+	<phrase module_id="mail" version_id="2.0.0beta5" var_name="user_setting_can_message_self" added="1245767264">This setting controls if members of this user group can send messages to themselves.</phrase>
+	<phrase module_id="mail" version_id="2.0.0beta5" var_name="user_setting_override_restrict_message_to_friends" added="1245767642"><![CDATA[Members allowed to override the "restrict_message_to_friends" will be able to receive messages regardless if they are friends of the sender or not.]]></phrase>
+	<phrase module_id="mail" version_id="2.0.0beta5" var_name="user_setting_mail_box_warning" added="1245847270">When users are about to use all their allowed mail space a warning will be shown. 
+
+This setting tells what percentage of their mail capacity must be used before showing this warning.
+
+Set it to zero to never show a warning.</phrase>
+	<phrase module_id="mail" version_id="2.0.0beta5" var_name="setting_enable_mail_box_warning" added="1245851230"><![CDATA[<title>Show Warning When Approaching Maibox Limit</title><info>This setting overrides the user group setting 'mail.mail_box_warning'. If this setting is disabled no warning will be shown regardless of whats set in mail.mail_box_warning.</info>]]></phrase>
+	<phrase module_id="mail" version_id="2.0.0beta5" var_name="user_setting_allow_delete_every_message" added="1245851578"><![CDATA[When enabled this setting allows users to delete all the messages from the current folder without having to delete several times or going through the pager.
+
+A new option will be shown in the mail selector with the count of messages to delete next in parenthesis.
+
+example:
+   None
+   Read
+   Unread
+   All
+-> All(24)]]></phrase>
+	<phrase module_id="mail" version_id="2.0.0beta5" var_name="setting_enable_cron_delete_old_mail" added="1245932314"><![CDATA[<title>Auto Delete Old Mail</title><info>This setting enables or disables the auto deletion of old messages.
+
+You can set how old a message should be to be deleted in the setting <setting>mail.message_age_to_delete</setting>.
+
+You can set how often to run this job in the setting <setting>mail.cron_delete_messages_delay</setting>.</info>]]></phrase>
+	<phrase module_id="mail" version_id="2.0.0beta5" var_name="setting_cron_delete_messages_delay" added="1245932446"><![CDATA[<title>Auto Delete Messages Delay</title><info>This setting tells how often (in days) will the auto deleter remove old messages.</info>]]></phrase>
+	<phrase module_id="mail" version_id="2.0.0beta5" var_name="setting_message_age_to_delete" added="1245932715"><![CDATA[<title>An Old Message Is...</title><info>This setting tells how old a message must be in (in days) order to be auto deleted.
+
+This setting is directly dependent on <setting>mail.enable_cron_delete_old_mail</setting>.</info>]]></phrase>
+	<phrase module_id="mail" version_id="2.0.0beta5" var_name="setting_delete_sent_when_account_cancel" added="1246883093"><![CDATA[<title>Delete Sent Mail</title><info>When a user cancels their account should the system delete the sent messages?
+
+This affects the other user's received messages list and is enabled by default.</info>]]></phrase>
+	<phrase module_id="mail" version_id="30" var_name="user_setting_can_read_private_messages" added="1247588434">Can members of this user group read private messages in your site?</phrase>
+	<phrase module_id="mail" version_id="30" var_name="user_setting_can_delete_others_messages" added="1247742397"><![CDATA[Can members of this user group delete other people's messages?]]></phrase>
+	<phrase module_id="mail" version_id="2.0.0rc1" var_name="user_setting_enable_captcha_on_mail" added="1251273638">Enable Captcha when composing messages.</phrase>
+	<phrase module_id="mail" version_id="2.0.0rc1" var_name="setting_spam_check_messages" added="1251274372"><![CDATA[<title>Spam Check Internal PM</title><info>Spam Check Internal PM</info>]]></phrase>
+	<phrase module_id="mail" version_id="2.0.0rc1" var_name="setting_mail_hash_check" added="1251277943"><![CDATA[<title>PM Hash Check</title><info>If enabled this will check if the last X messages sent in the last Y minutes are identical to the message being set.
+
+Notice: X & Y are settings that can be changed.</info>]]></phrase>
+	<phrase module_id="mail" version_id="2.0.0rc1" var_name="setting_total_mail_messages_to_check" added="1251278379"><![CDATA[<title>PM Messages to Check</title><info>If the setting to check if PM's are identical you can see here how many messages in the past should be checked.</info>]]></phrase>
+	<phrase module_id="mail" version_id="2.0.0rc1" var_name="setting_total_minutes_to_wait_for_pm" added="1251278493"><![CDATA[<title>PM Minutes to Wait Unilt Next Check</title><info>If the setting to check if PM's are identical you can set here how far back we should check in minutes.</info>]]></phrase>
+	<phrase module_id="mail" version_id="2.0.0rc3" var_name="setting_show_preview_message" added="1254749315"><![CDATA[<title>Show Preview Message</title><info>If enabled, users will see a short version of their messages.</info>]]></phrase>
+	<phrase module_id="mail" version_id="2.0.0rc3" var_name="user_setting_send_message_to_max_users_each_time" added="1254829395">This value restricts sending private messages.
+It sets the maximum number of recipients when sending private messages, avoiding users to select way too many users and potentially spamming.
+
+Set to 0 for unlimited.</phrase>
+	<phrase module_id="mail" version_id="2.0.0rc4" var_name="read_private_message" added="1255010691">Leer Mensaje Privado</phrase>
+	<phrase module_id="mail" version_id="2.0.0rc4" var_name="subject_amp_text" added="1255010724">Asunto y Texto</phrase>
+	<phrase module_id="mail" version_id="2.0.0rc4" var_name="text" added="1255010742">Texto</phrase>
+	<phrase module_id="mail" version_id="2.0.0rc4" var_name="all_members" added="1255010754">Todos los Miembros</phrase>
+	<phrase module_id="mail" version_id="2.0.0rc4" var_name="featured_members" added="1255010763">Miembros Destacados</phrase>
+	<phrase module_id="mail" version_id="2.0.0rc4" var_name="online" added="1255010771"><![CDATA[En L&#237;nea]]></phrase>
+	<phrase module_id="mail" version_id="2.0.0rc4" var_name="updated" added="1255010780">Actualizado</phrase>
+	<phrase module_id="mail" version_id="2.0.0rc4" var_name="name_and_photo_only" added="1255010789">Nombre y Foto Solamente</phrase>
+	<phrase module_id="mail" version_id="2.0.0rc4" var_name="name_photo_and_users_details" added="1255010800">Nombre, Foto y Deltalles del Usuario</phrase>
+	<phrase module_id="mail" version_id="2.0.0rc4" var_name="private_messages" added="1255010811">Mensajes Privados</phrase>
+	<phrase module_id="mail" version_id="2.0.0rc4" var_name="view_private_messages" added="1255010824">Ver Mensajes Privados</phrase>
+	<phrase module_id="mail" version_id="2.0.0rc4" var_name="currently_your_account_is_marked_as_a_spammer" added="1255010848"><![CDATA[Actualmente su cuenta est&#225; marcada como un "spammer". Esta caracter&#237;stica espec&#237;fica no est&#225; habilitada para su cuenta en el momento.]]></phrase>
+	<phrase module_id="mail" version_id="2.0.0rc4" var_name="unable_to_send_a_private_message_to_this_user_at_the_moment" added="1255010860">No se puede enviar un mensaje privado a este usuario en el momento.</phrase>
+	<phrase module_id="mail" version_id="2.0.0rc4" var_name="select_a_member_to_send_a_message_to" added="1255010873">Selecciona un miembro para enviar un mensaje a.</phrase>
+	<phrase module_id="mail" version_id="2.0.0rc4" var_name="this_message_feels_like_spam_try_again" added="1255010889">Este mensaje se siente como SPAM. Prueba otra vez.</phrase>
+	<phrase module_id="mail" version_id="2.0.0rc4" var_name="mail" added="1255010900">Correo</phrase>
+	<phrase module_id="mail" version_id="2.0.0rc4" var_name="no_mail_specified" added="1255010921">No hay correo especificado.</phrase>
+	<phrase module_id="mail" version_id="2.0.0rc4" var_name="mail_deleted_successfully" added="1255010931">Correo ha sido eliminado.</phrase>
+	<phrase module_id="mail" version_id="2.0.0rc4" var_name="mail_could_not_be_deleted" added="1255010940">El correo no puede ser eliminado.</phrase>
+	<phrase module_id="mail" version_id="2.0.0rc4" var_name="error_you_did_not_select_any_message" added="1255010975"><![CDATA[Error, no has seleccionado ning&#250;n mensaje.]]></phrase>
+	<phrase module_id="mail" version_id="2.0.0rc4" var_name="mail_folder_does_not_exist" added="1255010990">Carpeta de correo no existe.</phrase>
+	<phrase module_id="mail" version_id="2.0.0rc4" var_name="new_messages" added="1255011113">Muevos Mensajes</phrase>
+	<phrase module_id="mail" version_id="2.0.0rc4" var_name="compose_message" added="1255011123">Escribir mensaje</phrase>
+	<phrase module_id="mail" version_id="2.0.0rc4" var_name="1_new_message" added="1255011141">un nuevo mensaje</phrase>
+	<phrase module_id="mail" version_id="2.0.0rc4" var_name="total_new_messages" added="1255011158">{total} nuevos mensajes</phrase>
+	<phrase module_id="mail" version_id="2.0.0rc4" var_name="user_link_sent_you_a_message" added="1255011189"><![CDATA[{user_link} te envi&#243; un mensaje.]]></phrase>
+	<phrase module_id="mail" version_id="2.0.0rc4" var_name="mail_text" added="1255011211">Texto del mensaje</phrase>
+	<phrase module_id="mail" version_id="2.0.0rc4" var_name="too_many_users_this_message_was_sent_to_the_first_total_users" added="1255011269"><![CDATA[Demasiados usuarios, este mensaje se envi&#243; a los primeros {total} usuarios.]]></phrase>
+	<phrase module_id="mail" version_id="2.0.0rc4" var_name="unable_to_send_a_private_message_to_full_name_as_they_have_disabled_this_option_for_the_moment" added="1255011317"><![CDATA[No se puede enviar un mensaje privado a "{full_name}", esta opci&#243;n ha sido desactivada por el momento.]]></phrase>
+	<phrase module_id="mail" version_id="2.0.0rc4" var_name="user_has_reached_their_inbox_limit" added="1255011371"><![CDATA[El usuario ha llegado a su l&#237;mite de buz&#243;n de entrada.]]></phrase>
+	<phrase module_id="mail" version_id="2.0.0rc4" var_name="you_cannot_message_yourself" added="1255011381">No puedes enviarte mensaje a ti mismo.</phrase>
+	<phrase module_id="mail" version_id="2.0.0rc4" var_name="you_can_only_message_your_friends" added="1255011391"><![CDATA[S&#243;lo puedes enviarle mensajes a tus amigos.]]></phrase>
+	<phrase module_id="mail" version_id="2.0.0rc4" var_name="not_a_valid_message" added="1255011402"><![CDATA[No es un mensaje v&#225;lido.]]></phrase>
+	<phrase module_id="mail" version_id="2.0.0rc4" var_name="full_name_sent_you_a_message_on_site_title" added="1255011428"><![CDATA[{full_name} te envi&#243; un mensaje en {site_title}.]]></phrase>
+	<phrase module_id="mail" version_id="2.0.0rc4" var_name="full_name_sent_you_a_message_subject_subject" added="1255011550"><![CDATA[{full_name} te envi&#243; un mensaje.
+
+--------------------
+Subject: {subject}
+
+{message}
+--------------------
+
+Para responder a este mensaje, siga el siguiente enlace:
+<a href="{link}">{link}</a>]]></phrase>
+	<phrase module_id="mail" version_id="2.0.0rc4" var_name="you_will_delete_every_message_in_this_folder" added="1255011670">Debes borrar todos los mensajes en esta carpeta.</phrase>
+	<phrase module_id="mail" version_id="2.0.0rc4" var_name="member_search" added="1255011737">Buscar Miembros</phrase>
+	<phrase module_id="mail" version_id="2.0.0rc4" var_name="search" added="1255011746">Buscar</phrase>
+	<phrase module_id="mail" version_id="2.0.0rc4" var_name="within" added="1255011754">dentro</phrase>
+	<phrase module_id="mail" version_id="2.0.0rc4" var_name="user_group" added="1255011762">Grupo de Usuarios</phrase>
+	<phrase module_id="mail" version_id="2.0.0rc4" var_name="show_members" added="1255011771">Mostrar Miembros</phrase>
+	<phrase module_id="mail" version_id="2.0.0rc4" var_name="messages_title" added="1255011791">Mensaje</phrase>
+	<phrase module_id="mail" version_id="2.0.0rc4" var_name="from" added="1255012424">De</phrase>
+	<phrase module_id="mail" version_id="2.0.0rc4" var_name="sent" added="1255012445">Enviado</phrase>
+	<phrase module_id="mail" version_id="2.0.0rc4" var_name="read_message" added="1255012456">Leer Mensaje</phrase>
+	<phrase module_id="mail" version_id="2.0.0rc4" var_name="delete_message" added="1255012464">Eliminar Mensaje</phrase>
+	<phrase module_id="mail" version_id="2.0.0rc4" var_name="message_sender" added="1255012478">Remitente del Mensaje</phrase>
+	<phrase module_id="mail" version_id="2.0.0rc4" var_name="message_user" added="1255012491">Mensaje del usuario</phrase>
+	<phrase module_id="mail" version_id="2.0.0rc4" var_name="message_receiver" added="1255012502">Receptor de Mensajes</phrase>
+	<phrase module_id="mail" version_id="2.0.0rc4" var_name="are_you_sure" added="1255012828"><![CDATA[&#191;Est&#225;s seguro?]]></phrase>
+	<phrase module_id="mail" version_id="2.0.0rc4" var_name="no_messages_to_show" added="1255012839">No hay mensajes para mostrar.</phrase>
+	<phrase module_id="mail" version_id="2.0.0rc4" var_name="send_a_copy_to_myself" added="1255012896"><![CDATA[Enviar una copia a m&#237; mismo.]]></phrase>
+	<phrase module_id="mail" version_id="2.0.0rc4" var_name="you_can_only_send_this_message_to_total_users" added="1255012917"><![CDATA[S&#243;lo se puede enviar este mensaje a {total} usuarios.]]></phrase>
+	<phrase module_id="mail" version_id="2.0.0rc4" var_name="messages_total_days_old_will_be_auto_deleted" added="1255012972"><![CDATA[{total} d&#237;as de antig&#252;edad de los mensajes se ha auto eliminado.]]></phrase>
+	<phrase module_id="mail" version_id="2.0.0rc4" var_name="you_have_reached_your_mail_box_capacity_and_wont_be_able" added="1255013019"><![CDATA[Has llegado a la capacidad de tu buz&#243;n de de correo electr&#243;nico y no podr&#225;s recibir m&#225;s mensajes hasta que libere algo de espacio.]]></phrase>
+	<phrase module_id="mail" version_id="2.0.0rc4" var_name="you_are_approaching_your_mail_box_limit" added="1255013047"><![CDATA[Se est&#225; acercando a su l&#237;mite de buz&#243;n de correo electr&#243;nico, actualmente est&#225; en {total}%. Cuando llegue a 100%, no podr&#225;s recibir m&#225;s correo.]]></phrase>
+	<phrase module_id="mail" version_id="2.0.0rc4" var_name="view_attachments" added="1255013086">Ver datos adjuntos</phrase>
+	<phrase module_id="mail" version_id="2.0.0rc4" var_name="you_wrote_to_yourself_at_time_stamp" added="1255013288"><![CDATA[Usted se escribi&#243; a s&#237; mismo en {time_stamp}.]]></phrase>
+	<phrase module_id="mail" version_id="2.0.0rc4" var_name="preview" added="1255013349">Vista Previa</phrase>
+	<phrase module_id="mail" version_id="2.0.0rc4" var_name="you_wrote_to_user_name_at_time_stamp" added="1255013419"><![CDATA[Usted escribi&#243; a {user_name} en {time_stamp}.]]></phrase>
+	<phrase module_id="mail" version_id="2.0.0rc4" var_name="user_name_wrote_at_time_stamp" added="1255013490"><![CDATA[{user_name} escribi&#243; en {time_stamp}.]]></phrase>
+	<phrase module_id="mail" version_id="2.0.0rc4" var_name="site_sent_you_a_message" added="1255013528">{site} te ha enviado un mensaje.</phrase>
+	<phrase module_id="mail" version_id="2.0.0rc4" var_name="mass_message_to" added="1255013568">Mensaje en Masas a</phrase>
+	<phrase module_id="mail" version_id="2.0.0rc4" var_name="previous" added="1255013600">Anterior</phrase>
+	<phrase module_id="mail" version_id="2.0.0rc4" var_name="newer_message" added="1255013608"><![CDATA[Mensaje m&#225;s reciente]]></phrase>
+	<phrase module_id="mail" version_id="2.0.0rc4" var_name="next" added="1255013615"><![CDATA[Pr&#243;ximo]]></phrase>
+	<phrase module_id="mail" version_id="2.0.0rc4" var_name="older_message" added="1255013623"><![CDATA[Mensaje m&#225;s viejo]]></phrase>
+	<phrase module_id="mail" version_id="2.0.0rc6" var_name="provide_a_name_for_your_folder" added="1257264043">Proporcione un nombre para su carpeta.</phrase>
+	<phrase module_id="mail" version_id="2.0.0rc6" var_name="you_have_reached_your_limit" added="1257264190"><![CDATA[Usted ha llegado a su l&#237;mite.]]></phrase>
+	<phrase module_id="mail" version_id="2.0.0rc8" var_name="mesages_sent" added="1258845591">Mensajes</phrase>
+</phrases>

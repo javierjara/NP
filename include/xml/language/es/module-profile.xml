@@ -1,0 +1,70 @@
+<phrases>
+	<phrase module_id="profile" version_id="2.0.0alpha1" var_name="user_setting_can_post_comment_on_profile" added="1219671363">Pueden publicar comentarios en los perfiles de los usuarios?</phrase>
+	<phrase module_id="profile" version_id="2.0.0alpha1" var_name="module_profile" added="1219151453">Perfil</phrase>
+	<phrase module_id="profile" version_id="2.0.0alpha1" var_name="male" added="1219666172">Masculino</phrase>
+	<phrase module_id="profile" version_id="2.0.0alpha1" var_name="female" added="1219666198">Femenino</phrase>
+	<phrase module_id="profile" version_id="2.0.0alpha1" var_name="years_years_old" added="1219666274"><![CDATA[{years} a&#241;os de edad]]></phrase>
+	<phrase module_id="profile" version_id="2.0.0alpha1" var_name="menu_profile" added="1219674380">Perfil</phrase>
+	<phrase module_id="profile" version_id="2.0.0alpha3" var_name="menu_my_profile" added="1238669902">Mi Perfil</phrase>
+	<phrase module_id="profile" version_id="2.0.0alpha3" var_name="menu_customize_profile" added="1238670014">Personalizar Perfil</phrase>
+	<phrase module_id="profile" version_id="2.0.0alpha3" var_name="user_setting_can_custom_design_own_profile" added="1238741089">Can custom design own profile?</phrase>
+	<phrase module_id="profile" version_id="2.0.0alpha3" var_name="setting_can_drag_drop_blocks_on_profile" added="1238741422"><![CDATA[<title>Drag & Drop Profile Blocks</title><info>Set to <b>True</b> to enable the feature that allows users the ability to drag-and-drop blocks on their profiles and position them based on where they drop them.</info>]]></phrase>
+	<phrase module_id="profile" version_id="2.0.0rc1" var_name="user_setting_display_membership_info" added="1250103786">Display membership details on a users profile?</phrase>
+	<phrase module_id="profile" version_id="2.0.0rc4" var_name="gender" added="1255178004"><![CDATA[G&#233;nero]]></phrase>
+	<phrase module_id="profile" version_id="2.0.0rc4" var_name="birthday" added="1255178014">Fecha de Nacimiento</phrase>
+	<phrase module_id="profile" version_id="2.0.0rc4" var_name="age" added="1255178025">Edad</phrase>
+	<phrase module_id="profile" version_id="2.0.0rc4" var_name="last_login" added="1255178036">Ultima Visita</phrase>
+	<phrase module_id="profile" version_id="2.0.0rc4" var_name="member_since" added="1255178043">Miembro desde</phrase>
+	<phrase module_id="profile" version_id="2.0.0rc4" var_name="membership" added="1255178049"><![CDATA[Membres&#237;a]]></phrase>
+	<phrase module_id="profile" version_id="2.0.0rc4" var_name="profile_views" added="1255178062">Vistas al Perfil</phrase>
+	<phrase module_id="profile" version_id="2.0.0rc4" var_name="rss_subscribers" added="1255178085">Suscriptores de RSS</phrase>
+	<phrase module_id="profile" version_id="2.0.0rc4" var_name="total_rating_ratings" added="1255178113">{total_rating} Calificaciones</phrase>
+	<phrase module_id="profile" version_id="2.0.0rc4" var_name="basic_info" added="1255178134"><![CDATA[Informaci&#243;n B&#225;sica]]></phrase>
+	<phrase module_id="profile" version_id="2.0.0rc4" var_name="a_href_user_link_full_name_a_added_a_new_comment_on_their_own_a_href_title_link_profile_a" added="1255178189"><![CDATA[<a href="{user_link}">{full_name}</a> agreg&#243; un nuevo comentario en su propio <a href="{title_link}">perfil</a>.]]></phrase>
+	<phrase module_id="profile" version_id="2.0.0rc4" var_name="a_href_user_link_full_name_a_added_a_new_comment_on_your_a_href_title_link_profile_a" added="1255178246"><![CDATA[<a href="{user_link}">{full_name}</a> agreg&#243; un nuevo comentario en tu <a href="{title_link}">perfil</a>.]]></phrase>
+	<phrase module_id="profile" version_id="2.0.0rc4" var_name="a_href_user_link_full_name_a_added_a_new_comment_on_a_href_title_link_item_user_name_s_a_profile" added="1255178274"><![CDATA[<a href="{user_link}">{full_name}</a> agreg&#243; un nuevo comentario en el perfil de <a href="{title_link}">{item_user_name}</a>.]]></phrase>
+	<phrase module_id="profile" version_id="2.0.0rc4" var_name="user_name_left_you_a_comment_on_site_title" added="1255178368"><![CDATA[{user_name} te dej&#243; un comentario sobre {site_title}.]]></phrase>
+	<phrase module_id="profile" version_id="2.0.0rc4" var_name="user_name_left_you_a_comment_on_your_profile_message" added="1255178426"><![CDATA[{user_name} te dej&#243; un comentario en tu perfil.
+
+Para ver este comentario, sigue el enlace abajo:
+<a href="{link}">{link}</a>]]></phrase>
+	<phrase module_id="profile" version_id="2.0.0rc4" var_name="a_href_user_link_full_name_a_wrote_a_comment_on_your_a_href_profile_link_profile_a" added="1255178500"><![CDATA[<a href="{user_link}">{full_name}</a> escribi&#243; un comentario en su <a href="{profile_link}">perfil</a>.]]></phrase>
+	<phrase module_id="profile" version_id="2.0.0rc4" var_name="profile" added="1255178648">Perfil</phrase>
+	<phrase module_id="profile" version_id="2.0.0rc4" var_name="profile_info" added="1255178672"><![CDATA[Informaci&#243;n del Perfil]]></phrase>
+	<phrase module_id="profile" version_id="2.0.0rc4" var_name="comments_on" added="1255178689">Comentarios Activado</phrase>
+	<phrase module_id="profile" version_id="2.0.0rc4" var_name="on_name_s_profile" added="1255178708">En el perfil de {name}.</phrase>
+	<phrase module_id="profile" version_id="2.0.0rc4" var_name="online" added="1255178771"><![CDATA[En L&#237;nea]]></phrase>
+	<phrase module_id="profile" version_id="2.0.0rc4" var_name="rating" added="1255178802"><![CDATA[Calificaci&#243;n]]></phrase>
+	<phrase module_id="profile" version_id="2.0.0rc4" var_name="send_a_message" added="1255178817">Enviar un Mensaje</phrase>
+	<phrase module_id="profile" version_id="2.0.0rc4" var_name="add_to_friends" added="1255178834">Agregar a Amigos</phrase>
+	<phrase module_id="profile" version_id="2.0.0rc4" var_name="add_to_your_favorites" added="1255178845">Agregar a tus Favoritos</phrase>
+	<phrase module_id="profile" version_id="2.0.0rc4" var_name="add_to_favorites" added="1255178851">Agregar a Favoritos</phrase>
+	<phrase module_id="profile" version_id="2.0.0rc4" var_name="unblock_this_user" added="1255178860">Desbloquear a este usuario</phrase>
+	<phrase module_id="profile" version_id="2.0.0rc4" var_name="block_this_user" added="1255178873">Bloquear a este usuario</phrase>
+	<phrase module_id="profile" version_id="2.0.0rc4" var_name="invite_to_one_of_your_groups" added="1255178890">Invitar a uno de tus grupos.</phrase>
+	<phrase module_id="profile" version_id="2.0.0rc4" var_name="invite_to_a_group" added="1255178899">Invitar a un Grupo</phrase>
+	<phrase module_id="profile" version_id="2.0.0rc4" var_name="instant_chat" added="1255178909">Instant Chat</phrase>
+	<phrase module_id="profile" version_id="2.0.0rc4" var_name="un_feature_this_member" added="1255178918">No Destacar este miembro.</phrase>
+	<phrase module_id="profile" version_id="2.0.0rc4" var_name="unfeature" added="1255178928">No Destacar</phrase>
+	<phrase module_id="profile" version_id="2.0.0rc4" var_name="feature_this_member" added="1255178935">Destacar este miebro.</phrase>
+	<phrase module_id="profile" version_id="2.0.0rc4" var_name="feature" added="1255178946">Destacar</phrase>
+	<phrase module_id="profile" version_id="2.0.0rc4" var_name="change_profile_picture" added="1255178958">Cambiar imagen del perfil</phrase>
+	<phrase module_id="profile" version_id="2.0.0rc4" var_name="profile_is_private" added="1255178976">Este perfil es privado.</phrase>
+	<phrase module_id="profile" version_id="2.0.0rc4" var_name="full_name_is_on_site_title" added="1255432580"><![CDATA[{full_name} de {location} est&#225; en {site_title}. {meta_description_profile} {full_name} tiene {total_friend} amigos. Reg&#237;strate en {site_title} y con&#233;ctate con {full_name}, env&#237;ale un mensaje {full_name} o agrega a {full_name} como tu amigo(a).]]></phrase>
+	<phrase module_id="profile" version_id="2.0.0rc4" var_name="you_have_already_rated_this_user" added="1255432719">Ya has calificado este usuario.</phrase>
+	<phrase module_id="profile" version_id="2.0.0rc4" var_name="you_cannot_rate_yourself" added="1255432729"><![CDATA[Usted no puede calificarse a s&#237; mismo.]]></phrase>
+	<phrase module_id="profile" version_id="2.0.0rc4" var_name="location" added="1255866561"><![CDATA[Ubicaci&#243;n]]></phrase>
+	<phrase module_id="profile" version_id="2.0.0rc4" var_name="setting_profile_seo_for_meta_title" added="1255866678"><![CDATA[<title>T&#237;tulo del Perfil</title><info>T&#237;tulo del Perfil</info>]]></phrase>
+	<phrase module_id="profile" version_id="2.0.0rc4" var_name="a_href_user_link_full_name_a_updated_their_profile_design" added="1256479461"><![CDATA[<a href="{user_link}">{full_name}</a> actuali&#243; el dise&#241;o de su perfil.]]></phrase>
+	<phrase module_id="profile" version_id="2.0.0rc4" var_name="a_href_user_link_full_name_a_updated_their_profile" added="1256479947"><![CDATA[<a href="{user_link}">{full_name}</a> actualiz&#243; su perfil.]]></phrase>
+	<phrase module_id="profile" version_id="2.0.0rc4" var_name="this_user_has_been_banned" added="1256497825">Este usuario ha sido prohibido.</phrase>
+	<phrase module_id="profile" version_id="2.0.0rc4" var_name="user_setting_can_view_users_profile" added="1256498007">Puedes ver el perfil de los usuarios? (Incluyendo tu propio perfil.)</phrase>
+	<phrase module_id="profile" version_id="2.0.0rc4" var_name="updates_from" added="1256500572">Actualizaciones de</phrase>
+	<phrase module_id="profile" version_id="2.0.0rc8" var_name="setting_can_rate_on_users_profile" added="1258556786"><![CDATA[<title>Allow Rating of Users via Profile</title><info>Enable this option to allow your members the ability to rate other members via their profile.</info>]]></phrase>
+	<phrase module_id="profile" version_id="2.0.0rc8" var_name="profile_designer" added="1258848380"><![CDATA[Dese&#241;ador del Perfil]]></phrase>
+	<phrase module_id="profile" version_id="2.0.0rc11" var_name="full_name_s_profile_has_been_updated" added="1259966679"><![CDATA[<a href="{user_link}">el perfil de {full_name}</a> ha sido actualizado.]]></phrase>
+	<phrase module_id="profile" version_id="2.0.0rc11" var_name="full_name_s_profile_design_has_been_updated" added="1259966946"><![CDATA[<a href="{user_link}">el dise&#241;o del perfil de {full_name}</a> ha sido actualizado.]]></phrase>
+	<phrase module_id="profile" version_id="2.0.0rc12" var_name="a_href_user_link_full_name_a_likes_your_recent_profile_a_href_link_design_a" added="1260461900"><![CDATA[<a href="{user_link}">{full_name}</a> likes your recent profile design.]]></phrase>
+	<phrase module_id="profile" version_id="2.0.0rc12" var_name="a_href_user_link_full_name_a_liked_their_own_profile_a_href_link_design_a" added="1260462181"><![CDATA[<a href="{user_link}">{full_name}</a> liked their own profile <a href="{link}">design</a>.]]></phrase>
+	<phrase module_id="profile" version_id="2.0.0rc12" var_name="a_href_user_link_full_name_a_liked_a_href_view_user_link_view_full_name_a_s_profile_a_href_link_design_a" added="1260462206"><![CDATA[<a href="{user_link}">{full_name}</a> liked <a href="{view_user_link}">{view_full_name}</a>'s profile <a href="{link}">design</a>.]]></phrase>
+</phrases>

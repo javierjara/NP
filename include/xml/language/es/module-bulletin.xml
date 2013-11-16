@@ -1,0 +1,114 @@
+<phrases>
+	<phrase module_id="bulletin" version_id="2.0.0alpha1" var_name="module_bulletin" added="1232977016"><![CDATA[Bolet&#237;n]]></phrase>
+	<phrase module_id="bulletin" version_id="2.0.0alpha1" var_name="menu_my_bulletins" added="1233054835">Mis Boletines</phrase>
+	<phrase module_id="bulletin" version_id="2.0.0alpha1" var_name="menu_post_bulletin" added="1233054861"><![CDATA[Publicar un Bolet&#237;n]]></phrase>
+	<phrase module_id="bulletin" version_id="2.0.0alpha1" var_name="menu_view_bulletins" added="1233054890">Ver Boletines</phrase>
+	<phrase module_id="bulletin" version_id="2.0.0alpha1" var_name="setting_is_bulletin_public" added="1234186186"><![CDATA[<title>Bolet&#237;n P&#250;blico</title><info>Este ajuste le indica si los boletines pueden ser vistos por todo el mundo o s&#243;lo los amigos del cartel.
+
+cierto = todos
+falso = s&#243;lo amigos del cartel.</info>]]></phrase>
+	<phrase module_id="bulletin" version_id="2.0.0alpha1" var_name="setting_cache_time_out" added="1234186293"><![CDATA[<title>Cache time out</title><info>This setting tells how often should the cache be discarded. This helps relief stress from the database at the cost of live information.
+
+The time is set in minutes, meaning that when set to 15 any bulletin posted will not show up until 15 minutes after or sooner.
+
+This setting depends entirely on <setting>bulletin_do_cache </setting></info>]]></phrase>
+	<phrase module_id="bulletin" version_id="2.0.0alpha1" var_name="setting_how_many_show_in_front_page" added="1234186367"><![CDATA[<title>How many to show</title><info>This setting tells the script how many bulletins should be shown on the front page (or anywhere the getBulletins() function is called)</info>]]></phrase>
+	<phrase module_id="bulletin" version_id="2.0.0alpha1" var_name="fill_text" added="1234186401">Tienes que llenar el campo del texto.</phrase>
+	<phrase module_id="bulletin" version_id="2.0.0alpha1" var_name="setting_bulletin_reply_flood_control" added="1234186479"><![CDATA[<title>Bulletin Reply Flood Control</title><info>Tells how often can a user reply to a bulletin in minutes (i.e. 5 => 5 minutes)
+
+This helps control spam and flooding.</info>]]></phrase>
+	<phrase module_id="bulletin" version_id="2.0.0alpha1" var_name="fill_subject" added="1234186927"><![CDATA[Tienes que llenar el campo del t&#237;tulo.]]></phrase>
+	<phrase module_id="bulletin" version_id="2.0.0alpha1" var_name="user_setting_bulletin_enable_captcha" added="1234186966"><![CDATA[Indica si los miembros de este grupo de usuarios deben de completar un c&#243;digo seguridad (captcha) antes de enviar cualquier bolet&#237;n.]]></phrase>
+	<phrase module_id="bulletin" version_id="2.0.0alpha1" var_name="preview" added="1234186988">Vista Previa</phrase>
+	<phrase module_id="bulletin" version_id="2.0.0alpha1" var_name="bulletin_preview" added="1234187007"><![CDATA[Vista Previa del Bolet&#237;n]]></phrase>
+	<phrase module_id="bulletin" version_id="2.0.0alpha1" var_name="user_setting_bulletin_flood_control" added="1234190006"><![CDATA[Indica la frecuencia con la que cada miembro de este grupo de usuarios pueden escribir en un bolet&#237;n.]]></phrase>
+	<phrase module_id="bulletin" version_id="2.0.0alpha1" var_name="user_setting_points_bulletin" added="1234190051"><![CDATA[&#191;Cu&#225;ntos puntos acumula por un nuevo bolet&#237;n publicado?]]></phrase>
+	<phrase module_id="bulletin" version_id="2.0.0alpha1" var_name="bulletin_flood_control" added="1234191239"><![CDATA[S&#243;lo puedes publicar boletines cada {x} minutos]]></phrase>
+	<phrase module_id="bulletin" version_id="2.0.0alpha1" var_name="user_setting_can_add_bulletin" added="1234513923"><![CDATA[&#191;Puede agregar un bolet&#237;n?]]></phrase>
+	<phrase module_id="bulletin" version_id="2.0.0alpha1" var_name="user_setting_bulletin_can_view_bulletins" added="1234513963"><![CDATA[&#191;Se pueden ver los boletines?]]></phrase>
+	<phrase module_id="bulletin" version_id="2.0.0alpha1" var_name="user_setting_bulletin_can_delete_own" added="1234514031"><![CDATA[&#191;Se puede eliminar boletines propios?]]></phrase>
+	<phrase module_id="bulletin" version_id="2.0.0alpha1" var_name="user_setting_bulletin_edit_own" added="1234514074"><![CDATA[&#191;Se puede editar boletines propios?]]></phrase>
+	<phrase module_id="bulletin" version_id="2.0.0alpha1" var_name="click_edit" added="1234514113">Haz clic para Editar</phrase>
+	<phrase module_id="bulletin" version_id="2.0.0alpha1" var_name="setting_bulletin_view_timestamp" added="1234519327"><![CDATA[<title>Bulletin Time Format</title><info>Sets the date displaying format according to http://php.net/date
+
+Default value:
+F jS at g:ia
+
+shows something like: 
+February 13th at 11:00am</info>]]></phrase>
+	<phrase module_id="bulletin" version_id="2.0.0alpha1" var_name="setting_bulletin_do_cache" added="1234519953"><![CDATA[<title>Enable Cache Of Bulletins</title><info>This setting enables (true) or disables (false) the caching of bulletins. 
+
+Caching keeps the site from showing purely live content and the delay for this cache can be set on variable <setting>cache_time_out</setting></info>]]></phrase>
+	<phrase module_id="bulletin" version_id="2.0.0alpha2" var_name="user_setting_bulletin_can_edit_others" added="1237794256"><![CDATA[&#191;Se puede editar boletines sometidos por otros usuarios?]]></phrase>
+	<phrase module_id="bulletin" version_id="2.0.0alpha2" var_name="user_setting_bulletin_can_delete_others" added="1237794311"><![CDATA[&#191;Se puede eliminar boletines sometidos por otros usuarios?]]></phrase>
+	<phrase module_id="bulletin" version_id="2.0.0alpha2" var_name="user_setting_can_post_comment_on_bulletin" added="1237796399">Se pueden agregar comentarios en los boletines?</phrase>
+	<phrase module_id="bulletin" version_id="2.0.0alpha2" var_name="setting_can_post_comments_on_bulletin" added="1237798377"><![CDATA[<title>Enable Comments</title><info>Set to <b>True</b> if you would like to enable users the ability to post comments on bulletins.
+
+<b>Notice:</b> With this setting disabled users can still send private replies to each other as comments are only intended to be public.</info>]]></phrase>
+	<phrase module_id="bulletin" version_id="2.0.0alpha2" var_name="user_setting_can_control_comments_on_bulletins" added="1237798605"><![CDATA[&#191;Se puede controlar los comentarios sobre su propio bolet&#237;n?]]></phrase>
+	<phrase module_id="bulletin" version_id="2.0.0alpha2" var_name="menu_bulletins" added="1237799166">Boletines</phrase>
+	<phrase module_id="bulletin" version_id="2.0.0rc2" var_name="reply_to_bulletin" added="1252935349"><![CDATA[Responder al bolet&#237;n]]></phrase>
+	<phrase module_id="bulletin" version_id="2.0.0rc2" var_name="message_sent" added="1252935363">Mensaje enviado</phrase>
+	<phrase module_id="bulletin" version_id="2.0.0rc2" var_name="you_are_not_allowed_to_delete_this_bulletin" added="1252935387"><![CDATA[No est&#225; autorizado para eliminar este bolet&#237;n.]]></phrase>
+	<phrase module_id="bulletin" version_id="2.0.0rc2" var_name="bulletins" added="1252935406">Boletines</phrase>
+	<phrase module_id="bulletin" version_id="2.0.0rc2" var_name="view_all_bulletins" added="1252935416">Ver todos los Boletines</phrase>
+	<phrase module_id="bulletin" version_id="2.0.0rc2" var_name="post_a_bulletin" added="1252935425"><![CDATA[Publicar un Bollet&#237;n]]></phrase>
+	<phrase module_id="bulletin" version_id="2.0.0rc2" var_name="bulletin_successfully_updated" added="1252935457"><![CDATA[El bolet&#237;n ha sido actualizado.]]></phrase>
+	<phrase module_id="bulletin" version_id="2.0.0rc2" var_name="bulletin_successfully_added" added="1252935467"><![CDATA[El bolet&#237;n ha sido agregado.]]></phrase>
+	<phrase module_id="bulletin" version_id="2.0.0rc2" var_name="post" added="1252935499">Publicar</phrase>
+	<phrase module_id="bulletin" version_id="2.0.0rc2" var_name="bulletin_successfully_deleted" added="1252935523"><![CDATA[El bolet&#237;n ha sido eliminado.]]></phrase>
+	<phrase module_id="bulletin" version_id="2.0.0rc2" var_name="bulletin_does_not_exist" added="1252935549"><![CDATA[Bolet&#237;n no existe.]]></phrase>
+	<phrase module_id="bulletin" version_id="2.0.0rc2" var_name="friends_only_bulletin" added="1252935564"><![CDATA[Bolet&#237;n de amigos solamente.]]></phrase>
+	<phrase module_id="bulletin" version_id="2.0.0rc2" var_name="you_can_t_post_just_yet" added="1252935585"><![CDATA[No puedes publicar todav&#237;a.]]></phrase>
+	<phrase module_id="bulletin" version_id="2.0.0rc2" var_name="you_cannot_message_yourself" added="1252935597">No puedes enviate mensaje a ti mismo.</phrase>
+	<phrase module_id="bulletin" version_id="2.0.0rc2" var_name="message_successfully_sent" added="1252935620">El mensaje ha sido enviado.</phrase>
+	<phrase module_id="bulletin" version_id="2.0.0rc2" var_name="owner_full_name_added_a_new_bulletin" added="1252935772"><![CDATA[<a href="{user_link}">{owner_full_name}</a> agreg&#243; un nuevo nuevo bolet&#237;n "<a href="{title_link}">{title}</a>".]]></phrase>
+	<phrase module_id="bulletin" version_id="2.0.0rc2" var_name="user_added_a_new_comment_on_their_own_bulletin" added="1252936010"><![CDATA[<a href="{item_user_link}">{item_full_name}</a> agreg&#243; un nuevo comentario en su propio <a href="{title_link}">bolet&#237;n</a>.]]></phrase>
+	<phrase module_id="bulletin" version_id="2.0.0rc2" var_name="item_full_name_added_a_new_comment_on_item_user" added="1252936306"><![CDATA[<a href="{item_user_link}">{item_full_name}</a> agreg&#243; un nuevo comentario en <a href="{item_user_link}">{item_user_name}'s</a> <a href="{title_link}">bolet&#237;n</a>.]]></phrase>
+	<phrase module_id="bulletin" version_id="2.0.0rc2" var_name="item_full_name_added_a_new_comment_on_your_bulletin" added="1252936358"><![CDATA[<a href="{item_user_link}">{item_full_name}</a> agreg&#243; un nuevo comentario en tu <a href="{title_link}">bolet&#237;n</a>.]]></phrase>
+	<phrase module_id="bulletin" version_id="2.0.0rc2" var_name="full_name_left_you_a_comment_on_site_title" added="1252936548"><![CDATA[{full_name} tej&#243; un comentario en {site_title}.]]></phrase>
+	<phrase module_id="bulletin" version_id="2.0.0rc2" var_name="full_name_left_you_a_comment_on_site_title_message" added="1252936642"><![CDATA[{full_name} tej&#243; un comentario en {site_title}.
+
+Para ver este comentario, sigue el enlace de abajo:
+<a href="{link}">{link}</a>]]></phrase>
+	<phrase module_id="bulletin" version_id="2.0.0rc2" var_name="full_name_left_you_a_comment_on_site_title_message_approve" added="1252937102"><![CDATA[{full_name} te dej&#243; un comentario en {site_title}, sin embargo, antes de que se puede mostrar tiene que ser aprobado por t&#237;.
+
+Tu puedes aprobar o rechazar este comentario, siguiendo el enlace de abajo:
+<a href="{link}">{link}</a>]]></phrase>
+	<phrase module_id="bulletin" version_id="2.0.0rc2" var_name="on_name_s_bulletin" added="1252937224"><![CDATA[En el bolet&#237;n de {name}.]]></phrase>
+	<phrase module_id="bulletin" version_id="2.0.0rc2" var_name="full_name_approved_your_comment_on_site_title" added="1252937263"><![CDATA[{full_name} aprob&#243; tu comentario en {site_title}.]]></phrase>
+	<phrase module_id="bulletin" version_id="2.0.0rc2" var_name="full_name_approved_your_comment_on_site_title_message" added="1252937352"><![CDATA[{full_name} aprob&#243; tu comentario en {site_title}.
+
+Para ver este comentario, sigue el enlace de abajo:
+<a href="{link}">{link}</a>]]></phrase>
+	<phrase module_id="bulletin" version_id="2.0.0rc2" var_name="no_bulletins_have_been_added_yet" added="1252937445"><![CDATA[No se han agregado boletines a&#250;n.]]></phrase>
+	<phrase module_id="bulletin" version_id="2.0.0rc2" var_name="be_the_first_to_add_a_bulletin" added="1252937457"><![CDATA[Sea el primero en agregar un Bolet&#237;n]]></phrase>
+	<phrase module_id="bulletin" version_id="2.0.0rc2" var_name="posted_on_time_stamp_by_user_link" added="1252994667">Publicado en {item_time_stamp} por {user_link}.</phrase>
+	<phrase module_id="bulletin" version_id="2.0.0rc2" var_name="view_attachments_total_count" added="1252994861">Ver datos adjuntos ({total_count})</phrase>
+	<phrase module_id="bulletin" version_id="2.0.0rc2" var_name="report_a_bulletin" added="1252994888"><![CDATA[Reportar este Bolet&#237;n]]></phrase>
+	<phrase module_id="bulletin" version_id="2.0.0rc2" var_name="report" added="1252994898">Reportar</phrase>
+	<phrase module_id="bulletin" version_id="2.0.0rc2" var_name="edit" added="1252994908">Editar</phrase>
+	<phrase module_id="bulletin" version_id="2.0.0rc2" var_name="delete" added="1252994918">Eliminar</phrase>
+	<phrase module_id="bulletin" version_id="2.0.0rc2" var_name="view_comments" added="1252994935">Ver Comentarios</phrase>
+	<phrase module_id="bulletin" version_id="2.0.0rc2" var_name="comment_total" added="1252994953">Comentario(s) ({total})</phrase>
+	<phrase module_id="bulletin" version_id="2.0.0rc2" var_name="title" added="1252994998"><![CDATA[T&#237;tulo]]></phrase>
+	<phrase module_id="bulletin" version_id="2.0.0rc2" var_name="message" added="1252995006">Mensaje</phrase>
+	<phrase module_id="bulletin" version_id="2.0.0rc2" var_name="comments" added="1252995017">Comentarios</phrase>
+	<phrase module_id="bulletin" version_id="2.0.0rc2" var_name="allow_comments" added="1252995026">Permitir Comentarios</phrase>
+	<phrase module_id="bulletin" version_id="2.0.0rc2" var_name="moderate_comments_first" added="1252995034">Comentarios Moderados</phrase>
+	<phrase module_id="bulletin" version_id="2.0.0rc2" var_name="no_comments" added="1252995041">No Comentarios</phrase>
+	<phrase module_id="bulletin" version_id="2.0.0rc2" var_name="submit" added="1252995050">Someter</phrase>
+	<phrase module_id="bulletin" version_id="2.0.0rc2" var_name="you_wrote_on_item_time_stamp" added="1252995134"><![CDATA[<a href="{url link='profile'}">Usted</a> escribi&#243; en {item_time_stamp}.]]></phrase>
+	<phrase module_id="bulletin" version_id="2.0.0rc2" var_name="user_link_wrote_on_item_time_stamp" added="1252995564"><![CDATA[{user_link} escribi&#243; en {item_time_stamp}.]]></phrase>
+	<phrase module_id="bulletin" version_id="2.0.0rc2" var_name="reply" added="1252995811">Responder</phrase>
+	<phrase module_id="bulletin" version_id="2.0.0rc2" var_name="cancel" added="1252995839">cancelar</phrase>
+	<phrase module_id="bulletin" version_id="2.0.0rc2" var_name="this_message_will_be_sent_as_a_private_message_to_user_link" added="1252995873"><![CDATA[Este mensaje se env&#237;a como un mensaje privado a {user_link}.]]></phrase>
+	<phrase module_id="bulletin" version_id="2.0.0rc2" var_name="private_reply" added="1252996012">Responder privado</phrase>
+	<phrase module_id="bulletin" version_id="2.0.0rc2" var_name="you_do_not_have_permission_to_add_a_comment_on_this_persons_profile" added="1252996396">Usted no tiene permiso para agregar un comentario sobre este perfil de personas.</phrase>
+	<phrase module_id="bulletin" version_id="2.0.0rc2" var_name="only_members_of_this_group_can_leave_a_comment" added="1252996419"><![CDATA[S&#243;lo los miembros de este grupo pueden dejar un comentario.]]></phrase>
+	<phrase module_id="bulletin" version_id="2.0.0rc4" var_name="bulletin_text" added="1255860035"><![CDATA[Texto del Bolet&#237;n]]></phrase>
+	<phrase module_id="bulletin" version_id="2.0.0rc8" var_name="bulletin_activity" added="1258500434">Boletines</phrase>
+	<phrase module_id="bulletin" version_id="2.0.0rc12" var_name="a_href_user_link_full_name_a_likes_your_a_href_link_bulletin_a" added="1260465364"><![CDATA[<a href="{user_link}">{full_name}</a> likes your <a href="{link}">bulletin</a>.]]></phrase>
+	<phrase module_id="bulletin" version_id="2.0.0rc12" var_name="a_href_user_link_full_name_a_likes_their_own_a_href_link_bulletin_a" added="1260465391"><![CDATA[<a href="{user_link}">{full_name}</a> likes {gender} own <a href="{link}">bulletin</a>.]]></phrase>
+	<phrase module_id="bulletin" version_id="2.0.0rc12" var_name="a_href_user_link_full_name_a_likes_a_href_view_user_link_view_full_name_a_s_a_href_link_bulletin_a" added="1260465410"><![CDATA[<a href="{user_link}">{full_name}</a> likes <a href="{view_user_link}">{view_full_name}</a>'s <a href="{link}">bulletin</a>.]]></phrase>
+</phrases>

@@ -1,0 +1,31 @@
+<phrases>
+	<phrase module_id="api" version_id="2.0.0beta4" var_name="module_api" added="1244660981">Api</phrase>
+	<phrase module_id="api" version_id="2.0.0rc2" var_name="unable_to_find_the_payment_gateway" added="1252912087">Unable to find the payment gateway.</phrase>
+	<phrase module_id="api" version_id="2.0.0rc2" var_name="gateway_successfully_updated" added="1252912098">Gateway successfully updated.</phrase>
+	<phrase module_id="api" version_id="2.0.0rc2" var_name="payment_gateways" added="1252912106">Payment Gateways</phrase>
+	<phrase module_id="api" version_id="2.0.0rc2" var_name="editing" added="1252912117">Editing</phrase>
+	<phrase module_id="api" version_id="2.0.0rc2" var_name="cost_per_month" added="1252912239">{cost} per month</phrase>
+	<phrase module_id="api" version_id="2.0.0rc2" var_name="default_cost_and_then_cost_per_month" added="1252912274">{default_cost} y luego {cost} por mes</phrase>
+	<phrase module_id="api" version_id="2.0.0rc2" var_name="cost_per_quarter" added="1252912309">{cost} per quarter</phrase>
+	<phrase module_id="api" version_id="2.0.0rc2" var_name="default_cost_and_then_cost_per_quarter" added="1252912343">{default_cost} y luego {cost} por trimestre</phrase>
+	<phrase module_id="api" version_id="2.0.0rc2" var_name="cost_biannualy" added="1252912372">{cost} biannualy</phrase>
+	<phrase module_id="api" version_id="2.0.0rc2" var_name="cost_annually" added="1252912385">{cost} annually</phrase>
+	<phrase module_id="api" version_id="2.0.0rc2" var_name="default_cost_and_then_cost_biannualy" added="1252912426">{default_cost} y luego {cost} semestrar</phrase>
+	<phrase module_id="api" version_id="2.0.0rc2" var_name="default_cost_and_then_cost_annually" added="1252912446">{default_cost} y luego {cost} anualmente</phrase>
+	<phrase module_id="api" version_id="2.0.0rc2" var_name="provide_a_name" added="1252912486">Provide a name.</phrase>
+	<phrase module_id="api" version_id="2.0.0rc2" var_name="provide_a_description" added="1252912494">Provide a description.</phrase>
+	<phrase module_id="api" version_id="2.0.0rc2" var_name="select_if_the_gateway_is_active_or_not" added="1252912503">Select if the gateway is active or not.</phrase>
+	<phrase module_id="api" version_id="2.0.0rc2" var_name="select_if_the_gateway_is_in_test_mode" added="1252912513">Select if the gateway is in test mode.</phrase>
+	<phrase module_id="api" version_id="2.0.0rc2" var_name="opps_no_payment_gateways_have_been_set_up_yet" added="1252912564">Opps! No payment gateways have been set up yet.</phrase>
+	<phrase module_id="api" version_id="2.0.0rc2" var_name="purchase_with_gateway_name" added="1252912577">Purchase with {gateway_name}</phrase>
+	<phrase module_id="api" version_id="2.0.0rc2" var_name="gateway_details" added="1252912604">Gateway Details</phrase>
+	<phrase module_id="api" version_id="2.0.0rc2" var_name="title" added="1252913445"><![CDATA[T&#237;tulo]]></phrase>
+	<phrase module_id="api" version_id="2.0.0rc2" var_name="description" added="1252913463">Description</phrase>
+	<phrase module_id="api" version_id="2.0.0rc2" var_name="test_mode" added="1252913532">Test Mode</phrase>
+	<phrase module_id="api" version_id="2.0.0rc2" var_name="update" added="1252913593">Actualizar</phrase>
+	<phrase module_id="api" version_id="2.0.0rc2" var_name="gateways" added="1252913669">Gateways</phrase>
+	<phrase module_id="api" version_id="2.0.0rc2" var_name="active" added="1252913703">Active</phrase>
+	<phrase module_id="api" version_id="2.0.0rc2" var_name="edit_gateway_settings" added="1252913717">Edit Gateway Settings</phrase>
+	<phrase module_id="api" version_id="2.0.0rc2" var_name="disable_test_mode" added="1252922033">Disable Test Mode</phrase>
+	<phrase module_id="api" version_id="2.0.0rc2" var_name="enable_test_mode" added="1252922041">Enable Test Mode</phrase>
+</phrases>

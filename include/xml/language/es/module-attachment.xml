@@ -1,0 +1,70 @@
+<phrases>
+	<phrase module_id="attachment" version_id="2.0.0alpha1" var_name="user_setting_points_attachment" added="1214982452">Points received when adding a new attachment for an item.</phrase>
+	<phrase module_id="attachment" version_id="2.0.0alpha1" var_name="user_setting_can_attach_on_blog" added="1214982579">Can attach items on blogs?</phrase>
+	<phrase module_id="attachment" version_id="2.0.0alpha1" var_name="user_setting_attachment_limit" added="1214982711"><![CDATA[Specify the attachment limit.
+
+This will control how many attachments a user can upload and attach on other items.
+
+If you do not want to allow users the ability to upload items set this to <b>0</b>.
+
+If you do not want to set a limit set this to <b>null</b>.]]></phrase>
+	<phrase module_id="attachment" version_id="2.0.0alpha1" var_name="user_setting_delete_own_attachment" added="1218706131">Can delete their own attachments?</phrase>
+	<phrase module_id="attachment" version_id="2.0.0alpha1" var_name="user_setting_delete_user_attachment" added="1218706185">Can delete attachments added by other users?</phrase>
+	<phrase module_id="attachment" version_id="2.0.0alpha1" var_name="module_attachment" added="1213971163"><![CDATA[Informaci&#243;n del Archivo Adjunto]]></phrase>
+	<phrase module_id="attachment" version_id="2.0.0alpha1" var_name="file_extension_is_not_valid" added="1212128638"><![CDATA[Error. Extensi&#243;n de archivo no es v&#225;lid&#225;.]]></phrase>
+	<phrase module_id="attachment" version_id="2.0.0alpha1" var_name="done" added="1212128667">Hecho!</phrase>
+	<phrase module_id="attachment" version_id="2.0.0alpha1" var_name="uploading" added="1212128993">Cargando</phrase>
+	<phrase module_id="attachment" version_id="2.0.0alpha1" var_name="attached_files" added="1215267860">Archivos Adjuntados</phrase>
+	<phrase module_id="attachment" version_id="2.0.0alpha1" var_name="views" added="1215268272">{total} vistas</phrase>
+	<phrase module_id="attachment" version_id="2.0.0alpha1" var_name="attach_files" added="1218197611">Adjuntar Archivos</phrase>
+	<phrase module_id="attachment" version_id="2.0.0alpha1" var_name="upload_new_attachment" added="1218533823">Subir nuevo(s) Archivo(s) Adjunto(s)</phrase>
+	<phrase module_id="attachment" version_id="2.0.0alpha1" var_name="browse_archives" added="1218533834">Buscar Archivos</phrase>
+	<phrase module_id="attachment" version_id="2.0.0alpha1" var_name="current_attachments" added="1218533856">Archivos Adjuntos Actuales</phrase>
+	<phrase module_id="attachment" version_id="2.0.0alpha1" var_name="attachments" added="1218533866">No hay Archivos Adjuntos</phrase>
+	<phrase module_id="attachment" version_id="2.0.0alpha1" var_name="upload_attachments" added="1218533908">Subir Archivo(s) Adjunto(s)</phrase>
+	<phrase module_id="attachment" version_id="2.0.0alpha1" var_name="add_more_attachments" added="1218533925"><![CDATA[Agregar m&#225;s Archivo(s) Adjunto(s)]]></phrase>
+	<phrase module_id="attachment" version_id="2.0.0alpha1" var_name="valid_file_extensions" added="1218533937"><![CDATA[Extensiones de archivo v&#225;lidas]]></phrase>
+	<phrase module_id="attachment" version_id="2.0.0alpha1" var_name="cancel" added="1218533951">Cancelar</phrase>
+	<phrase module_id="attachment" version_id="2.0.0alpha1" var_name="add_description" added="1218534271"><![CDATA[Agregar Descripci&#243;n...]]></phrase>
+	<phrase module_id="attachment" version_id="2.0.0alpha1" var_name="use_inline_full_image" added="1218534304">Utiliza Inline (Full Image)</phrase>
+	<phrase module_id="attachment" version_id="2.0.0alpha1" var_name="use_inline_thumbnail" added="1218534316">Utiliza Inline (Thumbnail)</phrase>
+	<phrase module_id="attachment" version_id="2.0.0alpha1" var_name="use_inline" added="1218534331">Utiliza Inline</phrase>
+	<phrase module_id="attachment" version_id="2.0.0alpha1" var_name="delete" added="1218534340">Eliminar</phrase>
+	<phrase module_id="attachment" version_id="2.0.0alpha1" var_name="you_have_reached_your_upload_limit" added="1218633812"><![CDATA[Has alcanzado tu l&#237;mite de carga.]]></phrase>
+	<phrase module_id="attachment" version_id="2.0.0alpha1" var_name="failed_limit_reached" added="1218705195"><![CDATA[Error: has alcanzado el l&#237;mite]]></phrase>
+	<phrase module_id="attachment" version_id="2.0.0alpha1" var_name="usage" added="1218705232">Uso</phrase>
+	<phrase module_id="attachment" version_id="2.0.0alpha1" var_name="setting_test" added="1230599222"><![CDATA[<title>This is a test</title><info>this is just a test...</info>]]></phrase>
+	<phrase module_id="attachment" version_id="2.0.0alpha1" var_name="user_setting_can_attach_on_bulletin" added="1234186901">Tells if the members of this usergroup can attach to their bulletins</phrase>
+	<phrase module_id="attachment" version_id="2.0.0rc1" var_name="user_setting_item_max_upload_size" added="1249942555"><![CDATA[N&#250;mero m&#225;ximo de tama&#241;o de archivo para los art&#237;culos de subida en kilobits (kb).
+(1000 kb = 1 mb)
+Para ilimitado agregar un "0" sin las comillas.]]></phrase>
+	<phrase module_id="attachment" version_id="2.0.0rc1" var_name="admincp_attachment_menu" added="1250836473">Archivos Adjuntos</phrase>
+	<phrase module_id="attachment" version_id="2.0.0rc1" var_name="admincp_menu_attachment_types" added="1250836515">Manejar Tipos</phrase>
+	<phrase module_id="attachment" version_id="2.0.0rc1" var_name="admincp_menu_attachment_add" added="1250844995">Agregar un Tipo</phrase>
+	<phrase module_id="attachment" version_id="2.0.0rc2" var_name="attachment_type_successfully_updated" added="1252922216">Tipo de Archivo Adjunto ha sido actualizado.</phrase>
+	<phrase module_id="attachment" version_id="2.0.0rc2" var_name="attachment_type_successfully_added" added="1252922228">Tipo de Archivo Adjunto ha sido agregado.</phrase>
+	<phrase module_id="attachment" version_id="2.0.0rc2" var_name="attachments_title" added="1252922250">Archivos Adjuntos</phrase>
+	<phrase module_id="attachment" version_id="2.0.0rc2" var_name="add_an_attachment_type" added="1252922262">Agregar un tipo de archivo adjunto</phrase>
+	<phrase module_id="attachment" version_id="2.0.0rc2" var_name="editing_an_attachment_type" added="1252922270"><![CDATA[Edici&#243;n de un tipo de archivo adjunto.]]></phrase>
+	<phrase module_id="attachment" version_id="2.0.0rc2" var_name="no_such_download_found" added="1252922297">No se ha encontrado la descarga.</phrase>
+	<phrase module_id="attachment" version_id="2.0.0rc2" var_name="successfully_uploaded" added="1252922318">Subida completada!</phrase>
+	<phrase module_id="attachment" version_id="2.0.0rc2" var_name="provide_an_extension" added="1252922399"><![CDATA[Proporciona una extensi&#243;n.]]></phrase>
+	<phrase module_id="attachment" version_id="2.0.0rc2" var_name="provide_a_mime_type" added="1252922407">Proporciona un tipo de MIME.</phrase>
+	<phrase module_id="attachment" version_id="2.0.0rc2" var_name="remove_inline" added="1252922486">Eliminar el Inline</phrase>
+	<phrase module_id="attachment" version_id="2.0.0rc2" var_name="use_image" added="1252922498">Utilizar la imagen</phrase>
+	<phrase module_id="attachment" version_id="2.0.0rc2" var_name="no_attachments_available" added="1252922592">No hay archivos adjuntos disponibles.</phrase>
+	<phrase module_id="attachment" version_id="2.0.0rc2" var_name="jpg_gif_or_png" added="1252922647">JPG, GIF or PNG</phrase>
+	<phrase module_id="attachment" version_id="2.0.0rc2" var_name="the_file_size_limit_is_max_file_size" added="1252922669"><![CDATA[El l&#237;mite de tama&#241;o de archivo es {max_file_size}. Si la subida no funciona, intenta subir un art&#237;culo de menor tama&#241;o.]]></phrase>
+	<phrase module_id="attachment" version_id="2.0.0rc2" var_name="attachment_type_info" added="1252926402"><![CDATA[Informaci&#243;m de el Archivo Adjunto]]></phrase>
+	<phrase module_id="attachment" version_id="2.0.0rc2" var_name="extension" added="1252926409"><![CDATA[Extensi&#243;n]]></phrase>
+	<phrase module_id="attachment" version_id="2.0.0rc2" var_name="mime_type" added="1252926418">Tipo de MIME</phrase>
+	<phrase module_id="attachment" version_id="2.0.0rc2" var_name="is_image" added="1252926429">Es la Imagen</phrase>
+	<phrase module_id="attachment" version_id="2.0.0rc2" var_name="image" added="1252926531">Imagen</phrase>
+	<phrase module_id="attachment" version_id="2.0.0rc2" var_name="this_extension_already_exists" added="1253442098"><![CDATA[Esta extensi&#243;n ya existe.]]></phrase>
+	<phrase module_id="attachment" version_id="2.0.0rc6" var_name="admin_menu_manage_types" added="1256904823">Manejar Tipos</phrase>
+	<phrase module_id="attachment" version_id="2.0.0rc6" var_name="admin_menu_add_new_type" added="1256904823">Agregar Nuevo Tipo</phrase>
+	<phrase module_id="attachment" version_id="2.0.0rc8" var_name="attachment_activity" added="1258500262">Adjuntos</phrase>
+	<phrase module_id="attachment" version_id="2.0.0rc8" var_name="select_attachment_s_to_upload" added="1259007508">Selecciona el archivo adjunto a subir.</phrase>
+	<phrase module_id="attachment" version_id="2.0.0rc8" var_name="uploading_attachment_s" added="1259007526">Subiendo Archivo(s) Adjunto(s)</phrase>
+	<phrase module_id="attachment" version_id="2.0.0rc10" var_name="done_normal" added="1259353842">Hecho!</phrase>
+</phrases>

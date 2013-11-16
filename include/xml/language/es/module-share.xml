@@ -1,0 +1,83 @@
+<phrases>
+	<phrase module_id="share" version_id="2.0.0alpha1" var_name="module_share" added="1233837703">Compartir</phrase>
+	<phrase module_id="share" version_id="2.0.0rc1" var_name="user_setting_can_send_emails" added="1249835659">Can send emails when sharing?</phrase>
+	<phrase module_id="share" version_id="2.0.0rc1" var_name="user_setting_total_emails_per_round" added="1249835888"><![CDATA[How many emails per round can be sent when sharing?
+
+<b>Notice:</b> The value "0" (without quotes) gives the user group an unlimited amount of emails per round.]]></phrase>
+	<phrase module_id="share" version_id="2.0.0rc1" var_name="user_setting_emails_per_hour" added="1249836245"><![CDATA[Define how many emails can be sent when sharing items each hour.
+
+<b>Notice:</b> The value "0" (without quotes) allows an unlimited amount of emails to be sent each hour.]]></phrase>
+	<phrase module_id="share" version_id="2.0.0rc1" var_name="admin_menu_manage_social_sites" added="1249838039">Manage Social Sites</phrase>
+	<phrase module_id="share" version_id="2.0.0rc1" var_name="admin_menu_add_social_site" added="1249838039">Add Social Site</phrase>
+	<phrase module_id="share" version_id="2.0.0rc2" var_name="setting_enable_social_bookmarking" added="1253454253"><![CDATA[<title>Enable Social Bookmarking</title><info>Enable Social Bookmarking</info>]]></phrase>
+	<phrase module_id="share" version_id="2.0.0rc4" var_name="message_successfully_sent" added="1255334742">Mensaje ha sido enviado.</phrase>
+	<phrase module_id="share" version_id="2.0.0rc4" var_name="hi_check_this_out_url" added="1255334784"><![CDATA[Hola,
+
+Disfr&#250;tate &#233;sto...
+
+{url}]]></phrase>
+	<phrase module_id="share" version_id="2.0.0rc4" var_name="site_successfully_updated" added="1255334834">Sitio ha sido actualizado.</phrase>
+	<phrase module_id="share" version_id="2.0.0rc4" var_name="site_successfully_added" added="1255334843">Sitio ha sido agregado.</phrase>
+	<phrase module_id="share" version_id="2.0.0rc4" var_name="add_a_social_bookmarking_site" added="1255334855">Agregar un Marcador Social a este Sitio</phrase>
+	<phrase module_id="share" version_id="2.0.0rc4" var_name="social_bookmarking" added="1255334862">Marcadores Sociales</phrase>
+	<phrase module_id="share" version_id="2.0.0rc4" var_name="add_a_site" added="1255334869">Agrega un Sitio</phrase>
+	<phrase module_id="share" version_id="2.0.0rc4" var_name="site_successfully_deleted" added="1255334979">Sitio ha sido eliminado.</phrase>
+	<phrase module_id="share" version_id="2.0.0rc4" var_name="manage_sites" added="1255334987">Manejar Sitios</phrase>
+	<phrase module_id="share" version_id="2.0.0rc4" var_name="share" added="1255334996">Compartir</phrase>
+	<phrase module_id="share" version_id="2.0.0rc4" var_name="select_what_type_of_a_site_this_is" added="1255335019"><![CDATA[Selecciona que tipo de sitio es &#233;ste.]]></phrase>
+	<phrase module_id="share" version_id="2.0.0rc4" var_name="provide_a_name_for_the_site" added="1255335026">Proporciona un nombre para este sitio.</phrase>
+	<phrase module_id="share" version_id="2.0.0rc4" var_name="provide_a_url_for_the_site" added="1255335034">Proporciona un URL para este sitio.</phrase>
+	<phrase module_id="share" version_id="2.0.0rc4" var_name="this_site_already_exists" added="1255335043">Este sitio ya existe.</phrase>
+	<phrase module_id="share" version_id="2.0.0rc4" var_name="the_site_cannot_be_found" added="1255335058">El sitio no puede ser encontrado.</phrase>
+	<phrase module_id="share" version_id="2.0.0rc4" var_name="none_of_the_emails_entered_were_valid" added="1255335069"><![CDATA[Ninguno de los correo electr&#243;nico entrados eran v&#225;lidos.]]></phrase>
+	<phrase module_id="share" version_id="2.0.0rc4" var_name="provide_a_icon_for_this_site" added="1255335079">Proporciona un icono para este sitio.</phrase>
+	<phrase module_id="share" version_id="2.0.0rc4" var_name="provide_an_e_mail_address" added="1255335242"><![CDATA[Proporciona una direcci&#243;n de correo electr&#243;nico.]]></phrase>
+	<phrase module_id="share" version_id="2.0.0rc4" var_name="email_s" added="1255335257">Email(s)</phrase>
+	<phrase module_id="share" version_id="2.0.0rc4" var_name="separate_multiple_emails_with_a_comma" added="1255335274">Separa los emails con comas.</phrase>
+	<phrase module_id="share" version_id="2.0.0rc4" var_name="max_emails_limit" added="1255335723"><![CDATA[Emails m&#225;ximos: {limit}]]></phrase>
+	<phrase module_id="share" version_id="2.0.0rc4" var_name="subject" added="1255335734">Asunto</phrase>
+	<phrase module_id="share" version_id="2.0.0rc4" var_name="message" added="1255335741">Mensaje</phrase>
+	<phrase module_id="share" version_id="2.0.0rc4" var_name="send" added="1255335748">Enviar</phrase>
+	<phrase module_id="share" version_id="2.0.0rc4" var_name="you_are_unable_to_send_any_more_emails_we_have_a_limit_of_how_many_emails_can_be_sent_each_hour_br_current_limit_limit" added="1255335767"><![CDATA[Usted no puede enviar m&#225;s mensajes. Tenemos un l&#237;mite de cu&#225;ntos correos electr&#243;nicos se pueden enviar cada hora.<br />
+L&#237;mite actual: {limit}]]></phrase>
+	<phrase module_id="share" version_id="2.0.0rc4" var_name="social_bookmarks" added="1255335788">Marcadores Sociales</phrase>
+	<phrase module_id="share" version_id="2.0.0rc4" var_name="friends" added="1255335798">Amigos</phrase>
+	<phrase module_id="share" version_id="2.0.0rc4" var_name="e_mail" added="1255335807">E-Mail</phrase>
+	<phrase module_id="share" version_id="2.0.0rc4" var_name="post" added="1255335814">Publicar</phrase>
+	<phrase module_id="share" version_id="2.0.0rc4" var_name="need_to_select_some_friends_before_we_try_to_send_the_message" added="1255335828">Necesitas seleccionar a algunos amigos antes de intentar enviar el mensaje.</phrase>
+	<phrase module_id="share" version_id="2.0.0rc4" var_name="continue" added="1255335844">Continuar</phrase>
+	<phrase module_id="share" version_id="2.0.0rc4" var_name="site_info" added="1255335933"><![CDATA[Informaci&#243;n del Sitio]]></phrase>
+	<phrase module_id="share" version_id="2.0.0rc4" var_name="type" added="1255335939">Tipo</phrase>
+	<phrase module_id="share" version_id="2.0.0rc4" var_name="select" added="1255335946">Seleccionar</phrase>
+	<phrase module_id="share" version_id="2.0.0rc4" var_name="bookmark" added="1255335951">Marcadores Sociales</phrase>
+	<phrase module_id="share" version_id="2.0.0rc4" var_name="title" added="1255335962"><![CDATA[T&#237;tulo]]></phrase>
+	<phrase module_id="share" version_id="2.0.0rc4" var_name="url" added="1255335969">URL</phrase>
+	<phrase module_id="share" version_id="2.0.0rc4" var_name="you_can_pass_a_title_and_url_string_by_adding_the_following_replacements_br_url_url_of_the_item_br_title_title_of_the_item" added="1255336002"><![CDATA[Puedes pasar un t&#237;tulo y el enlace URL mediante la adici&#243;n de las siguientes sustituciones...<br />
+{URL} = URL del art&#237;culo.
+<br />
+{TITLE} = T&#237;tulo del art&#237;culo.]]></phrase>
+	<phrase module_id="share" version_id="2.0.0rc4" var_name="icon" added="1255336012">Icono</phrase>
+	<phrase module_id="share" version_id="2.0.0rc4" var_name="click_here_to_change_this_icon" added="1255336032"><![CDATA[Haz clic aqu&#237; para cambiar este icono.]]></phrase>
+	<phrase module_id="share" version_id="2.0.0rc4" var_name="cancel" added="1255336041">cancelar</phrase>
+	<phrase module_id="share" version_id="2.0.0rc4" var_name="you_can_upload_a_jpg_gif_or_png_file_br_advised_size_is_16x16_pixels" added="1255336057"><![CDATA[Solo puedes subir archivos JPG, GIF o PNG. <br />
+Aconsejamos tama&#241;o de 16x16 p&#237;xeles]]></phrase>
+	<phrase module_id="share" version_id="2.0.0rc4" var_name="is_active" added="1255336067"><![CDATA[Est&#225; Activo]]></phrase>
+	<phrase module_id="share" version_id="2.0.0rc4" var_name="yes" added="1255336074">Si</phrase>
+	<phrase module_id="share" version_id="2.0.0rc4" var_name="no" added="1255336079">No</phrase>
+	<phrase module_id="share" version_id="2.0.0rc4" var_name="submit" added="1255336086">Someter</phrase>
+	<phrase module_id="share" version_id="2.0.0rc4" var_name="sites" added="1255336266">Sitios</phrase>
+	<phrase module_id="share" version_id="2.0.0rc4" var_name="name" added="1255336277">Nombre</phrase>
+	<phrase module_id="share" version_id="2.0.0rc4" var_name="active" added="1255336283">Activar</phrase>
+	<phrase module_id="share" version_id="2.0.0rc4" var_name="manage" added="1255336290">Manejar</phrase>
+	<phrase module_id="share" version_id="2.0.0rc4" var_name="edit" added="1255336297">Editar</phrase>
+	<phrase module_id="share" version_id="2.0.0rc4" var_name="delete" added="1255336303">Eliminar</phrase>
+	<phrase module_id="share" version_id="2.0.0rc4" var_name="are_you_sure" added="1255336311"><![CDATA[&#191;Est&#225;s seguro?]]></phrase>
+	<phrase module_id="share" version_id="2.0.0rc4" var_name="deactivate" added="1255336320">Desactivado</phrase>
+	<phrase module_id="share" version_id="2.0.0rc4" var_name="activate" added="1255336326">Activado</phrase>
+	<phrase module_id="share" version_id="2.0.0rc4" var_name="please_wait_limit_seconds_before_adding_a_new_shoutout" added="1255336870">Por favor, espera {limit} segundos antes de agregar una nueva nota.</phrase>
+	<phrase module_id="share" version_id="2.0.0rc4" var_name="hi_check_this_out_bbcode" added="1256557298"><![CDATA[Hola,
+
+Disfr&#250;tate &#233;sto...
+
+[link={url}]{url}[/link]]]></phrase>
+</phrases>
