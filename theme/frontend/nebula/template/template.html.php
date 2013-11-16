@@ -125,10 +125,10 @@ defined('PHPFOX') or exit('NO DICE!');
 									
 									{else}			
 									<div id="right" class="content_column">
-									
+									{if Phpfox::isUser() && !Phpfox::getUserBy('profile_page_id')}
 										                                                                                
                                                                                 <div id="eventCalendarHumanDate"></div>
-										
+                                                                        {/if}
 									</div>	
 									{/if}				
 									{/if}

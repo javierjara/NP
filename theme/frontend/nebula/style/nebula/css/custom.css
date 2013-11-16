@@ -895,7 +895,7 @@ ul.activity_feed_form_attach li a.active .drop
 {
 	position:static;
 	padding-top:30px;
-	background:#f2f2f2;
+	/* background:#f2f2f2; */
 }
 
 #nb_body_holder_guest #main_content_padding
@@ -1940,7 +1940,7 @@ div.activity_feed_content_text{
 }
 
 .user_profile_link_span a {
-    /* font-size: 15px; */
+     font-size: 10px !important; 
 }
 
 div#nb_main_menu ul li a:hover {
