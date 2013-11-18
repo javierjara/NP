@@ -454,7 +454,7 @@ function tb_show(caption, url, thisObject, sForceMessage, bForceNoCilck, sType)
 
 			if (bForceNoCilck){
 				sHtml += '</div>';
-			}			
+			}	
 		}
 		
                 sHtml+="</div>";

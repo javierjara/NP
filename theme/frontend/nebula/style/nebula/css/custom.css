@@ -1979,7 +1979,7 @@ div.js_box.Exlife div.js_box_title {
     background-color: #009AEF;
 }
 
-div.js_box.Nextlife div.js_box_title {
+div.js_box div.js_box_title {
     background-color: #52C921;
 }
 
@@ -2525,13 +2525,12 @@ div.sub_section_menu ul li.active a {
 }
 
 .js_box {
-    padding: 0 10px 30px;
+    padding: 0 10px 45px;
     background: #52C921;
     
 }
 
 .js_box.Exlife {
-    padding: 0 10px 10px;
     background: #009AEF;
     
 }
@@ -2582,3 +2581,26 @@ div.sub_section_menu ul li.active a {
     padding: 0;
 }
 
+.activity_feed_form_button_position_button.submit_button_form_next.fake_button {
+    position: absolute;
+    width: 100%;
+    bottom: -38px;
+    left: 0px;
+}
+
+.activity_feed_form_button_position_button.submit_button_form_next.fake_button input {
+    width: 100%;
+}
+
+.activity_feed_form_button_position_button.submit_button_form_next.submit_real {
+    display: none;
+}
+
+
+@font-face { 
+    font-family: Montserrat; src: url('Montserrat-Regular.ttf'); 
+}
+
+body {
+    font-family: Montserrat;
+}

@@ -194,7 +194,7 @@ defined('PHPFOX') or exit('NO DICE!');
                                     </div>
                                     {/if}				
 
-                                    <div class="activity_feed_form_button_position_button submit_button_form_next">
+                                    <div class="activity_feed_form_button_position_button submit_button_form_next submit_real">
                                         <input type="submit" value="{phrase var='share.share' phpfox_squote=true}"  id="activity_feed_submit" class="button"/>
                                     </div>
 
@@ -226,4 +226,8 @@ defined('PHPFOX') or exit('NO DICE!');
     </div>
     
 
+</div>
+
+<div class="activity_feed_form_button_position_button submit_button_form_next fake_button">
+    <input type="submit" value="{phrase var='share.share' phpfox_squote=true}"  id="activity_feed_submit" class="button" onclick="$('.activity_feed_form_button_position_button.submit_button_form_next.submit_real input').trigger('click')"/>
 </div>
