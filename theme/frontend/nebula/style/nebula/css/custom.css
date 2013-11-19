@@ -2604,3 +2604,16 @@ div.sub_section_menu ul li.active a {
 body {
     font-family: Montserrat;
 }
+
+.activity_feed_content_status {
+    font-size: 12px;
+}
+
+.feed_entry_time_stamp {
+    position: relative;
+    float: left;
+}
+
+#section_menu ul li span.js_hover_info {
+    background: none;
+}

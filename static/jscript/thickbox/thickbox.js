@@ -687,6 +687,11 @@ function tb_remove()
    	
    	$('#global_attachment_list_inline').hide();
    	
+        // NP - aggiunto layer
+        $('.thickbox-wrapper').fadeOut('fast', function() {
+          
+        });
+        
 	return false;
 }
 
