@@ -81,7 +81,7 @@ defined('PHPFOX') or exit('NO DICE!');
 					{$aAction.phrase}
 				</a>
 				<a href="#" id="dislike_remove_{$aAction.item_id}" onclick="$Core.Like.Actions.removeAction('{$aAction.action_type_id}', '{if isset($aLike.like_type_id)}{$aLike.like_type_id}{else}{$aAction.item_type_id}{/if}', {$aAction.item_id}, '{if $aLike.like_type_id == 'feed_mini'}comment{else}{$aAction.module_name}{/if}', {$aAction.iActionIteration},  {$aFeed.feed_id}, this); return false;" class="like_action_{$aAction.action_type_id}_{$aAction.iActionIteration} like_action like_action_unmarked" {if !$aAction.is_marked}style="display:none;"{/if}>
-					{'Unhug'}
+					{phrase var='like.undislike'}
 				</a>
 			{/if}
 		{/foreach}
