@@ -2525,9 +2525,12 @@ div.sub_section_menu ul li.active a {
 }
 
 .js_box {
-    padding: 0 10px 45px;
-    background: #52C921;
-    
+    padding: 0 10px 10px;
+    background: #52C921;   
+}
+
+.js_box.Nextlife, .js_box.Exlife {
+    padding-bottom: 45px;
 }
 
 .js_box.Exlife {
@@ -2616,4 +2619,16 @@ body {
 
 #section_menu ul li span.js_hover_info {
     background: none;
+}
+
+#js_is_user_profile .sub_section_menu ul li a {
+    background-position: 2px 0px;
+}
+
+#js_is_user_profile .sub_section_menu ul li:hover a {
+    background-position: 2px -22px;
+}
+
+#js_is_user_profile .sub_section_menu ul li.active a {
+    background-position: 2px -22px !important;
 }
