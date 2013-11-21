@@ -17,7 +17,7 @@ $Behavior.addDraggableToBoxes = function()
     
     $('.js_box').each(function()
     {
-    	$(this).draggable('destroy');
+    	//$(this).draggable('destroy');
     	tb_draggable(this);
     });
     

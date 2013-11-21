@@ -867,9 +867,13 @@ function pufFeedFormSubmit(ev, el) {
 //        }
 
         if ($('#global_attachment_photo_file_input').val()!=="") {
-            $('#global_attachment_status textarea').val($('.activity_feed_form_button_status_info textarea').val());
+            $("a[rel='global_attachment_photo']").trigger('click', function() {});
+            $('.activity_feed_form_button_status_info textarea').val($('#global_attachment_status textarea').val());
             return true;
+        } else {
+            $("a[rel='global_attachment_status']").trigger('click', function() {});
         }
+        
 
         $Core.activityFeedProcess(true);
 
@@ -1046,9 +1050,7 @@ function pufAttachLiClick(el) {
 
 function imgPickerClick() {
     $("a[rel='global_attachment_photo']").trigger('click', function() {
-        setTimeout(
-            function(){$('#global_attachment_photo_file_input').trigger('click');
-        }, 1000);
+
     });
 }
 
@@ -1112,12 +1114,15 @@ function imgUrlOnChange(el) {
             
             reader.readAsDataURL(el.files[0]);
         }
-    } else {
         
+        //$('.activity_feed_form_holder').hide();
+        
+    } else {
+        $('.activity_feed_form_holder').show();
         $("a[rel='global_attachment_status']").trigger('click', function() {
             console.log('reset immagine');
         });
         
-        $('#img_picker').css('background-image', 'url("http://localhost/nextplease.dev/static/image/misc/camera.jpg")');
+        $('#img_picker').css('background-image', 'url("http://localhost/nextplease.dev/static/image/misc/camera.png")');
     }
 }

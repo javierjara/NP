@@ -13,7 +13,6 @@ defined('PHPFOX') or exit('NO DICE!');
 ?>
 <div id="js_main_feed_holder">
     
-    <div id="img_picker" onclick="imgPickerClick();"></div>
          
     <div class="activity_feed_form_share">
 	<div class="activity_feed_form_share_process">{img theme='ajax/add.gif' class='v_middle'}</div>
@@ -73,6 +72,12 @@ defined('PHPFOX') or exit('NO DICE!');
     <div class="activity_feed_form">
             <form method="post" action="#" id="js_activity_feed_form" enctype="multipart/form-data"
                     onsubmit="pufFeedFormSubmit(event,this);">
+                
+                
+    <div id="img_picker">
+        <input type="file" name="image[]" id="global_attachment_photo_file_input" value="" onchange="$bButtonSubmitActive = true; $('.activity_feed_form_button .button').removeClass('button_not_active'); imgUrlOnChange(this);" />
+    </div>
+    
                     
                      <div id="js_custom_privacy_input_holder"></div>
                     {if Phpfox::getParam('video.convert_servers_enable') && isset($sCustomVideoHash)}
@@ -128,8 +133,7 @@ defined('PHPFOX') or exit('NO DICE!');
                             {/if}
 
                             <div class="activity_feed_form_button_status_info">
-                                    <textarea id="activity_feed_textarea_status_info" cols="60" rows="8" name="val[status_info]"
-                                        onfocus="pufStatusInfoFocus(this); return false;"></textarea>
+                                    <textarea id="activity_feed_textarea_status_info" cols="60" rows="8" name="val[status_info]" placeholder="{if isset($aFeedCallback.module) || defined('PHPFOX_IS_USER_PROFILE')}{phrase var='feed.write_something'}{else}{phrase var='feed.what_s_on_your_mind'}{/if}""></textarea>
                             </div>
                             <div class="activity_feed_form_button_position">
                                 
