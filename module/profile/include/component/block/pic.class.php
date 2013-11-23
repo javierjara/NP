@@ -50,8 +50,8 @@ class Profile_Component_Block_Pic extends Phpfox_Component
 			'title' => $aUser['full_name'],
 			'path' => 'core.url_user',
 			'file' => $aUser['user_image'],
-			'suffix' => '_120_square',
-			'max_width' => 175,
+			'suffix' => '_250_square',
+			'max_width' => 250,
 			'max_height' => 300,
 			'no_default' => (Phpfox::getUserId() == $aUser['user_id'] ? false : true),
 			'thickbox' => true,
@@ -61,7 +61,7 @@ class Profile_Component_Block_Pic extends Phpfox_Component
 		
 		if (Phpfox::getService('profile')->timeline())
 		{
-			$aUserInfo['suffix'] = '_120_square';
+			$aUserInfo['suffix'] = '_250_square';
 			unset($aUserInfo['max_width']);
 			unset($aUserInfo['max_height']);
 		}
