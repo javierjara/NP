@@ -2676,3 +2676,7 @@ body {
 #js_block_border_contactimporter_home_contact.block .content {
     padding: 0 !important;
 }
+
+.js_box_image_holder_full {
+    display: block !important;
+}

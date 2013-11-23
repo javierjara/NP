@@ -2637,10 +2637,11 @@ a.activity_feed_content_link_title:hover
 
 .activity_feed_content_image
 {
-	float:left;
-	padding-right:5px;
-	overflow:hidden;		
-	max-width:450px;
+    padding-right:5px;
+    overflow:hidden;		
+    max-width:450px;
+    text-align: center;
+    margin: 0 auto;
 }
 
 .activity_feed_content_image img
