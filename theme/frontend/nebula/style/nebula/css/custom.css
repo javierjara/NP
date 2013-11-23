@@ -1323,6 +1323,7 @@ div.activity_like_holder
 	padding:5px;
 	width: 80%;
 	min-width: 80%;
+        margin: 0 auto;
 }
 
 .comment_mini_content span.user_profile_link_span a
