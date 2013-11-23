@@ -2667,3 +2667,12 @@ body {
 .activity_feed_form_holder_height {
     height: 30px;
 }
+
+#js_block_border_contactimporter_home_contact .title {
+    text-align: center;
+    font-size: 12px !important;
+}
+
+#js_block_border_contactimporter_home_contact.block .content {
+    padding: 0 !important;
+}

@@ -28,7 +28,7 @@ defined('PHPFOX') or exit('NO DICE!');
 {literal}
 <style type="text/css">
 	#homecontact {
-		padding-left: 8px;
+		
 	}
     #homecontact .logoContact {  
 		float:left;
@@ -50,57 +50,10 @@ defined('PHPFOX') or exit('NO DICE!');
 {/literal}
 <center>
 <div id="homecontact">
-<table width="100%" border="0"><tr><td align="center">	
-{foreach from=$top_5_email item = email}
-{if $email.logo !=''}
-	{if $email.name eq 'yahoo'}
-		<div class="logoContact">
-		   <a id="yahoo" href="#?call=contactimporter.callYahoo&amp;height=80&amp;width=270"  class=" inlinePopup usingapi"  title="{phrase var='contactimporter.yahoo_contacts'}">
-				<img alt="{$email.title}" title="{$email.title}" src="{$core_url}module/contactimporter/static/image/{$email.logo}_status_up.png" />
-		   </a>
-		</div>
-	{elseif $email.name eq 'hotmail'}
-		<div class="logoContact">
-			<a id="hotmail" href="#?call=contactimporter.callHotmail&amp;height=80&amp;width=270" class="inlinePopup usingapi" title="{phrase var='contactimporter.hotmail_authorization'}">
-				<img alt="{$email.title}" title="{$email.title}" src="{$core_url}module/contactimporter/static/image/{$email.logo}_status_up.png"/>
-			</a>
-		</div>
-	{elseif $email.name eq 'linkedin'}
-		<div class="logoContact">
-		   <a id="linkedinA" href="#?call=contactimporter.callLinkedIn&amp;height=80&amp;width=270" class="inlinePopup usingapi" title="{phrase var='contactimporter.linkedin_authorization'}">
-			 <img alt="{$email.title}" title="{$email.title}"  src="{$core_url}module/contactimporter/static/image/{$email.logo}_status_up.png" />
-			</a>
-		</div>
-	{elseif $email.name eq 'twitter'}
-	<div class="logoContact">
-		<a id="twitterA" href="#?call=contactimporter.callTwitter&amp;height=80&amp;width=270" class="inlinePopup usingapi" title="{phrase var='contactimporter.twitter_authorization'}">
-			<img alt="{$email.title}" title="Twitter"  src="{$core_url}module/contactimporter/static/image/{$email.logo}_status_up.png"/>
-		</a>
-	</div>
-	{elseif $email.name eq 'facebook_'}
-	<div class="logoContact">
-		<a class="usingapi" id="fbApi" href="{if isset($fbloginUrl)}javascript:popitup('{$fbloginUrl}','Facebook'){else}javascript:void(0);{/if}">
-			<img alt="Facebook" title="Facebook"  src="{$core_url}module/contactimporter/static/image/{$email.logo}_status_up.png"/>
-		</a>
-	</div>
-	{elseif $email.name eq 'youtube'}
-	<div class="logoContact">
-		<a class="usingapi" id="fbApi" href="javascript:popitup('http://openid.younetid.com/auth/youtube.php?callbackUrl={url link='contactimporter'}','youtube')">
-			<img alt="{$email.title}" title="{$email.title}" src="{$core_url}module/contactimporter/static/image/{$email.logo}_status_up.png"/>
-		</a>
-	</div>
-	{else}
-	<div class="logoContact">
-		<a title="{phrase var='contactimporter.import_your_contacts'}" href="#?call=contactimporter.callImporterForm&amp;height=150&amp;width=400&amp;provider_type={$email.type}&amp;default_domain={$email.default_domain}&amp;provider_box={$email.name}" class="inlinePopup">
-			<img alt="{$email.title}" title="{$email.title}"  src="{$core_url}module/contactimporter/static/image/{$email.logo}_status_up.png">
-		</a>
-	</div>
-	{/if}
-{/if}
-{/foreach}
-</td></tr></table>	
+	
 <div style="clear:both;width:100%;display:block"></div>
-<span style="display:block;text-align: right;padding-right: 20px;"><a alt="{phrase var='contactimporter.view_all_of_providers'}" title="{phrase var='contactimporter.view_all_of_providers'}" href="{$more_path}">{phrase var='contactimporter.view_more'} &raquo;</a></span>
+<span style="display:block;text-align: right;padding-right: 20px;"><a alt="{phrase var='contactimporter.view_all_of_providers'}" title="{phrase var='contactimporter.view_all_of_providers'}" href="{$more_path}">
+    <img src="static/image/invite-friends-banner.png" style="width='250px'; height='250px'; border-radius: 10px;" /></a></span>
 </div>			
 <div style="clear:both;width:100%;display:block"></div>
 </center>
