@@ -2582,7 +2582,7 @@ div.sub_section_menu ul li.active a {
     height: 150px !important;
 }
 
-.js_box_content .activity_feed_form, .js_box_content .activity_feed_form_button {
+.js_box_content .activity_feed_form, .js_box_content .activity_feed_form_button, .activity_feed_form_button {
     border: none;
 }
 

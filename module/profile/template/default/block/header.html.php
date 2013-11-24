@@ -195,7 +195,7 @@ defined('PHPFOX') or exit('NO DICE!');
 						{/foreach}
 					{/if}
 					{if Phpfox::getParam('user.enable_relationship_status') && isset($sRelationship) && $sRelationship != ''}&middot; {$sRelationship} {/if}
-					
+					{php}Phpfox::getBlock('userinfo.profileinfo', array('aUser' => $this->getVar('aUser')));{/php}
 					{if isset($aUser.category_name)}{$aUser.category_name|convert}{/if}
 				</div>
 

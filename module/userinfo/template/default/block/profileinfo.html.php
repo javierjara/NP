@@ -1,0 +1,11 @@
+{if $sEmployment}
+<br />{phrase var='userinfo.works_at' employer=$sEmployment}
+{/if}
+
+{if $aEducation}
+{if $aEducation.is_present == 1}
+{if $sEmployment}&middot; {else}<br />{/if}{phrase var='userinfo.studies_at' institution=$aEducation.institution}
+{else}
+{if $sEmployment}&middot; {else}<br />{/if}{phrase var='userinfo.studied_at' institution=$aEducation.institution}
+{/if}
+{/if}

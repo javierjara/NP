@@ -1,0 +1,211 @@
+<module>
+	<data>
+		<module_id>userinfo</module_id>
+		<product_id>rael_userinfo</product_id>
+		<is_core>0</is_core>
+		<is_active>1</is_active>
+		<is_menu>1</is_menu>
+		<menu><![CDATA[a:3:{s:30:"userinfo.admin_menu_statistics";a:1:{s:3:"url";a:1:{i:0;s:8:"userinfo";}}s:37:"userinfo.admin_menu_manage_employment";a:1:{s:3:"url";a:2:{i:0;s:8:"userinfo";i:1;s:10:"employment";}}s:36:"userinfo.admin_menu_manage_education";a:1:{s:3:"url";a:2:{i:0;s:8:"userinfo";i:1;s:9:"education";}}}]]></menu>
+		<phrase_var_name>module_userinfo</phrase_var_name>
+	</data>
+	<menus>
+		<menu module_id="userinfo" parent_var_name="menu_settings" m_connection="" var_name="menu_userinfo_edit_work_and_education_b392d011b7f15183caf21a8bc56fd1fe" ordering="113" url_value="userinfo.manage" version_id="3.0.0" disallow_access="" module="userinfo" />
+	</menus>
+	<setting_groups>
+		<name module_id="userinfo" version_id="3.0.0" var_name="setting_group_work_and_education">work_and_education</name>
+	</setting_groups>
+	<settings>
+		<setting group="work_and_education" module_id="userinfo" is_hidden="0" type="drop" var_name="emp_search_type" phrase_var_name="setting_emp_search_type" ordering="1" version_id="3.0.0"><![CDATA[a:2:{s:7:"default";s:5:"Loose";s:6:"values";a:2:{i:0;s:5:"Loose";i:1;s:6:"Strict";}}]]></setting>
+		<setting group="work_and_education" module_id="userinfo" is_hidden="0" type="drop" var_name="edu_search_type" phrase_var_name="setting_edu_search_type" ordering="2" version_id="3.0.0"><![CDATA[a:2:{s:7:"default";s:5:"Loose";s:6:"values";a:2:{i:0;s:5:"Loose";i:1;s:6:"Strict";}}]]></setting>
+		<setting group="work_and_education" module_id="userinfo" is_hidden="0" type="integer" var_name="entries_per_page" phrase_var_name="setting_entries_per_page" ordering="3" version_id="3.0.0">10</setting>
+		<setting group="work_and_education" module_id="userinfo" is_hidden="0" type="integer" var_name="feed_time" phrase_var_name="setting_feed_time" ordering="4" version_id="3.0.0">2</setting>
+		<setting group="work_and_education" module_id="userinfo" is_hidden="0" type="integer" var_name="profile_count" phrase_var_name="setting_profile_count" ordering="5" version_id="3.0.0">3</setting>
+		<setting group="work_and_education" module_id="userinfo" is_hidden="0" type="boolean" var_name="show_text_boxes" phrase_var_name="setting_show_text_boxes" ordering="6" version_id="3.0.0">0</setting>
+	</settings>
+	<blocks>
+		<block type_id="0" m_connection="userinfo.manage" module_id="userinfo" component="add" location="3" is_active="1" ordering="1" disallow_access="" can_move="0">
+			<title>Add Work and Education</title>
+			<source_code />
+			<source_parsed />
+		</block>
+		<block type_id="0" m_connection="profile.info" module_id="userinfo" component="profile" location="3" is_active="1" ordering="5" disallow_access="" can_move="0">
+			<title>Work and Education</title>
+			<source_code />
+			<source_parsed />
+		</block>
+		<block type_id="0" m_connection="userinfo.employment" module_id="userinfo" component="emsearch" location="3" is_active="1" ordering="1" disallow_access="" can_move="0">
+			<title>Employment Search</title>
+			<source_code />
+			<source_parsed />
+		</block>
+		<block type_id="0" m_connection="userinfo.education" module_id="userinfo" component="edsearch" location="3" is_active="1" ordering="1" disallow_access="" can_move="0">
+			<title>Education Search</title>
+			<source_code />
+			<source_parsed />
+		</block>
+	</blocks>
+	<plugins>
+		<plugin module_id="userinfo" product_id="rael_userinfo" call_name="init" title="Work and Education Field Sort"><![CDATA[function fieldsSort($a,$b) {
+			return $b['position'] < $a['position'];
+		}]]></plugin>
+	</plugins>
+	<components>
+		<component module_id="userinfo" component="employment" m_connection="userinfo.employment" module="userinfo" is_controller="1" is_block="0" is_active="1" />
+		<component module_id="userinfo" component="education" m_connection="userinfo.education" module="userinfo" is_controller="1" is_block="0" is_active="1" />
+		<component module_id="userinfo" component="manage" m_connection="userinfo.manage" module="userinfo" is_controller="1" is_block="0" is_active="1" />
+		<component module_id="userinfo" component="add" m_connection="" module="userinfo" is_controller="0" is_block="1" is_active="1" />
+		<component module_id="userinfo" component="profile" m_connection="" module="userinfo" is_controller="0" is_block="1" is_active="1" />
+		<component module_id="userinfo" component="search" m_connection="" module="userinfo" is_controller="0" is_block="1" is_active="1" />
+		<component module_id="userinfo" component="emedit" m_connection="" module="userinfo" is_controller="0" is_block="1" is_active="1" />
+		<component module_id="userinfo" component="ededit" m_connection="" module="userinfo" is_controller="0" is_block="1" is_active="1" />
+		<component module_id="userinfo" component="ementry" m_connection="" module="userinfo" is_controller="0" is_block="1" is_active="1" />
+		<component module_id="userinfo" component="edentry" m_connection="" module="userinfo" is_controller="0" is_block="1" is_active="1" />
+		<component module_id="userinfo" component="emsearch" m_connection="" module="userinfo" is_controller="0" is_block="1" is_active="1" />
+		<component module_id="userinfo" component="edsearch" m_connection="" module="userinfo" is_controller="0" is_block="1" is_active="1" />
+		<component module_id="userinfo" component="profileinfo" m_connection="" module="userinfo" is_controller="0" is_block="1" is_active="1" />
+		<component module_id="userinfo" component="view" m_connection="userinfo.view" module="userinfo" is_controller="1" is_block="0" is_active="1" />
+	</components>
+	<phrases>
+		<phrase module_id="userinfo" version_id="3.0.0" var_name="admin_menu_statistics" added="1324482737">Statistics</phrase>
+		<phrase module_id="userinfo" version_id="3.0.0" var_name="admin_menu_manage_employment" added="1324482737">Manage Employment</phrase>
+		<phrase module_id="userinfo" version_id="3.0.0" var_name="admin_menu_manage_education" added="1324482737">Manage Education</phrase>
+		<phrase module_id="userinfo" version_id="3.0.0" var_name="module_info" added="1324482737">Allows users to add their employment and education information to their profiles and this information is searchable across the site.</phrase>
+		<phrase module_id="userinfo" version_id="3.0.0" var_name="setting_emp_search_type" added="1324484338"><![CDATA[<title>Employment search type</title><info>Loose search will search for employments containing any of the multiple words the user enters. Strict search will search for the exact phrase.</info>]]></phrase>
+		<phrase module_id="userinfo" version_id="3.0.0" var_name="setting_edu_search_type" added="1324484376"><![CDATA[<title>Education search type</title><info>Loose search will search for educations containing any of the multiple words the user enters. Strict search will search for the exact phrase.</info>]]></phrase>
+		<phrase module_id="userinfo" version_id="3.0.0" var_name="setting_entries_per_page" added="1324484515"><![CDATA[<title>Entries per page</title><info>Choose how many employment/education entries to show per page on the main product search page.</info>]]></phrase>
+		<phrase module_id="userinfo" version_id="3.0.0rc3" var_name="total_users" added="1324507294">Users with employment details</phrase>
+		<phrase module_id="userinfo" version_id="3.0.0rc3" var_name="total_employments" added="1324507294">Total number of Employment entries</phrase>
+		<phrase module_id="userinfo" version_id="3.0.0rc3" var_name="provide_name" added="1324507294">Please provide a name for your field</phrase>
+		<phrase module_id="userinfo" version_id="3.0.0rc3" var_name="add_field" added="1324507294">Add Field</phrase>
+		<phrase module_id="userinfo" version_id="3.0.0rc3" var_name="field" added="1324507294">Field</phrase>
+		<phrase module_id="userinfo" version_id="3.0.0rc3" var_name="info" added="1324507294">Info</phrase>
+		<phrase module_id="userinfo" version_id="3.0.0rc3" var_name="actions" added="1324507294">Actions</phrase>
+		<phrase module_id="userinfo" version_id="3.0.0rc3" var_name="up" added="1324507294">Up</phrase>
+		<phrase module_id="userinfo" version_id="3.0.0rc3" var_name="down" added="1324507294">Down</phrase>
+		<phrase module_id="userinfo" version_id="3.0.0rc3" var_name="delete_selected" added="1324507294">Delete selected</phrase>
+		<phrase module_id="userinfo" version_id="3.0.0rc3" var_name="fields_successfully_deleted" added="1324507294">Field(s) successfully deleted</phrase>
+		<phrase module_id="userinfo" version_id="3.0.0rc3" var_name="field_successfully_added" added="1324507294">Field successfully added</phrase>
+		<phrase module_id="userinfo" version_id="3.0.0rc3" var_name="fields_successfully_reordered" added="1324507294">Fields successfully reordered</phrase>
+		<phrase module_id="userinfo" version_id="3.0.0rc3" var_name="text_field" added="1324507294">Text Field</phrase>
+		<phrase module_id="userinfo" version_id="3.0.0rc3" var_name="text_box" added="1324507294">Text Box</phrase>
+		<phrase module_id="userinfo" version_id="3.0.0rc3" var_name="date" added="1324507294">Date</phrase>
+		<phrase module_id="userinfo" version_id="3.0.0rc3" var_name="required" added="1324507294">Required</phrase>
+		<phrase module_id="userinfo" version_id="3.0.0rc3" var_name="language_phrase" added="1324507294">Phrase</phrase>
+		<phrase module_id="userinfo" version_id="3.0.0rc3" var_name="field_employer" added="1324507294">Employer</phrase>
+		<phrase module_id="userinfo" version_id="3.0.0rc3" var_name="field_date" added="1324507294">Date</phrase>
+		<phrase module_id="userinfo" version_id="3.0.0rc3" var_name="field_description" added="1324507294">Description</phrase>
+		<phrase module_id="userinfo" version_id="3.0.0rc3" var_name="provide_field" added="1324507294">Please enter the required field: {field}</phrase>
+		<phrase module_id="userinfo" version_id="3.0.0rc3" var_name="still_here" added="1324507294">I still work here</phrase>
+		<phrase module_id="userinfo" version_id="3.0.0rc3" var_name="year" added="1324507294">Year</phrase>
+		<phrase module_id="userinfo" version_id="3.0.0rc3" var_name="month" added="1324507294">Month</phrase>
+		<phrase module_id="userinfo" version_id="3.0.0rc3" var_name="jan" added="1324507294">Jan</phrase>
+		<phrase module_id="userinfo" version_id="3.0.0rc3" var_name="feb" added="1324507294">Feb</phrase>
+		<phrase module_id="userinfo" version_id="3.0.0rc3" var_name="mar" added="1324507294">Mar</phrase>
+		<phrase module_id="userinfo" version_id="3.0.0rc3" var_name="apr" added="1324507294">Apr</phrase>
+		<phrase module_id="userinfo" version_id="3.0.0rc3" var_name="may" added="1324507294">May</phrase>
+		<phrase module_id="userinfo" version_id="3.0.0rc3" var_name="jun" added="1324507294">Jun</phrase>
+		<phrase module_id="userinfo" version_id="3.0.0rc3" var_name="jul" added="1324507294">Jul</phrase>
+		<phrase module_id="userinfo" version_id="3.0.0rc3" var_name="aug" added="1324507294">Aug</phrase>
+		<phrase module_id="userinfo" version_id="3.0.0rc3" var_name="sep" added="1324507294">Sep</phrase>
+		<phrase module_id="userinfo" version_id="3.0.0rc3" var_name="oct" added="1324507294">Oct</phrase>
+		<phrase module_id="userinfo" version_id="3.0.0rc3" var_name="nov" added="1324507294">Nov</phrase>
+		<phrase module_id="userinfo" version_id="3.0.0rc3" var_name="dec" added="1324507294">Dec</phrase>
+		<phrase module_id="userinfo" version_id="3.0.0rc3" var_name="field_position" added="1324507294">Position</phrase>
+		<phrase module_id="userinfo" version_id="3.0.0rc3" var_name="add_employment" added="1324507294">Add Employment</phrase>
+		<phrase module_id="userinfo" version_id="3.0.0rc3" var_name="error_from" added="1324507294"><![CDATA[Please enter a valid 'from' month and year]]></phrase>
+		<phrase module_id="userinfo" version_id="3.0.0rc3" var_name="employment_added" added="1324507294"><![CDATA[Employment added successfully. <a href="{link}">View My Employments</a>]]></phrase>
+		<phrase module_id="userinfo" version_id="3.0.0rc3" var_name="error_from_to" added="1324507294"><![CDATA[Please enter a valid 'from' and 'to' month and years]]></phrase>
+		<phrase module_id="userinfo" version_id="3.0.0rc3" var_name="date_not_before" added="1324507294"><![CDATA[Your 'from' date cannot be before the 'to' date.]]></phrase>
+		<phrase module_id="userinfo" version_id="3.0.0rc3" var_name="field_test_field" added="1324507294">Test Field</phrase>
+		<phrase module_id="userinfo" version_id="3.0.0rc3" var_name="full_name_s_emps" added="1324507294"><![CDATA[{full_name}'s Employment]]></phrase>
+		<phrase module_id="userinfo" version_id="3.0.0rc3" var_name="full_name_s_emps_on_site_title" added="1324507294"><![CDATA[{full_name}'s employment on {site_title}.]]></phrase>
+		<phrase module_id="userinfo" version_id="3.0.0rc3" var_name="my_employment" added="1324507294">My Employment</phrase>
+		<phrase module_id="userinfo" version_id="3.0.0rc3" var_name="edit" added="1324507294">Edit</phrase>
+		<phrase module_id="userinfo" version_id="3.0.0rc3" var_name="delete" added="1324507294">Delete</phrase>
+		<phrase module_id="userinfo" version_id="3.0.0rc3" var_name="to" added="1324507294">to</phrase>
+		<phrase module_id="userinfo" version_id="3.0.0rc3" var_name="present" added="1324507294">present</phrase>
+		<phrase module_id="userinfo" version_id="3.0.0rc3" var_name="employment_edited" added="1324507294"><![CDATA[Employment successfully edited. <a href="{link}">View My Employments</a>]]></phrase>
+		<phrase module_id="userinfo" version_id="3.0.0rc3" var_name="employment_deleted" added="1324507294">Employment deleted</phrase>
+		<phrase module_id="userinfo" version_id="3.0.0rc3" var_name="are_you_sure" added="1324507294">Are you sure?</phrase>
+		<phrase module_id="userinfo" version_id="3.0.0rc3" var_name="no_employments" added="1324507294">No employment details to display</phrase>
+		<phrase module_id="userinfo" version_id="3.0.0rc3" var_name="currently_work_here" added="1324507294">currently working</phrase>
+		<phrase module_id="userinfo" version_id="3.0.0rc3" var_name="search_employment" added="1324507294">Search Employment</phrase>
+		<phrase module_id="userinfo" version_id="3.0.0rc3" var_name="search_filter" added="1324507294">Search Filter</phrase>
+		<phrase module_id="userinfo" version_id="3.0.0rc3" var_name="browse_employment" added="1324507294">Browse Employment</phrase>
+		<phrase module_id="userinfo" version_id="3.0.0rc3" var_name="edit_employment" added="1324507294" />
+		<phrase module_id="userinfo" version_id="3.0.0rc3" var_name="save_changes" added="1324507294">Save Changes</phrase>
+		<phrase module_id="userinfo" version_id="3.0.0rc3" var_name="please_upgrade" added="1324507294"><![CDATA[You do not have permission to add employments on the site. Please consider <a href="{link}">upgrading</a> your account.]]></phrase>
+		<phrase module_id="userinfo" version_id="3.0.0rc3" var_name="browse_employments" added="1324507294">Browse Employments</phrase>
+		<phrase module_id="userinfo" version_id="3.0.0rc3" var_name="added_an_employment" added="1324507294"><![CDATA[<a href="{user_link}">{add_full_name}</a> added an employer to their <a href="{profile_link}">profile information</a>]]></phrase>
+		<phrase module_id="userinfo" version_id="3.0.0rc3" var_name="field_too_long" added="1324507294">Your field name is too long. It must be 128 characters or less.</phrase>
+		<phrase module_id="userinfo" version_id="3.0.0rc3" var_name="fields_modified" added="1324507294">Fields have been updated.</phrase>
+		<phrase module_id="userinfo" version_id="3.0.0rc3" var_name="user_field_too_long" added="1324507294">The {field} field must be 128 characters or less.</phrase>
+		<phrase module_id="userinfo" version_id="3.0.0rc3" var_name="yes" added="1324507294">Yes</phrase>
+		<phrase module_id="userinfo" version_id="3.0.0rc3" var_name="required_field" added="1324507294">Required Field</phrase>
+		<phrase module_id="userinfo" version_id="3.0.0rc3" var_name="create_tags" added="1324507294"><![CDATA[Use commas to create 'tags' (text fields only, not boxes)]]></phrase>
+		<phrase module_id="userinfo" version_id="3.0.0rc3" var_name="field_one_two" added="1324507294">One Two</phrase>
+		<phrase module_id="userinfo" version_id="3.0.0" var_name="work_and_education" added="1324507477">Work and Education</phrase>
+		<phrase module_id="userinfo" version_id="3.0.0" var_name="statistics" added="1324507490">Statistics</phrase>
+		<phrase module_id="userinfo" version_id="3.0.0" var_name="manage_employment_fields" added="1324507521">Employment Fields</phrase>
+		<phrase module_id="userinfo" version_id="3.0.0" var_name="menu_info_edit_work_and_education_b392d011b7f15183caf21a8bc56fd1fe" added="1324508689">Edit Work and Education</phrase>
+		<phrase module_id="userinfo" version_id="3.0.0" var_name="employment" added="1324556696">Employment</phrase>
+		<phrase module_id="userinfo" version_id="3.0.0" var_name="module_userinfo" added="1324558316">Allows users to add their employment and education information to their profiles and this information is searchable across the site</phrase>
+		<phrase module_id="userinfo" version_id="3.0.0" var_name="menu_userinfo_edit_work_and_education_b392d011b7f15183caf21a8bc56fd1fe" added="1324558725">Edit Work and Education</phrase>
+		<phrase module_id="userinfo" version_id="3.0.0" var_name="manage_education_fields" added="1324568477">Education Fields</phrase>
+		<phrase module_id="userinfo" version_id="2.0.2" var_name="browse_education" added="1324569335">Browse Education</phrase>
+		<phrase module_id="userinfo" version_id="2.0.2" var_name="edit_education" added="1324569335">Edit Education</phrase>
+		<phrase module_id="userinfo" version_id="2.0.2" var_name="search_education" added="1324569335">Search Education</phrase>
+		<phrase module_id="userinfo" version_id="2.0.2" var_name="no_educations" added="1324569335">No education details to display</phrase>
+		<phrase module_id="userinfo" version_id="2.0.2" var_name="currently_attend_here" added="1324569335">currently attend here</phrase>
+		<phrase module_id="userinfo" version_id="2.0.2" var_name="still_here_edu" added="1324569335">I still attend</phrase>
+		<phrase module_id="userinfo" version_id="2.0.2" var_name="time_period_edu" added="1324569335">Class Year</phrase>
+		<phrase module_id="userinfo" version_id="2.0.2" var_name="field_attended_for" added="1324569335">Attended For</phrase>
+		<phrase module_id="userinfo" version_id="2.0.2" var_name="add_education" added="1324569335">Add Education</phrase>
+		<phrase module_id="userinfo" version_id="2.0.2" var_name="error_from_edu" added="1324569335">Please enter a valid Class Year</phrase>
+		<phrase module_id="userinfo" version_id="2.0.2" var_name="full_name_s_edus" added="1324569335"><![CDATA[{full_name}'s Education]]></phrase>
+		<phrase module_id="userinfo" version_id="2.0.2" var_name="full_name_s_edus_on_site_title" added="1324569335"><![CDATA[{full_name}'s education on {site_title}.]]></phrase>
+		<phrase module_id="userinfo" version_id="2.0.2" var_name="total_users_edu" added="1324569335">Users with education details</phrase>
+		<phrase module_id="userinfo" version_id="2.0.2" var_name="total_educations" added="1324569335">Total number of Education entries</phrase>
+		<phrase module_id="userinfo" version_id="2.0.2" var_name="field_subject" added="1324569335">Subject</phrase>
+		<phrase module_id="userinfo" version_id="2.0.2" var_name="field_major" added="1324569335">Major</phrase>
+		<phrase module_id="userinfo" version_id="2.0.2" var_name="field_minor" added="1324569335">Minor</phrase>
+		<phrase module_id="userinfo" version_id="2.0.2" var_name="userinfo" added="1324569335">userinfo</phrase>
+		<phrase module_id="userinfo" version_id="2.0.2" var_name="field_institution" added="1324569335">Institution</phrase>
+		<phrase module_id="userinfo" version_id="2.0.2" var_name="drop_down" added="1324569335">Drop Down</phrase>
+		<phrase module_id="userinfo" version_id="2.0.2" var_name="type" added="1324569335">Type</phrase>
+		<phrase module_id="userinfo" version_id="2.0.2" var_name="elementary_school" added="1324569335">Elementary School</phrase>
+		<phrase module_id="userinfo" version_id="2.0.2" var_name="high_school" added="1324569335">High School</phrase>
+		<phrase module_id="userinfo" version_id="2.0.2" var_name="college" added="1324569335">College</phrase>
+		<phrase module_id="userinfo" version_id="2.0.2" var_name="graduate_school" added="1324569335">Graduate School</phrase>
+		<phrase module_id="userinfo" version_id="2.0.2" var_name="professional_school" added="1324569335">Professional School</phrase>
+		<phrase module_id="userinfo" version_id="2.0.2" var_name="error_attended_for" added="1324569335">Please select the type of institution you attended.</phrase>
+		<phrase module_id="userinfo" version_id="2.0.2" var_name="still_attending" added="1324569335">Still attending</phrase>
+		<phrase module_id="userinfo" version_id="3.0.0" var_name="field_class_year" added="1324576313">Class Year</phrase>
+		<phrase module_id="userinfo" version_id="3.0.0" var_name="class_of" added="1324591183">Class of</phrase>
+		<phrase module_id="userinfo" version_id="3.0.0" var_name="education" added="1324596630">Education</phrase>
+		<phrase module_id="userinfo" version_id="3.0.0" var_name="admin_tip" added="1324597158">Text Fields are shown directly under the title of user entries and have a 128 character limit. Use text boxes for longer descriptions.</phrase>
+		<phrase module_id="userinfo" version_id="3.0.0" var_name="field_more" added="1324597799">More</phrase>
+		<phrase module_id="userinfo" version_id="3.0.0" var_name="searchable" added="1324647048">Searchable</phrase>
+		<phrase module_id="userinfo" version_id="3.0.0" var_name="admin_tip2" added="1324648227"><![CDATA['Searchable' Text Fields will form clickable 'tags' and will also show up on the Search Filter.]]></phrase>
+		<phrase module_id="userinfo" version_id="3.0.0" var_name="added_education_entry" added="1324652527">added education details to {gender} profile information</phrase>
+		<phrase module_id="userinfo" version_id="3.0.0" var_name="added_employer_entry" added="1324652550">added employment details to {gender} profile information</phrase>
+		<phrase module_id="userinfo" version_id="3.0.0" var_name="updated_education_entry" added="1324652780">updated {gender} education profile information</phrase>
+		<phrase module_id="userinfo" version_id="3.0.0" var_name="updated_employer_entry" added="1324652928">updated {gender} employment profile information</phrase>
+		<phrase module_id="userinfo" version_id="3.0.0" var_name="setting_feed_time" added="1324653587"><![CDATA[<title>Feed Delay Time</title><info>Set the number of hours to stop duplicate activity feed items when users add or update their education/employment details.</info>]]></phrase>
+		<phrase module_id="userinfo" version_id="3.0.0" var_name="employers" added="1324674006">Employers</phrase>
+		<phrase module_id="userinfo" version_id="3.0.0" var_name="add_details" added="1325011400">Add Details</phrase>
+		<phrase module_id="userinfo" version_id="3.0.0" var_name="user_setting_allow_add" added="1325081052">Allow user-group to add Work and Education details to their profile</phrase>
+		<phrase module_id="userinfo" version_id="3.0.0" var_name="consider_upgrading" added="1325081776"><![CDATA[You do not have permission to add Work and Education details to your profile.<br /><br /> Please consider <a href="{link}">upgrading</a>.]]></phrase>
+		<phrase module_id="userinfo" version_id="3.0.0" var_name="setting_profile_count" added="1325082497"><![CDATA[<title>Entries to display on profile block</title><info>Set the max number of profile entries to show for Work and Education. This value is for each of work and education, so 3 will be 2 x 3 = 6.</info>]]></phrase>
+		<phrase module_id="userinfo" version_id="3.0.0" var_name="view_more" added="1325082658">View full details</phrase>
+		<phrase module_id="userinfo" version_id="3.0.0" var_name="works_at" added="1325089439">Works at {employer}</phrase>
+		<phrase module_id="userinfo" version_id="3.0.0" var_name="studied_at" added="1325089681">Studied at {institution}</phrase>
+		<phrase module_id="userinfo" version_id="3.0.0" var_name="studies_at" added="1325089695">Studies at {institution}</phrase>
+		<phrase module_id="userinfo" version_id="3.0.0" var_name="error_class_year" added="1325098271">Please enter a valid class year</phrase>
+		<phrase module_id="userinfo" version_id="3.0.0" var_name="work_and_education_user" added="1325170507"><![CDATA[{uname}'s Work and Education]]></phrase>
+		<phrase module_id="userinfo" version_id="3.0.0" var_name="setting_show_text_boxes" added="1325172974"><![CDATA[<title>Show Text Boxes on profile block</title><info>When set to true text box fields (with potentially unlimited length) will be shown on the profile block. When set to false text boxes will only be shown when viewed on users Work and Education detailed page or Employment/Education browse.</info>]]></phrase>
+	</phrases>
+	<user_group_settings>
+		<setting is_admin_setting="0" module_id="userinfo" type="boolean" admin="1" user="1" guest="0" staff="1" module="userinfo" ordering="0">allow_add</setting>
+	</user_group_settings>
+</module>
