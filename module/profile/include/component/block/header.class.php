@@ -26,6 +26,25 @@ class Profile_Component_Block_Header extends Phpfox_Component
 		    return false;
 		}
 		$aUser = $this->getParam('aUser');
+                
+                		if (!defined('PAGE_TIME_LINE') && !defined('PHPFOX_IS_PAGES_VIEW'))
+		{
+			if (Phpfox::getParam('user.enable_relationship_status'))
+            {
+                $aUser['bRelationshipHeader'] = true;
+		$sRelationship = Phpfox::getService('custom')->getRelationshipPhrase($aUser);
+		$this->template()->assign(array(
+                    'sRelationship' => $sRelationship
+                ));
+            }
+            
+			$bCanSendPoke = Phpfox::isModule('poke') && Phpfox::getService('poke')->canSendPoke($aUser['user_id']);
+			$this->template()->assign(array(
+				'bCanPoke' => $bCanSendPoke				
+				)
+			);
+		}
+                
 		if ($aUser === null)
 		{
 			$aUser = $this->getParam('aPage');
@@ -47,22 +66,7 @@ class Profile_Component_Block_Header extends Phpfox_Component
 		{
 		    return false;
 		}
-		if (!defined('PAGE_TIME_LINE') && !defined('PHPFOX_IS_PAGES_VIEW'))
-		{
-			if (Phpfox::getParam('user.enable_relationship_status'))
-            {
-                $sRelationship = Phpfox::getService('custom')->getRelationshipPhrase($aUser);
-                $this->template()->assign(array(
-                    'sRelationship' => $sRelationship
-                ));
-            }
-            
-			$bCanSendPoke = Phpfox::isModule('poke') && Phpfox::getService('poke')->canSendPoke($aUser['user_id']);
-			$this->template()->assign(array(
-				'bCanPoke' => $bCanSendPoke				
-				)
-			);
-		}
+
 		else if ((isset($aUser['use_timeline']) && $aUser['use_timeline']) || defined('PHPFOX_IS_PAGES_VIEW'))
 		{
 		    $sModule = ($this->request()->get('req1') == 'pages' ? $this->request()->get('req3') : $this->request()->get('req2'));
