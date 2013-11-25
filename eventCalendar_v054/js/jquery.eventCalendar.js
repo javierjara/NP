@@ -448,6 +448,8 @@
                 type = "",
                 description = "",
                 url = "",
+                share = "",
+                npType = "",
                 reset = "",
                 submit = "",
                 date = "";
@@ -459,13 +461,15 @@
             date = "<input type='hidden' name='date' />";
             type = "<label for='type'>Type</label><input type='text' name='type' placeholder='Party'/>";
             url = "<label for='url'>Url</label><input type='text' name='url' placeholder='www.bestpartyever.com'/>";
+            share = "<label for='time' style='display: inline;'>Share with the community</label><input type='checkbox' name='share' value='share' style='width: auto;margin-left: 15px;display: inline-block;'>";
+            npType = "<span style='font-size: 13px;'>Ex Life</span>  <input type='radio' name='npType' value='ex' style='width: auto;display: inline;margin-right: 20px;'><span style='font-size: 13px;'>Next Life</span>  <input checked='checked' type='radio' name='npType' value='next' style='width: auto;display: inline;'><br>";
             reset = "<input type='reset' id='resetForm' style='display:none;' />";
             submit = "<input type='submit' name='submitForm' class='general-button button-next' value='Add it now!' />";
             
             
             
-            form+=date+title+description+time+type+url+reset+submit;
-            form+="</form>"
+            form+=date+title+description+time+type+url+npType+share+reset+submit;
+            form+="</form>";
             
             $("div.addNextWrapper").append(form);
         }
@@ -542,14 +546,22 @@ function nextEventFormSubmit(el) {
         day,
         postData,
         date = new Date(),
-        dateDom;
+        dateDom,
+        share,
+        type,
+        url,
+        npType;
     
     nextEventHideError();
     
     title = $(el).find('input[name="title"]');
     description = $(el).find('textarea[name="description"]');
     time = $(el).find('input[name="time"]');
+    share = $(el).find('input[name="share"]');
     dateDom = $(el).find('input[name="date"]');
+    type = $(el).find('input[name="type"]');
+    url = $(el).find('input[name="url"]');
+    npType = $(el).find('input[name="npType"]:checked').val();
     
     if(title.val()==="") {
         nextEventShowError("Add a title!");
@@ -581,6 +593,14 @@ function nextEventFormSubmit(el) {
     
     postData = $(el).serializeArray();
     
+    if(share.is(':checked')) {
+        var calendarFeedText = "<b>" + title.val() + "</b><br>" + description.val();
+            calendarFeedText += (type.val()!=="") ? "<br>" + type.val() : "";
+            calendarFeedText += (url.val()!=="") ? "<br>" + url.val() : "";
+            calendarFeedText += "<br><br><i>" + day + "/" + (month+1) + "/" + year + " " + time.val() + "</i>";
+        $('<form><div class="global_attachment_holder_section" id="global_attachment_status" style="display:block;"><div id="global_attachment_status_value" style="display:none;"></div><textarea cols="60" rows="8" name="val[user_status]" onkeydown="pufDoResize(this);" onfocus="pufTextareaFocus(this); return false;">'+ calendarFeedText +'</textarea><div id="js_location_feedback"></div></div><input type="hidden" id="np_post_type" name="val[np_post_type]" value="'+npType+'"></form>').ajaxCall("user.updateStatus");
+    }
+    
     $.ajax(
     {
         url : "eventCalendar_v054/json/api.php",
@@ -588,9 +608,7 @@ function nextEventFormSubmit(el) {
         data : postData,
         success:function(data, textStatus, jqXHR) 
         {
-            console.log(data);    
             hideForm();
-            refreshCalendarEvent();
         },
         error: function(jqXHR, textStatus, errorThrown) 
         {
