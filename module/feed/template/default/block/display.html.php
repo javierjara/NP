@@ -107,13 +107,13 @@ defined('PHPFOX') or exit('NO DICE!');
                             </div>
                             
                             <div class="my-book-button-wrapper">
-                                <a class="my-book-button ex-filter" href="#">
+                                <a class="my-book-button ex-filter" href="#" title="{phrase var='feed.filter_next_tooltip'}">
                                     <img src="static/image/my-book-left-button.png" />
                                 </a>
                             </div>
 
                             <div class="my-book-button-wrapper">
-                                <a class="my-book-button next-filter" href="#">
+                                <a class="my-book-button next-filter" href="#" title="{phrase var='feed.filter_ex_tooltip'}">
                                     <img src="static/image/my-book-right-button.png" />
                                 </a>
                             </div>

@@ -492,6 +492,41 @@ $Behavior.activityFeedProcess = function(){
                     filterTimerId = setTimeout(function() {$('.my-book-button.next-filter').trigger('click');}, 300);
                     return false;
                 });
+                
+                $( ".my-book-button.ex-filter" ).tooltip({
+                    hide:false,
+                    tooltipClass: 'tooltip-ex',
+                    position: {
+                    my: "center top+2",
+                    at: "center bottom",
+                    using: function( position, feedback ) {
+                      $( this ).css( position );
+                      $( "<div>" )
+                        .addClass( "arrow-submit-ex" )
+                        .addClass( feedback.vertical )
+                        .addClass( feedback.horizontal )
+                        .appendTo( this );
+                        }
+                      }
+                  });
+                
+                $( ".my-book-button.next-filter" ).tooltip({
+                    hide:false,
+                    tooltipClass: 'tooltip-next',
+                    position: {
+                    my: "center top+2",
+                    at: "center bottom",
+                    using: function( position, feedback ) {
+                      $( this ).css( position );
+                      $( "<div>" )
+                        .addClass( "arrow-submit-next" )
+                        .addClass( feedback.vertical )
+                        .addClass( feedback.horizontal )
+                        .appendTo( this );
+                        }
+                      }
+                  });
+                
 	}
 
 $Behavior.activityFeedLoader = function()
