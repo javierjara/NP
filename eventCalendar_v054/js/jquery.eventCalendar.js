@@ -594,7 +594,8 @@ function nextEventFormSubmit(el) {
     postData = $(el).serializeArray();
     
     if(share.is(':checked')) {
-        var calendarFeedText = "<b>" + title.val() + "</b><br>" + description.val();
+        var calendarFeedText = '<div title="calendar-icon-feed"> </div><br>';
+            calendarFeedText += "<b>" + title.val() + "</b><br>" + description.val();
             calendarFeedText += (type.val()!=="") ? "<br>" + type.val() : "";
             calendarFeedText += (url.val()!=="") ? "<br>" + url.val() : "";
             calendarFeedText += "<br><br><i>" + day + "/" + (month+1) + "/" + year + " " + time.val() + "</i>";

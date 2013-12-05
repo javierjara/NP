@@ -31,6 +31,7 @@ class Feed_Component_Block_Display extends Phpfox_Component
 		}
 		
 		$iUserId = $this->getParam('user_id');
+                $aAboutMe = Phpfox::getService('custom')->getUserCustomValue($iUserId, "cf_about_me");
 		$aPage = $this->getParam('aPage');
         // d($aPage);
         if (isset($aPage['landing_page']) && $aPage['landing_page'] == 'info' && 
@@ -272,7 +273,11 @@ class Feed_Component_Block_Display extends Phpfox_Component
 				'sIsHashTagSearchValue' => urldecode(strip_tags((($this->request()->get('hashtagsearch') ? $this->request()->get('hashtagsearch') : ($this->request()->get('req1') == 'hashtag' ? $this->request()->get('req2') : ''))))),
 				'bIsHashTagPop' => $bIsHashTagPop
 			)
-		);	
+		);
+                
+                $this->template()->assign(array(
+                    'aAboutMe' => $aAboutMe
+                ));
 		
 		if (Phpfox::getParam('video.convert_servers_enable') && !PHPFOX_IS_AJAX)
 		{

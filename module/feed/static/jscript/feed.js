@@ -10,6 +10,7 @@ var $iReloadIteration = 0;
 var $oLastFormSubmit = null;
 var bCheckUrlCheck = false;
 var bCheckUrlForceAdd = false;
+var filterTimerId = -1;
 
 $Core.isInView = function(elem)
 {
@@ -477,6 +478,20 @@ $Behavior.activityFeedProcess = function(){
                         }
                       }
                   });
+                  
+                $('.my-book-button.ex-filter').click(function() {
+                    clearTimeout(filterTimerId);
+                    $('.js_feed_view_more_entry_holder').show().filter('.post_type_next, .post_type_').hide();
+                    filterTimerId = setTimeout(function() {$('.my-book-button.ex-filter').trigger('click');}, 300);
+                    return false;
+                });
+
+                $('.my-book-button.next-filter').click(function() {
+                    clearTimeout(filterTimerId);
+                    $('.js_feed_view_more_entry_holder').show().filter('.post_type_ex').hide();
+                    filterTimerId = setTimeout(function() {$('.my-book-button.next-filter').trigger('click');}, 300);
+                    return false;
+                });
 	}
 
 $Behavior.activityFeedLoader = function()
@@ -613,7 +628,6 @@ $Behavior.activityFeedLoader = function()
 		$('.feed_comment_delete_link').hide();
 		
 	});
-	
 	
 }
 

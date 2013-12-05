@@ -39,6 +39,7 @@ class Profile_Component_Block_Info extends Phpfox_Component
 		}
 		$aUser['bRelationshipHeader'] = true;
 		$sRelationship = Phpfox::getService('custom')->getRelationshipPhrase($aUser);
+                $aCustomFields = Phpfox::getService('custom')->getForPublic('user_profile');
 		$aUserDetails = array();
 		if (!empty($aUser['gender']))
 		{

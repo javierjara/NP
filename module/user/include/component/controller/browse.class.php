@@ -515,9 +515,7 @@ class User_Component_Controller_Browse extends Phpfox_Component
 			$aBanned = Phpfox::getService('ban')->isUserBanned($aUser);
 			$aUsers[$iKey]['is_banned'] = $aBanned['is_banned'];
 		}
-		$aCustomFields = Phpfox::getService('custom')->getForPublic('user_profile');
-
-
+		
 		$this->template()
 		    ->setHeader('cache', array(
 		    		'pager.css' => 'style_css',

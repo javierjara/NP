@@ -2681,3 +2681,100 @@ body {
 .js_box_image_holder_full {
     display: block !important;
 }
+
+/* My book */
+
+#feed {
+    clear: both;
+}
+
+#my-book-wrapper {
+    max-width: 650px;
+    position: relative;
+    margin: 0 auto 20px;
+    clear: both;
+    height: auto;
+    overflow: hidden;
+        
+}
+
+#my-book-left {
+    display: block;
+    max-width: 325px;
+    float: left;
+    width: 50%;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+#my-book-right {
+    display: block;
+    max-width: 325px;
+    float: left;
+    width: 50%;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+#my-book-basic {
+    position: absolute;
+    left: 0;
+    height: 75%;
+    overflow: hidden;
+    width: 50%;
+}
+
+#my-book-about {
+    position: absolute;
+    right: 0;
+    height: 75%;
+    overflow: hidden;
+    width: 50%;
+}
+
+img {
+    max-width: 100%;
+}
+
+#my-book-wrapper div.my-book-block {
+    width: 100%;
+    padding-bottom: 30px;
+    padding-top: 50px;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+    height: 100%;
+}
+
+#my-book-wrapper #my-book-left div.my-book-block {
+    padding-left: 60px;
+    padding-right: 20px;
+}
+
+#my-book-wrapper #my-book-right div.my-book-block {
+    padding-left: 20px;
+    padding-right: 60px;
+}
+
+.my-book-button-wrapper {
+    display: block;
+    float: left;
+    margin-top: -5px;
+    width: 50%;
+    
+}
+
+.js_feed_view_more_entry_holder {
+    -webkit-transition: all 0.50s ease;
+    -moz-transition: all 0.50s ease;
+    -o-transition: all 0.50s ease;	
+}
+
+div[title="calendar-icon-feed"] {
+    display: block; 
+    width: 32px; 
+    height: 32px;
+    background:url('../image/calendar-icon.png');
+}

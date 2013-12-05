@@ -178,7 +178,7 @@ defined('PHPFOX') or exit('NO DICE!');
                     {foreach from=$aBreadCrumbs key=sLink item=sCrumb name=link}{if $phpfox.iteration.link == 1}<span class="profile_breadcrumb">&#187;</span><a href="{$sLink}">{$sCrumb}</a>{/if}{/foreach}
 				</h1>
 				
-				
+				<?php /*
 				<div class="profile_info">
 					{if Phpfox::getService('user.privacy')->hasAccess('' . $aUser.user_id . '', 'profile.view_location') && (!empty($aUser.city_location) || !empty($aUser.country_child_id) || !empty($aUser.location))}
 						{phrase var='profile.lives_in'} {if !empty($aUser.city_location)}{$aUser.city_location}{/if}
@@ -198,6 +198,8 @@ defined('PHPFOX') or exit('NO DICE!');
 					{php}Phpfox::getBlock('userinfo.profileinfo', array('aUser' => $this->getVar('aUser')));{/php}
 					{if isset($aUser.category_name)}{$aUser.category_name|convert}{/if}
 				</div>
+                                 
+                                 */ ?>
 
 			</div>
 		</div>

@@ -48,22 +48,79 @@ defined('PHPFOX') or exit('NO DICE!');
                     */
                 ?>
                 
-                <div class="activity_feed_form_button" style="display:block;">
-                    <div class="activity_feed_form_button_position">
-                         
-                         <div class="activity_feed_form_button_position_button submit_button_form_ex">
-<!--                             <span class="ex_button_arrow"></span>-->
-                             <a id="activity_feed_popup_ex" href="#" class="button" onclick="tb_show('Ex life', $.ajaxBox('feed.popup', 'height=300&width=550')); return false;" title="{phrase var='feed.submit_ex_tooltip'}"></a>
-                         </div>					
+                    {if !defined('PHPFOX_IS_USER_PROFILE') }
 
-                         <div class="activity_feed_form_button_position_button submit_button_form_next">
-                             <a id="activity_feed_popup_next" href="#" class="button" onclick="tb_show('Next life', $.ajaxBox('feed.popup', 'height=300&width=550')); return false;" title="{phrase var='feed.submit_next_tooltip'}"></a>
-<!--                             <span class="next_button_arrow"></span>-->
+                    <div class="activity_feed_form_button" style="display:block;">
+                        <div class="activity_feed_form_button_position">
+
+                             <div class="activity_feed_form_button_position_button submit_button_form_ex">
+    <!--                             <span class="ex_button_arrow"></span>-->
+                                 <a id="activity_feed_popup_ex" href="#" class="button" onclick="tb_show('Ex life', $.ajaxBox('feed.popup', 'height=300&width=550')); return false;" title="{phrase var='feed.submit_ex_tooltip'}"></a>
+                             </div>					
+
+                             <div class="activity_feed_form_button_position_button submit_button_form_next">
+                                 <a id="activity_feed_popup_next" href="#" class="button" onclick="tb_show('Next life', $.ajaxBox('feed.popup', 'height=300&width=550')); return false;" title="{phrase var='feed.submit_next_tooltip'}"></a>
+    <!--                             <span class="next_button_arrow"></span>-->
+                             </div>
+
+                             <div class="clear"></div>
                          </div>
+                    </div>
+                    
+                    {else}
+                        
+                        <div id="my-book-wrapper">
+                            <div id="my-book-left">
+                                <div id="my-book-basic">
+                                    <div class="my-book-block">
+                                        <h3>{phrase var='profile.basic_info'}</h3>
+                                        <b>{$aUser.full_name|clean|split:30|shorten:50:'...'}</b> <br>
+                                        {if Phpfox::getService('user.privacy')->hasAccess('' . $aUser.user_id . '', 'profile.view_location') && (!empty($aUser.city_location) || !empty($aUser.country_child_id) || !empty($aUser.location))}
+                                        {phrase var='profile.lives_in'} {if !empty($aUser.city_location)}{$aUser.city_location}{/if}
+                                                {if !empty($aUser.city_location) && (!empty($aUser.country_child_id) || !empty($aUser.location))},{/if}
+                                                {if !empty($aUser.country_child_id)} {$aUser.country_child_id|location_child}{/if} {if !empty($aUser.location)}{$aUser.location}{/if} <br>
+                                        {/if}
+                                        {if isset($aUser.birthdate_display) && is_array($aUser.birthdate_display) && count($aUser.birthdate_display)}
+                                                {foreach from=$aUser.birthdate_display key=sAgeType item=sBirthDisplay}
+                                                        {if $aUser.dob_setting == '2'}
+                                                                {phrase var='profile.age_years_old' age=$sBirthDisplay}
+                                                        {else}
+                                                                {phrase var='profile.born_on_birthday' birthday=$sBirthDisplay} <br>
+                                                        {/if}
+                                                {/foreach}
+                                        {/if}
+                                        {if Phpfox::getParam('user.enable_relationship_status') && isset($sRelationship) && $sRelationship != ''}{$sRelationship} <br> {/if}
+                                        {php}Phpfox::getBlock('userinfo.profileinfo', array('aUser' => $this->getVar('aUser')));{/php}
+                                        {if isset($aUser.category_name)}{$aUser.category_name|convert}{/if}
+                                    </div>
+                                </div>
+                                <img src="static/image/my-book-left-top.png" />
+                            </div>
+                            <div id="my-book-right">
+                                <div id="my-book-about">
+                                    <div class="my-book-block">
+                                        <h3>{phrase var='user.custom_about_me'}</h3> 
+                                        {$aAboutMe}
+                                    </div>
+                                </div>
+                                <img src="static/image/my-book-right-top.png" />
+                            </div>
+                            
+                            <div class="my-book-button-wrapper">
+                                <a class="my-book-button ex-filter" href="#">
+                                    <img src="static/image/my-book-left-button.png" />
+                                </a>
+                            </div>
 
-                         <div class="clear"></div>
-                     </div>
-                </div>
+                            <div class="my-book-button-wrapper">
+                                <a class="my-book-button next-filter" href="#">
+                                    <img src="static/image/my-book-right-button.png" />
+                                </a>
+                            </div>
+                            
+                        </div>
+
+                    {/if}
                 
 		{/if}
 	{/if}
