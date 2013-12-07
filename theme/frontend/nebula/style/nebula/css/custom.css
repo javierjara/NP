@@ -2778,3 +2778,16 @@ div[title="calendar-icon-feed"] {
     height: 32px;
     background:url('../image/calendar-icon.png');
 }
+
+span.holder_notify_count {
+    right: -5px;
+    font-weight: bold;
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    line-height: 20px;
+    border-radius: 11px;
+    -moz-border-radius: 11px;
+    -webkit-border-radius: 11px;
+    padding: 1px;
+}
