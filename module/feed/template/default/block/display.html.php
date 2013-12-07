@@ -100,7 +100,7 @@ defined('PHPFOX') or exit('NO DICE!');
                                 <div id="my-book-about">
                                     <div class="my-book-block">
                                         <h3>{phrase var='user.custom_about_me'}</h3> 
-                                        {$aAboutMe}
+                                        <p style="overflow: auto; height: 90%;">{$aAboutMe}</p>
                                     </div>
                                 </div>
                                 <img src="static/image/my-book-right-top.png" />
