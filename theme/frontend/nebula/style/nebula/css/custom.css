@@ -2774,9 +2774,12 @@ img {
 
 div[title="calendar-icon-feed"] {
     display: block; 
-    width: 32px; 
-    height: 32px;
+    width: 64px; 
+    height: 64px;
     background:url('../image/calendar-icon.png');
+    background-repeat: no-repeat;
+    float: left;
+    background-position: -6px -6px;
 }
 
 span.holder_notify_count {
