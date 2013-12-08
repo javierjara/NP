@@ -414,31 +414,46 @@ class Feed_Component_Ajax_Ajax extends Phpfox_Ajax
 	}
         
         public function getCalendarEvents() {
-            header('Content-type: text/json');
             $user = PHPFOX::getUserId();
             $aRows = Phpfox::getLib('database')->select('*')
                     ->from('np_calendar_event')
                     ->where('user = ' . (int) $user)
                     ->execute('getRows');
-            //$json .= '[';
-            $separator = "";
+            $json .= "[";
+            $separator = ",";
+            $i = 0;
+            $len = count($aRows);
             
             foreach ($aRows as $value) {
+                if ($i == $len - 1) {
+                    // last
+                    $separator = "";
+                }
+                // …
+                $i++;
                 
-                //$json .= '{ "date": "'.$value['date'].'", "type": "'.$value['type'].'", "title": "'.$value['title'].'", "description": "'.$value['description'].'", "url": "'.$value['url'].'"}';
+                $json .= "{ 'date': '".$value['date']."', 'type': '".$value['type']."', 'title': '".$value['title']."', 'description': '".$value['description']."', 'url': '".$value['url']."'}".$separator;
                 
-                $json = array("date" => $value['date'], "type" => $value['type'], "title" => $value['title'], "description" => $value['description'], "url" =>$value['url']);
-                
-                
+                //$json = array("date" => $value['date'], "type" => $value['type'], "title" => $value['title'], "description" => $value['description'], "url" =>$value['url']);
+               
             }
             
-            //$json .= ']';
+            $json .= "]";
             
-            echo "prova";
+            echo $json;
         }
         
         public function addCalendarEvent() {
-            Phpfox::getLib('database')->insert('np_calendar_event', array('user_id' => $aUserCache['user_id'], 'fb_user_id' => (int) $oObject->id));
+            $user = PHPFOX::getUserId();
+            $data = date("Y-m-d H:i", strtotime(stripslashes($_POST['date'])));
+            Phpfox::getLib('database')->insert('np_calendar_event', 
+                    array(
+                        'user' => $user,
+                        'title' => $_POST['title'],
+                        'description' => $_POST['description'],
+                        'type' => $_POST['type'],
+                        'url' => $_POST['url'],
+                        'date' => $data));
         }
         
 }

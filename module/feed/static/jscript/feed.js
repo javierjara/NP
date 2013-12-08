@@ -11,6 +11,7 @@ var $oLastFormSubmit = null;
 var bCheckUrlCheck = false;
 var bCheckUrlForceAdd = false;
 var filterTimerId = -1;
+var reqDone = -1;
 
 $Core.isInView = function(elem)
 {
@@ -1117,8 +1118,9 @@ function addCategories() {
 
 $(document).ready(function() {
     var request;
-    if(typeof $("#eventCalendarHumanDate").eventCalendar !== "undefined" && $("#eventCalendarHumanDate").html()==="") {
-        
+    
+    if(typeof $("#eventCalendarHumanDate").eventCalendar !== "undefined" && $("#eventCalendarHumanDate").html()==="" && reqDone===-1) {
+        reqDone = 1;
 //        request = $(this).ajaxCall('feed.getCalendarEvents');
         
 //        request = $.ajax({
@@ -1136,15 +1138,23 @@ $(document).ready(function() {
 //        request.done(function (response, textStatus, jqXHR){
 //            // log a message to the console
 //            console.log(response);
-                $("#eventCalendarHumanDate").eventCalendar({
-                //jsonData: [{ "date": "1380931200000", "type": "meeting", "title": "Test Last Year", "description": "descrizione da manual", "url": "http://www.event3.com/" }],
-                //jsonData: response,
-                showDescription: true,
-                openEventInNewWindow: true,
-                eventsScrollable: true,
-                eventsjson: 'eventCalendar_v054/json/events.json'
-                //jsonDateFormat: 'human'  // 'YYYY-MM-DD HH:MM:SS'
-            });
+
+                var def = $.Deferred();
+                def = $(this).ajaxCall('feed.getCalendarEvents');
+                
+                $.when(def).then(function(response){ 
+                    var objectJS = eval(response);
+               
+                    $("#eventCalendarHumanDate").eventCalendar({
+                        //jsonData: [{ "date": "1380931200000", "type": "meeting", "title": "Test Last Year", "description": "descrizione da manual", "url": "http://www.event3.com/" }],
+                        jsonData: objectJS,
+                        showDescription: true,
+                        openEventInNewWindow: true,
+                        eventsScrollable: true,
+                        //eventsjson: 'eventCalendar_v054/json/events.json'
+                        jsonDateFormat: 'human'  // 'YYYY-MM-DD HH:MM:SS'
+                    });
+                 });
 //        });
 
     }

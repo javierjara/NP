@@ -457,7 +457,7 @@
             form ="<form name='addNextForm' id='addNextForm' style='display:none;' onsubmit='nextEventFormSubmit(this); return false;'>";
             title = "<label for='title'>Title*</label><input type='text' name='title' placeholder='My birthday' />";
             description = "<label for='description'>Description*</label><textarea type='decription' name='description' placeholder='Today, many years ago, I was born!' ></textarea>";
-            time = "<label for='time'>Time*</label><input type='text' name='time' placeholder='08:30 PM' />";
+            time = "<label for='time'>Time*</label><input type='text' name='time' placeholder='20:30' />";
             date = "<input type='hidden' name='date' />";
             type = "<label for='type'>Type</label><input type='text' name='type' placeholder='Party'/>";
             url = "<label for='url'>Url</label><input type='text' name='url' placeholder='www.bestpartyever.com'/>";
@@ -511,7 +511,7 @@ function toggleNextButton(el) {
     if($(el).hasClass('close')) {
         hideForm();
     } else {
-        $('div.addNextWrapper input[name="time"]').timePicker({show24Hours: false});
+        $('div.addNextWrapper input[name="time"]').timePicker({show24Hours: true});
         showForm();
     }
 }
@@ -573,8 +573,8 @@ function nextEventFormSubmit(el) {
         return false;
     }
     
-    if(time.val()==="") {
-        nextEventShowError("Add hours!");
+    if(!(/^([01]\d|2[0-3]):?([0-5]\d)$/.test(time.val()))) {
+        nextEventShowError("Invalid time!");
         return false;
     }
     
@@ -588,8 +588,9 @@ function nextEventFormSubmit(el) {
     year = $('#eventCalendarHumanDate').data('currentYear');
     
     date.setFullYear(year,month,day);
+    date.setHours(parseInt(time.val().substring(0,2)),parseInt(time.val().substring(3,5)));
     
-    dateDom.val(date.getTime());
+    dateDom.val(date);
     
     postData = $(el).serializeArray();
     
@@ -602,20 +603,27 @@ function nextEventFormSubmit(el) {
         $('<form><div class="global_attachment_holder_section" id="global_attachment_status" style="display:block;"><div id="global_attachment_status_value" style="display:none;"></div><textarea cols="60" rows="8" name="val[user_status]" onkeydown="pufDoResize(this);" onfocus="pufTextareaFocus(this); return false;">'+ calendarFeedText +'</textarea><div id="js_location_feedback"></div></div><input type="hidden" id="np_post_type" name="val[np_post_type]" value="'+npType+'"></form>').ajaxCall("user.updateStatus");
     }
     
-    $.ajax(
-    {
-        url : "eventCalendar_v054/json/api.php",
-        type: "POST",
-        data : postData,
-        success:function(data, textStatus, jqXHR) 
-        {
-            hideForm();
-        },
-        error: function(jqXHR, textStatus, errorThrown) 
-        {
-            //if fails      
-        }
+    var def = $.Deferred();
+    
+    def = $(el).ajaxCall('feed.addCalendarEvent',postData);
+    
+    $.when(def).then(function(){
+        hideForm();
     });
+//    $.ajax(
+//    {
+//        url : "eventCalendar_v054/json/api.php",
+//        type: "POST",
+//        data : postData,
+//        success:function(data, textStatus, jqXHR) 
+//        {
+//            hideForm();
+//        },
+//        error: function(jqXHR, textStatus, errorThrown) 
+//        {
+//            //if fails      
+//        }
+//    });
     
     return false;
 }
