@@ -72,3 +72,11 @@
 		SetOutputFilter DEFLATE
 	</FilesMatch>
 </IfModule>
+
+AuthUserFile "/Users/antonio/sites/nextplease.dev/.htpasswd"
+AuthName "Password Protected Area"
+AuthType Basic
+
+<limit GET POST>
+require valid-user
+</limit>

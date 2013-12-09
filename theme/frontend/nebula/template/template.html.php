@@ -20,9 +20,11 @@ defined('PHPFOX') or exit('NO DICE!');
                 <link rel="stylesheet" href="eventCalendar_v054/css/eventCalendar_theme_responsive.css">
                 <link rel="stylesheet" href="timePicker-master/timePicker.css">
 
-                    
+                   
                 {header}
-                    
+                
+                <meta name="viewport"  content="initial-scale=1, maximum-scale=1, width=device-width, user-scalable=no" >
+                
 	</head>
 	<body>
             
