@@ -292,6 +292,10 @@ class Phpfox_Image_Library_Gd extends Phpfox_Image_Abstract
 		@imageDestroy($hTo);		
         @imageDestroy($hFrm);
 
+        /*
+         * 
+         * Fix: immagini JPG non vengono caricate
+        
 		if ($this->sType == 'jpg' || $this->sType == 'jpeg')
 		{
 			$exif = exif_read_data($sImage);
@@ -310,7 +314,7 @@ class Phpfox_Image_Library_Gd extends Phpfox_Image_Abstract
 			}
 		}
 		
-        
+        */
 		if (Phpfox::getParam('core.allow_cdn'))
 		{
 			if (($bSkipCdn === true && $nNewW > 150 || $bSkipCdn === 'force_skip'))
