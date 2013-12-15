@@ -2854,7 +2854,7 @@ body {
 }
 
 #my-book-wrapper {
-    max-width: 650px;
+    max-width: 400px;
     position: relative;
     margin: 0 auto 20px;
     clear: both;
@@ -2906,7 +2906,7 @@ img {
 #my-book-wrapper div.my-book-block {
     width: 100%;
     padding-bottom: 30px;
-    padding-top: 50px;
+    padding-top: 20%;
     -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
     -moz-box-sizing: border-box;    /* Firefox, other Gecko */
     box-sizing: border-box;         /* Opera/IE 8+ */
@@ -2914,13 +2914,13 @@ img {
 }
 
 #my-book-wrapper #my-book-left div.my-book-block {
-    padding-left: 60px;
-    padding-right: 20px;
+    padding-left: 20%;
+    padding-right: 6%;
 }
 
 #my-book-wrapper #my-book-right div.my-book-block {
-    padding-left: 20px;
-    padding-right: 60px;
+    padding-left: 6%;
+    padding-right: 20%;
 }
 
 .my-book-button-wrapper {
