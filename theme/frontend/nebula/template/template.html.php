@@ -19,6 +19,7 @@ defined('PHPFOX') or exit('NO DICE!');
 		<link rel="stylesheet" href="eventCalendar_v054/css/eventCalendar.css">
                 <link rel="stylesheet" href="eventCalendar_v054/css/eventCalendar_theme_responsive.css">
                 <link rel="stylesheet" href="timePicker-master/timePicker.css">
+                <link rel="stylesheet" href="sidr/stylesheets/jquery.sidr.light.css">
 
                    
                 {header}
@@ -51,7 +52,7 @@ defined('PHPFOX') or exit('NO DICE!');
 							{logo}
                                                         
                                                         {if Phpfox::isUser()}
-                                                        <a href="{url link=''}" id="menu-left-mobile">
+                                                        <a id="menu-left-mobile" href="#sidr">
                                                             <img src="static/image/menu-left-mobile.png" class="v_middle">
                                                         </a>
                                                         {/if}
@@ -110,8 +111,48 @@ defined('PHPFOX') or exit('NO DICE!');
 				</div>		
 			</div>
 			
-			<div id="nb_body">		
-				<div id="{if Phpfox::isUser()}main_core_body_holder{else}main_core_body_holder_guest{/if}">		
+			<div id="nb_body">
+                            
+                            
+                            
+                        <div id="sidr" style="display: none;">
+                            <div onClick="$.sidr('close'); " id="close_left_menu_label">
+                                <img src="static/image/menu-left-mobile-green.png" class="v_middle">
+                            </div>
+                        <!-- Your content -->
+                        <ul>
+
+                            <div id="nb_name">
+                                    <div class="nb_name_image" style="border-radius: 10px;">
+                                            {$sUserProfileImage}
+                                    </div>
+                                    <div class="nb_name_info">
+                                            <a href="{$sUserProfileUrl}" class="nb_name_link">{$sCurrentUserName}</a>
+                                            <div class="nb_name_edit">
+                                                    <a href="{url link='user.profile'}">{phrase var='theme.edit_profile'}</a>
+                                            </div>
+                                    </div>
+                            </div>
+
+                            <div id="nb_favorites" class="block">
+                            {if false}
+                                    <div class="title">
+                                            <a href="#" class="nb_edit_block_title">{phrase var='theme.edit'}</a>
+                                            {phrase var='theme.favorites'}
+                                    </div>
+                            {/if}
+                                    <div id="nb_main_menu">
+                                            {assign var='iTotalHide' value=8}
+                                            {menu}
+                                    </div>		
+                            </div>
+                            
+                        </ul>
+                        </div>
+			
+                            
+                            
+                            <div id="{if Phpfox::isUser()}main_core_body_holder{else}main_core_body_holder_guest{/if}">		
 					{block location='11'}
 					<div id="main_content_holder">	
 					{/if}
@@ -282,7 +323,12 @@ defined('PHPFOX') or exit('NO DICE!');
     <script src="eventCalendar_v054/js/jquery.timeago.js" type="text/javascript"></script>
     <script src="eventCalendar_v054/js/jquery.eventCalendar.js" type="text/javascript"></script>
     <script src="timePicker-master/jquery.timePicker.min.js" type="text/javascript"></script>
-    
+    <script src="sidr/jquery.sidr.min.js"></script>
+
+    <script>
+        
+
+    </script>
     
 </html>
 {/if}
