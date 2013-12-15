@@ -2062,6 +2062,11 @@ div#js_main_feed_holder div#img_picker input {
     display: none;
 }
 
+.activity_feed_content_info {
+    font-size: 12px;
+    font-weight: normal !important;
+}
+
 /* Responsive Start Here */ 
 
 /* Mobile Phones Portrait */ 
@@ -2219,6 +2224,9 @@ div#js_main_feed_holder div#img_picker input {
     @media only screen and (max-width: 580px) { 
     	#right { 
             display:none;
+        }
+        .activity_feed_content_info {
+            font-size: 10px;
         }
     } 
     

@@ -74,6 +74,7 @@ defined('PHPFOX') or exit('NO DICE!');
                                 <div id="my-book-basic">
                                     <div class="my-book-block">
                                         <h3>{phrase var='profile.basic_info'}</h3>
+                                        <p style="overflow: auto; height: 90%;">
                                         <b>{$aUser.full_name|clean|split:30|shorten:50:'...'}</b> <br>
                                         {if Phpfox::getService('user.privacy')->hasAccess('' . $aUser.user_id . '', 'profile.view_location') && (!empty($aUser.city_location) || !empty($aUser.country_child_id) || !empty($aUser.location))}
                                         {phrase var='profile.lives_in'} {if !empty($aUser.city_location)}{$aUser.city_location}{/if}
@@ -92,6 +93,7 @@ defined('PHPFOX') or exit('NO DICE!');
                                         {if Phpfox::getParam('user.enable_relationship_status') && isset($sRelationship) && $sRelationship != ''}{$sRelationship} <br> {/if}
                                         {php}Phpfox::getBlock('userinfo.profileinfo', array('aUser' => $this->getVar('aUser')));{/php}
                                         {if isset($aUser.category_name)}{$aUser.category_name|convert}{/if}
+                                        </p>
                                     </div>
                                 </div>
                                 <img src="static/image/my-book-left-top.png" />
