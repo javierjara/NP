@@ -318,7 +318,7 @@ a.nb_name_link:hover
 
 .content3
 {
-	/* width:600px; */
+	width:100%; 
 }
 
 #right
@@ -2053,6 +2053,9 @@ div#js_main_feed_holder div#img_picker input {
     margin-left: 5px;
 }
 
+#menu-left-mobile {
+    display: none;
+}
 
 /* Responsive Start Here */ 
 
@@ -2145,6 +2148,14 @@ div#js_main_feed_holder div#img_picker input {
     		/* important if you hide right and left side */ 
     		width:100%!important; 
     	}
+        
+        #menu-left-mobile {
+            display: block;
+        }
+        
+        #logo {
+            display: none;
+        }
     } 
     
     /* Smaller than standard 689px (devices and browsers) */ 
@@ -2437,7 +2448,14 @@ textarea.js_comment_feed_textarea_focus {
     height: 40px;
 }
 
-#header_right #header_menu_holder #logo {
+#header_right #header_menu_holder #logo-short {
+    display: block;
+    height: 40px;
+    text-align: left;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
     line-height: 0;
     width: 42px;
     float: left;   
@@ -2471,10 +2489,12 @@ textarea.js_comment_feed_textarea_focus {
 
 #header_left {
     float: left;
+    width: auto;
 }
 
 #holder_notify ul li a.notify_drop_link:hover {
     background-color: #A2EB84; 
+    border-radius: 20px;
 }
 
 #holder_notify ul li.is_active a.notify_drop_link {
@@ -2913,4 +2933,33 @@ span.holder_notify_count {
 
 .activity_feed_content_link {
     margin-right: 1px;
+}
+
+#holder_notify ul li.is_active a.notify_drop_link, #holder_notify ul li.is_active a.notify_drop_link:hover {
+    border-color: transparent;
+    border-radius: 20px;
+}
+
+#holder_notify ul li div.holder_notify_drop {
+    margin-top: 10px;
+    margin-left: -150px;
+    border: 1px solid #52C921;
+    border-bottom-width: 3px;
+    border-radius: 15px;
+    
+    -moz-box-shadow: 0px 0px 10px 3px #888;
+    -webkit-box-shadow: 0px 0px 10px 3px #888;
+    box-shadow: 0px 0px 10px 3px #888;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#444444')";
+    filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#444444');
+    
+    overflow: hidden;
+    
+    width: 300px;
+    left: 50%;
+    position: fixed;
+}
+
+#holder_notify ul li {
+    margin-left: 3px;
 }

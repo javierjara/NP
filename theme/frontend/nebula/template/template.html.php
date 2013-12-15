@@ -49,6 +49,12 @@ defined('PHPFOX') or exit('NO DICE!');
 					<div id="header_holder" {if !Phpfox::isUser()} class="header_logo"{/if}>				
 						<div id="header_left">
 							{logo}
+                                                        
+                                                        {if Phpfox::isUser()}
+                                                        <a href="{url link=''}" id="menu-left-mobile">
+                                                            <img src="static/image/menu-left-mobile.png" class="v_middle">
+                                                        </a>
+                                                        {/if}
 						</div>
                                                 
 						<div id="header_right">
@@ -66,7 +72,7 @@ defined('PHPFOX') or exit('NO DICE!');
 								<div id="header_menu_holder">
 									{if Phpfox::isUser()}
                                                                         
-                                                                        <a href="{url link=''}" id="logo">
+                                                                        <a href="{url link=''}" id="logo-short">
                                                                             <img src="static/image/N.png" class="v_middle">
                                                                         </a>
                                                                         

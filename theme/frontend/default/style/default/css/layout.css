@@ -825,9 +825,11 @@ input.button_register,
 	line-height:40px;		
 	overflow:hidden;
 	text-indent:-1000px;
-	width:40px;
+	width:37px;
 	border-left:1px transparent solid;
-	border-right:1px transparent solid;	
+	border-right:1px transparent solid;
+        height: 37px;
+        margin-top: 1px;
 }
 
 #holder_notify ul li a.friend_notification
@@ -922,7 +924,7 @@ input.button_register,
 	text-decoration:none;
 	line-height:30px;
 	border-top:1px #DFDFDF solid;
-	background:#EFEFEF;
+	/* background:#EFEFEF; */
 	width:100%;
 	text-align:center;
 	font-weight:bold;
