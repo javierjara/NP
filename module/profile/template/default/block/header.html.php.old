@@ -48,7 +48,10 @@ defined('PHPFOX') or exit('NO DICE!');
 				
 				<div id="section_menu">				
 					{if defined('PHPFOX_IS_USER_PROFILE_INDEX') || defined('PHPFOX_PROFILE_PRIVACY') || Phpfox::getLib('module')->getFullControllerName() == 'profile.info'}
-					<ul>						
+					<ul>	
+                                            
+                                            <a href="{url link='user.profile'}">{phrase var='profile.edit_profile'}</a>
+                                            
 						{if Phpfox::getUserId() == $aUser.user_id}
 						    {if Phpfox::getUserParam('profile.can_change_cover_photo')}
 							<li><a href="#" id="js_change_cover_photo" onclick="$('#cover_section_menu_drop').toggle(); return false;">{if empty($aUser.cover_photo)}{phrase var='user.add_a_cover'}{else}{phrase var='user.change_cover'}{/if}</a>
