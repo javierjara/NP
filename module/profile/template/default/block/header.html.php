@@ -12,7 +12,7 @@ defined('PHPFOX') or exit('NO DICE!');
 
 ?>
 	<div{if Phpfox::getService('profile')->timeline()} class="profile_timeline_header_holder"{/if}>
-		<div class="profile_header{if Phpfox::getService('profile')->timeline()} profile_timeline_header{/if}{if (empty($aUser.cover_photo) && (!isset($aUser.cover_photo_id) || $aUser.cover_photo_id < 1)) || !Phpfox::getService('user.privacy')->hasAccess('' . $aUser.user_id . '', 'profile.view_profile')} no_cover_photo {/if}">
+		<div class="profile_header{if Phpfox::getService('profile')->timeline()} profile_timeline_header{/if}{if (empty($aUser.cover_photo) && (!isset($aUser.cover_photo_id) || $aUser.cover_photo_id < 1)) || !Phpfox::getService('user.privacy')->hasAccess('' . $aUser.user_id . '', 'profile.view_profile')} no_cover_photo {/if}" {if defined('PHPFOX_IS_USER_PROFILE_INDEX')}style="display: none;"{/if}>
 
 			{if Phpfox::getService('profile')->timeline()}
 				{module name='profile.pic'}

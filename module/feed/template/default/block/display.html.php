@@ -72,10 +72,22 @@ defined('PHPFOX') or exit('NO DICE!');
                         <div id="my-book-wrapper">
                             <div id="my-book-left">
                                 <div id="my-book-basic">
+                                    {if isset($aUser.is_online) && $aUser.is_online || $aUser.is_friend === 2 || $aUser.is_friend === 3}
+                                            <span class="profile_online_status">
+                                                    {if !$aUser.is_friend && $aUser.is_friend_request === 2}
+                                                            <span class="js_profile_online_friend_request">{phrase var='profile.pending_friend_confirmation'}{if $aUser.is_online} {/if}</span>
+                                                    {elseif !$aUser.is_friend && $aUser.is_friend_request === 3}
+                                                            <span class="js_profile_online_friend_request">{phrase var='profile.pending_friend_request'}{if $aUser.is_online} {/if}</span>
+                                                    {/if}
+                                                    {if $aUser.is_online}
+                                                            ({phrase var='profile.online'})
+                                                    {/if}
+                                            </span>
+                                    {/if}
                                     <div class="my-book-block">
-                                        <h3>{phrase var='profile.basic_info'}</h3>
+                                        <h3>{$aUser.full_name|clean|split:30|shorten:50:'...'}</h3>
                                         <p style="overflow: auto; height: 90%;">
-                                        <b>{$aUser.full_name|clean|split:30|shorten:50:'...'}</b> <br>
+                                        <b></b> <br>
                                         {if Phpfox::getService('user.privacy')->hasAccess('' . $aUser.user_id . '', 'profile.view_location') && (!empty($aUser.city_location) || !empty($aUser.country_child_id) || !empty($aUser.location))}
                                         {phrase var='profile.lives_in'} {if !empty($aUser.city_location)}{$aUser.city_location}{/if}
                                                 {if !empty($aUser.city_location) && (!empty($aUser.country_child_id) || !empty($aUser.location))},{/if}
@@ -99,6 +111,73 @@ defined('PHPFOX') or exit('NO DICE!');
                                 <img src="static/image/my-book-left-top.png" />
                             </div>
                             <div id="my-book-right">
+                                <div id="my-book-right-link">
+                                    {if Phpfox::getUserId() == $aUser.user_id}
+                                        <a href="{url link='user.profile'}">{phrase var='profile.edit_profile'}</a>
+                                    {elseif Phpfox::isModule('mail') && Phpfox::getService('user.privacy')->hasAccess('' . $aUser.user_id . '', 'mail.send_message')}
+                                        <a href="#" onclick="$Core.composeMessage({left_curly}user_id: {$aUser.user_id}{right_curly}); return false;">{phrase var='profile.send_message'}</a>
+                                    {/if}
+                                </div>
+                                <div id="my-book-bookmark" onclick="$('#my-book-more-tooltip').toggle('puff');" {if Phpfox::getUserId() == $aUser.user_id}style="display: none;"{/if}></div>
+                                <div id="my-book-more-tooltip">
+                                
+                                {if Phpfox::getUserBy('profile_page_id') <= 0}
+                                    <ul>
+                                            {if Phpfox::isModule('mail') && Phpfox::getService('user.privacy')->hasAccess('' . $aUser.user_id . '', 'mail.send_message')}
+                                                    <li><a href="#" onclick="$Core.composeMessage({left_curly}user_id: {$aUser.user_id}{right_curly}); return false;">{phrase var='profile.send_message'}</a></li>
+                                            {/if}
+                                            {if Phpfox::isUser() && Phpfox::isModule('friend') && Phpfox::getUserParam('friend.can_add_friends') && !$aUser.is_friend && $aUser.is_friend_request !== 2}
+                                                    <li id="js_add_friend_on_profile"{if !$aUser.is_friend && $aUser.is_friend_request === 3} class="js_profile_online_friend_request"{/if}>
+                                                            <a href="#" onclick="return $Core.addAsFriend('{$aUser.user_id}');" title="{phrase var='profile.add_to_friends'}">
+                                                                    {if !$aUser.is_friend && $aUser.is_friend_request === 3}{phrase var='profile.confirm_friend_request'}{else}{phrase var='profile.add_to_friends'}{/if}
+                                                            </a>
+                                                    </li>
+                                            {/if}
+                                            {if $bCanPoke && Phpfox::getService('user.privacy')->hasAccess('' . $aUser.user_id . '', 'poke.can_send_poke')}
+                                                    <li id="liPoke">
+                                                            <a href="#" id="section_poke" onclick="$Core.box('poke.poke', 400, 'user_id={$aUser.user_id}'); return false;">{phrase var='poke.poke' full_name=''}</a>
+                                                    </li>
+                                            {/if}
+                                            {plugin call='profile.template_block_menu_more'}
+                                            {if (Phpfox::getUserParam('user.can_block_other_members') && isset($aUser.user_group_id) && Phpfox::getUserGroupParam('' . $aUser.user_group_id . '', 'user.can_be_blocked_by_others'))
+                                                    || (isset($aUser.is_online) && $aUser.is_online && Phpfox::isModule('im') && Phpfox::getParam('im.enable_im_in_footer_bar') && $aUser.is_friend == 1)
+                                                    || (Phpfox::getUserParam('user.can_feature'))
+                                                    || (isset($bPassMenuMore))
+                                                    || (Phpfox::getUserParam('core.can_gift_points'))
+                                            }
+                                            <li><a href="#" id="section_menu_more" class="js_hover_title"><span class="section_menu_more_image"></span><span class="js_hover_info">{phrase var='profile.more'}</span></a></li>
+                                            {/if}
+                                            {if Phpfox::getUserParam('user.can_block_other_members') && isset($aUser.user_group_id) && Phpfox::getUserGroupParam('' . $aUser.user_group_id . '', 'user.can_be_blocked_by_others')}
+                                                    <li><a href="#?call=user.block&amp;height=120&amp;width=400&amp;user_id={$aUser.user_id}" class="inlinePopup js_block_this_user" title="{if $bIsBlocked}{phrase var='profile.unblock_this_user'}{else}{phrase var='profile.block_this_user'}{/if}">{if $bIsBlocked}{phrase var='profile.unblock_this_user'}{else}{phrase var='profile.block_this_user'}{/if}</a></li>
+                                            {/if}
+                                            {if isset($aUser.is_online) && $aUser.is_online && Phpfox::isModule('im') && Phpfox::getParam('im.enable_im_in_footer_bar') && $aUser.is_friend == 1}
+                                                    <li><a href="#" onclick="$.ajaxCall('im.chat', 'user_id={$aUser.user_id}'); return false;">{phrase var='profile.instant_chat'}</a></li>
+                                            {/if}
+                                            {if Phpfox::getUserParam('user.can_feature')}
+                                                    <li {if isset($aUser.is_featured) && !$aUser.is_featured} style="display:none;" {/if} class="user_unfeature_member">
+                                                            <a href="#" title="{phrase var='profile.un_feature_this_member'}" onclick="$(this).parent().hide(); $(this).parents('#section_menu_drop').find('.user_feature_member:first').show(); $.ajaxCall('user.feature', 'user_id={$aUser.user_id}&amp;feature=0&amp;type=1'); return false;">{phrase var='profile.unfeature'}</a></li>
+                                                    <li {if isset($aUser.is_featured) && $aUser.is_featured} style="display:none;" {/if} class="user_feature_member">
+                                                            <a href="#" title="{phrase var='profile.feature_this_member'}" onclick="$(this).parent().hide(); $(this).parents('#section_menu_drop').find('.user_unfeature_member:first').show(); $.ajaxCall('user.feature', 'user_id={$aUser.user_id}&amp;feature=1&amp;type=1'); return false;">{phrase var='profile.feature'}</a></li>
+                                            {/if}
+                                            {if Phpfox::getUserParam('core.can_gift_points')}
+                                                    <li>
+                                                            <a href="#?call=core.showGiftPoints&amp;height=120&amp;width=400&amp;user_id={$aUser.user_id}" class="inlinePopup js_gift_points" title="{phrase var='core.gift_points'}">
+                                                                    {phrase var='core.gift_points'}
+                                                            </a>
+                                                    </li>
+                                            {/if}
+                                            {if Phpfox::isModule('friend') && Phpfox::getUserParam('friend.link_to_remove_friend_on_profile') && isset($aUser.is_friend) && $aUser.is_friend === true}
+                                                    <li>
+                                                            <a href="#" onclick="if (confirm('{phrase var='core.are_you_sure'}'))$.ajaxCall('friend.delete', 'friend_user_id={$aUser.user_id}&reload=1'); return false;">
+                                                                    {phrase var='friend.remove_friend'}
+                                                            </a>
+                                                    </li>
+                                            {/if}
+                                            {plugin call='profile.template_block_menu'}
+                                    </ul>
+				{/if}
+                                    
+                                </div>
                                 <div id="my-book-about">
                                     <div class="my-book-block">
                                         <h3>{phrase var='user.custom_about_me'}</h3> 

@@ -2944,6 +2944,90 @@ img {
     
 }
 
+#my-book-bookmark {
+    background: url("../image/bookmark.png");
+    width: 6%;
+    height: 6%;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 0;
+    background-position-y: 0%;
+    background-position-x: 100%;
+    margin-right: 5%;
+    margin-top: 3%;
+    overflow: hidden;
+    cursor: pointer;
+    z-index: 1;
+    background-size: contain;
+    -webkit-transition: all 0.50s ease;
+    -moz-transition: all 0.50s ease;
+    -o-transition: all 0.50s ease;
+}
+
+#my-book-bookmark:hover {
+    width: 10%;
+    height: 10%;
+    -webkit-transition: all 0.50s ease;
+    -moz-transition: all 0.50s ease;
+    -o-transition: all 0.50s ease;
+}
+
+#my-book-right-link a {
+    color: #cd733c;
+    margin-top: 5%;
+    margin-left: 3%;
+    position: absolute;
+    z-index: 2;
+}
+
+#my-book-left span.js_profile_online_friend_request {
+    position: absolute;
+    margin-top: -35%;
+    display: block;
+    width: 190%;
+    margin-left: -95%;
+    background: #75B079;
+    color: #ffffff;
+    padding: 5px;
+    border-radius: 11px;
+    -moz-border-radius: 11px;
+    -webkit-border-radius: 11px;
+}
+
+#my-book-right #my-book-more-tooltip {
+    position: absolute;
+    background: #cd733c;
+    color: #ffffff !important;
+    padding: 7px;
+    z-index: 3;
+    margin-top: 20% !important;
+    margin-left: -25% !important;
+    width: 50%;
+    text-align: center;
+    line-height: 170%;
+    display: none;
+    border-radius: 11px;
+    -moz-border-radius: 11px;
+    -webkit-border-radius: 11px;
+    -moz-box-shadow: 0px 0px 10px 3px #888;
+    -webkit-box-shadow: 0px 0px 10px 3px #888;
+    box-shadow: 0px 0px 10px 3px #888;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#444444')";
+    filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#444444');
+    border: 1px #ffffff solid;
+}
+
+#my-book-right #my-book-more-tooltip li:hover {
+    background: #e8884e;
+}
+
+#my-book-right #my-book-more-tooltip li a {
+    color: #ffffff;
+}
+
+
+/* end My book */
+
 .js_feed_view_more_entry_holder {
     -webkit-transition: all 0.50s ease;
     -moz-transition: all 0.50s ease;
@@ -3073,3 +3157,10 @@ div.holder_notify_drop_content div.holder_notify_drop_title {
 div.holder_notify_drop_content div.holder_notify_drop_title div.holder_notify_drop_title_link a {
     color: #FFFFFF;
 }
+
+#my-book-wrapper span.profile_online_status {
+    top: 4px !important;
+    right: 6% !important;
+    margin-top: 8% !important;
+}
+
