@@ -3182,3 +3182,8 @@ div.holder_notify_drop_content div.holder_notify_drop_title div.holder_notify_dr
     margin-top: 8% !important;
 }
 
+div.mail_thread_holder div.row_title_image a img, div.mail_holder div.mail_image a img {
+     border-radius:10px;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;  
+}
