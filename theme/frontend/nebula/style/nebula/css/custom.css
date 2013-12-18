@@ -1680,6 +1680,9 @@ div.activity_feed_form_button_position_button a {
     letter-spacing: 1px;
     font-size: 10px;
     background-color: transparent;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
     background-repeat: no-repeat;
     margin: 0;
@@ -2043,6 +2046,9 @@ div#js_main_feed_holder div#img_picker {
     display: inline-block;
     float: right;
     background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
     border-radius:10px;
     -moz-border-radius:10px;
@@ -2429,6 +2435,9 @@ div.js_feed_view_more_entry_holder.post_type_next div.activity_feed_content_info
 div.js_feed_view_more_entry_holder .activity_feed_content_info span.user_profile_link_span a {
     background-image: url('../image/arrow-next.png');
     background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
     color: #FFFFFF;
     display: inline-block;
@@ -2441,6 +2450,9 @@ div.js_feed_view_more_entry_holder .activity_feed_content_info span.user_profile
 div.js_feed_view_more_entry_holder.post_type_next .activity_feed_content_info span.user_profile_link_span a {
     background-image: url('../image/arrow-next.png');
     background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
     color: #FFFFFF;
     display: inline-block;
@@ -2453,6 +2465,9 @@ div.js_feed_view_more_entry_holder.post_type_next .activity_feed_content_info sp
 div.js_feed_view_more_entry_holder.post_type_ex .activity_feed_content_info span.user_profile_link_span a {
     background-image: url('../image/arrow-ex.png');
     background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
     color: #FFFFFF;
     display: inline-block;
@@ -2958,6 +2973,9 @@ img {
     overflow: hidden;
     cursor: pointer;
     z-index: 1;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
     background-size: contain;
     -webkit-transition: all 0.50s ease;
     -moz-transition: all 0.50s ease;
