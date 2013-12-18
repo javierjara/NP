@@ -2039,7 +2039,7 @@ div.activity_feed_form {
 div#js_main_feed_holder div#img_picker {
     width: 149px;
     height: 149px;
-    background: url("/static/image/misc/camera.png");
+    background: url("../image/camera.png");
     display: inline-block;
     float: right;
     background-repeat: no-repeat;
