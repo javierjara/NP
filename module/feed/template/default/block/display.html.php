@@ -118,7 +118,7 @@ defined('PHPFOX') or exit('NO DICE!');
                                         <a href="#" onclick="$Core.composeMessage({left_curly}user_id: {$aUser.user_id}{right_curly}); return false;">{phrase var='profile.send_message'}</a>
                                     {/if}
                                 </div>
-                                <div id="my-book-bookmark" onclick="$('#my-book-more-tooltip').toggle('puff');" {if Phpfox::getUserId() == $aUser.user_id}style="display: none;"{/if}></div>
+                                <div id="my-book-bookmark" onclick="$('#my-book-more-tooltip').fadeToggle();" {if Phpfox::getUserId() == $aUser.user_id}style="display: none;"{/if}></div>
                                 <div id="my-book-more-tooltip">
                                 
                                 {if Phpfox::getUserBy('profile_page_id') <= 0}
