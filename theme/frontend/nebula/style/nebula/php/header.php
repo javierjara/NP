@@ -8,9 +8,9 @@ defined('PHPFOX') or exit('NO DICE!');
 $sUserProfileImage = Phpfox::getLib('image.helper')->display(array_merge(array('user' => Phpfox::getService('user')->getUserFields(true)), array(
 		'path' => 'core.url_user',
 		'file' => Phpfox::getUserBy('user_image'),
-		'suffix' => '_50_square',
-		'max_width' => 50,
-		'max_height' => 50
+		'suffix' => '_75_square',
+		'max_width' => 75,
+		'max_height' => 75
 		)
 	)
 );
@@ -18,7 +18,7 @@ $sUserProfileImage = Phpfox::getLib('image.helper')->display(array_merge(array('
 $oTpl->assign(array(
 		'sUserProfileImage' => $sUserProfileImage,
 		'sUserProfileUrl' => Phpfox::getLib('url')->makeUrl('profile', Phpfox::getUserBy('user_name')), // Create the users profile URL
-		'sCurrentUserName' => Phpfox::getLib('parse.output')->shorten(Phpfox::getLib('parse.output')->clean(Phpfox::getUserBy('full_name')), Phpfox::getParam('user.max_length_for_username'), '...'), // Get the users display name
+		'sCurrentUserName' => Phpfox::getUserBy('full_name'), // Get the users display name
 		)
 	);
 $oTpl->setHeader('cache', array(

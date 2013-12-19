@@ -3187,3 +3187,29 @@ div.mail_thread_holder div.row_title_image a img, div.mail_holder div.mail_image
     -moz-border-radius:10px;
     -webkit-border-radius:10px;  
 }
+
+#my-book-profile {
+    background-image: url("../image/my-book-profilo.png");
+}
+
+#my-book-profile #nb_name {
+    height: 190px !important;
+}
+
+#my-book-profile #nb_name div.nb_name_info {
+    width: 100%;
+    position: relative;
+    left: 0;
+    top: 0;
+}
+
+#my-book-profile #nb_name div.nb_name_info a.nb_name_link {
+    font-size: 14px !important;
+    margin-top: 25px !important;
+    display: block;
+    text-align: center;
+}
+
+#my-book-profile #nb_name .nb_name_image {
+    
+}

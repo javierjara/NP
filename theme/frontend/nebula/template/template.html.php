@@ -177,6 +177,22 @@ defined('PHPFOX') or exit('NO DICE!');
 									{if Phpfox::isUser() && !Phpfox::getUserBy('profile_page_id')}
 									{block location='20'}	                                                                                
                                                                                 <div id="eventCalendarHumanDate"></div>
+                                                                                
+                                                                                {if !defined('PHPFOX_IS_USER_PROFILE') }
+                                                                                    <div id="nb_favorites" class="block">
+                                                                                    {if false}
+                                                                                            <div class="title">
+                                                                                                    <a href="#" class="nb_edit_block_title">{phrase var='theme.edit'}</a>
+                                                                                                    {phrase var='theme.favorites'}
+                                                                                            </div>
+                                                                                    {/if}
+                                                                                            <div id="nb_main_menu">
+                                                                                                    {assign var='iTotalHide' value=8}
+                                                                                                    {menu}
+                                                                                            </div>		
+                                                                                    </div>
+                                                                                {/if}
+                                                                                
                                                                         {/if}
 									</div>	
 									{/if}				
@@ -214,30 +230,22 @@ defined('PHPFOX') or exit('NO DICE!');
 										{menu_sub}
 										{block location='1'}																
 										{else}
-										<div id="nb_name">
-											<div class="nb_name_image">
-												{$sUserProfileImage}
-											</div>
-											<div class="nb_name_info">
-												<a href="{$sUserProfileUrl}" class="nb_name_link">{$sCurrentUserName}</a>
-												<div class="nb_name_edit">
-													<a href="{url link='user.profile'}">{phrase var='theme.edit_profile'}</a>
-												</div>
-											</div>
-										</div>
+                                                                                <div id="my-book-profile">
+                                                                                    <div id="nb_name">
+                                                                                            <div class="nb_name_info" style="float: left;">
+                                                                                                    <a href="{$sUserProfileUrl}" class="nb_name_link">{$sCurrentUserName}</a>
+
+                                                                                            </div>
+                                                                                            <div style="clear: both;"></div>
+                                                                                            <div class="nb_name_image" style="float: left;margin-left: 35px;margin-top: 10px;">
+                                                                                                    {$sUserProfileImage}
+                                                                                            </div>
+                                                                                            <div class="nb_name_edit" style="float: right;margin-right: 45px;margin-top: 30px;">
+                                                                                                    <a href="{url link='user.profile'}">{phrase var='theme.edit_profile'}</a>
+                                                                                            </div>
+                                                                                    </div>
+                                                                                </div>
 										
-										<div id="nb_favorites" class="block">
-                                                                                {if false}
-											<div class="title">
-												<a href="#" class="nb_edit_block_title">{phrase var='theme.edit'}</a>
-												{phrase var='theme.favorites'}
-											</div>
-										{/if}
-                                                                                        <div id="nb_main_menu">
-												{assign var='iTotalHide' value=8}
-												{menu}
-											</div>		
-										</div>
 										
 										{if Phpfox::getLib('module')->getFullControllerName() == 'core.index-member'}										
 										{menu_sub}
