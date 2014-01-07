@@ -43,7 +43,17 @@ defined('PHPFOX') or exit('NO DICE!');
 			{/if}
 		</div>
 		<div class="comment_mini_content">
-			{$aComment|user:'':'':30}<div id="js_comment_text_{$aComment.comment_id}" class="comment_mini_text {if $aComment.view_id == '1'}row_moderate{/if}">{$aComment.text|feed_strip|shorten:'300':'comment.view_more':true|split:30|max_line}</div>			
+			{$aComment|user:'':'':30}
+                        <div id="js_comment_text_{$aComment.comment_id}" class="comment_mini_text {if $aComment.view_id == '1'}row_moderate{/if}">
+                                {$aComment.text|feed_strip|shorten:'300':'comment.view_more':true|split:30|max_line}
+                                
+                                {if preg_match('/(http|https):\/\/(?:www\.)?youtube.com\/watch\?(?=.*v=\w+)(?:\S+)?/i',$aComment.text, $ytm)}
+                                    {if preg_match('/[\\?\\&]v=([^\\?\\&\s]+)/',$ytm[0], $ytid)}
+                                        <iframe style="margin-top: 10px;" width="90%" height="220" src="//www.youtube.com/embed/{$ytid[1]}?rel=0" frameborder="0" allowfullscreen></iframe>
+                                        <div class="clear"></div>
+                                    {/if}
+                                {/if}
+                        </div>			
 			<div class="comment_mini_action">
 				<ul>
 					<li class="comment_mini_entry_time_stamp">{if isset($aComment.unix_time_stamp)}{$aComment.unix_time_stamp|convert_time:'comment.comment_time_stamp'}{else}{$aComment.time_stamp|convert_time:'comment.comment_time_stamp'}{/if}</li>

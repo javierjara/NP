@@ -3213,3 +3213,8 @@ div.mail_thread_holder div.row_title_image a img, div.mail_holder div.mail_image
 #my-book-profile #nb_name .nb_name_image {
     
 }
+
+.comment_mini_link_image {
+    height: 20px;
+    overflow: hidden
+}
