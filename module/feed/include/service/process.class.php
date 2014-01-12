@@ -119,7 +119,7 @@ class Feed_Service_Process extends Phpfox_Service
 		return $this;
 	}			
 	
-	public function add($sType, $iItemId, $iPrivacy = 0, $iPrivacyComment = 0, $iParentUserId = 0, $iOwnerUserId = null, $bIsTag = 0, $iParentFeedId = 0, $sParentModuleName = null, $nPostType = null, $nPostCategory = null)
+	public function add($sType, $iItemId, $iPrivacy = 0, $iPrivacyComment = 0, $iParentUserId = 0, $iOwnerUserId = null, $bIsTag = 0, $iParentFeedId = 0, $sParentModuleName = null, $nPostType = null, $nPostCategory = null, $nPostCheckinName = null, $nPostCheckinLatLng = null)
 	{			
 		//Plugin call
 		if (($sPlugin = Phpfox_Plugin::get('feed.service_process_add__start')))
@@ -178,6 +178,13 @@ class Feed_Service_Process extends Phpfox_Service
 			'time_update' => $iNewTimeStamp,
                         'type_ex_next' => $nPostType,
                         'np_category' => $nPostCategory
+                        
+                        /*
+                            ,
+                            'np_checkin_name' => $nPostCheckinName,
+                            'np_checkin_lat' => $nPostCheckinLat,
+                            'np_checkin_lng' => $nPostCheckinLng
+                         */
 		);
 		
 		if (!$this->_bIsCallback && !Phpfox::getParam('feed.add_feed_for_comments') && preg_match('/^(.*)_comment$/i', $sType))

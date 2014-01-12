@@ -45,6 +45,14 @@ defined('PHPFOX') or exit('NO DICE!');
 					<span class="js_location_name_hover" {if isset($aFeed.location_latlng) && isset($aFeed.location_latlng.latitude)}onmouseover="$Core.Feed.showHoverMap('{$aFeed.location_latlng.latitude}','{$aFeed.location_latlng.longitude}', this);"{/if}> - <a href="http://maps.google.com/maps?daddr={$aFeed.location_latlng.latitude},{$aFeed.location_latlng.longitude}" target="_blank">{phrase var='feed.at_location' location=$aFeed.location_name}</a>
 					</span> 
 				{/if}
+                                {if isset($aFeed.location_name)}
+                                    <span class="np_checkin_button_toggle">
+                                        - <a href="#" onclick="npShowMap(this); return false;">
+                                            {phrase var='feed.at_location' location=$aFeed.location_name}
+                                        </a>
+                                    </span>
+                                {/if}
+
 			</div>
 		{/if}
                 <span><b>{$aFeed.np_category}</b></span>
@@ -112,6 +120,9 @@ defined('PHPFOX') or exit('NO DICE!');
 			{/if}		
 			{/if}
 		</div>
+                
+                <div class="np_checkin_map_container"></div>
+                
 	</div><!-- // .activity_feed_content_text -->
 
 {if Phpfox::isMobile()}

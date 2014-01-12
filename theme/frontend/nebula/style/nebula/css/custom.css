@@ -2041,7 +2041,7 @@ div.activity_feed_form {
 
 div#js_main_feed_holder div#img_picker {
     width: 149px;
-    height: 149px;
+    height: 120px;
     background: url("../image/camera.png");
     display: inline-block;
     float: right;
@@ -2740,7 +2740,7 @@ div.sub_section_menu ul li.active a {
     border-radius:10px;
     -moz-border-radius:10px;
     -webkit-border-radius:10px;
-    padding: 15px 15px 20px;
+    padding: 15px 15px 10px;
 }
 
 .js_box_close {
@@ -2771,7 +2771,8 @@ div.sub_section_menu ul li.active a {
     border-radius:10px;
     -moz-border-radius:10px;
     -webkit-border-radius:10px;
-    height: 150px !important;
+    height: 122px !important;
+    margin-bottom: 3px;
 }
 
 .js_box_content .activity_feed_form, .js_box_content .activity_feed_form_button, .activity_feed_form_button {
@@ -3214,7 +3215,102 @@ div.mail_thread_holder div.row_title_image a img, div.mail_holder div.mail_image
     
 }
 
+#photo_checkin_wrapper {
+    width: 149px;
+    height: 149px;
+    display: inline-block;
+    float: right;
+}
+
+#js_main_feed_holder {
+    position: relative;
+}
+
+#js_main_feed_holder #checkin_map {
+    position: absolute;
+    width: 100%;
+    height: 82%;
+    display: none;
+    z-index: 1;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    overflow: hidden;
+}
+
 .comment_mini_link_image {
     height: 20px;
     overflow: hidden
+}
+
+div.np_checkin_map_container {
+    display: none;
+    height: 200px;
+}
+
+div.np_checkin_map_container img {
+    max-width: none;
+}
+
+div#checkin_map img {
+    max-width: none;
+}
+
+#js_main_feed_holder #checkin_picker a {
+    display: block;
+    width: 100%;
+    height: 25px;
+    margin-top: 3px;
+    float: left;
+    position: relative;
+    background: orange;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    text-align: center;
+    color: #ffffff;
+    line-height: 25px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+#np_checkin_form_wrapper {
+    display: block;
+    width: 100%;
+    height: 25px;
+    position: relative;
+}
+
+#np_checkin_name {
+    height: 25px;
+    width: 100%;
+    overflow: hidden;
+    display: block;
+    border: 1px #DFDFDF solid;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    color: #808080;
+    padding: 0 0 0 6px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#np_checkin_cancel {
+    display: none;
+    width: 25px;
+    height: 25px;
+    float: right;
+    background: orange;
+    border-radius: 25px;
+    -moz-border-radius: 25px;
+    -webkit-border-radius: 25px;
+    text-align: center;
+    color: #ffffff;
+    line-height: 25px;
+    text-transform: uppercase;
+    text-decoration: none;
+    position: absolute;
+    right: 0;
 }

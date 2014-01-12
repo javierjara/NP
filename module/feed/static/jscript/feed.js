@@ -12,6 +12,7 @@ var bCheckUrlCheck = false;
 var bCheckUrlForceAdd = false;
 var filterTimerId = -1;
 var reqDone = -1;
+var $CheckinMap;
 
 $Core.isInView = function(elem)
 {
@@ -1184,4 +1185,134 @@ function imgUrlOnChange(el) {
         
         $('#img_picker').css('background-image', 'url("static/image/misc/camera.png")');
     }
+}
+
+function npShowMap(el) {
+    var mapContainer = $(el).closest("div.activity_feed_content_text").find("div.np_checkin_map_container")[0],
+        isEmpty = ($(mapContainer).is(':empty'))    
+            
+    $(mapContainer).toggle("fade", function(){
+        if(isEmpty) {
+            var myLatlng = new google.maps.LatLng(45.4654542, 9.186515999999983);
+            var mapOptions = {
+              zoom: 15,
+              center: myLatlng
+            }
+            var map = new google.maps.Map(mapContainer, mapOptions);
+
+            var marker = new google.maps.Marker({
+                position: myLatlng,
+                map: map,
+                title: 'Hello World!'
+            });
+        }
+    });
+    
+    return false;
+}
+
+function npShowCheckinMap(el) {
+    var mapContainer = $(el).closest("div#js_main_feed_holder").find("div#checkin_map")[0],
+        isEmpty = ($(mapContainer).is(':empty'))    
+            
+    $(mapContainer).toggle("fade", function(){
+        if(isEmpty && navigator.geolocation) {
+            
+            var mapOptions = {
+                zoom: 14
+            };
+            
+            $CheckinMap = new google.maps.Map(mapContainer, mapOptions);
+            
+            navigator.geolocation.getCurrentPosition(function(position) {
+                var pos = new google.maps.LatLng(position.coords.latitude,position.coords.longitude),
+                    formatted_address = "Milano";
+                    
+                npGetFormattedAddress(pos, $CheckinMap);
+                
+              }, function(){alert('Check-in non supportato!');});            
+        }
+    });
+    
+    return false;
+  
+}
+
+function npGetFormattedAddress(pos, map) {
+  var latlng = pos,
+      formatted_address = "empty";
+  geocoder = new google.maps.Geocoder();
+  geocoder.geocode({'latLng': latlng}, function(results, status) {
+    if (status == google.maps.GeocoderStatus.OK) {
+      if (results[1]) {
+          var infowindow = new google.maps.InfoWindow({
+            map: map,
+            position: pos,
+            content: results[1].formatted_address
+          });
+
+          var marker = new google.maps.Marker({
+              position: pos,
+              map: map,
+              title: 'Hello World!'
+          });
+          
+          google.maps.event.addListener(marker, 'click', function(event) {
+            infowindow.open(map, marker);
+          });
+          
+          google.maps.event.addListenerOnce(map, 'idle', function(){
+            google.maps.event.trigger(marker,'click');
+            google.maps.event.trigger(map, 'resize')
+          });
+          
+          map.setCenter(pos);
+          
+          npUpdateCheckinData(results[1].formatted_address, pos.b, pos.d);
+          
+          npCheckinDataOnChange()
+          
+          
+      } else {
+        alert('No results found');
+      }
+    } else {
+      alert('Geocoder failed due to: ' + status);
+    }
+  });
+}
+
+function npUpdateCheckinData(text, lat, lng) {
+    $('#np_checkin_name').val(text);
+    $('#np_checkin_lat').val(lat);
+    $('#np_checkin_lng').val(lng);
+    
+}
+
+function npCheckinDataOnChange() {
+    var addr = $('#np_checkin_name').val();
+    
+    if(addr!=='') {
+        $('#np_checkin_cancel').show();
+    } else {
+        $('#np_checkin_cancel').hide();
+    }
+    
+    $CheckinMap;
+}
+
+function npResetCheckinData() {
+    $('#np_checkin_name').val('');
+    $('#np_checkin_lat').val('');
+    $('#np_checkin_lng').val('');
+    
+    return false;
+}
+
+function npCancelCheckin() {
+    npResetCheckinData();
+    $('#np_checkin_cancel').hide();
+    $('#checkin_map').hide().empty();
+    
+    return false;
 }

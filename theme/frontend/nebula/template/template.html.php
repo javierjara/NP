@@ -24,6 +24,8 @@ defined('PHPFOX') or exit('NO DICE!');
                    
                 {header}
                 
+                <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+                
                 <meta name="viewport"  content="initial-scale=1, maximum-scale=1, width=device-width, user-scalable=no" >
                 
 	</head>

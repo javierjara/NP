@@ -1539,6 +1539,10 @@ class Feed_Service_Feed extends Phpfox_Service
             $this->database()->update(Phpfox::getT('feed'), array('np_category' => $aCategory), 'feed_id = '. (int) $aId);
         }
         
+        public function updateFeedCheckin($aId, $aCategory) {
+            $this->database()->update(Phpfox::getT('feed'), array('np_category' => $aCategory), 'feed_id = '. (int) $aId);
+        }
+        
         public function updatePhotoFeedType($sType, $iItemId, $sFeedType)
 	{		
 		$this->database()->update(Phpfox::getT('feed'), array(

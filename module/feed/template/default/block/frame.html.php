@@ -13,6 +13,7 @@ defined('PHPFOX') or exit('NO DICE!');
 ?>
 <div id="js_main_feed_holder">
     
+    <div id="checkin_map"></div>
          
     <div class="activity_feed_form_share">
 	<div class="activity_feed_form_share_process">{img theme='ajax/add.gif' class='v_middle'}</div>
@@ -73,10 +74,14 @@ defined('PHPFOX') or exit('NO DICE!');
             <form method="post" action="#" id="js_activity_feed_form" enctype="multipart/form-data"
                     onsubmit="pufFeedFormSubmit(event,this);">
                 
-                
-    <div id="img_picker">
-        <input type="file" name="image[]" id="global_attachment_photo_file_input" value="" onchange="$bButtonSubmitActive = true; $('.activity_feed_form_button .button').removeClass('button_not_active'); imgUrlOnChange(this);" />
-    </div>
+    <div id="photo_checkin_wrapper">
+        <div id="img_picker">
+            <input type="file" name="image[]" id="global_attachment_photo_file_input" value="" onchange="$bButtonSubmitActive = true; $('.activity_feed_form_button .button').removeClass('button_not_active'); imgUrlOnChange(this);" />
+        </div>
+        <div id="checkin_picker">
+            <a href="#" onclick="npShowCheckinMap(this); return false;">Check-in</a>
+        </div>
+    </div>            
     
                     
                      <div id="js_custom_privacy_input_holder"></div>
@@ -122,6 +127,11 @@ defined('PHPFOX') or exit('NO DICE!');
                             {if Phpfox::isModule('egift')}
                                     {module name='egift.display'}
                             {/if}
+                            <div id="np_checkin_form_wrapper">
+                                <a id="np_checkin_cancel" href="#" onclick="npCancelCheckin()">X</a>
+                                <input type="text" id="np_checkin_name" name="val[np_checkin_name]" placeholder="Milano MI, Italia" onchange="npCheckinDataOnChange(); return false;" onkeyup="npCheckinDataOnChange(); return false;" />
+                            </div>
+                            
                     </div>
                     <div class="activity_feed_form_button" style="display:block;">
                             {if $bLoadCheckIn}
@@ -223,7 +233,9 @@ defined('PHPFOX') or exit('NO DICE!');
                             {/if}
 
                             <input type="hidden" id="np_post_type" name="val[np_post_type]" value="ex" />
-
+                            
+                            <input type="hidden" id="np_checkin_lat" name="val[np_checkin_lat]" />
+                            <input type="hidden" id="np_checkin_lng" name="val[np_checkin_lng]" />
                     </div>			
             </form>
             <div class="activity_feed_form_iframe"></div>
