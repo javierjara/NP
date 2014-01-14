@@ -13,6 +13,8 @@ var bCheckUrlForceAdd = false;
 var filterTimerId = -1;
 var reqDone = -1;
 var $CheckinMap;
+var $CheckinMarker;
+var $CheckinText = true;
 
 $Core.isInView = function(elem)
 {
@@ -1213,8 +1215,24 @@ function npShowMap(el) {
 
 function npShowCheckinMap(el) {
     var mapContainer = $(el).closest("div#js_main_feed_holder").find("div#checkin_map")[0],
-        isEmpty = ($(mapContainer).is(':empty'))    
-            
+        isEmpty = ($(mapContainer).is(':empty')),
+        isVisible = ($(mapContainer).is(':visible'));
+        
+        
+    if(isVisible) {
+        npCheckinROTrue();
+        $(el).removeClass('close');
+        $(el).text('CHECK-IN');
+        if($('#np_checkin_lat').val()==="") {
+            npCancelCheckin();
+            return false;
+        }
+    } else {
+        npCheckinROFalse();
+        $(el).addClass('close');
+        $(el).text('CLOSE');
+    }
+        
     $(mapContainer).toggle("fade", function(){
         if(isEmpty && navigator.geolocation) {
             
@@ -1232,10 +1250,10 @@ function npShowCheckinMap(el) {
                 
               }, function(){alert('Check-in non supportato!');});            
         }
+        
     });
     
     return false;
-  
 }
 
 function npGetFormattedAddress(pos, map) {
@@ -1245,33 +1263,31 @@ function npGetFormattedAddress(pos, map) {
   geocoder.geocode({'latLng': latlng}, function(results, status) {
     if (status == google.maps.GeocoderStatus.OK) {
       if (results[1]) {
-          var infowindow = new google.maps.InfoWindow({
-            map: map,
-            position: pos,
-            content: results[1].formatted_address
-          });
+//          var infowindow = new google.maps.InfoWindow({
+//            map: map,
+//            position: pos,
+//            content: results[1].formatted_address
+//          });
 
-          var marker = new google.maps.Marker({
+          $CheckinMarker = new google.maps.Marker({
               position: pos,
-              map: map,
-              title: 'Hello World!'
+              map: map
           });
           
-          google.maps.event.addListener(marker, 'click', function(event) {
-            infowindow.open(map, marker);
-          });
+//          google.maps.event.addListener($CheckinMarker, 'click', function(event) {
+//            infowindow.open(map, $CheckinMarker);
+//          });
           
           google.maps.event.addListenerOnce(map, 'idle', function(){
-            google.maps.event.trigger(marker,'click');
+            google.maps.event.trigger($CheckinMarker,'click');
             google.maps.event.trigger(map, 'resize')
           });
           
           map.setCenter(pos);
           
           npUpdateCheckinData(results[1].formatted_address, pos.b, pos.d);
-          
-          npCheckinDataOnChange()
-          
+          $('#np_checkin_cancel').show();
+          npCheckinDataOnChange();
           
       } else {
         alert('No results found');
@@ -1283,19 +1299,64 @@ function npGetFormattedAddress(pos, map) {
 }
 
 function npUpdateCheckinData(text, lat, lng) {
+    var latlng = new google.maps.LatLng(parseFloat(lat), parseFloat(lng));
     $('#np_checkin_name').val(text);
     $('#np_checkin_lat').val(lat);
     $('#np_checkin_lng').val(lng);
-    
+    $CheckinMap.setCenter(latlng);
+    $CheckinMarker.setMap(null);
+    $CheckinMarker = new google.maps.Marker({
+        map: $CheckinMap,
+        position: latlng
+    });
+    $('#np_checkin_suggestions').fadeOut('fast');
 }
 
 function npCheckinDataOnChange() {
-    var addr = $('#np_checkin_name').val();
-    
+    var addr = $('#np_checkin_name').val(),
+        geocoder = new google.maps.Geocoder();
+        
+        if(!$("div#checkin_map").is(':visible')) {
+            return false;
+        }
+        
+        if($CheckinText){
+            $CheckinText = false;
+            return false;
+        }
+
     if(addr!=='') {
         $('#np_checkin_cancel').show();
+        
+        geocoder.geocode( { 'address': addr}, function(results, status) {
+          if (status == google.maps.GeocoderStatus.OK) {
+            var i = 0;
+            $CheckinMap.setCenter(results[0].geometry.location);
+            $CheckinMarker.setMap(null);
+            $CheckinMarker = new google.maps.Marker({
+                map: $CheckinMap,
+                position: results[0].geometry.location
+            });                
+            $('#np_checkin_suggestions').empty();
+            for(i;i<results.length;i++) {
+                $('#np_checkin_suggestions').append("<li onclick='npCheckinLiClicked(true); setTimeout(function(){npUpdateCheckinData(\""+results[i].formatted_address+"\", \""+results[i].geometry.location.b+"\", \""+results[i].geometry.location.d+"\");},250); return false;'>"+results[i].formatted_address+"</li>");
+                if(i==4) {
+                    break;
+                }
+            }
+            $('#np_checkin_suggestions').fadeIn();
+            
+          } else {
+                $('#np_checkin_suggestions').fadeOut();
+                $('#np_checkin_lat').val('');
+                $('#np_checkin_lng').val('');
+          }
+        });
+        
     } else {
         $('#np_checkin_cancel').hide();
+        $('#np_checkin_suggestions').fadeOut();
+        npResetCheckinData();
     }
     
     $CheckinMap;
@@ -1313,6 +1374,21 @@ function npCancelCheckin() {
     npResetCheckinData();
     $('#np_checkin_cancel').hide();
     $('#checkin_map').hide().empty();
+    $('#checkin_picker a').removeClass('close');
+    $('#checkin_picker a').text('CHECK-IN');
+    $CheckinText = true;
     
     return false;
+}
+
+function npCheckinROTrue() {
+    $('#np_checkin_name').attr('readonly', true);
+}
+
+function npCheckinROFalse() {
+    $('#np_checkin_name').attr('readonly', false);
+}
+
+function npCheckinLiClicked(click) {
+    $CheckinText = click;
 }

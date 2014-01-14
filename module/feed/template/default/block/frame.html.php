@@ -128,8 +128,10 @@ defined('PHPFOX') or exit('NO DICE!');
                                     {module name='egift.display'}
                             {/if}
                             <div id="np_checkin_form_wrapper">
-                                <a id="np_checkin_cancel" href="#" onclick="npCancelCheckin()">X</a>
-                                <input type="text" id="np_checkin_name" name="val[np_checkin_name]" placeholder="Milano MI, Italia" onchange="npCheckinDataOnChange(); return false;" onkeyup="npCheckinDataOnChange(); return false;" />
+                                <a id="np_checkin_cancel" href="#" onclick="npCancelCheckin(); return false;">x</a>
+                                <ul id="np_checkin_suggestions">
+                                </ul>
+                                <input type="text" id="np_checkin_name" name="val[np_checkin_name]" placeholder="Milano MI, Italia" onchange="npCheckinDataOnChange(); return false;" onkeyup="npCheckinDataOnChange(); return false;" readonly />
                             </div>
                             
                     </div>
