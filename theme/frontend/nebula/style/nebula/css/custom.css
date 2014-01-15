@@ -2797,13 +2797,19 @@ div.sub_section_menu ul li.active a {
     display: none;
 }
 
-
-@font-face { 
-    font-family: Montserrat; src: url('Montserrat-Regular.ttf'); 
+@font-face {
+  font-family: 'Montserrat-Regular';
+  src: url('Montserrat-Regular.eot');
+  src: url('Montserrat-Regular.eot?#iefix') format('embedded-opentype'),
+       url('Montserrat-Regular.woff') format('woff'),
+       url('Montserrat-Regular.ttf') format('truetype'),
+       url('Montserrat-Regular.svg#Montserrat-Regular') format('svg');
 }
 
 body {
-    font-family: Montserrat;
+    font-family: 'Montserrat-Regular',sans-serif;
+    font-style: normal;
+    font-weight: 400;
 }
 
 .activity_feed_content_status {
@@ -3360,4 +3366,9 @@ ul#np_checkin_suggestions li:hover {
 
 #js_main_feed_holder #checkin_picker a.close {
     background: rgb(253, 208, 125);
+}
+
+.js_like_link_holder a, .js_like_link_holder a:hover {
+    background: none !important;
+    padding-left: 0 !important; 
 }
