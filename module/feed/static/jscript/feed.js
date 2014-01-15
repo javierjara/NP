@@ -1189,13 +1189,15 @@ function imgUrlOnChange(el) {
     }
 }
 
-function npShowMap(el) {
+function npShowMap(el, lat, lng) {
     var mapContainer = $(el).closest("div.activity_feed_content_text").find("div.np_checkin_map_container")[0],
         isEmpty = ($(mapContainer).is(':empty'))    
             
     $(mapContainer).toggle("fade", function(){
         if(isEmpty) {
-            var myLatlng = new google.maps.LatLng(45.4654542, 9.186515999999983);
+            var latF = parseFloat(lat),
+                lngF = parseFloat(lng),
+                myLatlng = new google.maps.LatLng(latF, lngF);
             var mapOptions = {
               zoom: 15,
               center: myLatlng

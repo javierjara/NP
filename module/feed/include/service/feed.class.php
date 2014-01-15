@@ -1210,7 +1210,6 @@ class Feed_Service_Feed extends Phpfox_Service
 		}	
 		$oAjax->call('$Core.loadInit();');
                 
-                //$oAjax->call('alert("mammt")');
 	}
 	
 	public function getShareLinks()
@@ -1539,8 +1538,8 @@ class Feed_Service_Feed extends Phpfox_Service
             $this->database()->update(Phpfox::getT('feed'), array('np_category' => $aCategory), 'feed_id = '. (int) $aId);
         }
         
-        public function updateFeedCheckin($aId, $aCategory) {
-            $this->database()->update(Phpfox::getT('feed'), array('np_category' => $aCategory), 'feed_id = '. (int) $aId);
+        public function updateFeedCheckin($aId, $aName, $aLat, $aLng ) {
+            $this->database()->update(Phpfox::getT('feed'), array('np_checkin_name' => $aName,'np_checkin_lat' => $aLat,'np_checkin_lng' => $aLng), 'feed_id = '. (int) $aId);
         }
         
         public function updatePhotoFeedType($sType, $iItemId, $sFeedType)

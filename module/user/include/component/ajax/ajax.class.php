@@ -211,6 +211,8 @@ class User_Component_Ajax_Ajax extends Phpfox_Ajax
                         
                         Phpfox::getService('feed')->updateFeedCategory($iId, $aVals['np_post_category']);
                         
+                        Phpfox::getService('feed')->updateFeedCheckin($iId, $aVals['np_checkin_name'], $aVals['np_checkin_lat'], $aVals['np_checkin_lng'] );
+                        
                         
                         Phpfox::getService('feed')->processAjax($iId, $aVals['np_post_type'], $aVals['np_post_category']);	
 			//Phpfox::getService('feed')->processAjax($iId);

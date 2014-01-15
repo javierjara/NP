@@ -45,10 +45,10 @@ defined('PHPFOX') or exit('NO DICE!');
 					<span class="js_location_name_hover" {if isset($aFeed.location_latlng) && isset($aFeed.location_latlng.latitude)}onmouseover="$Core.Feed.showHoverMap('{$aFeed.location_latlng.latitude}','{$aFeed.location_latlng.longitude}', this);"{/if}> - <a href="http://maps.google.com/maps?daddr={$aFeed.location_latlng.latitude},{$aFeed.location_latlng.longitude}" target="_blank">{phrase var='feed.at_location' location=$aFeed.location_name}</a>
 					</span> 
 				{/if}
-                                {if isset($aFeed.location_name)}
+                                {if isset($aFeed.np_checkin_name) && isset($aFeed.np_checkin_lng)}
                                     <span class="np_checkin_button_toggle">
-                                        - <a href="#" onclick="npShowMap(this); return false;">
-                                            {phrase var='feed.at_location' location=$aFeed.location_name}
+                                        - <a href="#" onclick="npShowMap(this, '{$aFeed.np_checkin_lat}', '{$aFeed.np_checkin_lng}'); return false;">
+                                            {phrase var='feed.at_location' location=$aFeed.np_checkin_name}
                                         </a>
                                     </span>
                                 {/if}

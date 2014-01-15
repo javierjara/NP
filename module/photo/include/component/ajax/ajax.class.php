@@ -612,7 +612,7 @@ class Photo_Component_Ajax_Ajax extends Phpfox_Ajax
 			{
 				if (Phpfox::isModule('feed'))
 				{
-					$iFeedId = Phpfox::getService('feed.process')->callback($aCallback)->add('photo', $aPhoto['photo_id'], $aPhoto['privacy'], $aPhoto['privacy_comment'], (int) $this->get('parent_user_id', 0), null, 0, 0, null, $_POST['np_post_type'],$_POST['np_post_category']);
+					$iFeedId = Phpfox::getService('feed.process')->callback($aCallback)->add('photo', $aPhoto['photo_id'], $aPhoto['privacy'], $aPhoto['privacy_comment'], (int) $this->get('parent_user_id', 0), null, 0, 0, null, $_POST['np_post_type'],$_POST['np_post_category'], $_POST['np_checkin_name'], $_POST['np_checkin_lat'], $_POST['np_checkin_lng']);
 				}
 				if (count($aImages) && !$this->get('callback_module'))
 				{
