@@ -3428,3 +3428,75 @@ ul#rate_bar + img {
     height: auto;
 }
 
+/* Photo Battle END */
+
+/* Fav Menu Bubble */
+
+#sidr #nb_main_menu ul li a span {
+    padding: 0;
+}
+
+#sidr #nb_main_menu ul li a span:hover {
+    color: #FFFFFF;
+}
+
+#right #nb_main_menu ul li a:hover {
+    background: none;
+}
+
+#right #nb_main_menu ul li a span.fav_menu {
+    display: block;
+    width: 80px;
+    height: 80px;
+    background-color: #3b4ba3;
+    border-radius: 50%;
+    box-shadow: inset -25px -25px 40px rgba(0,0,0,.3);
+    background-image: -webkit-linear-gradient(-45deg, rgba(255,255,220,.2) 0%, transparent 100%);
+    background-image: -moz-linear-gradient(-45deg, rgba(255,255,220,.2) 0%, transparent 100%);  
+    background-image: -o-linear-gradient(-45deg, rgba(255,255,220,.2) 0%, transparent 100%);
+    background-image: -ms-linear-gradient(-45deg, rgba(255,255,220,.2) 0%, transparent 100%);
+    text-align: center;
+    line-height: 80px;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#right #nb_main_menu ul li a span.fav_menu.photo {
+    background-color: #E13A3A;
+} 
+
+#right #nb_main_menu ul li a span.fav_menu.message {
+    background-color: #CB3AE1;
+}
+
+#right #nb_main_menu ul li a span.fav_menu.friend {
+    background-color: #E1DF3A;
+}
+
+#right #nb_main_menu ul li a span.fav_menu.blog {
+    background-color: #6BE13A;
+}
+
+#right #nb_main_menu ul li a span.fav_menu.community {
+    background-color: #3A5AE1;
+}
+
+#right #nb_main_menu ul li a span.fav_menu.forum {
+    background-color: #E19C3A;
+}
+
+#right #nb_main_menu ul li a {
+    display: block;
+    float: left;
+    height: auto;
+    padding: 0;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+#right #nb_main_menu ul li a.menu_is_selected {
+    background: none;
+}
+
+/* Fav Menu Bubble END */
