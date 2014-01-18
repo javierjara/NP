@@ -91,6 +91,35 @@ class User_Service_User extends Phpfox_Service
 		}
 		return $sName;
 	}
+        
+        public function getCurrentNameNpSurDot($iUserId, $sName)
+	{
+		static $aCachedUserInfo = array();
+		if (Phpfox::getParam('user.cache_user_inner_joins'))
+		{
+			$aUser = $this->getStaticInfo($iUserId);
+			if ($aUser !== false)
+			{
+                            /* Nextplease */
+                            $arrstr = explode(" ", $aUser['full_name']);
+                            $npName = ucfirst($arrstr[0]).' '.ucfirst(substr($arrstr[1], 0, 1)).'.';
+
+                            return $npName;
+			}
+			
+                        /* Nextplease */
+                        $arrstr = explode(" ", $sName);
+                        $npName = ucfirst($arrstr[0]).' '.ucfirst(substr($arrstr[1], 0, 1)).'.';
+                        
+			return $npName;
+		}
+		
+                /* Nextplease */
+                $arrstr = explode(" ", $sName);
+                $npName = ucfirst($arrstr[0]).' '.ucfirst(substr($arrstr[1], 0, 1)).'.';
+
+                return $npName;
+	}
 	
 	public function getByUserName($sUser)
 	{	

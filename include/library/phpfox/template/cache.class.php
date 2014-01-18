@@ -1695,7 +1695,7 @@ class Phpfox_Template_Cache extends Phpfox_Template
 								{
 									$aArgs[2] = Phpfox::getParam($this->_removeQuote($aArgs[2]));
 								}
-								$sValue = '\' . Phpfox::getLib(\'phpfox.parse.output\')->shorten(Phpfox::getService(\'user\')->getCurrentName(' . $sVariable . '[\'' . $sSuffix . 'user_id\'], ' . $sVariable . '[\'' . $sSuffix . 'full_name\']), ' . $this->_removeQuote($aArgs[2]) . ', \'...\') . \'';
+								$sValue = '\' . Phpfox::getLib(\'phpfox.parse.output\')->shorten(Phpfox::getService(\'user\')->getCurrentNameNpSurDot(' . $sVariable . '[\'' . $sSuffix . 'user_id\'], ' . $sVariable . '[\'' . $sSuffix . 'full_name\']), ' . $this->_removeQuote($aArgs[2]) . ', \'...\') . \'';
 							}
 
 							if (isset($aArgs[3]))
@@ -1717,6 +1717,7 @@ class Phpfox_Template_Cache extends Phpfox_Template
 								}
 							}							
 						}
+                                                
 						$sVariable = '\'<span class="user_profile_link_span" id="js_user_name_link_\' . ' . $sVariable . '[\'' . $sSuffix . 'user_name\'] . \'"' . ($bAuthor ? ' itemprop="author"' : '') . '><a href="\' . Phpfox::getLib(\'phpfox.url\')->makeUrl(\'profile\', array(' . $sVariable . '[\'' . $sSuffix . 'user_name\'], ((empty(' . $sVariable . '[\'' . $sSuffix . 'user_name\']) && isset(' . $sVariable . '[\'' . $sSuffix . 'profile_page_id\'])) ? ' . $sVariable . '[\'' . $sSuffix . 'profile_page_id\'] : null))) . \'"' . $sExtra . '>' . $sValue . '</a></span>\'';
 						break;
 					case 'gender':

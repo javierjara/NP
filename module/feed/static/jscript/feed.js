@@ -15,6 +15,7 @@ var reqDone = -1;
 var $CheckinMap;
 var $CheckinMarker;
 var $CheckinText = true;
+var $CheckinInterval = -1;
 
 $Core.isInView = function(elem)
 {
@@ -1328,6 +1329,12 @@ function npCheckinDataOnChange() {
         }
 
     if(addr!=='') {
+//        if($CheckinInterval>=0) {
+//            
+//        }
+//        $CheckinInterval = setTimeout(function(){
+//            
+//        }, )
         $('#np_checkin_cancel').show();
         
         geocoder.geocode( { 'address': addr}, function(results, status) {

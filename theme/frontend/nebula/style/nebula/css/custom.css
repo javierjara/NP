@@ -3372,3 +3372,8 @@ ul#np_checkin_suggestions li:hover {
     background: none !important;
     padding-left: 0 !important; 
 }
+
+div#sidr div.nb_name_image a img {
+    width: 50px;
+    height: 50px;
+}
