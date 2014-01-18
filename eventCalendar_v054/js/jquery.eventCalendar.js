@@ -376,6 +376,10 @@
 					if (eventYear == flags.wrap.attr('data-current-year') && eventMonth == flags.wrap.attr('data-current-month')) {
 						flags.wrap.find('.currentMonth .eventsCalendar-daysList #dayList_' + parseInt(eventDay)).addClass('dayWithEvents');
 					}
+                                        
+                                        if (event.nptype==="ex") {
+                                            flags.wrap.find('.currentMonth .eventsCalendar-daysList #dayList_' + parseInt(eventDay)).addClass('ex');
+                                        }
 
 				});
 			}
@@ -456,11 +460,11 @@
             
             form ="<form name='addNextForm' id='addNextForm' style='display:none;' onsubmit='nextEventFormSubmit(this); return false;'>";
             title = "<label for='title'>Title*</label><input type='text' name='title' placeholder='My birthday' />";
-            description = "<label for='description'>Description*</label><textarea type='decription' name='description' placeholder='Today, many years ago, I was born!' ></textarea>";
-            time = "<label for='time'>Time*</label><input type='text' name='time' placeholder='20:30' />";
+//            description = "<label for='description'>Description*</label><textarea type='decription' name='description' placeholder='Today, many years ago, I was born!' ></textarea>";
+//            time = "<label for='time'>Time*</label><input type='text' name='time' placeholder='20:30' />";
             date = "<input type='hidden' name='date' />";
-            type = "<label for='type'>Type</label><input type='text' name='type' placeholder='Party'/>";
-            url = "<label for='url'>Url</label><input type='text' name='url' placeholder='www.bestpartyever.com'/>";
+//            type = "<label for='type'>Type</label><input type='text' name='type' placeholder='Party'/>";
+//            url = "<label for='url'>Url</label><input type='text' name='url' placeholder='www.bestpartyever.com'/>";
             share = "<label for='time' style='display: inline;'>Share with the community</label><input type='checkbox' name='share' value='share' style='width: auto;margin-left: 15px;display: inline-block;'>";
             npType = "<span style='font-size: 13px;'>Ex Life</span>  <input type='radio' name='npType' value='ex' style='width: auto;display: inline;margin-right: 20px;'><span style='font-size: 13px;'>Next Life</span>  <input checked='checked' type='radio' name='npType' value='next' style='width: auto;display: inline;'><br>";
             reset = "<input type='reset' id='resetForm' style='display:none;' />";
@@ -468,7 +472,8 @@
             
             
             
-            form+=date+title+description+time+type+url+npType+share+reset+submit;
+            //form+=date+title+description+time+type+url+npType+share+reset+submit;
+            form+=date+title+npType+share+reset+submit;
             form+="</form>";
             
             $("div.addNextWrapper").append(form);
@@ -555,12 +560,12 @@ function nextEventFormSubmit(el) {
     nextEventHideError();
     
     title = $(el).find('input[name="title"]');
-    description = $(el).find('textarea[name="description"]');
-    time = $(el).find('input[name="time"]');
+//    description = $(el).find('textarea[name="description"]');
+//    time = $(el).find('input[name="time"]');
     share = $(el).find('input[name="share"]');
     dateDom = $(el).find('input[name="date"]');
-    type = $(el).find('input[name="type"]');
-    url = $(el).find('input[name="url"]');
+//    type = $(el).find('input[name="type"]');
+//    url = $(el).find('input[name="url"]');
     npType = $(el).find('input[name="npType"]:checked').val();
     
     if(title.val()==="") {
@@ -568,15 +573,15 @@ function nextEventFormSubmit(el) {
         return false;
     }
 
-    if(description.val()==="") {
-        nextEventShowError("Add a description!");
-        return false;
-    }
+//    if(description.val()==="") {
+//        nextEventShowError("Add a description!");
+//        return false;
+//    }
     
-    if(!(/^([01]\d|2[0-3]):?([0-5]\d)$/.test(time.val()))) {
-        nextEventShowError("Invalid time!");
-        return false;
-    }
+//    if(!(/^([01]\d|2[0-3]):?([0-5]\d)$/.test(time.val()))) {
+//        nextEventShowError("Invalid time!");
+//        return false;
+//    }
     
     if($('#eventCalendarHumanDate .eventsCalendar-day.current').length===0) {
         nextEventShowError("Pick a date!");
@@ -588,18 +593,25 @@ function nextEventFormSubmit(el) {
     year = $('#eventCalendarHumanDate').data('currentYear');
     
     date.setFullYear(year,month,day);
-    date.setHours(parseInt(time.val().substring(0,2)),parseInt(time.val().substring(3,5)));
+//    date.setHours(parseInt(time.val().substring(0,2)),parseInt(time.val().substring(3,5)));
     
     dateDom.val(date);
     
     postData = $(el).serializeArray();
     
+//    if(share.is(':checked')) {
+//        var calendarFeedText = '<div title="calendar-icon-feed"> </div>';
+//            calendarFeedText += "<b>" + title.val() + "</b><br>" + description.val();
+//            calendarFeedText += (type.val()!=="") ? "<br>" + type.val() : "";
+//            calendarFeedText += (url.val()!=="") ? "<br>" + url.val() : "";
+//            calendarFeedText += "<br><br><i>" + day + "/" + (month+1) + "/" + year + " " + time.val() + "</i>";
+//        $('<form><div class="global_attachment_holder_section" id="global_attachment_status" style="display:block;"><div id="global_attachment_status_value" style="display:none;"></div><textarea cols="60" rows="8" name="val[user_status]" onkeydown="pufDoResize(this);" onfocus="pufTextareaFocus(this); return false;">'+ calendarFeedText +'</textarea><div id="js_location_feedback"></div></div><input type="hidden" id="np_post_type" name="val[np_post_type]" value="'+npType+'"></form>').ajaxCall("user.updateStatus");
+//    }
+
     if(share.is(':checked')) {
         var calendarFeedText = '<div title="calendar-icon-feed"> </div>';
-            calendarFeedText += "<b>" + title.val() + "</b><br>" + description.val();
-            calendarFeedText += (type.val()!=="") ? "<br>" + type.val() : "";
-            calendarFeedText += (url.val()!=="") ? "<br>" + url.val() : "";
-            calendarFeedText += "<br><br><i>" + day + "/" + (month+1) + "/" + year + " " + time.val() + "</i>";
+            calendarFeedText += "<b>" + title.val() + "</b>";
+            calendarFeedText += "<br><i>" + day + "/" + (month+1) + "/" + year + " </i>";
         $('<form><div class="global_attachment_holder_section" id="global_attachment_status" style="display:block;"><div id="global_attachment_status_value" style="display:none;"></div><textarea cols="60" rows="8" name="val[user_status]" onkeydown="pufDoResize(this);" onfocus="pufTextareaFocus(this); return false;">'+ calendarFeedText +'</textarea><div id="js_location_feedback"></div></div><input type="hidden" id="np_post_type" name="val[np_post_type]" value="'+npType+'"></form>').ajaxCall("user.updateStatus");
     }
     

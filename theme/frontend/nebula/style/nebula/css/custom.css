@@ -1946,6 +1946,7 @@ div.activity_feed_content {
 div.activity_feed_content_text{
     /* padding-left: 40px; */
     padding-top: 5px;
+    min-height: 100px;
 }
 
 .user_profile_link_span a {
@@ -2394,8 +2395,20 @@ div#eventCalendarHumanDate #calendarEventErrorForm {
     background: #52C921;
 }
 
+.eventsCalendar-daysList li.dayWithEvents.ex a {
+    background: #009AEF;
+}
+
 li.eventsCalendar-day.dayWithEvents a:hover {
     background: #98E479;
+}
+
+li.eventsCalendar-day.dayWithEvents.ex a:hover {
+    background: #84C3E5;
+}
+
+.eventsCalendar-daysList li.current.ex a {
+    box-shadow: inset 5px 5px 10px #216B7A;
 }
 
 div.activity_feed_content_info {

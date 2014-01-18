@@ -432,7 +432,7 @@ class Feed_Component_Ajax_Ajax extends Phpfox_Ajax
                 // …
                 $i++;
                 
-                $json .= "{ 'date': '".$value['date']."', 'type': '".$value['type']."', 'title': '".$value['title']."', 'description': '".$value['description']."', 'url': '".$value['url']."'}".$separator;
+                $json .= "{ 'date': '".$value['date']."', 'type': '".$value['type']."', 'title': '".$value['title']."', 'description': '".$value['description']."', 'url': '".$value['url']."', 'nptype': '".$value['np_type']."'}".$separator;
                 
                 //$json = array("date" => $value['date'], "type" => $value['type'], "title" => $value['title'], "description" => $value['description'], "url" =>$value['url']);
                
@@ -450,10 +450,11 @@ class Feed_Component_Ajax_Ajax extends Phpfox_Ajax
                     array(
                         'user' => $user,
                         'title' => $_POST['title'],
-                        'description' => $_POST['description'],
-                        'type' => $_POST['type'],
-                        'url' => $_POST['url'],
-                        'date' => $data));
+//                        'description' => $_POST['description'],
+//                        'type' => $_POST['type'],
+//                        'url' => $_POST['url'],
+                        'date' => $data,
+                        'np_type' => $_POST['npType']));
         }
         
 }
