@@ -3377,3 +3377,41 @@ div#sidr div.nb_name_image a img {
     width: 50px;
     height: 50px;
 }
+
+/* Photo Battle */
+div.photo_battle_holder div.photo_battle_left {
+    width: 40%;
+}
+
+div.photo_battle_holder div.photo_battle_center {
+    width: 10%;
+    text-align: center;
+    left: 44%;
+}
+
+div.photo_battle_holder div.photo_battle_right {
+    width: 40%;
+}
+
+div.photo_battle_holder div.extra_info {
+    top: 0;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}
+
+div.photo_battle_holder img {
+    display: table;
+    margin: auto;
+    margin-top: 50px;
+    height: auto;
+}
+
+div#photo_battl_full_close {
+    display: none;
+}
+
+ul#rate_bar + img {
+    height: auto;
+}
+
