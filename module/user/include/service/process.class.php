@@ -1092,8 +1092,8 @@ class User_Service_Process extends Phpfox_Service
 
 		(($sPlugin = Phpfox_Plugin::get('user.service_process_add_updatestatus')) ? eval($sPlugin) : false);		
 		
-		$iReturnId = Phpfox::getService('feed.process')->add('user_status', $iStatusId, $aVals['privacy'], $aVals['privacy_comment'], 0, null, 0, (isset($aVals['parent_feed_id']) ? $aVals['parent_feed_id'] : 0), (isset($aVals['parent_module_id']) ? $aVals['parent_module_id'] : null));
-		
+		$iReturnId = Phpfox::getService('feed.process')->add('user_status', $iStatusId, $aVals['privacy'], $aVals['privacy_comment'], 0, null, 0, (isset($aVals['parent_feed_id']) ? $aVals['parent_feed_id'] : 0), (isset($aVals['parent_module_id']) ? $aVals['parent_module_id'] : null), $aVals['np_post_type'], null, $aVals['np_checkin_name'], $aVals['np_checkin_lat'], $aVals['np_checkin_lng'], $aVals['np_youtube'], $aVals['np_youtube_title'], $aVals['np_youtube_desc'], $aVals['np_youtube_thumb']);
+                                                                                                                                                                                                                             
 		(($sPlugin = Phpfox_Plugin::get('user.service_process_add_updatestatus_end')) ? eval($sPlugin) : false);
 		
 		return $iReturnId;

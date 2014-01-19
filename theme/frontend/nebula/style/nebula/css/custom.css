@@ -3467,7 +3467,7 @@ ul#rate_bar + img {
 } 
 
 #right #nb_main_menu ul li a span.fav_menu.message {
-    background-color: #CB3AE1;
+    background-color: #3AA7E1;
 }
 
 #right #nb_main_menu ul li a span.fav_menu.friend {
@@ -3500,3 +3500,57 @@ ul#rate_bar + img {
 }
 
 /* Fav Menu Bubble END */
+
+#np_youtube_cancel {
+    display: block;
+    width: 35px;
+    height: 25px;
+    float: right;
+    background: orange;
+    border-radius: 0 10px 0 10px;
+    -moz-border-radius: 0 10px 0 10px;
+    -webkit-border-radius: 0 10px 0 10px;
+    text-align: center;
+    color: #ffffff;
+    line-height: 24px;
+    text-decoration: none;
+    position: absolute;
+    right: 0;
+    font-size: 16px;
+    z-index: 3;
+}
+
+#np_youtube_cancel_layer {
+    display: none;
+    width: 100%;
+    height: 100%;
+}
+
+a.np_youtube_preview_container {
+    display: block;
+    margin-top: 10px;
+    background: #52C921;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+a.np_youtube_preview_container img {
+    width: 100%;
+}
+
+a.np_youtube_preview_container h3 {
+    margin-left: 10px;
+    border: none;
+    color: #ffffff;
+}
+
+a.np_youtube_preview_container p {
+    margin-left: 10px;
+    border: none;
+    padding-bottom: 10px;
+    color: #ffffff;
+}
+
+div.post_type_ex a.np_youtube_preview_container {
+    background: #009AEF;
+}    

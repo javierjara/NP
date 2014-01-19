@@ -16,6 +16,7 @@ var $CheckinMap;
 var $CheckinMarker;
 var $CheckinText = true;
 var $CheckinInterval = -1;
+var npYoutubeTimeout = -1;
 
 $Core.isInView = function(elem)
 {
@@ -1400,4 +1401,55 @@ function npCheckinROFalse() {
 
 function npCheckinLiClicked(click) {
     $CheckinText = click;
+}
+
+function npDetectYoutubeVideo(el) {
+    clearTimeout(npYoutubeTimeout);
+    
+    npYoutubeTimeout = setTimeout(function(){
+        var text = $(el).val(),
+            res = text.match(/(http|https):\/\/(?:www\.)?youtube.com\/watch\?(?=.*v=\w+)(?:\S+)?/i),
+            video_id,
+            ampersandPosition,
+            thumb,
+            title,
+            desc;
+            
+            if(res!==null) {
+                video_id = res[0].split('v=')[1];
+            } else {
+                return false;
+            }
+            
+            ampersandPosition = video_id.indexOf('&');
+            
+            if(ampersandPosition !== -1) {
+              video_id = video_id.substring(0, ampersandPosition);
+            }
+            
+        $.getJSON('http://gdata.youtube.com/feeds/api/videos/'+video_id+'?v=2&alt=jsonc',function(data,status,xhr){
+            title = data.data.title;
+            desc = data.data.description;
+            thumb = data.data.thumbnail.hqDefault;
+            console.log(title,desc,thumb);
+            
+            $('#np_youtube').val(res[0]);
+            $('#np_youtube_title').val(title);
+            $('#np_youtube_desc').val(desc);
+            $('#np_youtube_thumb').val(thumb);
+            $('#img_picker').css('background-image', 'url("'+data.data.thumbnail.hqDefault+'")');
+            $('#np_youtube_cancel_layer').show();
+        });
+    }, 
+    1000);
+    
+}
+
+function npCancelYoutube() {
+    $('#np_youtube').val("");
+    $('#np_youtube_title').val("");
+    $('#np_youtube_desc').val("");
+    $('#np_youtube_thumb').val("");
+    $('#np_youtube_cancel_layer').hide();
+    $('#img_picker').css('background-image', 'url("static/image/misc/camera.png")');
 }

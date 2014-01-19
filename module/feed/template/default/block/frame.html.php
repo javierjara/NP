@@ -76,6 +76,9 @@ defined('PHPFOX') or exit('NO DICE!');
                 
     <div id="photo_checkin_wrapper">
         <div id="img_picker">
+            <div id="np_youtube_cancel_layer">
+                <a id="np_youtube_cancel" href="#" onclick="npCancelYoutube(); return false;">x</a>
+            </div>
             <input type="file" name="image[]" id="global_attachment_photo_file_input" value="" onchange="$bButtonSubmitActive = true; $('.activity_feed_form_button .button').removeClass('button_not_active'); imgUrlOnChange(this);" />
         </div>
         <div id="checkin_picker">
@@ -109,8 +112,10 @@ defined('PHPFOX') or exit('NO DICE!');
                             <div class="global_attachment_holder_section" id="global_attachment_status" style="display:block;">
                                     <div id="global_attachment_status_value" style="display:none;">{if isset($aFeedCallback.module) || defined('PHPFOX_IS_USER_PROFILE')}{phrase var='feed.write_something'}{else}{phrase var='feed.what_s_on_your_mind'}{/if}</div>
                                     <textarea {if isset($aPage)} id="pageFeedTextarea" {else} {if isset($aEvent)} id="eventFeedTextarea" {else} {if isset($bOwnProfile) && $bOwnProfile == false}id="profileFeedTextarea" {/if}{/if}{/if} cols="60" rows="8" name="val[user_status]"
-                                        onkeydown="pufDoResize(this);"
-                                        onfocus="pufTextareaFocus(this); return false;" placeholder="{if isset($aFeedCallback.module) || defined('PHPFOX_IS_USER_PROFILE')}{phrase var='feed.write_something'}{else}{phrase var='feed.what_s_on_your_mind'}{/if}"></textarea>
+                                        onkeydown="pufDoResize(this);npDetectYoutubeVideo(this);"
+                                        onfocus="pufTextareaFocus(this); return false;" placeholder="{if isset($aFeedCallback.module) || defined('PHPFOX_IS_USER_PROFILE')}{phrase var='feed.write_something'}{else}{phrase var='feed.what_s_on_your_mind'}{/if}"
+                                        onchange="npDetectYoutubeVideo(this); return false;"
+                                        onpaste="npDetectYoutubeVideo(this);"></textarea>
                     {if isset($bLoadCheckIn) && $bLoadCheckIn == true}
                         <script type="text/javascript">
                             oTranslations['feed.at_location'] = "{phrase var='feed.at_location'}";
@@ -238,6 +243,11 @@ defined('PHPFOX') or exit('NO DICE!');
                             
                             <input type="hidden" id="np_checkin_lat" name="val[np_checkin_lat]" />
                             <input type="hidden" id="np_checkin_lng" name="val[np_checkin_lng]" />
+                            
+                            <input type="hidden" id="np_youtube" name="val[np_youtube]" />
+                            <input type="hidden" id="np_youtube_title" name="val[np_youtube_title]" />
+                            <input type="hidden" id="np_youtube_desc" name="val[np_youtube_desc]" />
+                            <input type="hidden" id="np_youtube_thumb" name="val[np_youtube_thumb]" />
                     </div>			
             </form>
             <div class="activity_feed_form_iframe"></div>
