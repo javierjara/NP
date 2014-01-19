@@ -1289,7 +1289,7 @@ function npGetFormattedAddress(pos, map) {
           
           map.setCenter(pos);
           
-          npUpdateCheckinData(results[1].formatted_address, pos.b, pos.d);
+          npUpdateCheckinData(results[1].formatted_address, pos.d, pos.e);
           $('#np_checkin_cancel').show();
           npCheckinDataOnChange();
           
@@ -1330,38 +1330,37 @@ function npCheckinDataOnChange() {
         }
 
     if(addr!=='') {
-//        if($CheckinInterval>=0) {
-//            
-//        }
-//        $CheckinInterval = setTimeout(function(){
-//            
-//        }, )
-        $('#np_checkin_cancel').show();
+
+        clearTimeout($CheckinInterval);
+
+        $CheckinInterval = setTimeout(function(){
+            $('#np_checkin_cancel').show();
         
-        geocoder.geocode( { 'address': addr}, function(results, status) {
-          if (status == google.maps.GeocoderStatus.OK) {
-            var i = 0;
-            $CheckinMap.setCenter(results[0].geometry.location);
-            $CheckinMarker.setMap(null);
-            $CheckinMarker = new google.maps.Marker({
-                map: $CheckinMap,
-                position: results[0].geometry.location
-            });                
-            $('#np_checkin_suggestions').empty();
-            for(i;i<results.length;i++) {
-                $('#np_checkin_suggestions').append("<li onclick='npCheckinLiClicked(true); setTimeout(function(){npUpdateCheckinData(\""+results[i].formatted_address+"\", \""+results[i].geometry.location.b+"\", \""+results[i].geometry.location.d+"\");},250); return false;'>"+results[i].formatted_address+"</li>");
-                if(i==4) {
-                    break;
+            geocoder.geocode( { 'address': addr}, function(results, status) {
+              if (status == google.maps.GeocoderStatus.OK) {
+                var i = 0;
+                $CheckinMap.setCenter(results[0].geometry.location);
+                $CheckinMarker.setMap(null);
+                $CheckinMarker = new google.maps.Marker({
+                    map: $CheckinMap,
+                    position: results[0].geometry.location
+                });                
+                $('#np_checkin_suggestions').empty();
+                for(i;i<results.length;i++) {
+                    $('#np_checkin_suggestions').append("<li onclick='npCheckinLiClicked(true); setTimeout(function(){npUpdateCheckinData(\""+results[i].formatted_address+"\", \""+results[i].geometry.location.d+"\", \""+results[i].geometry.location.e+"\");},250); return false;'>"+results[i].formatted_address+"</li>");
+                    if(i==4) {
+                        break;
+                    }
                 }
-            }
-            $('#np_checkin_suggestions').fadeIn();
-            
-          } else {
-                $('#np_checkin_suggestions').fadeOut();
-                $('#np_checkin_lat').val('');
-                $('#np_checkin_lng').val('');
-          }
-        });
+                $('#np_checkin_suggestions').fadeIn();
+
+              } else {
+                    $('#np_checkin_suggestions').fadeOut();
+                    $('#np_checkin_lat').val('');
+                    $('#np_checkin_lng').val('');
+              }
+            });
+        }, 1000);
         
     } else {
         $('#np_checkin_cancel').hide();
