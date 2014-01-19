@@ -67,9 +67,12 @@ defined('PHPFOX') or exit('NO DICE!');
 	<a href="#" onclick="$Core.Like.Actions.doLike({if $aLike.like_is_custom}1{else}0{/if}, '{$aLike.like_type_id}', {$aLike.like_item_id}, {if isset($aFeed.feed_id)}{$aFeed.feed_id}{else}0{/if}, this); return false;" class="js_like_link_toggle js_like_link_like"{if $aLike.like_is_liked} style="display:none;"{/if}>
             {phrase var='feed.like'}
 	</a>
-	<a href="#" onclick="$(this).parents('div:first').find('.js_like_link_like:first').show(); $(this).hide(); $.ajaxCall('like.delete', 'type_id={$aLike.like_type_id}&amp;item_id={$aLike.like_item_id}&amp;parent_id={if isset($aFeed.feed_id)}{$aFeed.feed_id}{else}{/if}{if $aLike.like_is_custom}&amp;custom_inline=1{/if}', 'GET'); return false;" class="js_like_link_toggle js_like_link_unlike"{if $aLike.like_is_liked}{else} style="display:none;"{/if}>
+	{php} 
+        /*
+        <a href="#" onclick="$(this).parents('div:first').find('.js_like_link_like:first').show(); $(this).hide(); $.ajaxCall('like.delete', 'type_id={$aLike.like_type_id}&amp;item_id={$aLike.like_item_id}&amp;parent_id={if isset($aFeed.feed_id)}{$aFeed.feed_id}{else}{/if}{if $aLike.like_is_custom}&amp;custom_inline=1{/if}', 'GET'); return false;" class="js_like_link_toggle js_like_link_unlike"{if $aLike.like_is_liked}{else} style="display:none;"{/if}>
             {phrase var='feed.unlike'}
-        </a>	
+        </a>*/
+        {/php}
 </li>
 {/if}
 {if Phpfox::getParam('like.allow_dislike') && isset($aActions) && is_array($aActions) && !empty($aActions) && $aFeed.type_ex_next=='ex'}
@@ -80,9 +83,13 @@ defined('PHPFOX') or exit('NO DICE!');
 				<a href="#" onclick="$Core.Like.Actions.doAction('{$aAction.action_type_id}', '{if isset($aLike.like_type_id)}{$aLike.like_type_id}{else}{$aAction.item_type_id}{/if}', {$aAction.item_id}, '{if $aLike.like_type_id == 'feed_mini'}comment{else}{$aAction.module_name}{/if}', {$aAction.iActionIteration},  {$aFeed.feed_id}, this); return false;" class="like_action_{$aAction.action_type_id}_{$aAction.iActionIteration} like_action like_action_marked" {if $aAction.is_marked}style="display:none;"{/if}>
 					{$aAction.phrase}
 				</a>
+                        {php}
+                        /*
 				<a href="#" id="dislike_remove_{$aAction.item_id}" onclick="$Core.Like.Actions.removeAction('{$aAction.action_type_id}', '{if isset($aLike.like_type_id)}{$aLike.like_type_id}{else}{$aAction.item_type_id}{/if}', {$aAction.item_id}, '{if $aLike.like_type_id == 'feed_mini'}comment{else}{$aAction.module_name}{/if}', {$aAction.iActionIteration},  {$aFeed.feed_id}, this); return false;" class="like_action_{$aAction.action_type_id}_{$aAction.iActionIteration} like_action like_action_unmarked" {if !$aAction.is_marked}style="display:none;"{/if}>
 					{phrase var='like.undislike'}
 				</a>
+                        */
+                        {/php}
 			{/if}
 		{/foreach}
 	</li>
