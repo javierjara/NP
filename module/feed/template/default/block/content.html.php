@@ -70,28 +70,21 @@ defined('PHPFOX') or exit('NO DICE!');
 				{/foreach}
 				{$aFeed.feed_image}
 			{else}
-                        {if preg_match('/(http|https):\/\/(?:www\.)?youtube.com\/watch\?(?=.*v=\w+)(?:\S+)?/i',$aFeed.feed_status, $ytm)}
-                            {if preg_match('/[\\?\\&]v=([^\\?\\&\s]+)/',$ytm[0], $ytid)}
-                                <iframe width="100%" height="315" src="//www.youtube.com/embed/{$ytid[1]}?rel=0" frameborder="0" allowfullscreen></iframe>
-                                <div class="clear"></div>
-                            {/if}
-                        {else}
-                            {if !empty($aFeed.feed_image)}
-                            <div class="activity_feed_content_image"{if isset($aFeed.feed_custom_width)} style="width:{$aFeed.feed_custom_width};"{/if}>
-                                    {if is_array($aFeed.feed_image)}
-                                            <ul class="activity_feed_multiple_image">
-                                                    {foreach from=$aFeed.feed_image item=sFeedImage}
-                                                            <li>{$sFeedImage}</li>
-                                                    {/foreach}
-                                            </ul>
-                                            <div class="clear"></div>
-                                    {else}
-                                            <a href="{if isset($aFeed.feed_link_actual)}{$aFeed.feed_link_actual}{else}{$aFeed.feed_link}{/if}"{if !isset($aFeed.no_target_blank)} target="_blank"{/if} class="{if isset($aFeed.custom_css)} {$aFeed.custom_css} {/if}{if !empty($aFeed.feed_image_onclick)}{if !isset($aFeed.feed_image_onclick_no_image)}play_link {/if} no_ajax_link{/if}"{if !empty($aFeed.feed_image_onclick)} onclick="{$aFeed.feed_image_onclick}"{/if}{if !empty($aFeed.custom_rel)} rel="{$aFeed.custom_rel}"{/if}{if isset($aFeed.custom_js)} {$aFeed.custom_js} {/if}{if Phpfox::getParam('core.no_follow_on_external_links')} rel="nofollow"{/if}>{if !empty($aFeed.feed_image_onclick)}{if !isset($aFeed.feed_image_onclick_no_image)}<span class="play_link_img">{phrase var='feed.play'}</span>{/if}{/if}{$aFeed.feed_image}</a>						
-                                    {/if}
-                            </div>
-                            {/if}
+                        {if !empty($aFeed.feed_image)}
+                        <div class="activity_feed_content_image"{if isset($aFeed.feed_custom_width)} style="width:{$aFeed.feed_custom_width};"{/if}>
+                                {if is_array($aFeed.feed_image)}
+                                        <ul class="activity_feed_multiple_image">
+                                                {foreach from=$aFeed.feed_image item=sFeedImage}
+                                                        <li>{$sFeedImage}</li>
+                                                {/foreach}
+                                        </ul>
+                                        <div class="clear"></div>
+                                {else}
+                                        <a href="{if isset($aFeed.feed_link_actual)}{$aFeed.feed_link_actual}{else}{$aFeed.feed_link}{/if}"{if !isset($aFeed.no_target_blank)} target="_blank"{/if} class="{if isset($aFeed.custom_css)} {$aFeed.custom_css} {/if}{if !empty($aFeed.feed_image_onclick)}{if !isset($aFeed.feed_image_onclick_no_image)}play_link {/if} no_ajax_link{/if}"{if !empty($aFeed.feed_image_onclick)} onclick="{$aFeed.feed_image_onclick}"{/if}{if !empty($aFeed.custom_rel)} rel="{$aFeed.custom_rel}"{/if}{if isset($aFeed.custom_js)} {$aFeed.custom_js} {/if}{if Phpfox::getParam('core.no_follow_on_external_links')} rel="nofollow"{/if}>{if !empty($aFeed.feed_image_onclick)}{if !isset($aFeed.feed_image_onclick_no_image)}<span class="play_link_img">{phrase var='feed.play'}</span>{/if}{/if}{$aFeed.feed_image}</a>						
+                                {/if}
+                        </div>
                         {/if}
-			<div class="{if (!empty($aFeed.feed_content) || !empty($aFeed.feed_custom_html)) && empty($aFeed.feed_image)} activity_feed_content_no_image{/if}{if !empty($aFeed.feed_image)} activity_feed_content_float{/if}"{if isset($aFeed.feed_custom_width)} style="margin-left:{$aFeed.feed_custom_width};"{/if}>
+                        <div class="{if (!empty($aFeed.feed_content) || !empty($aFeed.feed_custom_html)) && empty($aFeed.feed_image)} activity_feed_content_no_image{/if}{if !empty($aFeed.feed_image)} activity_feed_content_float{/if}"{if isset($aFeed.feed_custom_width)} style="margin-left:{$aFeed.feed_custom_width};"{/if}>
 				{if !empty($aFeed.feed_title)}
 					{if isset($aFeed.feed_title_sub)}
 						<span class="user_profile_link_span" id="js_user_name_link_{$aFeed.feed_title_sub|clean}">
