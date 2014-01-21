@@ -2819,8 +2819,26 @@ div.sub_section_menu ul li.active a {
        url('Montserrat-Regular.svg#Montserrat-Regular') format('svg');
 }
 
+@font-face {
+  font-family: 'Mistress';
+  src: url('MISTRESS.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Comic-Spans';
+  src: url('Comic Spans.otf');
+}
+
+@font-face {
+  font-family: 'Quattrocento-Regular';
+  src: url('Quattrocento-Regular.ttf') format('truetype');
+}
+
 body {
     font-family: 'Montserrat-Regular',sans-serif;
+/*    font-family: 'Mistress';
+    font-family: 'Comic-Spans';
+    font-family: 'Quattrocento-Regular';*/
     font-style: normal;
     font-weight: 400;
 }
