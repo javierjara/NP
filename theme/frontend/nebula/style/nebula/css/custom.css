@@ -3572,3 +3572,7 @@ a.np_youtube_preview_container p {
 div.post_type_ex a.np_youtube_preview_container {
     background: #009AEF;
 }    
+
+div#layer_message tr.mceFirst {
+    display: none !important;
+}
