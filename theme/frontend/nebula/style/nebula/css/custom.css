@@ -3576,3 +3576,7 @@ div.post_type_ex a.np_youtube_preview_container {
 div#layer_message tr.mceFirst {
     display: none !important;
 }
+
+.attachment_row iframe {
+    max-width: 100% !important;
+}
