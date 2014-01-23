@@ -3580,3 +3580,9 @@ div#layer_message tr.mceFirst {
 .attachment_row iframe {
     max-width: 100% !important;
 }
+
+.drop_data_action {
+    position: relative;
+    margin-top: 3px;
+    margin-left: 10px
+}

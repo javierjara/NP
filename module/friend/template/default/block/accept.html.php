@@ -39,18 +39,6 @@ defined('PHPFOX') or exit('NO DICE!');
 			</div>
 			<div class="drop_data_content">
 				<div class="drop_data_user">
-					<div class="drop_data_action">
-						<div class="js_drop_data_add" style="display:none; padding-right:5px;">
-							{img theme='ajax/add.gif'}
-						</div>
-						<div class="js_drop_data_button" id="drop_down_{$aFriend.request_id}">
-							<ul class="table_clear_button">
-								<li><input type="button" name="" value="{phrase var='friend.confirm'}" class="button" onclick="$(this).parents('.drop_data_action').find('.js_drop_data_add').show(); {if $aFriend.relation_data_id > 0} $.ajaxCall('custom.processRelationship', 'relation_data_id={$aFriend.relation_data_id}&amp;type=accept&amp;request_id={$aFriend.request_id}'); {else} $.ajaxCall('friend.processRequest', 'type=yes&amp;user_id={$aFriend.user_id}&amp;request_id={$aFriend.request_id}&amp;inline=true'); {/if}" /></li>
-								<li><input type="button" name="" value="{phrase var='friend.deny'}" class="button button_off" onclick="$(this).parents('.drop_data_action').find('.js_drop_data_add').show(); {if $aFriend.relation_data_id > 0} $.ajaxCall('custom.processRelationship', 'relation_data_id={$aFriend.relation_data_id}&amp;type=deny&amp;request_id={$aFriend.request_id}'); {else} $.ajaxCall('friend.processRequest', 'type=no&amp;user_id={$aFriend.user_id}&amp;request_id={$aFriend.request_id}&amp;inline=true'); {/if}" /></li>
-							</ul>
-							<div class="clear"></div>
-						</div>
-					</div>
 					<div style="width:120px;">
 						{$aFriend|user}
 						{if $aFriend.relation_data_id > 0}
@@ -77,6 +65,18 @@ defined('PHPFOX') or exit('NO DICE!');
 							{$aFriend.message|clean:false|shorten:20:'friend.view_more':true}
 						</div>
 						{/if}
+					</div>
+                                        <div class="drop_data_action">
+                                            <div class="js_drop_data_add" style="display:none; padding-right:5px;">
+                                                    {img theme='ajax/add.gif'}
+                                            </div>
+                                            <div class="js_drop_data_button" id="drop_down_{$aFriend.request_id}">
+                                                    <ul class="table_clear_button">
+                                                            <li><input type="button" name="" value="{phrase var='friend.confirm'}" class="button" onclick="$(this).parents('.drop_data_action').find('.js_drop_data_add').show(); {if $aFriend.relation_data_id > 0} $.ajaxCall('custom.processRelationship', 'relation_data_id={$aFriend.relation_data_id}&amp;type=accept&amp;request_id={$aFriend.request_id}'); {else} $.ajaxCall('friend.processRequest', 'type=yes&amp;user_id={$aFriend.user_id}&amp;request_id={$aFriend.request_id}&amp;inline=true'); {/if}" /></li>
+                                                            <li><input type="button" name="" value="{phrase var='friend.deny'}" class="button button_off" onclick="$(this).parents('.drop_data_action').find('.js_drop_data_add').show(); {if $aFriend.relation_data_id > 0} $.ajaxCall('custom.processRelationship', 'relation_data_id={$aFriend.relation_data_id}&amp;type=deny&amp;request_id={$aFriend.request_id}'); {else} $.ajaxCall('friend.processRequest', 'type=no&amp;user_id={$aFriend.user_id}&amp;request_id={$aFriend.request_id}&amp;inline=true'); {/if}" /></li>
+                                                    </ul>
+                                                    <div class="clear"></div>
+                                            </div>
 					</div>
 					<ul class="extra_info_middot" style="display:none;">
 						<li><a href="#" onclick="$Core.composeMessage({l}user_id: {$aFriend.user_id}{r}); return false;">{phrase var='friend.send_a_message'}</a></li>
