@@ -2185,9 +2185,15 @@ div#js_main_feed_holder div#img_picker input {
     		/* max-width: 300px; */
     		height:auto; 
     	} 
-    	#right{ 
+    	#right { 
     		/* this will hide also right side */ 
     		/* display:none */
+                
+    	} 
+        
+        #right #nb_favorites { 
+    		display:none;
+                
     	} 
     	#content{
     		/* important if you hide right and left side */ 
