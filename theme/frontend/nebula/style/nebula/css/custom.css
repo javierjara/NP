@@ -3586,3 +3586,18 @@ div#layer_message tr.mceFirst {
     margin-top: 3px;
     margin-left: 10px
 }
+
+#header_search_form input#header_sub_menu_search_input {
+    padding-left: 10px;
+    padding-top: 2px;
+    width: 185px;
+}
+
+#header_search_form div#header_sub_menu_search_input {
+    background: none;
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    width: 220px;
+}
