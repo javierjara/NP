@@ -3607,3 +3607,21 @@ div#layer_message tr.mceFirst {
     -webkit-border-radius: 10px;
     width: 220px;
 }
+
+#js_add_friend_on_profile_sidebar a {
+    background: orange;
+    width: 100%;
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    text-decoration: none;
+}

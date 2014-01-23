@@ -235,6 +235,15 @@ defined('PHPFOX') or exit('NO DICE!');
                                                                                 {block location='3'}
                                                                                 
                                                                                 {if defined('PHPFOX_IS_USER_PROFILE') || defined('PHPFOX_IS_PAGES_VIEW') || !Phpfox::isUser()}
+                                                                                
+                                                                                {if Phpfox::isModule('friend') && !$aUser.is_friend && Phpfox::getUserParam('friend.can_add_friends') && Phpfox::getUserId() != $aUser.user_id && $aUser.is_friend_request !== 2}
+                                                                                    <div id="js_add_friend_on_profile_sidebar">
+                                                                                        <a href="#?call=friend.request&amp;user_id={$aUser.user_id}&amp;width=420&amp;height=250" class="inlinePopup" title="{phrase var='profile.add_to_friends'}">
+                                                                                            {phrase var='profile.add_to_friends'}
+                                                                                        </a>
+                                                                                    </div>
+                                                                                {/if}
+                                                                                
 										{menu_sub}
 										{block location='1'}																
 										{else}
