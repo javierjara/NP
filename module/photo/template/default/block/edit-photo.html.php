@@ -30,7 +30,10 @@ defined('PHPFOX') or exit('NO DICE!');
 	{/if}
 {/if}
 <div id="photo_edit_item_id_{$aForms.photo_id}" class="{if !isset($bSingleMode)}row1 {/if}photo_edit_row">
-	<div class="photo_edit_holder">
+	<?php 
+        /*
+    
+        <div class="photo_edit_holder">
 		<div class="t_center">
 			{img server_id=$aForms.server_id path='photo.url_photo' file=$aForms.destination suffix='_150' max_width=150 max_height=150 title=$aForms.title class='js_mp_fix_width photo_holder'}
 		</div>
@@ -94,6 +97,9 @@ defined('PHPFOX') or exit('NO DICE!');
 			
 		</div>
 	</div>
+         * 
+         */
+        ?>
 	{template file='photo.block.form'}
 	{if isset($bSingleMode)}
 		<div class="table_clear">

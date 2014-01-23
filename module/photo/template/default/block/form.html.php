@@ -40,16 +40,20 @@ defined('PHPFOX') or exit('NO DICE!');
 		
 		{else}
 		{if Phpfox::getService('photo.category')->hasCategories()}
-		<div class="table">
-			<div class="table_left">
-				{phrase var='photo.category'}:
-			</div>
-			<div class="table_right js_category_list_holder">
-				{if isset($aForms.photo_id)}<div class="js_photo_item_id" style="display:none;">{$aForms.photo_id}</div>{/if}				
-				{if isset($aForms.category_list)}<div class="js_photo_active_items" style="display:none;">{$aForms.category_list}</div>{/if}
-				{module name='photo.drop-down'}
-			</div>			
-		</div>	
+		{php}
+                    /*
+                        <div class="table">
+                                <div class="table_left">
+                                        {phrase var='photo.category'}:
+                                </div>
+                                <div class="table_right js_category_list_holder">
+                                        {if isset($aForms.photo_id)}<div class="js_photo_item_id" style="display:none;">{$aForms.photo_id}</div>{/if}				
+                                        {if isset($aForms.category_list)}<div class="js_photo_active_items" style="display:none;">{$aForms.category_list}</div>{/if}
+                                        {module name='photo.drop-down'}
+                                </div>			
+                        </div>
+                    */
+                {/php}
 		{/if}
 		{/if}
 	

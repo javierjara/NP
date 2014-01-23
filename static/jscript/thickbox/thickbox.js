@@ -762,7 +762,8 @@ function tb_position($oObj, bFull)
     {
     	$($oObj).css(
 	    {
-	        top: getPageScroll()[1],
+	        //top: getPageScroll()[1],
+                top: '10px',
 	        left: '50%',
 	        'margin-left': '-' + (($($oObj).width() / 2) + 12) + 'px',
 	        'z-index': (parseInt(Math.max.apply(Math, $aAllBoxIndex)) + 1)    
@@ -772,7 +773,8 @@ function tb_position($oObj, bFull)
     {
 		$($oObj).css(
 	    {
-	        top: getPageScroll()[1] + (getPageHeight() / 5),
+	        //top: getPageScroll()[1] + (getPageHeight() / 5),
+                top: (getPageHeight() / 5),
 	        left: '50%',
 	        'margin-left': '-' + (($($oObj).width() / 2) + 12) + 'px',
 	        'z-index': (parseInt(Math.max.apply(Math, $aAllBoxIndex)) + 1)    
