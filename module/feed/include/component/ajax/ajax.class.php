@@ -445,7 +445,8 @@ class Feed_Component_Ajax_Ajax extends Phpfox_Ajax
         
         public function addCalendarEvent() {
             $user = PHPFOX::getUserId();
-            $data = date("Y-m-d H:i", strtotime(stripslashes($_POST['date'])));
+            date_default_timezone_set('UTC');
+            $data = date('Y-m-d', strtotime(stripslashes($_POST['date'])));
             Phpfox::getLib('database')->insert('np_calendar_event', 
                     array(
                         'user' => $user,

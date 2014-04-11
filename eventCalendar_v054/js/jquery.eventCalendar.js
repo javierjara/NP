@@ -44,7 +44,7 @@
 
 		changeMonth();
 
-		flags.wrap.on('click','.eventsCalendar-day a',function(e){
+		flags.wrap.find('.eventsCalendar-day a').click(function(e){
 		//flags.wrap.find('.eventsCalendar-day a').live('click',function(e){
 			e.preventDefault();
 			var year = flags.wrap.attr('data-current-year'),
@@ -53,16 +53,17 @@
 
 			getEvents(false, year, month,day, "day");
 		});
-		flags.wrap.on('click','.monthTitle', function(e){
+		flags.wrap.find('.monthTitle').click(function(e){
 		//flags.wrap.find('.monthTitle').live('click',function(e){
 			e.preventDefault();
 			var year = flags.wrap.attr('data-current-year'),
 				month = flags.wrap.attr('data-current-month');
 
 			getEvents(eventsOpts.eventsLimit, year, month,false, "month");
-		})
+		});
+                
 
-
+                flags.wrap.find('a').addClass('dont-unbind');
 
 	});
 
@@ -78,7 +79,7 @@
 				var eventTarget = $(this).attr('target');
 
 				// create a button to go to event url
-				desc.append('<a href="' + eventUrl + '" target="'+eventTarget+'" class="bt">'+eventsOpts.txt_GoToEventUrl+'</a>')
+				desc.append('<a href="' + eventUrl + '" target="'+eventTarget+'" class="bt dont-unbind">'+eventsOpts.txt_GoToEventUrl+'</a>')
 			}
 
 			if (desc.is(':visible')) {
@@ -100,8 +101,8 @@
 	function dateSlider(show, year, month) {
 		var $eventsCalendarSlider = $("<div class='eventsCalendar-slider'></div>"),
 			$eventsCalendarMonthWrap = $("<div class='eventsCalendar-monthWrap'></div>"),
-			$eventsCalendarTitle = $("<div class='eventsCalendar-currentTitle'><a href='#' class='monthTitle'></a></div>"),
-			$eventsCalendarArrows = $("<a href='#' class='arrow prev'><span>" + eventsOpts.txt_prev + "</span></a><a href='#' class='arrow next'><span>" + eventsOpts.txt_next + "</span></a>");
+			$eventsCalendarTitle = $("<div class='eventsCalendar-currentTitle'><a href='#' class='monthTitle dont-unbind'></a></div>"),
+			$eventsCalendarArrows = $("<a href='#' class='arrow prev dont-unbind'><span>" + eventsOpts.txt_prev + "</span></a><a href='#' class='arrow next dont-unbind'><span>" + eventsOpts.txt_next + "</span></a>");
 			$eventsCalendarDaysList = $("<ul class='eventsCalendar-daysList'></ul>"),
 			date = new Date();
 
@@ -200,7 +201,7 @@
 			if (day > 0 && dayCount === day && year === currentYear) {
 				dayClass = "today";
 			}
-			daysList.push('<li id="dayList_' + dayCount + '" rel="'+dayCount+'" class="eventsCalendar-day '+dayClass+'"><a href="#">' + dayCount + '</a></li>');
+			daysList.push('<li id="dayList_' + dayCount + '" rel="'+dayCount+'" class="eventsCalendar-day '+dayClass+'"><a href="#" class="dont-unbind">' + dayCount + '</a></li>');
 		}
 		$eventsCalendarDaysList.append(daysList.join(''));
 
@@ -362,11 +363,11 @@
 								} else {
 									eventStringDate = eventDay + "/" + eventMonthToShow + "/" + eventYear;
 									if (event.url) {
-										var eventTitle = '<a href="'+event.url+'" target="' + eventLinkTarget + '" class="eventTitle">' + event.title + '</a>';
+										var eventTitle = '<a href="'+event.url+'" target="' + eventLinkTarget + '" class="eventTitle dont-unbind">' + event.title + '</a>';
 									} else {
 										var eventTitle = '<span class="eventTitle">'+event.title+'</span>';
 									}
-									events.push('<li id="' + key + '" class="'+event.type+'"><time datetime="'+eventDate+'"><em>' + eventStringDate + '</em><small>'+eventHour+":"+eventMinute+'</small></time>'+eventTitle+'<p class="eventDesc ' + eventDescClass + '">' + event.description + '</p></li>');
+									events.push('<li id="' + key + '" class="'+event.type+'"><time datetime="'+eventDate+'"><em>' + eventStringDate + '</em></time>'+eventTitle+'<p class="eventDesc ' + eventDescClass + '">' + event.description + '</p></li>');
 									i++;
 								}
 						}
@@ -420,6 +421,24 @@
 				left: lastMonthMove
 			}, eventsOpts.moveSpeed, function() {
 				flags.wrap.find('.eventsCalendar-monthWrap.oldMonth').remove();
+                                
+                                flags.wrap.find('.eventsCalendar-day a').click(function(e){
+                                //flags.wrap.find('.eventsCalendar-day a').live('click',function(e){
+                                        e.preventDefault();
+                                        var year = flags.wrap.attr('data-current-year'),
+                                                month = flags.wrap.attr('data-current-month'),
+                                                day = $(this).parent().attr('rel');
+
+                                        getEvents(false, year, month,day, "day");
+                                });
+                                flags.wrap.find('.monthTitle').click(function(e){
+                                //flags.wrap.find('.monthTitle').live('click',function(e){
+                                        e.preventDefault();
+                                        var year = flags.wrap.attr('data-current-year'),
+                                                month = flags.wrap.attr('data-current-month');
+
+                                        getEvents(eventsOpts.eventsLimit, year, month,false, "month");
+                                });
 			});
 		});
 	}
@@ -438,7 +457,7 @@
 	}
         
         function renderAddButton() {
-            $("#eventCalendarHumanDate").append("<div class='addNextWrapper'><a href='#' id='addNextButton' class='general-button button-next add' onclick='toggleNextButton(this);return false;'>Add Next!</a></div>");
+            $("#eventCalendarHumanDate").append("<div class='addNextWrapper'><a href='#' id='addNextButton' class='general-button button-next add dont-unbind' onclick='toggleNextButton(this);return false;'>Add Next!</a></div>");
         }
         
         function createErrorForm() {
@@ -465,8 +484,8 @@
             date = "<input type='hidden' name='date' />";
 //            type = "<label for='type'>Type</label><input type='text' name='type' placeholder='Party'/>";
 //            url = "<label for='url'>Url</label><input type='text' name='url' placeholder='www.bestpartyever.com'/>";
-            share = "<label for='time' style='display: inline;'>Share with the community</label><input type='checkbox' name='share' value='share' style='width: auto;margin-left: 15px;display: inline-block;'>";
-            npType = "<span style='font-size: 13px;'>Ex Life</span>  <input type='radio' name='npType' value='ex' style='width: auto;display: inline;margin-right: 20px;'><span style='font-size: 13px;'>Next Life</span>  <input checked='checked' type='radio' name='npType' value='next' style='width: auto;display: inline;'><br>";
+            share = "<label for='time' style='display: inline; font-weight:bold;'>SHARE WITH THE COMMUNITY</label><input type='checkbox' name='share' value='share' style='width: auto;margin-left: 15px;display: inline-block;'>";
+            npType = "<table><tr><td><input type='radio' name='npType' value='ex' id='radio1' class='css-checkbox' style='display:none;' /><label for='radio1' class='css-label' style='color:#009AEF; font-weight:bold;'>Ex Life</label></td><td><input type='radio' name='npType' value='next' id='radio2' class='css-checkbox' checked='checked' style='display:none;'/> <label for='radio2' class='css-labelright' style='color:#52C921; font-weight:bold;'>Next Life</label></td></tr></table><br>";
             reset = "<input type='reset' id='resetForm' style='display:none;' />";
             submit = "<input type='submit' name='submitForm' class='general-button button-next' value='Add it now!' />";
             
@@ -495,7 +514,7 @@ $.fn.eventCalendar.defaults = {
 	txt_SpecificEvents_after: "events:",
 	txt_next: "next",
 	txt_prev: "prev",
-	txt_NextEvents: "Next events:",
+	txt_NextEvents: "Events:",
 	txt_GoToEventUrl: "See the event",
 	showDayAsWeeks: true,
 	startWeekOnMonday: true,
@@ -595,7 +614,7 @@ function nextEventFormSubmit(el) {
     date.setFullYear(year,month,day);
 //    date.setHours(parseInt(time.val().substring(0,2)),parseInt(time.val().substring(3,5)));
     
-    dateDom.val(date);
+    dateDom.val(date.toISOString());
     
     postData = $(el).serializeArray();
     
@@ -620,7 +639,17 @@ function nextEventFormSubmit(el) {
     def = $(el).ajaxCall('feed.addCalendarEvent',postData);
     
     $.when(def).then(function(){
-        hideForm();
+        $('#addNextForm').hide('slideup');
+        $('#addNextButton').fadeOut(100, function(el, ev) {
+            nextEventHideError();
+            $('#resetForm').trigger('click');
+            $(this).text('Add Next!');
+            $(this).removeClass('close button-ex').addClass('add button-next');
+            $(this).fadeIn(100, function(){
+                setTimeout(function(){refreshCalendarEvent();}, 1000);                
+            });
+        });
+
     });
 //    $.ajax(
 //    {
@@ -652,13 +681,20 @@ function nextEventHideError() {
 
 function refreshCalendarEvent() {
     $("#eventCalendarHumanDate").html("");
-    $("#eventCalendarHumanDate").eventCalendar({
-        //jsonData: [{ "date": "1380931200000", "type": "meeting", "title": "Test Last Year", "description": "descrizione da manual", "url": "http://www.event3.com/" }],
-        //jsonData: response,
-        showDescription: true,
-        openEventInNewWindow: true,
-        eventsScrollable: true,
-        eventsjson: 'eventCalendar_v054/json/events.json'
-        //jsonDateFormat: 'human'  // 'YYYY-MM-DD HH:MM:SS'
-    });
+    var def = $.Deferred();
+    def = $(this).ajaxCall('feed.getCalendarEvents');
+
+    $.when(def).then(function(response){ 
+        var objectJS = eval(response);
+
+        $("#eventCalendarHumanDate").eventCalendar({
+            //jsonData: [{ "date": "1380931200000", "type": "meeting", "title": "Test Last Year", "description": "descrizione da manual", "url": "http://www.event3.com/" }],
+            jsonData: objectJS,
+            showDescription: true,
+            openEventInNewWindow: true,
+            eventsScrollable: true,
+            //eventsjson: 'eventCalendar_v054/json/events.json'
+            jsonDateFormat: 'human'  // 'YYYY-MM-DD HH:MM:SS'
+        });
+     });
 }

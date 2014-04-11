@@ -1234,7 +1234,7 @@ function npShowCheckinMap(el) {
     } else {
         npCheckinROFalse();
         $(el).addClass('close');
-        $(el).text('CLOSE');
+        $(el).text('OK');
     }
         
     $(mapContainer).toggle("fade", function(){
@@ -1402,24 +1402,24 @@ function npCheckinLiClicked(click) {
     $CheckinText = click;
 }
 
+
 function npDetectYoutubeVideo(el) {
     clearTimeout(npYoutubeTimeout);
     
     npYoutubeTimeout = setTimeout(function(){
         var text = $(el).val(),
-            res = text.match(/(http|https):\/\/(?:www\.)?youtube.com\/watch\?(?=.*v=\w+)(?:\S+)?/i),
+            res = text.match(/(youtu\.be\/|[?&]v=)([^&]+)/)[2],
             video_id,
-            ampersandPosition,
             thumb,
             title,
             desc;
             
             if(res!==null) {
-                video_id = res[0].split('v=')[1];
+                video_id = res;
             } else {
                 return false;
             }
-            
+           
             ampersandPosition = video_id.indexOf('&');
             
             if(ampersandPosition !== -1) {
@@ -1432,7 +1432,7 @@ function npDetectYoutubeVideo(el) {
             thumb = data.data.thumbnail.hqDefault;
             console.log(title,desc,thumb);
             
-            $('#np_youtube').val(res[0]);
+            $('#np_youtube').val(text);
             $('#np_youtube_title').val(title);
             $('#np_youtube_desc').val(desc);
             $('#np_youtube_thumb').val(thumb);

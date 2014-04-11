@@ -916,7 +916,8 @@ class Feed_Service_Feed extends Phpfox_Service
             }
             else
             {
-                if (isset($aFeed['feed_is_liked']) && $aFeed['feed_is_liked'])
+                /* if (isset($aFeed['feed_is_liked']) && $aFeed['feed_is_liked']) */
+                if(number_format($aFeed['feed_total_like'])>0)
                 {
                     if (count($aFeed['likes']) == 1)
                     {
@@ -928,8 +929,10 @@ class Feed_Service_Feed extends Phpfox_Service
                         if (count($aFeed['likes']) == 0)
                         {
                             $sPhrase .= '<a href="#" onclick="return $Core.box(\'like.browse\', 400, \'type_id='. $aFeed['like_type_id'] . '&amp;item_id='. $aFeed['item_id'] . '\');">';
-                            $sPhrase .= number_format($aFeed['feed_total_like']) . '&nbsp;' . Phpfox::getPhrase('like.others') . '&nbsp;';
-                            $sPhrase .= '</a>' . Phpfox::getPhrase('like.likes_this');
+                            $sPhrase .= number_format($aFeed['feed_total_like']) . '&nbsp;';
+                            $sPhrase .= (number_format($aFeed['feed_total_like'])==1) ? Phpfox::getPhrase('like.hug') . '&nbsp;' : Phpfox::getPhrase('like.hugs') . '&nbsp;';
+                            /* $sPhrase .= '</a>' . Phpfox::getPhrase('like.likes_this'); */
+                            $sPhrase .= '</a>';
                         }
                         else
                         {

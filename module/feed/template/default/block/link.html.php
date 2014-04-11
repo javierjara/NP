@@ -62,11 +62,10 @@
 		&& (isset($aFeed.comment_type_id) && $aFeed.can_post_comment) 
 		|| (!isset($aFeed.comment_type_id) && isset($aFeed.total_comment))
 		}				
-	<li>
+	<!--<li>
 		<a href="{$aFeed.feed_link}add-comment/" class="{if (isset($sFeedType) && $sFeedType == 'mini') || (!isset($aFeed.comment_type_id) && isset($aFeed.total_comment))}{else}js_feed_entry_add_comment no_ajax_link{/if}">{phrase var='feed.comment'}</a>
-	</li>				
+	</li>-->				
 	{if (Phpfox::isModule('share') && !isset($aFeed.no_share))}
-		<li><span>&middot;</span></li>
 	{/if}
 	{/if}				
 	{if Phpfox::isModule('share') && !isset($aFeed.no_share)}
@@ -77,16 +76,15 @@
 		{/if}
 	{/if}
 	{if Phpfox::isModule('report') && isset($aFeed.report_module) && isset($aFeed.force_report)}
-		<li><span>&middot;</span></li>	
 		<li><a href="#?call=report.add&amp;height=100&amp;width=400&amp;type={$aFeed.report_module}&amp;id={$aFeed.item_id}" class="inlinePopup activity_feed_report" title="{$aFeed.report_phrase}">{phrase var='feed.report'}</a></li>				
 	{/if}
 	
-	{if isset($aFeed.time_stamp) && !Phpfox::isMobile() && !Phpfox::getService('profile')->timeline()}
+	<!--{if isset($aFeed.time_stamp) && !Phpfox::isMobile() && !Phpfox::getService('profile')->timeline()}
 	<li><span>&middot;</span></li>
 	<li class="feed_entry_time_stamp">
 		<a href="{$aFeed.feed_link}" class="feed_permalink">{$aFeed.time_stamp|convert_time:'feed.feed_display_time_stamp'}</a>{if !empty($aFeed.app_link)} via {$aFeed.app_link}{/if}
 	</li>
-	{/if}
+	{/if}-->
 					
 	{plugin call='feed.template_block_entry_2'}				
 	{if Phpfox::isMobile() && ((defined('PHPFOX_FEED_CAN_DELETE')) || (Phpfox::getUserParam('feed.can_delete_own_feed') && $aFeed.user_id == Phpfox::getUserId()) || Phpfox::getUserParam('feed.can_delete_other_feeds'))}

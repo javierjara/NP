@@ -30,7 +30,7 @@ defined('PHPFOX') or exit('NO DICE!');
 				</div>
 				<div class="clear"></div>
 			{/if}	
-			
+			<!--
 			{if ($bIsProcess) || (!$bIsProcess && $iImageWidth > 75 && $iImageHeight > 75)}
 				<h3>{phrase var='user.profile_picture_cropping_tool'}</h3>
 				{if ($bIsProcess && ($iImageWidth <= 75 || $iImageHeight <= 75))}
@@ -87,7 +87,7 @@ defined('PHPFOX') or exit('NO DICE!');
 				{/if}
 			{/if}
 		{/if}
-		{plugin call='user.template_controller_photo_6'}
+		{plugin call='user.template_controller_photo_6'}-->
 	</div>
 	
 {if !$bIsProcess}

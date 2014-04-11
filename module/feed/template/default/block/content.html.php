@@ -15,6 +15,12 @@ defined('PHPFOX') or exit('NO DICE!');
 	<div class="activity_feed_content">							
 {/if}
 	<div class="activity_feed_content_text{if isset($aFeed.comment_type_id) && $aFeed.comment_type_id == 'poll'} js_parent_module_feed_{$aFeed.comment_type_id}{/if}">
+            <div class="hug_open">
+                {if !isset($aFeed.feed_mini)}
+		<div class="comment_mini_link_like">
+			{template file='feed.block.link'}
+		</div>{/if}
+            </div>
 		{if !isset($aFeed.feed_mini) && !Phpfox::getService('profile')->timeline()}
 			<div class="activity_feed_content_info">
                             {if $aFeed.type_ex_next=='ex'}
@@ -116,6 +122,7 @@ defined('PHPFOX') or exit('NO DICE!');
 				
 			</div>	
 			{if !empty($aFeed.feed_image)}
+			holas
 			<div class="clear"></div>
 			{/if}		
 			{/if}
@@ -131,11 +138,7 @@ defined('PHPFOX') or exit('NO DICE!');
 </div>
 {/if}
 
-	{if isset($aFeed.feed_view_comment)}			
-		{module name='feed.comment'}
-	{else}
-		{template file='feed.block.comment'}
-	{/if}
+	
 
 	{if $aFeed.type_id != 'friend'}
 		{if isset($aFeed.more_feed_rows) && is_array($aFeed.more_feed_rows) && count($aFeed.more_feed_rows)}
@@ -145,5 +148,11 @@ defined('PHPFOX') or exit('NO DICE!');
 	{/if}
 {if !Phpfox::getService('profile')->timeline()}
 	</div><!-- // .activity_feed_content -->
+       
 {/if}
+{if isset($aFeed.feed_view_comment)}			
+		{module name='feed.comment'}
+	{else}
+		{template file='feed.block.comment'}
+	{/if}
 

@@ -58,7 +58,8 @@ defined('PHPFOX') or exit('NO DICE!');
 				<ul>
 					<li class="comment_mini_entry_time_stamp">{if isset($aComment.unix_time_stamp)}{$aComment.unix_time_stamp|convert_time:'comment.comment_time_stamp'}{else}{$aComment.time_stamp|convert_time:'comment.comment_time_stamp'}{/if}</li>
 					<li><span>&middot;</span></li>
-					{if !Phpfox::isMobile()}
+                                        
+					<!--{if !Phpfox::isMobile()}
 						{if (Phpfox::getUserParam('comment.edit_own_comment') && Phpfox::getUserId() == $aComment.user_id) || Phpfox::getUserParam('comment.edit_user_comment')}
 							<li>
 								<a href="inline#?type=text&amp;&amp;simple=true&amp;id=js_comment_text_{$aComment.comment_id}&amp;call=comment.updateText&amp;comment_id={$aComment.comment_id}&amp;data=comment.getText" class="quickEdit">{phrase var='comment.edit'}</a>
@@ -109,7 +110,7 @@ defined('PHPFOX') or exit('NO DICE!');
 							</a>
 						</li>
 						{/if}
-					{/if}
+					{/if}-->
 					{if Phpfox::getUserParam('comment.can_moderate_comments') && $aComment.view_id == '1'}
 						<li>
 							<a href="#" onclick="$('#js_comment_text_{$aComment.comment_id}').removeClass('row_moderate'); $(this).remove(); $.ajaxCall('comment.moderateSpam', 'id={$aComment.comment_id}&amp;action=approve&amp;inacp=0'); return false;">{phrase var='comment.approve'}</a>					

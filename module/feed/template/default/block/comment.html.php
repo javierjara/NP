@@ -13,6 +13,12 @@
 		{img theme='ajax/add.gif'}
 	</div>
 {else}
+{if isset($aFeed.time_stamp) && !Phpfox::isMobile() && !Phpfox::getService('profile')->timeline()}
+	<span>&middot;</span>
+        <span class="feed_entry_time_stamp">
+		<a href="{$aFeed.feed_link}" class="feed_permalink">{$aFeed.time_stamp|convert_time:'feed.feed_display_time_stamp'}</a>{if !empty($aFeed.app_link)} via {$aFeed.app_link}{/if}
+        </span>
+	{/if}
 	{if isset($bIsViewingComments) && $bIsViewingComments}
 		<div id="comment-view"><a name="#comment-view"></a></div>
 		<div class="message js_feed_comment_border">
@@ -27,13 +33,9 @@
 <div class="js_feed_comment_border">
     {plugin call='feed.template_block_comment_border'}
 	{plugin call='core.template_block_comment_border_new'}
-	{if !isset($aFeed.feed_mini)}
-		<div class="comment_mini_link_like">
-			{template file='feed.block.link'}
-		</div>
-	{/if}
+	
 
-<div id="js_feed_like_holder_{$aFeed.type_id}_{$aFeed.item_id}" class="comment_mini_content_holder" {if isset($aFeed.bShowEnterCommentBlock) && $aFeed.bShowEnterCommentBlock == false}style="display:none"{/if} >	
+<div id="js_feed_like_holder_{$aFeed.type_id}_{$aFeed.item_id}" class="comment_mini_content_holder" {if isset($aFeed.bShowEnterCommentBlock) && $aFeed.bShowEnterCommentBlock == false}{/if} >	
         <div class="comment_mini_content_holder_icon"{if isset($aFeed.marks) || (isset($aFeed.likes) && is_array($aFeed.likes)) || (isset($aFeed.total_comment) && $aFeed.total_comment > 0)}{else}{/if}></div>
 			<div class="comment_mini_content_border">
 			    <div class="js_comment_like_holder" id="js_feed_like_holder_{$aFeed.feed_id}">

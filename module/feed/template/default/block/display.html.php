@@ -55,11 +55,15 @@ defined('PHPFOX') or exit('NO DICE!');
 
                              <div class="activity_feed_form_button_position_button submit_button_form_ex">
     <!--                             <span class="ex_button_arrow"></span>-->
-                                 <a id="activity_feed_popup_ex" href="#" class="button" onclick="tb_show('Ex life', $.ajaxBox('feed.popup', 'height=300&width=550')); return false;" title="{phrase var='feed.submit_ex_tooltip'}"></a>
-                             </div>					
-
+                                 <a id="activity_feed_popup_ex" href="#" class="button dont-unbind" onclick="tb_show('Ex life', $.ajaxBox('feed.popup', 'height=300&width=550')); return false;" title="{phrase var='feed.submit_ex_tooltip'}"></a>
+                             </div>	
+                           <div id="img_bar" class="activity_feed_image">
+                               <div id="img_bar_position">{$sUserProfileImage}</div>
+		
+	                    </div>
+                            
                              <div class="activity_feed_form_button_position_button submit_button_form_next">
-                                 <a id="activity_feed_popup_next" href="#" class="button" onclick="tb_show('Next life', $.ajaxBox('feed.popup', 'height=300&width=550')); return false;" title="{phrase var='feed.submit_next_tooltip'}"></a>
+                                 <a id="activity_feed_popup_next" href="#" class="button dont-unbind" onclick="tb_show('Next life', $.ajaxBox('feed.popup', 'height=300&width=550')); return false;" title="{phrase var='feed.submit_next_tooltip'}"></a>
     <!--                             <span class="next_button_arrow"></span>-->
                              </div>
 
@@ -68,9 +72,10 @@ defined('PHPFOX') or exit('NO DICE!');
                     </div>
                     
                     {else}
+                    <div id="holder_green"> 
                         
                         <div id="my-book-wrapper">
-                            <div id="my-book-left">
+                       <!--     <div id="my-book-left">
                                 <div id="my-book-basic">
                                     {if isset($aUser.is_online) && $aUser.is_online || $aUser.is_friend === 2 || $aUser.is_friend === 3}
                                             <span class="profile_online_status">
@@ -80,12 +85,12 @@ defined('PHPFOX') or exit('NO DICE!');
                                                             <span class="js_profile_online_friend_request">{phrase var='profile.pending_friend_request'}{if $aUser.is_online} {/if}</span>
                                                     {/if}
                                                     {if $aUser.is_online}
-                                                            ({phrase var='profile.online'})
+                                                            ({phrase var='profile.online'}) IS ONLINE
                                                     {/if}
                                             </span>
                                     {/if}
                                     <div class="my-book-block">
-                                        <h3>{$aUser.full_name|clean|split:30|shorten:50:'...'}</h3>
+                                        <h3>{$aUser.full_name|clean|split:30|shorten:50:'...'}</h3> Nombre
                                         <p style="overflow: auto; height: 90%;">
                                         <b></b> <br>
                                         {if Phpfox::getService('user.privacy')->hasAccess('' . $aUser.user_id . '', 'profile.view_location') && (!empty($aUser.city_location) || !empty($aUser.country_child_id) || !empty($aUser.location))}
@@ -186,29 +191,27 @@ defined('PHPFOX') or exit('NO DICE!');
                                 </div>
                                 <img src="static/image/my-book-right-top.png" />
                             </div>
+                            -->
+                             
+               
+                                 
                             
-                            <div class="my-book-button-wrapper">
-                                <a class="my-book-button ex-filter" href="#" title="{phrase var='feed.filter_next_tooltip'}">
-                                    <img src="static/image/my-book-left-button.png" />
-                                </a>
-                            </div>
-
-                            <div class="my-book-button-wrapper">
-                                <a class="my-book-button next-filter" href="#" title="{phrase var='feed.filter_ex_tooltip'}">
-                                    <img src="static/image/my-book-right-button.png" />
-                                </a>
-                            </div>
                             
                         </div>
-
+                    </div>
                     {/if}
                 
 		{/if}
 	{/if}
+        
+       
+        
+        
 
 	{if Phpfox::isUser() && !defined('PHPFOX_IS_USER_PROFILE') && !PHPFOX_IS_AJAX && !defined('PHPFOX_IS_PAGES_VIEW')}
 		<div class="feed_sort_order">
-			<a href="#" class="feed_sort_order_link">{phrase var='feed.sort'}</a>
+                    
+                    <a href="#" class="feed_sort_order_link">{phrase var='feed.sort'}</a>
 			<div class="feed_sort_holder">
 				<ul>
 					<li><a href="#"{if !$iFeedUserSortOrder} class="active"{/if} rel="0">{phrase var='feed.top_stories'}</a></li>
@@ -227,6 +230,7 @@ defined('PHPFOX') or exit('NO DICE!');
 		{module name='captcha.form' sType='comment' captcha_popup=true}
 	{/if}
 <div id="feed"><a name="feed"></a></div>
+<div>
 <div {if !$bIsHashTagPop}id="js_feed_content"{/if} class="js_feed_content">
 	{if $sCustomViewType !== null}
 		<h2>{$sCustomViewType}</h2>
@@ -329,6 +333,7 @@ defined('PHPFOX') or exit('NO DICE!');
 						{unset var=$bChildFeed}
 					{/if}
 				</div>
+                                
 			{/foreach}
 		{/if}
 	{/if}
@@ -383,3 +388,4 @@ defined('PHPFOX') or exit('NO DICE!');
 		{/if}
 	{/if}
 {/if}
+</div>

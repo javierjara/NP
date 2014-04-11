@@ -22,7 +22,7 @@ defined('PHPFOX') or exit('NO DICE!');
 				    <a href="{permalink module='photo.album.profile' id=$aUser.user_id}">{$sProfileImage}</a>
 				{/if}
 			{else}
-				{$sProfileImage}
+				{$sProfileImage} 
 			{/if}
 			{if Phpfox::getUserId() == $aUser.user_id}
 			    <div class="p_4">
@@ -43,16 +43,31 @@ defined('PHPFOX') or exit('NO DICE!');
 			</div>
 
 	    </div>
+    
     {/if}
 
 {else}
+
 {if !empty($sProfileImage)}
-    <div class="profile_image">
+<div class="image_profile_position">
+<div class="image_profile_wrapper">
+<div id="book-button-wrapper">
+<div class="my-book-button-wrapper" >
+                                <a class="my-book-button ex-filter dont-unbind" href="#" title="{phrase var='feed.filter_next_tooltip'}">
+                                    <img class="my-book-button" src="static/image/my-book-left-button.png" /> 
+                                </a>
+         </div>
+    <div class="my-book-button-wrapper"   >
+                                <a class="my-book-button next-filter dont-unbind" href="#" title="{phrase var='feed.filter_ex_tooltip'}">
+                                    <img class="my-book-button" src="static/image/my-book-right-button.png" />
+                                </a>
+         </div>
+</div>
+   <div id="img_profile"> 
+        <div class="profile_image" >
 	<div class="profile_image_holder">
 	    {if Phpfox::isModule('photo')}
 		{if isset($aUser.user_name)}
-		    <a href="{permalink module='photo.album.profile' id=$aUser.user_id title=$aUser.user_name}">{$sProfileImage}</a>
-		{else}
 		    <a href="{permalink module='photo.album.profile' id=$aUser.user_id}">{$sProfileImage}</a>
 		{/if}
 	    {else}
@@ -61,16 +76,19 @@ defined('PHPFOX') or exit('NO DICE!');
 	</div>
 	    {if Phpfox::getUserId() == $aUser.user_id}
 	    <div class="p_4">
-		    <a href="{url link='user.photo'}">{phrase var='profile.change_picture'}</a>
+		    <a href="{url link='user.photo'}">{phrase var='profile.change_picture'} </a>
 	    </div>
 	    {/if}
 
 
 
-    </div>
-
+        </div>
+        
+</div></div> </div>
 {/if}
-<div class="sub_section_menu">
+
+
+<div class="horizontal_bar" >
 	<ul>		
 		{foreach from=$aProfileLinks item=aProfileLink}
 			<li class="{if isset($aProfileLink.is_selected)} active{/if}">
@@ -86,6 +104,7 @@ defined('PHPFOX') or exit('NO DICE!');
 		{/foreach}
 	</ul>
 </div>
+
 {/if}
 
     <div class="clear"></div>

@@ -18,11 +18,11 @@ defined('PHPFOX') or exit('NO DICE!');
  */
 $_CONF['db']['driver'] = 'mysqli';
 $_CONF['db']['host'] = 'localhost'; 
-$_CONF['db']['user'] = 'npuser';
-$_CONF['db']['pass'] = 'npuser';
+$_CONF['db']['user'] = 'root';
+$_CONF['db']['pass'] = '';
 $_CONF['db']['name'] = 'nextpleasedev';
 $_CONF['db']['prefix'] = 'phpfox_';
-$_CONF['db']['port'] = '';
+$_CONF['db']['port'] = '3306';
 
 $_CONF['db']['slave'] = false;
 $_CONF['db']['slave_servers'] = array();
@@ -30,9 +30,9 @@ $_CONF['db']['slave_servers'] = array();
 $_CONF['balancer']['enabled'] = false;
 $_CONF['balancer']['servers'] = array();
 
-$_CONF['core.host'] = 'localhost';
+$_CONF['core.host'] = 'localhost:1337';
 
-$_CONF['core.folder'] = '/nextplease.dev/';
+$_CONF['core.folder'] = '/np/';
 
 $_CONF['core.url_rewrite'] = '2';
 

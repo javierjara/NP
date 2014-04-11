@@ -15,7 +15,10 @@ defined('PHPFOX') or exit('NO DICE!');
 {if isset($aCallback.url_home)}
 	<div><input type="hidden" name="url_home" value="{$aCallback.url_home}" /></div>
 {/if}
-{if Phpfox::getUserParam('user.can_search_user_gender')}
+<table class="tg" style="width:100%">
+  <tr>
+    <th class="tg-031e">
+    {if Phpfox::getUserParam('user.can_search_user_gender')}
 	<div class="p_top_4">
 		<span class="user_browse_title">{phrase var='user.browse_for'}</span>:
 		<div class="p_4">
@@ -31,7 +34,9 @@ defined('PHPFOX') or exit('NO DICE!');
 		</div>
 	</div>
 {/if}
-	<div class="p_top_4">
+</th>
+    <th class="tg-031e">
+    <div class="p_top_4">
 		<span class="user_browse_title">{phrase var='user.located_within'}</span>:
 		<div class="p_4">
 			{filter key='country'}
@@ -54,8 +59,9 @@ defined('PHPFOX') or exit('NO DICE!');
 			</div>
 		</div>
 	{/if}
-	
-	<div class="p_top_4">
+    </th>
+    <th class="tg-031e">
+    	<div class="p_top_4">
 		<span class="user_browse_title">{phrase var='user.keywords'}</span>:
 		<div class="p_4">
 			{filter key='keyword'}
@@ -68,6 +74,9 @@ defined('PHPFOX') or exit('NO DICE!');
 	<div class="p_top_8">
 		<input type="submit" value="{phrase var='user.browse_filter_submit'}" class="button" name="search[submit]" />
 	</div>
+    </th>
+  </tr>
+</table>
 	
 	<ul id="js_user_browse_advanced_link">
 		<li><a href="#" onclick="$('#js_user_browse_advanced').show(); return false;" id="user_browse_advanced_link">{phrase var='user.advanced_filters'}</a></li>

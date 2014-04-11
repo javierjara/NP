@@ -12,7 +12,7 @@ defined('PHPFOX') or exit('NO DICE!');
 
 ?>
 <div style="display:none; margin-left:250px; background:url({$core_url}module/contactimporter/static/image/loading_small.gif) no-repeat;width:320px;height:100px;" id="loading">    
-		<div style="text-align:left;padding-top:50px;padding-left:-20px; ">{phrase var='contactimporter.sending_request'}</div>
+	<div style="text-align:left;padding-top:50px;padding-left:-20px; ">{phrase var='contactimporter.sending_request'}</div>
 </div>
 
 <link rel="stylesheet" type="text/css" href="{$core_url}module/contactimporter/static/css/default/default/Ynscontactimporter.css" />

@@ -82,7 +82,19 @@ defined('PHPFOX') or exit('NO DICE!');
             <input type="file" name="image[]" id="global_attachment_photo_file_input" value="" onchange="$bButtonSubmitActive = true; $('.activity_feed_form_button .button').removeClass('button_not_active'); imgUrlOnChange(this);" />
         </div>
         <div id="checkin_picker">
-            <a href="#" onclick="npShowCheckinMap(this); return false;">Check-in</a>
+            <!--<a href="#" onclick="npShowCheckinMap(this); return false;">Check-in</a>-->
+            Categoria: <select name="nome">
+           <option value="scelta uno">MOMENTS</option>
+           <option value="scelta due">HOLIDAYS</option>
+           <option value="scelta due">MOVIES</option>
+           <option value="scelta due">MUSIC</option>
+          <option value="scelta due"> FAMILY</option>
+          <option value="scelta due"> BOOKS</option>
+       <option value="scelta due">  ANIMALS</option>
+        <option value="scelta due"> PLACES</option>
+         <option value="scelta due">PHRASES</option>
+         <option value="scelta due">ACTIVITIES</option>
+           </select>
         </div>
     </div>            
     

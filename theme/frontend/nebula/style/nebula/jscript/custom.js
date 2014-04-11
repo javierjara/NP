@@ -1,5 +1,36 @@
 
 $Behavior.customNebula = function(){
+        
+    
+        $('.bustahover').hover(
+         function () {
+           $('#busta').stop(true, true).slideToggle("slow");
+         });
+         
+        $('.activity_feed_content').hover(
+          function () {
+            $(this).stop(true, true).find('.hug_open').fadeIn(350);
+          }, 
+          function () {
+            $('.hug_open').stop(true, true).fadeOut(350);
+          }
+         );
+        $('.hug_open').click(function(){
+            $(this).hide("slow");
+          });
+		  
+		  
+	/*	$( ".js_like_link_like" ).click(function() {
+		 $(this).animate({
+		    opacity: 0.25,
+		     $(this).css("background-size"): 20px 20px;
+		  }, 2000, function() {});
+		});*/
+		
+      /*  $('.activity_feed_content_text').hover(
+         function () {
+           $('#busta').slideToggle("slow")
+         });*/
 	
 	$('#nb_features_link').click(function(){
 		
@@ -108,6 +139,8 @@ $Behavior.customNebula = function(){
 	$('.js_comment_feed_textarea').focus(function(){
 		$(this).parents('.comment_mini:first').find('.button_set_off:first').removeClass('button_set_off');
 	});
+        
+        
 	
 	fixHeightForFooter();
 	/* Ads still broke the layout for me*/
@@ -119,4 +152,4 @@ function fixHeightForFooter()
 	$('#main_content_padding').ready(function(){
         $('#main_content_padding').css('min-height', $('#left').height());
 	});
-}
+};

@@ -14,7 +14,7 @@ defined('PHPFOX') or exit('NO DICE!');
 <div class="timeline_holder js_parent_feed_entry" id="js_item_feed_{$aFeed.feed_id}">
 	
 		{if !Phpfox::isMobile() && ((defined('PHPFOX_FEED_CAN_DELETE')) || (Phpfox::getUserParam('feed.can_delete_own_feed') && $aFeed.user_id == Phpfox::getUserId()) || Phpfox::getUserParam('feed.can_delete_other_feeds'))}
-			<div class="feed_delete_link"><a href="#" class="action_delete js_hover_title" onclick="$.ajaxCall('feed.delete', 'id={$aFeed.feed_id}{if isset($aFeedCallback.module)}&amp;module={$aFeedCallback.module}&amp;item={$aFeedCallback.item_id}{/if}', 'GET'); return false;"><span class="js_hover_info">{phrase var='feed.delete_this_feed'}</span></a></div>
+			<div class="feed_delete_link"><a href="#" class="action_delete js_hover_title" onclick="$.ajaxCall('feed.delete', 'id={$aFeed.feed_id}{if isset($aFeedCallback.module)}&amp;module={$aFeedCallback.module}&amp;item={$aFeedCallback.item_id}{/if}', 'GET'); return confirm('Are you sure want to delete?');"><span class="js_hover_info">{phrase var='feed.delete_this_feed'}</span></a></div>
 		{/if}	
 	
 	<div>
