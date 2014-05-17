@@ -11,10 +11,10 @@
 defined('PHPFOX') or exit('NO DICE!'); 
 
 ?>
-		{if (Phpfox::getUserParam('photo.can_edit_own_photo') && $aForms.user_id == Phpfox::getUserId()) || Phpfox::getUserParam('photo.can_edit_other_photo')}
+		<!-- {if (Phpfox::getUserParam('photo.can_edit_own_photo') && $aForms.user_id == Phpfox::getUserId()) || Phpfox::getUserParam('photo.can_edit_other_photo')}
 		<li><a href="#" onclick="if ($Core.exists('.js_box_image_holder_full')) {l} js_box_remove($('.js_box_image_holder_full').find('.js_box_content')); {r} $Core.box('photo.editPhoto', 700, 'photo_id={$aForms.photo_id}'); $('#js_tag_photo').hide();return false;">{phrase var='photo.edit_this_photo'}</a></li>
 		{/if}
-		
+		  -->
 		{if $aForms.user_id == Phpfox::getUserId() && !defined('PHPFOX_IS_HOSTED_SCRIPT')}
 			<li>
 				<a href="#" title="Set this photo as your profile image." onclick="if ($Core.exists('.js_box_image_holder_full')) {l} js_box_remove($('.js_box_image_holder_full').find('.js_box_content')); {r} tb_show('', '', null, '{phrase var='photo.setting_this_photo_as_your_profile_picture_please_hold'}', true); $.ajaxCall('photo.makeProfilePicture', 'photo_id={$aForms.photo_id}', 'GET'); return false;">{phrase var='photo.make_profile_picture'}</a>
@@ -25,8 +25,7 @@ defined('PHPFOX') or exit('NO DICE!');
 				</li>
 			{/if}		
 		{/if}	
-		
-		{if Phpfox::isModule('feed') && Phpfox::getUserParam('feed.can_sponsor_feeds')}
+		<!--{if Phpfox::isModule('feed') && Phpfox::getUserParam('feed.can_sponsor_feeds')}
 			<li>
 				<a href="{url link='ad.sponsor' where='feed' section='photo' item=$aForms.photo_id}">
 					{phrase var='feed.sponsor_in_feed'}
@@ -76,6 +75,7 @@ defined('PHPFOX') or exit('NO DICE!');
 						</a>
 					</li>		
 		{/if}
+		  -->
 		
 		{plugin call='photo.template_block_menu'}
 		

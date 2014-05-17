@@ -51,18 +51,18 @@ defined('PHPFOX') or exit('NO DICE!');
 {if !empty($sProfileImage)}
 <div class="image_profile_position">
 <div class="image_profile_wrapper">
+{if Phpfox::getUserId() == $aUser.user_id}
 <div id="book-button-wrapper">
-<div class="my-book-button-wrapper" >
-                                <a class="my-book-button ex-filter dont-unbind" href="#" title="{phrase var='feed.filter_next_tooltip'}">
-                                    <img class="my-book-button" src="static/image/my-book-left-button.png" /> 
-                                </a>
+	<div class="my-book-button-wrapper" >
+          <a id="activity_feed_popup_ex" href="#" class="button dont-unbind" onclick="tb_show('Ex life', $.ajaxBox('feed.popup', 'height=300&width=550')); return false;" title="{phrase var='feed.submit_ex_tooltip'}"> <img class="my-book-button" src="static/image/my-book-left-button.png" /></a> 
          </div>
-    <div class="my-book-button-wrapper"   >
-                                <a class="my-book-button next-filter dont-unbind" href="#" title="{phrase var='feed.filter_ex_tooltip'}">
-                                    <img class="my-book-button" src="static/image/my-book-right-button.png" />
-                                </a>
+    <div class="my-book-button-wrapper" >
+           <a id="activity_feed_popup_next" href="#" class="button dont-unbind" onclick="tb_show('Next life', $.ajaxBox('feed.popup', 'height=300&width=550')); return false;" title="{phrase var='feed.submit_next_tooltip'}">  <img class="my-book-button" src="static/image/my-book-right-button.png" /></a>
          </div>
 </div>
+{/if}
+
+ 				
    <div id="img_profile"> 
         <div class="profile_image" >
 	<div class="profile_image_holder">
@@ -75,8 +75,8 @@ defined('PHPFOX') or exit('NO DICE!');
 	    {/if}
 	</div>
 	    {if Phpfox::getUserId() == $aUser.user_id}
-	    <div class="p_4">
-		    <a href="{url link='user.photo'}">{phrase var='profile.change_picture'} </a>
+	    <div class="change_pic_holder">
+		    <a class="change_pic" href="{url link='user.photo'}">{phrase var='profile.change_picture'} </a>
 	    </div>
 	    {/if}
 
@@ -104,6 +104,121 @@ defined('PHPFOX') or exit('NO DICE!');
 		{/foreach}
 	</ul>
 </div>
+{if Phpfox::getUserId() == $aUser.user_id}
+<div class="horizontal_bar" >
+	<div id="ca-container" class="ca-container">
+				<div class="ca-wrapper">
+				<a href="#"  onclick="tb_show('Next life', $.ajaxBox('feed.popup', 'height=300&width=550')); return false;" title="{phrase var='feed.submit_next_tooltip'}"> 
+					<div class="ca-item ca-item-1">
+						<div class="ca-item-main">
+							<div class="ca-icon"></div>
+							<h4>
+								<span>MOMENTS</span>
+							</h4>
+						</div>
+					</div>
+					</a>
+					<a href="#"  onclick="tb_show('Next life', $.ajaxBox('feed.popup', 'height=300&width=550')); return false;" title="{phrase var='feed.submit_next_tooltip'}">
+					<div class="ca-item ca-item-2">
+						<div class="ca-item-main">
+							<div class="ca-icon"></div>
+							<h4>
+								<span>MOVIES</span>
+							</h4>
+						</div>
+					</div>
+					</a>
+					<a href="#"  onclick="tb_show('Next life', $.ajaxBox('feed.popup', 'height=300&width=550')); return false;" title="{phrase var='feed.submit_next_tooltip'}">
+					<div class="ca-item ca-item-3">
+						<div class="ca-item-main">
+							<div class="ca-icon"></div>
+							<h4>
+								<span>FAMILY</span>
+							</h4>
+						</div>
+					</div>
+					</a>
+					<a href="#"  onclick="tb_show('Next life', $.ajaxBox('feed.popup', 'height=300&width=550')); return false;" title="{phrase var='feed.submit_next_tooltip'}">
+					<div class="ca-item ca-item-4">
+						<div class="ca-item-main">
+							<div class="ca-icon"></div>
+							<h4>
+								<span>ACTIVITIES</span>
+							</h4>
+						</div>
+					</div>
+					</a>
+					<a href="#"  onclick="tb_show('Next life', $.ajaxBox('feed.popup', 'height=300&width=550')); return false;" title="{phrase var='feed.submit_next_tooltip'}">
+					<div class="ca-item ca-item-5">
+						<div class="ca-item-main">
+							<div class="ca-icon"></div>
+							<h4>
+								<span>BOOKS</span>
+							</h4>
+						</div>
+					</div>
+					</a>
+					<a href="#"  onclick="tb_show('Next life', $.ajaxBox('feed.popup', 'height=300&width=550')); return false;" title="{phrase var='feed.submit_next_tooltip'}">
+					<div class="ca-item ca-item-6">
+						<div class="ca-item-main">
+							<div class="ca-icon"></div>
+							<h4>
+								<span>ANIMALS</span>
+							</h4>
+						</div>
+					</div>
+					</a>
+					<a href="#"  onclick="tb_show('Next life', $.ajaxBox('feed.popup', 'height=300&width=550')); return false;" title="{phrase var='feed.submit_next_tooltip'}">
+					<div class="ca-item ca-item-7">
+						<div class="ca-item-main">
+							<div class="ca-icon"></div>
+							<h4>
+								<span>PHRASES</span>
+							</h4>
+						</div>
+					</div>
+					</a>
+					<a href="#"  onclick="tb_show('Next life', $.ajaxBox('feed.popup', 'height=300&width=550')); return false;" title="{phrase var='feed.submit_next_tooltip'}">
+					<div class="ca-item ca-item-8">
+						<div class="ca-item-main">
+							<div class="ca-icon"></div>
+							<h4>
+								<span>MUSIC</span>
+							</h4>
+						</div>
+					</div>
+					</a>
+					<a href="#"  onclick="tb_show('Next life', $.ajaxBox('feed.popup', 'height=300&width=550')); return false;" title="{phrase var='feed.submit_next_tooltip'}">
+					<div class="ca-item ca-item-9">
+						<div class="ca-item-main">
+							<div class="ca-icon"></div>
+							<h4>
+								<span>HOLIDAYS</span>
+							</h4>
+						</div>
+					</div>
+					</a>
+					<a href="#"  onclick="tb_show('Next life', $.ajaxBox('feed.popup', 'height=300&width=550')); return false;" title="{phrase var='feed.submit_next_tooltip'}">
+					<div class="ca-item ca-item-10">
+						<div class="ca-item-main">
+							<div class="ca-icon"></div>
+							<h4>
+								<span>PLACES</span>
+							</h4>
+						</div>
+					</div>
+					</a>
+				</div>
+			</div>
+</div>
+{/if}
+
+{literal} 
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+<script type="text/javascript">
+	$('#ca-container').contentcarousel();
+</script>
+{/literal}
 
 {/if}
 

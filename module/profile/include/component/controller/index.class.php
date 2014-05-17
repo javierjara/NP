@@ -452,7 +452,10 @@ class Profile_Component_Controller_Index extends Phpfox_Component
 							'colorpicker/js/colorpicker.js' => 'static_script',
 							'switch_legend.js' => 'static_script',
 							'switch_menu.js' => 'static_script',
-							'designer.js' => 'module_profile'
+							'designer.js' => 'module_profile',
+						    'jquery.easing.1.3.js' => 'module_profile',
+							'jquery.mousewheel.js' => 'module_profile',
+							'jquery.contentcarousel.js' => 'module_profile'
 						)
 					)
 					->setHeader('cache', array(

@@ -39,7 +39,7 @@ $Behavior.termsAndPrivacy = function()
 
 	<h1>{phrase var='user.sign_up_for_ssitetitle' sSiteTitle=$sSiteTitle}</h1>
 	<div class="extra_info">
-		{phrase var='user.join_ssitetitle_to_connect_with_friends_share_photos_and_create_your_own_profile' sSiteTitle=$sSiteTitle}
+		<!--{phrase var='user.join_ssitetitle_to_connect_with_friends_share_photos_and_create_your_own_profile' sSiteTitle=$sSiteTitle}  -->
 	</div>
 	<div id="main_registration_form_holder">
 		{if ((Phpfox::isModule('facebook') && Phpfox::getParam('facebook.enable_facebook_connect')) || (Phpfox::isModule('janrain') && Phpfox::getParam('janrain.enable_janrain_login'))) && !Phpfox::getService('invite')->isInviteOnly()}
@@ -118,7 +118,7 @@ $Behavior.termsAndPrivacy = function()
 							{template file='user.block.register.step2'}
 						</div>
 						{else}
-							{template file='user.block.register.step1'}			
+							{template file='user.block.register.step1'}	
 						{/if}
 					</div>		
 					{plugin call='user.template_controller_register_pre_captcha'}
@@ -153,7 +153,7 @@ $Behavior.termsAndPrivacy = function()
 		</div>
 		<div class="clear"></div>
 	</div>
-	{module name='user.images'}
+	<!-- {module name='user.images'} -->
 </div>
 {/if}
 {if Phpfox::getLib('module')->getFullControllerName() == 'user.register'}

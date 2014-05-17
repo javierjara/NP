@@ -27,7 +27,7 @@ defined('PHPFOX') or exit('NO DICE!');
 	<div id="js_photo_box_view_bottom_ad">
 		{module name='ad.display' block_id='photo_theater'}
 				
-		<a href="#" onclick="$('#js_photo_box_view_more').slideToggle(); return false;" class="photo_box_photo_detail">{phrase var='photo.photo_details'}</a>
+		<!-- <a href="#" onclick="$('#js_photo_box_view_more').slideToggle(); return false;" class="photo_box_photo_detail">{phrase var='photo.photo_details'}</a> -->
 		<div id="js_photo_box_view_more">
 			<div class="js_photo_box_view_more_padding">
 				{module name='photo.detail' is_in_photo=true}
@@ -149,11 +149,11 @@ $Behavior.autoLoadPhoto = function(){l}
 	
 	{literal}
 	// $('#main_core_body_holder').hide();
-	
+
 	$('#photo_view_ajax_loader').hide();
 	$('.js_box_image_holder_full').find('.js_box').show();
-	$('.js_box_image_holder_full').find('.js_box').width($(window).width() - 40);
-	$('.js_box_image_holder_full').find('.js_box_content').height(getPageHeight() - 70);		
+	$('.js_box_image_holder_full').find('.js_box').width($(window).width()-200 );
+	$('.js_box_image_holder_full').find('.js_box_content').height(getPageHeight() - 130);		
 	$('.js_box_image_holder_full').css('position', 'fixed');
 	
 	var iCommentBoxMaxHeight = 300;
@@ -164,14 +164,14 @@ $Behavior.autoLoadPhoto = function(){l}
 	}
 	
 	$('.js_box_image_holder_full').find('.js_feed_comment_view_more_holder:first').css({
-		'max-height': iCommentBoxMaxHeight + 'px',
+		'max-height': iCommentBoxMaxHeight + 110 + 'px',
 		overflow: 'auto'
 	});		
 		
 	$('.photo_view_box_comment').css('min-height', $('.js_box_image_holder_full').find('.js_box').height());	
 	$('.js_box_image_holder_full').find('.js_box').css({
-		'top': 0,
-		'left': '16px'	    		
+		'left': '7%',
+		'top': '50px'
 	});
 
     var iNewImageHeight = $('#js_photo_view_image').attr('height');
@@ -199,6 +199,7 @@ $Behavior.autoLoadPhoto = function(){l}
 		$(this).height(50);
 		$('#js_ad_space_photo_theater').hide();
 		$(this).addClass('no_resize_textarea');
+	
 		return true;
 	});
 	/*

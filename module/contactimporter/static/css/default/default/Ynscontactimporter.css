@@ -51,7 +51,7 @@ ul.errors{
 button, .button
 {
 	-moz-border-radius:6px 6px 6px 6px;
-	background:url("../theme/frontend/default/style/default/image/layout/input_button.png") repeat-x scroll 0 0 #195B85;
+	background:url("../theme/frontend/default/style/default/image/layout/input_button.png") repeat-x scroll 0 0;
 	border:medium none;
 	color:#FFFFFF;
 	cursor:pointer;

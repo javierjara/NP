@@ -550,6 +550,7 @@ select
 	font-weight:bold;
 	border-bottom:1px #dfdfdf solid;
 	padding-bottom:5px;	
+	color:#FFF;
 }
 
 .global_notification_site
@@ -2841,7 +2842,7 @@ a.activity_feed_content_view_more:hover
 {
 	position:absolute;
 	right:0px;
-	top:10px;
+	top:0px;
 }
 
 .feed_comment_extra ul

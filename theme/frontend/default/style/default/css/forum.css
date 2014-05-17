@@ -207,6 +207,12 @@ div.forum_image_holder
 {
 	position:relative;
 }
+.forum_image_holder img
+{
+	border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+}
 
 div.forum_mini_new,
 div.forum_mini_old,
@@ -350,7 +356,7 @@ div#content div.forum_main div.attachment_holder h3
 .forum_thread_total
 {
 	position:absolute;
-	top:0px;
+	top:50px;
 	right:240px;	
 }
 
