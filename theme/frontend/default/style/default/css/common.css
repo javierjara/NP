@@ -135,39 +135,42 @@ ul.extra_info_middot_normal li a:hover
 	padding-bottom:10px;	
 }
 
-.table_left
-{
-	padding:2px 0px 6px 0px; 	
-	color:#666666;
-	font-weight:bold;
-	font-size:12px;
-}
-
 .user_register_form .table
 {
 	position:relative;
 }
 
+
 .user_register_form .table_left
 {
-	position:absolute;
 	left:0px;
-	top:6px;
-	font-weight:normal;
-	text-align:right;
-	width:80px;
+    position:absolute;
+	width:50%;
 }
 
 .user_register_form .table_right
 {
-	margin-left:90px;
+	margin-left:50%;
 }
 
-.user_register_form .table_right input
+.user_register_form .table_left_30
 {
-	font-size:16px;
-	padding:8px 0px 8px 4px;	
-	width:98%;
+    left:0px;
+    position:absolute;
+    width:30%;
+    font-size: 14px;
+}
+
+.user_register_form .table_right_70
+{
+    margin-left:30%;
+}
+
+.user_register_form input
+{
+	font-size:14px;
+	padding:5px 0px 5px 4px;
+	width:96%;
 	background:#fff;
 }
 .user_register_form .table_right input[type=checkbox], .user_register_form .table_right input[type=radio]
@@ -185,6 +188,10 @@ ul.extra_info_middot_normal li a:hover
 	padding:8px 4px 8px 4px;	
 	background:#fff;
 }
+.user_register_form .button_register
+{
+    background-color: #52C921;
+}
 
 div.table_clear
 {
@@ -193,7 +200,7 @@ div.table_clear
 
 .user_register_form div.table_clear
 {
-	margin-left:90px;
+	/*margin-left:90px;*/
 }
 
 ul.table_clear_button

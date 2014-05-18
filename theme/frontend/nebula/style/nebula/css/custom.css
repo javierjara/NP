@@ -1045,11 +1045,6 @@ ul.activity_feed_form_attach li a.active .drop
 	top:9px;
 }
 
-#header_menu_login .header_menu_login_input
-{
-	background:#fff;
-}
-
 #feed_view_more_loader
 {
 	margin-top:15px;
@@ -4123,6 +4118,38 @@ input[type=radio].css-checkbox + label.css-label {
     box-shadow: 0 1px 3px 0 rgba(0,0,0,.1) inset;
     font-family: 'PT Sans', Helvetica, Arial, sans-serif;
     color: #888;
+    font-size: 16px;
+}
+#header_menu_login .header_menu_login_input
+{
+    height: 30px;
+    background: #fcfcfc;
+    border: 1px solid #ddd;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    -moz-box-shadow: 0 1px 3px 0 rgba(0,0,0,.1) inset;
+    -webkit-box-shadow: 0 1px 3px 0 rgba(0,0,0,.1) inset;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,.1) inset;
+    font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+    color: #888;
+    font-size: 16px;
+}
+
+#header_menu_login .header_menu_login_button input
+{
+    height: 30px;
+    margin-top: 10px;
+    padding: 5px 10px 5px 10px;
+    background: #52C921 ;
+    border: 1px solid #ddd;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    -moz-box-shadow: 0 1px 3px 0 rgba(0,0,0,.1) inset;
+    -webkit-box-shadow: 0 1px 3px 0 rgba(0,0,0,.1) inset;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,.1) inset;
+    font-family: 'PT Sans', Helvetica, Arial, sans-serif;
     font-size: 16px;
 }
 

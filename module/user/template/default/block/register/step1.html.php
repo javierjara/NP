@@ -4,21 +4,13 @@
 		<div><input type="hidden" name="val[full_name]" id="full_name" value="stock" size="30" /></div>
 		<div class="table">
 			<div class="table_left">
-				<label for="first_name">{required}{phrase var='user.first_name'}:</label>
+                <input type="text" name="val[first_name]" id="first_name" placeholder="{phrase var='user.first_name'}" value="{value type='input' id='first_name'}" size="30" />
 			</div>
 			<div class="table_right">
-				<input type="text" name="val[first_name]" id="first_name" value="{value type='input' id='first_name'}" size="30" />
-			</div>			
-		</div>		
-		<div class="table">
-			<div class="table_left">
-				<label for="last_name">{required}{phrase var='user.last_name'}:</label>
+				<input type="text" name="val[last_name]" id="last_name" placeholder="{phrase var='user.last_name'}" value="{value type='input' id='last_name'}" size="30" />
 			</div>
-			<div class="table_right">
-				<input type="text" name="val[last_name]" id="last_name" value="{value type='input' id='last_name'}" size="30" />
-			</div>			
-		</div>		
-		<div class="separate"></div>
+		</div>
+<!--		<div class="separate"></div>-->
 		{else}
 		<div class="table">
 			<div class="table_left">
@@ -54,11 +46,15 @@
 		{/if}
 		<div class="table">
 			<div class="table_left">
-				<label for="email">{required}{phrase var='user.email'}:</label>
+                <input type="text" name="val[email]" id="email" placeholder="{phrase var='user.email'}" value="{value type='input' id='email'}" size="30" />
 			</div>
 			<div class="table_right">
-				<input type="text" name="val[email]" id="email" value="{value type='input' id='email'}" size="30" />
-			</div>			
+                {if isset($bIsPosted)}
+                <input type="password" name="val[password]" id="password" placeholder="{phrase var='user.password'}" value="{value type='input' id='password'}" size="30" />
+                {else}
+                <input type="password" name="val[password]" id="password" placeholder="{phrase var='user.password'}" value="" size="30" />
+                {/if}
+			</div>
 		</div>
 		{if Phpfox::getParam('user.reenter_email_on_signup')}
 		<div class="table">
@@ -75,17 +71,17 @@
 		{/if}
 
 		{plugin call='user.template_default_block_register_step1_5'}
-		<div class="table">
-			<div class="table_left">
-				<label for="password">{required}{phrase var='user.password'}:</label>
-			</div>
-			<div class="table_right">
-				{if isset($bIsPosted)}
-				<input type="password" name="val[password]" id="password" value="{value type='input' id='password'}" size="30" />
-				{else}
-				<input type="password" name="val[password]" id="password" value="" size="30" />
-				{/if}
-			</div>			
-		</div>
+<!--		<div class="table">-->
+<!--			<div class="table_left">-->
+<!--				<label for="password">{required}{phrase var='user.password'}:</label>-->
+<!--			</div>-->
+<!--			<div class="table_right">-->
+<!--				{if isset($bIsPosted)}-->
+<!--				<input type="password" name="val[password]" id="password" value="{value type='input' id='password'}" size="30" />-->
+<!--				{else}-->
+<!--				<input type="password" name="val[password]" id="password" value="" size="30" />-->
+<!--				{/if}-->
+<!--			</div>			-->
+<!--		</div>-->
 		{plugin call='user.template_default_block_register_step1_4'}
 	</div>

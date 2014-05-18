@@ -5,52 +5,52 @@
 	{/if}
 	{if Phpfox::getParam('core.registration_enable_dob')}
 		<div class="table">
-			<div class="table_left">
+			<div class="table_left_30">
 				{required}{phrase var='user.birthday'}:
 			</div>
-			<div class="table_right">						
+			<div class="table_right_70">
 				{select_date start_year=$sDobStart end_year=$sDobEnd field_separator=' / ' field_order='MDY' bUseDatepicker=false sort_years='DESC'}
-			</div>			
+			</div>
 		</div>
 	{/if}
 	{if Phpfox::getParam('core.registration_enable_gender')}
 		<div class="table">
-			<div class="table_left">
+			<div class="table_left_30">
 				<label for="gender">{required}{phrase var='user.i_am'}:</label>
 			</div>
-			<div class="table_right">
+			<div class="table_right_70">
 				{select_gender}
 			</div>			
 		</div>
 	{/if}	
 	{if Phpfox::getParam('core.registration_enable_location')}
 		<div class="table">
-			<div class="table_left">
+			<div class="table_left_30">
 				<label for="country_iso">{required}{phrase var='user.location'}:</label>
 			</div>
-			<div class="table_right">
+			<div class="table_right_70">
 				{select_location}
 				{module name='core.country-child' country_force_div=true}
-			</div>			
-		</div>		
+			</div>
+		</div>
 	{/if}
 	{if Phpfox::getParam('core.city_in_registration')}
 		<div class="table">
-			<div class="table_left">
+			<div class="table_left_30">
 				<label for="city_location">{phrase var='user.city'}:</label>
 			</div>
-			<div class="table_right">
+			<div class="table_right_70">
 				<input type="text" name="val[city_location]" id="city_location" value="{value type='input' id='city_location'}" size="30" />
 			</div>			
-		</div>		
+		</div>
 	{/if}
 	
 	{if Phpfox::getParam('core.registration_enable_timezone')}
 		<div class="table">
-			<div class="table_left">
+			<div class="table_left_30">
 				{phrase var='user.time_zone'}:	
 			</div>
-			<div class="table_right">
+			<div class="table_right_70">
 				<select name="val[time_zone]">
 				{foreach from=$aTimeZones key=sTimeZoneKey item=sTimeZone}
 					<option value="{$sTimeZoneKey}"{if (Phpfox::getTimeZone() == $sTimeZoneKey && !isset($iTimeZonePosted)) || (isset($iTimeZonePosted) && $iTimeZonePosted == $sTimeZoneKey) || (Phpfox::getParam('core.default_time_zone_offset') == $sTimeZoneKey)} selected="selected"{/if}>{$sTimeZone}</option>
@@ -66,10 +66,10 @@
 		{if Phpfox::isModule('subscribe') && Phpfox::getParam('subscribe.enable_subscription_packages') && count($aPackages)}
 		<div class="separate"></div>
 		<div class="table">
-			<div class="table_left">
+			<div class="table_left_30">
 				{if Phpfox::getParam('subscribe.subscribe_is_required_on_sign_up')}{required}{/if}{phrase var='user.membership'}:	
 			</div>
-			<div class="table_right">
+			<div class="table_right_70">
 				<select name="val[package_id]" id="js_subscribe_package_id">
 				{if Phpfox::getParam('subscribe.subscribe_is_required_on_sign_up')}				
 					<option value=""{value type='select' id='package_id' default='0'}>{phrase var='user.select'}:</option>
@@ -94,15 +94,15 @@
 	{if Phpfox::getParam('user.force_user_to_upload_on_sign_up')}
 		<div class="separate"></div>
 		<div class="table">
-			<div class="table_left">
+			<div class="table_left_30">
 				{required}{phrase var='user.profile_image'}:
 			</div>
-			<div class="table_right">
+			<div class="table_right_70">
 				<input type="file" name="image" />
 				<div class="extra_info">
 					{phrase var='user.you_can_upload_a_jpg_gif_or_png_file'}
 				</div>
-			</div>			
+			</div>
 		</div>
 	{/if}
 	
