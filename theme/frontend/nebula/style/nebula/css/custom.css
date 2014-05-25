@@ -1045,6 +1045,11 @@ ul.activity_feed_form_attach li a.active .drop
 	top:9px;
 }
 
+#header_menu_login .header_menu_login_input
+{
+	background:#fff;
+}
+
 #feed_view_more_loader
 {
 	margin-top:15px;
@@ -2627,7 +2632,7 @@ textarea.js_comment_feed_textarea_focus {
 #holder_notify {
     width: auto;
     margin-left: 0;
-    margin-right: 70px;
+    margin-right: 145px;
     left:0;
     right:0;
     display: inline-block;
@@ -3861,8 +3866,8 @@ div.js_feed_view_more_entry_holder.post_type_ex div.hugIconCommentMini {
 /*BEGIN PROFILE IMAGE*/
 
 div.image_profile_position {
-    
-    float:left; height: 150px; width: 150%; margin-left: -1%;   
+
+    float:left; height: 150px; width: 150%; margin-left: -1%;
 }
 div.image_profile_wrapper
 {
@@ -3877,7 +3882,7 @@ top:0;
 }
 
 #book-button-wrapper{
-padding-top:40px; 
+padding-top:40px;
 margin-left: auto;
 margin-right: auto;
 left: 0;
@@ -3916,22 +3921,22 @@ list-style-type: none;
 text-align: center;
 }
 
-.horizontal_bar ul li {display: inline;  
+.horizontal_bar ul li {display: inline;
         }
      .horizontal_bar ul li a,
-     .horizontal_bar ul li a:hover {  
-        line-height:60px;	
+     .horizontal_bar ul li a:hover {
+        line-height:60px;
 	text-decoration:none;
-	
+
         font-size: 13px;
-	padding: 5px 5px 0px 20px;	
+	padding: 5px 5px 0px 20px;
 	background-repeat:no-repeat;
 }
 .horizontal_bar ul li a
 {
     color:#333;
 }
-     .horizontal_bar ul li a:hover { 
+     .horizontal_bar ul li a:hover {
          color:#333333;
          font-weight: bold;
      }
@@ -4028,7 +4033,7 @@ input[type=radio].css-checkbox {
 
 input[type=radio].css-checkbox + label.css-label {
 							padding-left:45px;
-							height:30px; 
+							height:30px;
 							display:inline-block;
 							line-height:30px;
 							background-repeat:no-repeat;
@@ -4044,7 +4049,7 @@ input[type=radio].css-checkbox + label.css-label {
 						}
 		    input[type=radio].css-checkbox + label.css-labelright {
 							padding-right:45px;
-							height:30px; 
+							height:30px;
 							display:inline-block;
 							line-height:30px;
 							background-repeat:no-repeat;
