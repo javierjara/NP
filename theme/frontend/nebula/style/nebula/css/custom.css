@@ -1461,10 +1461,13 @@ a.activity_feed_content_view_more, a.activity_feed_content_view_more:hover
     padding:8px 5px 0px 0px;
 }
 
-#header_menu_login_custom
+#header_menu_login_custom, .header_menu_login_sub, .header_menu_login_sub a
 {
-    color:#333;
+    color: #ffffff !important;
+    font-size: 14px !important;
+
 }
+
 
 a#pages_like_join,
 a#pages_like_join:hover
@@ -4146,7 +4149,7 @@ input[type=radio].css-checkbox + label.css-label {
     height: 30px;
     margin-top: 10px;
     padding: 5px 10px 5px 10px;
-    background: #ffffff ;
+    background: #f8f8f8 url('../image/pattern.jpg') left top repeat;
     color: #52C921;
     border: 1px solid #A2EB84;
     -moz-border-radius: 2px;
