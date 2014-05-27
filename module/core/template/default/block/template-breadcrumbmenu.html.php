@@ -22,14 +22,15 @@ defined('PHPFOX') or exit('NO DICE!');
 		{/if}
 		
 	{/if}
-	<div id="section_menu"{if Phpfox::isMobile()} style="display:none;"{/if}>
-		<ul>
-			{foreach from=$aSubMenus key=iKey name=submenu item=aSubMenu}
-			<li><a href="{url link=$aSubMenu.url)}" {if isset($aSubMenu.css_name)}class="{$aSubMenu.css_name} no_ajax_link"{/if}>{if substr($aSubMenu.url, -4) == '.add' || substr($aSubMenu.url, -7) == '.upload' || substr($aSubMenu.url, -8) == '.compose'}{img theme='layout/section_menu_add.png' class='v_middle'}{/if}{phrase var=$aSubMenu.module'.'$aSubMenu.var_name}</a></li>
-			{/foreach}
-		</ul>						
-		<div class="clear"></div>
-	</div>
+<!--  DARIO: commentato ogni tasto blu, per togliere "upload photo" -->
+<!--	<div id="section_menu"{if Phpfox::isMobile()} style="display:none;"{/if}> -->
+<!-- 		<ul> -->
+<!-- 			{foreach from=$aSubMenus key=iKey name=submenu item=aSubMenu} -->
+<!-- 			<li><a href="{url link=$aSubMenu.url)}" {if isset($aSubMenu.css_name)}class="{$aSubMenu.css_name} no_ajax_link"{/if}>{if substr($aSubMenu.url, -4) == '.add' || substr($aSubMenu.url, -7) == '.upload' || substr($aSubMenu.url, -8) == '.compose'}{img theme='layout/section_menu_add.png' class='v_middle'}{/if}{phrase var=$aSubMenu.module'.'$aSubMenu.var_name}</a></li> -->
+<!-- 			{/foreach} -->
+<!-- 		</ul>						 -->
+<!-- 		<div class="clear"></div> -->
+<!-- 	</div> -->
 	{if Phpfox::isMobile()}
 	<div class="clear"></div>
 	{/if}
