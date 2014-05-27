@@ -3305,7 +3305,7 @@ ul.block_listing_hover li:hover
 {
 	height:120px;
 	width:130px;
-	position:relative;			
+	position:relative;	
 }
 .photo_clip_holder_main_big, .photo_with_info
 {
@@ -3322,7 +3322,13 @@ ul.block_listing_hover li:hover
 	background:#fff;
 	-moz-box-shadow: 3px 3px 3px #ccc;
 	-webkit-box-shadow: 3px 3px 3px #ccc;
-	box-shadow: 3px 3px 3px #ccc;		
+	box-shadow: 3px 3px 3px #ccc;
+
+	/* foto cerchiata */
+	border-radius:150px;
+    -moz-border-radius:150px;
+    -webkit-border-radius:150px; 
+
 }
 .photo_clip_holder_border_big
 {
@@ -3340,14 +3346,19 @@ a.photo_clip_holder,
 a.photo_clip_holder:hover
 {
 	position:absolute;
-	top:-4px;
+	top:1px;
 	left:1px;
 	height:120px;
 	width:128px;
-	padding-top: 5px;
+	/*padding-top: 5px;*/
 	overflow: hidden;	
 	display:block;
 	text-decoration:none;
+
+	/* foto cerchiata */
+	border-radius:150px;
+    -moz-border-radius:150px;
+    -webkit-border-radius:150px; 
 	
 }
 
