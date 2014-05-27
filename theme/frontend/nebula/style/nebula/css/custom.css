@@ -4146,8 +4146,9 @@ input[type=radio].css-checkbox + label.css-label {
     height: 30px;
     margin-top: 10px;
     padding: 5px 10px 5px 10px;
-    background: #52C921 ;
-    border: 1px solid #ddd;
+    background: #ffffff ;
+    color: #52C921;
+    border: 1px solid #A2EB84;
     -moz-border-radius: 2px;
     -webkit-border-radius: 2px;
     border-radius: 2px;
@@ -4234,7 +4235,7 @@ input[type=radio].css-checkbox + label.css-label {
 	position:relative;
     margin: 0 auto;
     padding-bottom: 5px;
-    background: #f8f8f8 url('../image/pattern.jpg') left top repeat;
+    background: #52C921;
     border-top: 3px solid #52C921;
     -moz-box-shadow: 0 1px 5px 0 rgba(0,0,0,.3);
     -webkit-box-shadow: 0 1px 5px 0 rgba(0,0,0,.3);

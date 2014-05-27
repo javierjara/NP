@@ -40,7 +40,7 @@ defined('PHPFOX') or exit('NO DICE!');
 			<div class="holder_home">
 			<div style="margin:10px;">
 			<div style="float:left;">
-			<a href="{url link=''}"><img src="static/image/logo_verde.png" width="200px"></a></div>
+			<a href="{url link=''}"><img src="static/image/logo_verde.png" width="250px"></a></div>
 			<div style="float:right;">
         {module name='user.login-header'} </div>
         	</div></div></div>

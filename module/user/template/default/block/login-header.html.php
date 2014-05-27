@@ -21,14 +21,14 @@ defined('PHPFOX') or exit('NO DICE!');
 											<div class="header_menu_login_left">
 												<div class="header_menu_login_label">{if Phpfox::getParam('user.login_type') == 'user_name'}{phrase var='user.user_name'}{elseif Phpfox::getParam('user.login_type') == 'email'}{phrase var='user.email'}{else}{phrase var='user.login'}{/if}:</div>
 												<div><input type="text" name="val[login]" value="" class="header_menu_login_input" tabindex="1" /></div>
-												<div class="header_menu_login_sub">
+												<div class="header_menu_login_sub" style="color:#fff">
 													<label><input type="checkbox" name="val[remember_me]" value="" checked="checked" tabindex="4" /> {phrase var='user.keep_me_logged_in'}</label>
 												</div>
 											</div>
 											<div class="header_menu_login_right">
 												<div class="header_menu_login_label">{phrase var='user.password'}:</div>
 												<div><input type="password" name="val[password]" value="" class="header_menu_login_input" tabindex="2" /></div>
-												<div class="header_menu_login_sub">
+												<div class="header_menu_login_sub" style="color:#fff">
 													<a href="{url link='user.password.request'}">{phrase var='user.forgot_your_password'}</a>
 												</div>
 											</div>
@@ -38,7 +38,7 @@ defined('PHPFOX') or exit('NO DICE!');
 										</form>
 									{if isset($bCustomLogin)}
 									</div>									
-									<div id="header_menu_login_custom">
+									<div id="header_menu_login_custom" style="color:#fff">
 										{if !Phpfox::getParam('user.force_user_to_upload_on_sign_up')}
 											{phrase var='user.or_login_with'}:										
 											{if Phpfox::isModule('facebook') && Phpfox::getParam('facebook.enable_facebook_connect')}
