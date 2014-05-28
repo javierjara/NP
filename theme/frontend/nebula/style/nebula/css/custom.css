@@ -6,19 +6,19 @@ body
         background: #ffffff;
 }
 
-
-/* foto cerchiate nella pagina "community" */
+/* foto cerchiate nella pagina "community" */ 
 .user_browse_image img{
 	border-radius: 150px;
 	-moz-border-radius: 150px;
 	-webkit-border-radius: 150px;
 }
-/* foto cerchiate nella pagina "amici" */
-.friend_image{
-	border-radius: 150px;
-	-moz-border-radius: 150px;
-	-webkit-border-radius: 150px;	
-}
+
+/* foto cerchiate nella pagina "amici" */ 	 	
+.friend_image img{ 	 	
+	border-radius: 150px; 	 	
+	-moz-border-radius: 150px; 	 	
+	-webkit-border-radius: 150px;	 	 	
+} 
 
 #apps_iframe
 {
@@ -1476,13 +1476,10 @@ a.activity_feed_content_view_more, a.activity_feed_content_view_more:hover
     padding:8px 5px 0px 0px;
 }
 
-#header_menu_login_custom, .header_menu_login_sub, .header_menu_login_sub a
+#header_menu_login_custom
 {
-    color: #ffffff !important;
-    font-size: 14px !important;
-
+    color:#333;
 }
-
 
 a#pages_like_join,
 a#pages_like_join:hover
@@ -1704,20 +1701,19 @@ div.activity_feed_image img {
 {
    width: 40px;
     height: 76px;
-display: inline-block;
-position: absolute;
-margin-left: auto;
-margin-right: auto;
-left: 0;
-right: 0;
-
+	display: inline-block;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
 }
 
 #activity_feed_form_button_center
 {
     width: auto;
-text-align: center;
-height: 65px;
+	text-align: center;
+	height: 65px;
 }
 
 
@@ -1885,43 +1881,77 @@ div.js_feed_view_more_entry_holder div.comment_mini_link_like ul li a {
     border-bottom-color: #52C921;
     background-color:transparent;
 }
-
-div.js_feed_view_more_entry_holder div.comment_mini_link_like ul li.li_action a {
-    background: url("../image/like1.png");
-    background-repeat: no-repeat;
-    padding: 3px 0 3px 20px;
-    margin: .4em 0;
-}
-
 div.js_feed_view_more_entry_holder div.comment_mini_link_like ul li.sub_menu_bar_li a {
     background: url("../image/share.png");
     background-repeat: no-repeat;
 	background-position: 0 50%;
-	padding: 3px 0 3px 35px;
-
+	padding: 3px 150px 3px 35px;
+	margin-left: 190px;
 }
 
-
-
-div.js_feed_view_more_entry_holder.post_type_ex div.comment_mini_link_like ul li.li_action a {
-    background: url("../image/like2.png");
-    background-size: 70px 48px;
+/* questi 2: hover click per amicizia/cambio foto profilo */
+div.js_feed_view_more_entry_holder div.comment_mini_link_like ul li.li_action a {
+    background: url("../image/like1.png");
     background-repeat: no-repeat;
-   
+    padding: 3px 150px 3px 15px;
+    margin: .4em 0;
+    background-align: center;
+	margin-left: 205px;
 }
 
+div.js_feed_view_more_entry_holder div.comment_mini_link_like ul li.li_action a:hover {
+    background: url("../image/like1_1.png");
+    background-repeat: no-repeat;
+    padding: 3px 150px 3px 15px;
+    margin: .4em 0;
+	background-align: center;
+	margin-left: 205px;
+}
+
+/* questi 2: hover su foto NEXT*/
 div.js_feed_view_more_entry_holder.post_type_next div.comment_mini_link_like ul li.li_action a {
     background: url("../image/like1.png");
     background-size: 70px 48px;
     background-repeat: no-repeat;
-    
+    background-align: center;
+	margin-left: 205px;
+}
+div.js_feed_view_more_entry_holder.post_type_next div.comment_mini_link_like ul li.li_action a:hover {
+    background: url("../image/like1_1.png");
+    background-repeat: no-repeat;
+	background-size: 74px 48px;
+    background-align: center;
+	margin-left: 205px;
 }
 
-div.js_feed_view_more_entry_holder div.comment_mini_link_like ul li a:hover {
-    background-color:transparent;
-    color: #fff;
+/* questi 4 vanno quando è già stato cliccato su HUG*/
+div.js_feed_view_more_entry_holder.post_type_next div.js_user_feed:hover div.comment_mini_link_like ul li a {
+    border-bottom-color: #52C921;
+    padding-top: 10px;
+    margin-right: 75px;
+}
+div.js_feed_view_more_entry_holder.post_type_next div.js_user_feed div.comment_mini_link_like ul li a {
+    border-bottom-color: #52C921;
+    padding-top: 10px;
+	margin-right: 75px;
+} 
+div.js_feed_view_more_entry_holder.post_type_ex div.js_user_feed:hover div.comment_mini_link_like ul li a {
+    border-bottom-color: #009AEF;
+    padding-top: 10px;
+    margin-right: 75px;
+}
+div.js_feed_view_more_entry_holder.post_type_ex div.js_user_feed div.comment_mini_link_like ul li a {
+    border-bottom-color: #009AEF;
+    padding-top: 10px;
+    margin-right: 75px;
 }
 
+/* questi 2: show dell'icona che abbraccia, post EX*/
+div.js_feed_view_more_entry_holder.post_type_ex div.comment_mini_link_like ul li.li_action a {
+    background: url("../image/like2.png");
+    background-size: 70px 48px;
+    background-repeat: no-repeat;
+}
 div.js_feed_view_more_entry_holder.post_type_ex div.comment_mini_link_like ul li.li_action a:hover {
     background: url("../image/like2_1.png");
     background-size: 74px 48px;
@@ -1929,10 +1959,8 @@ div.js_feed_view_more_entry_holder.post_type_ex div.comment_mini_link_like ul li
     color: #fff;
 }
 
-div.js_feed_view_more_entry_holder.post_type_next div.comment_mini_link_like ul li.li_action a:hover {
-    background: url("../image/like1_1.png");
-    background-repeat: no-repeat;
-	background-size: 74px 48px;
+div.js_feed_view_more_entry_holder div.comment_mini_link_like ul li a:hover {
+    background-color:transparent;
     color: #fff;
 }
 
@@ -1945,14 +1973,6 @@ div.js_feed_view_more_entry_holder div.comment_mini_link_like ul li a.feed_perma
     background-color: #fff;
     color: #808080;
 }
-
-div.js_feed_view_more_entry_holder.post_type_ex div.js_user_feed:hover div.comment_mini_link_like ul li a {
-    border-bottom-color: #009AEF;
-}
-
-div.js_feed_view_more_entry_holder.post_type_next div.js_user_feed:hover div.comment_mini_link_like ul li a {
-    border-bottom-color: #52C921;
-} 
 
 div.js_feed_view_more_entry_holder div.js_user_feed:hover div.comment_mini_link_like ul li a {
     border-bottom-color: #52C921;
@@ -3884,8 +3904,8 @@ div.js_feed_view_more_entry_holder.post_type_ex div.hugIconCommentMini {
 /*BEGIN PROFILE IMAGE*/
 
 div.image_profile_position {
-
-    float:left; height: 150px; width: 150%; margin-left: -1%;
+    
+    float:left; height: 150px; width: 150%; margin-left: -1%;   
 }
 div.image_profile_wrapper
 {
@@ -3900,7 +3920,7 @@ top:0;
 }
 
 #book-button-wrapper{
-padding-top:40px;
+padding-top:40px; 
 margin-left: auto;
 margin-right: auto;
 left: 0;
@@ -3939,22 +3959,22 @@ list-style-type: none;
 text-align: center;
 }
 
-.horizontal_bar ul li {display: inline;
+.horizontal_bar ul li {display: inline;  
         }
      .horizontal_bar ul li a,
-     .horizontal_bar ul li a:hover {
-        line-height:60px;
+     .horizontal_bar ul li a:hover {  
+        line-height:60px;	
 	text-decoration:none;
-
+	
         font-size: 13px;
-	padding: 5px 5px 0px 20px;
+	padding: 5px 5px 0px 20px;	
 	background-repeat:no-repeat;
 }
 .horizontal_bar ul li a
 {
     color:#333;
 }
-     .horizontal_bar ul li a:hover {
+     .horizontal_bar ul li a:hover { 
          color:#333333;
          font-weight: bold;
      }
@@ -4009,7 +4029,7 @@ transform: rotate(0deg);
 /**/
 /*BUSTA BEGIN*/
 #busta{ background-color: #52C921 !important; border-color: #2F2F2F; border:2px; display:none;}
-#busta margin:0; padding: 0; left:0; right:0;}
+#busta{margin:0; padding: 0; left:0; right:0;}
 #busta:hover{background-color: #52C921 !important;}
 #busta div.title {display:none;}
 .comment_mini_link
@@ -4051,7 +4071,7 @@ input[type=radio].css-checkbox {
 
 input[type=radio].css-checkbox + label.css-label {
 							padding-left:45px;
-							height:30px;
+							height:30px; 
 							display:inline-block;
 							line-height:30px;
 							background-repeat:no-repeat;
@@ -4067,7 +4087,7 @@ input[type=radio].css-checkbox + label.css-label {
 						}
 		    input[type=radio].css-checkbox + label.css-labelright {
 							padding-right:45px;
-							height:30px;
+							height:30px; 
 							display:inline-block;
 							line-height:30px;
 							background-repeat:no-repeat;
@@ -4128,21 +4148,6 @@ input[type=radio].css-checkbox + label.css-label {
     text-align: center;
 }
 
-#js_registration_holder form input {
-    width: 95%;
-    height: 30px;
-    background: #fcfcfc;
-    border: 1px solid #ddd;
-    -moz-border-radius: 2px;
-    -webkit-border-radius: 2px;
-    border-radius: 2px;
-    -moz-box-shadow: 0 1px 3px 0 rgba(0,0,0,.1) inset;
-    -webkit-box-shadow: 0 1px 3px 0 rgba(0,0,0,.1) inset;
-    box-shadow: 0 1px 3px 0 rgba(0,0,0,.1) inset;
-    font-family: 'PT Sans', Helvetica, Arial, sans-serif;
-    color: #888;
-    font-size: 16px;
-}
 #header_menu_login .header_menu_login_input
 {
     height: 30px;
@@ -4174,6 +4179,22 @@ input[type=radio].css-checkbox + label.css-label {
     -webkit-box-shadow: 0 1px 3px 0 rgba(0,0,0,.1) inset;
     box-shadow: 0 1px 3px 0 rgba(0,0,0,.1) inset;
     font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+}
+
+#js_registration_holder form input {
+    width: 95%;
+    height: 30px;
+    background: #fcfcfc;
+    border: 1px solid #ddd;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    -moz-box-shadow: 0 1px 3px 0 rgba(0,0,0,.1) inset;
+    -webkit-box-shadow: 0 1px 3px 0 rgba(0,0,0,.1) inset;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,.1) inset;
+    font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+    color: #888;
     font-size: 16px;
 }
 
