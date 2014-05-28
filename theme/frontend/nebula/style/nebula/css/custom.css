@@ -1476,9 +1476,10 @@ a.activity_feed_content_view_more, a.activity_feed_content_view_more:hover
     padding:8px 5px 0px 0px;
 }
 
-#header_menu_login_custom
+#header_menu_login_custom , .header_menu_login_sub, .header_menu_login_sub a
 {
-    color:#333;
+    color: #ffffff !important;
+    font-size: 14px !important;
 }
 
 a#pages_like_join,
