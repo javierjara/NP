@@ -21,6 +21,7 @@ defined('PHPFOX') or exit('NO DICE!');
 				{else}
 				    <a href="{permalink module='photo.album.profile' id=$aUser.user_id}">{$sProfileImage}</a>
 				{/if}
+				<p>{$sProfileImage}</p>
 			{else}
 				{$sProfileImage} 
 			{/if}
@@ -62,13 +63,30 @@ defined('PHPFOX') or exit('NO DICE!');
 </div>
 {/if}
 
+<!--POPUP HTML START-->
+<div id="popup_box">
+<div id="js_box_id_1" class="js_box  ui-draggable" style="width: 500px; top: 10%; left: 10%; margin-left: -162px; z-index: 5003; display: block; ">
+<div class="js_box_title" style="display: block; ">Profile Picture</div>
+<div class="js_box_content"><div class="main_break"></div>
+<div class="block sub_block">
+<div class="content" align="center">
+	<?php echo Phpfox::getLib('phpfox.image.helper')->display(array('user' => $this->_aVars['aGlobalUser'],'max_width' => 500,'max_height' => 500)); ?> 
+</div>
+<div class="clear"></div>
+</div>
+</div><div class="js_box_close" style="display: block; "><a href="#" onclick="$('#popup_box').hide(); return false;" id="styling_close"></a></div>
+</div>
+</div>
+<!-- POPUP HTML END-->
+
  				
    <div id="img_profile"> 
         <div class="profile_image" >
 	<div class="profile_image_holder">
 	    {if Phpfox::isModule('photo')}
 		{if isset($aUser.user_name)}
-		    <a href="{permalink module='photo.album.profile' id=$aUser.user_id}">{$sProfileImage}</a>
+		    <a id="styling_open" onclick="$('#popup_box').show(); return false;" href="#">{$sProfileImage}</a>
+		    <!-- <a href="{permalink module='photo.album.profile' id=$aUser.user_id}">{$sProfileImage}</a> -->
 		{/if}
 	    {else}
 		    {$sProfileImage}

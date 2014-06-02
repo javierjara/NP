@@ -5,6 +5,20 @@ body
 	/* background:#fbfbfb; */
         background: #ffffff;
 }
+/* popup box utilizzato per visualizzare l'immagine profilo */
+#popup_box
+{
+        position:absolute;
+        top:50px;
+        left:100px;
+        z-index:1000;
+        width:750px;
+        -moz-border-radius:10px;
+        -webkit-border-radius:10px;
+          border-radius:10px;
+        padding:14px;           
+        display:none;
+}
 
 /* foto cerchiate nella pagina "community" */ 
 .user_browse_image img{
@@ -1896,7 +1910,6 @@ div.js_feed_view_more_entry_holder div.comment_mini_link_like ul li.li_action a 
     background-repeat: no-repeat;
     padding: 3px 150px 3px 15px;
     margin: .4em 0;
-    background-align: center;
 	margin-left: 205px;
 }
 
@@ -1914,15 +1927,15 @@ div.js_feed_view_more_entry_holder.post_type_next div.comment_mini_link_like ul 
     background: url("../image/like1.png");
     background-size: 70px 48px;
     background-repeat: no-repeat;
-    background-align: center;
 	margin-left: 205px;
+/* 	margin-top: 25%; */
 }
 div.js_feed_view_more_entry_holder.post_type_next div.comment_mini_link_like ul li.li_action a:hover {
     background: url("../image/like1_1.png");
     background-repeat: no-repeat;
 	background-size: 74px 48px;
-    background-align: center;
 	margin-left: 205px;
+/* 	margin-top: 25%; */
 }
 
 /* questi 4 vanno quando è già stato cliccato su HUG*/
@@ -1952,12 +1965,14 @@ div.js_feed_view_more_entry_holder.post_type_ex div.comment_mini_link_like ul li
     background: url("../image/like2.png");
     background-size: 70px 48px;
     background-repeat: no-repeat;
+/*     margin-top: 25%; */
 }
 div.js_feed_view_more_entry_holder.post_type_ex div.comment_mini_link_like ul li.li_action a:hover {
     background: url("../image/like2_1.png");
     background-size: 74px 48px;
     background-repeat: no-repeat;
     color: #fff;
+/*     margin-top: 25%; */
 }
 
 div.js_feed_view_more_entry_holder div.comment_mini_link_like ul li a:hover {
