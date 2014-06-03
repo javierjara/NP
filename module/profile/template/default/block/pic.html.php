@@ -70,7 +70,14 @@ defined('PHPFOX') or exit('NO DICE!');
 <div class="js_box_content"><div class="main_break"></div>
 <div class="block sub_block">
 <div class="content" align="center">
-	<?php echo Phpfox::getLib('phpfox.image.helper')->display(array('user' => $this->_aVars['aGlobalUser'],'max_width' => 500,'max_height' => 500)); ?> 
+	{if Phpfox::getUserId() == $aUser.user_id}
+	   	<?php echo Phpfox::getLib('phpfox.image.helper')->display(array(
+	   		'user' => $this->_aVars['aGlobalUser'],
+	   		'max_width' => 500,
+	   		'max_height' => 500)); ?> 
+	{else}
+	   		{$sProfileImage}
+	{/if}
 </div>
 <div class="clear"></div>
 </div>
@@ -85,8 +92,8 @@ defined('PHPFOX') or exit('NO DICE!');
 	<div class="profile_image_holder">
 	    {if Phpfox::isModule('photo')}
 		{if isset($aUser.user_name)}
-		    <a id="styling_open" onclick="$('#popup_box').show(); return false;" href="#">{$sProfileImage}</a>
-		    <!-- <a href="{permalink module='photo.album.profile' id=$aUser.user_id}">{$sProfileImage}</a> -->
+		    	<a id="styling_open" onclick="$('#popup_box').show(); return false;" href="#">{$sProfileImage}</a>
+		    	<!-- <a href="{permalink module='photo.album.profile' id=$aUser.user_id}">{$sProfileImage}</a> -->
 		{/if}
 	    {else}
 		    {$sProfileImage}
