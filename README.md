@@ -2,4 +2,4 @@
 
 **Beta Version of the site Nextplease.com**
 
-Customize the framework PHPFOX
+Customization the framework PHPFOX
